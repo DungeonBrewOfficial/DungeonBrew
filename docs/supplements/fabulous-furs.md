@@ -24,7 +24,7 @@ The system uses a three-tier quality rating (Poor, Average, and Pristine) to cre
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/fabulous_furs_cover.png" alt="Fabulous Furs Cover" />
+<img src="../downloads/fabulous_furs_cover.png" alt="Fabulous Furs Cover" />
 
 </div>
 

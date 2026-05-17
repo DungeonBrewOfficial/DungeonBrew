@@ -39,7 +39,7 @@ A system for laws, crimes, and punishments that adds depth, realism, and consequ
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/crime_and_punishment_cover.png" alt="Crime &amp; Punishment Cover" style="width:100%; border-radius:8px;">
+<img src="../downloads/crime_and_punishment_cover.png" alt="Crime &amp; Punishment Cover" style="width:100%; border-radius:8px;">
 
 </div>
 

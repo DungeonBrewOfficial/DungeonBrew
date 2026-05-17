@@ -42,7 +42,7 @@ The alehouse is the simplest and most common drinking establishment, run from a 
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/alehouses_taverns_and_inns_cover.png" alt="Alehouses, Taverns & Inns Cover" />
+<img src="../downloads/alehouses_taverns_and_inns_cover.png" alt="Alehouses, Taverns & Inns Cover" />
 
 </div>
 

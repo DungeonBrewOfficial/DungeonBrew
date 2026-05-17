@@ -26,7 +26,7 @@ Generating a gem is a three-step process:
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/generous_gems_cover.png" alt="Generous Gems Cover" />
+<img src="../downloads/generous_gems_cover.png" alt="Generous Gems Cover" />
 
 </div>
 

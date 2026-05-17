@@ -30,7 +30,7 @@ This system offers a framework for generating distinct dog companions using roll
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/canine-companions_cover.png" alt="Canine Companions Cover" style="width:100%; border-radius:8px;">
+<img src="../downloads/canine-companions_cover.png" alt="Canine Companions Cover" style="width:100%; border-radius:8px;">
 
 </div>
 

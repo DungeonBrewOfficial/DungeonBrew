@@ -22,7 +22,7 @@ Generate drinks, build tavern menus, and browse the thirteen canon Signature Dri
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/ancestors-and-ale-cover.png" alt="Ancestors & Ale Cover" />
+<img src="../downloads/ancestors-and-ale-cover.png" alt="Ancestors & Ale Cover" />
 
 </div>
 

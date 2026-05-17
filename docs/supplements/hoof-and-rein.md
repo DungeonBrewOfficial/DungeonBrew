@@ -42,7 +42,7 @@ This is why warhorses are always stallions in this system. While mares and geldi
 
 <div class="sidebar-content" markdown="1">
 
-<img src="downloads/hoof_and_rein_cover.png" alt="Hoof &amp; Rein Cover" style="width:100%; border-radius:8px;">
+<img src="../downloads/hoof_and_rein_cover.png" alt="Hoof &amp; Rein Cover" style="width:100%; border-radius:8px;">
 
 </div>
 
