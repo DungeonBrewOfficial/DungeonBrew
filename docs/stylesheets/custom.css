@@ -1,0 +1,223 @@
+/* ============================================
+   DHEGHOM CUSTOM STYLES
+   ============================================ */
+
+/* COLOR & FONT VARIABLES */
+:root {
+    --main-dark-gray: #2a2924;
+    --dark-gold-1: #35331a;
+    --dark-gold-2: #5f5b01;
+    --light-gray: #c5c5c5;
+    --main-black: #000;
+    --main-white: #fff;
+}
+
+.md-grid {
+  max-width: 90rem !important;
+}
+
+.md-typeset h1 {
+  font-size: 1.3rem !important;
+  margin-bottom: 0.3rem !important;
+  font-weight: bold;
+  color: var(--dark-gold-2);
+  text-shadow:
+      -1px -1px 0 var(--main-white),
+       1px -1px 0 var(--main-white),
+      -1px  1px 0 var(--main-white),
+       1px  1px 0 var(--main-white);
+}
+
+.md-typeset h2 {
+  font-size: 1.1rem !important;
+  margin-top: 0.8rem !important;
+  margin-bottom: 0.1rem !important;
+  font-weight: bold;
+  color: var(--main-white);
+}
+
+.md-typeset h3 {
+  font-size: 0.9rem !important;
+  margin-top: 0.6rem !important;
+  margin-bottom: 0.1rem !important;
+  color: var(--main-black);
+  font-weight: bold;
+  text-shadow:
+      -1px -1px 0 var(--main-white),
+       1px -1px 0 var(--main-white),
+      -1px  1px 0 var(--main-white),
+       1px  1px 0 var(--main-white);
+}
+
+.md-typeset h4 {
+  font-size: 0.75rem !important;
+  margin-top: 0.4rem !important;
+  margin-bottom: 0.1rem !important;
+  color: var(--light-gray: #c5c5c5;);
+  font-weight: bold;
+}
+
+.md-typeset p {
+  font-size: 0.65rem !important;
+  line-height: 1.2 !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.md-typeset li {
+  font-size: 0.7rem !important;
+  margin-bottom: 0.15rem !important;
+}
+
+.md-typeset__table {
+  display: block !important;
+  width: 100% !important;
+}
+
+.md-typeset table:not([class]) {
+  width: 100% !important;
+  display: table !important;
+  table-layout: auto !important;
+  border-collapse: collapse !important;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  font-size: 0.65rem !important;
+  padding: 0.1rem 0.3rem !important;
+  vertical-align: top !important;
+}
+
+.md-typeset__scrollwrap {
+  overflow-x: auto !important;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.md-typeset hr {
+  margin: 0.8rem 0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.78rem !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.md-typeset figcaption {
+  font-size: 0.65rem !important;
+  margin-top: 0.2rem !important;
+}
+
+.md-nav__link {
+  font-size: 0.72rem !important;
+}
+
+.md-main__inner {
+  margin-top: 0 !important;
+}
+
+.md-content__inner {
+  padding-top: 0.5rem !important;
+}
+
+.page-split {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2rem;
+    align-items: flex-start;
+    width: 100%;
+}
+/* Base Layout (Assessment on Right) */
+.page-split {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2.5rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Reversed Layout (Example on Left) */
+.page-split-reversed {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2.5rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.page-split-reversed .sidebar-content { 
+    order: 1; 
+}
+
+.page-split-reversed .main-content { 
+    order: 2; 
+}
+
+/* Reversed Layout (Example on Left) */
+.page-split-equal {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2.5rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.page-split-equal .sidebar-content { 
+    order: 1; 
+}
+
+.page-split-equal .main-content { 
+    order: 2; 
+}
+
+/* Universal Weights (Using your confirmed values) */
+.main-content {
+    flex: 3 1 400px;
+}
+
+.sidebar-content {
+    flex: 2 1 400px;
+    max-width: 100%;
+}
+
+/* Desktop Balancing */
+@media (min-width: 1200px) {
+    /* Standard Layout */
+    .page-split .main-content { flex: 0 0 55%; }
+    .page-split .sidebar-content { flex: 0 0 40%; }
+
+    /* Reversed Layout Mirroring */
+    .page-split-reversed .main-content { flex: 0 0 55%; }
+    .page-split-reversed .sidebar-content { flex: 0 0 40%; }
+    
+    /* Equal Layout*/
+    .page-split-equal .main-content { flex: 0 0 47%; }
+    .page-split-equal .sidebar-content { flex: 0 0 47%; }
+}
+
+.hanging-indent p {
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+/* ============================================
+   PAGE BACKGROUND IMAGE (any page)
+   ============================================ */
+
+.page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 0;
+}

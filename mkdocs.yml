@@ -1,0 +1,127 @@
+site_name: DungeonBrew
+site_description: Resources for TTPRGs
+site_author: DungeonBrew
+
+theme:
+  name: material
+  custom_dir: overrides
+  font:
+    text: Bitter
+    code: Roboto Mono
+  palette:
+    scheme: slate
+    primary: blue grey
+    accent: deep orange
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Campaign Settings:
+    - Dheghom:
+      - Overview: dheghom/index.md
+      - World:
+        - Grimdark in Your Game: world/grimdark.md
+        - A Fragile Creation: world/creation.md
+        - Calendar, Moons & Climate: world/calendar.md
+      - History:
+        - Overview: history/index.md
+        - Myth of Dheghom: history/myth.md
+        - Powder and Steam: history/technology.md
+        - Magic in Dheghom: history/magic.md
+        - Faith in Dheghom: history/faith.md
+        - The Gods: history/gods.md
+        - Tatarigami: history/tatarigami.md
+        - Wars of the Blight Age: history/wars.md
+      - Gazetteer:
+        - Overview: gazetteer/index.md
+        - Anterra:
+          - Avenar: gazetteer/anterra/avenar.md
+          - Gialar: gazetteer/anterra/gialar.md
+          - Khunland: gazetteer/anterra/khunland.md
+          - Marcia: gazetteer/anterra/marcia.md
+          - Ryhoreiral: gazetteer/anterra/ryhoreiral.md
+        - Oskara:
+          - Askara: gazetteer/oskara/askara.md
+          - Baleros: gazetteer/oskara/baleros.md
+          - Bethune: gazetteer/oskara/bethune.md
+          - Gane: gazetteer/oskara/gane.md
+          - Ibunor: gazetteer/oskara/ibunor.md
+          - Kazak: gazetteer/oskara/kazak.md
+          - Keld: gazetteer/oskara/keld.md
+          - Korath: gazetteer/oskara/korath.md
+          - Steinlund: gazetteer/oskara/steinlund.md
+          - Tuinleas: gazetteer/oskara/tuinleas.md
+          - Tytherin: gazetteer/oskara/tytherin.md
+        - The Long Deep Islands:
+          - Acadiana: gazetteer/islands/acadiana.md
+          - Brynnalyn: gazetteer/islands/brynnalyn.md
+          - Kimara: gazetteer/islands/kimara.md
+          - Sharasa: gazetteer/islands/sharasa.md
+      - Factions:
+        - Overview: factions/index.md
+        - Faction Reputation: factions/reputation.md
+        - Celtumpra: factions/celtumpra.md
+        - Colderyn: factions/colderyn.md
+        - Mustring: factions/mustring.md
+        - Navrow: factions/navrow.md
+        - The Ironpenny Poke: factions/poke.md
+        - The Navtog: factions/navtog.md
+        - The Osprey: factions/osprey.md
+        - Zaharmak: factions/zaharmak.md
+      - Character Options:
+        - Overview: characters/index.md
+        - Alignments: characters/alignments.md
+        - Species & Cultures:
+          - Species & Cultures: characters/species/index.md
+          - Broman: characters/species/broman.md
+          - Floran: characters/species/floran.md
+          - Humans: characters/species/humans.md
+          - Luzan: characters/species/luzan.md
+          - Thalan: characters/species/thalan.md
+        - Subclasses: characters/subclasses.md
+        - Feats: characters/feats.md
+      - Equipment:
+        - Overview: equipment/index.md
+        - Firearms: equipment/firearms.md
+        - Industrial Tools & Weapons: equipment/industrial.md
+        - Alchemical Concoctions: equipment/concoctions.md
+        - Adventuring Gear: equipment/gear.md
+        - Steam-Powered Vehicles: equipment/vehicles.md
+      - Monsters: monsters/index.md
+      - Media: media.md
+  - Supplements:
+    - Ability Score Options: supplements/ability-score-options.md
+    - Alehouses, Taverns & Inns: supplements/alehouses-taverns-and-inns.md
+    - Ancestors & Ale: supplements/ancestors-and-ale.md
+    - Canine Companions: supplements/canine-companions.md
+    - Crime & Punishment: supplements/crime-and-punishment.md
+    - Fabulous Furs: supplements/fabulous-furs.md
+    - Generous Gems: supplements/generous-gems.md
+    - Hoof & Rein: supplements/hoof-and-rein.md
+    - Lingering Injuries & Insanity: supplements/lingering-injuries-and-insanity.md
+    - Reputation & Favor: supplements/reputation-and-favor.md
+  - Game Systems:
+    - Mastery: systems/mastery.md
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/custom.css
