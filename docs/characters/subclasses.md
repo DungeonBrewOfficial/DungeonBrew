@@ -8,13 +8,13 @@ background_image: assets/images/web/corruption-cleric.jpg
 
 ---
 
+<div class="page-split" markdown="1">
+
+<div class="main-content" markdown="1">
+
 ## Cleric: Corruption Domain
 
 *Spread and Endure the Rot*
-
-<div class="page-split-equal" markdown="1">
-
-<div class="sidebar-content" markdown="1">
 
 Clerics of the Corruption Domain wield the forces of decay, turning the power of entropy against their enemies. These clerics thrive on weakening others, eroding their strength, and hastening the inevitable collapse of order.
 
@@ -31,17 +31,15 @@ As a Magic action, you present your holy symbol and expend one use of your Chann
 
 Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Corruption Domain Spells table, you thereafter always have the listed spells prepared.
 
-| Corruption Domain Spells | |
+#### Corruption Domain Spells
+
+| | |
 |:---:|:---:|
 | **Cleric Level** | **Spells** |
 | 3 | *Bane, Blindness/Deafness, Defiled Ground, Inflict Wounds* |
 | 5 | *Bestow Curse, Stinking Cloud* |
 | 7 | *Blight, Black Pyre* |
 | 9 | *Anti-Life Shell, Contagion* |
-
-</div>
-
-<div class="main-content" markdown="1">
 
 ### Level 3: Festering Rot
 
@@ -68,9 +66,7 @@ You can use this feature a number of times equal to your Wisdom modifier (a mini
 
 </div>
 
-</div>
-
----
+<div class="sidebar-content" markdown="1">
 
 ## Cleric: Madness Domain
 
@@ -90,7 +86,9 @@ Your otherworldly connection has taught many lessons in obscure arcane theory, a
 
 Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Madness Domain Spells table, you always have the listed spells prepared.
 
-| Madness Domain Spells | |
+#### Madness Domain Spells
+
+| | |
 |:---:|:---:|
 | **Cleric Level** | **Spells** |
 | 3 | *Comprehend Languages, Hideous Laughter, Crown of Madness, Enthrall* |
@@ -110,63 +108,25 @@ Your mind is in tune with chaos, causing it to be both a shield and weapon. You 
 
 Additionally, you always have the Feeblemind spell prepared, and it doesn't count against the number of spells you can prepare each day.
 
+</div>
+
+</div>
+
 ---
+
+<div class="page-split-equal" markdown="1">
+
+<div class="sidebar-content" markdown="1">
 
 ## Fighter: Irregular
 
 *From elite combat units, to criminal enforcers. Irregulars represent those who have become frighteningly familiar with firearms.*
 
-!!! warning "Note: Two Versions"
-
-    The source document contains two versions of the Irregular subclass. Both are included below. The first is more focused on firearm mechanics (misfire, scatter, ammunition types). The second uses a Tactical Toolkit resource system. Review and choose which version to keep.
-
-### Version A: Firearm Specialist
-
-#### Level 3: Maintain your weapon
-
-You gain proficiency with Tinker's tools. You can do the required maintenance to reduce your firearms Misfire Number in 1 minute regardless of how high the Misfire Number is.
-
-#### Level 3: Weapon Versatility
-
-You have trained with all types of firearms, gaining the following benefits:
-
-- When rolling damage for a weapon with the Scatter property, you may reroll any dice that rolls a 1.
-- If you hit a creature with a ranged attack roll using a firearm with the Two-Handed property, you can make a ranged attack roll against a second creature with this weapon in a straight line directly behind the first and within the weapon's normal range. On a hit, the second creature takes damage equal to your ability modifier.
-- When you attack with a firearm that lacks the Two-handed property, you can replace its mastery property with the Ricochet property for that attack.
-- If you have a loaded firearm ready, you can use it to make Opportunity Attacks. This attack must only target one creature, and follows normal rules for shooting in melee.
-
-#### Level 7: Muscle Memory
-
-Repetition in training means speed in the field. You can clear a jammed firearm using a Bonus Action. You can also stow a weapon and draw another in the same item interaction. Also, any Tinker's tools checks you make to repair your firearms are made with Advantage.
-
-#### Level 10: Improved Weapon Versatility
-
-You gain even more options while wielding firearms. You may only use one Weapon Versatility option per attack.
-
-- When you fire a firearm that has the Scatter property, if there is only one creature within the range, it has Disadvantage on the Dexterity save to avoid damage.
-- While wielding a firearm with the Two-handed property, you can use a Bonus Action to make a melee attack with the stock of the weapon. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a d4.
-- If you are the target of a ranged attack while holding a loaded firearm that lacks the Two-Handed property, you may use your Reaction to fire towards the attacker causing the attack to have Disadvantage.
-
-#### Level 15: Enhanced Ammunition
-
-You have learned how to modify your firearms to shoot non-standard ammunition. You may change the ammunition type on a firearm at the end of a long rest. You may have Intelligence mod firearms modified at once.
-
-- Incendiary: Fire damage
-- Cryo: Cold damage
-- Concussive: Thunder damage
-- Corrosive: Acid damage
-
-#### Level 18: Bullet Storm
-
-On a turn where you use an Action Surge, you may reload a Long-Load weapon as a Bonus Action. Also during this turn, your guns will only jam on a natural 1.
-
-### Version B: Tactical Toolkit
-
-#### Level 3: Field Operative
+### Level 3: Field Operative
 
 You gain proficiency with Tinker's Tools. You also gain proficiency in one of the following skills: Acrobatics, Athletics, Intimidation, Perception, Stealth.
 
-#### Level 3: Tactical Toolkit
+### Level 3: Tactical Toolkit
 
 You have learned to blend various combat actions into a fluid sequence, allowing you to stow one weapon and draw another as a single item interaction on your turn.
 
@@ -178,7 +138,7 @@ You have learned to blend various combat actions into a fluid sequence, allowing
 
 **Saving Throws.** The target must be Large or smaller and the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus.
 
-#### Level 7: Advanced Toolkit
+### Level 7: Advanced Toolkit
 
 You have expanded your knowledge of unconventional tactics. The following options are added to the menu for your Tactical Toolkit:
 
@@ -188,7 +148,7 @@ You have expanded your knowledge of unconventional tactics. The following option
 
 **Recover.** Once per turn, when you use your Reaction, you can expend one use of Inertia to use a second Reaction.
 
-#### Level 10: Muscle Memory
+### Level 10: Muscle Memory
 
 As a Bonus Action, you can do one of the following.
 
@@ -196,15 +156,17 @@ As a Bonus Action, you can do one of the following.
 
 **Use an Object.** Take the Utilize action, or take the Magic action to use a magic item that requires that action.
 
-#### Level 15: Dismantle
+### Level 15: Dismantle
 
 When you hit a creature with your Juggling Attack or Momentum Inertia, the target must make a Wisdom saving throw or be Stunned until the end of your next turn.
 
-#### Level 18: Salvo
+### Level 18: Salvo
 
 When you use your Action Surge, one firearm of your choice reloads and you regain all your expended Inertia.
 
----
+</div>
+
+<div class="main-content" markdown="1">
 
 ## Monk: Combat Medic
 
@@ -248,11 +210,19 @@ These represent some of the absolute cutting edge of medical science. You may cr
 5. Mental Protection — Advantage on Intelligence, Wisdom, and Charisma saves.
 6. Steroids — 1d8 per melee hit.
 
+</div>
+
+</div>
+
 ---
 
 ## Rogue: Demolitionist
 
 *Precise Destruction*
+
+<div class="page-split" markdown="1">
+
+<div class="main-content" markdown="1">
 
 Demolitionists blend a rogue's cunning with a dangerous affinity for explosives. They are experts in the construction and tactical deployment of bombs, turning volatile substances into tools of precise destruction. Whether disarming a complex trap or breaching a fortified wall, the Demolitionist brings a unique and explosive brand of expertise to any operation.
 
@@ -268,6 +238,7 @@ As an action, you can light and throw one of these bombs at a point you choose w
 
 When you create your bombs, you can choose to imbue them with one of your known Cunning Strike options. To do so, you reduce the number of Fire damage dice the bomb deals by the die cost specified in the Cunning Strike option. This decision is made when the bomb is created.
 
+
 ### Level 9: Getting Tricky
 
 You learn the following Cunning Strike options, which you can apply to your bombs by forgoing a certain number of the bomb's Fire damage dice, as specified by the option's cost.
@@ -276,6 +247,10 @@ You learn the following Cunning Strike options, which you can apply to your bomb
 - **Smoke Bomb (Cost: 1d6).** The bomb creates a 5-foot radius sphere of smoke centered on the point of detonation. The area within the smoke is heavily obscured. The smoke lasts until the end of your next turn.
 - **Grease Bomb (Cost: 1d6).** A creature that fails its Dexterity saving throw against the bomb is also covered in flammable grease and has the Burning condition for 1 minute. The creature can use its action to extinguish the flames.
 - **Trigger Bomb (Cost: 2d6).** You can add either a tripwire or a timer to your bomb. If you choose a tripwire, a creature can spot the tripwire with a successful Wisdom (Perception) check against your bomb save DC. The bomb detonates when the tripwire is disturbed. If you choose a timer, you can set it to detonate at the end of a specific turn, up to a number of minutes equal to your Intelligence modifier (minimum of 1 minute). To use this effect, you must have Tinker's Tools on your person when crafting the bomb.
+
+</div>
+
+<div class="sidebar-content" markdown="1">
 
 ### Level 13: Powder Aficionado
 
@@ -291,3 +266,7 @@ You learn additional ways to modify your bombs and new Cunning Strike options fo
 1. **Efficient Construction (Cost: 1d6 per).** When you create a bomb, you can choose to reduce the number of its Fire damage dice. For each damage die you forgo in this way, the bomb's saving throw DC increases by 1 to a maximum bonus equal to your Intelligence modifier.
 2. **Shrapnel Bomb (Cost: 3d6).** A creature that fails its Dexterity saving throw against the bomb also takes additional piercing damage equal to half of the Fire damage they took from the initial explosion at the start of its next turn. To use this effect, you must have Tinker's Tools on your person when crafting the bomb.
 3. **Enhanced Powder (Cost: 3d6).** The bomb's explosion radius increases to 10 feet. To use this effect, you must have Alchemist's Supplies on your person when crafting the bomb.
+
+</div>
+
+</div>

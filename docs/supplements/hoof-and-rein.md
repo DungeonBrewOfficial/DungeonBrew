@@ -6,6 +6,10 @@
 
 A rider is only as good as the horse beneath them. This system creates more than a stat block — it creates a companion. Your mount has a history, strengths, weaknesses, and quirks. It might be spirited and fast, or it might bite at strangers. Maybe it's unbreakable in battle, or maybe it just refuses to move faster than a canter. Every roll shapes its personality, making each mount part of the journey.
 
+<a href="../horse-tool/index.html" target="_blank" class="md-button md-button--primary">Launch the Horse Generator</a>
+
+### Download the PDF
+
 <a href="../downloads/hoof_and_rein.pdf" download class="md-button">Download Hoof and Rein</a>
 
 ---

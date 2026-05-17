@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thieves' Guild Creation Form — DungeonBrew</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=IM+Fell+English+SC&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="guild.css" />
+</head>
+<body>
+  <div class="tg-root">
+
+    <!-- Topbar -->
+    <header class="tg-topbar">
+      <div class="tg-logo">
+        <img src="assets/logo.png" alt="DungeonBrew" width="44" height="44" />
+      </div>
+      <div class="tg-wordmark">
+        <div class="tg-wm-kicker">DungeonBrew Presents</div>
+        <h1 class="tg-wm-title">Thieves' Guild Creation Form</h1>
+        <div class="tg-wm-sub">Build Your Criminal Empire</div>
+      </div>
+      <div></div>
+    </header>
+
+    <!-- Form -->
+    <form id="guildForm" autocomplete="off">
+
+      <!-- ═══════════════════════════════════════════ -->
+      <!-- GUILD OVERVIEW -->
+      <!-- ═══════════════════════════════════════════ -->
+      <h2 class="tg-section-head">Guild Overview</h2>
+      <div class="tg-panel">
+        <div class="tg-grid-3">
+          <div class="tg-field">
+            <label for="guildName">Guild Name</label>
+            <input type="text" id="guildName" name="guildName" />
+          </div>
+          <div class="tg-field">
+            <label for="guildType">Guild Type</label>
+            <select id="guildType" name="guildType">
+              <option value="Assassin's Guild">Assassin's Guild</option>
+              <option value="Black Market">Black Market</option>
+              <option value="Explorer's Society">Explorer's Society</option>
+              <option value="Spy Ring">Spy Ring</option>
+              <option value="Thieves' Guild" selected>Thieves' Guild</option>
+              <option value="Trading Company">Trading Company</option>
+            </select>
+          </div>
+          <div class="tg-field">
+            <label for="alignment">Guild Alignment</label>
+            <input type="text" id="alignment" name="alignment" />
+          </div>
+        </div>
+        <div class="tg-field" style="margin-top: 14px;">
+          <label for="primaryActivities">Primary Guild Activities</label>
+          <textarea id="primaryActivities" name="primaryActivities" rows="4"></textarea>
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════ -->
+      <!-- MEMBERSHIP -->
+      <!-- ═══════════════════════════════════════════ -->
+      <h2 class="tg-section-head">Membership</h2>
+
+      <div class="tg-grid-2">
+        <!-- Responsibilities -->
+        <div class="tg-panel">
+          <h3 class="tg-subsection-head">Responsibilities</h3>
+          <div class="tg-grid-2" style="margin-bottom: 12px;">
+            <div class="tg-field">
+              <label for="standardDues">Dues (% of Earnings)</label>
+              <input type="number" id="standardDues" name="standardDues" style="max-width:100%;" />
+            </div>
+            <div class="tg-field">
+              <label for="territoryDues">Temporary Dues (%)</label>
+              <input type="number" id="territoryDues" name="territoryDues" style="max-width:100%;" />
+            </div>
+          </div>
+          <div class="tg-checks">
+            <div class="tg-check-item">
+              <input type="checkbox" id="obedience" name="obedience" />
+              <label for="obedience">Obey leadership</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="participation" name="participation" />
+              <label for="participation">Participate in guild activities</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="secrets" name="secrets" />
+              <label for="secrets">Protect guild secrets</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="skills" name="skills" />
+              <label for="skills">Contribution of skills</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="support" name="support" />
+              <label for="support">Protect fellow members</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="reputation" name="reputation" />
+              <label for="reputation">Maintain guild reputation</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="fines" name="fines" />
+              <label for="fines">Payment of fines &amp; penalties</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="reimbursement" name="reimbursement" />
+              <label for="reimbursement">Reimburse guild for damages</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="recruitment" name="recruitment" />
+              <label for="recruitment">Recruitment of new members</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="missions" name="missions" />
+              <label for="missions">Undertaking special missions</label>
+            </div>
+          </div>
+          <div style="margin-top: 10px;">
+            <div class="tg-check-custom">
+              <input type="checkbox" id="responsibilityCustom1" name="responsibilityCustom1" />
+              <input type="text" id="responsibilityCustomText1" name="responsibilityCustomText1" placeholder="Custom responsibility" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="responsibilityCustom2" name="responsibilityCustom2" />
+              <input type="text" id="responsibilityCustomText2" name="responsibilityCustomText2" placeholder="Custom responsibility" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="responsibilityCustom3" name="responsibilityCustom3" />
+              <input type="text" id="responsibilityCustomText3" name="responsibilityCustomText3" placeholder="Custom responsibility" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="responsibilityCustom4" name="responsibilityCustom4" />
+              <input type="text" id="responsibilityCustomText4" name="responsibilityCustomText4" placeholder="Custom responsibility" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Entitlements -->
+        <div class="tg-panel">
+          <h3 class="tg-subsection-head">Entitlements</h3>
+          <div class="tg-checks">
+            <div class="tg-check-item">
+              <input type="checkbox" id="protection" name="protection" />
+              <label for="protection">Protection</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="training" name="training" />
+              <label for="training">Training</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="resources" name="resources" />
+              <label for="resources">Resources</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="information" name="information" />
+              <label for="information">Information</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="roomAndBoard" name="roomAndBoard" />
+              <label for="roomAndBoard">Room and Board</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="loans" name="loans" />
+              <label for="loans">Loans</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="discounts" name="discounts" />
+              <label for="discounts">Discounts</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="legalHelp" name="legalHelp" />
+              <label for="legalHelp">Legal Help</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="exclusiveJobs" name="exclusiveJobs" />
+              <label for="exclusiveJobs">Exclusive jobs</label>
+            </div>
+            <div class="tg-check-item">
+              <input type="checkbox" id="identityProtection" name="identityProtection" />
+              <label for="identityProtection">Identity protection</label>
+            </div>
+          </div>
+          <div style="margin-top: 10px;">
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom1" name="entitlementCustom1" />
+              <input type="text" id="entitlementCustomText1" name="entitlementCustomText1" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom2" name="entitlementCustom2" />
+              <input type="text" id="entitlementCustomText2" name="entitlementCustomText2" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom3" name="entitlementCustom3" />
+              <input type="text" id="entitlementCustomText3" name="entitlementCustomText3" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom4" name="entitlementCustom4" />
+              <input type="text" id="entitlementCustomText4" name="entitlementCustomText4" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom5" name="entitlementCustom5" />
+              <input type="text" id="entitlementCustomText5" name="entitlementCustomText5" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom6" name="entitlementCustom6" />
+              <input type="text" id="entitlementCustomText6" name="entitlementCustomText6" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom7" name="entitlementCustom7" />
+              <input type="text" id="entitlementCustomText7" name="entitlementCustomText7" placeholder="Custom entitlement" />
+            </div>
+            <div class="tg-check-custom">
+              <input type="checkbox" id="entitlementCustom8" name="entitlementCustom8" />
+              <input type="text" id="entitlementCustomText8" name="entitlementCustomText8" placeholder="Custom entitlement" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Consequences & Thieves' Cant -->
+      <div class="tg-grid-2" style="margin-top: 16px;">
+        <div class="tg-panel">
+          <h3 class="tg-subsection-head">Consequences</h3>
+          <p class="tg-role-desc">Consequences for slights against the guild (e.g. fines, flogging, branding, maiming)</p>
+          <textarea id="crimeAndPunishment" name="crimeAndPunishment" rows="5"></textarea>
+        </div>
+        <div class="tg-panel">
+          <h3 class="tg-subsection-head">Thieves' Cant</h3>
+          <p class="tg-role-desc">Specific words, phrases, or signs unique to this guild</p>
+          <textarea id="thievesCant" name="thievesCant" rows="5"></textarea>
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════ -->
+      <!-- LEADERSHIP STRUCTURE -->
+      <!-- ═══════════════════════════════════════════ -->
+      <h2 class="tg-section-head">Leadership Structure</h2>
+
+      <!-- Structure Type & Model -->
+      <div class="tg-panel">
+        <div class="tg-structure-grid">
+          <div>
+            <label for="structureType">Structure Type</label>
+            <select id="structureType" name="structureType" onchange="updateStructureInfo()">
+              <option value="Rigid Hierarchy (Authoritarian)">Rigid Hierarchy (Authoritarian)</option>
+              <option value="Devolved Hierarchy (Franchising)">Devolved Hierarchy (Franchising)</option>
+              <option value="Hierarchical Conglomerate (Alliance)">Hierarchical Conglomerate (Alliance)</option>
+              <option value="Core Criminal Group (Democracy)">Core Criminal Group (Democracy)</option>
+              <option value="Organized Criminal Network (Socialism)">Organized Criminal Network (Socialism)</option>
+            </select>
+            <div class="tg-info-box" id="structureTypeInfo"></div>
+          </div>
+          <div>
+            <label for="structureModel">Structure Model</label>
+            <select id="structureModel" name="structureModel" onchange="updateModelInfo()">
+              <option value="Hierarchical Model">Hierarchical Model</option>
+              <option value="Cultural Model">Cultural Model</option>
+              <option value="Enterprise Model">Enterprise Model</option>
+            </select>
+            <div class="tg-info-box" id="structureModelInfo"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Guild Master -->
+      <div class="tg-panel">
+        <h3 class="tg-role-title">Guild Master</h3>
+        <p class="tg-role-desc">Oversees all operations within the guild. Expected level: 10–20.</p>
+        <div class="tg-char-fields">
+          <div class="tg-field">
+            <label for="guildMasterName">Name</label>
+            <input type="text" id="guildMasterName" name="guildMasterName" />
+          </div>
+          <div class="tg-field">
+            <label for="guildMasterAppearance">Appearance</label>
+            <input type="text" id="guildMasterAppearance" name="guildMasterAppearance" />
+          </div>
+          <div class="tg-field">
+            <label for="guildMasterAge">Age</label>
+            <input type="number" id="guildMasterAge" name="guildMasterAge" />
+          </div>
+          <div class="tg-field">
+            <label for="guildMasterSpecies">Species</label>
+            <input type="text" id="guildMasterSpecies" name="guildMasterSpecies" />
+          </div>
+          <div class="tg-field">
+            <label for="guildMasterLevel">Level</label>
+            <input type="number" id="guildMasterLevel" name="guildMasterLevel" />
+          </div>
+        </div>
+        <div class="tg-field">
+          <label for="guildMasterMotivations">Motivations</label>
+          <textarea id="guildMasterMotivations" name="guildMasterMotivations" rows="3"></textarea>
+        </div>
+      </div>
+
+      <!-- Under Masters -->
+      <h3 class="tg-subsection-head">Under Masters</h3>
+      <p class="tg-role-desc">Second in command. Oversee specific branches or satellite guilds. Expected level: 8–16.</p>
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">1st Under Master</h4>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="underMaster1Name">Name</label><input type="text" id="underMaster1Name" name="underMaster1Name" /></div>
+            <div class="tg-field"><label for="underMaster1Appearance">Appearance</label><input type="text" id="underMaster1Appearance" name="underMaster1Appearance" /></div>
+            <div class="tg-field"><label for="underMaster1Age">Age</label><input type="number" id="underMaster1Age" name="underMaster1Age" /></div>
+            <div class="tg-field"><label for="underMaster1Species">Species</label><input type="text" id="underMaster1Species" name="underMaster1Species" /></div>
+            <div class="tg-field"><label for="underMaster1Level">Level</label><input type="number" id="underMaster1Level" name="underMaster1Level" /></div>
+          </div>
+          <div class="tg-field"><label for="underMaster1Motivations">Motivations</label><textarea id="underMaster1Motivations" name="underMaster1Motivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">2nd Under Master</h4>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="underMaster2Name">Name</label><input type="text" id="underMaster2Name" name="underMaster2Name" /></div>
+            <div class="tg-field"><label for="underMaster2Appearance">Appearance</label><input type="text" id="underMaster2Appearance" name="underMaster2Appearance" /></div>
+            <div class="tg-field"><label for="underMaster2Age">Age</label><input type="number" id="underMaster2Age" name="underMaster2Age" /></div>
+            <div class="tg-field"><label for="underMaster2Species">Species</label><input type="text" id="underMaster2Species" name="underMaster2Species" /></div>
+            <div class="tg-field"><label for="underMaster2Level">Level</label><input type="number" id="underMaster2Level" name="underMaster2Level" /></div>
+          </div>
+          <div class="tg-field"><label for="underMaster2Motivations">Motivations</label><textarea id="underMaster2Motivations" name="underMaster2Motivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <!-- Lieutenants -->
+      <h3 class="tg-subsection-head">Lieutenants</h3>
+      <p class="tg-role-desc">Oversee masters or smaller operational units. Expected level: 7–15.</p>
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">1st Lieutenant</h4>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="lieutenant1Name">Name</label><input type="text" id="lieutenant1Name" name="lieutenant1Name" /></div>
+            <div class="tg-field"><label for="lieutenant1Appearance">Appearance</label><input type="text" id="lieutenant1Appearance" name="lieutenant1Appearance" /></div>
+            <div class="tg-field"><label for="lieutenant1Age">Age</label><input type="number" id="lieutenant1Age" name="lieutenant1Age" /></div>
+            <div class="tg-field"><label for="lieutenant1Species">Species</label><input type="text" id="lieutenant1Species" name="lieutenant1Species" /></div>
+            <div class="tg-field"><label for="lieutenant1Level">Level</label><input type="number" id="lieutenant1Level" name="lieutenant1Level" /></div>
+          </div>
+          <div class="tg-field"><label for="lieutenant1Motivations">Motivations</label><textarea id="lieutenant1Motivations" name="lieutenant1Motivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">2nd Lieutenant</h4>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="lieutenant2Name">Name</label><input type="text" id="lieutenant2Name" name="lieutenant2Name" /></div>
+            <div class="tg-field"><label for="lieutenant2Appearance">Appearance</label><input type="text" id="lieutenant2Appearance" name="lieutenant2Appearance" /></div>
+            <div class="tg-field"><label for="lieutenant2Age">Age</label><input type="number" id="lieutenant2Age" name="lieutenant2Age" /></div>
+            <div class="tg-field"><label for="lieutenant2Species">Species</label><input type="text" id="lieutenant2Species" name="lieutenant2Species" /></div>
+            <div class="tg-field"><label for="lieutenant2Level">Level</label><input type="number" id="lieutenant2Level" name="lieutenant2Level" /></div>
+          </div>
+          <div class="tg-field"><label for="lieutenant2Motivations">Motivations</label><textarea id="lieutenant2Motivations" name="lieutenant2Motivations" rows="3"></textarea></div>
+        </div>
+      </div>
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">3rd Lieutenant</h4>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="lieutenant3Name">Name</label><input type="text" id="lieutenant3Name" name="lieutenant3Name" /></div>
+            <div class="tg-field"><label for="lieutenant3Appearance">Appearance</label><input type="text" id="lieutenant3Appearance" name="lieutenant3Appearance" /></div>
+            <div class="tg-field"><label for="lieutenant3Age">Age</label><input type="number" id="lieutenant3Age" name="lieutenant3Age" /></div>
+            <div class="tg-field"><label for="lieutenant3Species">Species</label><input type="text" id="lieutenant3Species" name="lieutenant3Species" /></div>
+            <div class="tg-field"><label for="lieutenant3Level">Level</label><input type="number" id="lieutenant3Level" name="lieutenant3Level" /></div>
+          </div>
+          <div class="tg-field"><label for="lieutenant3Motivations">Motivations</label><textarea id="lieutenant3Motivations" name="lieutenant3Motivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">4th Lieutenant</h4>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="lieutenant4Name">Name</label><input type="text" id="lieutenant4Name" name="lieutenant4Name" /></div>
+            <div class="tg-field"><label for="lieutenant4Appearance">Appearance</label><input type="text" id="lieutenant4Appearance" name="lieutenant4Appearance" /></div>
+            <div class="tg-field"><label for="lieutenant4Age">Age</label><input type="number" id="lieutenant4Age" name="lieutenant4Age" /></div>
+            <div class="tg-field"><label for="lieutenant4Species">Species</label><input type="text" id="lieutenant4Species" name="lieutenant4Species" /></div>
+            <div class="tg-field"><label for="lieutenant4Level">Level</label><input type="number" id="lieutenant4Level" name="lieutenant4Level" /></div>
+          </div>
+          <div class="tg-field"><label for="lieutenant4Motivations">Motivations</label><textarea id="lieutenant4Motivations" name="lieutenant4Motivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <!-- Masters -->
+      <h3 class="tg-subsection-head">Masters</h3>
+      <p class="tg-role-desc">Specialist leaders overseeing specific criminal operations. Expected level: 7–15.</p>
+
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master Assassin</h4>
+          <p class="tg-role-desc">Identifies and approves assassination contracts.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterAssassinName">Name</label><input type="text" id="masterAssassinName" name="masterAssassinName" /></div>
+            <div class="tg-field"><label for="masterAssassinAppearance">Appearance</label><input type="text" id="masterAssassinAppearance" name="masterAssassinAppearance" /></div>
+            <div class="tg-field"><label for="masterAssassinAge">Age</label><input type="number" id="masterAssassinAge" name="masterAssassinAge" /></div>
+            <div class="tg-field"><label for="masterAssassinSpecies">Species</label><input type="text" id="masterAssassinSpecies" name="masterAssassinSpecies" /></div>
+            <div class="tg-field"><label for="masterAssassinLevel">Level</label><input type="number" id="masterAssassinLevel" name="masterAssassinLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterAssassinMotivations">Motivations</label><textarea id="masterAssassinMotivations" name="masterAssassinMotivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master Enforcer</h4>
+          <p class="tg-role-desc">Internal discipline. In charge of extortion, robbery, and kidnapping.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterEnforcerName">Name</label><input type="text" id="masterEnforcerName" name="masterEnforcerName" /></div>
+            <div class="tg-field"><label for="masterEnforcerAppearance">Appearance</label><input type="text" id="masterEnforcerAppearance" name="masterEnforcerAppearance" /></div>
+            <div class="tg-field"><label for="masterEnforcerAge">Age</label><input type="number" id="masterEnforcerAge" name="masterEnforcerAge" /></div>
+            <div class="tg-field"><label for="masterEnforcerSpecies">Species</label><input type="text" id="masterEnforcerSpecies" name="masterEnforcerSpecies" /></div>
+            <div class="tg-field"><label for="masterEnforcerLevel">Level</label><input type="number" id="masterEnforcerLevel" name="masterEnforcerLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterEnforcerMotivations">Motivations</label><textarea id="masterEnforcerMotivations" name="masterEnforcerMotivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master Fencer</h4>
+          <p class="tg-role-desc">Tracks supply and demand. In charge of smuggling.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterFencerName">Name</label><input type="text" id="masterFencerName" name="masterFencerName" /></div>
+            <div class="tg-field"><label for="masterFencerAppearance">Appearance</label><input type="text" id="masterFencerAppearance" name="masterFencerAppearance" /></div>
+            <div class="tg-field"><label for="masterFencerAge">Age</label><input type="number" id="masterFencerAge" name="masterFencerAge" /></div>
+            <div class="tg-field"><label for="masterFencerSpecies">Species</label><input type="text" id="masterFencerSpecies" name="masterFencerSpecies" /></div>
+            <div class="tg-field"><label for="masterFencerLevel">Level</label><input type="number" id="masterFencerLevel" name="masterFencerLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterFencerMotivations">Motivations</label><textarea id="masterFencerMotivations" name="masterFencerMotivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master of Thralls</h4>
+          <p class="tg-role-desc">Acquires, houses, and sells slaves. In charge of slavery.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterOfThrallsName">Name</label><input type="text" id="masterOfThrallsName" name="masterOfThrallsName" /></div>
+            <div class="tg-field"><label for="masterOfThrallsAppearance">Appearance</label><input type="text" id="masterOfThrallsAppearance" name="masterOfThrallsAppearance" /></div>
+            <div class="tg-field"><label for="masterOfThrallsAge">Age</label><input type="number" id="masterOfThrallsAge" name="masterOfThrallsAge" /></div>
+            <div class="tg-field"><label for="masterOfThrallsSpecies">Species</label><input type="text" id="masterOfThrallsSpecies" name="masterOfThrallsSpecies" /></div>
+            <div class="tg-field"><label for="masterOfThrallsLevel">Level</label><input type="number" id="masterOfThrallsLevel" name="masterOfThrallsLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterOfThrallsMotivations">Motivations</label><textarea id="masterOfThrallsMotivations" name="masterOfThrallsMotivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master of Veils</h4>
+          <p class="tg-role-desc">Hides the guild's presence. In charge of gambling, expeditions, fraud, and fronts.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterOfVeilsName">Name</label><input type="text" id="masterOfVeilsName" name="masterOfVeilsName" /></div>
+            <div class="tg-field"><label for="masterOfVeilsAppearance">Appearance</label><input type="text" id="masterOfVeilsAppearance" name="masterOfVeilsAppearance" /></div>
+            <div class="tg-field"><label for="masterOfVeilsAge">Age</label><input type="number" id="masterOfVeilsAge" name="masterOfVeilsAge" /></div>
+            <div class="tg-field"><label for="masterOfVeilsSpecies">Species</label><input type="text" id="masterOfVeilsSpecies" name="masterOfVeilsSpecies" /></div>
+            <div class="tg-field"><label for="masterOfVeilsLevel">Level</label><input type="number" id="masterOfVeilsLevel" name="masterOfVeilsLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterOfVeilsMotivations">Motivations</label><textarea id="masterOfVeilsMotivations" name="masterOfVeilsMotivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master Purser</h4>
+          <p class="tg-role-desc">Tracks treasury. In charge of loansharking.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterPurserName">Name</label><input type="text" id="masterPurserName" name="masterPurserName" /></div>
+            <div class="tg-field"><label for="masterPurserAppearance">Appearance</label><input type="text" id="masterPurserAppearance" name="masterPurserAppearance" /></div>
+            <div class="tg-field"><label for="masterPurserAge">Age</label><input type="number" id="masterPurserAge" name="masterPurserAge" /></div>
+            <div class="tg-field"><label for="masterPurserSpecies">Species</label><input type="text" id="masterPurserSpecies" name="masterPurserSpecies" /></div>
+            <div class="tg-field"><label for="masterPurserLevel">Level</label><input type="number" id="masterPurserLevel" name="masterPurserLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterPurserMotivations">Motivations</label><textarea id="masterPurserMotivations" name="masterPurserMotivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master Thief</h4>
+          <p class="tg-role-desc">Locates valuable or vulnerable targets. In charge of burglary, larceny, and pickpocketing.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterThiefName">Name</label><input type="text" id="masterThiefName" name="masterThiefName" /></div>
+            <div class="tg-field"><label for="masterThiefAppearance">Appearance</label><input type="text" id="masterThiefAppearance" name="masterThiefAppearance" /></div>
+            <div class="tg-field"><label for="masterThiefAge">Age</label><input type="number" id="masterThiefAge" name="masterThiefAge" /></div>
+            <div class="tg-field"><label for="masterThiefSpecies">Species</label><input type="text" id="masterThiefSpecies" name="masterThiefSpecies" /></div>
+            <div class="tg-field"><label for="masterThiefLevel">Level</label><input type="number" id="masterThiefLevel" name="masterThiefLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterThiefMotivations">Motivations</label><textarea id="masterThiefMotivations" name="masterThiefMotivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Master Warder</h4>
+          <p class="tg-role-desc">Guild security: passwords, traps, protection. In charge of protection and retaliation.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="masterWarderName">Name</label><input type="text" id="masterWarderName" name="masterWarderName" /></div>
+            <div class="tg-field"><label for="masterWarderAppearance">Appearance</label><input type="text" id="masterWarderAppearance" name="masterWarderAppearance" /></div>
+            <div class="tg-field"><label for="masterWarderAge">Age</label><input type="number" id="masterWarderAge" name="masterWarderAge" /></div>
+            <div class="tg-field"><label for="masterWarderSpecies">Species</label><input type="text" id="masterWarderSpecies" name="masterWarderSpecies" /></div>
+            <div class="tg-field"><label for="masterWarderLevel">Level</label><input type="number" id="masterWarderLevel" name="masterWarderLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="masterWarderMotivations">Motivations</label><textarea id="masterWarderMotivations" name="masterWarderMotivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Spymaster</h4>
+          <p class="tg-role-desc">Acquires information for the guild. In charge of impersonation, blackmail, and forgery.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="spymasterName">Name</label><input type="text" id="spymasterName" name="spymasterName" /></div>
+            <div class="tg-field"><label for="spymasterAppearance">Appearance</label><input type="text" id="spymasterAppearance" name="spymasterAppearance" /></div>
+            <div class="tg-field"><label for="spymasterAge">Age</label><input type="number" id="spymasterAge" name="spymasterAge" /></div>
+            <div class="tg-field"><label for="spymasterSpecies">Species</label><input type="text" id="spymasterSpecies" name="spymasterSpecies" /></div>
+            <div class="tg-field"><label for="spymasterLevel">Level</label><input type="number" id="spymasterLevel" name="spymasterLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="spymasterMotivations">Motivations</label><textarea id="spymasterMotivations" name="spymasterMotivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Taskmaster</h4>
+          <p class="tg-role-desc">Keeps members active, acts as handler. In charge of heists and racketeering.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="taskmasterName">Name</label><input type="text" id="taskmasterName" name="taskmasterName" /></div>
+            <div class="tg-field"><label for="taskmasterAppearance">Appearance</label><input type="text" id="taskmasterAppearance" name="taskmasterAppearance" /></div>
+            <div class="tg-field"><label for="taskmasterAge">Age</label><input type="number" id="taskmasterAge" name="taskmasterAge" /></div>
+            <div class="tg-field"><label for="taskmasterSpecies">Species</label><input type="text" id="taskmasterSpecies" name="taskmasterSpecies" /></div>
+            <div class="tg-field"><label for="taskmasterLevel">Level</label><input type="number" id="taskmasterLevel" name="taskmasterLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="taskmasterMotivations">Motivations</label><textarea id="taskmasterMotivations" name="taskmasterMotivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <!-- Recruitment -->
+      <h3 class="tg-subsection-head">Recruitment</h3>
+      <p class="tg-role-desc">Those responsible for finding and training new talent. Expected level: 5–10.</p>
+      <div class="tg-grid-2">
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Conductor (Wetnurse)</h4>
+          <p class="tg-role-desc">Oversees new recruits, training, and discipline until they become members.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="conductorName">Name</label><input type="text" id="conductorName" name="conductorName" /></div>
+            <div class="tg-field"><label for="conductorAppearance">Appearance</label><input type="text" id="conductorAppearance" name="conductorAppearance" /></div>
+            <div class="tg-field"><label for="conductorAge">Age</label><input type="number" id="conductorAge" name="conductorAge" /></div>
+            <div class="tg-field"><label for="conductorSpecies">Species</label><input type="text" id="conductorSpecies" name="conductorSpecies" /></div>
+            <div class="tg-field"><label for="conductorLevel">Level</label><input type="number" id="conductorLevel" name="conductorLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="conductorMotivations">Motivations</label><textarea id="conductorMotivations" name="conductorMotivations" rows="3"></textarea></div>
+        </div>
+        <div class="tg-panel">
+          <h4 class="tg-role-title">Headhunter</h4>
+          <p class="tg-role-desc">Locates new guild recruits. Works closely with the Conductor and Masters.</p>
+          <div class="tg-char-fields">
+            <div class="tg-field"><label for="headhunterName">Name</label><input type="text" id="headhunterName" name="headhunterName" /></div>
+            <div class="tg-field"><label for="headhunterAppearance">Appearance</label><input type="text" id="headhunterAppearance" name="headhunterAppearance" /></div>
+            <div class="tg-field"><label for="headhunterAge">Age</label><input type="number" id="headhunterAge" name="headhunterAge" /></div>
+            <div class="tg-field"><label for="headhunterSpecies">Species</label><input type="text" id="headhunterSpecies" name="headhunterSpecies" /></div>
+            <div class="tg-field"><label for="headhunterLevel">Level</label><input type="number" id="headhunterLevel" name="headhunterLevel" /></div>
+          </div>
+          <div class="tg-field"><label for="headhunterMotivations">Motivations</label><textarea id="headhunterMotivations" name="headhunterMotivations" rows="3"></textarea></div>
+        </div>
+      </div>
+
+      <!-- Rank-and-File -->
+      <h3 class="tg-subsection-head">Rank-and-File</h3>
+      <div class="tg-panel">
+        <div class="tg-grid-2">
+          <div class="tg-field">
+            <label for="members">Members (Level 3–7)</label>
+            <textarea id="members" name="members" rows="8"></textarea>
+          </div>
+          <div class="tg-field">
+            <label for="thugs">Thugs / Muscle (Level 3–12)</label>
+            <textarea id="thugs" name="thugs" rows="8"></textarea>
+          </div>
+          <div class="tg-field">
+            <label for="recruits">Recruits (Level 1–3)</label>
+            <textarea id="recruits" name="recruits" rows="8"></textarea>
+          </div>
+          <div class="tg-field">
+            <label for="alliesAndContacts">Allies &amp; Contacts (Any Level)</label>
+            <textarea id="alliesAndContacts" name="alliesAndContacts" rows="8"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="tg-actions">
+        <button type="button" class="tg-btn tg-btn--primary" onclick="saveFormData()">Save to File</button>
+        <button type="button" class="tg-btn" onclick="document.getElementById('uploadFile').click()">Load from File</button>
+        <button type="button" class="tg-btn" onclick="window.print()">Print / PDF</button>
+        <input type="file" id="uploadFile" accept=".json" style="display: none;" />
+      </div>
+
+    </form>
+  </div>
+
+  <script src="guild.js"></script>
+</body>
+</html>

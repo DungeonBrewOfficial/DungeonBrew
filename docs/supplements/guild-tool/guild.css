@@ -1,0 +1,340 @@
+/* Thieves' Guild Creation Form — DungeonBrew styles */
+:root {
+  --tg-bg:        #14110d;
+  --tg-bg-2:      #1b1713;
+  --tg-panel:     #201a13;
+  --tg-panel-2:   #28211a;
+  --tg-ink:       #efe5d2;
+  --tg-ink-2:     #c5b89c;
+  --tg-ink-3:     #8c7c5e;
+  --tg-rule:      #3a2f22;
+  --tg-accent:    #c9a24c;   /* brass */
+  --tg-accent-2:  #a07c33;   /* aged brass */
+  --tg-ember:     #b3571f;   /* deep ember red — used sparingly */
+  --tg-paper:     #f1e6cc;
+  --tg-input-bg:  #18140f;
+  --tg-input-bdr: #3a2f22;
+  --tg-focus:     rgba(201, 162, 76, 0.4);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background:
+    radial-gradient(1200px 700px at 85% -10%, rgba(201, 162, 76, 0.07), transparent 60%),
+    radial-gradient(900px 600px at 10% 110%, rgba(179, 87, 31, 0.05), transparent 60%),
+    var(--tg-bg);
+  color: var(--tg-ink);
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Layout --- */
+.tg-root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px 28px 40px;
+}
+
+/* --- Topbar --- */
+.tg-topbar {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  gap: 18px;
+  padding: 6px 0 22px;
+  border-bottom: 1px solid var(--tg-rule);
+  margin-bottom: 32px;
+}
+.tg-logo { display: inline-flex; align-items: center; justify-content: center; }
+.tg-logo img {
+  border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(201,162,76,.28), 0 6px 16px rgba(0,0,0,.5);
+  background: #14110d;
+}
+.tg-wordmark { text-align: center; }
+.tg-wm-kicker {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .28em;
+  font-size: 11px;
+  color: var(--tg-ink-3);
+  margin-bottom: 2px;
+}
+.tg-wm-title {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: .02em;
+  margin: 0;
+  color: var(--tg-ink);
+  text-shadow: 0 1px 0 #000, 0 0 30px rgba(201,162,76,.12);
+}
+.tg-wm-sub {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .18em;
+  font-size: 12px;
+  color: var(--tg-accent);
+  margin-top: 2px;
+}
+
+/* --- Section Headings --- */
+.tg-section-head {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: var(--tg-accent);
+  margin: 36px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--tg-rule);
+  letter-spacing: .02em;
+}
+.tg-section-head:first-of-type { margin-top: 0; }
+
+.tg-subsection-head {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--tg-ink);
+  margin: 24px 0 12px;
+}
+
+.tg-role-title {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--tg-accent);
+  margin: 0 0 4px;
+}
+
+.tg-role-desc {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--tg-ink-3);
+  margin: 0 0 12px;
+}
+
+/* --- Panels --- */
+.tg-panel {
+  background: linear-gradient(180deg, var(--tg-panel) 0%, var(--tg-panel-2) 100%);
+  border: 1px solid var(--tg-rule);
+  border-radius: 4px;
+  padding: 20px 22px 22px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.02) inset, 0 10px 24px rgba(0,0,0,.35);
+}
+
+/* --- Form Inputs --- */
+label {
+  display: block;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 12px;
+  letter-spacing: .12em;
+  color: var(--tg-ink-2);
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 9px 12px;
+  background: var(--tg-input-bg);
+  border: 1px solid var(--tg-input-bdr);
+  border-radius: 3px;
+  color: var(--tg-ink);
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 15px;
+  line-height: 1.4;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--tg-accent-2);
+  box-shadow: 0 0 0 3px var(--tg-focus);
+}
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c5b89c' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 32px;
+  cursor: pointer;
+}
+textarea { resize: vertical; min-height: 80px; }
+input[type="number"] { max-width: 80px; }
+
+/* --- Grid Layouts --- */
+.tg-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.tg-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .tg-grid-2, .tg-grid-3 { grid-template-columns: 1fr; }
+}
+
+/* --- Inline Fields (character cards) --- */
+.tg-char-fields {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 2fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+@media (max-width: 768px) {
+  .tg-char-fields { grid-template-columns: 1fr 1fr; }
+}
+.tg-field { display: flex; flex-direction: column; }
+
+/* --- Checkbox Grid --- */
+.tg-checks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 20px;
+}
+@media (max-width: 600px) {
+  .tg-checks { grid-template-columns: 1fr; }
+}
+.tg-check-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+.tg-check-item input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--tg-accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.tg-check-item label {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 0;
+  color: var(--tg-ink);
+  margin: 0;
+  cursor: pointer;
+}
+.tg-check-custom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+.tg-check-custom input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--tg-accent);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.tg-check-custom input[type="text"] {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+/* --- Info Boxes (structure descriptions) --- */
+.tg-info-box {
+  background: var(--tg-bg-2);
+  border: 1px solid var(--tg-rule);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--tg-ink-2);
+}
+.tg-info-box strong { color: var(--tg-accent); }
+.tg-info-box ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+.tg-info-box li { margin-bottom: 4px; }
+
+/* --- Structure Panel (side by side) --- */
+.tg-structure-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .tg-structure-grid { grid-template-columns: 1fr; }
+}
+
+/* --- Buttons --- */
+.tg-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--tg-rule);
+}
+.tg-btn {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 13px;
+  letter-spacing: .14em;
+  padding: 10px 20px;
+  border: 1px solid var(--tg-accent-2);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--tg-accent);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.tg-btn:hover {
+  background: var(--tg-accent-2);
+  color: var(--tg-bg);
+  border-color: var(--tg-accent);
+}
+.tg-btn--primary {
+  background: var(--tg-accent-2);
+  color: var(--tg-bg);
+  border-color: var(--tg-accent);
+}
+.tg-btn--primary:hover {
+  background: var(--tg-accent);
+}
+
+/* --- Print Styles --- */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11px;
+  }
+  .tg-root { max-width: 100%; padding: 10px; }
+  .tg-topbar { border-bottom-color: #ccc; }
+  .tg-wm-title, .tg-section-head { color: #000; }
+  .tg-wm-kicker, .tg-wm-sub { color: #555; }
+  .tg-role-title { color: #333; }
+  .tg-panel {
+    background: #fff;
+    border-color: #ccc;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+  input[type="text"], input[type="number"], select, textarea {
+    background: #fff;
+    border: 1px solid #999;
+    color: #000;
+  }
+  .tg-info-box { background: #f5f5f5; border-color: #ccc; color: #333; }
+  .tg-info-box strong { color: #000; }
+  .tg-actions { display: none; }
+  .tg-checks .tg-check-item label,
+  .tg-checks .tg-check-custom input[type="text"] { color: #000; }
+}

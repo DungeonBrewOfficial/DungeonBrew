@@ -1,0 +1,307 @@
+/* Encounter Builder — DungeonBrew styles */
+:root {
+  --eb-bg:        #14110d;
+  --eb-bg-2:      #1b1713;
+  --eb-panel:     #201a13;
+  --eb-panel-2:   #28211a;
+  --eb-ink:       #efe5d2;
+  --eb-ink-2:     #c5b89c;
+  --eb-ink-3:     #8c7c5e;
+  --eb-rule:      #3a2f22;
+  --eb-accent:    #c9a24c;   /* brass */
+  --eb-accent-2:  #a07c33;   /* aged brass */
+  --eb-ember:     #b3571f;   /* deep ember red */
+  --eb-paper:     #f1e6cc;
+  --eb-input-bg:  #18140f;
+  --eb-input-bdr: #3a2f22;
+  --eb-focus:     rgba(201, 162, 76, 0.4);
+  --eb-success:   #4a7c3f;
+  --eb-error:     #8c3030;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background:
+    radial-gradient(1200px 700px at 85% -10%, rgba(201, 162, 76, 0.07), transparent 60%),
+    radial-gradient(900px 600px at 10% 110%, rgba(179, 87, 31, 0.05), transparent 60%),
+    var(--eb-bg);
+  color: var(--eb-ink);
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Layout --- */
+.eb-root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 28px 40px;
+}
+
+/* --- Topbar --- */
+.eb-topbar {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  gap: 18px;
+  padding: 6px 0 22px;
+  border-bottom: 1px solid var(--eb-rule);
+  margin-bottom: 32px;
+}
+.eb-logo { display: inline-flex; align-items: center; justify-content: center; }
+.eb-logo img {
+  border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(201,162,76,.28), 0 6px 16px rgba(0,0,0,.5);
+  background: #14110d;
+}
+.eb-wordmark { text-align: center; }
+.eb-wm-kicker {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .28em;
+  font-size: 11px;
+  color: var(--eb-ink-3);
+  margin-bottom: 2px;
+}
+.eb-wm-title {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: .02em;
+  margin: 0;
+  color: var(--eb-ink);
+  text-shadow: 0 1px 0 #000, 0 0 30px rgba(201,162,76,.12);
+}
+.eb-wm-sub {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .18em;
+  font-size: 12px;
+  color: var(--eb-accent);
+  margin-top: 2px;
+}
+
+/* --- Section Panels --- */
+.eb-section {
+  background: linear-gradient(180deg, var(--eb-panel) 0%, var(--eb-panel-2) 100%);
+  border: 1px solid var(--eb-rule);
+  border-radius: 4px;
+  padding: 20px 22px 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.02) inset, 0 10px 24px rgba(0,0,0,.35);
+}
+.eb-section-title {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--eb-accent);
+  margin: 0 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--eb-rule);
+  letter-spacing: .02em;
+}
+
+/* --- Form Elements --- */
+.eb-field { margin-bottom: 16px; }
+.eb-field:last-child { margin-bottom: 0; }
+
+label, .eb-label {
+  display: block;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 12px;
+  letter-spacing: .12em;
+  color: var(--eb-ink-2);
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 9px 12px;
+  background: var(--eb-input-bg);
+  border: 1px solid var(--eb-input-bdr);
+  border-radius: 3px;
+  color: var(--eb-ink);
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 15px;
+  line-height: 1.4;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--eb-accent-2);
+  box-shadow: 0 0 0 3px var(--eb-focus);
+}
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c5b89c' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 32px;
+  cursor: pointer;
+}
+textarea { resize: vertical; min-height: 90px; }
+
+.eb-hint {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--eb-ink-3);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+/* --- Dynamic List Items --- */
+.eb-list-container { margin-bottom: 8px; }
+.eb-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--eb-bg-2);
+  border: 1px solid var(--eb-rule);
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: var(--eb-ink);
+}
+.eb-list-item span { flex: 1; }
+.eb-list-item .eb-remove-btn {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 11px;
+  letter-spacing: .1em;
+  padding: 4px 10px;
+  border: 1px solid var(--eb-ember);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--eb-ember);
+  cursor: pointer;
+  margin-left: 12px;
+  transition: background 0.2s, color 0.2s;
+}
+.eb-list-item .eb-remove-btn:hover {
+  background: var(--eb-ember);
+  color: var(--eb-paper);
+}
+
+/* --- Input + Add Button Group --- */
+.eb-add-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.eb-add-group input[type="text"] { flex: 1; }
+.eb-add-group .eb-btn-add {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 12px;
+  letter-spacing: .12em;
+  padding: 9px 16px;
+  border: 1px solid var(--eb-accent-2);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--eb-accent);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+.eb-add-group .eb-btn-add:hover {
+  background: var(--eb-accent-2);
+  color: var(--eb-bg);
+}
+
+/* --- Pattern Description --- */
+.eb-pattern-desc {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--eb-ink-3);
+  margin-top: 8px;
+  padding: 10px 14px;
+  background: var(--eb-bg-2);
+  border: 1px solid var(--eb-rule);
+  border-radius: 3px;
+  min-height: 40px;
+}
+
+/* --- Action Buttons --- */
+.eb-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--eb-rule);
+}
+.eb-btn {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 13px;
+  letter-spacing: .14em;
+  padding: 10px 20px;
+  border: 1px solid var(--eb-accent-2);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--eb-accent);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.eb-btn:hover {
+  background: var(--eb-accent-2);
+  color: var(--eb-bg);
+  border-color: var(--eb-accent);
+}
+.eb-btn--primary {
+  background: var(--eb-accent-2);
+  color: var(--eb-bg);
+  border-color: var(--eb-accent);
+}
+.eb-btn--primary:hover { background: var(--eb-accent); }
+
+/* --- Toast Messages --- */
+.eb-messages {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  width: 300px;
+}
+.eb-toast {
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: var(--eb-paper);
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  text-align: center;
+}
+.eb-toast--success { background: var(--eb-success); }
+.eb-toast--error { background: var(--eb-error); }
+.eb-toast--info { background: var(--eb-accent-2); }
+
+/* --- Print --- */
+@media print {
+  body { background: #fff; color: #000; font-size: 11px; }
+  .eb-root { max-width: 100%; padding: 10px; }
+  .eb-topbar { border-bottom-color: #ccc; }
+  .eb-wm-title, .eb-section-title { color: #000; }
+  .eb-wm-kicker, .eb-wm-sub { color: #555; }
+  .eb-section {
+    background: #fff;
+    border-color: #ccc;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+  input[type="text"], select, textarea {
+    background: #fff;
+    border: 1px solid #999;
+    color: #000;
+  }
+  .eb-hint { color: #555; }
+  .eb-actions, .eb-messages, .eb-add-group .eb-btn-add,
+  .eb-remove-btn, #encounterPatternSection { display: none; }
+  .eb-list-item { background: #f5f5f5; border-color: #ccc; color: #000; }
+  textarea { min-height: auto; resize: none; overflow: visible; white-space: pre-wrap; }
+  input::placeholder, textarea::placeholder { color: transparent !important; }
+}

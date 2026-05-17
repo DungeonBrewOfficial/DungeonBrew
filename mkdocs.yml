@@ -117,6 +117,10 @@ nav:
     - Hoof & Rein: supplements/hoof-and-rein.md
     - Lingering Injuries & Insanity: supplements/lingering-injuries-and-insanity.md
     - Reputation & Favor: supplements/reputation-and-favor.md
+  - GM Tools:
+    - Quest Builder: gm-tools/encounter-builder.md
+    - NPC Builder: gm-tools/npc-builder.md
+    - Thieves' Guild Builder: gm-tools/thieves-guild-builder.md
   - Game Systems:
     - Mastery: systems/mastery.md
 

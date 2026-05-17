@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quest Builder — DungeonBrew</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=IM+Fell+English+SC&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="encounter.css" />
+</head>
+<body>
+  <div class="eb-root">
+
+    <!-- Topbar -->
+    <header class="eb-topbar">
+      <div class="eb-logo">
+        <img src="assets/logo.png" alt="DungeonBrew" width="44" height="44" />
+      </div>
+      <div class="eb-wordmark">
+        <div class="eb-wm-kicker">DungeonBrew Presents</div>
+        <h1 class="eb-wm-title">Quest Builder</h1>
+        <div class="eb-wm-sub">Craft Compelling Scenes</div>
+      </div>
+      <div></div>
+    </header>
+
+    <!-- Toast Messages -->
+    <div id="appMessages" class="eb-messages"></div>
+
+    <!-- Form -->
+    <form id="encounterForm" autocomplete="off">
+
+      <!-- 0. Pattern Selection -->
+      <section id="encounterPatternSection" class="eb-section">
+        <h2 class="eb-section-title">Encounter Pattern</h2>
+        <div class="eb-field">
+          <label for="encounterPatternSelect">Choose a pattern (optional)</label>
+          <select id="encounterPatternSelect"></select>
+          <p id="patternDescriptionDisplay" class="eb-pattern-desc"></p>
+        </div>
+      </section>
+
+      <!-- 1. Core Encounter Definition -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">1. Core Encounter Definition</h2>
+        <div class="eb-field">
+          <label for="seed">Seed / Core Idea</label>
+          <input type="text" id="seed" name="seed" placeholder="e.g., A talking statue, a sudden ambush, a mysterious ritual" />
+          <p class="eb-hint" id="seedHint">What's the central concept? (Monster, location, narrative idea)</p>
+        </div>
+        <div class="eb-field">
+          <label for="dramaticQuestion">Dramatic Question</label>
+          <input type="text" id="dramaticQuestion" name="dramaticQuestion" placeholder="e.g., Can the heroes recover the stolen artifact before it's too late?" />
+          <p class="eb-hint" id="dramaticQuestionHint">What are the players trying to accomplish and why should they care?</p>
+        </div>
+        <div class="eb-field">
+          <label>Hooks / Calls to Action</label>
+          <div id="hooksListContainer" class="eb-list-container"></div>
+          <div class="eb-add-group">
+            <input type="text" id="newHookInput" placeholder="Enter hook text (e.g., A desperate messenger arrives...)" />
+            <button type="button" class="eb-btn-add" onclick="addListItemFromInput('hooksListContainer', 'newHookInput')">Add Hook</button>
+          </div>
+          <p class="eb-hint" id="hooksHint">How is the dramatic question presented? Aim for multiple hooks appealing to different motivations (Good, Neutral, Evil, Personal).</p>
+        </div>
+        <div class="eb-field">
+          <label for="encounterType">Encounter Type</label>
+          <input type="text" id="encounterType" name="encounterType" placeholder="e.g., Combat, Social, Exploration, Puzzle, Skill Challenge, Hazard" />
+          <p class="eb-hint" id="encounterTypeHint">A scene presenting a conflict or tense sequence needing resolution, not just combat.</p>
+        </div>
+      </section>
+
+      <!-- 2. Conflict and Motivation Planning -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">2. Conflict &amp; Motivation</h2>
+        <div class="eb-field">
+          <label for="primaryConflict">Primary Source of Conflict</label>
+          <input type="text" id="primaryConflict" name="primaryConflict" placeholder="e.g., Greedy bandits, a territorial beast, a magical curse" />
+          <p class="eb-hint" id="primaryConflictHint">Identify the main opposing force or challenge.</p>
+        </div>
+        <div class="eb-field">
+          <label for="conflictOpposition">Why it Opposes PCs</label>
+          <textarea id="conflictOpposition" name="conflictOpposition" placeholder="e.g., PCs have something they want, PCs are trespassing, PCs disrupt their plans."></textarea>
+          <p class="eb-hint" id="conflictOppositionHint">Explain the direct reason for opposition.</p>
+        </div>
+        <div class="eb-field">
+          <label for="npcMotivation">NPC / Creature / Faction Motivations &amp; Goals</label>
+          <textarea id="npcMotivation" name="npcMotivation" placeholder="Detail their goals. This is key for non-violent solutions and reactions."></textarea>
+          <p class="eb-hint" id="npcMotivationHint">Plan this from the beginning. It enables non-violent solutions and influences reactions.</p>
+        </div>
+      </section>
+
+      <!-- 3. Player Agency & Decision Points -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">3. Player Agency &amp; Decision Points</h2>
+        <div class="eb-field">
+          <label>Meaningful Decision Points</label>
+          <div id="decisionPointsContainer" class="eb-list-container"></div>
+          <div class="eb-add-group">
+            <input type="text" id="newDecisionPointInput" placeholder="e.g., Which path to take? Who to trust? Fight or negotiate?" />
+            <button type="button" class="eb-btn-add" onclick="addListItemFromInput('decisionPointsContainer', 'newDecisionPointInput')">Add Point</button>
+          </div>
+          <p class="eb-hint" id="decisionPointsHint">Brainstorm how players resolve conflicts or which conflicts they address. Avoid single obvious paths.</p>
+        </div>
+        <div class="eb-field">
+          <label for="victoryPaths">Multiple Ways to Achieve Victory</label>
+          <textarea id="victoryPaths" name="victoryPaths" placeholder="Describe different success scenarios beyond just defeating enemies."></textarea>
+          <p class="eb-hint" id="victoryPathsHint">Move beyond simple survival or enemy defeat. A lack of decision points makes an encounter boring.</p>
+        </div>
+      </section>
+
+      <!-- 4. Dynamic Objectives & Consequences -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">4. Objectives &amp; Consequences</h2>
+        <div class="eb-field">
+          <label for="playerObjectives">Player Objectives</label>
+          <textarea id="playerObjectives" name="playerObjectives" placeholder="e.g., Capture an object, reach a location, protect an NPC, escape."></textarea>
+          <p class="eb-hint" id="playerObjectivesHint">Define objectives beyond just defeating the opposition.</p>
+        </div>
+        <div class="eb-field">
+          <label for="oppositionObjectives">Opposition Objectives</label>
+          <textarea id="oppositionObjectives" name="oppositionObjectives" placeholder="e.g., Steal the artifact, prevent escape, complete a ritual."></textarea>
+          <p class="eb-hint" id="oppositionObjectivesHint">What are the goals of the opposing forces?</p>
+        </div>
+        <div class="eb-field">
+          <label for="consequences">Consequences</label>
+          <textarea id="consequences" name="consequences" placeholder="What happens if the encounter is ignored? What are the results of player choices?"></textarea>
+          <p class="eb-hint" id="consequencesHint">Player choices should have impact. Consider a spectrum of outcomes based on success, partial success, failure, or specific choices.</p>
+        </div>
+      </section>
+
+      <!-- 5. Environment and Tactical Interaction -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">5. Environment &amp; Tactics</h2>
+        <div class="eb-field">
+          <label for="environmentDescription">Environment Description</label>
+          <textarea id="environmentDescription" name="environmentDescription" placeholder="Describe the setting in detail (e.g., crumbling ruins, dense forest, opulent ballroom)."></textarea>
+          <p class="eb-hint" id="environmentDescriptionHint">Detail the visual, auditory, and other sensory aspects of the location.</p>
+        </div>
+        <div class="eb-field">
+          <label for="atmosphereMood">Atmosphere / Mood</label>
+          <textarea id="atmosphereMood" name="atmosphereMood" placeholder="e.g., Oppressive and chilling, with echoing drips and a faint smell of decay."></textarea>
+          <p class="eb-hint" id="atmosphereMoodHint">Describe the sensory details and overall feeling you want to evoke.</p>
+        </div>
+        <div class="eb-field">
+          <label>Interactive Environmental Elements</label>
+          <div id="interactiveElementsContainer" class="eb-list-container"></div>
+          <div class="eb-add-group">
+            <input type="text" id="newInteractiveElementInput" placeholder="e.g., Lever, cover, climbable wall, unstable floor, magical font" />
+            <button type="button" class="eb-btn-add" onclick="addListItemFromInput('interactiveElementsContainer', 'newInteractiveElementInput')">Add Element</button>
+          </div>
+          <p class="eb-hint" id="interactiveElementsHint">Identify elements that create tactical opportunities and make the scene dynamic. How do they reflect the location's history and inhabitants?</p>
+        </div>
+      </section>
+
+      <!-- 6. Flow, Pacing, and Resolution -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">6. Pacing &amp; Resolution</h2>
+        <div class="eb-field">
+          <label for="emotionalIntensity">Desired Emotional Intensity / Pacing Goal</label>
+          <input type="text" id="emotionalIntensity" name="emotionalIntensity" placeholder="e.g., Fast and frantic, slow burn tension, investigative, triumphant" />
+          <p class="eb-hint" id="emotionalIntensityHint">How does this encounter fit into the larger adventure's pacing?</p>
+        </div>
+        <div class="eb-field">
+          <label for="endConditions">End Conditions</label>
+          <textarea id="endConditions" name="endConditions" placeholder="Define clear end conditions (e.g., enemies flee at 50% HP, objective achieved, timer runs out)."></textarea>
+          <p class="eb-hint" id="endConditionsHint">Helps maintain a brisk pace and prevent the encounter from overstaying its welcome.</p>
+        </div>
+      </section>
+
+      <!-- 7. Narrative Integration -->
+      <section class="eb-section">
+        <h2 class="eb-section-title">7. Narrative Integration</h2>
+        <div class="eb-field">
+          <label for="narrativeLinks">Links to Campaign Notes</label>
+          <textarea id="narrativeLinks" name="narrativeLinks" placeholder="Connect to plot threads, world locations, significant NPCs."></textarea>
+          <p class="eb-hint" id="narrativeLinksHint">Connects this encounter to the broader campaign context.</p>
+        </div>
+        <div class="eb-field">
+          <label for="largerSituation">Part of a Larger, Moving Situation</label>
+          <textarea id="largerSituation" name="largerSituation" placeholder="How does this encounter reflect or influence ongoing events?"></textarea>
+          <p class="eb-hint" id="largerSituationHint">Place the encounter within the broader campaign context.</p>
+        </div>
+        <div class="eb-field">
+          <label for="leftHooks">Potential "Left Hooks" / Plot Points</label>
+          <textarea id="leftHooks" name="leftHooks" placeholder="Twists that force PCs to reconsider, raise the stakes, or reveal crucial information."></textarea>
+          <p class="eb-hint" id="leftHooksHint">What unexpected developments could arise?</p>
+        </div>
+      </section>
+
+      <!-- Actions -->
+      <div class="eb-actions">
+        <button type="button" class="eb-btn eb-btn--primary" onclick="downloadEncounterData()">Save to File</button>
+        <button type="button" class="eb-btn" onclick="document.getElementById('uploadFile').click()">Load from File</button>
+        <button type="button" class="eb-btn" onclick="window.print()">Print / PDF</button>
+        <input type="file" id="uploadFile" accept=".json" style="display: none;" onchange="loadEncounterFromFile()" />
+      </div>
+
+    </form>
+  </div>
+
+  <script src="encounter.js"></script>
+</body>
+</html>

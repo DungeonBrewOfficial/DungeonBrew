@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPC Builder – DungeonBrew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="npc.css">
+</head>
+<body>
+    <div id="customTooltip"></div>
+
+    <header class="npc-topbar">
+        <img src="assets/logo.png" alt="DungeonBrew">
+        <h1>NPC Builder</h1>
+    </header>
+
+    <div class="npc-container">
+        <main>
+            <!-- NPC Details -->
+            <section class="npc-panel">
+                <h2>NPC Details</h2>
+                <div>
+                    <label for="npcName" class="npc-label">Name</label>
+                    <input type="text" id="npcName" placeholder="e.g., Thalgar Ironfist" class="npc-input">
+                </div>
+                <div>
+                    <label for="npcDescription" class="npc-label">Description</label>
+                    <textarea id="npcDescription" placeholder="e.g., A stern but fair dwarven blacksmith..." class="npc-textarea"></textarea>
+                </div>
+            </section>
+
+            <!-- Speech Profile -->
+            <section id="speechProfileSection" class="npc-panel">
+                <h2>Speech Profile</h2>
+                <div class="npc-speech-grid">
+                    <!-- Speed -->
+                    <div>
+                        <label class="npc-label npc-tooltip-label-main" data-tooltip-key="speed._main">Speed</label>
+                        <div class="npc-radio-group">
+                            <label><input type="radio" id="speedFast" name="speechSpeed" value="fast"> <span class="npc-tooltip-label" data-tooltip-key="speed.fast._main">Fast</span></label>
+                            <label><input type="radio" id="speedSlow" name="speechSpeed" value="slow"> <span class="npc-tooltip-label" data-tooltip-key="speed.slow._main">Slow</span></label>
+                        </div>
+                        <div id="speedFastTypeContainer" class="npc-conditional-dropdown npc-hidden">
+                            <select id="speedFastType" class="npc-select">
+                                <option value="">Select Fast Type...</option>
+                            </select>
+                            <p id="speedFastTypeDescription" class="npc-option-desc"></p>
+                        </div>
+                        <div id="speedSlowTypeContainer" class="npc-conditional-dropdown npc-hidden">
+                            <select id="speedSlowType" class="npc-select">
+                                <option value="">Select Slow Type...</option>
+                            </select>
+                            <p id="speedSlowTypeDescription" class="npc-option-desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- Volume -->
+                    <div>
+                        <label class="npc-label npc-tooltip-label-main" data-tooltip-key="volume._main">Volume</label>
+                        <div class="npc-radio-group">
+                            <label><input type="radio" id="volumeLoud" name="speechVolume" value="loud"> <span class="npc-tooltip-label" data-tooltip-key="volume.loud._main">Loud</span></label>
+                            <label><input type="radio" id="volumeSoft" name="speechVolume" value="soft"> <span class="npc-tooltip-label" data-tooltip-key="volume.soft._main">Soft</span></label>
+                        </div>
+                        <div id="volumeLoudTypeContainer" class="npc-conditional-dropdown npc-hidden">
+                            <select id="volumeLoudType" class="npc-select">
+                                <option value="">Select Loud Type...</option>
+                            </select>
+                            <p id="volumeLoudTypeDescription" class="npc-option-desc"></p>
+                        </div>
+                        <div id="volumeSoftTypeContainer" class="npc-conditional-dropdown npc-hidden">
+                            <select id="volumeSoftType" class="npc-select">
+                                <option value="">Select Soft Type...</option>
+                            </select>
+                            <p id="volumeSoftTypeDescription" class="npc-option-desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- Tone / Emphasis / Pauses column -->
+                    <div class="npc-speech-column">
+                        <div>
+                            <label for="speechTone" class="npc-label npc-tooltip-label-main" data-tooltip-key="tone._main">Tone</label>
+                            <select id="speechTone" class="npc-select">
+                                <option value="">Select Tone...</option>
+                            </select>
+                            <p id="speechToneDescription" class="npc-option-desc"></p>
+                        </div>
+                        <div>
+                            <label for="speechEmphasis" class="npc-label npc-tooltip-label-main" data-tooltip-key="emphasis._main">Emphasis</label>
+                            <select id="speechEmphasis" class="npc-select">
+                                <option value="">Select Emphasis Type...</option>
+                            </select>
+                            <p id="speechEmphasisDescription" class="npc-option-desc"></p>
+                        </div>
+                        <div>
+                            <label for="speechPauses" class="npc-label npc-tooltip-label-main" data-tooltip-key="pauses._main">Pauses</label>
+                            <select id="speechPauses" class="npc-select">
+                                <option value="">Select Pause Type...</option>
+                            </select>
+                            <p id="speechPausesDescription" class="npc-option-desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- Vocabulary / Metaphors column -->
+                    <div class="npc-speech-column">
+                        <div>
+                            <label for="speechVocabularyCategory" class="npc-label npc-tooltip-label-main" data-tooltip-key="vocabulary._main">Vocabulary</label>
+                            <select id="speechVocabularyCategory" class="npc-select">
+                                <option value="">Select Category...</option>
+                            </select>
+                            <p id="speechVocabularyCategoryDescription" class="npc-option-desc"></p>
+                            <textarea id="speechVocabularyExamples" rows="2" placeholder="Enter specific words or examples..." class="npc-textarea"></textarea>
+                        </div>
+                        <div>
+                            <label for="speechMetaphorsCategory" class="npc-label npc-tooltip-label-main" data-tooltip-key="metaphors._main">Metaphors</label>
+                            <select id="speechMetaphorsCategory" class="npc-select">
+                                <option value="">Select Category...</option>
+                            </select>
+                            <p id="speechMetaphorsCategoryDescription" class="npc-option-desc"></p>
+                            <textarea id="speechMetaphorsExamples" rows="2" placeholder="Enter specific metaphors or examples..." class="npc-textarea"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Speech Patterns (full width) -->
+                    <div class="npc-speech-full-width">
+                        <label class="npc-label npc-tooltip-label-main" data-tooltip-key="speech_patterns._main">Speech Patterns</label>
+                        <div id="speechPatternsCheckboxes" class="npc-pattern-checkboxes"></div>
+                        <textarea id="speechPatternsExamples" rows="2" placeholder="Provide examples or further describe patterns..." class="npc-textarea"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Add Motivation -->
+            <section class="npc-panel">
+                <h3 id="motivationFormTitle">Add Motivation</h3>
+                <div class="npc-motivation-form">
+                    <div class="npc-full-span">
+                        <label for="motivationText" class="npc-label">Motivation Details</label>
+                        <textarea id="motivationText" placeholder="e.g., Ensure timely iron shipment..." class="npc-textarea"></textarea>
+                    </div>
+                    <div>
+                        <label for="motivationLevel" class="npc-label">Level</label>
+                        <select id="motivationLevel" class="npc-select">
+                            <option value="minor">Minor</option>
+                            <option value="moderate">Moderate</option>
+                            <option value="major">Major</option>
+                        </select>
+                        <p id="motivationLevelDescription" class="npc-option-desc" data-tooltip-definition-concise="" data-tooltip-definition-full=""></p>
+                    </div>
+                    <div>
+                        <button id="addOrUpdateMotivationBtn" class="npc-btn npc-btn-add">Add</button>
+                        <button id="cancelEditBtn" class="npc-btn npc-btn-cancel npc-hidden" style="margin-top:0.5rem;">Cancel</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Generated NPC Profile (Output) -->
+            <section id="npcOutput" class="npc-output-panel">
+                <h2>Generated NPC Profile</h2>
+                <div id="npcDetailsDisplay">
+                    <h3 id="outputNpcName">NPC Name Will Appear Here</h3>
+                    <p id="outputNpcDescription">NPC description will appear here.</p>
+                </div>
+                <div id="outputSpeechProfile">
+                    <h3>Speech Profile</h3>
+                    <div id="speechProfileDisplayContainer">
+                        <p class="npc-empty-msg">Speech profile details will appear here once selected.</p>
+                    </div>
+                </div>
+                <div id="outputMotivations">
+                    <h3>Motivations</h3>
+                    <div>
+                        <h4>Minor Motivations</h4>
+                        <ul id="minorMotivationsList">
+                            <li class="npc-list-item"><span class="npc-empty-msg">No minor motivations added yet.</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Moderate Motivations</h4>
+                        <ul id="moderateMotivationsList">
+                            <li class="npc-list-item"><span class="npc-empty-msg">No moderate motivations added yet.</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Major Motivations</h4>
+                        <ul id="majorMotivationsList">
+                            <li class="npc-list-item"><span class="npc-empty-msg">No major motivations added yet.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Manage NPC Data -->
+            <section id="manageDataSection" class="npc-panel">
+                <h2>Manage NPC Data</h2>
+                <div class="npc-data-grid">
+                    <div>
+                        <label for="uploadNpcFile" class="npc-label">Upload NPC File (JSON)</label>
+                        <input type="file" id="uploadNpcFile" accept=".json" class="npc-file-input">
+                        <button type="button" id="loadNpcBtn" class="npc-btn npc-btn-load">Upload and Populate</button>
+                    </div>
+                    <div>
+                        <button type="button" id="downloadNpcBtn" class="npc-btn npc-btn-save">Download NPC as JSON</button>
+                        <button type="button" id="printNpcBtn" class="npc-btn npc-btn-print">Print NPC Profile</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div id="messageBox"></div>
+    </div>
+
+    <script src="npc.js"></script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+/* ============================================================
+   NPC Builder – DungeonBrew Design System
+   Prefix: npc-
+   ============================================================ */
+
+:root {
+    --npc-bg: #14110d;
+    --npc-panel: #1c1814;
+    --npc-panel-border: #3a2f22;
+    --npc-brass: #c9a24c;
+    --npc-brass-aged: #a07c33;
+    --npc-ember: #b3571f;
+    --npc-ink: #efe5d2;
+    --npc-ink-muted: #a89b8a;
+    --npc-input-bg: #0f0d0a;
+    --npc-input-border: #3a2f22;
+    --npc-focus-glow: rgba(201, 162, 76, 0.35);
+    --npc-success: #4a7c3f;
+    --npc-danger: #8b3a2a;
+    --npc-info: #3a5c7c;
+    --npc-radius: 4px;
+    --npc-font-body: 'EB Garamond', Georgia, serif;
+    --npc-font-heading: 'Cormorant Garamond', Georgia, serif;
+    --npc-font-label: 'IM Fell English SC', Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: var(--npc-font-body);
+    font-size: 17px;
+    line-height: 1.6;
+    background: var(--npc-bg);
+    color: var(--npc-ink);
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Topbar ─────────────────────────────────────────────────── */
+.npc-topbar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-bottom: 1px solid var(--npc-panel-border);
+    background: var(--npc-panel);
+}
+.npc-topbar img {
+    height: 42px;
+    width: auto;
+}
+.npc-topbar h1 {
+    font-family: var(--npc-font-heading);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--npc-brass);
+    margin: 0;
+}
+
+/* ── Layout ─────────────────────────────────────────────────── */
+.npc-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* ── Panels ─────────────────────────────────────────────────── */
+.npc-panel {
+    background: var(--npc-panel);
+    border: 1px solid var(--npc-panel-border);
+    border-radius: var(--npc-radius);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.npc-panel h2 {
+    font-family: var(--npc-font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--npc-brass);
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--npc-panel-border);
+}
+.npc-panel h3 {
+    font-family: var(--npc-font-heading);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--npc-brass);
+    margin: 0 0 0.75rem 0;
+}
+.npc-panel h4 {
+    font-family: var(--npc-font-label);
+    font-size: 1rem;
+    color: var(--npc-brass-aged);
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+/* ── Form Elements ──────────────────────────────────────────── */
+.npc-label {
+    display: block;
+    font-family: var(--npc-font-label);
+    font-size: 0.95rem;
+    color: var(--npc-ink);
+    margin-bottom: 0.3rem;
+}
+.npc-input,
+.npc-textarea,
+.npc-select {
+    width: 100%;
+    background: var(--npc-input-bg);
+    color: var(--npc-ink);
+    border: 1px solid var(--npc-input-border);
+    border-radius: var(--npc-radius);
+    padding: 0.6rem 0.75rem;
+    font-family: var(--npc-font-body);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.npc-input:focus,
+.npc-textarea:focus,
+.npc-select:focus {
+    outline: none;
+    border-color: var(--npc-brass);
+    box-shadow: 0 0 0 2px var(--npc-focus-glow);
+}
+.npc-input::placeholder,
+.npc-textarea::placeholder {
+    color: var(--npc-ink-muted);
+    font-style: italic;
+}
+.npc-textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+.npc-select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23a07c33' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    padding-right: 2rem;
+}
+.npc-file-input {
+    width: 100%;
+    background: var(--npc-input-bg);
+    color: var(--npc-ink);
+    border: 1px solid var(--npc-input-border);
+    border-radius: var(--npc-radius);
+    padding: 0.5rem 0.75rem;
+    font-family: var(--npc-font-body);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+/* ── Radio & Checkbox Groups ────────────────────────────────── */
+.npc-radio-group,
+.npc-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.npc-radio-group label,
+.npc-checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: var(--npc-ink);
+}
+.npc-radio-group input[type="radio"],
+.npc-checkbox-group input[type="checkbox"] {
+    accent-color: var(--npc-brass);
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Tooltip labels (dotted underline) */
+.npc-tooltip-label {
+    border-bottom: 1px dotted var(--npc-ink-muted);
+    cursor: help;
+}
+.npc-tooltip-label-main {
+    cursor: help;
+}
+
+/* Conditional dropdowns */
+.npc-conditional-dropdown {
+    margin-top: 0.5rem;
+}
+.npc-hidden {
+    display: none !important;
+}
+
+/* ── Speech Profile Grid ────────────────────────────────────── */
+.npc-speech-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+@media (min-width: 700px) {
+    .npc-speech-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.npc-speech-column > div:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.npc-speech-full-width {
+    grid-column: 1 / -1;
+}
+
+/* Speech pattern checkboxes grid */
+.npc-pattern-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.npc-pattern-checkboxes label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    color: var(--npc-ink);
+    cursor: pointer;
+}
+.npc-pattern-checkboxes input[type="checkbox"] {
+    accent-color: var(--npc-brass);
+    width: 15px;
+    height: 15px;
+}
+
+/* ── Description Text (below selects) ──────────────────────── */
+.npc-option-desc {
+    font-size: 0.85rem;
+    color: var(--npc-ink-muted);
+    font-style: italic;
+    margin: -0.5rem 0 1rem 0;
+    min-height: 1.2rem;
+    line-height: 1.4;
+    cursor: help;
+}
+
+/* ── Motivation Form ────────────────────────────────────────── */
+.npc-motivation-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+@media (min-width: 700px) {
+    .npc-motivation-form {
+        grid-template-columns: 3fr 1fr;
+    }
+}
+.npc-motivation-form .npc-full-span {
+    grid-column: 1 / -1;
+}
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.npc-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: var(--npc-radius);
+    font-family: var(--npc-font-label);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    width: 100%;
+}
+.npc-btn:hover {
+    transform: translateY(-1px);
+}
+.npc-btn:active {
+    transform: translateY(0);
+}
+.npc-btn-primary {
+    background: var(--npc-brass-aged);
+    color: #fff;
+}
+.npc-btn-primary:hover {
+    background: var(--npc-brass);
+}
+.npc-btn-add {
+    background: var(--npc-success);
+    color: #fff;
+}
+.npc-btn-add:hover {
+    background: #5a9c4f;
+}
+.npc-btn-cancel {
+    background: #4a4035;
+    color: var(--npc-ink-muted);
+}
+.npc-btn-cancel:hover {
+    background: #5a5045;
+}
+.npc-btn-danger {
+    background: var(--npc-danger);
+    color: #fff;
+}
+.npc-btn-danger:hover {
+    background: #a04535;
+}
+.npc-btn-save {
+    background: var(--npc-success);
+    color: #fff;
+}
+.npc-btn-save:hover {
+    background: #5a9c4f;
+}
+.npc-btn-load {
+    background: var(--npc-ember);
+    color: #fff;
+}
+.npc-btn-load:hover {
+    background: #c96a2f;
+}
+.npc-btn-print {
+    background: var(--npc-info);
+    color: #fff;
+}
+.npc-btn-print:hover {
+    background: #4a6c8c;
+}
+
+/* Action buttons (edit/delete on motivation items) */
+.npc-action-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    font-family: var(--npc-font-label);
+    border: none;
+    border-radius: var(--npc-radius);
+    cursor: pointer;
+    margin-left: 0.4rem;
+    color: #fff;
+    transition: background-color 0.2s;
+}
+.npc-action-btn-edit {
+    background: var(--npc-info);
+}
+.npc-action-btn-edit:hover {
+    background: #4a6c8c;
+}
+.npc-action-btn-delete {
+    background: var(--npc-danger);
+}
+.npc-action-btn-delete:hover {
+    background: #a04535;
+}
+
+/* ── Motivation List Items ──────────────────────────────────── */
+.npc-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--npc-input-bg);
+    border: 1px solid var(--npc-panel-border);
+    border-radius: var(--npc-radius);
+    padding: 0.6rem 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.npc-list-item .npc-motivation-text {
+    color: var(--npc-ink);
+    flex: 1;
+}
+.npc-list-item .npc-empty-msg {
+    color: var(--npc-ink-muted);
+    font-style: italic;
+}
+.npc-list-item-actions {
+    display: flex;
+    flex-shrink: 0;
+}
+
+/* ── Output / Preview Panel ─────────────────────────────────── */
+.npc-output-panel {
+    background: var(--npc-panel);
+    border: 1px solid var(--npc-brass-aged);
+    border-radius: var(--npc-radius);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.npc-output-panel h2 {
+    font-family: var(--npc-font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--npc-brass);
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--npc-panel-border);
+}
+.npc-output-panel h3 {
+    font-family: var(--npc-font-heading);
+    font-size: 1.2rem;
+    color: var(--npc-brass);
+    margin: 1rem 0 0.5rem 0;
+}
+.npc-output-panel h4 {
+    font-family: var(--npc-font-label);
+    font-size: 0.95rem;
+    color: var(--npc-brass-aged);
+    margin: 0.75rem 0 0.35rem 0;
+}
+#outputNpcName {
+    font-family: var(--npc-font-heading);
+    font-size: 1.4rem;
+    color: var(--npc-brass);
+    margin: 0 0 0.25rem 0;
+}
+#outputNpcDescription {
+    color: var(--npc-ink);
+    font-size: 0.95rem;
+    margin: 0;
+}
+#speechProfileDisplayContainer {
+    color: var(--npc-ink);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+#speechProfileDisplayContainer strong {
+    color: var(--npc-brass);
+}
+
+/* ── Tooltip ────────────────────────────────────────────────── */
+#customTooltip {
+    position: absolute;
+    display: none;
+    background: #1a1610;
+    color: var(--npc-ink);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--npc-radius);
+    border: 1px solid var(--npc-brass-aged);
+    font-size: 0.85rem;
+    max-width: 320px;
+    word-wrap: break-word;
+    z-index: 9999;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+}
+
+/* ── Toast Messages ─────────────────────────────────────────── */
+#messageBox {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 9999;
+    width: 300px;
+}
+.npc-toast {
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: var(--npc-radius);
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.npc-toast-info { background: var(--npc-info); }
+.npc-toast-success { background: var(--npc-success); }
+.npc-toast-error { background: var(--npc-danger); }
+.npc-toast-warning { background: var(--npc-ember); }
+
+/* ── Manage Data Grid ───────────────────────────────────────── */
+.npc-data-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+@media (min-width: 700px) {
+    .npc-data-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.npc-data-grid .npc-btn {
+    margin-bottom: 0.5rem;
+}
+
+/* ── Print Styles ───────────────────────────────────────────── */
+@media print {
+    body {
+        background: #fff !important;
+        color: #000 !important;
+        font-size: 11pt;
+    }
+    .npc-topbar,
+    #messageBox,
+    #customTooltip,
+    .npc-panel:not(#npcOutput),
+    #manageDataSection {
+        display: none !important;
+    }
+    .npc-container {
+        max-width: none;
+        padding: 0;
+    }
+    #npcOutput {
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: #fff !important;
+    }
+    #npcOutput h2,
+    #npcOutput h3,
+    #npcOutput h4 {
+        color: #000 !important;
+        border-color: #ccc !important;
+    }
+    #outputNpcName,
+    #outputNpcDescription,
+    #speechProfileDisplayContainer,
+    #speechProfileDisplayContainer strong {
+        color: #000 !important;
+    }
+    .npc-list-item {
+        background: #f5f5f5 !important;
+        border-color: #ccc !important;
+    }
+    .npc-list-item .npc-motivation-text {
+        color: #000 !important;
+    }
+    .npc-list-item .npc-empty-msg {
+        color: #555 !important;
+    }
+    .npc-action-btn {
+        display: none !important;
+    }
+}
