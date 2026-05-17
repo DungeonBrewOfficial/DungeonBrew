@@ -34,6 +34,24 @@ Research-heavy supplements for 5e covering subjects most games gloss over: reali
 
 <a href="supplements/canine-tool/" class="md-button">Launch Dog Generator</a>
 
+**Hoof & Rein.** Generate horses with breeds, temperaments, physical traits, and quirks shaped by lineage and training.
+
+<a href="supplements/horse-tool/" class="md-button">Launch Horse Generator</a>
+
+### GM Tools
+
+**Quest Builder.** Structured encounter design with pattern templates for escort, chase, infiltration, defense, and more.
+
+<a href="supplements/encounter-tool/" class="md-button">Launch Quest Builder</a>
+
+**NPC Builder.** Build NPCs with layered motivations and a full speech characterization profile.
+
+<a href="supplements/npc-tool/" class="md-button">Launch NPC Builder</a>
+
+**Thieves' Guild Builder.** Design criminal organizations with structure, operations, territory, and internal politics.
+
+<a href="supplements/guild-tool/" class="md-button">Launch Guild Builder</a>
+
 </div>
 
 </div>
