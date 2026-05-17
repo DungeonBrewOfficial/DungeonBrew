@@ -42,7 +42,7 @@ This is why warhorses are always stallions in this system. While mares and geldi
 
 <div class="sidebar-content" markdown="1">
 
-<img src="/supplements/downloads/hoof_and_rein_cover.png" alt="Hoof &amp; Rein Cover" style="width:100%; border-radius:8px;">
+<img src="downloads/hoof_and_rein_cover.png" alt="Hoof &amp; Rein Cover" style="width:100%; border-radius:8px;">
 
 </div>
 
@@ -702,10 +702,4 @@ Some Bad or Neutral traits can be removed through consistent training. Tricks ca
 
 **Multiattack.** The horse makes one Hooves attack and one Bite attack.
 
-**Hooves.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage.
-
-**Bite.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
-
-</div>
-
-</div>
+**Hooves.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4)

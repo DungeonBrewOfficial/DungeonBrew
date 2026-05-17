@@ -17,7 +17,7 @@ Lingering Injuries & Insanity provides two d100 tables for adding lasting physic
 
 <div class="sidebar-content" markdown="1">
 
-<img src="/supplements/downloads/lingering_injuries_and_insanity_cover.png" alt="Lingering Injuries & Insanity Cover" />
+<img src="downloads/lingering_injuries_and_insanity_cover.png" alt="Lingering Injuries & Insanity Cover" />
 
 </div>
 

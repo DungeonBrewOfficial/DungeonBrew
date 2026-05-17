@@ -41,7 +41,7 @@ Reputation increases should represent positive or lawful actions taken for a giv
 
 <div class="sidebar-content" markdown="1">
 
-<img src="/supplements/downloads/reputation_and_favor_cover.png" alt="Reputation & Favor Cover" />
+<img src="downloads/reputation_and_favor_cover.png" alt="Reputation & Favor Cover" />
 
 </div>
 

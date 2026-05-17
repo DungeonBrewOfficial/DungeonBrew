@@ -35,7 +35,7 @@ The big choice comes down to two approaches:
 
 <div class="sidebar-content" markdown="1">
 
-<img src="/supplements/downloads/ability_score_options_cover.png" alt="Ability Score Options Cover" style="width:100%; border-radius:8px;">
+<img src="downloads/ability_score_options_cover.png" alt="Ability Score Options Cover" style="width:100%; border-radius:8px;">
 
 </div>
 
