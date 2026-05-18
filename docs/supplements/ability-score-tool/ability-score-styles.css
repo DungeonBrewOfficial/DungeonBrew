@@ -1,0 +1,831 @@
+/* Ability Score Generator — tavern aesthetic from "Ancestors & Ale"
+ * Adapted from Hoof & Rein with additions for score grids, method tables, cards.
+ */
+:root {
+  --aa-bg:        #14110d;
+  --aa-bg-2:      #1b1713;
+  --aa-panel:     #201a13;
+  --aa-panel-2:   #28211a;
+  --aa-ink:       #efe5d2;
+  --aa-ink-2:     #c5b89c;
+  --aa-ink-3:     #8c7c5e;
+  --aa-rule:      #3a2f22;
+  --aa-accent:    #c9a24c;   /* brass */
+  --aa-accent-2:  #a07c33;   /* aged brass */
+  --aa-ember:     #b3571f;   /* deep ember red */
+  --aa-paper:     #f1e6cc;
+  --aa-paper-2:   #e7dabc;
+  --aa-paper-ink: #1c1611;
+  --aa-paper-ink-2: #2b2117;
+  --aa-paper-ink-3: #6b4f2c;
+  --aa-paper-rule: #b2905c;
+  --aa-paper-rule-2: #9b7a4a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background:
+    radial-gradient(1200px 700px at 85% -10%, rgba(201, 162, 76, 0.07), transparent 60%),
+    radial-gradient(900px 600px at 10% 110%, rgba(179, 87, 31, 0.05), transparent 60%),
+    var(--aa-bg);
+  color: var(--aa-ink);
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+.aa-root {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 28px 28px 40px;
+}
+
+/* --- Topbar --- */
+.aa-topbar {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  gap: 18px;
+  padding: 6px 0 22px;
+  border-bottom: 1px solid var(--aa-rule);
+  margin-bottom: 24px;
+}
+.aa-logo img {
+  border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(201,162,76,.28), 0 6px 16px rgba(0,0,0,.5);
+  background: #14110d;
+}
+.aa-wordmark { text-align: center; }
+.aa-wm-kicker {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .28em; font-size: 11px;
+  color: var(--aa-ink-3); margin-bottom: 2px;
+}
+.aa-wm-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600; font-size: 42px;
+  letter-spacing: .02em; margin: 0; color: var(--aa-ink);
+  text-shadow: 0 1px 0 #000, 0 0 30px rgba(201,162,76,.12);
+}
+.aa-wm-sub {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .18em; font-size: 12px;
+  color: var(--aa-accent); margin-top: 2px;
+}
+
+/* --- Grid --- */
+.aa-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 28px;
+}
+@media (max-width: 980px) { .aa-grid { grid-template-columns: 1fr; } }
+
+/* --- Panel --- */
+.aa-panel {
+  background: linear-gradient(180deg, var(--aa-panel) 0%, var(--aa-panel-2) 100%);
+  border: 1px solid var(--aa-rule);
+  border-radius: 4px;
+  padding: 20px 22px 22px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.02) inset, 0 10px 24px rgba(0,0,0,.35);
+}
+.aa-panel-head {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  align-items: center; gap: 14px;
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .28em; font-size: 12px;
+  color: var(--aa-accent); margin-bottom: 18px;
+}
+.aa-rule { height: 1px; background: linear-gradient(90deg, transparent, var(--aa-rule), transparent); }
+
+/* Method picker — a grid of selectable tiles, each = a method */
+.aa-method-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(146px, 1fr));
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.aa-method-tile {
+  background: #15120d;
+  border: 1px solid var(--aa-rule);
+  border-radius: 3px;
+  padding: 9px 10px 10px;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: var(--aa-ink-2);
+  display: flex; flex-direction: column; gap: 2px;
+  transition: all .15s ease;
+}
+.aa-method-tile:hover { border-color: var(--aa-accent-2); color: var(--aa-ink); }
+.aa-method-tile.is-active {
+  background: linear-gradient(180deg, #3a2d18, #2a2013);
+  border-color: var(--aa-accent);
+  color: var(--aa-accent);
+  box-shadow: inset 0 0 0 1px var(--aa-accent-2);
+}
+.aa-method-tile .num {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .18em;
+  font-size: 9.5px;
+  color: var(--aa-ink-3);
+}
+.aa-method-tile.is-active .num { color: var(--aa-accent-2); }
+.aa-method-tile .ttl {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px; font-weight: 600;
+  letter-spacing: .01em;
+  line-height: 1.15;
+}
+
+/* --- Controls (re-used) --- */
+.aa-controls { display: grid; grid-template-columns: 1fr; gap: 14px 18px; }
+.aa-field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 18px; }
+.aa-field-row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px 18px; }
+@media (max-width: 540px) {
+  .aa-field-row, .aa-field-row-3 { grid-template-columns: 1fr; }
+}
+
+.aa-field { display: block; }
+.aa-field-label {
+  display: block;
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .2em; font-size: 10.5px;
+  color: var(--aa-ink-3); margin-bottom: 7px;
+}
+.aa-select {
+  width: 100%; appearance: none; -webkit-appearance: none;
+  background: #15120d; color: var(--aa-ink);
+  border: 1px solid var(--aa-rule); border-radius: 3px;
+  padding: 10px 34px 10px 12px; font: inherit; font-size: 15px;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--aa-accent) 50%),
+    linear-gradient(135deg, var(--aa-accent) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 50%, calc(100% - 12px) 50%;
+  background-size: 6px 6px, 6px 6px; background-repeat: no-repeat;
+}
+.aa-select:focus { outline: 1px solid var(--aa-accent); outline-offset: 1px; }
+
+.aa-seg { display: flex; background: #15120d; border: 1px solid var(--aa-rule); border-radius: 3px; padding: 3px; gap: 2px; }
+.aa-seg-btn {
+  flex: 1 1 0; min-width: 0; background: transparent;
+  color: var(--aa-ink-2); border: none; font: inherit;
+  font-size: 12.5px; padding: 7px 4px; cursor: pointer; border-radius: 2px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.aa-seg-btn:hover { color: var(--aa-ink); }
+.aa-seg-btn.is-active {
+  background: linear-gradient(180deg, #3a2d18, #2a2013);
+  color: var(--aa-accent);
+  box-shadow: inset 0 0 0 1px var(--aa-accent-2);
+}
+
+.aa-check {
+  display: inline-flex; align-items: center; gap: 9px; cursor: pointer;
+  font-size: 14px; color: var(--aa-ink-2); user-select: none; padding-right: 16px;
+}
+.aa-check input { position: absolute; opacity: 0; pointer-events: none; }
+.aa-check-box {
+  width: 16px; height: 16px; border: 1px solid var(--aa-rule); background: #15120d;
+  border-radius: 2px; position: relative; transition: all .12s ease;
+}
+.aa-check input:checked + .aa-check-box { background: var(--aa-accent); border-color: var(--aa-accent); }
+.aa-check input:checked + .aa-check-box::after {
+  content: ""; position: absolute; left: 4px; top: 1px;
+  width: 5px; height: 9px; border: solid #14110d; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.aa-cta-row { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.aa-btn {
+  font: inherit; font-size: 15px; letter-spacing: .03em;
+  border: 1px solid transparent; border-radius: 3px;
+  padding: 10px 16px; cursor: pointer; transition: all .15s ease; line-height: 1.2;
+}
+.aa-btn:disabled { opacity: .42; cursor: not-allowed; }
+.aa-btn-primary {
+  background: linear-gradient(180deg, #d8b056 0%, #a07c33 100%);
+  color: #1a130a; border-color: #6d4f1f; font-weight: 600;
+  box-shadow: 0 1px 0 #e8c576 inset, 0 6px 14px rgba(201,162,76,.18);
+  flex: 1;
+}
+.aa-btn-primary:hover:not(:disabled) { filter: brightness(1.07); }
+.aa-btn-secondary {
+  background: #15120d; color: var(--aa-ink); border-color: var(--aa-rule);
+}
+.aa-btn-secondary:hover:not(:disabled) { border-color: var(--aa-accent-2); color: var(--aa-accent); }
+.aa-btn-ghost {
+  background: transparent; color: var(--aa-ink-2); border-color: var(--aa-rule);
+  font-size: 13px; padding: 8px 12px; letter-spacing: .08em; text-transform: uppercase;
+  font-family: 'IM Fell English SC', serif;
+}
+.aa-btn-ghost:hover:not(:disabled) { color: var(--aa-accent); border-color: var(--aa-accent-2); }
+.aa-danger:hover:not(:disabled) { color: #d88067; border-color: #7a3b24; }
+
+/* --- Stage (current ability array) --- */
+.aa-stage {
+  margin-top: 22px;
+  background:
+    linear-gradient(180deg, rgba(201,162,76,.03), transparent 40%),
+    linear-gradient(180deg, var(--aa-bg-2) 0%, #110e0a 100%);
+  border: 1px solid var(--aa-rule);
+  border-top: 2px solid var(--aa-accent-2);
+  border-radius: 4px;
+  padding: 26px 28px 28px;
+  position: relative;
+}
+.aa-stage::before, .aa-stage::after {
+  content: ""; position: absolute; width: 12px; height: 12px;
+  border: 1px solid var(--aa-accent-2); top: -6px;
+}
+.aa-stage::before { left: 18px; transform: rotate(45deg); background: var(--aa-bg); }
+.aa-stage::after  { right: 18px; transform: rotate(45deg); background: var(--aa-bg); }
+
+.aa-stage-head { text-align: center; margin-bottom: 16px; }
+.aa-stage-kicker {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .3em; font-size: 10.5px;
+  color: var(--aa-ink-3); margin-bottom: 6px;
+}
+.aa-stage-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600; font-size: 30px;
+  letter-spacing: .01em; line-height: 1.1; margin: 0 0 4px;
+  color: var(--aa-ink);
+}
+.aa-stage-sub {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .22em; font-size: 11px; color: var(--aa-accent);
+}
+
+/* --- Ability score row (the live array) --- */
+.asg-array {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 12px 0 6px;
+  font-variant-numeric: tabular-nums;
+}
+.asg-ab {
+  background: #15120d;
+  border: 1px solid var(--aa-rule);
+  border-top: 2px solid var(--aa-accent-2);
+  border-radius: 3px;
+  padding: 10px 6px 12px;
+  text-align: center;
+  position: relative;
+  cursor: default;
+}
+.asg-ab.is-drop { outline: 1px dashed var(--aa-accent); outline-offset: -3px; }
+.asg-ab.is-target { background: linear-gradient(180deg, #2a2013, #1a130c); border-color: var(--aa-accent); }
+.asg-ab-label {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 11px; letter-spacing: .22em;
+  color: var(--aa-ink-3); text-transform: uppercase;
+}
+.asg-ab-score {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600; font-size: 36px;
+  color: var(--aa-ink); line-height: 1.05; margin: 4px 0 0;
+  text-shadow: 0 0 16px rgba(201,162,76,.1);
+}
+.asg-ab-score.is-empty { color: var(--aa-rule); font-style: italic; font-size: 28px; }
+.asg-ab-mod {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 11px; letter-spacing: .16em;
+  color: var(--aa-accent); margin-top: 4px;
+}
+.asg-ab-sub {
+  font-family: 'EB Garamond', serif; font-style: italic;
+  font-size: 11.5px; color: var(--aa-ink-3); margin-top: 4px;
+}
+.asg-ab-clear {
+  position: absolute; top: 4px; right: 4px;
+  background: transparent; color: var(--aa-ink-3); border: none;
+  width: 18px; height: 18px; line-height: 1; cursor: pointer;
+  font-size: 14px; border-radius: 50%; padding: 0;
+}
+.asg-ab-clear:hover { color: var(--aa-ember); }
+.asg-ab-bump {
+  display: flex; gap: 4px; justify-content: center; margin-top: 6px;
+}
+.asg-ab-bump button {
+  width: 22px; height: 22px; border-radius: 2px;
+  background: #15120d; border: 1px solid var(--aa-rule);
+  color: var(--aa-ink-2); cursor: pointer; padding: 0;
+  font: inherit; font-size: 14px; line-height: 1;
+}
+.asg-ab-bump button:hover:not(:disabled) { border-color: var(--aa-accent-2); color: var(--aa-accent); }
+.asg-ab-bump button:disabled { opacity: .3; cursor: not-allowed; }
+
+/* PBE / Tier banner */
+.asg-readout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding: 12px 0 4px;
+  border-top: 1px dotted var(--aa-rule);
+  margin-top: 14px;
+}
+.asg-readout-cell {
+  text-align: center;
+}
+.asg-readout-k {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 10px; letter-spacing: .22em; color: var(--aa-ink-3);
+  text-transform: uppercase;
+}
+.asg-readout-v {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600; font-size: 22px; color: var(--aa-ink);
+  font-variant-numeric: tabular-nums;
+  margin-top: 1px;
+}
+.asg-tier-pill {
+  display: inline-block;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 10px; letter-spacing: .24em;
+  padding: 2px 10px 1px; border-radius: 999px;
+  border: 1px solid var(--aa-accent-2);
+  background: rgba(201,162,76,.06);
+  color: var(--aa-accent); text-transform: uppercase;
+}
+.asg-tier-pill--avg     { border-color: #5a6e3a; color: #a4c267; background: rgba(164,194,103,.06); }
+.asg-tier-pill--elite   { border-color: var(--aa-accent-2); color: var(--aa-accent); }
+.asg-tier-pill--heroic  { border-color: #b08758; color: #e6c08a; background: rgba(230,192,138,.07); }
+.asg-tier-pill--mythic  { border-color: var(--aa-ember); color: #e08a5a; background: rgba(179,87,31,.08); }
+.asg-tier-pill--feeble  { border-color: #5a4030; color: #b88068; }
+
+/* Pool — for drag-source scores */
+.asg-pool {
+  margin-top: 14px;
+}
+.asg-pool-head {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .22em; font-size: 10.5px;
+  color: var(--aa-ink-3); text-transform: uppercase;
+  margin-bottom: 8px;
+  display: flex; align-items: baseline; justify-content: space-between;
+}
+.asg-pool-hint { font-family: 'EB Garamond', serif; letter-spacing: 0; text-transform: none; font-style: italic; color: var(--aa-ink-3); font-size: 12.5px; }
+.asg-pool-list {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  padding: 8px;
+  background: rgba(0,0,0,.18);
+  border: 1px dotted var(--aa-rule);
+  border-radius: 3px;
+  min-height: 56px;
+}
+.asg-pool-chip {
+  display: inline-flex; flex-direction: column; align-items: center;
+  min-width: 50px;
+  padding: 6px 6px 5px;
+  background: #15120d;
+  border: 1px solid var(--aa-rule);
+  border-radius: 3px;
+  cursor: grab;
+  font: inherit;
+  color: var(--aa-ink);
+  transition: all .12s ease;
+}
+.asg-pool-chip:active { cursor: grabbing; }
+.asg-pool-chip:hover:not(.is-used):not(:disabled) { border-color: var(--aa-accent); color: var(--aa-accent); }
+.asg-pool-chip.is-used { opacity: .25; text-decoration: line-through; cursor: not-allowed; }
+.asg-pool-chip.is-selected { border-color: var(--aa-accent); background: linear-gradient(180deg, #3a2d18, #2a2013); color: var(--aa-accent); }
+.asg-pool-chip-val {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 18px;
+}
+.asg-pool-chip-detail {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 9px; letter-spacing: .14em; color: var(--aa-ink-3);
+}
+
+/* Dice readout — small, monospaced-ish for showing individual dice */
+.asg-dice-row {
+  display: flex; gap: 4px; flex-wrap: wrap; align-items: center;
+  font-variant-numeric: tabular-nums;
+  font-size: 12.5px; color: var(--aa-ink-2);
+}
+.asg-die {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px; border-radius: 3px;
+  background: #15120d; border: 1px solid var(--aa-rule);
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  color: var(--aa-ink);
+}
+.asg-die.is-dropped { opacity: .35; text-decoration: line-through; }
+.asg-die.is-kept { border-color: var(--aa-accent-2); color: var(--aa-accent); }
+.asg-die-sep { color: var(--aa-ink-3); margin: 0 2px; }
+
+/* Matrix table */
+.asg-matrix {
+  border-collapse: collapse;
+  margin: 6px 0 12px;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+.asg-matrix td {
+  border: 1px solid var(--aa-rule);
+  padding: 6px 0;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px; font-weight: 600;
+  color: var(--aa-ink);
+  width: 14%;
+  cursor: pointer;
+  background: #15120d;
+  transition: background .12s ease;
+}
+.asg-matrix td:hover { background: rgba(201,162,76,.07); }
+.asg-matrix .corner {
+  width: 28px; background: transparent; border-color: transparent;
+  font-family: 'IM Fell English SC', serif; font-size: 10px;
+  color: var(--aa-ink-3); cursor: default; padding: 0 4px;
+}
+.asg-matrix .corner:hover { background: transparent; }
+.asg-matrix td.is-hl {
+  background: linear-gradient(180deg, #3a2d18, #2a2013);
+  color: var(--aa-accent);
+  box-shadow: inset 0 0 0 1px var(--aa-accent);
+}
+.asg-matrix-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.asg-matrix-btn {
+  font: inherit; font-family: 'IM Fell English SC', serif;
+  font-size: 10.5px; letter-spacing: .2em; text-transform: uppercase;
+  background: #15120d; border: 1px solid var(--aa-rule);
+  color: var(--aa-ink-2); border-radius: 2px;
+  padding: 6px 10px; cursor: pointer;
+}
+.asg-matrix-btn:hover { color: var(--aa-accent); border-color: var(--aa-accent-2); }
+.asg-matrix-btn.is-on { color: var(--aa-accent); border-color: var(--aa-accent); background: linear-gradient(180deg, #3a2d18, #2a2013); }
+
+/* Targeted (Method VIII) dice profile bar */
+.asg-prof-bar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  margin: 10px 0 14px;
+}
+.asg-prof-bar > div {
+  text-align: center;
+  background: rgba(0,0,0,.18);
+  border: 1px dotted var(--aa-rule);
+  border-radius: 3px;
+  padding: 6px 4px;
+}
+.asg-prof-bar .ab {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 10px; letter-spacing: .2em;
+  color: var(--aa-ink-3); text-transform: uppercase;
+}
+.asg-prof-bar .dn {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 17px;
+  color: var(--aa-accent); margin-top: 2px;
+}
+
+/* Cards — Hand of Fate */
+.asg-card-pool {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin: 10px 0 12px;
+  padding: 6px;
+  background: rgba(0,0,0,.18);
+  border: 1px dotted var(--aa-rule);
+  border-radius: 3px;
+  min-height: 76px;
+}
+.asg-card-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.asg-card-btn:hover:not(:disabled) { transform: translateY(-2px); }
+.asg-card-btn:disabled { cursor: not-allowed; }
+.asg-card-btn.is-used .asg-card { opacity: .25; filter: saturate(.3); }
+.asg-card-btn.is-selected { box-shadow: 0 0 0 2px var(--aa-accent), 0 6px 14px rgba(201,162,76,.25); }
+.asg-card-btn.is-selected .asg-card { transform: translateY(-3px); }
+.asg-card {
+  width: 42px; height: 60px;
+  background: #faf3e1;
+  border: 1px solid #1c1611;
+  border-radius: 4px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: #1c1611;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.05;
+  box-shadow: 0 2px 6px rgba(0,0,0,.4);
+  position: relative;
+  cursor: default;
+}
+.asg-card.suit-h, .asg-card.suit-d { color: #8a1a1a; }
+.asg-card-rank { font-size: 18px; }
+.asg-card-suit { font-size: 14px; margin-top: -2px; }
+.asg-card.is-leftover { opacity: .35; filter: saturate(.4); }
+.asg-handlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+.asg-handlist-item {
+  background: rgba(0,0,0,.2);
+  border: 1px solid var(--aa-rule);
+  border-left: 2px solid var(--aa-accent-2);
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+.asg-handlist-kind {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .2em; font-size: 10px;
+  color: var(--aa-accent); text-transform: uppercase;
+}
+.asg-handlist-score {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 22px; color: var(--aa-ink); float: right;
+}
+.asg-handlist-cards { display: flex; gap: 4px; margin-top: 6px; }
+.asg-handlist-cards .asg-card-btn { padding: 0; }
+.asg-handlist-cards .asg-card-btn.small .asg-card { width: 30px; height: 42px; font-size: 13px; }
+.asg-handlist-cards .asg-card-btn.small .asg-card .asg-card-rank { font-size: 13px; }
+.asg-handlist-cards .asg-card-btn.small .asg-card .asg-card-suit { font-size: 11px; }
+.asg-card-slot-empty {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 42px;
+  border: 1px dashed var(--aa-rule);
+  border-radius: 4px;
+  color: var(--aa-rule);
+  font-size: 16px;
+}
+.asg-handslot { position: relative; cursor: pointer; transition: background .12s ease, border-color .12s ease; }
+.asg-handslot.is-target { outline: 1px dashed var(--aa-accent); outline-offset: -2px; }
+.asg-handslot.is-empty { opacity: .85; }
+.asg-handslot.is-empty .asg-handlist-score { color: var(--aa-rule); }
+.asg-handslot.is-good { border-left-color: var(--aa-accent); }
+.asg-handslot.is-good .asg-handlist-score { color: var(--aa-accent); }
+.asg-handslot.is-good .asg-handlist-kind { color: var(--aa-accent); }
+.asg-handslot.is-bad { border-left-color: var(--aa-ember); }
+.asg-handslot.is-bad .asg-handlist-score { color: var(--aa-ember); }
+.asg-handslot.is-bad .asg-handlist-kind { color: #e08a5a; }
+.asg-handslot .partclear {
+  position: absolute; top: 8px; right: 10px;
+  background: transparent; border: none; color: var(--aa-ink-3);
+  font-size: 11px; cursor: pointer; padding: 0;
+  font-family: 'IM Fell English SC', serif; letter-spacing: .18em; text-transform: uppercase;
+}
+.asg-handslot .partclear:hover { color: var(--aa-ember); }
+
+/* Rolemaster two-track display */
+.asg-rmrow {
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px;
+  margin: 8px 0 6px;
+}
+.asg-rmcell {
+  background: rgba(0,0,0,.18);
+  border: 1px dotted var(--aa-rule);
+  border-top: 2px solid var(--aa-accent-2);
+  border-radius: 3px;
+  padding: 8px 4px 10px; text-align: center;
+}
+.asg-rmcell-lbl {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 10px; letter-spacing: .2em;
+  color: var(--aa-ink-3); text-transform: uppercase;
+}
+.asg-rmcell-start { font-family:'Cormorant Garamond', serif; font-weight: 600; font-size: 26px; color: var(--aa-ink); }
+.asg-rmcell-arrow { color: var(--aa-accent-2); font-size: 12px; margin-top: -2px; }
+.asg-rmcell-max { font-family:'Cormorant Garamond', serif; font-weight: 600; font-size: 18px; color: var(--aa-accent); margin-top: 2px; }
+.asg-rmcell-dice { font-size: 11px; color: var(--aa-ink-3); margin-top: 4px; line-height: 1.3; }
+
+/* Help / explainer note */
+.aa-note {
+  margin: 2px 0 0;
+  padding: 10px 12px;
+  background: rgba(201, 162, 76, 0.04);
+  border-left: 2px solid var(--aa-accent-2);
+  font-size: 13px; line-height: 1.5; color: var(--aa-ink-2);
+  font-style: italic;
+}
+.aa-note em { color: var(--aa-accent); font-style: normal; font-weight: 500; }
+.aa-note strong { color: var(--aa-ink); font-weight: 600; font-style: normal; }
+.aa-note-warn {
+  border-left-color: var(--aa-ember);
+  background: rgba(179, 87, 31, 0.05);
+}
+.aa-note-warn em { color: #e08a5a; }
+
+/* Roster (right panel — paper sheet) */
+.aa-right { display: flex; flex-direction: column; gap: 14px; }
+.aa-tavern-name {
+  display: flex; align-items: center; gap: 10px; padding: 0 2px;
+}
+.aa-tavern-label {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .28em; font-size: 11px; color: var(--aa-ink-3);
+}
+.aa-tavern-input {
+  flex: 1; background: transparent; color: var(--aa-ink);
+  border: none; border-bottom: 1px solid var(--aa-rule);
+  padding: 6px 2px; font: inherit;
+  font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 500;
+}
+.aa-tavern-input:focus { outline: none; border-bottom-color: var(--aa-accent); }
+
+.aa-menu {
+  background: linear-gradient(180deg, var(--aa-paper) 0%, var(--aa-paper-2) 100%);
+  color: var(--aa-paper-ink);
+  border-radius: 4px;
+  border: 1px solid #5c4527;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0,0,0,.4);
+  flex: 1; display: flex; flex-direction: column;
+  min-height: 560px;
+}
+.aa-menu::before {
+  content: ""; position: absolute; inset: 8px;
+  border: 1px double #6b4f2c;
+  pointer-events: none; border-radius: 2px;
+}
+.aa-menu-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 22px 10px; border-bottom: 1px dotted var(--aa-paper-rule-2);
+}
+.aa-h3 {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 20px; letter-spacing: .02em; margin: 0; color: var(--aa-paper-ink);
+}
+.aa-count {
+  display: inline-block; font-family: 'IM Fell English SC', serif;
+  font-size: 10px; letter-spacing: .2em; color: var(--aa-paper-ink-3);
+  margin-left: 6px; vertical-align: middle;
+}
+.aa-menu-actions .aa-btn-ghost {
+  color: #3b2f1d; border-color: var(--aa-paper-rule-2); background: rgba(255,255,255,.15);
+}
+.aa-menu-actions .aa-btn-ghost:hover:not(:disabled) { color:#1c1611; border-color:#3b2f1d; }
+
+.aa-menu-scroll { overflow-y: auto; padding: 12px 22px 18px; flex: 1; }
+.aa-menu-list { list-style: none; padding: 0; margin: 0; }
+.aa-menu-item {
+  padding: 14px 0 14px;
+  border-bottom: 1px dotted var(--aa-paper-rule);
+}
+.aa-menu-item:last-child { border-bottom: none; }
+.aa-menu-item-head {
+  display: grid; grid-template-columns: 28px 1fr auto;
+  gap: 10px; align-items: baseline;
+}
+.aa-menu-num {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 12px; letter-spacing: .14em; color: var(--aa-paper-ink-3);
+}
+.aa-menu-title { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.aa-menu-title h4 {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 17.5px; margin: 0; color: var(--aa-paper-ink);
+}
+.aa-menu-type {
+  font-family: 'IM Fell English SC', serif; font-size: 10px;
+  letter-spacing: .2em; color: var(--aa-paper-ink-3);
+}
+.aa-x {
+  background: transparent; border: 1px solid transparent;
+  color: var(--aa-paper-rule-2); font-size: 18px; line-height: 1;
+  width: 22px; height: 22px; border-radius: 50%; cursor: pointer; padding: 0;
+}
+.aa-x:hover { color: #7a3b24; border-color: #c99; }
+
+/* Roster ability grid (paper) */
+.asg-roster-array {
+  display: grid; grid-template-columns: repeat(6, 1fr);
+  gap: 6px; margin: 8px 0 0;
+  font-variant-numeric: tabular-nums;
+}
+.asg-roster-ab {
+  text-align: center;
+  background: rgba(155,122,74,.08);
+  border: 1px solid var(--aa-paper-rule);
+  border-radius: 2px;
+  padding: 4px 0 6px;
+}
+.asg-roster-ab .lbl {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 9.5px; letter-spacing: .2em;
+  color: var(--aa-paper-ink-3); text-transform: uppercase;
+}
+.asg-roster-ab .val {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 18px; color: var(--aa-paper-ink); line-height: 1.05;
+}
+.asg-roster-ab .mod {
+  font-family: 'EB Garamond', serif;
+  font-size: 10.5px; color: var(--aa-paper-ink-3); font-variant-numeric: tabular-nums;
+}
+.asg-roster-ab.has-max .val::after {
+  content: " / " attr(data-max);
+  font-size: 12px; color: var(--aa-paper-ink-3); font-weight: 400;
+}
+.asg-roster-meta {
+  margin-top: 6px; font-size: 12.5px; color: var(--aa-paper-ink-2);
+  display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline;
+}
+.asg-roster-meta em {
+  font-family: 'IM Fell English SC', serif; font-style: normal;
+  letter-spacing: .18em; font-size: 10px; color: var(--aa-paper-ink-3);
+  text-transform: uppercase; margin-right: 3px;
+}
+
+.aa-empty { text-align: center; padding: 50px 20px 40px; color: var(--aa-paper-ink-3); }
+.aa-empty-mark { font-size: 32px; color: var(--aa-paper-rule-2); margin-bottom: 6px; }
+.aa-empty p { margin: 4px 0; font-family: 'Cormorant Garamond', serif; font-size: 18px; }
+.aa-empty-sub { color: var(--aa-paper-rule-2); font-size: 14px; }
+
+.aa-right-actions { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+
+/* footer */
+.aa-footer {
+  display: flex; align-items: center; justify-content: center; gap: 18px;
+  padding: 30px 0 8px; font-family: 'IM Fell English SC', serif;
+  letter-spacing: .24em; font-size: 11px; color: var(--aa-ink-3);
+  margin-top: 10px; border-top: 1px solid var(--aa-rule);
+}
+.aa-orn { color: var(--aa-accent); font-size: 14px; letter-spacing: 0; }
+
+/* Char-name */
+.asg-charname-row {
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  padding: 12px 0 8px;
+  border-top: 1px dotted var(--aa-rule);
+  margin-top: 14px;
+}
+.asg-charname-row label {
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: .22em; font-size: 10.5px; color: var(--aa-ink-3);
+  text-transform: uppercase;
+}
+.asg-charname-input {
+  flex: 1; background: transparent; color: var(--aa-ink);
+  border: none; border-bottom: 1px solid var(--aa-rule);
+  padding: 4px 2px; font: inherit;
+  font-family: 'Cormorant Garamond', serif; font-size: 20px;
+}
+.asg-charname-input:focus { outline: none; border-bottom-color: var(--aa-accent); }
+
+/* Scrollbars */
+.aa-menu-scroll::-webkit-scrollbar { width: 8px; }
+.aa-menu-scroll::-webkit-scrollbar-track { background: transparent; }
+.aa-menu-scroll::-webkit-scrollbar-thumb { background: #b2905c; border-radius: 4px; }
+
+/* Inline helpers */
+.asg-bigtotal {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 26px; color: var(--aa-accent);
+}
+.asg-numpill {
+  display: inline-block; padding: 1px 7px;
+  border-radius: 999px; border: 1px solid var(--aa-rule);
+  font-size: 12px; color: var(--aa-ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.asg-numpill strong { color: var(--aa-accent); font-weight: 600; }
+
+/* Method-specific spacing */
+.asg-method-body { display: flex; flex-direction: column; gap: 14px; }
+.asg-method-body > .aa-note + .aa-note { margin-top: -4px; }
+
+/* Pool partition grouping (Method VII) */
+.asg-partition {
+  display: grid; grid-template-columns: repeat(6, 1fr);
+  gap: 8px; margin-top: 12px;
+}
+.asg-partbox {
+  background: rgba(0,0,0,.2);
+  border: 1px solid var(--aa-rule);
+  border-top: 2px solid var(--aa-accent-2);
+  border-radius: 3px;
+  padding: 8px 6px 10px; text-align: center; min-height: 96px;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+}
+.asg-partbox.is-target { outline: 1px dashed var(--aa-accent); }
+.asg-partbox .lbl {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 10px; letter-spacing: .2em; color: var(--aa-ink-3);
+}
+.asg-partbox .dice {
+  display: flex; gap: 3px; flex-wrap: wrap; justify-content: center;
+}
+.asg-partbox .sum {
+  font-family: 'Cormorant Garamond', serif; font-weight: 600;
+  font-size: 20px; color: var(--aa-ink); margin-top: auto;
+}
+.asg-partbox .partclear {
+  background: transparent; border: none; color: var(--aa-ink-3); font-size: 11px;
+  cursor: pointer; padding: 0; margin-top: 2px;
+}
+.asg-partbox .partclear:hover { color: var(--aa-ember); }

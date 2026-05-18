@@ -4,7 +4,11 @@
 
 <div class="main-content" markdown="1">
 
-A comprehensive guide to thirteen methods of ability score generation for your campaign. Choosing how to generate ability scores is one of the most consequential decisions for a new campaign — the method used sets the baseline for party power level and balance. This guide breaks down the most common methods to help your group navigate that conversation during Session 0.
+A comprehensive guide to thirteen methods of ability score generation for your campaign. Choosing how to generate ability scores is one of the most consequential decisions for a new campaign; the method used sets the baseline for party power level and balance. This guide breaks down the most common methods to help your group navigate that conversation during Session 0.
+
+### Interactive Tool
+
+<a href="../ability-score-tool/index.html" target="_blank" class="md-button md-button--primary">Launch the Ability Score Generator</a>
 
 ### Download the PDF
 
@@ -12,10 +16,10 @@ A comprehensive guide to thirteen methods of ability score generation for your c
 
 ## Terminology
 
-- **Array** — A list of six ability scores. 
-- **MAD** — Multiple Ability Dependent. 
-- **SAD** — Single Ability Dependent. 
-- **Set** — A set of dice used to generate a score (e.g., 3d6).
+- **Array**. A list of six ability scores. 
+- **MAD**. Multiple Ability Dependent. 
+- **SAD**. Single Ability Dependent. 
+- **Set**. A set of dice used to generate a score (e.g., 3d6).
 
 To provide a consistent measure of an array's power level, this guide uses a metric called **Point Buy Equivalent (PBE)** and classifies arrays into four tiers based on the Method I Point Buy system:
 
@@ -253,7 +257,7 @@ This method requires rolling a set of four six-sided dice (4d6) for each ability
 
 ### Alternatives
 
-The scores can be rolled in order as they appear on the character sheet, allowing the player to discover their character. Roll a set of 5d6 and drop the two lowest dice to result in Heroic characters. Combined with a set average (such as 10, 11, or 12) — if the average of the six scores is below the average, the player may reroll and most often results in Heroic characters. Reroll the lowest score or two lowest scores to result in Heroic characters. Roll more than one full array (typically two) and choose which one to keep, most often resulting in Heroic characters. The GM, or the group, rolls sets toward a single array that all players in the group must use, assigning scores as they choose, most often resulting in Elite characters. Roll seven sets of scores and keep the six highest results to result in Heroic characters. The GM rolls a secret array — after players roll their own scores, each can choose to either keep their own array or swap it for the GM's unseen array, most often resulting in Heroic characters.
+The scores can be rolled in order as they appear on the character sheet, allowing the player to discover their character. Roll a set of 5d6 and drop the two lowest dice to result in Heroic characters. Combined with a set average (such as 10, 11, or 12); if the average of the six scores is below the average, the player may reroll and most often results in Heroic characters. Reroll the lowest score or two lowest scores to result in Heroic characters. Roll more than one full array (typically two) and choose which one to keep, most often resulting in Heroic characters. The GM, or the group, rolls sets toward a single array that all players in the group must use, assigning scores as they choose, most often resulting in Elite characters. Roll seven sets of scores and keep the six highest results to result in Heroic characters. The GM rolls a secret array, after players roll their own scores, each can choose to either keep their own array or swap it for the GM's unseen array, most often resulting in Heroic characters.
 
 ### Analysis
 

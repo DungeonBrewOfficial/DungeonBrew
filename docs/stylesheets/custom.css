@@ -22,10 +22,10 @@
   font-weight: bold;
   color: var(--dark-gold-2);
   text-shadow:
-      -1px -1px 0 var(--main-white),
-       1px -1px 0 var(--main-white),
-      -1px  1px 0 var(--main-white),
-       1px  1px 0 var(--main-white);
+       1px  1px 0 var(--dark-gold-1),
+       1px  1px 0 var(--dark-gold-1),
+       1px  1px 0 var(--dark-gold-1),
+       1px  1px 0 var(--dark-gold-1);
 }
 
 .md-typeset h2 {
@@ -40,13 +40,13 @@
   font-size: 0.9rem !important;
   margin-top: 0.6rem !important;
   margin-bottom: 0.1rem !important;
-  color: var(--main-black);
+  color: var(--light-gray);
   font-weight: bold;
   text-shadow:
-      -1px -1px 0 var(--main-white),
-       1px -1px 0 var(--main-white),
-      -1px  1px 0 var(--main-white),
-       1px  1px 0 var(--main-white);
+       1px  1px 0 var(--dark-gold-2),
+       1px  1px 0 var(--dark-gold-2),
+       1px  1px 0 var(--dark-gold-2),
+       1px  1px 0 var(--dark-gold-2);
 }
 
 .md-typeset h4 {

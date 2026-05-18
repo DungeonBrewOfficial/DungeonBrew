@@ -1,0 +1,366 @@
+/* ============================================================
+   TTRPG Stat Block — DungeonBrew Theme
+   Adapted from Claude Design template.
+   Loaded via extra_css in mkdocs.yml.
+   ============================================================ */
+
+/* Fonts — Lora + JetBrains Mono not loaded by site, import here */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@500;700&display=swap');
+
+/* ---------- Tokens ---------- */
+.statblock {
+  --sb-bg:        #282a30;
+  --sb-bg-alt:    #2c2e34;
+  --sb-ink:       #e8e2d4;
+  --sb-ink-soft:  #b8b0a0;
+  --sb-ink-dim:   #8a8378;
+  --sb-rule:      #3a3c42;
+  --sb-rule-soft: #32343a;
+  --sb-accent:    #c9a24c;
+  --sb-accent-dim:#a07c33;
+  --sb-save-bg:   #2e3036;
+
+  --sb-font-display: "IM Fell English SC", "Cinzel", Georgia, serif;
+  --sb-font-body:    "Lora", Georgia, "Times New Roman", serif;
+  --sb-font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --sb-fs-name:   22px;
+  --sb-fs-head:   14px;
+  --sb-fs-body:   13px;
+  --sb-fs-small:  11.5px;
+
+  --sb-pad:       14px 16px 16px;
+  --sb-radius:    2px;
+  --sb-col-gap:   22px;
+}
+
+/* ---------- Shell ---------- */
+.statblock {
+  font-family: var(--sb-font-body) !important;
+  font-size:   var(--sb-fs-body) !important;
+  line-height: 1.45 !important;
+  color:       var(--sb-ink) !important;
+  background:  var(--sb-bg) !important;
+  border: 1px solid var(--sb-rule) !important;
+  border-radius: var(--sb-radius);
+  padding: var(--sb-pad) !important;
+  margin: 1rem 0;
+  max-width: 880px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.02) inset,
+              0 8px 24px -12px rgba(0,0,0,0.6);
+  column-count: 2;
+  column-gap: var(--sb-col-gap);
+  column-rule: 1px solid var(--sb-rule-soft);
+}
+
+/* Narrow variant */
+.statblock--narrow {
+  column-count: 1;
+  max-width: 440px;
+}
+.statblock--narrow .statblock__header { column-span: none; }
+
+/* Header spans both columns */
+.statblock__header {
+  column-span: all;
+  margin-bottom: 6px;
+}
+
+/* MkDocs wraps tables — keep them intact, allow scroll if too narrow */
+.statblock .md-typeset__scrollwrap {
+  break-inside: avoid !important;
+  page-break-inside: avoid !important;
+  overflow-x: auto !important;
+  margin: 0 !important;
+}
+.statblock .md-typeset__table {
+  break-inside: avoid !important;
+  page-break-inside: avoid !important;
+  margin: 0 !important;
+}
+
+/* No column breaks inside blocks */
+.statblock > *,
+.statblock__section > * {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* ---------- Override .md-typeset ---------- */
+.md-typeset .statblock p,
+.md-typeset .statblock li,
+.md-typeset .statblock td,
+.md-typeset .statblock th,
+.md-typeset .statblock span,
+.md-typeset .statblock div {
+  font-size: var(--sb-fs-body) !important;
+  line-height: 1.45 !important;
+  color: var(--sb-ink) !important;
+  font-family: var(--sb-font-body) !important;
+}
+.md-typeset .statblock h2,
+.md-typeset .statblock h3,
+.md-typeset .statblock h4 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-shadow: none !important;
+  color: var(--sb-ink) !important;
+}
+.md-typeset .statblock table {
+  width: 100% !important;
+  display: table !important;
+}
+.md-typeset .statblock ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.md-typeset .statblock li {
+  margin-bottom: 2px !important;
+}
+
+/* ---------- Header ---------- */
+.statblock__name {
+  font-family: var(--sb-font-display) !important;
+  font-size: var(--sb-fs-name) !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em;
+  color: var(--sb-ink) !important;
+  margin: 0 0 2px !important;
+  line-height: 1.1 !important;
+}
+.statblock__type {
+  font-style: italic;
+  font-size: var(--sb-fs-small) !important;
+  color: var(--sb-ink-soft) !important;
+  margin: 0 0 8px !important;
+  font-family: var(--sb-font-body) !important;
+}
+.statblock__header::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right,
+    var(--sb-accent) 0%,
+    var(--sb-accent-dim) 35%,
+    var(--sb-rule) 100%);
+  margin-top: 5px;
+}
+
+/* ---------- Top stats ---------- */
+.statblock__topstats {
+  margin: 4px 0 8px;
+}
+.statblock__topstats p {
+  margin: 2px 0 !important;
+}
+.statblock__topstats .label {
+  font-weight: 700;
+  color: var(--sb-accent) !important;
+  letter-spacing: 0.02em;
+  margin-right: 2px;
+}
+.statblock__topstats .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ---------- Ability table ---------- */
+.statblock__abilities {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6px 0 8px;
+  font-family: var(--sb-font-mono) !important;
+  font-size: var(--sb-fs-small) !important;
+}
+.md-typeset .statblock__abilities th,
+.md-typeset .statblock__abilities td {
+  padding: 2px 3px !important;
+  text-align: center;
+  border-top: 1px solid var(--sb-rule-soft) !important;
+  border-bottom: 1px solid var(--sb-rule-soft) !important;
+  font-size: var(--sb-fs-small) !important;
+  font-family: var(--sb-font-mono) !important;
+  white-space: nowrap;
+}
+.statblock__abilities .ability-name {
+  font-family: var(--sb-font-display) !important;
+  font-size: 11px !important;
+  letter-spacing: 0.08em;
+  color: var(--sb-ink) !important;
+  text-align: left;
+  padding-left: 0 !important;
+}
+.statblock__abilities .col-head {
+  font-family: var(--sb-font-display) !important;
+  font-size: 9px !important;
+  letter-spacing: 0.1em;
+  color: var(--sb-ink-dim) !important;
+  font-weight: 400;
+  border: none !important;
+  padding-bottom: 0 !important;
+}
+.statblock__abilities .score {
+  color: var(--sb-ink) !important;
+  font-weight: 700;
+}
+.statblock__abilities .mod {
+  color: var(--sb-ink-soft) !important;
+}
+.statblock__abilities .save {
+  color: var(--sb-ink) !important;
+  background: var(--sb-save-bg) !important;
+}
+.statblock__abilities .gap {
+  width: 4px;
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+/* ---------- Tagged lines ---------- */
+.statblock__tags {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+.md-typeset .statblock__tags li {
+  margin: 2px 0 !important;
+  font-size: var(--sb-fs-body) !important;
+}
+.statblock__tags .label {
+  font-weight: 700;
+  color: var(--sb-accent) !important;
+}
+
+/* ---------- Section headers ---------- */
+.statblock__section {
+  margin-top: 10px;
+}
+.statblock__section-title {
+  font-family: var(--sb-font-display) !important;
+  font-size: var(--sb-fs-head) !important;
+  letter-spacing: 0.08em;
+  color: var(--sb-ink) !important;
+  margin: 0 0 5px !important;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--sb-accent-dim);
+  font-weight: 400 !important;
+}
+
+/* ---------- Entries ---------- */
+.statblock__entry {
+  margin: 0 0 6px;
+}
+.statblock__entry .entry-name {
+  font-style: italic;
+  font-weight: 600;
+  color: var(--sb-ink) !important;
+}
+.md-typeset .statblock__entry p {
+  margin: 0 !important;
+  display: inline;
+}
+.statblock__entry .cont {
+  display: block;
+  margin-top: 4px !important;
+  text-indent: 1rem;
+}
+
+/* Spellcasting list */
+.statblock__spells {
+  margin: 4px 0 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+.md-typeset .statblock__spells li {
+  margin: 1px 0 !important;
+  text-indent: -1.4rem;
+  padding-left: 1.4rem;
+  font-size: var(--sb-fs-body) !important;
+}
+.statblock__spells .freq {
+  font-weight: 700;
+  color: var(--sb-accent) !important;
+  margin-right: 5px;
+}
+
+/* ---------- Lore block ---------- */
+.statblock-lore {
+  font-family: var(--sb-font-body) !important;
+  color: var(--sb-ink);
+  max-width: 880px;
+  margin: 1rem 0;
+  columns: 3;
+  column-gap: var(--sb-col-gap);
+  column-rule: 1px solid var(--sb-rule-soft);
+}
+.md-typeset .statblock-lore h2,
+.md-typeset .statblock-lore h3 {
+  font-family: var(--sb-font-display) !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.06em;
+  color: var(--sb-accent) !important;
+  text-shadow: none !important;
+  break-after: avoid;
+}
+.md-typeset .statblock-lore h2 {
+  font-size: 22px !important;
+  margin: 0 0 6px !important;
+}
+.md-typeset .statblock-lore h3 {
+  font-size: 15px !important;
+  margin: 8px 0 4px !important;
+}
+.md-typeset .statblock-lore p {
+  margin: 0 0 7px !important;
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+  font-family: var(--sb-font-body) !important;
+  text-align: justify;
+  hyphens: auto;
+}
+.md-typeset .statblock-lore p + p {
+  text-indent: 1.25rem;
+}
+
+/* ---------- Side-by-side layout ---------- */
+.block-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.block-row .statblock {
+  flex: 0 1 440px;
+  margin: 0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 720px) {
+  .statblock {
+    column-count: 1;
+    padding: 10px 12px 12px !important;
+    --sb-fs-name: 18px;
+  }
+  .statblock-lore { columns: 1; }
+}
+
+/* ---------- Print ---------- */
+@media print {
+  .statblock {
+    background: white !important;
+    color: black !important;
+    border-color: #888 !important;
+    box-shadow: none;
+    --sb-ink: #000;
+    --sb-ink-soft: #222;
+    --sb-ink-dim: #555;
+    --sb-rule: #999;
+    --sb-rule-soft: #bbb;
+    --sb-accent: #6b2a14;
+    --sb-accent-dim: #8a4524;
+    --sb-save-bg: #eee;
+  }
+}

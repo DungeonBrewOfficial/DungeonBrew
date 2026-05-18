@@ -129,3 +129,4 @@ plugins:
 
 extra_css:
   - stylesheets/custom.css
+  - stylesheets/statblock.css

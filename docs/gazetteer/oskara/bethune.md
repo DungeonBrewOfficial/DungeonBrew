@@ -189,3 +189,209 @@ House Wickham has been the steward of Bethune's religious institutions since the
 </div>
 
 </div>
+
+---
+
+## The Plagues
+
+<div class="page-split-equal" markdown="1">
+
+<div class="sidebar-content" markdown="1">
+
+Plagues have shaped Bellegrad’s history as much as its rulers, leaving scars across its society and reshaping its power structures. From the catastrophic Great Plague that marked the dawn of the Blight Age to the slow, creeping grip of the Withering now devastating the city, each outbreak has tested Bellegrad’s resilience. The city’s stratified society, reliance on the God King’s protection, and the political maneuvering of the Divine Council have been constants throughout these crises, ensuring that while the city survives, it is forever changed.
+
+### The Great Plague (1–4 BTA)
+
+The first and most devastating plague, marking the beginning of the Blight Age (BTA). It swept through the world, bringing nations to their knees. In Bellegrad, it killed the entire royal family, paving the way for the rise of the God King. Known for its virulence and high mortality, the Great Plague is remembered as the sickness that ended an era and began another.  
+
+**The Great Plague**  
+
+*Magical Contagion*  
+
+Carried by infected fleas and rats, the Great Plague spreads through vermin bites and contact with plague-ridden corpses. Any Humanoid that is bitten by an infected vermin, touches a contaminated corpse, or comes into contact with an infected creature must succeed on a DC 15 Constitution saving throw or become infected. A creature suffers the following effects 1d3 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Fever.** The creature has Disadvantage on Intelligence and Wisdom ability checks and saving throws.  
+
+**Pain.** The creature has Disadvantage on Concentration checks.  
+
+**Fighting the Contagion.** Every 12 hours, an infected creature makes a DC 15 Constitution saving throw. On a failed save, the creature gains one of the following symptoms (in order):
+
+</div>
+
+- **Inflammation.** The creature is Vulnerable to Slashing and Piercing damage.  
+- **Bleeding.** Each failed save results in 1d3 Necrotic damage. The creature cannot regain hit points until the contagion ends.  
+- **Organ Failure**. The creature’s hit point maximum is halved.  
+- Death.
+
+On a successful save, the creature removes the most recent symptom. If the creature goes 24 hours without a symptom worsening, the contagion ends.
+
+### The Second Death (83–85 BTA)
+
+Nearly a century after the Great Plague, the Second Death struck Bellegrad, targeting both the city’s nobility and its lower classes. This plague was particularly feared for its rapid onset and gruesome symptoms. The Plague Wardens, first established during this time, and the Kidham family who commanded them were credited with containing the outbreak.  
+
+**The Second Death**  
+
+*Magical Contagion*   
+
+The Second Death is airborne, spreading rapidly through contaminated air. Any Humanoid that breathes in infected air must succeed on a DC 16 Constitution saving throw or become infected. A creature suffers the following effects 1d3 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Fever.** The creature has Disadvantage on Intelligence and Wisdom ability checks and saving throws.  
+
+**Weakness.** The creature has Disadvantage on Strength and Dexterity ability checks and saving throws.  
+
+**Fighting the Contagion.** Daily, at dawn, an infected creature makes a DC 16 Constitution saving throw. On a failed save, the disease persists. On a failed save by 5 or more, the creature begins vomiting blood and takes 1d4 Necrotic damage. Once this symptom begins, this damage recurs every 24 hours and cannot be healed until the contagion ends. The contagion ends after three successful saving throws.
+
+</div>
+
+### The Black Vein (155–168 BTA)
+
+This plague earned its name from the distinctive blackened veins it caused, which marked its victims. While the visibility of this plague made it somewhat easier to spot, and therefore to contain, the length of it caused prolonged hardship for the city and questioning of the God King’s power. The Fairweather family rose to prominence by stabilizing the economy during this crisis.  
+
+**The Black Vein**  
+
+*Magical Contagion*   
+
+The Black Vein contaminates still water, festering in abandoned wells and untreated reservoirs. Any Humanoid that drinks or bathes in infected water must succeed on a DC 13 Constitution saving throw or become infected. Creatures resistant to Necrotic damage have Advantage on the save and creatures immune to Necrotic damage cannot be infected. A creature suffers the following effects 2d6 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Weakness.** The creature has Disadvantage on Strength and Dexterity ability checks and saving throws.  
+
+**Fighting the Contagion.** Daily, at dawn, an infected creature makes a DC 13 Constitution saving throw. On a failed save, the disease persists, and the creature rolls a d6, reducing the corresponding ability score by 1\. If any ability score reaches 0, the creature dies. On a failed save by 5 or more, the creature suffers Organ Failure, and its hit point maximum is halved. The contagion ends after three consecutive saving throws. If a creature has continuous Necrotic resistance for 24 hours, they have advantage on the Constitution save. If a creature has immunity to Necrotic damage, for 72 hours, the contagion ends on the creature.
+
+</div>
+
+### The Red Death (234–236 BTA)
+
+Named for the uncontrollable bleeding from the eyes and nose that afflicted its victims, the Red Plague was remembered for its psychological toll with tales of the terror it produced still told in detail. Paranoia gripped the city, with accusations of witchcraft and heresy rampant. Many temples to the God King held daily rites to pray for his intervention.  
+
+**The Red Death**  
+
+*Magical Contagion*   
+
+The Red Death spreads through infected blood, making its victims contagious even after death. Any Humanoid that touches infected blood, is wounded by an infected creature, or handles a plague-ridden corpse must succeed on a DC 15 Constitution saving throw or become infected. A creature suffers the following effects 1d6 hours after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Dizziness.** The creature has Disadvantage on Acrobatics and Athletics checks and Disadvantage on Strength and Dexterity saving throws against being knocked prone or moved against their will.  
+
+**Severe Headaches.** The creature has Disadvantage on Intelligence, Wisdom, and Charisma ability checks and saving throws.  
+
+**Fighting the Contagion.** Every 12 hours, an infected creature makes a DC 15 Constitution saving throw. On a failed save, the disease persists, and the creature takes cumulative damage due to blood loss (1, then 2, then 4, then 8, etc.). This damage cannot be healed until the contagion ends. The contagion ends after three successful saving throws.
+
+</div>
+
+### Feverfall (411–413 BTA)
+
+Sudden high fevers with constant shivering caused terror for the people of Bellegrad. They could not manage to stop themselves from what felt like burning alive while simultaneously feeling like they were freezing to death. Mortality rates were high, devastating lower and upper classes alike.  
+
+
+**Feverfall**  
+
+*Magical Contagion*   
+
+Feverfall spreads through contaminated water and airborne particles, infecting those who breathe in its spores or consume tainted liquids. Any Humanoid that drinks infected water or remains within 10 feet of an infected creature for an hour must succeed on a DC 14 Constitution saving throw or become infected. A creature suffers the following effects 2d4 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**High Fever.** The creature has Disadvantage on Intelligence, Wisdom, and Charisma ability checks and saving throws.  
+
+**Dehydration.** The creature must drink twice the normal amount of water each day or gain 1 level of Exhaustion.  
+
+**Fighting the Contagion.** Daily at dawn, an infected creature makes a DC 14 Constitution saving throw. On a failed save, the creature gains 1 level of Exhaustion as its fever worsens. On a successful save, the creature’s Exhaustion level decreases by 1\. If the creature’s Exhaustion level reaches 6, it dies. If the creature’s Exhaustion level is reduced to 0, the contagion ends.
+
+</div>
+
+</div>
+
+<div class="main-content" markdown="1">
+
+### ***The Blight (501–504 BTA)***
+
+During this outbreak, the ground seemed to be rotten, producing only spoiled crops, spreading sickness to all who consumed it, including livestock, which, in turn, also spread the sickness. As the city’s food supply collapsed, famine set in, and riots broke out throughout the city. The Henslowe family, who controlled much of Bellegrad’s waterways and grain transport, fortified their position during the crisis, cementing their influence over the city’s supply chains while the Wainwright house struggled to survive.  
+
+**The Blight**  
+
+*Magical Contagion*   
+
+The Blight spreads through contaminated food and water, afflicting all who consume tainted sustenance. Any Humanoid that eats or drinks infected food or water must succeed on a DC 12 Constitution saving throw or become infected. A creature suffers the following effects 24 hours after infection:
+
+<div class="hanging-indent" markdown="1">
+
+**Nausea.** The creature must make a DC 12 Constitution saving throw once per day. On a failed save, the creature vomits and suffers the effects of Dehydration and Malnutrition.  
+
+**Diarrhea.** If the creature succeeds on their Nausea save, they must make a second DC 12 Constitution saving throw. On a failed save, the creature experiences severe diarrhea and suffers the effects of Dehydration and Malnutrition.  
+
+**Restless Sleep.** If the creature fails a Nausea or Diarrhea save during the day, they must make a DC 12 Constitution saving throw at the start of their Long Rest. On a failed save, the rest is disrupted, provides no benefits, and the creature gains 1 level of Exhaustion.  
+
+**Fighting the Contagion.** A creature cannot reduce Exhaustion until they succeed on their Nausea and Diarrhea saves for two consecutive days and complete a Long Rest at the end of each day. Once these conditions are met, the contagion ends.
+
+</div>
+
+### ***The Lingering (563–565 BTA)***
+
+Known for its stealth, with symptoms of the Lingering often taking weeks to manifest, making containment nearly impossible. The Lingering sowed distrust throughout Bellegrad as citizens accused one another of being carriers. While mortality was relatively low, almost all of the citizens of Bellegrad became infected.  
+
+**The Lingering**  
+
+*Magical Contagion*   
+
+The Lingering spreads through both airborne particles and contaminated surfaces, making it difficult to contain. Any Humanoid that breathes infected air or touches a contaminated object must succeed on a DC 11 Constitution saving throw or become infected. A creature suffers the following effects 3d10 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Cough.** If the creature takes more than two actions in a turn (Action, Bonus Action, Move), they must succeed on a DC 11 Constitution saving throw or be Stunned until the end of their next turn.  
+
+**Weakness.** The creature has Disadvantage on Strength and Dexterity ability checks and saving throws.  
+
+**Fighting the Contagion.** Every 7 days, an infected creature makes a DC 11 Constitution saving throw. On a failed save, the disease persists, the creature gains 1 level of Exhaustion until their next contagion save and takes 1 Constitution damage. If a creature’s Constitution reaches 0, they die. The contagion ends after three consecutive successful saving throws.
+
+</div>
+
+### ***The Iron Lung (659–661 BTA)***
+
+A less widespread, but still deadly outbreak, the Iron Lung primarily impacted Bellegrad’s burgeoning industrial workforce. Known colloquially as the "Factory Sickness," it spread rapidly through factories and workshops.   
+
+**The Iron Lung**  
+
+*Magical Contagion*  
+
+Known as "Factory Sickness," The Iron Lung spreads through prolonged exposure to factory fumes and industrial pollutants. Any Humanoid that breathes in polluted air must succeed on a DC 14 Constitution saving throw or become infected. A creature suffers the following effects 1d6 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Fighting the Contagion.** At the end of the incubation and every 3 days thereafter, an infected creature makes a DC 14 Constitution saving throw, or develop these progressing symptoms, in order:
+
+</div>
+
+- **Cough.** If the creature takes more than two actions in a turn (Action, Bonus Action, Move), they must succeed on a DC 14 Constitution saving throw or be Stunned until the end of their next turn.  
+- **Coughing Up Blood.** If the creature takes more than one action in a turn, they must succeed on a DC 14 Constitution saving throw or be Stunned until the end of their next turn and take 1 Necrotic damage.  
+- **Suffocating.** Once suffocating, the creature must make a DC 14 Constitution saving throw at the start of each of its turns. On a success, suffocation ends, but the disease persists. On a failure, suffocation continues. If the creature cannot breathe before succeeding, it dies.
+
+On a successful save, the creature removes the most recent symptom. If the creature goes 48 hours without a symptom worsening, the contagion ends.
+
+### ***The Withering (682 BTA)***
+
+This plague has just begun its march through Bellegrad. Victims are said to suffer from debilitating weakness over time and death seems to be slow, but inevitable. Its rapid spread through the city’s slums has already overwhelmed the Plague Wardens, and the Divine Council is scrambling to contain its effects while protecting the nobility.  
+
+**The Withering**   
+
+*Magical Contagion*   
+
+The Withering spreads rapidly through Bellegrad’s slums, leaving its victims weak and unable to recover. Any Humanoid that comes into contact with an infected creature must succeed on a DC 16 Constitution saving throw or become infected. A creature suffers the following effects 2d8 days after infection:  
+
+<div class="hanging-indent" markdown="1">
+
+**Weakness**. The creature has Disadvantage on Strength and Dexterity ability checks and saving throws.   
+
+**Fighting the Contagion.** Daily, at dawn, an infected creature makes a DC 16 Constitution saving throw. On a failed save, the creature takes 1 Strength damage as its physical deterioration worsens. If the creature's Strength is reduced to 0, it dies. On a successful save, the creature's Strength increases by 1\. If the creature's Strength is returned to its normal value for 48 hours, the contagion ends.
+
+</div>
+
+</div>
+
+</div>
