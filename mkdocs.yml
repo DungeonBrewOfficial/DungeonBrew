@@ -104,7 +104,9 @@ nav:
         - Alchemical Concoctions: equipment/concoctions.md
         - Adventuring Gear: equipment/gear.md
         - Steam-Powered Vehicles: equipment/vehicles.md
-      - Monsters: monsters/index.md
+      - Monsters:
+        - monsters/index.md
+        - Drochnath: monsters/drochnath.md
       - Media: media.md
   - Supplements:
     - Ability Score Options: supplements/ability-score-options.md

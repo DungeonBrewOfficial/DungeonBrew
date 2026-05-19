@@ -290,30 +290,40 @@
 .statblock-lore {
   font-family: var(--sb-font-body) !important;
   color: var(--sb-ink);
-  max-width: 880px;
   margin: 1rem 0;
-  columns: 3;
+  columns: 2;
   column-gap: var(--sb-col-gap);
   column-rule: 1px solid var(--sb-rule-soft);
 }
+/* When lore sits inside a block-row alongside stat blocks, single column */
+.block-row .statblock-lore {
+  columns: 2;
+  flex: 1 1 300px;
+  margin: 0;
+}
+
+/* Lore display title (h2) gets accent styling */
 .md-typeset .statblock-lore h2,
-.md-typeset .statblock-lore h3 {
+.md-typeset .block-row .statblock-lore h2 {
   font-family: var(--sb-font-display) !important;
   font-weight: 400 !important;
   letter-spacing: 0.06em;
   color: var(--sb-accent) !important;
   text-shadow: none !important;
-  break-after: avoid;
-}
-.md-typeset .statblock-lore h2 {
   font-size: 22px !important;
   margin: 0 0 6px !important;
+  break-after: avoid;
 }
-.md-typeset .statblock-lore h3 {
-  font-size: 15px !important;
+/* Lore subheadings (h3/h4) inherit site defaults — no font/color/size override */
+.md-typeset .statblock-lore h3,
+.md-typeset .statblock-lore h4,
+.md-typeset .block-row .statblock-lore h3,
+.md-typeset .block-row .statblock-lore h4 {
   margin: 8px 0 4px !important;
+  break-after: avoid;
 }
-.md-typeset .statblock-lore p {
+.md-typeset .statblock-lore p,
+.md-typeset .block-row .statblock-lore p {
   margin: 0 0 7px !important;
   font-size: 14px !important;
   line-height: 1.35 !important;
@@ -321,7 +331,8 @@
   text-align: justify;
   hyphens: auto;
 }
-.md-typeset .statblock-lore p + p {
+.md-typeset .statblock-lore p + p,
+.md-typeset .block-row .statblock-lore p + p {
   text-indent: 1.25rem;
 }
 
