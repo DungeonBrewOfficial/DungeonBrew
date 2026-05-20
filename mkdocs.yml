@@ -106,7 +106,9 @@ nav:
         - Steam-Powered Vehicles: equipment/vehicles.md
       - Monsters:
         - monsters/index.md
+        - Braenlok: monsters/braenlok.md
         - Drochnath: monsters/drochnath.md
+        - Váttkorr: monsters/vattkorr.md
       - Media: media.md
   - Supplements:
     - Ability Score Options: supplements/ability-score-options.md
