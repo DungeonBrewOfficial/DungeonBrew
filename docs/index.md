@@ -28,7 +28,7 @@ Research-heavy supplements for 5e covering subjects most games gloss over: reali
 
 **Ability Score Generator.**A comprehensive guide to thirteen methods of ability score generation for your campaign.
 
-<a href="../ability-score-tool/index.html" target="_blank" class="md-button">Launch the Ability Score Generator</a>
+<a href="supplements/ability-score-tool/index.html" target="_blank" class="md-button">Launch the Ability Score Generator</a>
 
 **Ancestors & Ale.** Generate dwarven drinks with full flavor profiles, mouthfeel, and cultural significance.
 
