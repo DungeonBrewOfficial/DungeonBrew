@@ -38,6 +38,10 @@ Research-heavy supplements for 5e covering subjects most games gloss over: reali
 
 <a href="supplements/canine-tool/" class="md-button">Launch Dog Generator</a>
 
+**Furs &amp; Gems.** Generate fur pelts and gemstone loot with descriptions, quality, and trade values.
+
+<a href="supplements/loot-tool/index.html" target="_blank" class="md-button">Launch Loot Generator</a>
+
 **Hoof & Rein.** Generate horses with breeds, temperaments, physical traits, and quirks shaped by lineage and training.
 
 <a href="supplements/horse-tool/" class="md-button">Launch Horse Generator</a>

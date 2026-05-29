@@ -20,6 +20,7 @@ Generating a gem is a three-step process:
 
 ### Download the PDF
 
+<a href="../loot-tool/index.html" target="_blank" class="md-button md-button--primary">Launch Furs &amp; Gems Loot Generator</a>
 <a href="../downloads/generous_gems.pdf" download class="md-button">Download Generous Gems (PDF)</a>
 
 </div>

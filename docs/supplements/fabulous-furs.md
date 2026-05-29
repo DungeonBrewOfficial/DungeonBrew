@@ -18,7 +18,21 @@ The system uses a three-tier quality rating (Poor, Average, and Pristine) to cre
 
 ### Download the PDF
 
+<a href="../loot-tool/index.html" target="_blank" class="md-button md-button--primary">Launch Furs &amp; Gems Loot Generator</a>
 <a href="../downloads/fabulous_furs.pdf" download class="md-button">Download Fabulous Furs (PDF)</a>
+
+### Regional Trade Rule:
+Prices listed represent exotic luxury markets. Apply modifiers for local trade:
+
+- Local (trapped locally): 0.05x base price
+- Regional (trade hub): 0.25x base price
+- Exotic (luxury market): 1x base price (as listed)
+
+**Example:** A pristine sable pelt (1,200 sp listed)
+
+- Sold by trapper in local region: 60 sp
+- Sold to merchant in nearby region: 300 sp
+- Sold to noble in distant region: 1,200 sp
 
 </div>
 

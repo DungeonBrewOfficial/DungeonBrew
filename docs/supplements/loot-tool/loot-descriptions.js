@@ -1,0 +1,135 @@
+/* Furs & Gems Loot Generator — flavor descriptions
+ * Verbatim from the source guides. Keyed so the engine can attach them.
+ *   FUR_DESC  — by fur id
+ *   GEM_DESC  — by gem name (must match LootData.GEM_TABLE names exactly)
+ */
+(function () {
+  const FUR_DESC = {
+    "bear-black":   "A dense, medium-length pelt of coarse, uniformly black fur, sometimes with a brown muzzle or a small white chest patch.",
+    "bear-brown":   "A large, heavy hide with long, shaggy fur. Color varies widely from blonde to dark brown, often with distinctive silver-tipped guard hairs on the shoulders and back.",
+    "bear-white":   "A dense, heavy pelt of white to yellowish-white fur, comprised of a thick undercoat and long, oily, water-repellent guard hairs.",
+
+    "coyote":       "A pelt of long, coarse guard hairs over a softer undercoat, typically in grizzled shades of grey, yellow, and reddish-brown.",
+    "dhole":        "A dense pelt of short, coarse, reddish fur, typically uniform in color with a paler underside.",
+    "dog":          "A highly variable, utilitarian hide. Fur is typically short and coarse, with common colors being mottled brown, black, or tan.",
+    "fox-arctic":   "The winter coat is thick and uniformly pure white. The less common \u201cblue\u201d phase is a smoky, bluish-grey.",
+    "fox-cross":    "A color variant of the red fox, featuring a prominent dark stripe running down its back and across its shoulders, forming a \u201ccross\u201d pattern.",
+    "fox-red":      "A classic pelt of reddish-orange fur with a white underside, black fur on the lower legs, and often a white-tipped tail.",
+    "fox-silver":   "A black color variant of the red fox, prized for its glossy black fur interspersed with white-tipped guard hairs that give it a silvered appearance.",
+    "wolf":         "A large, durable pelt with long, coarse guard hairs over a dense, wooly undercoat. Color is typically a grizzled grey, but can range from pure white to solid black.",
+
+    "bobcat":       "A short, dense, soft pelt with a greyish or reddish-brown coat marked with dark spots and bars.",
+    "cheetah":      "A coarse, relatively thin pelt with a tawny coat covered in solid black spots. Often identified by the black \u201ctear stripe\u201d markings on the face.",
+    "cougar":       "A pelt with a uniform, unmarked coat of short, coarse fur, typically in tawny-beige or greyish-brown.",
+    "jaguar":       "A large pelt with a golden-yellow coat marked with prominent dark rosettes, which often contain a small, central dot.",
+    "leopard":      "A pale yellow to golden coat marked with small, densely packed dark rosettes that lack a central dot.",
+    "leopard-snow": "A long, dense, and woolly pelt with a smoky-grey coat marked with large, open, dark-grey rosettes.",
+    "lion":         "A large, short-haired pelt of uniform tawny-gold. The male is distinguished by its mane of long, coarse hair ranging from blonde to black.",
+    "lynx":         "A thick, silky pelt of frosted grey or pale brown fur, often faintly spotted. Known for its long ear tufts and facial ruff.",
+    "ocelot":       "A sleek, smooth pelt with a creamy or tawny coat marked with chain-like rings, spots, and stripes.",
+    "panther":      "The rare, melanistic (all black) pelt of a jaguar or leopard. The coat is a uniform, glossy black, though the underlying rosette pattern is often faintly visible in certain light.",
+    "tiger":        "A large pelt of short, dense fur with a reddish-orange to ochre coat marked with vertical black stripes.",
+
+    "antelope":     "A hide with very short, fine hair on a supple skin. The coat is typically a shade of tan or grey, often with white markings on the belly and face.",
+    "bison":        "A thick hide with long, shaggy, dark brown fur around the head and shoulders that shortens towards the rear.",
+    "boar":         "A tough, thick hide covered in stiff, coarse bristles, known for producing durable leather.",
+    "chamois":      "A hide with a short, dense coat, known for producing a uniquely soft, supple, and absorbent leather.",
+    "deer":         "A pliable hide with a coat of short, often hollow, hair. Colors range from grey to reddish-brown, and it is commonly used to produce soft buckskin.",
+    "goat":         "A flexible hide with a coat of straight, coarse hair, used for producing pliable leather and parchment.",
+    "horse-cow":    "A large, heavy hide with a coat of short, sleek hair. Its primary value is in producing large, smooth sheets of strong leather.",
+    "moose-elk":    "A large and heavy hide with a thick, coarse coat of dark brown or grey hair. Produces thick, durable leather.",
+    "reindeer":     "A hide with a dense undercoat and long, hollow guard hairs that trap air, providing superior insulation. The coat is typically brown and grey with a white neck.",
+    "sheep":        "A hide with thick, woolly fleece known for its insulation.",
+
+    "badger":       "A durable pelt with long, coarse, silver-tipped guard hairs over a paler undercoat, creating a grizzled grey-and-black appearance.",
+    "fisher":       "A pelt of long, dense, dark brown to black fur, often with a frosted, grizzled appearance on the head and shoulders.",
+    "marten-beech": "A high-quality brown pelt with a distinctive white throat patch, often slightly coarser than Pine Marten fur.",
+    "marten-pine":  "A soft, dense pelt of rich brown fur that lightens to a pale, yellowish patch on the throat.",
+    "mink":         "A soft, sleek, and glossy pelt. The fur is short, dense, and typically a uniform, deep chocolate-brown.",
+    "otter":        "A pelt with extremely dense, waterproof underfur and sleek, glossy guard hairs. Typically a rich, dark brown.",
+    "polecat":      "A pelt with long, dark guard hairs over a yellowish or creamy undercoat, creating a distinct two-toned appearance.",
+    "sable":        "The most luxurious fur, with fine, silky, and dense fur of a uniform, deep brown or black.",
+    "ermine":       "The pure white winter coat of the stoat is the most valuable, distinguished by its softness and the signature black tip of the tail.",
+    "weasel-common":"A very small, thin pelt with short fur, typically reddish-brown in its summer coat.",
+    "lettice":      "The white winter coat of a common weasel, used as a lower-quality alternative to Ermine as it lacks the black tail tip.",
+    "wolverine":    "A long, coarse, and durable pelt, typically dark brown with distinctive pale stripes running along its sides.",
+
+    "beaver":       "A pelt prized for its dense, soft, and waterproof underfur, which is covered by longer, glossy brown guard hairs.",
+    "chinchilla":   "A pelt of dense and soft fur with a velvety texture. The coat is typically a silvery or bluish-grey, fading to a white belly.",
+    "dormouse":     "A very small and delicate pelt with soft, fine fur, typically grey or tawny-brown in color.",
+    "marmot":       "A thick, durable pelt of dense, somewhat coarse fur, typically yellowish-brown or grey in color.",
+    "muskrat":      "A waterproof pelt with coarse, dark brown guard hairs protecting a dense, soft undercoat. Used as a less expensive alternative to beaver or otter.",
+    "rabbit":       "A soft pelt, though not very durable. Colors are typically mottled shades of brown, grey, or white.",
+    "squirrel-gris":"The grey back fur of the squirrel in its prime winter coat, used as a standard lining material.",
+    "squirrel-red": "The reddish-brown fur of the squirrel's less dense summer coat, considered lower in quality than the winter pelt.",
+    "squirrel-vair":"A decorative pattern, not a natural pelt, assembled by sewing the grey back fur (gris) and white belly fur into alternating checkerboard or wavy panels."
+  };
+
+  const GEM_DESC = {
+    "Alexandrite":          "Appears bluish-green in daylight, yet shifts to a reddish-purple when viewed under candle or firelight.",
+    "Amber":                "A hardened, translucent tree resin of warm golden-yellow to deep orange, often containing preserved insects or plant matter.",
+    "Amblygonite":          "A translucent, glassy stone that is typically pale yellow, though can be found in soft shades of grey or pink.",
+    "Amethyst":             "A transparent gemstone ranging in color from a light, pinkish-violet to a deep, royal purple.",
+    "Ametrine":             "A bi-color quartz that displays distinct zones of both golden-yellow citrine and royal-purple amethyst in the same crystal.",
+    "Andalusite":           "An earthy, often olive-green or reddish-brown stone that can display flashes of different colors when turned.",
+    "Andesine":             "A reddish-orange to amber colored stone, sometimes containing shimmering, coppery inclusions.",
+    "Apatite":              "A brightly colored stone, most often seen in vivid hues of teal, neon blue, or grassy green.",
+    "Aquamarine":           "A transparent, crystalline gemstone with a clear, pale color reminiscent of calm seawater.",
+    "Axinite":              "A glassy, clove-brown to reddish-violet stone that can flash different colors when viewed from various angles.",
+    "Benitoite":            "A transparent, sapphire-blue gemstone that disperses light with an intense, fiery brilliance.",
+    "Beryl":                "A clear, crystalline gemstone that appears in soft hues of yellow, gold, pink, or peach.",
+    "Chrysoberyl":          "A transparent stone with a distinct yellowish-green to honey-brown color and a bright, glassy luster.",
+    "Citrine":              "A transparent quartz ranging from a pale, straw-yellow to a warm, brownish-orange.",
+    "Danburite":            "A colorless to pale pink stone with a clarity and brilliance that can rival a diamond.",
+    "Diamond":              "A perfectly transparent, crystalline stone that internally fractures light into dazzling flashes of rainbow color.",
+    "Diopside":             "A transparent, forest-green gem that can sometimes display a four-rayed star effect on its surface.",
+    "Diaspore":             "A transparent stone, often pale yellow or green, known for changing to a pinkish-orange under different light.",
+    "Emerald":              "A rich, vibrant green gemstone, often with fine, wispy internal inclusions that give it a mossy depth.",
+    "Enstatite":            "A greenish-brown to olive-colored stone with a fibrous appearance that gives it a silky sheen.",
+    "Fluorite":             "A soft, often banded stone that appears in a wide spectrum of colors, commonly purple, blue, and green.",
+    "Garnet, Demantoid":    "A rare and brilliant green garnet known for its fiery light dispersion that can outshine diamond.",
+    "Garnet, Hessonite":    "A garnet variety displaying a distinct honey-yellow to brownish-orange or cinnamon color.",
+    "Garnet, Malaia":       "A vibrant garnet that ranges in color from a pinkish-orange to a reddish-brown.",
+    "Garnet, Mali":         "A brilliant yellow-green to golden-brown garnet, known for its high luster and sparkle.",
+    "Garnet, Rhodolite":    "A transparent garnet with a distinctive and rich raspberry-red to purplish-red color.",
+    "Garnet, Spessartite":  "An intensely bright orange to reddish-orange garnet, sometimes called \u201cmandarin\u201d garnet.",
+    "Garnet, Tsavorite":    "A brilliant, transparent garnet that displays a pure and vivid green, like fresh spring leaves.",
+    "Hiddenite":            "The pale, mint-green to emerald-green variety of Spodumene.",
+    "Idocrase":             "A translucent stone found in shades of yellowish-green to olive-brown, often with a glossy or resinous luster.",
+    "Iolite":               "A transparent, violet-blue gem that can appear to shift to a pale yellow or grey from different angles.",
+    "Jade":                 "A tough, opaque stone with a smooth luster, most commonly seen in shades of muted to vibrant green.",
+    "Kornerupine":          "A rare, transparent gem, typically in shades of green or brown, that can show a star-like pattern of light.",
+    "Kunzite":              "A transparent, pastel pink to light-violet variety of Spodumene that may fade in direct sunlight.",
+    "Kyanite":              "A stone known for its streaky, sapphire-like blue color and a silky, fibrous appearance.",
+    "Opal, Black":          "An opaque, dark-bodied stone with a surface that erupts in shifting, vibrant flashes of iridescent color.",
+    "Opal, Fire":           "A translucent stone with a uniform, glowing body of fiery orange, red, or yellow.",
+    "Opal, White":          "A stone with a milky, pale white body that shimmers with a subtle, iridescent play-of-color.",
+    "Peridot":              "A transparent gemstone known for its distinct and uniform lime or olive-green color.",
+    "Petalite":             "A transparent, colorless to pale pink gem that can have a glassy or sometimes pearly luster.",
+    "Pezzotaite":           "A vividly colored gem ranging from raspberry pink to reddish-orange.",
+    "Phenakite":            "A brilliant, colorless stone that is often so clear and well-formed it can be mistaken for a diamond.",
+    "Quartz":               "A common, clear, and glassy crystalline mineral, sometimes with a milky or smoky translucence.",
+    "Ruby":                 "A gemstone of deep, almost glowing, crimson red that can sometimes contain silky, microscopic inclusions.",
+    "Sapphire":             "A transparent gemstone prized for its deep, velvety to brilliant royal blue color.",
+    "Scapolite":            "A transparent to translucent stone, often yellow or pale violet, that can exhibit a silky, cat's-eye sheen.",
+    "Sillimanite":          "A fibrous, translucent stone, typically grey or brownish, often cut to display a cat's-eye effect.",
+    "Sinhalite":            "A rare gem that ranges from a pale, yellowish-brown to a rich, golden-brown.",
+    "Sphalerite":           "A stone with exceptional light dispersion, often appearing in fiery shades of yellow, orange, or red.",
+    "Sphene":               "A brilliant yellowish-green, green, or brown gem known for its intense, multi-colored flashes of fire.",
+    "Spinel":               "A bright, glassy gemstone that occurs in a wide range of colors, most notably deep red and cobalt blue.",
+    "Sunstone":             "A translucent, orange to reddish-brown stone filled with tiny, glittering metallic inclusions that create a spangled effect.",
+    "Taafeite":             "An exceptionally rare, transparent gemstone that ranges from a pale mauve and lavender to a brownish-pink.",
+    "Tanzanite":            "A transparent gemstone with a unique bluish-violet color that can appear to shift in hue when viewed from different directions.",
+    "Topaz":                "A hard, transparent crystal most commonly seen in shades of golden-yellow or sky blue.",
+    "Tourmaline":           "A crystalline gemstone famous for appearing in more colors and color combinations than any other stone.",
+    "Tourmaline, Bi-Color": "A tourmaline crystal that displays two or more distinct colors, such as the classic pink and green \u201cwatermelon\u201d variety.",
+    "Zircon":               "A brilliant, transparent stone with a fiery sparkle, found in many colors but most often a bright, sky blue."
+  };
+
+  // Group-level descriptions for furs (shown as context where useful)
+  const FUR_GROUP_DESC = {
+    "Bear": "A large, heavy hide with thick, shaggy fur, valued more for its imposing size and insulating properties than for fine texture."
+  };
+
+  window.LootDesc = { FUR_DESC, GEM_DESC, FUR_GROUP_DESC };
+})();
