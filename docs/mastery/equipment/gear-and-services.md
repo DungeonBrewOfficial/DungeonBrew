@@ -431,11 +431,11 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 
 **Mirror, Small Metal**. A small mirror (6 inches) made from polished metal, such as bronze. Useful for looking around corners.
 
-**Net, Weighted**. A woven mesh of fibrous grasses, flax, or cotton with weighted edges, usually with a 4 to 8 foot radius. Two hands are required to throw a net. Throwing a net costs 1 AP. Roll 2d[Physique Tier Die] to set the entanglement DC. The target makes a Strength Trial against your DC. On failure, the target advances Restricted by 1 tier. A Restricted creature can spend 1 AP to cut the net with a bladed weapon (destroys the net) or make a Strength Trial against the original DC to escape. You must have a sufficiently large net to target larger creatures. If thrown with a cord and missed, retrieving the net costs 2 AP. Range: 15/30 (second increment with Impotence).
+**Net, Weighted**. A woven mesh of fibrous grasses, flax, or cotton with weighted edges, usually with a 4 to 8 foot radius. Two hands are required to throw a net. Throwing a net costs 1 AP. Roll 2d[Physique Tier Die] to set the entanglement DC. The target makes a Strength Trial against your DC. On failure, the target advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. A Restricted creature can spend 1 AP to cut the net with a bladed weapon (destroys the net) or make a Strength Trial against the original DC to escape. You must have a sufficiently large net to target larger creatures. If thrown with a cord and missed, retrieving the net costs 2 AP. Range: 15/30 (second increment with Impotence).
 
 **Oil, Lamp (Flask)**. Lamp oil is usually fish, whale, olive, poppy, walnut, hazel or filbert oil. It is not very flammable, and is generally safe to use. Even when ignited in a lamp and dropped, it is not guaranteed to ignite. 1 flask in a lamp can provide about 1 hour of light.
 
-**Peg Leg**. A wooden peg on a strapped cuff. Replaces a cane or crutch for a character who has lost a foot. After a year with it, the wearer moves normally (see *Combat*, Trauma Table).
+**Peg Leg**. A wooden peg on a strapped cuff. Replaces a cane or crutch for a character who has lost a foot. After a year with it, the wearer moves normally (see *[Combat](../core/combat.md)*, [Trauma Table](../core/combat.md#trauma-table)).
 
 Using lamp oil in combat requires a successful attack to cover a target in the oil and a subsequent attack to light the oil on fire, causing 2d6 points of damage in the first round and 1d6 points in the second.
 
@@ -471,21 +471,21 @@ Using lamp oil in combat requires a successful attack to cover a target in the o
 
 If you can cast spells and have *[Wilderness](../skills/wilderness/index.md)* (Hunting and Foraging), you can forage for spell components (see *[Hunting and Foraging](../skills/wilderness/index.md#hunting-and-foraging)* in *[Skill Mastery](../skills/index.md)*).
 
-**Spell Component (Peasant)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 2, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Peasant)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 2, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
 If you can cast spells and have *Wilderness* (Hunting and Foraging), you can forage for spell components (see *Hunting and Foraging* in *Skill Mastery*).
 
-**Spell Component (Knight)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 3, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Knight)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 3, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
 If you can cast spells and have *Wilderness* (Hunting and Foraging), you can forage for spell components (see *Hunting and Foraging* in *Skill Mastery*).
 
-**Spell Component (Burgher)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 4, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Burgher)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 4, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
-**Spell Component (Magnate)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 5, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Magnate)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 5, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
-**Spell Component (Noble)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 6, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Noble)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 6, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
-**Spell Component (Royal)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 8, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Royal)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 8, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
 **Tent, Large**. Oil treated canvas tent with enough room for four occupants.
 
@@ -497,7 +497,7 @@ If you can cast spells and have *Wilderness* (Hunting and Foraging), you can for
 
 **Slow Match**. Cord treated to smolder at about a foot an hour, carried lit. Its glowing tip lights fuses and primed wicks for 1 AP, but it is not a flame: anything else must be lit from a flame or with a tinderbox.
 
-**Tinderbox**. A container of wood or metal that contains flint, firesteel, and tinder, such as charcloth or hemp fibers. Lighting something with a tinderbox takes 6 AP (see *Combat*, [Interaction](../core/combat.md#interaction)).
+**Tinderbox**. A container of wood or metal that contains flint, firesteel, and tinder, such as charcloth or hemp fibers. Lighting something with a tinderbox takes 6 AP (see *[Combat](../core/combat.md)*, [Interaction](../core/combat.md#interaction)).
 
 **Torch**. 3-4 foot ash or hickory haft with one end wrapped in wool or linen that is soaked in oil. When lit, it produces light for 10 feet and ambient light for an additional 20 feet. Burns for about 30 minutes (3 exploration rounds).
 
@@ -572,7 +572,7 @@ Vessels and protective gear for alchemical concoctions. The concoctions themselv
 
 **Field Kit (Apothecary's Satchel)**. A fitted satchel holding a small mortar and pestle, a cased scale and weights, a small pan and trivet, straining cloths, a funnel, a spatula and spoon, shears, a bleeding bowl, corks, wax, and padded places for 12 phials. Phials in their places ignore the breakage hazard. Drawing from it costs 1 AP, as an item on your body.
 
-**Latched Case**. A padded, latched case for two fire-pots or grenades. While shut, its contents ignore the breakage and fire hazards (see *Alchemy*, [Hazardous](../skills/trade/alchemy/index.md#hazardous)). Drawing from it costs 1 AP, as an item on your body.
+**Latched Case**. A padded, latched case for two fire-pots or grenades. While shut, its contents ignore the breakage and fire hazards (see *[Alchemy](../skills/trade/alchemy/index.md)*, [Hazardous](../skills/trade/alchemy/index.md#hazardous)). Drawing from it costs 1 AP, as an item on your body.
 
 **Vial**. A stoppered vial about the size of a finger, holding 2 oz: one dose of a concoction. Packed vials are assumed to be wrapped against breakage. **Glass** is cheap and fragile, and it is required for acids, which eat metal. **Pewter** is heavier and dearer, and it doesn't break.
 

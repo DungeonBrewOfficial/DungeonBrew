@@ -332,7 +332,7 @@ Simple conditions are standalone effects that do not chain. Unless stated otherw
 - *Withdrawal.* While you're without the substance, you have Penalty -1 on all trials. Each 24 hours you remain without it increases the penalty by 1, to a maximum equal to your Dependence. Taking the substance removes the penalty.
 - *Recovery.* [Addicted](#addicted "(Optional). You depend on a substance, such as alcohol, opium, or mandrake, and need it to function. Your Dependence on it runs from 1 to 4. Each substance is tracked separately.") ends after a month without the substance. Taking it while abstaining restarts the month.
 
-<span id="attrition"></span>**Attrition [T1]:** Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies [Attrition](#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).
+<span id="attrition"></span>**Attrition [T1]:** Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).
 
 The parenthetical label identifies the damage type and narrative source:
 
@@ -361,7 +361,7 @@ The parenthetical label identifies the damage type and narrative source:
 
 <span id="prone"></span>**Prone [T2]:** Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.
 
-<span id="unconscious"></span>**Unconscious:** Considered [Helpless](#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") and Catatonic. Unaware of surroundings and events.
+<span id="unconscious"></span>**Unconscious:** Considered [Helpless](#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") and [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."). Unaware of surroundings and events.
 
 ## Insanity
 

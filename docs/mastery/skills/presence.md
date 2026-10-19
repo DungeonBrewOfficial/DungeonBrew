@@ -58,7 +58,7 @@ Choose one of the following combat abilities:
 
 **War Cry:** Spend 2 AP to unleash a war cry affecting all enemies within 30 feet. Enemies who fail their Wisdom trial against your Presence Mastery DC advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier; those who succeed are immune this encounter.
 
-**Death Knell:** When you land a killing blow, all enemies within 30 feet must roll a Wisdom trial against your Presence Mastery DC. Enemies who fail advance Demoralized by 1 tier; those who succeed are immune this encounter.
+**Death Knell:** When you land a killing blow, all enemies within 30 feet must roll a Wisdom trial against your Presence Mastery DC. Enemies who fail advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier; those who succeed are immune this encounter.
 
 ### Rhetoric
 

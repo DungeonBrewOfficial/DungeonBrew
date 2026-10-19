@@ -11,7 +11,7 @@ generated_by: tools/sync_mastery.py
 
 While there are a variety of animals that can be purchased for trade or consumption, the animals listed below are most often chosen by adventurers looking for useful or loyal companions. Animals with a stat block in *Creatures – Mortal Beasts* use that block; the entry below tells you which. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*.
 
-**Bird, Trained Hunting**. Trained hunting birds are birds of prey caught in the wild and then trained and sold. They hunt for their handler, bringing back 1, 2, or 3 meals of raw game on a successful hunt depending on size (an eagle, 4). While capable of taking some larger prey, they can rarely carry it back and instead circle to mark the kill. They also scout, circling above nearby creatures, and circle over their handler and cry when they see creatures approaching. Commands and further training follow *Animal Companion Advancement*. *Stat block: Small, Middling, or Large Hunting Bird, or Hunting Eagle, by species.*
+**Bird, Trained Hunting**. Trained hunting birds are birds of prey caught in the wild and then trained and sold. They hunt for their handler, bringing back 1, 2, or 3 meals of raw game on a successful hunt depending on size (an eagle, 4). While capable of taking some larger prey, they can rarely carry it back and instead circle to mark the kill. They also scout, circling above nearby creatures, and circle over their handler and cry when they see creatures approaching. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Small, Middling, or Large Hunting Bird, or Hunting Eagle, by species.*
 
 There are premiums for the type of bird, the color, and the quality. The lowest end of the spectrum is around 1 gs for an untrained, poor-quality bird (*stat block: the matching Raptor or Eagle*). There is practically no upper limit to a high-quality, well-trained bird, especially for the right color and the right buyer. However, a reasonable value for a trained hunting bird generally falls between 5 gs and 50 gs.
 * **Golden Eagle** (Eagle) - Largest available hunting bird, which is capable of hunting most other birds and small mammals up to the size of fawns.
@@ -32,7 +32,7 @@ A working guard dog requires 1 sp in rations per day and requires 3 sh per day t
 
 A working hunting dog requires 1 sp in rations per day and requires 3 sh per day to kennel.
 
-**Dog, Untrained**. A dog of working stock that has not been trained for war, guard, or hunting work. It follows its owner and can be trained through *Animal Companion Advancement*. *Stat block: Medium Dog, Large Dog, or Giant Dog.*
+**Dog, Untrained**. A dog of working stock that has not been trained for war, guard, or hunting work. It follows its owner and can be trained through *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Medium Dog, Large Dog, or Giant Dog.*
 
 | Animal | Quantity | Price |
 |:---|:---:|:---:|
@@ -109,7 +109,7 @@ A pony requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of h
 
 A riding horse requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of hay, or costs around 2 sp to stable per day.
 
-**Horse, Untrained**. A bred horse that has not yet been broken to saddle or trained for war. Its breed sets most of its value, and it can be trained through *Animal Companion Advancement*. *Stat block: the untrained Rouncey, Palfrey, Courser, or Destrier.*
+**Horse, Untrained**. A bred horse that has not yet been broken to saddle or trained for war. Its breed sets most of its value, and it can be trained through *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: the untrained Rouncey, Palfrey, Courser, or Destrier.*
 
 An untrained horse requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of hay, or costs around 2 sp to stable per day.
 

@@ -203,7 +203,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 **Wolf (Piercing):**
 
-***Hamstring*** *(Tier 2. 1 AP, Attack).* On a hit with a bite attack from behind or flanking, in lieu of damage, the target must succeed on a Strength trial [Puca DC] or advance Restricted by 1 tier.
+***Hamstring*** *(Tier 2. 1 AP, Attack).* On a hit with a bite attack from behind or flanking, in lieu of damage, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 ***Pack*** *(Tier 4. 1 AP, Reaction).* When an allied creature hits an enemy within 5 feet of the Puca, the Puca can make a bite attack against the same target.
 

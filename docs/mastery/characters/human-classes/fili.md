@@ -135,7 +135,7 @@ You can weave magic through music and oral tradition. When you sing, you can eit
 
 **Satire Holds:** A Satire is a lasting source. Once per turn, a held target can spend 1 AP on a trial against your Song DC, using the same attribute it used to resist; on success, the hold drops by 1 tier. A target that is Paralyzed or Enthralled cannot break free on its own. When a target's hold reaches 0, it is no longer affected and no longer counts toward the song's cost. You can voluntarily drop targets to reduce cost.
 
-**Ending a Song:** When a song ends, whether you stop singing or can no longer maintain it, the conditions it held deteriorate normally (see *Conditions*).
+**Ending a Song:** When a song ends, whether you stop singing or can no longer maintain it, the conditions it held deteriorate normally (see *[Conditions](../../core/conditions.md)*).
 
 **Song Names:** The names below are suggestions. You are encouraged to name your songs to reflect your character's history, culture, and experiences. A song that grants [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") might be "The Lay of Sir Lyrian" for one Fili and "The Ballad of Thornwall" for another.
 

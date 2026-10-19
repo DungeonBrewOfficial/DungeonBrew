@@ -548,7 +548,7 @@ Material form barriers (Stone, Sea, Primal, Profane) create physical structures 
 | Master (6) | 30 | 30 | 60 | 90 | 120 | 150 |
 | Grand Master (7) | 35 | 35 | 70 | 105 | 140 | 175 |
 
-**Cover.** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Personal-scale barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
+**[Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.").** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Personal-scale barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
 
 #### Energy Barriers
 
@@ -655,7 +655,7 @@ Trickle damage is the Attrition condition: a recurring, flat damage effect. Each
 
 **Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
 
-**Retargeting.** A resisted or broken trickle spell can be applied again; see Conditions, Resisted or broken.
+**Retargeting.** A resisted or broken trickle spell can be applied again; see [Conditions](../core/conditions.md), Resisted or broken.
 
 ---
 
@@ -761,9 +761,9 @@ A practitioner can push past the limits of their skill or their magan, at a cost
 
 **Coerced success.** When you fail a miscast trial, you can choose to succeed anyway. Advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier.
 
-**Overcasting.** When your magan pool cannot cover a spell's cost, you can cast it anyway: your pool drops to 0 and you advance Exhausted by 1 tier. This applies whether the pool is empty or merely short (2 magan left for a 3-magan spell). The spell is still subject to a miscast trial if applicable.
+**Overcasting.** When your magan pool cannot cover a spell's cost, you can cast it anyway: your pool drops to 0 and you advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier. This applies whether the pool is empty or merely short (2 magan left for a 3-magan spell). The spell is still subject to a miscast trial if applicable.
 
-**Recovery.** When the encounter ends, Exhausted gained from pushing magic remains for 1 Exploration round per time you pushed magic today, then deteriorates normally.
+**Recovery.** When the encounter ends, [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") gained from pushing magic remains for 1 Exploration round per time you pushed magic today, then deteriorates normally.
 
 ---
 
