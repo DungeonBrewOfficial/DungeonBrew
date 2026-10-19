@@ -78,17 +78,17 @@ Avengers are devotees of powers greater than themselves, known as *numen*, but a
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Theurgic Authority (Avenger)
+### Theurgic Authority (Avenger)
 
 *Level 1*
 
 You gain the ability to project the will of your numen to drive away or control Daeva and to destroy Asura.
 
-##### Theurgic Lore
+#### Theurgic Lore
 
 You automatically advance in the *Lore* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery tier, choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
 
@@ -103,7 +103,7 @@ Your Theurgic Lore replaces your access to other Creature Lores. You cannot inve
 | 15 | Master | 1d10 | 5 |
 | 21 | Grand Master | 1d12 | 6 |
 
-##### Turn
+#### Turn
 
 Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose Asura or Daeva, then choose one Division; every creature of that Division you can see is targeted. Roll your Charisma tier die + Lore skill die.
 
@@ -115,15 +115,15 @@ Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose
 
 **Targeted creatures** that are not turned are immune to your turning for 24 hours.
 
-##### Control Daeva
+#### Control Daeva
 
 You can choose to inflict Controlled Tier 3 on Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Controlled. Controlled is permanent. You can Control a total number of Divisions equal to your Charisma score. You can voluntarily release Controlled creatures to free up capacity. Controlled creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Controlled Daeva to act, you must use your concentration slot or expend 1 AP per round. Controlled creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
 
-##### Destroy Asura
+#### Destroy Asura
 
 You can choose to destroy Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
 
-#### Theurgic Magic
+### Theurgic Magic
 
 You can cast theurgic spells. You have a number of *Magan*, or spell points, equal to your Charisma Tier. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
 
@@ -135,7 +135,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
 
-##### Prayer Book
+#### Prayer Book
 
 You start with a prayer book containing two prayers chosen by you or your GM. Each prayer occupies 1-2 pages.
 

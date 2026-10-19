@@ -70,7 +70,7 @@ He is an orc. A barbaric warrior of rage and instinct. *Civilized* people scoff 
 
 You gain abilities below as you increase level.
 
-#### Fae
+### Fae
 
 As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 

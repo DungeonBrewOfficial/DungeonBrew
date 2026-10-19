@@ -71,11 +71,11 @@ He is a dwarf. A stout warrior of myth and legend, considered to be one of the m
 
 You gain abilities below as you increase level.
 
-#### Primordial
+### Primordial
 
 As a Primordial Stone being, you are immune to Stone damage and have Impotence on trials to resist Sky damage. You are connected to the Stone magic form. Only Stone magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Master Craftsman
+### Master Craftsman
 
 **Armor Lore.** Your attacks ignore a number of points of your target's armor resistance equal to your Perception tier, up to the armor's base resistance value for that damage type.
 
@@ -100,7 +100,7 @@ You may work a number of days equal to your Endurance tier without cost. Each ad
 
 **Final Product.** At the end of the enchantment process, a final d100 roll is made to determine if your Destiny Creation was successful, modified by the materials, spells, and other factors. A particularly good roll might indicate a supreme creation of unique quality while a particularly bad roll may not always indicate failure, but rather a malformation of the intended outcomes as determined by the GM.
 
-#### Dwarf Lineage
+### Dwarf Lineage
 
 **Apatheia.** You have Dominance on trials against Demoralized, Charmed, and Controlled conditions.
 

@@ -71,11 +71,11 @@ She is a fighter. A human tactician that understands the ways of battle better t
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-## Art of War
+### Art of War
 
 *Level 1*
 

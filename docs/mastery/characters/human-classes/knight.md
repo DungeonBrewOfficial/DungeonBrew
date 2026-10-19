@@ -71,17 +71,17 @@ He is a knight. A human warrior that is bound by his oaths to a liege, abiding b
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Knightly Code
+### Knightly Code
 
 *Level 1*
 
 Your combat identity: Honor, Valor, and Glory. These three pillars that define you as a knight but can only be maintained so long as you are in service to your lord.
 
-##### Honor
+#### Honor
 
 Honor represents your reputation for principled conduct. You do not prey on the weak or vulnerable. You cannot invest points in the *Stealth* or *Thievery* Skill Masteries.
 
@@ -89,7 +89,7 @@ So long as you attack at least one enemy per round, other enemies you haven't at
 
 If you attack an enemy that is Helpless, flanked, or Impaired from a failed Startle trial, you immediately lose all benefits granted by Honor until you complete a rest.
 
-##### Valor
+#### Valor
 
 Valor represents your courage and willingness to stand in danger. When you bleed, your example steels your companions.
 
@@ -97,7 +97,7 @@ When you take Health damage, each ally within 60 feet gains Dominance on their n
 
 You automatically advance in the *Presence* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-##### Glory
+#### Glory
 
 Glory represents your track record of completion and triumph. When you strike down a foe, the burden of struggle eases.
 

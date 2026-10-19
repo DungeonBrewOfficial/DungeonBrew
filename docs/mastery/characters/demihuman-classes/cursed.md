@@ -72,7 +72,7 @@ She is cursed. A creature born of chaos and devilry. Her powers are in the deep 
 
 You gain abilities below as you increase level.
 
-#### Cursed
+### Cursed
 
 You are cursed. Your nature with magic requires it. You have either dwelt too close to fonts of magic, have a curse in your family line that has bled through generation after generation, or have sourced your curse through some other means.
 
@@ -108,19 +108,19 @@ As a result, you may either choose one of the following curses or have one assig
 - You do not need to breathe and are immune to spells and effects based on breathing.
 - You constantly hunger for the flesh of the living. If you do not consume the flesh of an intelligent humanoid once per week, you cannot benefit from magical healing.
 
-#### Hard to Kill
+### Hard to Kill
 
 You do not age and cannot die from mundane means, such as being stabbed or bludgeoned to death. You remain conscious and aware even beyond 0 Health. Below 0 Health, each -5 Health increment results in the loss of a limb as determined by the GM (usually 1d4). You are aware of the location of your limbs and can still move and use them with Inferiority and Impotence. A limb can be reconnected and will be as strong as it once was in an hour. A limb that is destroyed can be regrown in 1 week. Multiple limbs are exponentially more difficult to regrow. Two limbs take 3 weeks, three limbs take 6 weeks, and 4 limbs take 12 weeks. If you are decapitated and lose the rest of your body, a year and a day must pass before you can regain it fully.
 
 You can only die if your head is destroyed from magical sources, including elemental magic (Fire, Sea, Sky, Stone), spiritual magic (Sacred, Profane, Primal, Void). If your head is attached to your body when you receive one of these types of damage, roll your Endurance tier die - death only occurs on a 1. You cannot be resurrected by any means.
 
-#### Borrowed Vigor
+### Borrowed Vigor
 
 You can ignore the need to rest for prolonged periods of time, but must repay with interest. If you do not sleep your 8 hours, you must sleep for three hours for every hour you have stayed awake until you finally sleep. So, if you wake in the morning at 8 AM and do not sleep for 72 hours, you must sleep for 216 hours straight (or 9 days).
 
 After 1 week without rest, roll your Endurance tier die each day - on a 1, you fall asleep, unable to wake until you have repaid your borrowed vigor. While awake in this way, you cannot regain Health from natural means.
 
-#### Priscan Magic
+### Priscan Magic
 
 You can cast priscan spells. You have a number of *Magan*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
 
@@ -132,7 +132,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Spell Acquisition.** You can also discover new spells at fonts of wild magic by listening to the winds of magic, feeling the deep magics of the earth, and tasting the wild magic of the waters. Binding a spell into an object takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
 
-##### Weird Magic
+#### Weird Magic
 
 Your spells are housed in valuable objects: gems, bones, skulls, trinkets, jewelry, curiosities. Each object holds one spell and must be worth at least magan² ss. A 1-magan spell requires an object worth 1 ss; a 5-magan spell requires one worth 25 ss.
 
@@ -142,7 +142,7 @@ Some powerful cursed opt to inlay their magics into staves, wands, robes, and si
 
 Each time you gain a level, you can choose to re-bind your spells to different objects.
 
-#### Agathion
+### Agathion
 
 You create or inherit a familiar bound to you that is known as an *agathion*. This creature can be an animal as small as a sparrow to an average creature or humanoid. Although an agathion appears and moves like these creatures, that is where their similarities end, possessing strange powers and subsisting on exotic fare, such as the light from a new moon, the dreams of children, or elf blood as determined by the GM.
 
@@ -176,11 +176,11 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 
 The Agathion's body is mortal: it has no immunity or vulnerability. Its spirit is connected to the spirit's magic form (Fae: Primal, Daeva: Profane, Morphon: Void). Only that magic can Charm, Control, summon, or banish the Agathion, or restore its mind. All other magic affects it normally.
 
-##### Separate Health Pool
+#### Separate Health Pool
 
 The Agathion has its own independent health pool.
 
-##### Agathion Attack and Defense
+#### Agathion Attack and Defense
 
 **Attack Roll:** Cursed's Perception tier die + Agathion tier die
 
@@ -188,7 +188,7 @@ The Agathion has its own independent health pool.
 
 **AP:** 2. The Agathion's active abilities, such as Transpose, spend its own AP.
 
-##### Progression
+#### Progression
 
 The tier die does not represent the Agathion getting stronger. The spirit was always powerful. The tier die represents how much power the Cursed dares to let through.
 
@@ -212,17 +212,17 @@ The tier die does not represent the Agathion getting stronger. The spirit was al
 
 **Trials:** Agathion tier die + your Perception tier die.
 
-##### Swap
+#### Swap
 
 You swap spirits with your Agathion, possessing its body for up to one hour per level. You can choose to allow your Agathion to move freely in your body or not. While in your Agathion's body, you cannot cast spells or use any abilities associated with your class.
 
 If you die while in your Agathion's body, you are immediately pulled back to your own body and your Agathion dies instead. Your Agathion cannot abscond with your body, as you can limit their mobility at will and always know its exact location. However, your body and the Agathion's body must physically touch to restore your respective spirits to their own body, except in the case of death.
 
-##### Death
+#### Death
 
 If your Agathion dies, you must create a new one. This process requires locating a viable host and a spirit to inhabit the host. Both must be found and captured or purchased. You then perform a ritual to bind the two together, requiring both 1 sc in materials and 24 hours of uninterrupted ritual time for each tier of the Agathion.
 
-##### Control Trial
+#### Control Trial
 
 When the Cursed commands the Agathion to use an active ability, they roll the tier die. On a 1, the spirit directs the ability according to its own nature and personality. On any other result, the Cursed directs the ability as intended.
 
@@ -230,7 +230,7 @@ When the Cursed commands the Agathion to use an active ability, they roll the ti
 
 **Spirit Personality:** The Cursed's player and GM establish the Agathion's personality and grudges at character creation. This personality determines target selection on failed control trials.
 
-##### Active Abilities (One per Spirit Track)
+#### Active Abilities (One per Spirit Track)
 
 Active abilities always fire when commanded. The control trial determines who directs the effect.
 
@@ -258,11 +258,11 @@ Active abilities always fire when commanded. The control trial determines who di
 - Successful control: Cursed picks both targets
 - Failed control: Morphon picks both targets
 
-##### Passive Abilities (Tiers 2-7, pick one per tier)
+#### Passive Abilities (Tiers 2-7, pick one per tier)
 
 At each tier from 2-7, choose one passive ability. Three are specific to your spirit track. Three are universal (available to any Agathion).
 
-##### Track-Specific Passives
+#### Track-Specific Passives
 
 **Fae:**
 
@@ -288,7 +288,7 @@ At each tier from 2-7, choose one passive ability. Three are specific to your sp
 
 **Phase Death.** When the Agathion reaches 0 Health, it phases out of existence and reforms at the Cursed's location at dawn the following day with 1 Health. No gold cost, no ritual. If it dies again within a week, true death - full resummon required.
 
-##### Universal Passives
+#### Universal Passives
 
 **Spell Conduit.** The Cursed can channel a spell through the Agathion, casting from the Agathion's position. If the spell requires concentration, the Agathion maintains it. A control trial applies - on failure, the spirit picks the target or drops concentration at the worst moment.
 

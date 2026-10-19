@@ -77,11 +77,11 @@ Druids are a priestly order devoted to nature and generally seen as leaders with
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Telluric Magic
+### Telluric Magic
 
 *Level 1*
 
@@ -95,13 +95,13 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You take a natural token from the site to anchor the memory, then meditate to internalize the spell. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
 
-#### Wildling
+### Wildling
 
 *Level 1*
 
 You automatically advance in the *Wilderness* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-#### Puca
+### Puca
 
 *Level 1*
 
@@ -109,7 +109,7 @@ You bond with a Puca, a Fae spirit that has chosen to companion you. Your Puca i
 
 Your Puca is a Fae creature (immune Primal, vulnerable Void) with its own health pool.
 
-##### Progression
+#### Progression
 
 | Level | Tier | Tier Die |
 |:---:|:---:|:---:|
@@ -121,7 +121,7 @@ Your Puca is a Fae creature (immune Primal, vulnerable Void) with its own health
 | 20 | 6 | 1d10 |
 | 24 | 7 | 1d12 |
 
-##### Puca Stats
+#### Puca Stats
 
 **Health:** Your Wisdom score + compounding tier dice x2 (each tier adds its tier die x2).
 
@@ -141,7 +141,7 @@ Your Puca is a Fae creature (immune Primal, vulnerable Void) with its own health
 
 One health pool across all forms. Health represents the spirit's vitality, not the body's mass. Shapeshifting does not change Health.
 
-##### Tier Structure
+#### Tier Structure
 
 Combat form abilities unlock at even tiers (2, 4, 6). At odd tiers (1, 3, 5, 7), select one ability from the Puca Abilities list. At Tier 1, you also gain Shared Senses for free.
 
@@ -155,15 +155,15 @@ Combat form abilities unlock at even tiers (2, 4, 6). At odd tiers (1, 3, 5, 7),
 | 6 | Combat form ability 3. |
 | 7 | Select Ability 4. |
 
-##### Shapeshift
+#### Shapeshift
 
 *(1 AP).* The Puca changes between any form it has access to.
 
-##### Shared Senses
+#### Shared Senses
 
 *(Free at Tier 1.)* You perceive through your Puca's senses at will. Range: 1 mile.
 
-##### Puca Abilities
+#### Puca Abilities
 
 At Tiers 1, 3, 5, and 7, choose one:
 
@@ -179,7 +179,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 - *Small Scout:* Environmental Specialization (Wilderness) on stealth trials. Vanish — the Puca can attempt to hide while observed in low light, obscured conditions, or during a distraction (1 AP). Stealth trials use Puca tier die + your Wisdom tier die.
 - *Aerial Scout:* Shared Senses range extends to 5 miles while in this form.
 
-##### Forms
+#### Forms
 
 **Utility Archetypes** — simple capability packages. No tier progression. Available from Tier 1.
 
@@ -217,7 +217,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 Additional combat forms will be added as creature stat blocks are built.
 
-##### Death
+#### Death
 
 If your Puca reaches 0 Health and you have not selected Fae Spirit, your Puca dies. You must spend sc equal to twice its tier and perform a 1-hour uninterrupted ritual to resummon it. The same spirit returns.
 

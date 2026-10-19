@@ -74,7 +74,7 @@ He is a sylvan elf. An elf of balance and natural order. His power comes from he
 
 You gain abilities below as you increase level.
 
-#### Fae
+### Fae
 
 As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
@@ -96,7 +96,7 @@ You automatically advance in the *Athletics* and*Wilderness* Skill Mastery. You 
 
 **Ambidextrous.** You have otherworldly coordination and dexterity. You have Dominance on Athletics skill trials.
 
-#### Priscan Magic
+### Priscan Magic
 
 *Level 1*
 

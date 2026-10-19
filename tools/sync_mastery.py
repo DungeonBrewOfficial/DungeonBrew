@@ -192,9 +192,7 @@ SOURCES = [
         ("### Demihuman Classes", "char/demihuman"),
         ("## Personality", "char/creation"),
         ("## Height and Weight", "char/creation"),
-        *[(f"## {name}", f"class/{name}") for name in HUMAN[:5]],
-        ("## Art of War", "class/Fighter"),
-        *[(f"## {name}", f"class/{name}") for name in HUMAN[5:]],
+        *[(f"## {name}", f"class/{name}") for name in HUMAN],
         *[(f"## {src}", f"class/{src}") for src, _ in DEMIHUMAN],
     ]},
     {"file": "Skill Mastery.md", "level": 2, "cuts": [
@@ -206,8 +204,7 @@ SOURCES = [
             "Lore", "Wilderness", "Tactics", "Stealth", "Athletics",
             "Presence", "Trade", "Spellcraft", "Thievery", "Alertness"]],
     ]},
-    whole("animal_companion_advancement.md", "skills/companions",
-          extra=[("## Open Items", DROP)]),
+    whole("animal_companion_advancement.md", "skills/companions"),
     {"file": "Alchemy.md", "level": 2, "cuts": [
         ("# Alchemy", "alchemy/index"),
         *[(f"## {h}", "alchemy/index") for h in [

@@ -77,17 +77,17 @@ Filis are versatile warriors, often tied to the druidic order. They are known fo
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Filiic Lore
+### Filiic Lore
 
 *Level 1*
 
 You automatically advance in the *Lore* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-#### Telluric Magic
+### Telluric Magic
 
 *Level 1*
 
@@ -101,7 +101,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You compose a mnemonic verse to encode the magical principle, then expand it through extended practice. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
 
-#### Fili Song
+### Fili Song
 
 *Level 1*
 
@@ -137,7 +137,7 @@ You can weave magic through music and oral tradition. When you sing, you can eit
 
 **Song Names:** The names below are suggestions. You are encouraged to name your songs to reflect your character's history, culture, and experiences. A song that grants Inspired might be "The Lay of Sir Lyrian" for one Fili and "The Ballad of Thornwall" for another.
 
-##### Praise Songs (Positive Conditions)
+#### Praise Songs (Positive Conditions)
 
 Praise songs apply a positive condition to allies within 30 feet while maintained.
 
@@ -151,11 +151,11 @@ Praise songs apply a positive condition to allies within 30 feet while maintaine
 
 **Song of Warding (1+ magan/round).** Allies within 30 feet gain the Warded condition at the maintained tier. Suggested names: *The Lorekeeper's Refrain, Hymn Against the Dark, The Shielding Verse.*
 
-##### Saga Songs
+#### Saga Songs
 
 **Saga of the Enemy (2 magan/round).** You recount the lore of a specific creature type you have studied. Allies within 30 feet gain your Lore passive benefit (Slayer, Warder, or Defier) against that creature type for the duration of the song. Suggested names: *The Saga of Wyrm's Bane, The Chronicle of the Pale Court, Ode to the Fallen Fae.*
 
-##### Satire Songs (Negative Conditions)
+#### Satire Songs (Negative Conditions)
 
 Satire songs target intelligent creatures within 30 feet. Cost equals tier × number of affected targets per round.
 
@@ -165,6 +165,6 @@ Satire songs target intelligent creatures within 30 feet. Cost equals tier × nu
 
 **Song of Beguiling (1+ magan/round per target).** Each target must roll a Wisdom trial vs your Song DC or advance on the Charmed chain (Lured → Beguiled → Enthralled). Suggested names: *The Siren's Serenade, The Lover's Lament, Song of the Silver Tongue.*
 
-##### Dirge
+#### Dirge
 
 **The Dirge (2 magan/round).** When an ally drops to 0 Health, you can begin singing. All allies within 30 feet gain Dominance on attack rolls against the creature that downed the ally. Lasts until that creature is dead or combat ends. Suggested names: *Lament for the Fallen, The Avenger's Wail, Requiem of Wrath.*

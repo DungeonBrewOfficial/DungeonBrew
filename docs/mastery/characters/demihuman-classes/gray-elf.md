@@ -74,7 +74,7 @@ She is a gray elf. An elf of knowledge and nobility. Her power comes from her gr
 
 You gain abilities below as you increase level.
 
-#### Fae
+### Fae
 
 As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
@@ -106,7 +106,7 @@ You automatically advance in the *Alertness* and *Presence* Skill Mastery. You b
 
 **Wisdom of Ages.** Wherever Presence uses your Charisma, including its trials, its Presence Mastery DC, and bonuses equal to your Charisma tier, you use Wisdom instead.
 
-#### Priscan Magic
+### Priscan Magic
 
 *Level 1*
 

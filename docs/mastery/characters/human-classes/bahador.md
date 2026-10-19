@@ -74,17 +74,17 @@ He is a Bahador. A human warrior that commands the Occult. He is a devoted stude
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Student
+### Student
 
 *Level 1*
 
 You automatically advance in the *Trade (Scribe)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-#### Occult Magic
+### Occult Magic
 
 *Level 1*
 
@@ -98,7 +98,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *Magic Mastery*, *Discovery*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *Trade (Scribe)* discipline for full details. See the *Magic Mastery* chapter, *Spell Sources*.
 
-##### Grimoire
+#### Grimoire
 
 You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *Equipment* for codex specifications and expansion.
 

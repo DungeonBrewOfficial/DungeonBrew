@@ -71,17 +71,17 @@ He is a thief. A human master of stealth and skill. He is neither a warrior nor 
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Backstab
+### Backstab
 
 *Level 1*
 
 Opportunist attacks are always treated as having Dominance. When you make an Opportunist attack while Tier 2 or Tier 3 Concealed, or against a Tier 2 or Tier 3 Demoralized creature or a creature Impaired at Tier 2 or Tier 3 from a failed Startle trial, your attack also gains Superiority.
 
-#### Roguery
+### Roguery
 
 *Level 1*
 

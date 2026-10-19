@@ -73,11 +73,11 @@ She is a gnome. A demihuman thought to be myth by most, and not thought of at al
 
 You gain abilities below as you increase level.
 
-#### Fae
+### Fae
 
 As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Gnomic Nature
+### Gnomic Nature
 
 **Small.** Your small size makes it hard for larger creatures to hit you. You have dominance on defense rolls against creatures large or larger.
 
@@ -85,7 +85,7 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 
 **Gnosis.** You automatically advance in the *Lore* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-#### Priscan Magic
+### Priscan Magic
 
 *Level 1*
 
@@ -99,11 +99,11 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Spell Acquisition.** You can also learn spells independently by sensing fonts of priscan magic. You observe the font and record initial impressions, then document your findings in your compendium, expending magan² ss in experimental materials. Internalizing a spell takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
 
-##### Compendium
+#### Compendium
 
 You document your magical observations in a compendium: a detailed record of every font encountered, every phenomenon observed, and every conclusion drawn. Each spell requires 2 pages per magan of meticulous notes, diagrams, and cross-references. The writing process is how you internalize magic; once a spell is fully documented and understood, you can cast it without the compendium in hand. Losing your compendium does not prevent you from casting spells you have already learned, but it destroys your accumulated research and any partial work on spells in progress.
 
-#### Studied Enemy
+### Studied Enemy
 
 *Level 1*
 

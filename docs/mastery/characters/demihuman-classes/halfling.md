@@ -71,16 +71,16 @@ He is a halfling. A demihuman who keeps to himself, mostly. The big folk are alw
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Halfling Nature
+### Halfling Nature
 
 **Small.** Your small size makes it hard for larger creatures to hit you. You have dominance on defense rolls against creatures large or larger.
 
 **Unobtrusive.** You automatically advance in the *Stealth* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-**Resilient. **You have Dominance on trials against Exhausted, Tainted, and Infected conditions.
+**Resilient.** You have Dominance on trials against Exhausted, Tainted, and Infected conditions.
 
 **Full Recovery.** When you rest, you regain the maximum health for that type of rest instead of rolling.

@@ -12,7 +12,7 @@ You cannot gain experience for "Location Hopping," such as casting spells to tel
 
 Take your time to solve, bypass, or otherwise overcome Traps, Locks, and Puzzles to gain additional experience points. Ignoring a puzzle is not bypassing it and avoiding the hall with the trap is not overcoming it (unless you find a clever way of getting what is on the other side).
 
-### Exploration Experience
+### Exploration Experience Table
 
 | Experience | Exploration |
 |:---:|:---|

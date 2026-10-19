@@ -71,17 +71,17 @@ She is a ranger. A human warrior that is more at home in the wilds than she is a
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Pathfinder
+### Pathfinder
 
 *Level 1*
 
 You automatically advance in the *Wilderness* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-#### Wayfarer
+### Wayfarer
 
 *Level 1*
 

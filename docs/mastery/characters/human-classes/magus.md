@@ -73,11 +73,11 @@ She is a magus. A human practitioner of the Occult, studied in the ways of magic
 
 You gain abilities below as you increase level.
 
-#### Mortal
+### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
 
-#### Occult Magic
+### Occult Magic
 
 *Level 1*
 
@@ -91,19 +91,19 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *Magic Mastery*, *Discovery*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *Trade (Scribe)* discipline for full details. See the *Magic Mastery* chapter, *Spell Sources*.
 
-##### Grimoire
+#### Grimoire
 
 You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *Equipment* for codex specifications and expansion.
 
 **Lost Book.** If your grimoire is lost, you cannot memorize any spells to cast and must either find the lost book or begin creating a new one.
 
-#### Cantrips
+### Cantrips
 
 *Level 1*
 
 You know the following cantrips as part of your training as a magus. Cantrips require 1 AP, are Fast, and are treated as Tier 0 spells (0 Magan to cast). You can cast a number of cantrips per day equal to your Casting Attribute score, regained at dawn.
 
-##### Actions
+#### Actions
 
 * **Kindle.** You light or douse a candle, torch, or lamp you are holding.
 * **Resound.** You double the volume of your voice, which lasts for 1 minute.
@@ -111,18 +111,18 @@ You know the following cantrips as part of your training as a magus. Cantrips re
 * **Phantom Sound.** You create a sound with which you are familiar within 30 feet.
 * **Unlatch.** You open or close an unlocked door, window, chest, or similar object within 30 feet.
 
-##### Reactions
+#### Reactions
 
 * **Aegis.** As a defense reaction, you defend yourself against an incoming mundane attack, including ranged attacks, making a defense roll equal to two of your Casting Attribute Tier dice + applicable resistance + modifiers.
 * **Shift.** As a movement reaction, you abruptly shift up to 10 feet in a direction of your choice without provoking Reprisal Attacks.
 
-#### Student
+### Student
 
 *Level 1*
 
 You automatically advance in the *Trade (Scribe)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-#### Arcane Familiar
+### Arcane Familiar
 
 *Level 1*
 
@@ -152,7 +152,7 @@ You attract a familiar to your side, a *Morphon* or *Primordial* spirit of small
 
 **Shoulder Riding.** A small familiar can ride on you. While riding, it moves with you and remains present for its abilities.
 
-##### Progression
+#### Progression
 
 | Level | Tier | Tier Die |
 |:---:|:---:|:---:|
@@ -170,7 +170,7 @@ At Tier 2, you gain **Concentration Slot**. Your familiar can maintain concentra
 
 At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Primordial), chosen at character creation.
 
-##### Familiar Stats
+#### Familiar Stats
 
 **Health:** Shared with you. Each Tier adds its tier die to your shared health pool (compounding).
 
@@ -188,7 +188,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 **AP:** 2.
 
-##### Shared Health Pool
+#### Shared Health Pool
 
 You and your familiar share a single health pool. All damage to either of you draws from the same pool.
 
@@ -196,15 +196,15 @@ You and your familiar share a single health pool. All damage to either of you dr
 - When separated, enemies can target either you or your familiar. Your familiar defends normally, and any damage it takes draws from the shared pool.
 - When the shared pool reaches 0, you follow the standard rules for Reaching 0 Health (Injury, dying timer, Endurance trial), and your familiar discorporates. This applies even if the damage that reduced the pool to 0 was dealt to your familiar; your Endurance trial is made against that damage.
 
-##### Discorporation
+#### Discorporation
 
 A discorporated familiar cannot act, cannot be targeted, and grants none of its abilities, including the Concentration Slot. It reforms at your side at dawn. You can call it back early by spending magan equal to 3 × its Tier and performing a 10-minute uninterrupted ritual. Your shared pool's maximum is unchanged while your familiar is discorporated.
 
-##### Death
+#### Death
 
 Your familiar dies only through Primordial Connection or if you die. A dead familiar must be resummoned by expending sc equal to twice its Tier and performing a 1-hour uninterrupted ritual. If you die, the bond breaks and the familiar departs.
 
-##### Track Abilities Shared by Both Tracks
+#### Track Abilities Shared by Both Tracks
 
 **Reserve.** Your familiar holds a reserve of points equal to its Tier, regained each day at dawn. As a 2 AP action, it spends points to impose one condition that its form delivers (see *Magic Mastery*, Form and Condition Access). Cost by condition tier: Tier 1 costs 1 point, Tier 2 costs 3 points, Tier 3 costs 6 points. Simple conditions cost points by their listed tier.
 
@@ -216,7 +216,7 @@ Your familiar dies only through Primordial Connection or if you die. A dead fami
 
 **Bolt.** A number of times per day equal to its Tier, regained at dawn, your familiar can spend 1 AP to strike one creature it can see within 30 feet with its form (its element, or Void for a Morphon). The target makes an Agility trial against the Familiar DC. On a failure, it takes damage equal to the Familiar tier die. Energy forms (Fire, Sky, Void) bypass armor and apply to health. Material forms (Sea, Stone) apply to armor durability, ignoring mundane armor resistance. Resistance to the form reduces the damage.
 
-##### Morphon Track
+#### Morphon Track
 
 Beings from different worlds or planes of existence.
 
@@ -234,7 +234,7 @@ Beings from different worlds or planes of existence.
 
 **Void Bolt.** Gain *Bolt* (Void damage).
 
-##### Primordial Track
+#### Primordial Track
 
 Beings connected to elements of nature, such as sea, sky, stone, and fire.
 

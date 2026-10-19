@@ -18,7 +18,7 @@ Access to an armor category includes every lighter category; a class with Medium
 
 Armor consists of several parts, each of which offers unique protections and benefits. It is possible that you can have multiple pieces of armor that offer different types of protection that cumulatively create a unique set of armor. Every set of armor must have an *Aketon* or arming jacket. It is used to secure your armor in place and prevent chafing. Light armor is 25 lbs. or less. Medium armor is 26 to 45 lbs. Heavy armor is 46 lbs. or more. A full set of medium or heavy armor includes its Aketon at no cost.
 
-### Light Armor
+### Light Armor Table
 
 | Armor                                  |  Cost | Worn / Carried <br> Encumbrance | Durability | Resistance | Weight |
 |:---------------------------------------|:---------:|:-------:|:-----:|:-----|:--------|
@@ -65,7 +65,7 @@ Light armor offers the least protection, but is effective for characters who are
 
 **Jack of Plate**. This is a light coat of armor that consists of metal plates riveted between layers of fabric or leather. While this armor is fairly effective, the gaps between the plates offer exploitable weaknesses.
 
-### Medium Armor
+### Medium Armor Table
 
 | Armor |  Cost | Worn / Carried <br> Encumbrance | Durability | Resistance | Weight
 |:-|:---:|:---:|:---:|:---|:------|
@@ -113,7 +113,7 @@ Medium armor can offer adequate protection for those able to wear it. While bett
 
 ___
 
-### Heavy Armor
+### Heavy Armor Table
 
 | Armor |  Cost | Worn / Carried <br> Encumbrance| Durability | Resistance | Weight
 |:-|:---:|:---:|:---:|:---|:------|
