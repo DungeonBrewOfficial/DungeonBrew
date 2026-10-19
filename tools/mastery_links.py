@@ -13,7 +13,10 @@ which adds three kinds of link:
   conditions  capitalized condition names (Tainted, Prone, ...), linked to
               their entry with the rules text as a hover tooltip
 
-Each target is linked once per section, so repeated mentions stay plain.
+Each target is linked once per section, so repeated mentions in prose stay
+plain. Table rows, list items, and labelled entries (a paragraph that opens
+with a bold name, like a creature ability) are lookups, so each links on its
+own.
 A name that matches more than one heading is left unlinked and reported
 rather than guessed.
 """
@@ -58,6 +61,8 @@ PROTECTED = re.compile(r"`[^`\n]*`|\[[^\]\n]*\]\([^)\n]*\)|<[^>\n]+>")
 ITALIC = re.compile(r"(?<![*\w])\*(?=[^\s*])([^*\n]{1,80}?)(?<=\S)\*(?![*\w])")
 SEE = re.compile(r"\b([Ss]ee (?:the )?)([A-Z][\w'’-]*(?: (?:[A-Z][\w'’-]*|of|and|the|on))*)")
 TABLE_RULE = re.compile(r"^\s*\|?\s*:?-{3,}")
+# table row, list item, or labelled entry ("***Feed*** ...", "**Codex.** ...")
+LOOKUP_LINE = re.compile(r"^\s*(?:\||[-*+]\s|\d+\.\s|(?:<span[^>]*></span>)?\*\*\S)")
 IDCOUNT = re.compile(r"^(.*)_([0-9]+)$")
 LEAD_BOLD = re.compile(r"^(?:<span[^>]*></span>)?\*\*[^*]+\*\*")
 
@@ -268,7 +273,7 @@ def link_pages(pages):
         lines = page["text"].split("\n")
         here = os.path.dirname(page["path"])
         section_anchor, section_text, seen = None, page["title"], set()
-        current = {"line": ""}
+        current = {"line": "", "own": None}  # own: the entry's anchor, if it has one
         heading_ids = {i: (text, anchor) for i, _, text, anchor in site.headings[key]}
 
         def url(target, anchor):
@@ -279,7 +284,7 @@ def link_pages(pages):
 
         def take(target, anchor, text, kind):
             """Decide whether this mention gets a link; record it if so."""
-            if target == key and (anchor is None or anchor == section_anchor):
+            if target == key and anchor in (None, section_anchor, current["own"]):
                 return False
             if (target, anchor) in seen:
                 return False
@@ -384,8 +389,15 @@ def link_pages(pages):
             if not ok or not line.strip() or TABLE_RULE.match(line) or line.startswith("!!!"):
                 continue
             current["line"] = line
+            own = re.match(r'<span id="([^"]+)"></span>', line)
+            current["own"] = own and own.group(1)
+            lookup = LOOKUP_LINE.match(line)
+            if lookup:  # a row or item links on its own, apart from the prose
+                prose_seen, seen = seen, set()
             for step in (link_sections, link_italics, link_see, link_conditions):
                 line = outside_protected(line, step)
+            if lookup:
+                seen = prose_seen
             lines[i] = line
         page["text"] = "\n".join(lines)
 

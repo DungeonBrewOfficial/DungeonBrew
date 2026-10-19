@@ -68,7 +68,7 @@ You touch an object and dissolve it. The material corrodes, pits, and falls apar
 
 **Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.
 
-You hurl a bolt of freezing water that flash-freezes on impact. The target makes an Agility trial; on failure, it takes full sea damage and gains Attrition (Freezing). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
+You hurl a bolt of freezing water that flash-freezes on impact. The target makes an Agility trial; on failure, it takes full sea damage and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Freezing). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
 
 ---
 
@@ -102,7 +102,7 @@ You wreathe yourself in biting cold for the encounter. Creatures that strike you
 
 **Cost:** (1 + 1 + 0) × 3 × 1 = 6.
 
-You reach through the sea form to charm a sea-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances Charmed by 1 tier.
+You reach through the sea form to charm a sea-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
 
 ---
 

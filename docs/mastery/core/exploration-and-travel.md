@@ -72,10 +72,10 @@ Light and anything thick in the air limit how well you can see, using the [Conce
 **Light.** What matters is the light on the creature you are looking at, not the light around you.
 
 - **Light:** You see normally. This includes a bright full moon in the open.
-- **Ambient light:** Too little light for detail, such as a moonless night, the floor of a dense wood, or the fringe of a torch's glow. You can move without stumbling and make out shapes, but not read or see fine detail. A creature in ambient light is Concealed (Tier 1). Where ambient light gives way to darkness, a creature within 5 feet of that edge is Concealed (Tier 2).
-- **Absolute darkness:** Pitch black. A creature in absolute darkness is Concealed (Tier 3).
+- **Ambient light:** Too little light for detail, such as a moonless night, the floor of a dense wood, or the fringe of a torch's glow. You can move without stumbling and make out shapes, but not read or see fine detail. A creature in ambient light is [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1). Where ambient light gives way to darkness, a creature within 5 feet of that edge is Concealed (Tier 2).
+- **Absolute darkness:** Pitch black. A creature in absolute darkness is [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 3).
 
-**Haze.** Fog, smoke, dust, and driving rain have a sight range set by the scene, from 5 feet in the thickest smoke to 30 feet or more in a light mist. Within it, creatures are Concealed (Tier 1); within 5 feet of its edge, Tier 2; beyond it, Tier 3. Haze works the same in both directions, and no kind of sight sees through it.
+**Haze.** Fog, smoke, dust, and driving rain have a sight range set by the scene, from 5 feet in the thickest smoke to 30 feet or more in a light mist. Within it, creatures are [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1); within 5 feet of its edge, Tier 2; beyond it, Tier 3. Haze works the same in both directions, and no kind of sight sees through it.
 
 Some peoples see better in the dark; their traits say how.
 
@@ -97,7 +97,7 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 
 * You tend to your allies' wounds and conditions.
 * *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat one ally's wounds per the Healer discipline.
-* *Trade Healer* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
+* *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
 
 ### Helper (A)
 
@@ -112,7 +112,7 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 
 * You search the area for hidden features, hazards, and items of interest.
 * *[Alertness (Danger Sense)](../skills/alertness.md)* to locate traps and environmental hazards.
-* *Alertness (Secret Doors)* to find hidden passages, concealed compartments, and secret mechanisms.
+* *[Alertness (Secret Doors)](../skills/alertness.md)* to find hidden passages, concealed compartments, and secret mechanisms.
 * *[Thievery (Breaching)](../skills/thievery.md#breaching)* to disable or disarm located traps and locks.
 * *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify features, anomalies, or hazards in worked or unworked stone.
 * *[Lore (applicable discipline)](../skills/lore.md)* to identify features relevant to the area.
@@ -131,8 +131,8 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 
 * You range ahead of the party to identify threats and survey the surroundings.
 * *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *Alertness (Danger Sense)* to identify possible traps and hazards.
-* *Alertness (Stalking)* to find and follow signs of passage.
+* *[Alertness (Danger Sense)](../skills/alertness.md)* to identify possible traps and hazards.
+* *[Alertness (Stalking)](../skills/alertness.md)* to find and follow signs of passage.
 * *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* or *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify what left them.
 * *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify direction and location underground.
 
@@ -140,7 +140,7 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 
 * You tend to weapons and armor for repair. Each item may take more than 1 *Exploration Round*.
 * *[Trade Blacksmith](../skills/trade/index.md#blacksmith-discipline)* to repair armor durability.
-* *Trade Blacksmith* to repair weapon durability.
+* *[Trade Blacksmith](../skills/trade/index.md#blacksmith-discipline)* to repair weapon durability.
 
 ### Throatcutter (A)
 
@@ -166,7 +166,7 @@ A traveling day takes 8 hours.
 
 * You tend to wounded or ailing allies on the march.
 * *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat one ally's wounds per the Healer discipline.
-* *Trade Healer* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
+* *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
 
 ### Helper (A)
 
@@ -181,7 +181,7 @@ A traveling day takes 8 hours.
 
 * You travel parallel to the party, looking for food and identifying possible threats.
 * *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
-* *Wilderness (Hunting and Foraging)* to locate game in the region, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to locate game in the region, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify non-beast creatures in the region.
 
 ### Navigator
@@ -202,8 +202,8 @@ A traveling day takes 8 hours.
 
 * You range ahead of the party to identify threats and survey the route.
 * *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *Alertness (Danger Sense)* to identify possible traps and hazardous terrain.
-* *Alertness (Stalking)* to find and follow signs of passage.
+* *[Alertness (Danger Sense)](../skills/alertness.md)* to identify possible traps and hazardous terrain.
+* *[Alertness (Stalking)](../skills/alertness.md)* to find and follow signs of passage.
 * *[Wilderness (Orienteering)](../skills/wilderness/index.md#orienteering)* to navigate while ranging and assess terrain ahead.
 * *[Wilderness (Weather Sense)](../skills/wilderness/index.md#weather-sense)* to read weather conditions on the route ahead.
 * *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* or *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify what left them.
@@ -243,7 +243,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 * You organize the camp for defense and efficiency.
 * *[Tactics](../skills/tactics.md)* to arrange camp members and positions for optimal response to threats.
 * Grants a +2 bonus to *[Startle](combat.md#startle)* trials for camp members in case of attack.
-* *Tactics (Poliorcetics)* to fortify the camp with stakes, ditches, or a ring of wagons, against a DC the GM sets. On a success, camp members have Partial [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") against attacks from outside the camp.
+* *[Tactics (Poliorcetics)](../skills/tactics.md)* to fortify the camp with stakes, ditches, or a ring of wagons, against a DC the GM sets. On a success, camp members have Partial [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") against attacks from outside the camp.
 
 ### Cooking
 
@@ -255,7 +255,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 
 * You tend to wounded or ailing allies during camp.
 * *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat allies' wounds per the Healer discipline.
-* *Trade Healer* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
+* *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
 
 ### Helper (A)
 
@@ -270,7 +270,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 
 * You leave the camp in search of food and to survey the nearby area.
 * *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
-* *Wilderness (Hunting and Foraging)* to locate game near the camp, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to locate game near the camp, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify non-beast creatures near the camp.
 
 ### Rest
@@ -284,7 +284,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 * *[Lore (Curse Lore)](../skills/lore.md#curse-lore)* to identify possibly cursed items.
 * *[Lore (applicable Knowledge Lore)](../skills/lore.md)* to appraise items within your area of expertise.
 * *[Trade Alchemist](../skills/trade/index.md#alchemist-discipline)* to identify potions and alchemical substances.
-* *Trade Alchemist* to advance a field-kit preparation by one day (see *[Alchemy](../skills/trade/alchemy/index.md)*).
+* *[Trade Alchemist](../skills/trade/index.md#alchemist-discipline)* to advance a field-kit preparation by one day (see *[Alchemy](../skills/trade/alchemy/index.md)*).
 * *[Trade (Scribe)](../skills/trade/index.md#scribe-discipline)* to identify scrolls or transcribe spells.
 
 ### Set Snare (A)
@@ -296,7 +296,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 
 * You tend to weapons and armor for repair.
 * *[Trade Blacksmith](../skills/trade/index.md#blacksmith-discipline)* to repair armor durability.
-* *Trade Blacksmith* to repair weapon durability.
+* *[Trade Blacksmith](../skills/trade/index.md#blacksmith-discipline)* to repair weapon durability.
 
 ### Watchman
 
@@ -310,10 +310,10 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 Resting is necessary to regain health, recover magan, and regain other class abilities. Resting always assumes between 6-8 hours of sleep.
 
 * **Dungeon Rest**. After 8 hours of rest, you regain 1 health and 1 magan. You must have at least 1 health to regain 1 health. Dungeon Rest does not reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")*.
-* **Wilderness Rest**. If you are in danger, this rest is treated as *Dungeon Rest*. If you are safe and secure, you regain 1d3 health and magan. Reduce *Exhausted* by 1 tier, but not below T1. Gnomes, Druids, Elves, Orcs, and Rangers treat a safe *Wilderness Rest* as a *Good Night's Rest*.
-* **Good Night's Rest**. After 8 hours of rest in a tavern, inn, or dwelling with no danger, you regain your Endurance tier die to health and casting tier die to magan. Reduce *Exhausted* by 1 tier.
-* **Civilized Rest**. After 24 hours in a town or city with no possibility of danger. You regain your Endurance tier die x2 to health and casting tier die x2 to magan. You are able to perform normal daily activities, such as moving about the location to shop, interact, or otherwise engage in seeing the sights. Strenuous activities, including repairing gear, training with weapons, and learning spells are not possible while benefiting from a *Civilized Rest*. Reduce *Exhausted* by 2 tiers.
-* **Bed Rest**. After 24 hours in a bed in a safe and secure location, such as a tavern, inn, or other dwelling. You are awake for no more than 8 hours and cannot leave the dwelling. Regain your Endurance tier die x2 plus 1 health per class level and casting tier die x2 plus 1 magan per class level. Remove the *Exhausted* condition entirely.
+* **Wilderness Rest**. If you are in danger, this rest is treated as *Dungeon Rest*. If you are safe and secure, you regain 1d3 health and magan. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier, but not below T1. Gnomes, Druids, Elves, Orcs, and Rangers treat a safe *Wilderness Rest* as a *Good Night's Rest*.
+* **Good Night's Rest**. After 8 hours of rest in a tavern, inn, or dwelling with no danger, you regain your Endurance tier die to health and casting tier die to magan. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
+* **Civilized Rest**. After 24 hours in a town or city with no possibility of danger. You regain your Endurance tier die x2 to health and casting tier die x2 to magan. You are able to perform normal daily activities, such as moving about the location to shop, interact, or otherwise engage in seeing the sights. Strenuous activities, including repairing gear, training with weapons, and learning spells are not possible while benefiting from a *Civilized Rest*. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 2 tiers.
+* **Bed Rest**. After 24 hours in a bed in a safe and secure location, such as a tavern, inn, or other dwelling. You are awake for no more than 8 hours and cannot leave the dwelling. Regain your Endurance tier die x2 plus 1 health per class level and casting tier die x2 plus 1 magan per class level. Remove the *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* condition entirely.
 
 **Rest and Abilities.** When an ability recovers after "a rest," any rest restores it, from a Dungeon Rest up. When an ability names a specific rest, such as a Good Night's Rest, that rest or a better one is required. No Rest restores nothing, and an Interrupted Rest counts as the rest one stage worse, so an interrupted Dungeon Rest restores nothing.
 
@@ -321,14 +321,14 @@ Resting is necessary to regain health, recover magan, and regain other class abi
 
 **Interrupted Rest.** If a rest is disturbed by danger or the threat of danger, or a *Civilized Rest* or *Bed Rest* is broken by strenuous activity, it counts as the rest one step down: Bed → Civilized → Good Night's → Wilderness → Dungeon → *No Rest*.
 
-* **No Rest**. You are able to sleep, at best, only half of your 6-8 hours. You cannot recover health or magan. Advance *Exhausted* by 1 tier.
-* **Consecutive No Rest**. Each day of *No Rest* advances *Exhausted* by 1 tier. Effects compound normally.
+* **No Rest**. You are able to sleep, at best, only half of your 6-8 hours. You cannot recover health or magan. Advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
+* **Consecutive No Rest**. Each day of *No Rest* advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. Effects compound normally.
 
 You cannot benefit from more than 1 type of rest in 24 hours. You can benefit from up to two meals a day, and only one of them can be a Banquet. Each ration is one meal. Food restores health based on your Endurance tier and magan based on your casting tier.
 
 **Hot Meals.** Cooked Dry rations and meals prepared at an inn are hot meals. A Poor meal is hot if it is served fresh, at the GM's discretion. If you eat a hot meal, add your Endurance tier to the health and your casting tier to the magan you recover during your next rest. The bonus applies once per rest, no matter how many hot meals you eat.
 
-**Going Hungry.** A day in which you eat no meal advances *Exhausted* by 1 tier.
+**Going Hungry.** A day in which you eat no meal advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
 
 Some classes may gain other bonuses to magan regeneration.
 

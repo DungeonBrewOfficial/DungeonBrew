@@ -344,7 +344,7 @@ The band is read at the group's current heads: a Swarm cut to 15 heads is a Broo
 
 - **Melee attacks and spells** (at any range) remove one head per kept damage die. Dice added by explosions count; dropped dice do not. Heads removed cannot exceed the net damage dealt.
 - **Ranged weapon attacks** (projectile and thrown) remove one head per hit. An effect that hits several targets removes one head per target hit.
-- **Attrition** removes one head per instance, whatever its damage.
+- **[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")** removes one head per instance, whatever its damage.
 
 **Firing into a group.** Aiming Trials against a minion group have their difficulty reduced by 2. A roll of 1 still misses.
 

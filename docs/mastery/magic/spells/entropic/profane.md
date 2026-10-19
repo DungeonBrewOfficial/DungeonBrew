@@ -51,7 +51,7 @@ You unleash a burst of choking ash and corpse dust at a point within 100 feet, e
 
 **Cost:** (1 + 1 + 0) x 1 x 1 x 2 = 4.
 
-You strike a creature within 30 feet with a lance of dead matter that accelerates decay on contact. The target makes an Agility trial; on failure, it takes full profane damage and gains Attrition (Decaying); tissue at the wound begins to decompose. The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
+You strike a creature within 30 feet with a lance of dead matter that accelerates decay on contact. The target makes an Agility trial; on failure, it takes full profane damage and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Decaying); tissue at the wound begins to decompose. The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
 
 ---
 
@@ -68,7 +68,7 @@ You strike a creature within 30 feet with a lance of dead matter that accelerate
 
 **Cost:** (1 + 0 + 0) x 3 x 1 = 3.
 
-You touch a creature and accelerate the decay of its body for the encounter. The target makes an Endurance trial; on failure, it advances Exhausted by 1 tier.
+You touch a creature and accelerate the decay of its body for the encounter. The target makes an Endurance trial; on failure, it advances [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier.
 
 ---
 
@@ -85,7 +85,7 @@ You touch a creature and accelerate the decay of its body for the encounter. The
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
 
-You fill a creature within 30 feet with the weight of mortality for the encounter. The target makes a Wisdom trial; on failure, it advances Demoralized by 1 tier.
+You fill a creature within 30 feet with the weight of mortality for the encounter. The target makes a Wisdom trial; on failure, it advances [Demoralized](../../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
 
 ---
 
@@ -204,7 +204,7 @@ You attune your senses to death and its traces for the encounter. You perceive u
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
 
-You reach through the profane form to charm an undead creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances Charmed by 1 tier.
+You reach through the profane form to charm an undead creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
 
 ---
 

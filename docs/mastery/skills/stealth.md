@@ -22,7 +22,7 @@ During Exploration: When you begin sneaking, you start at Tier 3 [Concealed](../
 
 **Disguise:** Alter your appearance or impersonate others. Anyone who looks at you closely rolls a Perception trial against your Stealth mastery level + Charisma tier. Alertness (Discernment) counters Disguise. The GM may give them Dominance if they know the person you are impersonating well, or Impotence if they have no reason to doubt you.
 
-**Opportunist:** On your turn, when you are flanking a target (melee or Enfilade only), when you are Tier 1 Concealed or higher, or when 2+ allies threaten your target (melee or ranged), you can make an Opportunist attack for 2 AP. This is a single weapon attack using a Physique weapon that adds 2 Stealth mastery dice to the attack roll. You gain the flanking bonus regardless of which condition triggered the attack.
+**Opportunist:** On your turn, when you are flanking a target (melee or Enfilade only), when you are Tier 1 [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") or higher, or when 2+ allies threaten your target (melee or ranged), you can make an Opportunist attack for 2 AP. This is a single weapon attack using a Physique weapon that adds 2 Stealth mastery dice to the attack roll. You gain the flanking bonus regardless of which condition triggered the attack.
 
 **Basic: Stealth Ability (choose one)**
 Choose one of the following. Unchosen abilities become available at Expert and Grand Master.

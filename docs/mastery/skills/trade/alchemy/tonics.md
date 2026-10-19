@@ -23,7 +23,7 @@ Coffee is administered through ingestion. After one round, a creature that drink
 | Delivery | Ingested |
 | Use | Exploration, Travel |
 | Duration | Long |
-| Crash | When the dose ends, you become 1 tier more Exhausted than you were before drinking it, for as long as the dose lasted. Exhausted T1 becomes T2 for that time, then returns to T1\* |
+| Crash | When the dose ends, you become 1 tier more [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") than you were before drinking it, for as long as the dose lasted. Exhausted T1 becomes T2 for that time, then returns to T1\* |
 | Properties | Delayed |
 | Modifications | None |
 | Rarity | Imported |

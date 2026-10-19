@@ -16,9 +16,9 @@ Aconite is administered through ingestion or a wound. A creature affected by aco
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Primal damage; Tainted T1 (Delayed) | None | 1 ss |
-| T2 | Primal damage; Tainted T2 (Delayed) | None | 1 gs |
-| T3 | Primal damage; Tainted T3 (Delayed) | None | 4 gs |
+| T1 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1 (Delayed) | None | 1 ss |
+| T2 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 (Delayed) | None | 1 gs |
+| T3 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3 (Delayed) | None | 4 gs |
 
 | | |
 |:---|:---|
@@ -37,9 +37,9 @@ Aconite is administered through ingestion or a wound. A creature affected by aco
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Tainted T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
-| **Tainted T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
-| **Tainted T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
 
 ## Aqua Fortis (nitric acid)
 
@@ -78,9 +78,9 @@ Arsenic is administered through ingestion. After one round, a creature affected 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Tainted T1. No healing\* | None | 1 ss |
-| T2 | Tainted T2. No healing\* | None | 1 gs |
-| T3 | Tainted T3. No healing\* | None | 4 gs |
+| T1 | [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1. No healing\* | None | 1 ss |
+| T2 | [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2. No healing\* | None | 1 gs |
+| T3 | [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3. No healing\* | None | 4 gs |
 
 \* While Tainted from arsenic, the creature can't regain health. Once the Tainted condition is treated or ends, healing works again.
 
@@ -101,9 +101,9 @@ Arsenic is administered through ingestion. After one round, a creature affected 
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Tainted T1** | 5 days, Peasant | 6 days, Knight | 8 days, Burgher | 12 days, Magnate |
-| **Tainted T2** | 15 days, Burgher | 16 days, Magnate | 18 days, Noble | 22 days, Royal |
-| **Tainted T3** | 30 days, Noble | 31 days, Royal | 33 days, Royal + 1 | 37 days, Royal + 2 |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 5 days, Peasant | 6 days, Knight | 8 days, Burgher | 12 days, Magnate |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 15 days, Burgher | 16 days, Magnate | 18 days, Noble | 22 days, Royal |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3** | 30 days, Noble | 31 days, Royal | 33 days, Royal + 1 | 37 days, Royal + 2 |
 
 ## Belladonna (dwale berry, deadly nightshade)
 
@@ -113,9 +113,9 @@ Belladonna is administered through ingestion, or by contact as a Thickened ointm
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Disoriented T1 | None | 1 ss |
-| T2 | Disoriented T2, Tainted T1 | None | 1 gs |
-| T3 | Disoriented T3, Tainted T2 | None | 4 gs |
+| T1 | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T1 | None | 1 ss |
+| T2 | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T2, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1 | None | 1 gs |
+| T3 | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T3, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 | None | 4 gs |
 
 | | |
 |:---|:---|
@@ -128,15 +128,15 @@ Belladonna is administered through ingestion, or by contact as a Thickened ointm
 | Properties | Delayed |
 | Modifications | Concentrated, Masked, Potent, Prolonged, Thickened |
 | Rarity | Common in hedgerows and at woodland edges |
-| Notes | One Intelligence trial per tier resists both conditions. Each failure advances Disoriented, and Tainted one tier behind it |
+| Notes | One Intelligence trial per tier resists both conditions. Each failure advances [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered."), and [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") one tier behind it |
 
 **To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Disoriented T1** | 3 days, Peasant | 4 days, Knight | 6 days, Burgher | 10 days, Magnate |
-| **Disoriented T2, Tainted T1** | 12 days, Burgher | 13 days, Magnate | 15 days, Noble | 19 days, Royal |
-| **Disoriented T3, Tainted T2** | 27 days, Noble | 28 days, Royal | 30 days, Royal + 1 | 34 days, Royal + 2 |
+| **[Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T1** | 3 days, Peasant | 4 days, Knight | 6 days, Burgher | 10 days, Magnate |
+| **[Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T2, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 12 days, Burgher | 13 days, Magnate | 15 days, Noble | 19 days, Royal |
+| **[Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T3, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 27 days, Noble | 28 days, Royal | 30 days, Royal + 1 | 34 days, Royal + 2 |
 
 ## Cantharides (blister beetle)
 
@@ -146,9 +146,9 @@ Cantharides is administered through ingestion or contact. Swallowed, it deals im
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Primal damage; Tainted T1 (Delayed)\* | None | 1 ss |
-| T2 | Primal damage; Tainted T2 (Delayed)\* | None | 1 gs |
-| T3 | Primal damage; Tainted T3 (Delayed)\* | None | 4 gs |
+| T1 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1 (Delayed)\* | None | 1 ss |
+| T2 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 (Delayed)\* | None | 1 gs |
+| T3 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3 (Delayed)\* | None | 4 gs |
 
 \* By contact, cantharides deals only its Primal damage, with no Tainted condition.
 
@@ -171,9 +171,9 @@ Cantharides is administered through ingestion or contact. Swallowed, it deals im
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Tainted T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
-| **Tainted T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
-| **Tainted T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
 
 ## Hellebore, White (*yerba de ballestero*)
 
@@ -183,9 +183,9 @@ White hellebore is administered through a wound or ingestion. A creature affecte
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Primal damage; Exhausted T1 (Delayed) | Self-purging\* | 1 ss |
-| T2 | Primal damage; Exhausted T2 (Delayed) | Self-purging\* | 1 gs |
-| T3 | Primal damage; Exhausted T3 (Delayed) | Self-purging\* | 4 gs |
+| T1 | Primal damage; [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T1 (Delayed) | Self-purging\* | 1 ss |
+| T2 | Primal damage; [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T2 (Delayed) | Self-purging\* | 1 gs |
+| T3 | Primal damage; [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T3 (Delayed) | Self-purging\* | 4 gs |
 
 \* Swallowed only. After the creature's first failed trial against the dose, its later trials against the dose have Dominance. Corrected removes this.
 
@@ -206,9 +206,9 @@ White hellebore is administered through a wound or ingestion. A creature affecte
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Exhausted T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
-| **Exhausted T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
-| **Exhausted T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
+| **[Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
+| **[Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
+| **[Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
 
 ## Hemlock
 
@@ -218,9 +218,9 @@ Hemlock is administered through ingestion, or through a wound as a Thickened bla
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Impaired T1 | None | 1 ss |
-| T2 | Impaired T2 | None | 1 gs |
-| T3 | Impaired T3 | None | 4 gs |
+| T1 | [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T1 | None | 1 ss |
+| T2 | [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T2 | None | 1 gs |
+| T3 | [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T3 | None | 4 gs |
 
 | | |
 |:---|:---|
@@ -239,9 +239,9 @@ Hemlock is administered through ingestion, or through a wound as a Thickened bla
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Impaired T1** | 3 days, Peasant | 4 days, Knight | 6 days, Burgher | 10 days, Magnate |
-| **Impaired T2** | 9 days, Burgher | 10 days, Magnate | 12 days, Noble | 16 days, Royal |
-| **Impaired T3** | 18 days, Noble | 19 days, Royal | 21 days, Royal + 1 | 25 days, Royal + 2 |
+| **[Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T1** | 3 days, Peasant | 4 days, Knight | 6 days, Burgher | 10 days, Magnate |
+| **[Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T2** | 9 days, Burgher | 10 days, Magnate | 12 days, Noble | 16 days, Royal |
+| **[Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T3** | 18 days, Noble | 19 days, Royal | 21 days, Royal + 1 | 25 days, Royal + 2 |
 
 ## Henbane
 
@@ -251,9 +251,9 @@ Henbane is administered through ingestion, as smoke, or by contact as a Thickene
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Disoriented T2, Invigorated T1 | None | 1 sp |
-| T2 | Disoriented T2, Invigorated T2 | None | 1 sc |
-| T3 | Disoriented T2, Invigorated T3 | None | 1 gs |
+| T1 | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T2, [Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") T1 | None | 1 sp |
+| T2 | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T2, [Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") T2 | None | 1 sc |
+| T3 | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T2, [Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") T3 | None | 1 gs |
 
 | | |
 |:---|:---|
@@ -272,9 +272,9 @@ Henbane is administered through ingestion, as smoke, or by contact as a Thickene
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Invigorated T1** | 12 days, Peasant | 13 days, Knight | 15 days, Burgher | 19 days, Magnate |
-| **Invigorated T2** | 18 days, Burgher | 19 days, Magnate | 21 days, Noble | 25 days, Royal |
-| **Invigorated T3** | 27 days, Noble | 28 days, Royal | 30 days, Royal + 1 | 34 days, Royal + 2 |
+| **[Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") T1** | 12 days, Peasant | 13 days, Knight | 15 days, Burgher | 19 days, Magnate |
+| **[Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") T2** | 18 days, Burgher | 19 days, Magnate | 21 days, Noble | 25 days, Royal |
+| **[Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") T3** | 27 days, Noble | 28 days, Royal | 30 days, Royal + 1 | 34 days, Royal + 2 |
 
 ## Oil of Vitriol (sulfuric acid)
 
@@ -313,7 +313,7 @@ Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | A 10 ft radius cloud: [Concealed](../../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") T1 for the round. Sea damage; Blinded for 1 round\* | None | 1 ss |
+| Single strength | A 10 ft radius cloud: [Concealed](../../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") T1 for the round. Sea damage; [Blinded](../../../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") for 1 round\* | None | 1 ss |
 
 \* Washing the eyes ends Blinded early: 1 AP with water, by the victim or an adjacent ally.
 
@@ -346,9 +346,9 @@ Sublimate is administered through ingestion, or by contact as a Thickened skin c
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Stone damage; Tainted T1 (Delayed) | None | 1 sc |
-| T2 | Stone damage; Tainted T2 (Delayed) | None | 2 gs |
-| T3 | Stone damage; Tainted T3 (Delayed) | None | 8 gs |
+| T1 | Stone damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1 (Delayed) | None | 1 sc |
+| T2 | Stone damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 (Delayed) | None | 2 gs |
+| T3 | Stone damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3 (Delayed) | None | 8 gs |
 
 | | |
 |:---|:---|
@@ -367,9 +367,9 @@ Sublimate is administered through ingestion, or by contact as a Thickened skin c
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Tainted T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
-| **Tainted T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
-| **Tainted T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
 
 ## Verdigris
 
@@ -379,9 +379,9 @@ Verdigris is administered through ingestion or by contact on a wound. After one 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Tainted T1 | Self-purging\* | 1 ss |
-| T2 | Tainted T2 | Self-purging\* | 1 gs |
-| T3 | Tainted T3 | Self-purging\* | 4 gs |
+| T1 | [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1 | Self-purging\* | 1 ss |
+| T2 | [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 | Self-purging\* | 1 gs |
+| T3 | [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3 | Self-purging\* | 4 gs |
 
 \* Swallowed only. After the creature's first failed trial against the dose, its later trials against the dose have Dominance. Corrected removes this.
 
@@ -402,9 +402,9 @@ Verdigris is administered through ingestion or by contact on a wound. After one 
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Tainted T1** | 3 days, Peasant | 4 days, Knight | 6 days, Burgher | 10 days, Magnate |
-| **Tainted T2** | 9 days, Burgher | 10 days, Magnate | 12 days, Noble | 16 days, Royal |
-| **Tainted T3** | 18 days, Noble | 19 days, Royal | 21 days, Royal + 1 | 25 days, Royal + 2 |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 3 days, Peasant | 4 days, Knight | 6 days, Burgher | 10 days, Magnate |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 9 days, Burgher | 10 days, Magnate | 12 days, Noble | 16 days, Royal |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3** | 18 days, Noble | 19 days, Royal | 21 days, Royal + 1 | 25 days, Royal + 2 |
 
 ## Yew
 
@@ -414,9 +414,9 @@ Yew is administered through ingestion, or through a wound as a Thickened coating
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| T1 | Primal damage; Tainted T1 | None | 1 ss |
-| T2 | Primal damage; Tainted T2 | None | 1 gs |
-| T3 | Primal damage; Tainted T3 | None | 4 gs |
+| T1 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1 | None | 1 ss |
+| T2 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 | None | 1 gs |
+| T3 | Primal damage; [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3 | None | 4 gs |
 
 | | |
 |:---|:---|
@@ -435,6 +435,6 @@ Yew is administered through ingestion, or through a wound as a Thickened coating
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
-| **Tainted T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
-| **Tainted T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
-| **Tainted T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T1** | 4 days, Peasant | 5 days, Knight | 7 days, Burgher | 11 days, Magnate |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2** | 10 days, Burgher | 11 days, Magnate | 13 days, Noble | 17 days, Royal |
+| **[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3** | 19 days, Noble | 20 days, Royal | 22 days, Royal + 1 | 26 days, Royal + 2 |

@@ -95,9 +95,9 @@ A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A
 ### Results
 
 - A failed Startle trial results in Tier 1 [Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."): *Dazed*.
-- A failed Startle trial by 3 or 4 results in Tier 2 Impaired: *Stunned*.
-- A failed Startle trial by 5+ results in Tier 3 Impaired: *Paralyzed*.
-- A creature affected by the *Impaired* condition progresses to previous Tier at the start of each combat round until they are no longer afflicted.
+- A failed Startle trial by 3 or 4 results in Tier 2 [Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."): *Stunned*.
+- A failed Startle trial by 5+ results in Tier 3 [Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."): *Paralyzed*.
+- A creature affected by the *[Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")* condition progresses to previous Tier at the start of each combat round until they are no longer afflicted.
 
 ## Additional Combat Rules
 
@@ -241,7 +241,7 @@ Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 | Mount or Dismount | 1 | Action + Movement |
 | Open / Close Door | 1 | Action + Interaction |
 | [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."), Fall | 1 | Action + Movement |
-| Prone, Stand from | 1 | Action + Movement |
+| [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."), Stand from | 1 | Action + Movement |
 | Skill, Active | 1 | Action |
 | Skill, Use Lore | 0 | Free action |
 | Trial | 0 | Free action |
@@ -310,11 +310,11 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, Healer Discipline). 
 | 27 | **Break your left arm.** You cannot hold anything with two hands, and you can hold only one object at a time. | Severe | Set (Healer, T3) + 30 days' rest |
 | 28 | **Break your right arm.** As left arm. | Severe | Set (Healer, T3) + 30 days' rest |
 | 29–30 | **Close Call!** No Trauma. |  |  |
-| 31 | **Break your left leg.** Movement halved, and you need a cane or crutch to move. When you move more than once in a round, you fall Prone. Penalty -1 on trials to keep your balance. | Severe | Set (Healer, T3) + 30 days' rest |
+| 31 | **Break your left leg.** Movement halved, and you need a cane or crutch to move. When you move more than once in a round, you fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Penalty -1 on trials to keep your balance. | Severe | Set (Healer, T3) + 30 days' rest |
 | 32 | **Break your right leg.** As left leg. | Severe | Set (Healer, T3) + 30 days' rest |
 | 33 | **Ringing Ears.** Penalty -1 on Perception trials that rely on hearing. | Minor | 3 days' rest |
 | 34–35 | **Close Call!** No Trauma. |  |  |
-| 36–37 | **Limp.** Movement reduced by 1 (5 ft). When you move more than once in a round, make a Physique trial (Easy, 2) or fall Prone. | Minor | 10 days' rest |
+| 36–37 | **Limp.** Movement reduced by 1 (5 ft). When you move more than once in a round, make a Physique trial (Easy, 2) or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). | Minor | 10 days' rest |
 | 38 | **Teeth Knocked Out.** Penalty -1 on Charisma trials. Spells with verbal components require a miscast trial. A prosthesis removes the effect. | Grievous | Prosthesis |
 | 39–40 | **Close Call!** No Trauma. |  |  |
 | 41 | **Cracked Sternum.** You have 1 AP per round. Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | 10 days' rest |

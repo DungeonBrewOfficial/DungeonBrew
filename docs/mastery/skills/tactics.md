@@ -32,7 +32,7 @@ When you or an ally moves into a position where you are directly between a speci
 
 You may only screen one ally from one enemy at a time.
 
-- Cover: If the enemy's Aiming Trial to hit the screened ally fails, the attack targets you instead.
+- [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover."): If the enemy's Aiming Trial to hit the screened ally fails, the attack targets you instead.
 - Concealment: If the enemy's Perception trial against your Tactics Mastery DC to hit the screened ally fails, the attack targets you instead.
 
 Screening ends when any of the three creatures (you, the ally, or the enemy) move such that you are no longer in the line between the enemy and the ally, or when you choose to end it.

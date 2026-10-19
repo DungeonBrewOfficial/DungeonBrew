@@ -20,8 +20,8 @@ She is a druid. A human devotee of nature itself, who can tap into the deep magi
 | 8 \ 8 | 2,650 | Healer (Liaig) | - |  9 / 14 / 9 |
 | 9 \ 9 | 3,250 | Healer (Liaig) | +2 |  10 / 16 / 10 |
 | 10 \ 10 | 3,900 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | - |  11 / 18 / 11 |
-| 11 \ 10 | 4,600 | Inspired One (Awenydd) | - |  12 / 20 / 12 |
-| 12 \ 10 | 5,350 | Inspired One (Awenydd) | +2 |  13 / 22 / 13 |
+| 11 \ 10 | 4,600 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | - |  12 / 20 / 12 |
+| 12 \ 10 | 5,350 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | +2 |  13 / 22 / 13 |
 | 13 \ 10 | 6,150 | Sacred One (Nemed) | - |  14 / 24 / 14 |
 | 14 \ 10 | 7,000 | Sacred One (Nemed) | - |  15 / 26 / 15 |
 | 15 \ 10 | 7,900 | Sacred One (Nemed) | +2 |  16 / 28 / 16 |
@@ -203,7 +203,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 **Wolf (Piercing):**
 
-***Hamstring*** *(Tier 2. 1 AP, Attack).* On a hit with a bite attack from behind or flanking, in lieu of damage, the target must succeed on a Strength trial [Puca DC] or advance Restricted by 1 tier.
+***Hamstring*** *(Tier 2. 1 AP, Attack).* On a hit with a bite attack from behind or flanking, in lieu of damage, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 ***Pack*** *(Tier 4. 1 AP, Reaction).* When an allied creature hits an enemy within 5 feet of the Puca, the Puca can make a bite attack against the same target.
 
