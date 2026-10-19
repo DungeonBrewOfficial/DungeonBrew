@@ -1,0 +1,18 @@
+---
+generated_by: tools/sync_mastery.py
+---
+
+# Great Treasures
+
+Some treasures are beyond any table: a king's crown, a famous jewel, the prize of a great collection. Each is one of a kind, and the GM sets its value. The list below shows what such treasures were worth, for reference. These are the values set when they were appraised or pledged, and few buyers could ever pay them.
+
+| Treasure | Value |
+|:---|:---:|
+| A high king's great crown, heavy gold set with large rubies, sapphires, and pearls | ~6,500,000 sp |
+| A king's second crown, for lesser occasions | ~2,000,000 sp |
+| A gold collar given as a gift between kings | ~650,000 sp |
+| A queen's crown | ~350,000 sp |
+| An ancient bowl carved from a single banded stone | ~300,000 sp |
+| A great prince's pendant of three huge balas, a diamond, and pearls | ~250,000 sp |
+| A gold statuette of a saint, set with gems | ~200,000 sp |
+| A king's finest brooch | ~150,000 sp |

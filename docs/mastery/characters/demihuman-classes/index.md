@@ -1,0 +1,7 @@
+---
+generated_by: tools/sync_mastery.py
+---
+
+# Demihuman Classes
+
+Unlike humans, demihumans only have access to one class which is representative of their species. This distinction is due to demihumans being more steady in their views of the world, resistant to the whims of change, and their steady decline in population in the face of humanity's rise. In many cases, demihumans are either superior to humans in certain skill sets or lack the ability or will to learn the skill sets that humans have adopted.

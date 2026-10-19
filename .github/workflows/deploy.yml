@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - run: pip install mkdocs-material
+      - run: pip install "mkdocs<2" "mkdocs-material<10"
 
       - run: mkdocs build
       

@@ -1,0 +1,401 @@
+---
+generated_by: tools/sync_mastery.py
+---
+
+# Weapon Mastery
+
+Weapon mastery is a measure of a character's skill with a specific type of weapon. The more skilled a character is with a type of weapon, the more likely they are to hit their foes and the more damage they inflict when they do hit. In addition, powerful and unique maneuvers are gained from advancing mastery with weapon types and styles, so that you have the ability to manipulate a battlefield more effectively.
+
+For the rules governing mastery points, mastery levels, point progression, and mastery caps by class, see the Mastery chapter.
+
+## Weapon Types
+
+Weapons are divided into several categories based on their use in battle. Characters can focus their attention on learning these weapons by type to achieve different levels of mastery. Classes do not restrict which weapon types you can learn; your class's mastery ceiling and your attributes determine how well you use them.
+
+* Axes
+* Bludgeons
+* Daggers
+* Pole Weapons
+* Projectiles
+* Swords
+
+**Short Stature.** Dwarves, gnomes, and halflings cannot wield Two-Handed or Heavy Projectile weapons. They can wield Versatile weapons with either grip.
+
+___
+
+### Weapon Speed and Attribute by Category
+
+| Category | Speed | Attribute | Weapon Dice |
+|:---:|:---:|:---:|:---:|
+| Light Projectile | Fast | Physique | I |
+| Heavy Projectile | Slow | Physique | IV |
+| Fixed Projectile | Per weapon | Perception | Fixed |
+| Light Thrown | Fast | Physique | I |
+| Heavy Thrown | Slow | Strength | II |
+| Light One-Handed | Fast | Physique | I |
+| Heavy One-Handed | Moderate | Strength | II |
+| Versatile One-Handed | Slow | Strength | II |
+| Versatile Two-Handed | Moderate | Strength | IV |
+| Two-Handed | Slow | Strength | V |
+
+---
+
+### Weapon Mastery Attack Dice
+
+| **Mastery Level (Tier)** | I | II | III | IV | V | VI |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Unskilled (1) | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 |
+| Untrained (2) | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 1d10 |
+| Basic (3) | 1d3 | 1d4 | 1d6 | 1d8 | 1d10 | 1d12 |
+| Skilled (4) | 1d4 | 1d6 | 1d8 | 1d10 | 1d12 | 2d6 |
+| Expert (5) | 1d6 | 1d8 | 1d10 | 1d12 | 2d6 | 2d8 |
+| Master (6) | 1d8 | 1d10 | 1d12 | 2d6 | 2d8 | 2d10 |
+| Grand Master (7) | 1d10 | 1d12 | 2d6 | 2d8 | 2d10 | 2d12 |
+
+---
+
+### Non-Standard Attacks
+
+**Unarmed.** Unarmed attacks use only the attacker's STR or PHY Tier Die. No weapon mastery die is added. Unarmed attacks are Fast and deal Crushing damage.
+
+**Improvised.** When a character attacks with an improvised weapon or a weapon they are Unskilled with, the GM assigns the weapon track that most closely matches the object's size and weight. The attack uses the Unskilled row of that track. Phase, attribute, and damage type follow the rules of the weapon category the object most resembles. Crushing is the default damage type when no clear analogue exists.
+
+---
+
+## Weapon Styles
+
+In addition to being able to train with weapon types, you can also train in weapon styles. These styles allow you to benefit in different ways from the weapons you choose to wield. For instance, if you have trained in Weapon and Shield style, you benefit from having any one handed weapon in one hand and a shield in the other, even if you are not specifically trained with either.
+
+There is a difference between knowing how to fight with a weapon and specializing in that style of fighting. Every character with weapon proficiency knows at least the basics of the fighting styles used with that weapon, but to gain additional benefits, must train.
+
+**Single Weapon Style**. The single weapon style requires that you wield only one Light One-Handed, Heavy One-Handed, or Versatile One-Handed in a single hand and nothing in your off-hand.
+* You increase the damage done with single weapons by 1 for current Tier of mastery in this style.
+
+Maneuvers gained from mastery in this style are only usable while wielding a weapon as described.
+
+**Weapon and Shield Style**. The weapon and shield weapon style requires that you wield a Light One-Handed, Heavy One-Handed, or Versatile One-Handed weapon in your main hand and a shield in your off-hand.
+* Wielding a shield in your off-hand allows you to take defense reactions against ranged attacks and can choose to allow your shield to absorb durability damage instead of your armor.
+* You may attack with your shield for 1 AP. Shield attacks follow the I weapon dice track, deal Crushing damage, and use the same attribute as your main-hand weapon.
+
+Maneuvers gained from mastery in this style are only usable while wielding a weapon with a shield as described.
+
+**Two-Handed Weapon Style**. The two-handed weapon style requires that you wield only one weapon in two hands. The weapon can be Versatile Two-Handed or Two-Handed.
+* When rolling weapon dice for a two-handed weapon attack, roll one additional die of the same type and drop the lowest result.
+
+Maneuvers gained from mastery in this style are only usable while wielding a weapon as described.
+
+**Two-Weapon Style**. The two-weapon style requires that you wield a Light One-Handed, Heavy One-Handed, or Versatile One-Handed weapon in each hand.
+* When you make an attack (1 AP), you attack with both your main-hand and off-hand weapons. Both weapons benefit from your attribute tier die.
+
+Maneuvers gained from mastery in this style are only usable while wielding a weapon in each hand as described.
+
+**Ranged Style**. The ranged style requires that you wield a bow, crossbow, blowgun, sling, stave sling, or a weapon with the Thrown property.
+* Ranged weapons require an Aiming Trial to hit (see Combat chapter).
+* Ranged attacks can only be defended against if the defender is wielding a shield.
+* Drawing or nocking ammunition, or drawing another thrown weapon of the same type, does not cost AP.
+* Fixed projectiles (crossbows and blowguns) use fixed weapon dice as listed in their equipment description and do not benefit from weapon mastery dice. Their weapon dice are not affected by Dominance and Impotence; the Attack Attribute Die (Perception) is affected normally. The fixed projectile attack formula is: PER Tier Die + Fixed Weapon Dice + Modifiers.
+
+When you reach Basic Mastery in the Ranged style, choose a doctrine: Marksman or Skirmisher. This choice is permanent. See Ranged [Style] Abilities below.
+
+Maneuvers gained from mastery in this style are only usable while wielding a weapon as described.
+
+---
+
+## Using Maneuvers
+
+You can only use one maneuver per action unless the maneuver specifically states otherwise. Each maneuver lists its AP cost, mastery requirement, trigger conditions, and effects.
+
+**Frequency**: You can use maneuvers as long as you have AP available but can only use one maneuver per action. Unless explicitly stated, a maneuver cannot be used as a part of the same Action or Reaction as another Skill Mastery Ability or Class Ability relying on the same type of action.
+
+**Mastery Gating**: You cannot use maneuvers for a weapon unless you meet the minimum mastery requirement and are actively wielding the appropriate weapon.
+
+**Borrowed Maneuvers**: When a weapon's properties name a maneuver from another weapon type (such as *Hook* on a Khopesh), you can use that maneuver with that weapon. Use your mastery in the weapon's own type to meet the maneuver's mastery requirement.
+
+**Style**: Some maneuvers require specific weapon styles (single weapon, weapon and shield, two-handed). You can change styles during combat by drawing/stowing equipment.
+
+### Maneuver Triggers
+
+Every maneuver has a **trigger** that determines when it can be used. The trigger category appears first, followed by any specific conditions.
+
+**Attack**: Used when you make a proactive attack on your turn. Most offensive maneuvers fall here. Declared before the attack roll unless stated otherwise.
+
+**Counterattack**: Used after you successfully defend against an attack. Requires a successful defense and costs 1 AP.
+
+**Reprisal**: Used when an enemy's movement or positioning creates an opening. Typically triggered when a creature enters or leaves your reach. Costs 1 AP.
+
+**Defense**: Used when you are attacked. Declared after the attack is announced but before the roll.
+
+**Declaration**: Committed at the start of the round during the Declaration Phase. These maneuvers lock you into a specific posture or behavior for the entire round.
+
+**Contingency**: Triggered when a specific condition is met during combat. The condition follows the keyword and can only be used when the situation arises.
+
+---
+
+## Melee Baseline Maneuvers
+
+Available to any character wielding a melee weapon who meets the listed mastery requirement in any melee weapon type. These maneuvers do not require separate investment and are unlocked automatically as your highest melee weapon type mastery advances.
+
+---
+
+### Charge
+
+*Untrained Mastery*
+
+You sprint toward your target and make a melee attack using the weight of your momentum.
+
+**Cost**: 2 AP (1 Movement + 1 Attack)
+
+**Trigger**: Attack
+
+**Effect**: Move a minimum of 15 feet in a straight line. Your first melee attack after this movement gains Dominance. If you are Mounted, you gain Superiority instead of Dominance.
+
+**Special**: This maneuver is countered by Set Spear. Both you and your target roll your attacks and the higher attack prevails. If your target's attack is higher, your charge is broken and you cannot attack this turn.
+
+---
+
+### Deflect
+
+*Basic Mastery*
+
+You abandon offensive action and focus entirely on reading and reacting to incoming attacks.
+
+**Cost**: 2 AP
+
+**Trigger**: Declaration
+
+**Effect**: You cannot attack this round. Deflect's cost covers up to 3 defenses this round. Any other AP you have can be spent normally, except on attacks.
+
+---
+
+### Coup de Grace
+
+*Skilled Mastery*
+
+You deliver a killing strike to a creature that cannot defend itself.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack, targeting a Helpless creature
+
+**Effect**: Make a melee attack with Superiority and Dominance that ignores all armor resistance.
+
+---
+
+### Parry
+
+*Expert Mastery*
+
+You use your weapon to turn aside an incoming weapon attack.
+
+**Cost**: 1 AP
+
+**Trigger**: Defense, when a creature no more than one size larger than you attacks you with a weapon (once per round)
+
+**Effect**: Defend and add your Weapon Mastery Tier to your defense roll.
+
+---
+
+### Disarm
+
+*Master Mastery*
+
+You target your opponent's weapon hand or the weapon itself to knock it from their grasp.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack, Counterattack, Reprisal, targeting an Average or Small creature wielding a weapon
+
+**Effect**: On a hit, instead of dealing damage, target makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, their weapon falls behind them out of reach. They must use movement to retrieve it or switch to another weapon.
+
+**Note**: Some weapons grant bonuses to Disarm attempts (see weapon properties).
+
+---
+
+### Reap
+
+*Grand Master Mastery*
+
+You carry the force of a killing blow into an immediate strike against a second opponent.
+
+**Cost**: 0 AP
+
+**Trigger**: Contingency, when you kill an enemy with a melee weapon attack
+
+**Effect**: Immediately make one additional melee attack against another enemy within your weapon's range with Dominance.
+
+---
+
+## Melee Guards
+
+Guards represent how a fighter presents their weapon and prepares for combat. A character declares one guard (or formation, if trained in Tactics) at the start of each round. This declaration is locked for the round unless an ability states otherwise. Guards are unlocked automatically as your highest melee weapon type mastery advances, the same as Melee Baseline Maneuvers.
+
+Guards are not stances in the defensive sense — they are checkpoints in offensive motion that prepare attacks and shape the tactical options available to you.
+
+### Untrained Guards
+
+Available at Untrained mastery. These three guards offer simple trade-offs between offense and defense.
+
+**Mutable** *(Fiore's Instabile)*
+No modifications to attack or defense rolls. The neutral guard.
+
+**Stable** *(Fiore's Stabile)*
+Your defense rolls have Dominance. Your attack rolls have Impotence.
+
+**Striking** *(Fiore's Pulsativa)*
+Your attack rolls have Dominance. Your defense rolls have Impotence.
+
+---
+
+### Alber (Fool's Guard)
+
+*Basic Mastery*
+
+You lower your weapon and present an opening, inviting the enemy to close distance. When they commit, the trap springs.
+
+**Effect**: When a creature enters your melee range, you may make a Reprisal Attack against it.
+
+---
+
+### Vom Tag (From the Roof)
+
+*Skilled Mastery*
+
+You hold your weapon high and loaded, every motion pre-committed to a single devastating technique.
+
+**Effect**: Your Mastery DC increases by 1 for maneuvers you use.
+
+---
+
+### Ochs (Ox)
+
+*Expert Mastery*
+
+You read the rhythm of combat and control the tempo, choosing your moment with precision rather than leaving it to chance.
+
+**Effect**: You choose whether to act before or after enemies in your phase, regardless of the initiative roll.
+
+---
+
+### Pflug (Plow)
+
+*Master Mastery*
+
+You hold low with point forward, controlling the centerline. Your guard is oriented toward the catch and redirect — defense flows into technique.
+
+**Effect**: Your Attack maneuvers may also be used on Counterattacks and Reprisal Attacks. Your proactive attacks have Impotence.
+
+---
+
+### Fließend (Flowing)
+
+*Grand Master Mastery*
+
+At the highest mastery, the concept of guards dissolves into fluid motion. Each action flows from the position that best serves it.
+
+**Effect**: You may change your guard after any attack or defense action. You are no longer locked into your declared guard for the round.
+
+---
+
+## Maneuvers by Mastery Level
+
+**Untrained**: Charge
+
+**Basic**: Deflect
+
+**Skilled**: Coup de Grace
+
+**Expert**: Parry
+
+**Master**: Disarm
+
+**Grand Master**: Reap
+
+---
+
+## Ranged Baseline Maneuvers
+
+Available to any character wielding a ranged weapon who meets the listed mastery requirement in any ranged weapon type. These maneuvers do not require separate investment and are unlocked automatically as your highest ranged weapon type mastery advances.
+
+---
+
+### Snap Shot
+
+*Untrained Mastery*
+
+You loose a quick shot at an approaching enemy and reposition before they close the distance.
+
+**Cost**: 1 AP
+
+**Trigger**: Reprisal, when a creature uses movement to approach within 15 feet of your position
+
+**Effect**: Make a ranged attack with Impotence and move up to half your movement speed away from the triggering creature.
+
+---
+
+### Covering Fire
+
+*Basic Mastery*
+
+You designate an area and fire at anything that moves through it.
+
+**Cost**: 2 AP
+
+**Trigger**: Declaration, designate a 30-foot radius area within your weapon's range
+
+**Effect**: The first two creatures that use movement to enter or move through the declared area provoke a ranged attack from you with Impotence. If you deal damage, the target makes an Agility or Strength Trial (their choice) against your Mastery DC. On failure, the target advances Restricted by 1 tier, halting movement. Normal range penalties apply.
+
+---
+
+### Rapid Shot
+
+*Skilled Mastery*
+
+You fire two shots in quick succession at the same target, sacrificing accuracy for volume.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: Make 2 ranged attacks against the same target. Both attacks have Impotence and Inferiority.
+
+---
+
+### Split Shot
+
+*Expert Mastery*
+
+You pick two targets standing close together and loose two projectiles simultaneously.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: Make one attack roll with Inferiority targeting two enemies within 5 feet of each other, applying the same attack toward each.
+
+---
+
+### Steady Hand
+
+*Master Mastery*
+
+You take your time to find an angle past your target's cover before releasing.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack, targeting a creature in cover
+
+**Effect**: Reduce the target's cover by one tier (Total Cover is unaffected). Your attack gains Dominance.
+
+---
+
+### Power Shot
+
+*Grand Master Mastery*
+
+You perform a full draw of your bow, throw with increased strength, or over-span your crossbow for a more impactful attack.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: Your attack gains Superiority. Gain 1 tier of Exhaustion.

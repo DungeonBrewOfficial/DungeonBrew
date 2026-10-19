@@ -1,0 +1,429 @@
+---
+generated_by: tools/sync_mastery.py
+---
+
+# Style Maneuvers
+
+## Single Weapon [Style] Maneuvers
+
+Available when wielding a weapon in one hand (including Versatile weapons used one-handed) with the listed mastery.
+
+---
+
+### Check
+
+*Basic Mastery*
+
+You strike an approaching enemy as they close to melee range to disrupt their attack.
+
+**Cost**: 2 AP
+
+**Trigger**: Defense, when a creature that moved at least 5 feet toward you this turn makes a melee attack against you, including Charge
+
+**Effect**: Move 5 feet toward the attacker. The attacker makes a Physique or Perception Trial (attacker's choice) against your Mastery DC. You make a melee attack against the attacker and defend against the attacker's attack. On failure, your attack resolves first and the attacker's attack gains Inferiority. On success, the attacker's attack resolves first.
+
+---
+
+### Clinch
+
+*Skilled Mastery*
+
+You seize an opponent with your free hand to pin them in place and strike while they cannot defend properly.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack, targeting a creature no more than one size larger than you
+
+**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, the target advances Restricted by 1 tier. Make a melee attack against the target and, if the target failed the trial, add your weapon attribute tier to the attack.
+
+---
+
+### Exploit
+
+*Expert Mastery*
+
+You attack again immediately after the target defends, striking before they recover their guard.
+
+**Cost**: 1 AP
+
+**Trigger**: Contingency, when a target successfully defends against your melee attack
+
+**Effect**: Make a melee attack against the target. The target makes a Perception Trial against your Mastery DC. On failure, the attack gains Superiority. On success, the attack gains Inferiority.
+
+---
+
+### Sidestep
+
+*Master Mastery*
+
+You deflect an attack and step past your opponent to strike from their unguarded side.
+
+**Cost**: 1 AP
+
+**Trigger**: Counterattack, on a successful defense against a melee attack
+
+**Effect**: Move 5 feet to an unoccupied space adjacent to the attacker without provoking Reprisal Attacks. Make a melee attack against the attacker with Dominance.
+
+---
+
+### Dismantle
+
+*Grand Master Mastery*
+
+You circle your target and deliver a relentless series of strikes from every angle.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Make 3 melee attacks with Superiority against the same target. You may move 5 feet between each attack. Gain 3 tiers of Exhaustion.
+
+---
+
+## Two-Handed [Style] Maneuvers
+
+Available when wielding a weapon in two hands (including Versatile weapons used two-handed) with the listed mastery.
+
+---
+
+### Wrath
+
+*Basic Mastery*
+
+You put your full weight behind a committed swing, sacrificing your defensive position for power.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: Make a melee attack with Dominance. The next melee attack against you before the start of your next turn gains Dominance.
+
+---
+
+### Sweep
+
+*Skilled Mastery*
+
+You swing your weapon in a wide arc through multiple enemies standing near you.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Target up to 3 creatures adjacent to you in a continuous arc (no allies between targets). Make one attack with Inferiority and apply the same result to all targets.
+
+---
+
+### Fell
+
+*Expert Mastery*
+
+You strike a retreating enemy as they leave your reach to cut them down mid-stride.
+
+**Cost**: 1 AP
+
+**Trigger**: Reprisal, when a creature no more than one size larger than you within your range uses movement to leave your range
+
+**Effect**: Make a melee attack with Inferiority against the creature. If you deal damage, the target makes a Strength Trial against your Mastery DC. On failure, the target is knocked prone.
+
+---
+
+### Smash
+
+*Master Mastery*
+
+You wind up a massive overhead strike that sacrifices speed for raw force.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: You act in Slow phase. Make one melee attack with Inferiority that adds half your Strength score (rounded down) to damage.
+
+---
+
+### Rampage
+
+*Grand Master Mastery*
+
+You move between enemies, making a total of three attacks against targets in range.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Make a total of 3 melee attacks with Superiority, distributed among up to 3 targets within range. You may move 5 feet between each attack without provoking Reprisal Attacks. Gain 3 tiers of Exhaustion.
+
+---
+
+## Two-Weapon [Style] Maneuvers
+
+Available when wielding weapons in both hands with the listed mastery. Baseline: 1 AP = main-hand attack + off-hand attack, both weapons benefit from tier die.
+
+---
+
+### Broken Time
+
+*Basic Mastery*
+
+You feint with your off-hand weapon to create an opening for a stronger main-hand strike.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: Off-hand attacks with Impotence. Main-hand attacks with Dominance.
+
+---
+
+### Counter-Disengage
+
+*Skilled Mastery*
+
+You follow a missed main-hand attack with an off-hand strike as you withdraw from the target.
+
+**Cost**: 0 AP
+
+**Trigger**: Contingency, after your main-hand attack misses, before rolling off-hand
+
+**Effect**: Off-hand attack has Inferiority. You can move up to half your movement speed without provoking Reprisal Attacks from the creature you attacked.
+
+---
+
+### Fend
+
+*Expert Mastery*
+
+You use both weapons, alternating hands, to deflect incoming attacks.
+
+**Cost**: 2 AP
+
+**Trigger**: Declaration
+
+**Effect**: You make no attacks this round. You may defend against up to 4 melee attacks, alternating main-hand and off-hand weapons. Each defense uses the weapon's die in place of your attribute tier die with both Impotence and Inferiority.
+
+---
+
+### Double-Time
+
+*Master Mastery*
+
+You commit to an ambitious defense, making yourself vulnerable in order to exploit your enemy's aggression.
+
+**Cost**: 1 AP
+
+**Trigger**: Defense, when enemy attacks you
+
+**Effect**: Defend with Superiority. If you successfully defend and take no damage, make a free Counterattack with main-hand. If you take any damage, it is doubled.
+
+---
+
+### Aanslag
+
+*Grand Master Mastery*
+
+You unleash a sustained flurry of strikes with both weapons, attacking three times with each.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Make 3 attacks with each weapon (6 total). All attacks gain Dominance. Gain 3 tiers of Exhaustion.
+
+---
+
+## Weapon and Shield [Style] Maneuvers
+
+Available when wielding a weapon in one hand and shield in the other with the listed mastery.
+
+---
+
+### Intercept
+
+*Basic Mastery*
+
+You step between an ally and their attacker, taking the attack yourself with your shield raised.
+
+**Cost**: 1 AP
+
+**Trigger**: Contingency, when an enemy within your range attacks an ally within your range (announce before enemy rolls)
+
+**Effect**: Move between your ally and the attacker, swapping positions if both you and your ally are willing. You become the target of the attack and gain Dominance on your defense roll.
+
+---
+
+### Shield Punch
+
+*Skilled Mastery*
+
+You strike the target with the face of your shield to disorient them.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: Make a shield attack. On hit, if you deal damage, the target makes a Perception Trial against your Mastery DC or advances Impaired by 1 tier. Cannot target creatures more than one size category larger than you.
+
+---
+
+### Shield Bind
+
+*Expert Mastery*
+
+You trap the attacker's weapon against your shield and strike while they cannot defend.
+
+**Cost**: 1 AP
+
+**Trigger**: Counterattack, on a successful defense against a weapon attack
+
+**Effect**: The attacker makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, you bind their weapon against your shield. Make a melee attack with Dominance against the bound creature. The bound creature cannot defend against this attack.
+
+---
+
+### Push
+
+*Master Mastery*
+
+You drive your shield into the target to force them backward.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack
+
+**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, push the target backwards in a straight line up to half your movement speed. Cannot target creatures more than one size category larger than you.
+
+---
+
+### Assault
+
+*Grand Master Mastery*
+
+You press forward with a combination of weapon strikes and shield blows.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Make 3 attacks in any combination of weapon attacks and shield strikes. Each weapon attack gains Superiority. Each shield strike is a Shield Punch. Gain 3 tiers of Exhaustion.
+
+---
+
+## Ranged [Style] Abilities
+
+Ranged Styles define how a character fights at range through a combination of compounding passive bonuses and advanced maneuvers. Passive abilities are always active when their conditions are met and stack with each other. You unlock one ability per mastery level.
+
+Choose one doctrine when you reach Basic Mastery in the Ranged style. You may not change your doctrine once chosen.
+
+### Marksman
+
+The doctrine of patience. Marksmen fight from fixed positions, rewarding elevation, cover, and precision over mobility. Every passive compounds: a Marksman who is stationary, elevated, and behind cover benefits from all three layers simultaneously.
+
+---
+
+#### Precision Fire
+
+*Basic Mastery (Passive)*
+
+When calculating penalties for allies adjacent to your target, ignore a number of them equal to your Perception Tier. The penalty is always at least +1 if any allies are adjacent to the target. You must not have moved in the previous round.
+
+---
+
+#### Elevated Position
+
+*Skilled Mastery (Passive)*
+
+When you have elevation over your target, your Aiming Trial gains Dominance.
+
+---
+
+#### Firing Port
+
+*Expert Mastery (Passive)*
+
+When you are behind Total Cover, breaking cover to attack does not cost 1 AP.
+
+---
+
+#### Disarming Shot
+
+*Master Mastery*
+
+You aim for the target's weapon hand or weapon to knock it from their grip at range.
+
+**Cost**: 1 AP
+
+**Trigger**: Attack, targeting an Average or smaller creature wielding a weapon
+
+**Effect**: Make a ranged attack with Inferiority. On hit, instead of dealing damage, the target makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, their weapon is knocked from their grip and lands 10 feet away. They must use movement to retrieve it or switch to another weapon.
+
+---
+
+#### Killshot
+
+*Grand Master Mastery*
+
+You sight a vital point on the target and wait for the precise moment to release.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Your Aiming Trial DC increases by 4 for this attack. If you pass the Aiming Trial, your attack gains Superiority and adds your Perception Tier Die to the attack.
+
+---
+
+### Skirmisher
+
+The doctrine of motion. Skirmishers fight at close range, using constant repositioning to find angles, flank targets, and disrupt enemies. Every passive compounds: a Skirmisher who is moving, flanking, and fighting within 30 feet benefits from all three layers simultaneously.
+
+---
+
+#### Light Feet
+
+*Basic Mastery (Passive)*
+
+When you make a ranged attack, you may move 5 feet before or after the attack. This movement provokes Reprisal Attacks normally.
+
+---
+
+#### Enfilade
+
+*Skilled Mastery (Passive)*
+
+You may apply the flanking bonus to ranged attacks against a target you are flanking, provided you are within 30 feet of the target. This counts as flanking for abilities that require it (such as Opportunist).
+
+---
+
+#### Moving Target
+
+*Expert Mastery (Passive)*
+
+When you have moved this round, the Aiming Trial DC for ranged attacks targeting you increases by 1.
+
+---
+
+#### Spoiling Shot
+
+*Master Mastery*
+
+You shoot an enemy in the act of attacking your ally to weaken their strike.
+
+**Cost**: 1 AP
+
+**Trigger**: Contingency, when an enemy within 30 feet attacks an ally (announce before enemy rolls)
+
+**Effect**: Make a ranged attack against the attacker. Damage resolves normally. The attacker then makes a trial with their attack attribute against your Mastery DC. On failure, subtract the damage you dealt from the attacker's attack roll against your ally.
+
+---
+
+#### Parthian Shot
+
+*Grand Master Mastery*
+
+You fire at targets while moving at full speed, never stopping long enough to present a stationary target.
+
+**Cost**: 2 AP
+
+**Trigger**: Attack
+
+**Effect**: Move your full movement speed. During this movement, make 2 ranged attacks. Each attack gains Bonus equal to your weapon attribute tier. Gain 3 tiers of Exhaustion.

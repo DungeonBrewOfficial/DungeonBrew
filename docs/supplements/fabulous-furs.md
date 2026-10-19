@@ -1,5 +1,8 @@
 # Fabulous Furs
 
+!!! info ""
+    These are the 5e fur tables. The Mastery version is under [Mastery → Treasure → Furs](../mastery/treasure/furs.md).
+
 <div class="page-split" markdown="1">
 
 <div class="main-content" markdown="1">

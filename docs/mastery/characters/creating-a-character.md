@@ -1,0 +1,397 @@
+---
+generated_by: tools/sync_mastery.py
+---
+
+# Creating a Character
+
+## Rolling Attributes
+
+Each attribute is assigned a Tier based on the significance of that attribute to the class that relies on it. The higher the tier, the better the dice used to determine the points.
+
+| Tier | Die |
+|:---:|:---:|
+|Tier 1 | 3d2
+|Tier 2 | 3d3
+|Tier 3 | 3d4
+|Tier 4 | 3d6
+|Tier 5 | 3d8
+|Tier 6 | 3d10
+|Tier 7 | 3d12
+
+When rolling your character, you will start with a pool of dice equal to 36 Tiers, which could be composed of any number of combinations which do not exceed 36, such as:
+* 3d3, 3d4, 3d6, 3d6, 3d8, 3d8, 3d10, and 3d12
+* 3d4, 3d4, 3d6, 3d6, 3d8, 3d8, 3d10, and 3d10
+* 3d3, 3d3, 3d3, 3d3, 3d12, 3d12, 3d12, and 3d12
+* 3d6, 3d6, 3d6, 3d6, 3d8, 3d8, 3d8, and 3d8
+
+Take your time in reviewing the suggested rolls below, especially in regard to skills and abilities that you might be interested in utilizing with a given class. If you want to play a fighter, but want to have a war dog companion, you might consider having a better *Intelligence*, which Wilderness uses to train animals.
+
+* You can assign any set to any attribute, so long as you roll a minimum of 3dx per attribute.
+* The suggested rolls below are not required, as you may consider Physique more important for your character than Intelligence, and swap the two rolls or similarly based on how you want your character to be built.
+* Keep in mind that every attribute has a trial associated with it, in addition to other skills and abilities that make minimizing these attributes dangerous to your longevity.
+* As you level, your attributes will improve, so if you did not roll particularly well, keep in mind that your are new to the adventuring career and these attributes will become better over time.
+
+### What Your Attributes Do
+
+Every attribute matters. Each one resists something that can take you out of a fight, and each one drives some of the weapons, magic, or skills you will lean on. A low score is a weakness an enemy can find.
+
+**Strength.** Heavy and two-handed weapons, and the heavy thrown ones. How much you can carry. Breaking free of restraints, and resisting being held or pinned (Restricted).
+
+**Agility.** Your speed. Your armor resistance in light and medium armor. How fast your body reacts when combat opens (Startle). Dodging damaging spells, bursts, and falling debris.
+
+**Physique.** Light weapons, thrown blades, and bows. Moving silently, climbing, balancing, swimming, and riding. Landing a fall, and resisting magic that would reshape or move your body.
+
+**Endurance.** Your health. Surviving when you fall to 0. Resisting poison, disease, and exhaustion (Tainted, Infected, Exhausted), and long days on the march.
+
+**Intelligence.** The Occult tradition of the Bahador and Magus. Knowledge, crafts, and planning. Resisting confusion (Disoriented) and magic that would read your mind.
+
+**Wisdom.** The Telluric tradition of the Druid and Fili. Sound judgment. Resisting fear and charm (Demoralized, Charmed).
+
+**Charisma.** The Theurgic tradition of the Avenger, Cleric, and Paladin. Persuasion, leadership, and disguise. Resisting control and possession (Controlled).
+
+**Perception.** The Priscan tradition of the Cursed, Elves, and Gnome. Aiming every ranged attack. How fast your mind reacts when combat opens (Startle). Noticing what is hidden, and resisting being stunned or fooled by illusions (Impaired).
+
+___
+
+### Humans
+
+| Classes  |  Strength  |  Agility  |  Physique  |  Endurance  |  Intelligence  |  Wisdom |  Charisma  |  Perception  |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Avenger | 3d10 | 3d6 | 3d4 | 3d10 | 3d6 | 3d4 | 3d10 | 3d6 |
+|Bahador | 3d10 | 3d6 | 3d4 | 3d10 | 3d10 | 3d6 | 3d4 | 3d6 |
+|Cleric | 3d6 | 3d8 | 3d4 | 3d8 | 3d6 | 3d6 | 3d12 | 3d6 |
+|Druid | 3d4 | 3d8 | 3d6 | 3d8 | 3d6 | 3d12 | 3d4 | 3d8 |
+|Fighter | 3d12 | 3d6 | 3d6 | 3d10 | 3d4 | 3d6 | 3d4 | 3d8 |
+|Fili | 3d4 | 3d8 | 3d6 | 3d8 | 3d8 | 3d10 | 3d8 | 3d4 |
+|Knight | 3d12 | 3d6 | 3d4 | 3d10 | 3d4 | 3d6 | 3d8 | 3d6 |
+|Magus | 3d4 | 3d8 | 3d4 | 3d8 | 3d12 | 3d6 | 3d6 | 3d8 |
+|Paladin | 3d10 | 3d6 | 3d4 | 3d10 | 3d6 | 3d4 | 3d10 | 3d6 |
+|Ranger | 3d4 | 3d8 | 3d10 | 3d8 | 3d6 | 3d6 | 3d4 | 3d10 |
+|Thief | 3d4 | 3d8 | 3d10 | 3d8 | 3d10 | 3d4 | 3d6 | 3d6 |
+
+### Demihumans
+
+| Classes  |  Strength  |  Agility  |  Physique  |  Endurance  |  Intelligence  |  Wisdom |  Charisma  |  Perception  |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Cursed | 3d4 | 3d8 | 3d6 | 3d10 | 3d6 | 3d6 | 3d4 | 3d12 |
+|Dwarf | 3d12 | 3d6 | 3d4 | 3d10 | 3d6 | 3d6 | 3d4 | 3d8 |
+|Elf, Gray | 3d6 | 3d8 | 3d8 | 3d8 | 3d4 | 3d8 | 3d4 | 3d10 |
+|Elf, Sylvan | 3d4 | 3d8 | 3d10 | 3d10 | 3d4 | 3d6 | 3d4 | 3d10 |
+|Gnome | 3d4 | 3d8 | 3d6 | 3d8 | 3d8 | 3d6 | 3d6 | 3d10 |
+|Halfling | 3d4 | 3d8 | 3d10 | 3d8 | 3d6 | 3d6 | 3d6 | 3d8 |
+|Orc | 3d12 | 3d10 | 3d4 | 3d10 | 3d4 | 3d6 | 3d4 | 3d6 |
+
+### Applying Points to Scores
+
+After assigning a set of dice to a attribute, roll the assigned set, and check off a number of boxes equal to the points you rolled. It is expected that most of your rolls will result in Tier 2 or Tier 3 attributes. You may have 1 or 2 attributes at Tier 1 if you chose to make use of smaller dice sets. You will likely have no Tier 4 attributes, but it is not impossible.
+
+All attributes fall on a scale from Tier 1 to Tier 7, with a Score between 1 and 30.
+* You are considered to have the Score indicated at the top of the column when you have completed a column (e.g. In the Strength attribute, only the first box has been crossed off, meaning that the character has a 6 Strength, but as soon as that column is complete, their Strength becomes a 7).
+* You are considered to have the next Tier when you have completed the previous Tier (e.g. when you have a Score of 5, you are Tier 2, when you have a score of 30, you are Tier 7).
+
+Before completing the process of crossing off your attributes, you can make a final change to these points to determine how your Scores will look.
+* After generating your attributes, you may choose to EITHER swap any two scores or re-roll any 1 attribute.
+* You gain 3 points to apply to any attributes: 1 point for being a level 1 character, and 2 starting points. The points from Leveling begin when you reach level 2.
+
+#### Leveling
+
+Each time you gain a level in your chosen class, you have a number of points equal to your level that you can apply to any attribute until you reach level 10, at which point you always gain 10 points per level (e.g. At level 4, you gain 4 points, at level 13, you gain 10 points, at level 32, you gain 10 points). There is no upper limit to leveling, although you will eventually max out all of your attributes, and that is probably a good stopping point.
+
+**Beyond Level 30.** Class tables end at level 30, but advancement continues. Each level beyond 30 requires 50 more experience than the level before it, grants 10 attribute points, and grants mastery points at your level 30 rate. Health continues on your class's schedule, and you keep your final title.
+
+## Personality
+
+Alignment isn't all there is to your personality. You should think about your mannerisms, the way you speak, the way you dress, how you spend money, what sort of people you like, how you like to spend your non-adventuring time, and so on. The more attention you invest in imagining who you are, with all your traits, virtues, and vices, the more interesting and "real" you will feel. Sure, it's useful for you to be the mightiest warrior in the world . . . but none of the other characters will care whether you live or die unless you have a personality.
+
+### Alignment
+
+Alignment only focuses on Law, Neutrality, and Chaos with no reference to moral questions of Good and Evil. Those are left to your GM and you to determine as part of the game.
+
+**Law**. Everything should follow an order, and that obeying rules is the natural way of life. You try to tell the truth, obey laws that are fair, keep promises, and care for all living things. If a choice must be made between the benefit of a group or an individual, you will usually choose the group.
+
+**Chaos**. Life is random and that chance and luck rule the world. Laws are made to be broken, as long as a person can get away with it. It is not important to keep promises, and lying and telling the truth are both useful. Selfishness is the normal way of life, and the group is not important. You often act on sudden desires and whims. You have strong belief in the power of luck.
+
+**Neutrality**. The world is a balance between Law and Chaos. It is important that neither side get too much power and upset this balance. The individual is important, but so is the group; the two sides must work together. You are most interested in personal survival. You believe in your own wits and abilities rather than luck. You tend to return the treatment you receive from others.
+
+### Human Characteristics
+
+Humans judge the world according to themselves and their point of view, oftentimes struggling to empathize with other creatures, seeing them as being alien, and the more alien, the less empathy they possess.
+
+**Accustomed to Power**. Humans have been on an upward trajectory for so long that they often assume that this is how it has always been. They see themselves as the dominant species in the world, failing to recognize that demihumans once held their position.
+
+**Changeable**. Perhaps not to themselves, but in the perspective of longer-lived species, humans change quickly and often. Not always the individual, but their society along with its goals and beliefs.
+
+**Cruel**. More than any other species, humans are wont to be cruel, toward themselves and, far more often, to the most alien human-like creatures they come across. Nothing seems to incite humanity more than semi-humanity.
+
+**Ambitious**. Humans want the world. They want to own, categorize, and control every piece they can lay their hands on. Anything that cannot be owned, categorized, or controlled must be eliminated.
+
+**Exception to the Rule**. There is an exception to every rule when it comes to how humanity behaves and expects others to behave. However, these are the exception and *not* the rule.
+
+### Cursed Characteristics
+
+While cursed have human ancestry, their curse has robbed them of their humanity so that they seem fiendish monsters in comparison.
+
+**Human but Inhuman**. Human characteristics can still manifest, but are often warped and terrifying. Cursed might have wild and violent mood swings, a tendency toward unimaginable cruelty, or world-ending ambition. Ultimately, their humanity is only superficial at best.
+
+**Disconnected**. No civilized society would willingly accept a cursed, unless in dire need. They do not view themselves as being a part of any culture or species, except for other cursed, and even their fellow cursed people are kept at an arm's length.
+
+**Monstrous**. No matter the curse, a cursed is ultimately monstrous, whether through unnatural cravings, such as the flesh or organs of intelligent creatures, a propensity for unprovoked violence, or insanity that warps their view of the world.
+
+**Cursed**. Witches and warlocks are cursed, no matter how they may choose to distort their existence into something meaningful or positive. Their doom is a burden that shapes their existence in inescapable ways. A cursed creature is ultimately damned to an existence of pain, intolerance, hatred, and almost always ends in violence; that knowledge is forever branded into the psyche of every cursed.
+
+### Dwarf Characteristics
+
+Dwarves are not humans and seem alien in comparison.
+
+**Stoic**. Dwarves are dour and sober, rarely given to display any kind of emotion, especially in front of other species or peoples not of their clan.
+
+**Secretive**. Dwarves keep their secrets well, refusing to even speak their language in front of others. They keep many secrets concerning their craftsmanship and are offended by prying eyes and tongues that try to learn them.
+
+**Proud and Noble**. Dwarves take great offense at being made fun of. They extend this opinion to their friends, family, clans, and craftsmanship. They value their honor and the honor of others. Life is serious business.
+
+**Loyal and Vengeful**. Dwarves have a deep-seeded loyalty to their clan that cannot be uprooted. Any violence inflicted on their people is not soon forgotten and any failure to live up to their expectations of loyalty is equated with violence.
+
+### Elf Characteristics
+
+Elves are not humans and seem alien in comparison.
+
+**Emotional Beings**. Elves feel emotion more deeply than most other species, particularly pain and grief. They become physically exhausted and can even age when confronted with particularly harrowing experiences.
+
+**Fearless**. Despite the degree of emotion that Elves feel, they are also strong, capable people who rarely experience fear or danger in the same way that other species do.
+
+**Light-Hearted**. Elves love to laugh and joke. Their tendency to feel pain and grief means that they often take great pleasure in joviality when they can, even to the offense of other species or in the face of deadly danger.
+
+**Time-Warped View**. Elves only age through strife and pain, and as a result they tend to live for long periods of time, effectively immortal except through extreme exhaustion or violent death. They tend to view other species as a human might a pet. They may grow to like them or love them, but ultimately see them as doomed peoples and rarely form significant attachment to them. However, this view also gives elves a particular love of long-lasting beauty, such as seen in the sea and stars.
+
+### Gnome Characteristics
+
+Gnomes are not humans and seem alien in comparison.
+
+**Curious**. Gnomes seek answers to any question they can fathom. They are open to new ideas and are drawn to contrarian subjects that will force them to question their own position on any given subject. They despise easy answers and tautology.
+
+**Rational**. The power of a gnomish mind is a thing to behold. They enjoy a challenge and seek to discover inventive solutions to any given problem. As a result of their obsessive rationality, they abstain from any appeals to emotion and often view it as an obstacle, making them seem cold and unfeeling to others.
+
+**Natural**. They often have a unique connection to the natural world, having taken the time to experience and discover its secrets. They understand the unique balance of nature better than most and are particularly attuned to the changeable aspects that make the whole function as it does.
+
+**Time to Think**. Due to the lifespan of a gnome, they are rarely hurried, and prefer to take their time with any problem with which they are faced. They prefer to ponder and discuss every little detail before arriving at a decision, and as a result are pedantic in their attention to the world around them.
+
+### Halfling Characteristics
+
+Halflings are not humans, but are most like them of any species.
+
+**Gentle**. Halflings are neither cruel nor vindictive. They may possess many faults, in terms of sloth or greed or gluttony, but cruelty is not in them.
+
+**Resilient**. Halflings are as wont as humans to complain about any little old thing, but when it is time to sow seed, they will work until their hands blister with barely a mutter until it is time to sit by the fire with a pipe and ale. They adapt to the world they find themselves in more readily than most, but will return to a life of ease if they can.
+
+**Generous**. Greed among halflings only lasts until the halfling sees suffering among others. Halflings would sooner give their last seed bread than see one of their kin starve.
+
+**A Life of Ease**. Halflings are content with a simple life and rarely find an itch to leave their homes and see the world. The bucolic life of farming, eating, and smoking is the life they prefer. It is rare to see an adventuring halfling and rarer still to see one of significant power.
+
+### Orc Characteristics
+
+Orcs are not humans and seem crude monsters in comparison.
+
+**Barbaric**. Orcs value strength and bravado over intelligence or reason. As such, a highly charismatic orc is rude, violent, and loud and a low charisma orc would be reserved, patient, and quiet.
+
+**Violent**. Although humans can be violent, they reason and justify their actions, whereas orcs assume violence as the baseline and must justify any lack of violence. The appropriate response to most situations is a violent display of strength and power. Asserting authority is essential to maintaining the status quo.
+
+**Twisted**. Orcs are malformed creatures of chaos. They see the world through that malformation. The civilization coveted by humans is offensive, the stoicism prided by dwarves is cowardice, the light-heartedness of elves is obnoxious, and the bucolic ease of halflings is weakness.
+
+**Short-lived**. Orcs do not actually age particularly quickly. However, like elves, orcs do age based on the grief and stress that they encounter. However, they are so immersed in their violent world that they age extremely rapidly, when they do not end up of dying outright from violence. As a result, their lifespan is no more than 2/3rds that of humans. Sadly, they voraciously consume the limited time that they possess in desperate and bloody quest to survive, creating a self-defeating cycle that ultimately leads to their death.
+
+### General Personality Traits
+
+Personality traits are a way of establishing a character's individuality, and help decide how a character would act in certain situations. These rules are option and are only meant to help you think about how your character might behave.
+
+You may choose to roll 2d10 or assign a value between 2 and 20 to various trait ranges.
+
+These traits are not set and stone and can change over time as your character develops. For instance, you might look at the *Courageous / Skittish* spectrum and assign a 16, meaning that you character is quite fearful, but over time that number might lower as your character conquers their enemies and fears.
+
+Below are a list of personality trait ranges you can roll a 2d10 or assign a value between 2 and 20:
+
+* Cautious / Reckless
+* Humble / Arrogant
+* Peaceful / Violent
+* Generous / Selfish
+* Courageous / Skittish
+* Extroverted / Introverted
+* Forgiving / Vengeful
+* Eager / Lazy
+* Honest / Deceitful
+* Naive / Cynical
+* Dutiful / Fickle
+* Receptive / Stubborn
+
+Low numbers (2-9) indicate a leaning towards the left trait and high numbers (13-20) indicate a leaning towards the right trait. Middling numbers (10-12) indicate no strong leaning or situational leanings.
+
+Trait scores of 16 or more indicate very strong personality traits. Conversely, trait scores of 6 or less are equally strong expressions of the opposite trait.
+
+Characters with very high or very low trait scores will develop a reputation for these strong traits. As they become more famous and successful, anyone who recognizes them is likely to know them in terms of those very high and low trait scores.
+
+### Motivations
+
+Your motivations are what drive your character: their goals and aspirations. Motivations help to inform the GM what your plans are as you communicate and play so that you are on the same page. They are permitted to change often to reflect new information or as your character grows.
+
+**Major Motivations**. Think of *Major Motivations* as long-term ideas that shape the way your character lives, thinks, and behaves throughout the campaign or throughout their life. For lawful characters, you might be motivated by doing right by your family and friends, keeping the people of your homeland safe, or fighting for justice for the underprivileged. For chaotic characters, you might be motivated by conquering nations or peoples so that your name lives on in legend, fulfilling your personal desires for wealth or power, or exacting revenge against an individual by targeting their people and loved ones.
+
+**Moderate Motivations**. Think of *Moderate Motivations* as ideas that shape the way your character approaches story arcs during the campaign, something that motivates between 1 to 5 levels of play. For lawful characters, you might be motivated by issues of personal growth, such as attempting to overcome a flaw or helping one of your companions to overcome one of their flaws. For chaotic characters, you might be motivated by personal quests of vengeance or power, such as eliminating a rival or locating and retrieving a powerful artifact.
+
+**Minor Motivations**. Think of *Minor Motivations* as ideas that shape the way your character approaches individual quests or sessions of play, something that motivates no more than 3 or 4 sessions of play. For lawful characters, you might be motivated by saving a village from a violent band of ogres with as little bloodshed as possible or saving as many plague victims as possible. For chaotic characters, you might be motivated by how you can swindle a local village out of their goods and wealth or saving yourself from being caught up in a war or battle.
+
+## Height and Weight
+
+The tables below will give you an idea what ranges are average for character species. Either choose your height/weight or roll randomly with a 2d6. You can roll once and take the entire row or roll twice, once for height and once for weight.
+
+### Humans
+
+Humans tend to have an average height of around 5'8" for males and 5'4" for females. Both can be fairly heavily muscled, somewhere between orcs and elves.
+
+___
+
+### Human Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 4'10" | 110 lbs | 4'9" |	95 lbs |
+| 3 | 5'0" | 120 lbs |	4'11" | 105 lbs	|
+| 4 | 5'2" | 130 lbs |	5'1" | 115 lbs	|
+| 5 | 5'4" | 140 lbs |	5'2" | 120 lbs	|
+| 6 | 5'6" | 150 lbs |	5'3" | 125 lbs	|
+| 7 | 5'8" | 160 lbs |	5'4" | 130 lbs	|
+| 8 | 5'10" | 170 lbs | 5'6" | 140 lbs	|
+| 9 | 6'0" | 180 lbs |	5'8" | 150 lbs |
+| 10 | 6'2" | 190 lbs | 5'10" | 160 lbs |
+| 11 | 6'4" | 200 lbs | 6'0" | 180 lbs |
+| 12 | 6'6" | 220 lbs | 6'2" | 200 lbs |
+
+### Cursed
+
+Cursed tend to mirror humans in size, with an average height of around 5'8" for males and 5'4" for females. Depending on their curse, their height and weight might be altered significantly.
+
+___
+
+### Cursed Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 4'10" | 110 lbs | 4'9" |	95 lbs |
+| 3 | 5'0" | 120 lbs |	4'11" | 105 lbs	|
+| 4 | 5'2" | 130 lbs |	5'1" | 115 lbs	|
+| 5 | 5'4" | 140 lbs |	5'2" | 120 lbs	|
+| 6 | 5'6" | 150 lbs |	5'3" | 125 lbs	|
+| 7 | 5'8" | 160 lbs |	5'4" | 130 lbs	|
+| 8 | 5'10" | 170 lbs | 5'6" | 140 lbs	|
+| 9 | 6'0" | 180 lbs |	5'8" | 150 lbs |
+| 10 | 6'2" | 190 lbs | 5'10" | 160 lbs |
+| 11 | 6'4" | 200 lbs | 6'0" | 180 lbs |
+| 12 | 6'6" | 220 lbs | 6'2" | 200 lbs |
+
+### Dwarves
+
+Dwarves tend to have an average height of around 4'7" for males and 4'5" for females. Both are densely muscled and heavy for their height when compared to other species.
+
+___
+
+### Dwarf Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 4'0" | 140 lbs | 3'10" |	120 lbs |
+| 3 | 4'2" | 150 lbs |	4'0" | 130 lbs	|
+| 4 | 4'4" | 160 lbs | 4'2" | 140 lbs	|
+| 5 | 4'5" | 165 lbs | 4'3" | 145 lbs	|
+| 6 | 4'6" | 170 lbs |	4'4" | 150 lbs	|
+| 7 | 4'7" | 175 lbs |	4'5" | 155 lbs	|
+| 8 | 4'8" | 180 lbs | 4'6" | 160 lbs	|
+| 9 | 4'9" | 185 lbs |	4'7" | 165 lbs |
+| 10 | 4'10" | 190 lbs | 4'8" | 170 lbs |
+| 11 | 4'11" | 195 lbs | 4'9" | 175 lbs |
+| 12 | 5'0" | 200 lbs | 4'10" | 180 lbs |
+
+### Elves
+
+Elves tend to have an average height of around 6'1" for males and 5'11" for females. Both tend to be lean, with little extra weight, but still densely muscled for their height.
+
+___
+
+### Elf Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 5'6" | 140 lbs | 5'4" |	120 lbs |
+| 3 | 5'8" | 150 lbs |	5'6" | 130 lbs	|
+| 4 | 5'10" | 160 lbs | 5'8" | 140 lbs	|
+| 5 | 5'11" | 165 lbs | 5'9" | 145 lbs	|
+| 6 | 6'0" | 170 lbs |	5'10" | 150 lbs	|
+| 7 | 6'1" | 175 lbs | 5'11" | 155 lbs	|
+| 8 | 6'2" | 180 lbs | 6'0" | 160 lbs	|
+| 9 | 6'3" | 185 lbs |	6'1" | 165 lbs |
+| 10 | 6'4" | 190 lbs | 6'2" | 170 lbs |
+| 11 | 6'5" | 195 lbs | 6'3" | 175 lbs |
+| 12 | 6'6" | 200 lbs | 6'4" | 180 lbs |
+
+### Gnomes
+
+Gnomes tend to have an average height of around 3'7" for males and 3'5" for females. Both tend to be lean, with little extra weight, but still densely muscled for their height.
+
+___
+
+### Gnome Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 3'2" | 72 lbs | 3'0" | 66 lbs |
+| 3 | 3'3" | 74 lbs | 3'1" | 68 lbs	|
+| 4 | 3'4" | 76 lbs | 3'2" | 70 lbs	|
+| 5 | 3'5" | 78 lbs | 3'3" | 72 lbs	|
+| 6 | 3'6" | 80 lbs |	3'4" | 74 lbs	|
+| 7 | 3'7" | 82 lbs |	3'5" | 76 lbs	|
+| 8 | 3'8" | 84 lbs | 3'6" | 78 lbs	|
+| 9 | 3'9" | 86 lbs |	3'7" | 80 lbs |
+| 10 | 3'10" | 88 lbs | 3'8" | 82 lbs |
+| 11 | 3'11" | 90 lbs | 3'9" | 84 lbs |
+| 12 | 4'0" | 92 lbs | 3'10" | 86 lbs |
+
+### Halflings
+
+Halflings tend to have an average height of around 3'1" for males and 2'11" for females. Neither tend to carry much muscle, but can be somewhat rotund if they are sedentary.
+
+___
+
+### Halfling Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 2'8" | 52 lbs | 2'6" | 46 lbs |
+| 3 | 2'9" | 54 lbs |	2'7" | 48 lbs	|
+| 4 | 2'10" | 56 lbs | 2'8" | 50 lbs	|
+| 5 | 2'11" | 58 lbs | 2'9" | 52 lbs	|
+| 6 | 3'0" | 60 lbs |	2'10" | 54 lbs	|
+| 7 | 3'1" | 62 lbs |	2'11" | 56 lbs	|
+| 8 | 3'2" | 64 lbs | 3'0" | 58 lbs	|
+| 9 | 3'3" | 66 lbs |	3'1" | 60 lbs |
+| 10 | 3'4" | 68 lbs | 3'2" | 62 lbs |
+| 11 | 3'5" | 70 lbs | 3'3" | 64 lbs |
+| 12 | 3'6" | 72 lbs | 3'4" | 66 lbs |
+
+### Orcs
+
+Orcs tend to have an average height of around 5'10" for males and 5'8" for females. Both are usually more heavily muscled than humans, and as a result tend to weigh more on average than any other species.
+
+___
+
+### Orc Characters
+
+|Roll 2d6 | Male Height | Male Weight | Female Height | Female Weight |
+|:---:|:---:|:---:|:---:|:---:|
+| 2 | 5'0" | 130 lbs | 5'0" |	110 lbs |
+| 3 | 5'2" | 140 lbs |	5'1" | 115 lbs	|
+| 4 | 5'4" | 150 lbs |	5'2" | 120 lbs	|
+| 5 | 5'6" | 160 lbs |	5'4" | 125 lbs	|
+| 6 | 5'8" | 180 lbs |	5'6" | 135 lbs	|
+| 7 | 5'10" | 190 lbs | 5'8" | 145 lbs	|
+| 8 | 6'0" | 200 lbs | 5'10" | 160 lbs	|
+| 9 | 6'2" | 215 lbs |	6'0" | 180 lbs |
+| 10 | 6'4" | 230 lbs | 6'2" | 190 lbs |
+| 11 | 6'6" | 245 lbs | 6'4" | 210 lbs |
+| 12 | 6'8" | 260 lbs | 6'6" | 230 lbs |
