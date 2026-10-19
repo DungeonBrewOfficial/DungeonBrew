@@ -1,3 +1,0 @@
-# Mastery
-
-**Coming soon.**

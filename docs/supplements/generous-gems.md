@@ -1,5 +1,8 @@
 # Generous Gems
 
+!!! info ""
+    These are the 5e gem tables. The Mastery version is under [Mastery → Treasure → Gems & Jewelry](../mastery/treasure/gems-and-jewelry.md).
+
 <div class="page-split" markdown="1">
 
 <div class="main-content" markdown="1">

@@ -21,6 +21,16 @@ Free tabletop roleplaying resources: steampunk grimdark campaign settings, resea
 
 Visit [dungeonbrew.github.io/dheghom-site](https://dungeonbrew.github.io/dheghom-site) to browse everything. All content is free to use at your table.
 
+## Updating Mastery
+
+The Mastery pages under `docs/mastery/` are generated from the [mastery repo](https://github.com/DungeonBrewOfficial/mastery). Don't edit them by hand. Edit the source, then, with both repos checked out side by side:
+
+```
+python tools/sync_mastery.py --source ../mastery
+```
+
+The script rewrites the pages and the Mastery section of the nav in `mkdocs.yml`. If a heading in the source was added, renamed, or removed, it stops and names the heading; update the cut list in `tools/sync_mastery.py` and run it again. `docs/mastery/index.md` and `docs/mastery/bestiary/index.md` are hand-written and never overwritten.
+
 ## License
 
 This work includes material taken from the System Reference Document 5.1 ("SRD 5.1") by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.

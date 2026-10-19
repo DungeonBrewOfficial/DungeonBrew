@@ -26,7 +26,7 @@ Research-heavy supplements for 5e covering subjects most games gloss over: reali
 
 ### Interactive Tools
 
-**Ability Score Generator.**A comprehensive guide to thirteen methods of ability score generation for your campaign.
+**Ability Score Generator.** A comprehensive guide to thirteen methods of ability score generation for your campaign.
 
 <a href="supplements/ability-score-tool/index.html" target="_blank" class="md-button">Launch the Ability Score Generator</a>
 
