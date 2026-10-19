@@ -60,7 +60,7 @@ Non-Epic creatures (Adept through Master) do not need Phase Reference blocks. Th
 
 ### Ability Language Conventions
 
-Ability descriptions are mechanical text for GM use during play. [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC.") and speed of parsing are the priorities.
+Ability descriptions are mechanical text for GM use during play. Clarity and speed of parsing are the priorities.
 
 **Species names:** Use the generic species name in ability descriptions ("the bear," "the cat," "the wolf"), not the subspecies ("the cave bear," "the mountain lion"). The stat block header already identifies the specific creature.
 
