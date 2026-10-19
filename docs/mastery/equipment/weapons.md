@@ -330,7 +330,7 @@ Arrows, bullets, darts, and quarrels are used by a variety of launchers. While b
 
 **Swallowtail Head**. Tip with broad, sweeping points that is designed to cut. Mostly used for hunting larger game with the intent that it will become lodged inside the target and cause them to bleed out. The head cannot pierce medium or heavier armor, but on unarmored or lightly armored targets, they must make an Endurance trial or take 1d2 cutting damage per round until it is removed. **(Bleeding (1d2))**
 
-**Wrapped**. 3-4 inches of the haft near the tip is wrapped in linen. Linen can be soaked with flammable liquid, such as oil and lit on fire, or with an alchemical preparation such as wildfire (see *[Alchemy](../skills/trade/alchemy/index.md)*, Wildfire). Soaking arrows or quarrels takes one exploration round.
+**Wrapped**. 3-4 inches of the haft near the tip is wrapped in linen. Linen can be soaked with flammable liquid, such as oil and lit on fire, or with an alchemical preparation such as wildfire (see *[Alchemy](../skills/trade/alchemy/index.md)*, [Wildfire](../skills/trade/alchemy/incendiaries.md#wildfire)). Soaking arrows or quarrels takes one exploration round.
 
 | Ammunition | Cost | Engagement | Launcher Type | Damage Type | Enc / Weight | Properties |
 |:-|:---:|:---:|:---:|:---:|:---:|:------|

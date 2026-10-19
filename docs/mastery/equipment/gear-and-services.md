@@ -295,7 +295,7 @@ Any creature that enters the area must succeed on an Agility trial (DC 4) or sto
 
 **Candle, Tallow**. Candles made from animal fat, which have a distinctly unpleasant smell that sometimes attracts beasts or predatory creatures. Lasts about 2 hours and provides 10 feet of light and 10 feet of ambient light. Can be placed in a lantern to avoid snuffing it out due to wind or rain.
 
-**Cane**. A walking stick of ash or oak. A character with a lost foot or broken leg can move with a cane (see *[Combat](../core/combat.md)*, Trauma Table).
+**Cane**. A walking stick of ash or oak. A character with a lost foot or broken leg can move with a cane (see *[Combat](../core/combat.md)*, [Trauma Table](../core/combat.md#trauma-table)).
 
 **Chalk**. A small chunk of chalk that is useful for marking passageways to avoid getting lost, inform other adventurers of dangers, or pass other valuable information.
 
@@ -497,7 +497,7 @@ If you can cast spells and have *Wilderness* (Hunting and Foraging), you can for
 
 **Slow Match**. Cord treated to smolder at about a foot an hour, carried lit. Its glowing tip lights fuses and primed wicks for 1 AP, but it is not a flame: anything else must be lit from a flame or with a tinderbox.
 
-**Tinderbox**. A container of wood or metal that contains flint, firesteel, and tinder, such as charcloth or hemp fibers. Lighting something with a tinderbox takes 6 AP (see *Combat*, Interaction).
+**Tinderbox**. A container of wood or metal that contains flint, firesteel, and tinder, such as charcloth or hemp fibers. Lighting something with a tinderbox takes 6 AP (see *Combat*, [Interaction](../core/combat.md#interaction)).
 
 **Torch**. 3-4 foot ash or hickory haft with one end wrapped in wool or linen that is soaked in oil. When lit, it produces light for 10 feet and ambient light for an additional 20 feet. Burns for about 30 minutes (3 exploration rounds).
 
@@ -572,7 +572,7 @@ Vessels and protective gear for alchemical concoctions. The concoctions themselv
 
 **Field Kit (Apothecary's Satchel)**. A fitted satchel holding a small mortar and pestle, a cased scale and weights, a small pan and trivet, straining cloths, a funnel, a spatula and spoon, shears, a bleeding bowl, corks, wax, and padded places for 12 phials. Phials in their places ignore the breakage hazard. Drawing from it costs 1 AP, as an item on your body.
 
-**Latched Case**. A padded, latched case for two fire-pots or grenades. While shut, its contents ignore the breakage and fire hazards (see *Alchemy*, Hazardous). Drawing from it costs 1 AP, as an item on your body.
+**Latched Case**. A padded, latched case for two fire-pots or grenades. While shut, its contents ignore the breakage and fire hazards (see *Alchemy*, [Hazardous](../skills/trade/alchemy/index.md#hazardous)). Drawing from it costs 1 AP, as an item on your body.
 
 **Vial**. A stoppered vial about the size of a finger, holding 2 oz: one dose of a concoction. Packed vials are assumed to be wrapped against breakage. **Glass** is cheap and fragile, and it is required for acids, which eat metal. **Pewter** is heavier and dearer, and it doesn't break.
 

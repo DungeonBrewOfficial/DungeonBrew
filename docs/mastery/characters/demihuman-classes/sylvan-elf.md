@@ -78,7 +78,7 @@ You gain abilities below as you increase level.
 
 ### Fae
 
-As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
+As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Elven Nature
 

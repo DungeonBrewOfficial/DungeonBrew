@@ -37,7 +37,7 @@ A bezoar is administered by shaving it into a drink. Each shaving drives back po
 | Properties | None |
 | Modifications | None |
 | Rarity | Exotic |
-| Notes | Also a casting focus until the last shaving is gone (see *[Equipment](../../../equipment/gear-and-services.md)*, Foci) |
+| Notes | Also a casting focus until the last shaving is gone (see *[Equipment](../../../equipment/gear-and-services.md)*, [Foci](../../../equipment/gear-and-services.md#foci)) |
 
 **To make** (days for one dose, and the recipe's Social Class):
 

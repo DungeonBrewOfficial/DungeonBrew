@@ -77,7 +77,7 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Occult Magic
 
@@ -208,13 +208,13 @@ Your familiar dies only through Primordial Connection or if you die. A dead fami
 
 #### Track Abilities Shared by Both Tracks
 
-**Reserve.** Your familiar holds a reserve of points equal to its Tier, regained each day at dawn. As a 2 AP action, it spends points to impose one condition that its form delivers (see *[Magic Mastery](../../magic/index.md)*, Form and Condition Access). Cost by condition tier: Tier 1 costs 1 point, Tier 2 costs 3 points, Tier 3 costs 6 points. Simple conditions cost points by their listed tier.
+**Reserve.** Your familiar holds a reserve of points equal to its Tier, regained each day at dawn. As a 2 AP action, it spends points to impose one condition that its form delivers (see *[Magic Mastery](../../magic/index.md)*, [Form and Condition Access](../../magic/index.md#form-and-condition-access)). Cost by condition tier: Tier 1 costs 1 point, Tier 2 costs 3 points, Tier 3 costs 6 points. Simple conditions cost points by their listed tier.
 
 - Positive conditions can only be imposed on you, within 30 feet.
 - Negative conditions target one creature your familiar can see within 30 feet, which makes the condition's trial against the Familiar DC.
-- On a failed trial (or automatically, for positive conditions on you), the condition advances by the number of tiers paid for. Reserve requires no concentration. No source holds its tiers: they deteriorate 1 tier per round, including on conditions that normally do not deteriorate (see *[Conditions](../../core/conditions.md)*, Stacking).
+- On a failed trial (or automatically, for positive conditions on you), the condition advances by the number of tiers paid for. Reserve requires no concentration. No source holds its tiers: they deteriorate 1 tier per round, including on conditions that normally do not deteriorate (see *[Conditions](../../core/conditions.md)*, [Stacking](../../core/conditions.md#stacking)).
 - Simple conditions imposed by Reserve end after 1 round. [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") ends when the creature stands.
-- Simple condition trials: Prone uses Agility for a Stone familiar (the ground heaves) and Strength for a Sea or Sky familiar (a surge of water, a gust of wind). [Blinded](../../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") and [Deafened](../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") use Perception (see *Magic Mastery*, Resisting Spells).
+- Simple condition trials: Prone uses Agility for a Stone familiar (the ground heaves) and Strength for a Sea or Sky familiar (a surge of water, a gust of wind). [Blinded](../../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") and [Deafened](../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") use Perception (see *Magic Mastery*, [Resisting Spells](../../magic/index.md#resisting-spells)).
 
 **Bolt.** A number of times per day equal to its Tier, regained at dawn, your familiar can spend 1 AP to strike one creature it can see within 30 feet with its form (its element, or Void for a Morphon). The target makes an Agility trial against the Familiar DC. On a failure, it takes damage equal to the Familiar tier die. Energy forms (Fire, Sky, Void) bypass armor and apply to health. Material forms (Sea, Stone) apply to armor durability, ignoring mundane armor resistance. Resistance to the form reduces the damage.
 

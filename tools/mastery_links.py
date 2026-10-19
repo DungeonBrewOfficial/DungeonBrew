@@ -3,6 +3,9 @@
 sync_mastery.py renders every page, then hands them all to link_pages(),
 which adds three kinds of link:
 
+  sections    a chapter followed by a plain section name,
+              "*Magic Mastery*, Connected Form" or "see Combat, Trauma Table",
+              links the section name straight to that section
   references  italicized names the source already uses as pointers:
               *Magic Mastery*, *Magic Mastery, Duels*, *Resting*,
               *Wilderness (Beast Lore)*, *Expert Mastery*, and plain
@@ -135,6 +138,9 @@ class Site:
             for k, anchor in self.by_text.get(text.casefold(), []):
                 if k == key:
                     return (key, anchor)
+        for key in keys:
+            if self.pages[key]["title"].casefold() == text.casefold():
+                return (key, None)
         return None
 
     def resolve(self, text, cur):
@@ -250,6 +256,11 @@ def link_pages(pages):
 
     site = Site(pages)
     conditions = condition_entries(site)
+    names = "|".join(re.escape(c) for c in sorted(CHAPTERS, key=len, reverse=True))
+    section_ref = re.compile(
+        r"(\*(?i:" + names + r")\*|\b[Ss]ee (?:the )?(?i:" + names + r"))"
+        r",\s+([A-Z][\w'’-]*(?:\s+[\w'’-]+){0,7})")
+    unmatched = []
     cond_re = re.compile(r"\b(" + "|".join(sorted(conditions, key=len, reverse=True)) + r")\b")
     links, skipped = [], []
 
@@ -300,6 +311,23 @@ def link_pages(pages):
                 last = end
             pieces.append(fn(line[last:]))
             return "".join(pieces)
+
+        def link_sections(seg):
+            def sub(m):
+                chapter = re.sub(r"^\*|\*$|^[Ss]ee (?:the )?", "", m.group(1)).casefold()
+                words = m.group(2).split()
+                for n in range(len(words), 0, -1):
+                    text = " ".join(words[:n])
+                    hit = site.find(text, CHAPTERS[chapter])
+                    if hit:
+                        rest = m.group(2)[len(text):]
+                        if take(hit[0], hit[1], text, "section"):
+                            return f"{m.group(1)}, [{text}]({url(*hit)}){rest}"
+                        return m.group(0)
+                unmatched.append({"page": key, "section": section_text,
+                                  "text": f"{m.group(1).strip('*')}, {m.group(2)}"})
+                return m.group(0)
+            return section_ref.sub(sub, seg)
 
         def link_italics(seg):
             def sub(m):
@@ -356,12 +384,12 @@ def link_pages(pages):
             if not ok or not line.strip() or TABLE_RULE.match(line) or line.startswith("!!!"):
                 continue
             current["line"] = line
-            for step in (link_italics, link_see, link_conditions):
+            for step in (link_sections, link_italics, link_see, link_conditions):
                 line = outside_protected(line, step)
             lines[i] = line
         page["text"] = "\n".join(lines)
 
-    return links, skipped
+    return links, skipped, unmatched
 
 
 def context(line, text, width=70):
@@ -375,7 +403,7 @@ def context(line, text, width=70):
             line[at + len(text):end] + ("…" if end < len(line) else ""))
 
 
-def write_report(path, links, skipped, pages):
+def write_report(path, links, skipped, unmatched, pages):
     """A reviewable list of every link, grouped by where it points."""
     def where(target, anchor):
         return pages[target]["title"] + (f" › #{anchor}" if anchor else "")
@@ -386,10 +414,12 @@ def write_report(path, links, skipped, pages):
 
     out = ["# Mastery cross-reference report", "",
            f"{len(links)} links: "
+           f"{sum(l['kind'] == 'section' for l in links)} chapter sections, "
            f"{sum(l['kind'] == 'reference' for l in links)} references, "
            f"{sum(l['kind'] == 'condition' for l in links)} conditions. "
            f"{len(skipped)} ambiguous mentions left unlinked.", ""]
-    for kind, title in (("reference", "References"), ("condition", "Conditions")):
+    for kind, title in (("section", "Chapter sections"), ("reference", "References"),
+                        ("condition", "Conditions")):
         out += [f"## {title}", ""]
         for (k, dest), items in sorted(by_target.items()):
             if k != kind:
@@ -399,12 +429,15 @@ def write_report(path, links, skipped, pages):
             out.append("")
             for l in items:
                 where_from = f"{pages[l['page']]['title']} › {l['section']}"
-                if kind == "reference" and l["context"]:
+                if kind != "condition" and l["context"]:
                     out.append(f"- {where_from}: {l['context']}")
                 else:
                     out.append(f"- {where_from}")
             out.append("")
-    out += ["## Left unlinked (ambiguous)", ""]
+    out += ["## Chapter sections not found (chapter linked, section left plain)", ""]
+    for u in unmatched:
+        out.append(f"- {pages[u['page']]['title']} › {u['section']}: {u['text']}")
+    out += ["", "## Left unlinked (ambiguous)", ""]
     for s in skipped:
         opts = "; ".join(where(*h) for h in s["hits"])
         out.append(f"- *{s['text']}* in {pages[s['page']]['title']} › {s['section']}: {opts}")

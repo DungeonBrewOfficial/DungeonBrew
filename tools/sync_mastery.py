@@ -561,9 +561,9 @@ def main():
 
     rendered = {k: {"path": PAGES[k]["path"], "title": PAGES[k]["title"],
                     "text": render_page(PAGES[k], segs)} for k, segs in segments.items()}
-    links, skipped = link_pages(rendered)
+    links, skipped, unmatched = link_pages(rendered)
     if args.report:
-        write_report(args.report, links, skipped, rendered)
+        write_report(args.report, links, skipped, unmatched, rendered)
     outputs = {os.path.join(OUT_DIR, p["path"]): p["text"] for p in rendered.values()}
 
     for path in outputs:

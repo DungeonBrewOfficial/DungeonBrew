@@ -171,7 +171,7 @@ The vulnerability is strictly about resisting damage, not resisting control effe
 | Eidos (Mortal Folk) | None | None | Void |
 | Eidos (Mortal Beast) | None | None | Primal |
 
-A creature's Connected Form is the magic Form required to Charm, Control, summon, or banish it, or to restore its mind (see [Magic Mastery](../magic/index.md), Connected Form). To summon an Asura requires Sacred magic. To charm Mortal Folk requires Void magic. Damage and all other magic of any Form work normally against any creature.
+A creature's Connected Form is the magic Form required to Charm, Control, summon, or banish it, or to restore its mind (see [Magic Mastery](../magic/index.md), [Connected Form](../magic/exorcism-enchantment-shapeshifting.md#connected-form)). To summon an Asura requires Sacred magic. To charm Mortal Folk requires Void magic. Damage and all other magic of any Form work normally against any creature.
 
 The classification package is the sole system for elemental and magical immunity/vulnerability. Do not add redundant passives (Elemental Body, Water Body, half-damage, etc.) that duplicate what the package already handles. Resistance budget handles mundane damage normally.
 

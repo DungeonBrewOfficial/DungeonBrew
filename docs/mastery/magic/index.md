@@ -698,7 +698,7 @@ A spell is interrupted and lost if, before it resolves, you:
 
 Even a familiar spell, one cast at its recorded parameters, makes this trial, and you cannot coerce success on it. A lost spell's magan is spent. AP you have not spent remain available for movement and reactions.
 
-Resisting a spell, and abilities that modify that trial, do not interrupt your casting. Pretermit (see *[Skill Mastery, Spellcraft](../skills/index.md)*) recovers part of a lost spell's magan.
+Resisting a spell, and abilities that modify that trial, do not interrupt your casting. Pretermit (see *[Skill Mastery, Spellcraft](../skills/spellcraft.md)*) recovers part of a lost spell's magan.
 
 ---
 
@@ -781,7 +781,7 @@ When one practitioner actively counters a spell cast by another, a duel takes pl
 
 You can counter a spell from the moment its casting can be seen until it resolves. A spell cast without verbal and somatic components cannot be seen until it resolves; if its duration is Instantaneous, it cannot be countered, and if it has a duration, it can only be dispelled. A countered spell's magan is spent.
 
-**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *[Skill Mastery, Spellcraft](../skills/index.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
+**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *[Skill Mastery, Spellcraft](../skills/spellcraft.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
 
 Both practitioners are casting until the duel ends, and *[Interrupted Casting](#interrupted-casting)* applies to each. A practitioner whose casting is interrupted loses the duel.
 

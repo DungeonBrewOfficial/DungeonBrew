@@ -298,7 +298,7 @@ Creatures with magic include a Spellcasting line below their classification pack
 
 Spells are magical. Damage is mundane or magical by its type (magical types: Fire, Sea, Sky, Stone, Void, Profane, Sacred, Primal). An enchanted weapon still deals its weapon's mundane damage; anything magic adds to a hit, such as Imbue or an enchantment, is a separate portion of the hit with its own type. This is the test for effects that distinguish the two (e.g., Incorporeal gives Inferiority to mundane attacks; Unyielding Advance ignores non-magical means). A creature's natural attack is mundane unless it deals a magical damage type; an on-hit form rider (e.g., Living Flame, Flaming Blade) makes that portion of the hit magical.
 
-Creature abilities carry no separate magic tag. A shapeshifted caster uses the creature's stat block as written (see *[Magic Mastery](../magic/index.md)*, Shapeshifting).
+Creature abilities carry no separate magic tag. A shapeshifted caster uses the creature's stat block as written (see *[Magic Mastery](../magic/index.md)*, [Shapeshifting](../magic/exorcism-enchantment-shapeshifting.md#shapeshifting)).
 
 ### Mortal NPC Casters
 

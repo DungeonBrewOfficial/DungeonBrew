@@ -70,7 +70,7 @@ Initiative is determined by weapon speed rather than random rolls. All weapons f
 
 Your phase is set by what you declare this round, not by what you hold.
 
-**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), Spell Speed.
+**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), [Spell Speed](../magic/index.md#spell-speed).
 
 **Weapon Switching**: Stowing a weapon costs 1 AP. Drawing a weapon costs 1 AP. A full weapon swap (stow old, draw new) costs 2 AP. Dropping a weapon is free, so dropping your current weapon and drawing a new one costs 1 AP, but your old weapon is on the ground. Phase determination for weapon switches is handled in the Declaration Phase (see [Combat Flow](#combat-flow), step 2).
 
@@ -88,7 +88,7 @@ When both sides are unaware of each other, the DC is 6. The GM adjusts it for we
 
 ### Ambush
 
-An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See [General Rules](exploration-and-travel.md), Group Trials. A creature sets the DC as the Monster Manual describes.
+An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See [General Rules](exploration-and-travel.md), [Group Trials](exploration-and-travel.md#group-trials). A creature sets the DC as the Monster Manual describes.
 
 A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A *Watchman*'s warning may do the same or give the party additional time, as the GM decides.
 

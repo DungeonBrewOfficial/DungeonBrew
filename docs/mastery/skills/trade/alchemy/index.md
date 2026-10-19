@@ -4,7 +4,7 @@ generated_by: tools/sync_mastery.py
 
 # Alchemy
 
-Alchemy is the craft of real substances: poisons, medicines, painkillers, tonics, incendiaries, and the nostrums sold as cures for everything. It is a discipline of the Trade skill (see *[Skill Mastery](../../index.md)*, Alchemist Discipline).
+Alchemy is the craft of real substances: poisons, medicines, painkillers, tonics, incendiaries, and the nostrums sold as cures for everything. It is a discipline of the Trade skill (see *[Skill Mastery](../../index.md)*, [Alchemist Discipline](../index.md#alchemist-discipline)).
 
 **Alchemy is mundane.** It spends no magan and uses no form or command. Its products are real substances: permanent, unaffected by Magical Impermanence, and beyond the reach of dispelling.
 
@@ -76,18 +76,18 @@ Recipes are collected in play, from a teacher, a found book, or experiment, and 
 
 ### Identification
 
-Identifying a concoction is a use of the Alchemist discipline (see *[Skill Mastery](../../index.md)*, Alchemist Discipline). A concoction's DC is its maker's Mastery DC. Identification can also be done in camp as the *Sage* role.
+Identifying a concoction is a use of the Alchemist discipline (see *[Skill Mastery](../../index.md)*, [Alchemist Discipline](../index.md#alchemist-discipline)). A concoction's DC is its maker's Mastery DC. Identification can also be done in camp as the *Sage* role.
 
 ### The Poison Register
 
-Every legal sale of a poison is recorded: the seller writes down who bought it. If a poison turns up in a body, the town knows whose door to knock on, so honest alchemists are careful who they sell to. A buyer who wants no record has to find the black market (see *[Skill Mastery](../../index.md)*, Thievery, Demimonde).
+Every legal sale of a poison is recorded: the seller writes down who bought it. If a poison turns up in a body, the town knows whose door to knock on, so honest alchemists are careful who they sell to. A buyer who wants no record has to find the black market (see *[Skill Mastery](../../index.md)*, [Thievery](../../thievery.md), Demimonde).
 
 ### Talking About Tier
 
 Two things describe a concoction, and they mean different things:
 
 - **Tier** always belongs to a **condition**: "[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2" means the dose can push its victim as far as Tainted Tier 2. A concoction with no condition, such as an acid or an incendiary, has no condition tiers.
-- **Social Class** places a whole recipe on the Automatic Use table (*[Skill Mastery](../../index.md)*, Universal Trade Rules): Peasant, Knight, Burgher, Magnate, Noble, or Royal. A recipe's Social Class comes from its condition tier plus any modifications, and it decides who can make the recipe without a roll and how hard the concoction is to use. Each entry's table gives the Social Class.
+- **Social Class** places a whole recipe on the Automatic Use table (*[Skill Mastery](../../index.md)*, [Universal Trade Rules](../index.md#universal-trade-rules)): Peasant, Knight, Burgher, Magnate, Noble, or Royal. A recipe's Social Class comes from its condition tier plus any modifications, and it decides who can make the recipe without a roll and how hard the concoction is to use. Each entry's table gives the Social Class.
 
 So an alchemist says *"I'm making hemlock, [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T2, Masked,"* and the table says that's a Magnate recipe.
 
@@ -153,7 +153,7 @@ When the work is finished, the maker's skill is fixed on every dose:
 Each entry's **Workspace** row names what its recipe needs, and a laboratory can make anything a field kit can. The GM approves the workspace.
 
 - **Laboratory:** a furnace, stills, glassware, and crucibles, for anything distilled, sublimated, melted, or long-aged. A laboratory is a building (see *Strongholds*). Until characters own one, they rent or arrange access to an existing laboratory or apothecary's shop. You can have as many preparations underway as your mastery level or the laboratory's stills allow, whichever is lower. The GM sets how many stills a laboratory has.
-- **Field kit:** the alchemist's portable gear (see *[Equipment](../../../equipment/gear-and-services.md)*, Alchemist's Gear), for any recipe that needs no furnace. You can have one preparation underway at a time. It advances one day each evening you take the Sage role in camp (see *[General Rules](../../../core/exploration-and-travel.md)*, Camping Roles).
+- **Field kit:** the alchemist's portable gear (see *[Equipment](../../../equipment/gear-and-services.md)*, [Alchemist's Gear](../../../equipment/gear-and-services.md#alchemists-gear)), for any recipe that needs no furnace. You can have one preparation underway at a time. It advances one day each evening you take the Sage role in camp (see *[General Rules](../../../core/exploration-and-travel.md)*, [Camping Roles](../../../core/exploration-and-travel.md#camping-roles)).
 
 ### Vessels
 
@@ -208,7 +208,7 @@ Anything past Royal is priced by the GM. A commissioned dose has its maker's DC 
 
 ### Availability
 
-Concoctions follow the Availability rules (see *[Equipment](../../../equipment/gear-and-services.md)*, Availability). A concoction's recipe gives its Social Class, and the GM can adjust it for how rare the concoction is in that region.
+Concoctions follow the Availability rules (see *[Equipment](../../../equipment/gear-and-services.md)*, [Availability](../../../equipment/coin-wealth-encumbrance.md#availability)). A concoction's recipe gives its Social Class, and the GM can adjust it for how rare the concoction is in that region.
 
 ### Items Without Condition Tiers
 
@@ -271,7 +271,7 @@ A concoction with condition tiers, such as a poison, is resisted over several ro
 
 **Taking a dose needs no skill:** anyone can drink, eat, or breathe one.
 
-**Anything that must be applied or activated**, such as coating a blade with a wound poison, applying a contact poison, lighting and throwing an incendiary or a pot of acid or quicklime, or dosing an effective nostrum, uses the Trade rules for **Automatic Use** (*[Skill Mastery](../../index.md)*, Universal Trade Rules):
+**Anything that must be applied or activated**, such as coating a blade with a wound poison, applying a contact poison, lighting and throwing an incendiary or a pot of acid or quicklime, or dosing an effective nostrum, uses the Trade rules for **Automatic Use** (*[Skill Mastery](../../index.md)*, [Universal Trade Rules](../index.md#universal-trade-rules)):
 
 - If you know the concoction's category **and** your Trade (Alchemist) mastery reaches its Social Class, you do it without a roll.
 - Otherwise, make an **Off-Label Use** roll against the recipe's **Use DC** (see Making a Concoction, Find the Social Class). On a failure, the dose is wasted.
@@ -308,7 +308,7 @@ Waking someone who is asleep or knocked out costs 1 AP. Someone unconscious at 0
 
 ### Addiction (Optional)
 
-If the GM is using the optional [Addicted](../../../core/conditions.md#addicted "(Optional). You depend on a substance, such as alcohol, opium, or mandrake, and need it to function. Your Dependence on it runs from 1 to 4. Each substance is tracked separately.") rule, a frequent user of an **Addictive** substance makes an Endurance trial against the dose's DC each time they use it (see *[Conditions](../../../core/conditions.md)*, Addicted).
+If the GM is using the optional Addicted rule, a frequent user of an **Addictive** substance makes an Endurance trial against the dose's DC each time they use it (see *[Conditions](../../../core/conditions.md)*, [Addicted](../../../core/conditions.md#addicted)).
 
 ### Hazardous
 
@@ -321,7 +321,7 @@ A **Hazardous** item is dangerous to carry. Fire can set it off, a hard fall can
 | Wildfire arrows or quarrels | Fire |
 | Wildfire pot | Fire, breakage |
 
-**Protection** (see *[Equipment](../../../equipment/gear-and-services.md)*, Alchemist's Gear): a **latched case** protects against fire and breakage while shut, and drawing from it takes 1 AP; a **waxed cloth wrap** protects against damp; the **field kit's** padded places protect against breakage; Corrected Serpentine's **corned powder** ignores damp.
+**Protection** (see *[Equipment](../../../equipment/gear-and-services.md)*, [Alchemist's Gear](../../../equipment/gear-and-services.md#alchemists-gear)): a **latched case** protects against fire and breakage while shut, and drawing from it takes 1 AP; a **waxed cloth wrap** protects against damp; the **field kit's** padded places protect against breakage; Corrected Serpentine's **corned powder** ignores damp.
 
 ---
 

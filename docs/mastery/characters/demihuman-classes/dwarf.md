@@ -75,7 +75,7 @@ You gain abilities below as you increase level.
 
 ### Primordial
 
-As a Primordial Stone being, you are immune to Stone damage and have Impotence on trials to resist Sky damage. You are connected to the Stone magic form. Only Stone magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
+As a Primordial Stone being, you are immune to Stone damage and have Impotence on trials to resist Sky damage. You are connected to the Stone magic form. Only Stone magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Master Craftsman
 

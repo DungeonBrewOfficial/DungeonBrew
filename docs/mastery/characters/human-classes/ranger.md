@@ -75,7 +75,7 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Pathfinder
 

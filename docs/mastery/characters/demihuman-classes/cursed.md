@@ -84,7 +84,7 @@ As a result, you may either choose one of the following curses or have one assig
 
 **Horrific.** You are hideous to look upon in ways that are impossible to hide. This malformation can manifest in a number of ways, but almost always includes a lack of symmetry in your appearance. Lumps, humps, tumors, misshapen limbs, warts, uneven facial features, inhuman or animalistic features, extra limbs, elongated digits, or other grotesque physical abnormalities.
 
-- As a horrific being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
+- As a horrific being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - Choose one Athletics ability for free (does not cost Skill Mastery points). Describe how your malformation enables it. GM must approve the connection between the malformation and the chosen ability.
   - A Cursed with an enormous, bloated frame might gain **Healthy** (increased endurance from sheer mass).
   - A Cursed with elongated, double-jointed arms might gain **Nimble** (unnatural flexibility and reach).
