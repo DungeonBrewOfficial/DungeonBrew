@@ -27,7 +27,7 @@ When you make a trial in a duel, add your Spellcraft mastery die to the roll.
 
 ## Tradition Disciplines
 
-Choose a tradition other than your own. You can draw new spells from that tradition's sources as well as your own (see *Magic Mastery*, *Discovery*). At a foreign source, perform your own tradition's practice and roll your Spellcraft mastery die + your mastery die in the source's form. A spell you learn this way belongs to your own tradition.
+Choose a tradition other than your own. You can draw new spells from that tradition's sources as well as your own (see *[Magic Mastery](../magic/index.md)*, *[Discovery](../magic/index.md#discovery)*). At a foreign source, perform your own tradition's practice and roll your Spellcraft mastery die + your mastery die in the source's form. A spell you learn this way belongs to your own tradition.
 
 - **Occult Spellcraft:** occult writings and teachings, such as grimoires, treatises, and the instruction of other practitioners. Reading and writing scrolls remains part of Trade (Scribe). If your own tradition is Telluric, you can draw from a written source only by giving it voice: it is read aloud, by you or another, and recomposed into memory.
 - **Priscan Spellcraft:** fonts of priscan magic, where wild magic wells up through wind, earth, and water.
@@ -66,7 +66,7 @@ When a spell you are casting is lost, you may spend 1 AP as a reaction to regain
 
 ### Snye
 
-When you stop casting a declared spell, you may begin casting a Fast spell you did not declare instead. It resolves in the Slow phase. The declared spell is lost (see *Magic Mastery, Interrupted Casting*). The Fast spell is cast normally, with its own magan and AP.
+When you stop casting a declared spell, you may begin casting a Fast spell you did not declare instead. It resolves in the Slow phase. The declared spell is lost (see *[Magic Mastery, Interrupted Casting](../magic/index.md#interrupted-casting)*). The Fast spell is cast normally, with its own magan and AP.
 
 ### Wale
 

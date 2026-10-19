@@ -4,7 +4,7 @@ generated_by: tools/sync_mastery.py
 
 # Object Durability
 
-Objects have a durability pool determined by two factors: **size** (physical dimensions) and **hardness** (material resilience). When an object takes damage, reduce its durability pool by the damage dealt minus its resistance (see Materials and Resistance). When the pool reaches 0, the object is destroyed or breached.
+Objects have a durability pool determined by two factors: **size** (physical dimensions) and **hardness** (material resilience). When an object takes damage, reduce its durability pool by the damage dealt minus its resistance (see [Materials and Resistance](#materials-and-resistance)). When the pool reaches 0, the object is destroyed or breached.
 
 These rules apply to any object that doesn't have its own durability and resistances. Armor, shields, and other items with listed values use those instead.
 
@@ -34,13 +34,13 @@ Each size category roughly doubles the previous.
 | Solid | 7 | Stone, bronze, low-grade iron |
 | Hard | 11 | Iron, steel |
 | Reinforced | 16 | Tempered steel, thick mortared stone, composite |
-| Fortified | 22 | Castle stone, masterwork alloys |
+| [Fortified](conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") | 22 | Castle stone, masterwork alloys |
 
 Hardness scales more aggressively than size: the gap between each level increases by 1.
 
 ## Durability Table
 
-|  | Fragile (1) | Soft (2) | Firm (4) | Solid (7) | Hard (11) | Reinforced (16) | Fortified (22) |
+|  | Fragile (1) | Soft (2) | Firm (4) | Solid (7) | Hard (11) | Reinforced (16) | [Fortified](conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") (22) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Tiny (1)** | 2 | 4 | 8 | 14 | 22 | 32 | 44 |
 | **Small (2)** | 4 | 8 | 16 | 28 | 44 | 64 | 88 |
@@ -64,7 +64,7 @@ Hardness scales more aggressively than size: the gap between each level increase
 | Iron gate | Large | Hard | 176 |
 | Stone wall (section) | Large | Solid | 112 |
 | Ship hull | Massive | Firm | 256 |
-| Castle wall | Colossal | Fortified | 2816 |
+| Castle wall | Colossal | [Fortified](conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") | 2816 |
 
 ## Materials and Resistance
 
@@ -86,10 +86,10 @@ Against each kind, a material is **immune** (the hit does nothing), takes **full
 | Leather, hide | Soft / Firm | Full from Cutting; resists the rest | Resists | Resists |
 | Packed earth | Firm | Immune to Cutting, Piercing, and Puncturing; resists the rest | Full | Immune |
 | Paper, cloth, rope | Fragile / Soft | Full | Full | Full |
-| Stone, masonry | Solid to Fortified | Immune to Cutting, Piercing, and Puncturing; resists the rest | Resists | Resists |
+| Stone, masonry | Solid to [Fortified](conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") | Immune to Cutting, Piercing, and Puncturing; resists the rest | Resists | Resists |
 | Wood | Soft / Firm | Immune to Piercing and Puncturing; full from Cleaving; resists the rest | Resists | Full from Fire; resists the rest |
 
-**Acid** ignores the resistance of the material it eats (see *Alchemy*).
+**Acid** ignores the resistance of the material it eats (see *[Alchemy](../skills/trade/alchemy/index.md)*).
 
 **Unusual cases are the GM's call:** heating stone with fire and then dousing it with water to crack it, extreme cold making iron brittle, or a spell whose effect plainly suits the material.
 

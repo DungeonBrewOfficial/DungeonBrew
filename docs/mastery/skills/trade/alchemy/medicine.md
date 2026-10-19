@@ -14,7 +14,7 @@ A comfrey poultice is administered by contact, bound over a deep bruise. It spee
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Bruised to the Bone heals in 1 day instead of 3 | Swallowed, it advances Tainted by 1 tier | 1 ss |
+| Single strength | Bruised to the Bone heals in 1 day instead of 3 | Swallowed, it advances [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier | 1 ss |
 
 | | |
 |:---|:---|
@@ -43,7 +43,7 @@ A honey dressing is administered by contact, bound over a wound and kept there. 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | +2 on Infected trials from that wound. +2 health regained per rest | None | 1 sp |
+| Single strength | +2 on [Infected](../../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") trials from that wound. +2 health regained per rest | None | 1 sp |
 
 | | |
 |:---|:---|
@@ -72,7 +72,7 @@ Leech's eyesalve is administered by contact, spread on an infected wound. It dri
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Reduce Infected by 1 tier, once per wound | None | 1 ss |
+| Single strength | Reduce [Infected](../../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier, once per wound | None | 1 ss |
 
 | | |
 |:---|:---|
@@ -130,7 +130,7 @@ A wash is administered by contact, poured into a wound when it's first cleaned. 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Dominance on the next Infected trial from that wound | None | 1 sp |
+| Single strength | Dominance on the next [Infected](../../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") trial from that wound | None | 1 sp |
 
 | | |
 |:---|:---|
@@ -153,7 +153,7 @@ A wash is administered by contact, poured into a wound when it's first cleaned. 
 
 ## Counter-Vials
 
-Counter-vials end Attrition. Burning is put out by smothering or dousing it (see Wildfire), and viper wine counters Withering (see Nostrums).
+Counter-vials end [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any)."). Burning is put out by smothering or dousing it (see [Wildfire](incendiaries.md#wildfire)), and viper wine counters Withering (see [Nostrums](nostrums.md)).
 
 ### Alum
 
@@ -163,7 +163,7 @@ Alum is administered by contact, packed into a bleeding wound on yourself or an 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Ends one instance of Attrition (Bleeding). Counts as the *Stop the bleeding* treatment for an Open Wound Trauma | None | 1 ss |
+| Single strength | Ends one instance of [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding). Counts as the *Stop the bleeding* treatment for an Open Wound Trauma | None | 1 ss |
 
 | | |
 |:---|:---|
@@ -192,7 +192,7 @@ Chalk-water is administered by contact, poured over acid-burned skin on yourself
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Ends one instance of Attrition (Corroding) from aqua fortis or oil of vitriol | None | 1 sp |
+| Single strength | Ends one instance of [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Corroding) from aqua fortis or oil of vitriol | None | 1 sp |
 
 | | |
 |:---|:---|
@@ -221,7 +221,7 @@ Embalmer's salt is administered by contact, rubbed into flesh that is decaying, 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Ends one instance of Attrition (Decaying) | None | 1 sc |
+| Single strength | Ends one instance of [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Decaying) | None | 1 sc |
 
 | | |
 |:---|:---|
@@ -250,7 +250,7 @@ Vinegar is administered by contact, splashed over skin burned by lime or lye, on
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Ends one instance of Attrition (Corroding) from quicklime or lye | None | 1 sp |
+| Single strength | Ends one instance of [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Corroding) from quicklime or lye | None | 1 sp |
 
 | | |
 |:---|:---|
@@ -279,7 +279,7 @@ A warming cordial is administered through ingestion, given to yourself or an all
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Ends one instance of Attrition (Freezing) | None | 1 sc |
+| Single strength | Ends one instance of [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Freezing) | None | 1 sc |
 
 | | |
 |:---|:---|

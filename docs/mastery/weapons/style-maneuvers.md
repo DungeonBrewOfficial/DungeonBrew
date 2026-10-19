@@ -12,7 +12,7 @@ Available when wielding a weapon in one hand (including Versatile weapons used o
 
 ### Check
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You strike an approaching enemy as they close to melee range to disrupt their attack.
 
@@ -26,7 +26,7 @@ You strike an approaching enemy as they close to melee range to disrupt their at
 
 ### Clinch
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You seize an opponent with your free hand to pin them in place and strike while they cannot defend properly.
 
@@ -34,13 +34,13 @@ You seize an opponent with your free hand to pin them in place and strike while 
 
 **Trigger**: Attack, targeting a creature no more than one size larger than you
 
-**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, the target advances Restricted by 1 tier. Make a melee attack against the target and, if the target failed the trial, add your weapon attribute tier to the attack.
+**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, the target advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Make a melee attack against the target and, if the target failed the trial, add your weapon attribute tier to the attack.
 
 ---
 
 ### Exploit
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You attack again immediately after the target defends, striking before they recover their guard.
 
@@ -54,7 +54,7 @@ You attack again immediately after the target defends, striking before they reco
 
 ### Sidestep
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You deflect an attack and step past your opponent to strike from their unguarded side.
 
@@ -68,7 +68,7 @@ You deflect an attack and step past your opponent to strike from their unguarded
 
 ### Dismantle
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You circle your target and deliver a relentless series of strikes from every angle.
 
@@ -88,7 +88,7 @@ Available when wielding a weapon in two hands (including Versatile weapons used 
 
 ### Wrath
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You put your full weight behind a committed swing, sacrificing your defensive position for power.
 
@@ -102,7 +102,7 @@ You put your full weight behind a committed swing, sacrificing your defensive po
 
 ### Sweep
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You swing your weapon in a wide arc through multiple enemies standing near you.
 
@@ -116,7 +116,7 @@ You swing your weapon in a wide arc through multiple enemies standing near you.
 
 ### Fell
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You strike a retreating enemy as they leave your reach to cut them down mid-stride.
 
@@ -130,7 +130,7 @@ You strike a retreating enemy as they leave your reach to cut them down mid-stri
 
 ### Smash
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You wind up a massive overhead strike that sacrifices speed for raw force.
 
@@ -144,7 +144,7 @@ You wind up a massive overhead strike that sacrifices speed for raw force.
 
 ### Rampage
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You move between enemies, making a total of three attacks against targets in range.
 
@@ -164,7 +164,7 @@ Available when wielding weapons in both hands with the listed mastery. Baseline:
 
 ### Broken Time
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You feint with your off-hand weapon to create an opening for a stronger main-hand strike.
 
@@ -178,7 +178,7 @@ You feint with your off-hand weapon to create an opening for a stronger main-han
 
 ### Counter-Disengage
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You follow a missed main-hand attack with an off-hand strike as you withdraw from the target.
 
@@ -192,7 +192,7 @@ You follow a missed main-hand attack with an off-hand strike as you withdraw fro
 
 ### Fend
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You use both weapons, alternating hands, to deflect incoming attacks.
 
@@ -206,7 +206,7 @@ You use both weapons, alternating hands, to deflect incoming attacks.
 
 ### Double-Time
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You commit to an ambitious defense, making yourself vulnerable in order to exploit your enemy's aggression.
 
@@ -220,7 +220,7 @@ You commit to an ambitious defense, making yourself vulnerable in order to explo
 
 ### Aanslag
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You unleash a sustained flurry of strikes with both weapons, attacking three times with each.
 
@@ -240,7 +240,7 @@ Available when wielding a weapon in one hand and shield in the other with the li
 
 ### Intercept
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You step between an ally and their attacker, taking the attack yourself with your shield raised.
 
@@ -254,7 +254,7 @@ You step between an ally and their attacker, taking the attack yourself with you
 
 ### Shield Punch
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You strike the target with the face of your shield to disorient them.
 
@@ -262,13 +262,13 @@ You strike the target with the face of your shield to disorient them.
 
 **Trigger**: Attack
 
-**Effect**: Make a shield attack. On hit, if you deal damage, the target makes a Perception Trial against your Mastery DC or advances Impaired by 1 tier. Cannot target creatures more than one size category larger than you.
+**Effect**: Make a shield attack. On hit, if you deal damage, the target makes a Perception Trial against your Mastery DC or advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier. Cannot target creatures more than one size category larger than you.
 
 ---
 
 ### Shield Bind
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You trap the attacker's weapon against your shield and strike while they cannot defend.
 
@@ -282,7 +282,7 @@ You trap the attacker's weapon against your shield and strike while they cannot 
 
 ### Push
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You drive your shield into the target to force them backward.
 
@@ -296,7 +296,7 @@ You drive your shield into the target to force them backward.
 
 ### Assault
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You press forward with a combination of weapon strikes and shield blows.
 
@@ -340,13 +340,13 @@ When you have elevation over your target, your Aiming Trial gains Dominance.
 
 *Expert Mastery (Passive)*
 
-When you are behind Total Cover, breaking cover to attack does not cost 1 AP.
+When you are behind Total [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover."), breaking cover to attack does not cost 1 AP.
 
 ---
 
 #### Disarming Shot
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You aim for the target's weapon hand or weapon to knock it from their grip at range.
 
@@ -360,7 +360,7 @@ You aim for the target's weapon hand or weapon to knock it from their grip at ra
 
 #### Killshot
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You sight a vital point on the target and wait for the precise moment to release.
 
@@ -404,7 +404,7 @@ When you have moved this round, the Aiming Trial DC for ranged attacks targeting
 
 #### Spoiling Shot
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You shoot an enemy in the act of attacking your ally to weaken their strike.
 
@@ -418,7 +418,7 @@ You shoot an enemy in the act of attacking your ally to weaken their strike.
 
 #### Parthian Shot
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You fire at targets while moving at full speed, never stopping long enough to present a stationary target.
 

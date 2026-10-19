@@ -176,7 +176,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 
 All companions receive Light barding proficiency at Untrained. War, Guard, and Mount companions may exchange a training tier's +8 resistance for the next barding weight class: Medium proficiency is available from Skilled onward, and Heavy proficiency (which requires Medium) is available from Expert onward. A companion can only acquire one proficiency per tier. Hunting companions are restricted to Light barding.
 
-Proficiency grants access to all barding within that weight class. Medium proficiency allows Chain or Scale barding; Heavy proficiency allows Plate and Mail or Full Plate barding. See the Equipment Reference for barding stats, costs, and individual piece details.
+Proficiency grants access to all barding within that weight class. Medium proficiency allows Chain or Scale barding; Heavy proficiency allows Plate and Mail or Full Plate barding. See the [Equipment](../../equipment/gear-and-services.md) Reference for barding stats, costs, and individual piece details.
 
 Companion barding does not include an aketon and does not grant attribute bonuses to resistance. The companion's distributable resistance pool serves this role instead.
 
@@ -200,13 +200,13 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 **Avoid Death:** (Passive) When an attack or spell would reduce the companion to 0 health, roll Endurance tier die and restore that amount of health. Once per rest.
 
-**Brave:** (Passive) Dominance on trials to resist Demoralized conditions.
+**Brave:** (Passive) Dominance on trials to resist [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") conditions.
 
 **Evasive:** (Passive) Dominance on Agility trials to avoid traps and spells.
 
-**Healthy:** (Passive) Dominance on trials to resist Tainted conditions.
+**Healthy:** (Passive) Dominance on trials to resist [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") conditions.
 
-**Loyal:** (Passive) Dominance on trials to resist Charmed condition.
+**Loyal:** (Passive) Dominance on trials to resist [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") condition.
 
 **Stalwart:** (Passive) The companion gains an additional 2 health at each Mastery tier from this tier forward and retroactively through Basic mastery (Max 10 health at GM).
 
@@ -214,11 +214,11 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 **Tumble:** (Passive) When the companion drops, reduce the DC of its Falling trial by its Physique tier. When it falls, it has Dominance on its Falling trial. On landing, it can reposition to an adjacent space.
 
-**Unfettered:** (Passive) Dominance on trials to resist Restricted conditions.
+**Unfettered:** (Passive) Dominance on trials to resist [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") conditions.
 
 **Vault:** (Passive) The companion can leap over obstacles as part of movement without slowing. Jump distance up to movement speed.
 
-**Vigorous:** (Passive) After a rest, the companion regains additional health equal to Endurance tier. Always reduce Exhausted by 1 tier when resting, regardless of rest quality or location.
+**Vigorous:** (Passive) After a rest, the companion regains additional health equal to Endurance tier. Always reduce [Exhausted](../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier when resting, regardless of rest quality or location.
 
 #### Stance Option
 
@@ -278,7 +278,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 **Coordinated Takedown:** (Passive) While flanking, the companion gains Dominance on attack rolls.
 
-**Pursuit:** (Passive) When the companion hits a creature that moved during this round, the target rolls a Strength trial vs Ability DC or gains Restricted Tier 1.
+**Pursuit:** (Passive) When the companion hits a creature that moved during this round, the target rolls a Strength trial vs Ability DC or gains [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") Tier 1.
 
 #### Stances
 
@@ -294,7 +294,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 **Disarm:** (1 AP | Attack) The companion forgoes damage in favor of disarming the target of its weapon. The target must succeed on a Strength or Physique trial against the companion's Ability DC.
 
-**Kill:** (1 AP | Attack) The companion attacks a Helpless creature. The attack deals full damage and ignores all armor resistance.
+**Kill:** (1 AP | Attack) The companion attacks a [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") creature. The attack deals full damage and ignores all armor resistance.
 
 #### Commands
 
@@ -322,7 +322,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 **Recall:** (Command) The companion returns to the handler's position. The companion must be able to hear or see the handler.
 
-**Calm:** (Command) Mount only. The mount takes no other action this round. Degrade the mount's Demoralized condition by 1 tier.
+**Calm:** (Command) Mount only. The mount takes no other action this round. Degrade the mount's [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") condition by 1 tier.
 
 **Attack:** (Command) Gained at Basic. Engage designated target with natural weapon. Continue attacking until target is dead or given different command.
 
@@ -334,7 +334,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 **Caracole:** (1 AP mount, 1 AP rider. Movement + Attack) The mount moves up to its full speed. At any point during the movement, the rider makes a single weapon attack against a target. Neither the mount nor the rider provokes a Reprisal Attack from that target as they pass. A second pass may be made in the same round at the same cost, consuming all remaining AP from both mount and rider. Countered by Set Spear vs Charge.
 
-**Overrun:** (2 AP, Movement) The mount moves through spaces occupied by creatures of equal or smaller size. Each creature in the path is pushed 5 feet to the side. Creatures that fail a Strength trial against the mount's Ability DC also gain Prone. Countered by Set Spear vs Charge.
+**Overrun:** (2 AP, Movement) The mount moves through spaces occupied by creatures of equal or smaller size. Each creature in the path is pushed 5 feet to the side. Creatures that fail a Strength trial against the mount's Ability DC also gain [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Countered by Set Spear vs Charge.
 
 #### Stances
 

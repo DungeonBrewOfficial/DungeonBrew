@@ -12,7 +12,7 @@ Available when wielding an axe with the listed mastery.
 
 ### Rive
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You drive the axe head deep into the target, prioritizing the weight of the blow over accuracy.
 
@@ -26,7 +26,7 @@ You drive the axe head deep into the target, prioritizing the weight of the blow
 
 ### Horn Thrust
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You thrust the horn of the axe into a gap in the target's armor.
 
@@ -40,7 +40,7 @@ You thrust the horn of the axe into a gap in the target's armor.
 
 ### Hook
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You hook the target with the beard of your axe and pull them past you.
 
@@ -48,13 +48,13 @@ You hook the target with the beard of your axe and pull them past you.
 
 **Trigger**: Attack
 
-**Effect**: Make an attack with Impotence. On hit, target makes a Physique Trial against your Mastery DC. On failure, you swap positions with the target. If the target is mounted, it is instead pulled from the saddle and falls Prone in a space adjacent to its mount.
+**Effect**: Make an attack with Impotence. On hit, target makes a Physique Trial against your Mastery DC. On failure, you swap positions with the target. If the target is mounted, it is instead pulled from the saddle and falls [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") in a space adjacent to its mount.
 
 ---
 
 ### Hew
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You deliver a committed strike that the target cannot turn aside.
 
@@ -68,7 +68,7 @@ You deliver a committed strike that the target cannot turn aside.
 
 ### Cleave
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You bring the full force of your weapon down in a single overwhelming strike, leaving yourself completely exposed.
 
@@ -88,7 +88,7 @@ Available when wielding a bludgeon with the listed mastery.
 
 ### Bash
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You strike the target's head or helm to daze them.
 
@@ -96,13 +96,13 @@ You strike the target's head or helm to daze them.
 
 **Trigger**: Attack
 
-**Effect**: Make an attack with Inferiority. On hit, if you deal damage, target makes a Perception Trial against your Mastery DC or advances Impaired by 1 tier. Cannot target creatures more than one size category larger than you.
+**Effect**: Make an attack with Inferiority. On hit, if you deal damage, target makes a Perception Trial against your Mastery DC or advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier. Cannot target creatures more than one size category larger than you.
 
 ---
 
 ### Sunder
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You target the joints and fastenings of the target's armor to damage its integrity.
 
@@ -110,13 +110,13 @@ You target the joints and fastenings of the target's armor to damage its integri
 
 **Trigger**: Attack
 
-**Effect**: Make an attack with Inferiority. On hit, if you deal damage, target makes a Physique Trial against your Mastery DC or advances Restricted by 1 tier.
+**Effect**: Make an attack with Inferiority. On hit, if you deal damage, target makes a Physique Trial against your Mastery DC or advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 ---
 
 ### Driving Blow
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You swing through the target to knock them off their feet and send them backward.
 
@@ -130,7 +130,7 @@ You swing through the target to knock them off their feet and send them backward
 
 ### Rupture
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You strike an armored target with enough force to damage both the armor and the body beneath it.
 
@@ -144,7 +144,7 @@ You strike an armored target with enough force to damage both the armor and the 
 
 ### Breaker
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You follow through on a solid hit with everything you have, turning a good strike into a bone-breaking one.
 
@@ -164,7 +164,7 @@ Available when wielding a dagger with the listed mastery.
 
 ### Remise
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You thrust again along the same line immediately after a missed attack without withdrawing your arm.
 
@@ -178,13 +178,13 @@ You thrust again along the same line immediately after a missed attack without w
 
 ### Finding the Gap
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You study the target's armor for a seam or joint and place your blade directly into it.
 
 **Cost**: 2 AP (no movement)
 
-**Trigger**: Attack, targeting an armored enemy or a Restricted creature
+**Trigger**: Attack, targeting an armored enemy or a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") creature
 
 **Effect**: Against an armored enemy, make an Aiming Trial with its DC increased by 2. On success, make one attack. Damage is dealt directly to the target's health, bypassing armor. Against a Restricted creature, the target makes a Strength Trial against your Mastery DC. On failure, make one attack. Damage is dealt directly to the target's health, bypassing armor.
 
@@ -192,7 +192,7 @@ You study the target's armor for a seam or joint and place your blade directly i
 
 ### Flèche
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You lunge past the target and through their space, turning to attack from behind.
 
@@ -206,7 +206,7 @@ You lunge past the target and through their space, turning to attack from behind
 
 ### Coup de Jarnac
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You cut at the back of the target's leg while flanking to hamstring them.
 
@@ -214,13 +214,13 @@ You cut at the back of the target's leg while flanking to hamstring them.
 
 **Trigger**: Attack, when flanking a target
 
-**Effect**: Make an attack with Inferiority. On hit, if you deal damage, target makes a Strength Trial against your Mastery DC or advances Restricted by 1 tier.
+**Effect**: Make an attack with Inferiority. On hit, if you deal damage, target makes a Strength Trial against your Mastery DC or advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 ---
 
 ### Nachreisen
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You attack in the moment your opponent hesitates, punishing any failure to respond with a more decisive follow-up.
 
@@ -240,7 +240,7 @@ Available when wielding a pole weapon with the listed mastery.
 
 ### Set Spear
 
-*Untrained Mastery*
+*[Untrained Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You brace your weapon and point it toward an approaching enemy, letting their momentum drive the impact.
 
@@ -256,7 +256,7 @@ You brace your weapon and point it toward an approaching enemy, letting their mo
 
 ### Rebuff
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You reverse your grip and strike with the butt or shaft of your weapon to shove a nearby enemy back.
 
@@ -264,13 +264,13 @@ You reverse your grip and strike with the butt or shaft of your weapon to shove 
 
 **Trigger**: Attack
 
-**Effect**: Make an attack with Impotence dealing Crushing damage. This attack can target adjacent creatures regardless of your weapon's reach. On hit, if you deal damage, target makes a Strength Trial against your Mastery DC. On failure, target is pushed back 10 feet. If the target is mounted, it is instead pushed from the saddle and falls Prone in a space adjacent to its mount. Cannot target creatures more than one size category larger than you.
+**Effect**: Make an attack with Impotence dealing Crushing damage. This attack can target adjacent creatures regardless of your weapon's reach. On hit, if you deal damage, target makes a Strength Trial against your Mastery DC. On failure, target is pushed back 10 feet. If the target is mounted, it is instead pushed from the saddle and falls [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") in a space adjacent to its mount. Cannot target creatures more than one size category larger than you.
 
 ---
 
 ### Trip
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You sweep the shaft of your weapon behind the target's legs to knock them to the ground.
 
@@ -284,7 +284,7 @@ You sweep the shaft of your weapon behind the target's legs to knock them to the
 
 ### Throwing the Point
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You extend your reach by sliding your grip back along the shaft and thrusting at a more distant target.
 
@@ -298,7 +298,7 @@ You extend your reach by sliding your grip back along the shaft and thrusting at
 
 ### Running Through
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You thrust your weapon through the first target and into a second enemy standing directly behind them.
 
@@ -312,7 +312,7 @@ You thrust your weapon through the first target and into a second enemy standing
 
 ### Barrage
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You drive the point of your weapon into the same target in rapid succession, each thrust building on the last.
 
@@ -332,7 +332,7 @@ Available when wielding a projectile weapon (bow, crossbow, or blowgun) with the
 
 ### Brace
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You use your bow or crossbow to block an incoming melee attack.
 
@@ -346,7 +346,7 @@ You use your bow or crossbow to block an incoming melee attack.
 
 ### Threading the Needle
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You identify a gap in the target's armor and place your shot directly into it.
 
@@ -360,7 +360,7 @@ You identify a gap in the target's armor and place your shot directly into it.
 
 ### Close Quarters
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You jab the end of your weapon into an adjacent enemy, then step back and take a shot while they recover.
 
@@ -374,7 +374,7 @@ You jab the end of your weapon into an adjacent enemy, then step back and take a
 
 ### Long Shot
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You take careful aim at a distant target, compensating for range to place the shot precisely.
 
@@ -388,7 +388,7 @@ You take careful aim at a distant target, compensating for range to place the sh
 
 ### Rapid Fire / Skewer
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 Choose one when you reach Grand Master Mastery in Projectiles.
 
@@ -422,7 +422,7 @@ Available when wielding a sword with the listed mastery.
 
 ### Riposte
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You Counterattack in the same motion as a missed strike passes you, exploiting the opening it creates.
 
@@ -436,7 +436,7 @@ You Counterattack in the same motion as a missed strike passes you, exploiting t
 
 ### Half-Sword / Press
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 Choose one when you reach Skilled Mastery in Swords.
 
@@ -464,7 +464,7 @@ You follow a defended strike with two immediate attacks before your opponent can
 
 ### Lunge and Fade / Mordhau
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 Choose one when you reach Expert Mastery in Swords.
 
@@ -492,7 +492,7 @@ You reverse your grip, seizing the blade and striking with the crossguard and po
 
 ### Stop Thrust
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You extend your blade into the path of an incoming attacker, forcing them to impale themselves or abandon their strike.
 
@@ -506,7 +506,7 @@ You extend your blade into the path of an incoming attacker, forcing them to imp
 
 ### Whirlwind
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You spin and strike every enemy surrounding you in a single continuous motion.
 

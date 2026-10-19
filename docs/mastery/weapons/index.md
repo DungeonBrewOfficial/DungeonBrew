@@ -6,7 +6,7 @@ generated_by: tools/sync_mastery.py
 
 Weapon mastery is a measure of a character's skill with a specific type of weapon. The more skilled a character is with a type of weapon, the more likely they are to hit their foes and the more damage they inflict when they do hit. In addition, powerful and unique maneuvers are gained from advancing mastery with weapon types and styles, so that you have the ability to manipulate a battlefield more effectively.
 
-For the rules governing mastery points, mastery levels, point progression, and mastery caps by class, see the Mastery chapter.
+For the rules governing mastery points, mastery levels, point progression, and mastery caps by class, see the [Mastery](../core/mastery-and-trials.md) chapter.
 
 ## Weapon Types
 
@@ -90,7 +90,7 @@ Maneuvers gained from mastery in this style are only usable while wielding a wea
 Maneuvers gained from mastery in this style are only usable while wielding a weapon in each hand as described.
 
 **Ranged Style**. The ranged style requires that you wield a bow, crossbow, blowgun, sling, stave sling, or a weapon with the Thrown property.
-* Ranged weapons require an Aiming Trial to hit (see Combat chapter).
+* Ranged weapons require an Aiming Trial to hit (see [Combat](../core/combat.md) chapter).
 * Ranged attacks can only be defended against if the defender is wielding a shield.
 * Drawing or nocking ammunition, or drawing another thrown weapon of the same type, does not cost AP.
 * Fixed projectiles (crossbows and blowguns) use fixed weapon dice as listed in their equipment description and do not benefit from weapon mastery dice. Their weapon dice are not affected by Dominance and Impotence; the Attack Attribute Die (Perception) is affected normally. The fixed projectile attack formula is: PER Tier Die + Fixed Weapon Dice + Modifiers.
@@ -109,7 +109,7 @@ You can only use one maneuver per action unless the maneuver specifically states
 
 **Mastery Gating**: You cannot use maneuvers for a weapon unless you meet the minimum mastery requirement and are actively wielding the appropriate weapon.
 
-**Borrowed Maneuvers**: When a weapon's properties name a maneuver from another weapon type (such as *Hook* on a Khopesh), you can use that maneuver with that weapon. Use your mastery in the weapon's own type to meet the maneuver's mastery requirement.
+**Borrowed Maneuvers**: When a weapon's properties name a maneuver from another weapon type (such as *[Hook](type-maneuvers.md#hook)* on a Khopesh), you can use that maneuver with that weapon. Use your mastery in the weapon's own type to meet the maneuver's mastery requirement.
 
 **Style**: Some maneuvers require specific weapon styles (single weapon, weapon and shield, two-handed). You can change styles during combat by drawing/stowing equipment.
 
@@ -139,7 +139,7 @@ Available to any character wielding a melee weapon who meets the listed mastery 
 
 ### Charge
 
-*Untrained Mastery*
+*[Untrained Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You sprint toward your target and make a melee attack using the weight of your momentum.
 
@@ -155,7 +155,7 @@ You sprint toward your target and make a melee attack using the weight of your m
 
 ### Deflect
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You abandon offensive action and focus entirely on reading and reacting to incoming attacks.
 
@@ -169,13 +169,13 @@ You abandon offensive action and focus entirely on reading and reacting to incom
 
 ### Coup de Grace
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You deliver a killing strike to a creature that cannot defend itself.
 
 **Cost**: 1 AP
 
-**Trigger**: Attack, targeting a Helpless creature
+**Trigger**: Attack, targeting a [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") creature
 
 **Effect**: Make a melee attack with Superiority and Dominance that ignores all armor resistance.
 
@@ -183,7 +183,7 @@ You deliver a killing strike to a creature that cannot defend itself.
 
 ### Parry
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You use your weapon to turn aside an incoming weapon attack.
 
@@ -197,7 +197,7 @@ You use your weapon to turn aside an incoming weapon attack.
 
 ### Disarm
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You target your opponent's weapon hand or the weapon itself to knock it from their grasp.
 
@@ -213,7 +213,7 @@ You target your opponent's weapon hand or the weapon itself to knock it from the
 
 ### Reap
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You carry the force of a killing blow into an immediate strike against a second opponent.
 
@@ -248,7 +248,7 @@ Your attack rolls have Dominance. Your defense rolls have Impotence.
 
 ### Alber (Fool's Guard)
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You lower your weapon and present an opening, inviting the enemy to close distance. When they commit, the trap springs.
 
@@ -258,7 +258,7 @@ You lower your weapon and present an opening, inviting the enemy to close distan
 
 ### Vom Tag (From the Roof)
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You hold your weapon high and loaded, every motion pre-committed to a single devastating technique.
 
@@ -268,7 +268,7 @@ You hold your weapon high and loaded, every motion pre-committed to a single dev
 
 ### Ochs (Ox)
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You read the rhythm of combat and control the tempo, choosing your moment with precision rather than leaving it to chance.
 
@@ -278,7 +278,7 @@ You read the rhythm of combat and control the tempo, choosing your moment with p
 
 ### Pflug (Plow)
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You hold low with point forward, controlling the centerline. Your guard is oriented toward the catch and redirect — defense flows into technique.
 
@@ -288,7 +288,7 @@ You hold low with point forward, controlling the centerline. Your guard is orien
 
 ### Fließend (Flowing)
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 At the highest mastery, the concept of guards dissolves into fluid motion. Each action flows from the position that best serves it.
 
@@ -320,7 +320,7 @@ Available to any character wielding a ranged weapon who meets the listed mastery
 
 ### Snap Shot
 
-*Untrained Mastery*
+*[Untrained Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You loose a quick shot at an approaching enemy and reposition before they close the distance.
 
@@ -334,7 +334,7 @@ You loose a quick shot at an approaching enemy and reposition before they close 
 
 ### Covering Fire
 
-*Basic Mastery*
+*[Basic Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You designate an area and fire at anything that moves through it.
 
@@ -342,13 +342,13 @@ You designate an area and fire at anything that moves through it.
 
 **Trigger**: Declaration, designate a 30-foot radius area within your weapon's range
 
-**Effect**: The first two creatures that use movement to enter or move through the declared area provoke a ranged attack from you with Impotence. If you deal damage, the target makes an Agility or Strength Trial (their choice) against your Mastery DC. On failure, the target advances Restricted by 1 tier, halting movement. Normal range penalties apply.
+**Effect**: The first two creatures that use movement to enter or move through the declared area provoke a ranged attack from you with Impotence. If you deal damage, the target makes an Agility or Strength Trial (their choice) against your Mastery DC. On failure, the target advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier, halting movement. Normal range penalties apply.
 
 ---
 
 ### Rapid Shot
 
-*Skilled Mastery*
+*[Skilled Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You fire two shots in quick succession at the same target, sacrificing accuracy for volume.
 
@@ -362,7 +362,7 @@ You fire two shots in quick succession at the same target, sacrificing accuracy 
 
 ### Split Shot
 
-*Expert Mastery*
+*[Expert Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You pick two targets standing close together and loose two projectiles simultaneously.
 
@@ -376,7 +376,7 @@ You pick two targets standing close together and loose two projectiles simultane
 
 ### Steady Hand
 
-*Master Mastery*
+*[Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You take your time to find an angle past your target's cover before releasing.
 
@@ -384,13 +384,13 @@ You take your time to find an angle past your target's cover before releasing.
 
 **Trigger**: Attack, targeting a creature in cover
 
-**Effect**: Reduce the target's cover by one tier (Total Cover is unaffected). Your attack gains Dominance.
+**Effect**: Reduce the target's cover by one tier (Total [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") is unaffected). Your attack gains Dominance.
 
 ---
 
 ### Power Shot
 
-*Grand Master Mastery*
+*[Grand Master Mastery](../core/mastery-and-trials.md#mastery-levels)*
 
 You perform a full draw of your bow, throw with increased strength, or over-span your crossbow for a more impactful attack.
 

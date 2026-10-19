@@ -57,12 +57,12 @@ She is cursed. A creature born of chaos and devilry. Her powers are in the deep 
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Cursed, you can learn the following skills: *Alertness*, *Athletics*, *Trade (All)*, *Lore*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
+* As a Cursed, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 6 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a cursed, you can learn the 6 following forms: *Fire*, *Sea*, *Sky*, *Stone*, *Void*, and *Profane* magic.
+* As a cursed, you can learn the 6 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, *[Void](../../magic/index.md#void)*, and *[Profane](../../magic/index.md#profane)* magic.
 * You gain 1 Spell Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Weapon Mastery**. At first level, you begin with 1 Weapon Mastery point, which must be spent immediately on a Weapon Type or Combat Style. You may use this point to advance a Weapon Type or Combat Style to Untrained mastery, but no further at this level.
@@ -84,7 +84,7 @@ As a result, you may either choose one of the following curses or have one assig
 
 **Horrific.** You are hideous to look upon in ways that are impossible to hide. This malformation can manifest in a number of ways, but almost always includes a lack of symmetry in your appearance. Lumps, humps, tumors, misshapen limbs, warts, uneven facial features, inhuman or animalistic features, extra limbs, elongated digits, or other grotesque physical abnormalities.
 
-- As a horrific being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+- As a horrific being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
 - Choose one Athletics ability for free (does not cost Skill Mastery points). Describe how your malformation enables it. GM must approve the connection between the malformation and the chosen ability.
   - A Cursed with an enormous, bloated frame might gain **Healthy** (increased endurance from sheer mass).
   - A Cursed with elongated, double-jointed arms might gain **Nimble** (unnatural flexibility and reach).
@@ -93,7 +93,7 @@ As a result, you may either choose one of the following curses or have one assig
 **Insane.** You are touched with madness in ways that are impossible to ignore. Roll twice on the insanity chart, one must be below 50 and one must be above 50.
 
 - As an insane being, you are immune to Void damage and have Impotence on trials to resist Primal damage. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
-- You gain Dominance on trials against the Controlled and Charmed conditions.
+- You gain Dominance on trials against the [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") and [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") conditions.
 
 **Possessed.** You have the spark of a demon or devil inside of you. Your spark is revealed through your physical being, such as skin, hair, eyes, horns, a tail, or similar infernal marks. However, even if your physical being were not altered, your damned spirit can be sensed by anyone looking upon you or being near you. Your flesh is hot to the touch and an odor of brimstone and blood emanates from you.
 
@@ -124,21 +124,21 @@ After 1 week without rest, roll your Endurance tier die each day - on a 1, you f
 
 ### Priscan Magic
 
-You can cast priscan spells. You have a number of *Magan*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Perception Tier (maximum 14).
 
-**Training.** You must apprentice yourself to a cursed NPC of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master teaches you two spells and provides the objects to house them (see *Weird Magic*). When you first reach Basic mastery in any form, your master teaches you an additional spell. When you first reach Skilled mastery in any form, your master teaches you a final spell.
+**Training.** You must apprentice yourself to a cursed NPC of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master teaches you two spells and provides the objects to house them (see *[Weird Magic](#weird-magic)*). When you first reach Basic mastery in any form, your master teaches you an additional spell. When you first reach Skilled mastery in any form, your master teaches you a final spell.
 
-**Spell Acquisition.** You can also discover new spells at fonts of wild magic by listening to the winds of magic, feeling the deep magics of the earth, and tasting the wild magic of the waters. Binding a spell into an object takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Spell Acquisition.** You can also discover new spells at fonts of wild magic by listening to the winds of magic, feeling the deep magics of the earth, and tasting the wild magic of the waters. Binding a spell into an object takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 #### Weird Magic
 
 Your spells are housed in valuable objects: gems, bones, skulls, trinkets, jewelry, curiosities. Each object holds one spell and must be worth at least magan² ss. A 1-magan spell requires an object worth 1 ss; a 5-magan spell requires one worth 25 ss.
 
-As your knowledge grows, so too does your collection of magical trinkets. Your lapis lazuli stone with gold flecks might hold your *Freezing Touch* and your bejeweled shrunken head might hold your *Lightning Bolt*. It is for this reason that powerful cursed eventually settle down, as their magical repertoire has become so extensive that they can neither travel with it nor lay their hand on the correct trinket in a sack full of miscellaneous valuables.
+As your knowledge grows, so too does your collection of magical trinkets. Your lapis lazuli stone with gold flecks might hold your *Freezing Touch* and your bejeweled shrunken head might hold your *[Lightning Bolt](../../magic/spells/elemental/sky.md#lightning-bolt)*. It is for this reason that powerful cursed eventually settle down, as their magical repertoire has become so extensive that they can neither travel with it nor lay their hand on the correct trinket in a sack full of miscellaneous valuables.
 
 Some powerful cursed opt to inlay their magics into staves, wands, robes, and similar items about their person. Doing so is more convenient but dangerous: if lost or broken, centuries of knowledge can be lost. Only one such consolidated item can exist at a time, and it can hold 1 spell per level of the caster.
 
@@ -240,7 +240,7 @@ Active abilities always fire when commanded. The control trial determines who di
 
 - Cost: 1 AP
 - Range: 30 feet
-- Effect: Target rolls Wisdom trial vs Agathion DC or advances Charmed by 1 tier for rounds equal to Agathion tier. Once per turn, the target can spend 1 AP on a Wisdom trial against the Agathion DC to break free; on success, the hold drops by 1 tier. An Enthralled target cannot break free on its own.
+- Effect: Target rolls Wisdom trial vs Agathion DC or advances [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier for rounds equal to Agathion tier. Once per turn, the target can spend 1 AP on a Wisdom trial against the Agathion DC to break free; on success, the hold drops by 1 tier. An Enthralled target cannot break free on its own.
 - Successful control: Cursed chooses target
 - Failed control: Fae chooses target based on its personality
 

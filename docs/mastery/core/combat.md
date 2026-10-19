@@ -70,9 +70,9 @@ Initiative is determined by weapon speed rather than random rolls. All weapons f
 
 Your phase is set by what you declare this round, not by what you hold.
 
-**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See Magic Mastery, Spell Speed.
+**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), Spell Speed.
 
-**Weapon Switching**: Stowing a weapon costs 1 AP. Drawing a weapon costs 1 AP. A full weapon swap (stow old, draw new) costs 2 AP. Dropping a weapon is free, so dropping your current weapon and drawing a new one costs 1 AP, but your old weapon is on the ground. Phase determination for weapon switches is handled in the Declaration Phase (see Combat Flow, step 2).
+**Weapon Switching**: Stowing a weapon costs 1 AP. Drawing a weapon costs 1 AP. A full weapon swap (stow old, draw new) costs 2 AP. Dropping a weapon is free, so dropping your current weapon and drawing a new one costs 1 AP, but your old weapon is on the ground. Phase determination for weapon switches is handled in the Declaration Phase (see [Combat Flow](#combat-flow), step 2).
 
 **Shield Removal**: Removing a strapped shield (Heater, Kite) costs 1 AP. A Targe is held, not strapped, and can be dropped freely like any held item. Once a shield is removed on your turn, you are in your new combat style for the remainder of the round.
 
@@ -80,7 +80,7 @@ Your phase is set by what you declare this round, not by what you hold.
 
 ## Startle and Ambush
 
-At the start of combat, each creature that is unaware of an enemy, or unaware that combat is beginning, makes a Startle trial. A Startle trial combines how fast your body reacts with how fast your mind reacts: roll your Agility tier die and your Perception tier die. Unlike other sources of Impaired, a Startle trial is not resisted with a Perception trial alone.
+At the start of combat, each creature that is unaware of an enemy, or unaware that combat is beginning, makes a Startle trial. A Startle trial combines how fast your body reacts with how fast your mind reacts: roll your Agility tier die and your Perception tier die. Unlike other sources of [Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), a Startle trial is not resisted with a Perception trial alone.
 
 ### Startle
 
@@ -88,13 +88,13 @@ When both sides are unaware of each other, the DC is 6. The GM adjusts it for we
 
 ### Ambush
 
-An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See General Rules, Group Trials. A creature sets the DC as the Monster Manual describes.
+An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See [General Rules](exploration-and-travel.md), Group Trials. A creature sets the DC as the Monster Manual describes.
 
 A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A *Watchman*'s warning may do the same or give the party additional time, as the GM decides.
 
 ### Results
 
-- A failed Startle trial results in Tier 1 Impaired: *Dazed*.
+- A failed Startle trial results in Tier 1 [Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."): *Dazed*.
 - A failed Startle trial by 3 or 4 results in Tier 2 Impaired: *Stunned*.
 - A failed Startle trial by 5+ results in Tier 3 Impaired: *Paralyzed*.
 - A creature affected by the *Impaired* condition progresses to previous Tier at the start of each combat round until they are no longer afflicted.
@@ -139,7 +139,7 @@ Refers to a single unarmed or weapon attack.
 
 - **Melee**: attacks automatically hit, unless the target spends AP to defend.
 - **Ranged**: attacks require an *Aiming Trial* to hit.
-	- **Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and Cover and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
+	- **Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
 
 **Attack Formulas**:
 - *Melee/Thrown Attack*: STR or PHY Tier Die + WEA + Modifiers
@@ -151,7 +151,7 @@ Refers to a single unarmed or weapon attack.
 - Attacks always hit unless target chooses to defend.
 - If target chooses to defend, and defense roll is equal to or greater than incoming attack roll, defense succeeds.
 
-For weapon speeds, attack formulas, style modifiers, and maneuvers, see the Weapon Mastery chapter.
+For weapon speeds, attack formulas, style modifiers, and maneuvers, see the [Weapon Mastery](../weapons/index.md) chapter.
 
 ### Defense
 
@@ -184,11 +184,11 @@ A **reaction** to defend against an incoming attack. Costs 1 AP.
 
 **Movement Reaction**: You can spend 1 AP as a reaction to reposition on the battlefield or turn to face an approaching enemy. If you leave a creature's attack range, they can choose to make a reprisal attack against you.
 
-Skills, abilities, and spells can grant other reactions, such as Bolster, Pretermit, or a counter (see *Magic Mastery, Duels*).
+Skills, abilities, and spells can grant other reactions, such as Bolster, Pretermit, or a counter (see *[Magic Mastery, Duels](../magic/index.md#duels)*).
 
 ### Movement
 
-**Speed.** Your speed is 3 + your Agility tier, minus 1 if you are Small. Each point of speed is one 5-foot square of movement for each AP you spend moving. Creatures add bonuses for size and for running, flying, or swimming (see *Monster Manual*, *Speed*).
+**Speed.** Your speed is 3 + your Agility tier, minus 1 if you are Small. Each point of speed is one 5-foot square of movement for each AP you spend moving. Creatures add bonuses for size and for running, flying, or swimming (see *[Monster Manual](../bestiary/creature-rules.md)*, *[Speed](../bestiary/creature-rules.md#speed)*).
 
 A single movement up to the creature's movement speed. Costs 1 AP.
 
@@ -202,7 +202,7 @@ A single movement up to the creature's movement speed. Costs 1 AP.
 - **Rugged Terrain**: Mud, deep snow, sand, dense undergrowth, rubble, shallow water, thick brush.
 	- Moving through Rugged terrain costs double movement.
 - **Unstable Terrain**: Ice, slick stone, mossy surfaces, wet ship decks, loose scree, rain-slicked slopes.
-	- A creature moving through Unstable terrain must succeed on an Agility trial, as determined by the GM, or fall Prone.
+	- A creature moving through Unstable terrain must succeed on an Agility trial, as determined by the GM, or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
 - **Hazardous Terrain**: Fire, acid pools, caltrops, thorn thickets, boiling mud.
 	- A creature in Hazardous terrain takes 1 damage of the appropriate type. The damage may be triggered by entering or ending a turn in the terrain (e.g., fire) or movement (e.g., caltrops). Specific hazards may impose additional effects at the GM's discretion.
 - **Elevation**: A creature with elevation over its target gains Dominance on attack and defense rolls against that target. A creature attacking a target with elevation has Impotence on attack and defense rolls against that target.
@@ -221,8 +221,8 @@ An interaction is any use of an item or retrieval of an object. Getting an item 
 Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 
 - You must choose the spell you are casting at the start of the round to determine your initiative phase.
-- From the start of the round until your spell resolves, you are casting it. Defending, taking health damage, casting another spell, or choosing to stop can cost you the spell and its magan; see *Magic Mastery, Interrupted Casting*. Because AP are spent when the spell resolves, you can still defend while casting, though the spell is lost.
-- After the spell is cast, you can only cast another spell during the same round if the spell is a *reaction* and you have AP remaining. Only Fast spells (1-3 magan) can be cast as reactions, except counters, which are always reactions (see *Magic Mastery, Duels*). A reaction spell is triggered by circumstances rather than declared at the start of the round (e.g., a defensive ward against an incoming attack, a magical counterattack after a successful defense). See Magic Mastery for full details.
+- From the start of the round until your spell resolves, you are casting it. Defending, taking health damage, casting another spell, or choosing to stop can cost you the spell and its magan; see *[Magic Mastery, Interrupted Casting](../magic/index.md#interrupted-casting)*. Because AP are spent when the spell resolves, you can still defend while casting, though the spell is lost.
+- After the spell is cast, you can only cast another spell during the same round if the spell is a *reaction* and you have AP remaining. Only Fast spells (1-3 magan) can be cast as reactions, except counters, which are always reactions (see *[Magic Mastery, Duels](../magic/index.md#duels)*). A reaction spell is triggered by circumstances rather than declared at the start of the round (e.g., a defensive ward against an incoming attack, a magical counterattack after a successful defense). See [Magic Mastery](../magic/index.md) for full details.
 - If the spell requires material components and they are not in a Quick Item slot, you must retrieve them first: 2 AP from a container.
 - You can always cast a spell slower than the indicated casting speed without rolling a Miscast trial.
 - You can move, as an action or a reaction, without affecting the casting of a spell.
@@ -240,7 +240,7 @@ Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 | Mount, Direct | 1 | Action + Movement |
 | Mount or Dismount | 1 | Action + Movement |
 | Open / Close Door | 1 | Action + Interaction |
-| Prone, Fall | 1 | Action + Movement |
+| [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."), Fall | 1 | Action + Movement |
 | Prone, Stand from | 1 | Action + Movement |
 | Skill, Active | 1 | Action |
 | Skill, Use Lore | 0 | Free action |
@@ -272,7 +272,7 @@ Traumas are severe physical consequences: broken bones, collapsed lungs, interna
 
 **Trauma settings (optional).** The GM chooses how often Traumas occur. Each setting includes those above it.
 
-- **Realistic:** a Trauma occurs when a character takes health damage while at 0 health and fighting on (see *Fighting On*). This is the default rule.
+- **Realistic:** a Trauma occurs when a character takes health damage while at 0 health and fighting on (see *[Fighting On](#fighting-on)*). This is the default rule.
 - **Brutal:** as Realistic, and a character also suffers a Trauma on reaching 0 health (in addition to the Injury), and on rolling a natural minimum on a trial to resist damage.
 - **Deadly:** as Brutal, and whenever a character takes health damage from a hit whose dice explode, they make an Endurance trial (Straightforward, 4) or suffer a Trauma.
 
@@ -290,19 +290,19 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, Healer Discipline). 
 
 | d100 | Trauma | Tier | Mundane recovery |
 |:---:|:---|:---:|:---|
-| 1 | **Lose your left eye.** Penalty -1 on Perception trials that rely on sight and on ranged attack rolls. If you have no eyes left, you are Blinded. | Grievous | None |
+| 1 | **Lose your left eye.** Penalty -1 on Perception trials that rely on sight and on ranged attack rolls. If you have no eyes left, you are [Blinded](conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority."). | Grievous | None |
 | 2 | **Lose your right eye.** As left eye. | Grievous | None |
 | 3–5 | **Close Call!** No Trauma. |  |  |
 | 6 | **Lose your left hand.** You cannot hold anything with two hands, and you can hold only one object at a time. A hook or iron hand can lessen the effect. | Grievous | None |
 | 7 | **Lose your right hand.** As left hand. | Grievous | None |
 | 8–10 | **Close Call!** No Trauma. |  |  |
-| 11 | **Lose your left foot.** Movement halved, and you need a cane, crutch, or prosthesis to move. When you move more than once in a round, make a Physique trial (Straightforward, 4) or fall Prone. Penalty -2 on trials to keep your balance. After a year with a prosthesis, or after gaining 5 character levels, you move normally. | Grievous | None |
+| 11 | **Lose your left foot.** Movement halved, and you need a cane, crutch, or prosthesis to move. When you move more than once in a round, make a Physique trial (Straightforward, 4) or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Penalty -2 on trials to keep your balance. After a year with a prosthesis, or after gaining 5 character levels, you move normally. | Grievous | None |
 | 12 | **Lose your right foot.** As left foot. | Grievous | None |
 | 13–15 | **Close Call!** No Trauma. |  |  |
-| 16 | **Punctured Lung.** You have 1 AP per round. If both lungs are punctured, you are suffocating: advance Exhausted by 1 tier at the end of each of your turns. | Severe | Tend (Healer, T3) + 30 days' rest |
+| 16 | **Punctured Lung.** You have 1 AP per round. If both lungs are punctured, you are suffocating: advance [Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier at the end of each of your turns. | Severe | Tend (Healer, T3) + 30 days' rest |
 | 17–18 | **Lose a finger.** Penalty -1 on trials using fine tools with that hand (does not stack). Roll 1d10 from the left little finger to find which. If a hand loses all its fingers, treat it as a lost hand. | Grievous | None |
 | 19–20 | **Close Call!** No Trauma. |  |  |
-| 21 | **Lose your left ear.** Penalty -1 on Perception trials that rely on hearing. Bonus +1 on Presence (Intimidation) trials. If you have no ears left, you are Deafened. | Grievous | None |
+| 21 | **Lose your left ear.** Penalty -1 on Perception trials that rely on hearing. Bonus +1 on Presence (Intimidation) trials. If you have no ears left, you are [Deafened](conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."). | Grievous | None |
 | 22 | **Lose your right ear.** As left ear. | Grievous | None |
 | 23 | **Lose your nose.** Penalty -2 on Charisma trials and on Perception trials that rely on smell. Bonus +2 on Presence (Intimidation) trials. | Grievous | None |
 | 24–25 | **Close Call!** No Trauma. |  |  |
@@ -329,7 +329,7 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, Healer Discipline). 
 | 57–59 | **Right Shoulder Dislocated.** As left shoulder. | Minor | Reset (Healer, T2) + 3 days' rest |
 | 60–61 | **Close Call!** No Trauma. |  |  |
 | 62–64 | **Broken Ribs.** Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | 10 days' rest |
-| 65–66 | **Festering Wound.** The wound turns. Advance Infected by 1 tier (interval 24 hours; Endurance DC equal to the inflicting creature's ability DC, Division + 1; for other sources, the GM sets it, default Tricky 6). While the wound remains, a successful trial holds the condition instead of reducing it. While you are Diseased, your maximum health drops by 1 every 24 hours; at 0, you die. | Severe | Tend daily (Healer, T3), 10 successes |
+| 65–66 | **Festering Wound.** The wound turns. Advance [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier (interval 24 hours; Endurance DC equal to the inflicting creature's ability DC, Division + 1; for other sources, the GM sets it, default Tricky 6). While the wound remains, a successful trial holds the condition instead of reducing it. While you are Diseased, your maximum health drops by 1 every 24 hours; at 0, you die. | Severe | Tend daily (Healer, T3), 10 successes |
 | 67–70 | **Close Call!** No Trauma. |  |  |
 | 71–73 | **Open Wound.** You lose 1 health every hour until the bleeding is stopped (Healer, T2, one exploration round). | Minor | Stop the bleeding (Healer, T2) |
 | 74–76 | **Internal Injury.** Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | Tend daily (Healer, T3), 10 successes |
@@ -345,7 +345,7 @@ Reaching 0 Health
 
 #### When you reach 0 health:
 
-- You suffer an Injury (see *Conditions*).
+- You suffer an Injury (see *[Conditions](conditions.md)*).
 - Your dying timer begins. You have a number of rounds equal to your Endurance tier before you die.
 - Roll an Endurance trial against the health damage that reduced you to 0. Only the damage dealt to health counts toward this DC, not damage absorbed by armor resistance or durability. On a success, you may choose to remain conscious and continue fighting. On a failure, you fall unconscious.
 

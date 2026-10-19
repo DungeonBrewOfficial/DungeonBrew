@@ -166,7 +166,7 @@ Shields can provide a minor bonus to a character's Defense and are required to d
 
 **Kite Shield**. A kite shield is a large, tear-drop shield that protects a combatant from shoulder to knee. Its size makes it effective at absorbing sustained punishment, though it is heavier and less nimble than a heater. The kite is a strapped shield.
 
-**Pavise Shield**. A pavise is a large, heavy shield that is carried by handles and planted on the ground to provide cover. It costs 1 AP to place and 1 AP to pick up. Once planted, the pavise provides cover in a cone from its facing (see Cover). It is not used in melee. Ranged attacks that miss due to cover provided by the pavise deal their damage to the pavise instead, applied against its mundane resistance. A pavise is deployed, not wielded. It does not count as a shield for class restrictions or the Weapon and Shield style.
+**Pavise Shield**. A pavise is a large, heavy shield that is carried by handles and planted on the ground to provide cover. It costs 1 AP to place and 1 AP to pick up. Once planted, the pavise provides cover in a cone from its facing (see [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.")). It is not used in melee. Ranged attacks that miss due to cover provided by the pavise deal their damage to the pavise instead, applied against its mundane resistance. A pavise is deployed, not wielded. It does not count as a shield for class restrictions or the Weapon and Shield style.
 
 **Targe Shield**. A targe is a light, small shield. They are cheap and easily replaceable. The targe is a held shield and can be dropped freely.
 

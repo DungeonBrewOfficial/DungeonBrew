@@ -38,7 +38,7 @@ Each character receives the full experience. Thoroughly exploring a large dungeo
 
 ## Time
 
-Time is tracked as indicated below. Every activity that you undertake, takes time. Time in combat is detailed in the *Combat* chapter and is here for reference when undertaking various actions while exploring. Spell durations use the narrative units below; spells lasting only a round or an encounter will usually expire while you are exploring.
+Time is tracked as indicated below. Every activity that you undertake, takes time. Time in combat is detailed in the *[Combat](combat.md)* chapter and is here for reference when undertaking various actions while exploring. Spell durations use the narrative units below; spells lasting only a round or an encounter will usually expire while you are exploring.
 
 You should keep these actions in mind when traveling so that you are spending your time wisely. However, rushing can result in a loss of valuable experience that can be won from thoroughly seeing what a location has to offer.
 
@@ -67,7 +67,7 @@ Some effects last for a stretch of the story instead of a count of rounds. The G
 
 ## Light and Visibility
 
-Light and anything thick in the air limit how well you can see, using the Concealed condition: a creature you can make out only as a shape is Concealed (Tier 1), one you can place only by direction is Tier 2, and one you cannot find at all is Tier 3. Light and haze never conceal a creature within 5 feet of you, except in absolute darkness.
+Light and anything thick in the air limit how well you can see, using the [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") condition: a creature you can make out only as a shape is Concealed (Tier 1), one you can place only by direction is Tier 2, and one you cannot find at all is Tier 3. Light and haze never conceal a creature within 5 feet of you, except in absolute darkness.
 
 **Light.** What matters is the light on the creature you are looking at, not the light around you.
 
@@ -91,13 +91,13 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 * Each member of the party should choose one role while exploring an area.
 * More than one member of the party can serve in each role.
 * It is possible to have roles assigned, make trials, and then switch roles. However, a new series of trials means that another *Exploration Round* has passed, as applicable.
-* Active Roles (A), such as the *Investigator* and *Smith* are completely occupied for the duration, and have a -4 to *Startle* trials if the *Watchman* or *Scout* does not forewarn them of danger.
+* Active Roles (A), such as the *Investigator* and *Smith* are completely occupied for the duration, and have a -4 to *[Startle](combat.md#startle)* trials if the *Watchman* or *Scout* does not forewarn them of danger.
 
 ### Healer (A)
 
 * You tend to your allies' wounds and conditions.
-* *Trade Healer* to treat one ally's wounds per the Healer discipline.
-* *Trade Healer* to treat Tainted or Infected conditions using healing supplies.
+* *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat one ally's wounds per the Healer discipline.
+* *Trade Healer* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
 
 ### Helper (A)
 
@@ -111,62 +111,62 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 ### Investigator (A)
 
 * You search the area for hidden features, hazards, and items of interest.
-* *Alertness (Danger Sense)* to locate traps and environmental hazards.
+* *[Alertness (Danger Sense)](../skills/alertness.md)* to locate traps and environmental hazards.
 * *Alertness (Secret Doors)* to find hidden passages, concealed compartments, and secret mechanisms.
-* *Thievery (Breaching)* to disable or disarm located traps and locks.
-* *Lore (Stone Lore)* to identify features, anomalies, or hazards in worked or unworked stone.
-* *Lore (applicable discipline)* to identify features relevant to the area.
+* *[Thievery (Breaching)](../skills/thievery.md#breaching)* to disable or disarm located traps and locks.
+* *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify features, anomalies, or hazards in worked or unworked stone.
+* *[Lore (applicable discipline)](../skills/lore.md)* to identify features relevant to the area.
 
 ### Sage (A)
 
 * You examine recovered items to identify their properties and assess their value.
-* *Lore (Artifact Lore)* to identify magical items.
-* *Lore (Curse Lore)* to identify possibly cursed items.
-* *Lore (Stone Lore)* to appraise gems, stonework, and mineral materials.
-* *Lore (applicable Knowledge Lore)* to appraise items within your area of expertise.
-* *Trade Alchemist* to identify potions and alchemical substances.
-* *Trade (Scribe)* to identify scrolls.
+* *[Lore (Artifact Lore)](../skills/lore.md#artifact-lore)* to identify magical items.
+* *[Lore (Curse Lore)](../skills/lore.md#curse-lore)* to identify possibly cursed items.
+* *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to appraise gems, stonework, and mineral materials.
+* *[Lore (applicable Knowledge Lore)](../skills/lore.md)* to appraise items within your area of expertise.
+* *[Trade Alchemist](../skills/trade/index.md#alchemist-discipline)* to identify potions and alchemical substances.
+* *[Trade (Scribe)](../skills/trade/index.md#scribe-discipline)* to identify scrolls.
 
 ### Scout (A)
 
 * You range ahead of the party to identify threats and survey the surroundings.
-* *Perception* trials to spot ambushes. If your *Alertness (Danger Sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
 * *Alertness (Danger Sense)* to identify possible traps and hazards.
 * *Alertness (Stalking)* to find and follow signs of passage.
-* *Wilderness (Beast Lore)* or *Lore (applicable Creature Lore)* to identify what left them.
-* *Lore (Stone Lore)* to identify direction and location underground.
+* *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* or *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify what left them.
+* *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify direction and location underground.
 
 ### Smith (A)
 
 * You tend to weapons and armor for repair. Each item may take more than 1 *Exploration Round*.
-* *Trade Blacksmith* to repair armor durability.
+* *[Trade Blacksmith](../skills/trade/index.md#blacksmith-discipline)* to repair armor durability.
 * *Trade Blacksmith* to repair weapon durability.
 
 ### Throatcutter (A)
 
 * You ensure downed enemies are dispatched and search remains for useful materials.
-* *Alertness (Treasure Sense)* to locate valuables concealed on or within remains.
-* *Lore (applicable Creature Lore)* to harvest valuable creature parts.
-* *Trade Alchemist* to collect alchemical components from creatures.
+* *[Alertness (Treasure Sense)](../skills/alertness.md)* to locate valuables concealed on or within remains.
+* *[Lore (applicable Creature Lore)](../skills/lore.md)* to harvest valuable creature parts.
+* *[Trade Alchemist](../skills/trade/index.md#alchemist-discipline)* to collect alchemical components from creatures.
 
 ### Watchman
 
 * You keep watch for threats while the party works.
-* *Perception* trials to detect approaching creatures and ambushes. If your *Alertness (Danger Sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *Lore (applicable Creature Lore)* to identify detected threats.
+* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 
 ## Traveling Roles
 
 A traveling day takes 8 hours.
 * Each member of the party should choose one role during the course of travel.
-* Active Roles (A) are fully occupied with their task and have a -4 to *Startle* trials if not forewarned by the *Watchman* or *Scout*.
-* Active Roles also advance *Exhausted* by 1 tier if they engage in similar activities while camping.
+* Active Roles (A) are fully occupied with their task and have a -4 to *[Startle](combat.md#startle)* trials if not forewarned by the *Watchman* or *Scout*.
+* Active Roles also advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier if they engage in similar activities while camping.
 
 ### Healer (A)
 
 * You tend to wounded or ailing allies on the march.
-* *Trade Healer* to treat one ally's wounds per the Healer discipline.
-* *Trade Healer* to treat Tainted or Infected conditions using healing supplies.
+* *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat one ally's wounds per the Healer discipline.
+* *Trade Healer* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
 
 ### Helper (A)
 
@@ -180,82 +180,82 @@ A traveling day takes 8 hours.
 ### Hunter / Forager (A)
 
 * You travel parallel to the party, looking for food and identifying possible threats.
-* *Wilderness (Hunting and Foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
-* *Wilderness (Hunting and Foraging)* to locate game in the region, and *Wilderness (Beast Lore)* to identify it.
-* *Lore (applicable Creature Lore)* to identify non-beast creatures in the region.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
+* *Wilderness (Hunting and Foraging)* to locate game in the region, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
+* *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify non-beast creatures in the region.
 
 ### Navigator
 
 * You keep tabs on direction and location to ensure the party is moving where they intended.
-* *Wilderness (Orienteering)* to identify direction, location, and safe routes above ground.
-* *Wilderness (Weather Sense)* to predict weather and plan travel accordingly.
-* *Lore (Stone Lore)* to identify direction and location underground.
+* *[Wilderness (Orienteering)](../skills/wilderness/index.md#orienteering)* to identify direction, location, and safe routes above ground.
+* *[Wilderness (Weather Sense)](../skills/wilderness/index.md#weather-sense)* to predict weather and plan travel accordingly.
+* *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify direction and location underground.
 
 ### Sage (A)
 
 * You use travel time for study, research, or identification.
-* *Lore (applicable discipline)* to research or study.
-* *Trade (Scribe)* to identify scrolls or transcribe spells.
-* *Trade (applicable discipline)* to work on crafting that can be done by hand while traveling, or to identify collected materials.
+* *[Lore (applicable discipline)](../skills/lore.md)* to research or study.
+* *[Trade (Scribe)](../skills/trade/index.md#scribe-discipline)* to identify scrolls or transcribe spells.
+* *[Trade (applicable discipline)](../skills/trade/index.md)* to work on crafting that can be done by hand while traveling, or to identify collected materials.
 
 ### Scout (A)
 
 * You range ahead of the party to identify threats and survey the route.
-* *Perception* trials to spot ambushes. If your *Alertness (Danger Sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
 * *Alertness (Danger Sense)* to identify possible traps and hazardous terrain.
 * *Alertness (Stalking)* to find and follow signs of passage.
-* *Wilderness (Orienteering)* to navigate while ranging and assess terrain ahead.
-* *Wilderness (Weather Sense)* to read weather conditions on the route ahead.
-* *Wilderness (Beast Lore)* or *Lore (applicable Creature Lore)* to identify what left them.
+* *[Wilderness (Orienteering)](../skills/wilderness/index.md#orienteering)* to navigate while ranging and assess terrain ahead.
+* *[Wilderness (Weather Sense)](../skills/wilderness/index.md#weather-sense)* to read weather conditions on the route ahead.
+* *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* or *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify what left them.
 
 ### Teamster (A)
 
 * You manage pack animals, donkeys, wagons, and cargo through the day's terrain.
-* *Wilderness (Riding)* to handle draft and pack animals.
-* *Wilderness (Beast Lore)* to tend to animal health and behavior on the march.
+* *[Wilderness (Riding)](../skills/wilderness/index.md#riding)* to handle draft and pack animals.
+* *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to tend to animal health and behavior on the march.
 
 ### Watchman
 
 * You keep watch for threats while the party travels.
-* *Perception* trials to detect approaching creatures and ambushes. If your *Alertness (Danger Sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *Lore (applicable Creature Lore)* to identify detected threats.
+* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 
 ## Camping Roles
 
 Camping is broken into Resting and Activities. 8 hours are spent resting and 8 hours are spent in activities. Each character can engage in 1 camping role per evening and the effects do not stack.
 * Each member of the party should choose one role while camping.
 * More than one member of the party can serve in each role.
-* Active Roles (A) are fully occupied with their task and have a -4 to *Startle* trials if not forewarned by the *Watchman*.
+* Active Roles (A) are fully occupied with their task and have a -4 to *[Startle](combat.md#startle)* trials if not forewarned by the *Watchman*.
 
 ### Animal Handler
 
 * You tend to the party's animals for the evening.
-* *Wilderness (Beast Lore)* to care for, feed, water, and tend to companion and pack animals.
+* *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to care for, feed, water, and tend to companion and pack animals.
 
 ### Camp Camouflage (A)
 
 * You conceal the camp from detection.
-* *Wilderness (Orienteering)* to identify a concealed and defensible camping location.
-* *Stealth (Sneaking)* to camouflage the camp. Those searching for it roll a Perception trial against your Stealth Mastery DC. The GM adjusts any trials against the DC or DC itself for how much there is to hide, such as a large party, horses, or wagons.
+* *[Wilderness (Orienteering)](../skills/wilderness/index.md#orienteering)* to identify a concealed and defensible camping location.
+* *[Stealth (Sneaking)](../skills/stealth.md)* to camouflage the camp. Those searching for it roll a Perception trial against your Stealth Mastery DC. The GM adjusts any trials against the DC or DC itself for how much there is to hide, such as a large party, horses, or wagons.
 
 ### Camp Manager (A)
 
 * You organize the camp for defense and efficiency.
-* *Tactics* to arrange camp members and positions for optimal response to threats.
-* Grants a +2 bonus to *Startle* trials for camp members in case of attack.
-* *Tactics (Poliorcetics)* to fortify the camp with stakes, ditches, or a ring of wagons, against a DC the GM sets. On a success, camp members have Partial Cover against attacks from outside the camp.
+* *[Tactics](../skills/tactics.md)* to arrange camp members and positions for optimal response to threats.
+* Grants a +2 bonus to *[Startle](combat.md#startle)* trials for camp members in case of attack.
+* *Tactics (Poliorcetics)* to fortify the camp with stakes, ditches, or a ring of wagons, against a DC the GM sets. On a success, camp members have Partial [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") against attacks from outside the camp.
 
 ### Cooking
 
 * You prepare meals for the camp.
-* *Wilderness (Hunting and Foraging)* to safely prepare wild flora and fauna that could cause illness if handled incorrectly. If traditional fare, no skill is required.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to safely prepare wild flora and fauna that could cause illness if handled incorrectly. If traditional fare, no skill is required.
 * A hot meal prepared by a cook grants Endurance tier bonus to health recovery and casting tier bonus to magan recovery during the next rest, but the smell can attract attention.
 
 ### Healer (A)
 
 * You tend to wounded or ailing allies during camp.
-* *Trade Healer* to treat allies' wounds per the Healer discipline.
-* *Trade Healer* to treat Tainted or Infected conditions using healing supplies.
+* *[Trade Healer](../skills/trade/index.md#healer-discipline)* to treat allies' wounds per the Healer discipline.
+* *Trade Healer* to treat [Tainted](conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") or [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions using healing supplies.
 
 ### Helper (A)
 
@@ -269,9 +269,9 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 ### Hunter / Forager (A)
 
 * You leave the camp in search of food and to survey the nearby area.
-* *Wilderness (Hunting and Foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
-* *Wilderness (Hunting and Foraging)* to locate game near the camp, and *Wilderness (Beast Lore)* to identify it.
-* *Lore (applicable Creature Lore)* to identify non-beast creatures near the camp.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
+* *Wilderness (Hunting and Foraging)* to locate game near the camp, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
+* *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify non-beast creatures near the camp.
 
 ### Rest
 
@@ -280,36 +280,36 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 ### Sage (A)
 
 * You examine recovered items, study, or conduct research.
-* *Lore (Artifact Lore)* to identify magical items.
-* *Lore (Curse Lore)* to identify possibly cursed items.
-* *Lore (applicable Knowledge Lore)* to appraise items within your area of expertise.
-* *Trade Alchemist* to identify potions and alchemical substances.
-* *Trade Alchemist* to advance a field-kit preparation by one day (see *Alchemy*).
-* *Trade (Scribe)* to identify scrolls or transcribe spells.
+* *[Lore (Artifact Lore)](../skills/lore.md#artifact-lore)* to identify magical items.
+* *[Lore (Curse Lore)](../skills/lore.md#curse-lore)* to identify possibly cursed items.
+* *[Lore (applicable Knowledge Lore)](../skills/lore.md)* to appraise items within your area of expertise.
+* *[Trade Alchemist](../skills/trade/index.md#alchemist-discipline)* to identify potions and alchemical substances.
+* *Trade Alchemist* to advance a field-kit preparation by one day (see *[Alchemy](../skills/trade/alchemy/index.md)*).
+* *[Trade (Scribe)](../skills/trade/index.md#scribe-discipline)* to identify scrolls or transcribe spells.
 
 ### Set Snare (A)
 
 * You set traps to protect the camp perimeter.
-* *Thievery (Set Trap)* to protect one side (up to 25%) of the camp from intruders. Larger camps may only benefit from a smaller section as determined by the GM.
+* *[Thievery (Set Trap)](../skills/thievery.md#set-trap)* to protect one side (up to 25%) of the camp from intruders. Larger camps may only benefit from a smaller section as determined by the GM.
 
 ### Smith (A)
 
 * You tend to weapons and armor for repair.
-* *Trade Blacksmith* to repair armor durability.
+* *[Trade Blacksmith](../skills/trade/index.md#blacksmith-discipline)* to repair armor durability.
 * *Trade Blacksmith* to repair weapon durability.
 
 ### Watchman
 
 * You keep watch for threats during the night.
-* *Perception* trials to detect approaching creatures and ambushes. If your *Alertness (Danger Sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *Lore (applicable Creature Lore)* to identify detected threats.
+* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 * Watchmen are necessary throughout the night every 1-2 hours, without which there is no warning in case of an encounter.
 
 ## Resting
 
 Resting is necessary to regain health, recover magan, and regain other class abilities. Resting always assumes between 6-8 hours of sleep.
 
-* **Dungeon Rest**. After 8 hours of rest, you regain 1 health and 1 magan. You must have at least 1 health to regain 1 health. Dungeon Rest does not reduce *Exhausted*.
+* **Dungeon Rest**. After 8 hours of rest, you regain 1 health and 1 magan. You must have at least 1 health to regain 1 health. Dungeon Rest does not reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")*.
 * **Wilderness Rest**. If you are in danger, this rest is treated as *Dungeon Rest*. If you are safe and secure, you regain 1d3 health and magan. Reduce *Exhausted* by 1 tier, but not below T1. Gnomes, Druids, Elves, Orcs, and Rangers treat a safe *Wilderness Rest* as a *Good Night's Rest*.
 * **Good Night's Rest**. After 8 hours of rest in a tavern, inn, or dwelling with no danger, you regain your Endurance tier die to health and casting tier die to magan. Reduce *Exhausted* by 1 tier.
 * **Civilized Rest**. After 24 hours in a town or city with no possibility of danger. You regain your Endurance tier die x2 to health and casting tier die x2 to magan. You are able to perform normal daily activities, such as moving about the location to shop, interact, or otherwise engage in seeing the sights. Strenuous activities, including repairing gear, training with weapons, and learning spells are not possible while benefiting from a *Civilized Rest*. Reduce *Exhausted* by 2 tiers.
@@ -364,7 +364,7 @@ The more quickly you try to move, the more you can exhaust yourselves, burn thro
 
 **Travel trials** are the mastery trials you make for a Traveling Role while on the move. Attribute trials, including *Pushing the Pace*, are not travel trials.
 
-**Pushing the Pace.** At the end of a day in which you traveled faster than Normal pace or longer than 8 hours, make an Endurance attribute trial. The DC is 2, +1 for each hour at Fast pace, +2 for each hour at Marathon pace, and +1 for each hour beyond 8. These add together. On a failure, advance *Exhausted* by 1 tier, or by 2 tiers if any of the day was at Marathon pace.
+**Pushing the Pace.** At the end of a day in which you traveled faster than Normal pace or longer than 8 hours, make an Endurance attribute trial. The DC is 2, +1 for each hour at Fast pace, +2 for each hour at Marathon pace, and +1 for each hour beyond 8. These add together. On a failure, advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier, or by 2 tiers if any of the day was at Marathon pace.
 
 **Working on the road.** Work you can do in your hands while riding in a wagon or walking at a steady pace is possible while traveling: preparing bandages, identifying items, studying, or small crafting. Work that needs a workshop, an anvil, or a fixed place to work, such as repairing armor or forging, waits until you stop. The GM decides where a task falls.
 
@@ -393,7 +393,7 @@ Movement speeds vary based on species, encumbrance, and other factors, such as w
 
 **Travel Round.** An hour at a walk, with periods of slowing to avoid over-exertion. You can keep this pace for several hours, but you need rest over the course of a day.
 
-**Day.** Eight hours at a walk, including breaks for water, food, and relieving yourself. Traveling more than 8 hours risks *Exhausted* (see *Pushing the Pace*).
+**Day.** Eight hours at a walk, including breaks for water, food, and relieving yourself. Traveling more than 8 hours risks *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* (see *Pushing the Pace*).
 
 The travel pace table multiplies the Day distance.
 

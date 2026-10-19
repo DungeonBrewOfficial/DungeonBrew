@@ -80,7 +80,7 @@ You surround yourself with a churning shell of grit and stone fragments for the 
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | Restricted T1 |
+| **Components** | F, S, V | **Condition** | [Restricted](../../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") T1 |
 | **Resistance** | Strength | | |
 
 **Cost:** (1 + 1 + 0) × 3 × 1 = 6.
@@ -151,7 +151,7 @@ You touch a damaged stone or metal object and restore it toward its native state
 | **Components** | F, S, V | **Effect** | Restore Trauma (bone, teeth) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *Magic Mastery, Restoring Traumas*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and draw its broken bone back toward what it was. One Trauma of Stone's domain is restored: a broken limb, ribs, sternum, skull, or spine, or lost teeth. The restoration is permanent.
 

@@ -57,8 +57,8 @@ She is a fighter. A human tactician that understands the ways of battle better t
 
 **Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Fighter, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Lore*, *Presence*, *Stealth*, *Thievery*, and *Wilderness* skills.
-* You learn *Tactics* as part of the *Art of War* class ability for free.
+* As a Fighter, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Tactics](../../skills/tactics.md)* as part of the *[Art of War](#art-of-war)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
 **Spell Mastery**. This class does not have access to magic.
@@ -75,13 +75,13 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
 
 ### Art of War
 
 *Level 1*
 
-**Tactician:** You automatically advance in the *Tactics* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+**Tactician:** You automatically advance in the *[Tactics](../../skills/tactics.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 **Quick Draw:** When you make an attack or defense action, you can draw one weapon or stow one weapon as part of that action without spending additional AP. You cannot both draw and stow as part of the same action. Attacks made with a weapon drawn this round have Inferiority.
 

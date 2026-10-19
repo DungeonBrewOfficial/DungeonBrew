@@ -8,7 +8,7 @@ The capacity to work magic is rare, and even in those in whom it manifests, diff
 
 ## Spells
 
-A spell is a specific combination of a *form* and a *command* that produces a magical outcome. The form is the sphere of influence (fire, stone, void) and the command is the direction given within that sphere (to destroy, to protect, to transform). Beyond form and command, a spell's power is shaped by its reach, scale, duration, and conditions, all of which determine its cost in *magan*. Extending a spell beyond what the caster has practiced invites a *miscast* chance that can produce dangerous and unpredictable effects.
+A spell is a specific combination of a *form* and a *command* that produces a magical outcome. The form is the sphere of influence (fire, stone, void) and the command is the direction given within that sphere (to destroy, to protect, to transform). Beyond form and command, a spell's power is shaped by its reach, scale, duration, and conditions, all of which determine its cost in *[magan](#magan)*. Extending a spell beyond what the caster has practiced invites a *[miscast](#miscast)* chance that can produce dangerous and unpredictable effects.
 
 A spell in Mastery is a specific configuration of form, command, and parameters. Obliterate Fire at close range, single target, instantaneous is one spell. Obliterate Fire at distant range, large area, instantaneous is a different spell. Both use the same form and command, but they are distinct spells with different magan costs and different levels of familiarity.
 
@@ -56,7 +56,7 @@ If the variation's magan exceeds your Form DC, make a trial at the midpoint of t
 
 Occult magic is the magic of understanding, the practice of uncovering the hidden structure of reality in order to manipulate its facets and produce desired outcomes. Occult magic is derivative by nature, studying and systematizing the principles that underlie all other sources of magic. Occult casters pursue magic through study and intellectual rigor.
 
-A practitioner of occult magic uses the Intelligence attribute to cast spells. To discover new spells, the caster studies occult writings and teachings: tomes, runic inscriptions, carved tablets, found grimoires, or the instruction of other practitioners. These teach principles rather than finished spells. The GM names the forms they cover, and each form is studied as its own source (see *Discovery*). Scrolls are the exception: a scroll holds one fixed spell and is learned by casting it, which consumes the scroll (see *Skill Mastery, Scribe: Reading Scrolls*). The caster transcribes each spell into their grimoire using the Scribe discipline. See *Codex* in the Equipment chapter for grimoire specifications.
+A practitioner of occult magic uses the Intelligence attribute to cast spells. To discover new spells, the caster studies occult writings and teachings: tomes, runic inscriptions, carved tablets, found grimoires, or the instruction of other practitioners. These teach principles rather than finished spells. The GM names the forms they cover, and each form is studied as its own source (see *[Discovery](#discovery)*). Scrolls are the exception: a scroll holds one fixed spell and is learned by casting it, which consumes the scroll (see *[Skill Mastery, Scribe: Reading Scrolls](../skills/index.md)*). The caster transcribes each spell into their grimoire using the Scribe discipline. See *Codex* in the Equipment chapter for grimoire specifications.
 
 ### Priscan Magic
 
@@ -102,13 +102,13 @@ A practitioner's magan pool is determined by their maximum mastery potential. Ea
 
 ### Magan Recovery
 
-Magan is recovered through rest and sustenance; see *General Rules, Resting*.
+Magan is recovered through rest and sustenance; see *[General Rules, Resting](../core/exploration-and-travel.md#resting)*.
 
 ---
 
 ## Forms
 
-Every spell draws on a *form*, the sphere of influence that the spell commands. There are eight forms, divided into two categories. The four *elemental forms* represent the physical building blocks of the world. The four *entropic forms* represent the conceptual and spiritual domains.
+Every spell draws on a *form*, the sphere of influence that the spell commands. There are eight forms, divided into two categories. The four *[elemental forms](#elemental-forms)* represent the physical building blocks of the world. The four *[entropic forms](#entropic-forms)* represent the conceptual and spiritual domains.
 
 All casters have access to the four elemental forms. Access to the entropic forms is determined by class.
 
@@ -203,7 +203,7 @@ The form of void is the magic of the space between what *is* and what is *percei
 | **Elemental** | Fire, Sky | Sea, Stone |
 | **Entropic** | Sacred, Void | Primal, Profane |
 
-Energy forms produce force. Material forms produce physical substance. This classification determines how spells interact with armor (see Damage) and how barriers interact with weapons (see Barriers).
+Energy forms produce force. Material forms produce physical substance. This classification determines how spells interact with armor (see [Damage](#damage)) and how barriers interact with weapons (see [Barriers](#barriers)).
 
 ### Class Form Access
 
@@ -229,7 +229,7 @@ All casters have access to the four elemental forms: Fire, Sea, Sky, and Stone. 
 
 ## Commands
 
-The command is the direction given to the magic, the action that the spell takes within the chosen form. A command to destroy (*obliterate*) produces a fundamentally different outcome than a command to transform (*transmute*), even within the same form. Understanding the commands allows a practitioner to find creative applications for their magic beyond the obvious. There are eight commands.
+The command is the direction given to the magic, the action that the spell takes within the chosen form. A command to destroy (*[obliterate](#obliterate)*) produces a fundamentally different outcome than a command to transform (*[transmute](#transmute)*), even within the same form. Understanding the commands allows a practitioner to find creative applications for their magic beyond the obvious. There are eight commands.
 
 The command and form matrix is a reasoning framework, not a lookup table. Some combinations are intuitive (*obliterate fire* burns, *transmute stone* reshapes metal), while others are esoteric or narrow. The system provides the tools to reason about any combination; it does not prescribe every possible outcome. Different practitioners will find different solutions to the same problem depending on which forms and commands they bring to the table.
 
@@ -237,25 +237,25 @@ The command and form matrix is a reasoning framework, not a lookup table. Some c
 
 To divine is to discover. When you cast a divine spell, you seek to acquire information about your surroundings, a creature, an object, or a distant location. Divination reveals what is concealed or unknown.
 
-A practitioner might divine the location of a hidden creature, identify the nature of an enchantment on a locked door, or scry on a distant enemy encampment. Detection is always scoped to the forms the caster knows, and broad detection requires multiple forms and multiple casts. You might use *divine* with *void* to detect consciousness, *divine* with *fire* to sense heat and active fire magic, or *divine* with *stone* to assess the structural integrity of a wall.
+A practitioner might divine the location of a hidden creature, identify the nature of an enchantment on a locked door, or scry on a distant enemy encampment. Detection is always scoped to the forms the caster knows, and broad detection requires multiple forms and multiple casts. You might use *divine* with *[void](#void)* to detect consciousness, *divine* with *[fire](#fire)* to sense heat and active fire magic, or *divine* with *[stone](#stone)* to assess the structural integrity of a wall.
 
 #### Enchant
 
 To enchant is to fix a spell upon a target. When you cast an enchant spell, you are binding a magical effect to a creature, object, or area. An enchantment and a curse are the same magical operation, differing only in intent.
 
-Enchantment encompasses the full spectrum of imposed conditions. A fire enchantment may ignite a creature, a stone enchantment may burden or petrify, and a void enchantment may alter emotions, befriend, terrify, or subjugate. Physical conditions such as Attrition (Burning), Restricted, or Fortified affect the target's body and can be applied to any creature regardless of its nature. Charmed and Controlled reach through the form to touch the target's volition, requiring a connection between the form and the creature's classification (see *Exorcise: Connected Form*). Charmed alters the creature's attitude toward the caster but leaves its agency intact; the creature still acts on its own abilities and judgment. Controlled suppresses the creature's agency entirely, making it a puppet the caster directs. Enchantment also governs the binding of permanent magical effects to objects and the temporary enchantment of weapons in combat. See *Enchant* below for item enchantment mechanics.
+Enchantment encompasses the full spectrum of imposed conditions. A fire enchantment may ignite a creature, a stone enchantment may burden or petrify, and a void enchantment may alter emotions, befriend, terrify, or subjugate. Physical conditions such as [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning), [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), or [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") affect the target's body and can be applied to any creature regardless of its nature. [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") reach through the form to touch the target's volition, requiring a connection between the form and the creature's classification (see *Exorcise: Connected Form*). Charmed alters the creature's attitude toward the caster but leaves its agency intact; the creature still acts on its own abilities and judgment. Controlled suppresses the creature's agency entirely, making it a puppet the caster directs. Enchantment also governs the binding of permanent magical effects to objects and the temporary enchantment of weapons in combat. See *Enchant* below for item enchantment mechanics.
 
 #### Evoke
 
 To evoke is to summon. When you cast an evoke spell, you are relocating existing substance from one place to another. The summoned material genuinely leaves its point of origin.
 
-The form determines what you can summon. A fire practitioner draws heat and flame from existing sources. A stone practitioner pulls earth and metal from the ground. A sea practitioner draws water from nearby bodies. A sky practitioner draws wind and air from the surrounding atmosphere. A void practitioner relocates consciousness: memories, thoughts, and sensory experience. A sacred practitioner draws life energy from holy sites or living creatures. A primal practitioner draws living matter from natural growth. A profane practitioner draws dead matter from remains and decay. You might use *evoke* with *fire* to draw warmth from a distant forge into your frozen hands, *evoke* with *stone* to pull a wall of rock up from the earth beneath you, or *evoke* with *void* to extract a memory from a creature's mind.
+The form determines what you can summon. A fire practitioner draws heat and flame from existing sources. A stone practitioner pulls earth and metal from the ground. A sea practitioner draws water from nearby bodies. A sky practitioner draws wind and air from the surrounding atmosphere. A void practitioner relocates consciousness: memories, thoughts, and sensory experience. A sacred practitioner draws life energy from holy sites or living creatures. A primal practitioner draws living matter from natural growth. A profane practitioner draws dead matter from remains and decay. You might use *evoke* with *[fire](#fire)* to draw warmth from a distant forge into your frozen hands, *evoke* with *[stone](#stone)* to pull a wall of rock up from the earth beneath you, or *evoke* with *[void](#void)* to extract a memory from a creature's mind.
 
 #### Exorcise
 
 To exorcise is to compel a being across a boundary, to invoke or to banish. Exorcism targets creatures with will, compelling them from one state or location to another. Beings with will can resist the compulsion.
 
-A practitioner may invoke a spirit, calling it forth from beyond a boundary, or banish one, driving it away. The form determines which beings the practitioner can compel, following the same connections that govern Charmed and Controlled (see *Exorcise: Connected Form*). See *Exorcise* below for full mechanics.
+A practitioner may invoke a spirit, calling it forth from beyond a boundary, or banish one, driving it away. The form determines which beings the practitioner can compel, following the same connections that govern [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") (see *Exorcise: Connected Form*). See *Exorcise* below for full mechanics.
 
 #### Formulate
 
@@ -281,7 +281,7 @@ Preservation manifests as barriers, wards, durability pools, or resistances depe
 
 To transmute is to transform. When you cast a transmute spell, you are reshaping, altering, or converting existing material within the form's domain, or morphing one creature's form into another. Transmutation can restore damage, but it cannot undo aging or decay. Restoring a wounded body or a broken blade undoes what was done to the thing; the change persists because the thing returns to what it was. Reshaping, converting, or morphing imposes something foreign; the change reverts when the spell ends because the material resists being what it is not. Aging, erosion, and natural decay are not damage; transmutation cannot undo them.
 
-A practitioner might use *transmute* with *sacred* to mend wounded flesh (restoration; the healing persists), *transmute* with *stone* to repair a cracked blade (restoration; the repair persists), or *transmute* with *primal* to take on the form of a beast (transformation; reverts when the spell ends). Transmute is the primary command for healing and repair.
+A practitioner might use *transmute* with *[sacred](#sacred)* to mend wounded flesh (restoration; the healing persists), *transmute* with *[stone](#stone)* to repair a cracked blade (restoration; the repair persists), or *transmute* with *[primal](#primal)* to take on the form of a beast (transformation; reverts when the spell ends). Transmute is the primary command for healing and repair.
 
 ---
 
@@ -320,7 +320,7 @@ How large is the effect's footprint? Measured in squares (5 ft × 5 ft). Arrange
 
 ### Duration
 
-How long does the effect last? All spells lasting beyond the current round require *concentration* (see Concentration below).
+How long does the effect last? All spells lasting beyond the current round require *[concentration](#concentration)* (see Concentration below).
 
 | Category | Description | Multiplier |
 |:---|:---|:---:|
@@ -337,15 +337,15 @@ If the spell imposes a condition, the tier of the condition multiplies the cost.
 
 | Condition Tier | Chained | Simple | Multiplier |
 |:---|:---|:---|:---:|
-| Tier 1 | Lured, Compelled, Dazed, Shaken | Attrition, Deafened | ×1 |
-| Tier 2 | Beguiled, Possessed, Stunned, Frightened | Prone | ×3 |
-| Tier 3 | Enthralled, Dominated, Paralyzed, Panicked | Blinded | ×6 |
+| Tier 1 | Lured, Compelled, Dazed, Shaken | [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any)."), [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") | ×1 |
+| Tier 2 | Beguiled, Possessed, Stunned, Frightened | [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") | ×3 |
+| Tier 3 | Enthralled, Dominated, Paralyzed, Panicked | [Blinded](../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") | ×6 |
 
-Simple conditions that can be imposed by spells are assigned a tier for costing purposes. Attrition and Deafened are Tier 1. Prone is Tier 2. Blinded is Tier 3. Simple conditions without a tier designation (Helpless, Catatonic, Unconscious, Injured) cannot be imposed directly by spells.
+Simple conditions that can be imposed by spells are assigned a tier for costing purposes. Attrition and Deafened are Tier 1. Prone is Tier 2. Blinded is Tier 3. Simple conditions without a tier designation ([Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials."), [Catatonic](../core/conditions.md#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."), [Unconscious](../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events."), [Injured](../core/conditions.md#injured "Each untreated Injury applies a cumulative Penalty -1 to all rolls. Injuries do not deteriorate naturally without treatment.")) cannot be imposed directly by spells.
 
-You select the condition tier at the time of casting and pay the full cost at that tier. (Fili Song advances conditions over time; see the Fili class.)
+You select the condition tier at the time of casting and pay the full cost at that tier. (Fili Song advances conditions over time; see the [Fili](../characters/human-classes/fili.md) class.)
 
-Barriers and environmental effects (fog, dust, magical darkness) can produce Cover or Concealed as properties of the terrain. Cover from a physical barrier is determined by geometry: how much of the target is behind the barrier relative to the attacker. Concealment from darkness, fog, smoke, or dust follows *General Rules, Light and Visibility*: magical darkness is ambient light or absolute darkness, and a fog or smoke spell is haze with a sight range the spell sets. A spell that produces a higher tier of Cover or Concealed on a specific target uses the condition tier multiplier above.
+Barriers and environmental effects (fog, dust, magical darkness) can produce [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") or [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") as properties of the terrain. Cover from a physical barrier is determined by geometry: how much of the target is behind the barrier relative to the attacker. Concealment from darkness, fog, smoke, or dust follows *[General Rules, Light and Visibility](../core/exploration-and-travel.md#light-and-visibility)*: magical darkness is ambient light or absolute darkness, and a fog or smoke spell is haze with a sight range the spell sets. A spell that produces a higher tier of Cover or Concealed on a specific target uses the condition tier multiplier above.
 
 ### Effect Stacking
 
@@ -362,7 +362,7 @@ An effect is a damage roll, a healing or repair roll, or a condition application
 
 When a spell imposes multiple conditions, all conditions must be the same tier. The condition tier multiplier applies once.
 
-**Combining commands.** Enchant is the only command that can be combined with another command in a single spell. The Effects multiplier prices the combination. Each condition imposed on an unwilling target is resolved with its own independent attribute trial (see Resisting Spells). Attrition applied as a rider to a damage roll is the exception: if the damage lands, the Attrition applies with it, with no separate trial. Positive conditions on willing targets require no trial.
+**Combining commands.** Enchant is the only command that can be combined with another command in a single spell. The Effects multiplier prices the combination. Each condition imposed on an unwilling target is resolved with its own independent attribute trial (see [Resisting Spells](#resisting-spells)). [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") applied as a rider to a damage roll is the exception: if the damage lands, the Attrition applies with it, with no separate trial. Positive conditions on willing targets require no trial.
 
 ### Components
 
@@ -382,7 +382,7 @@ Every spell assumes you are using a focus, speaking verbal components, and perfo
 
 *Example: A close-range, instantaneous charm normally costs (1 + 1) × 1 × 1 = 2 magan. Casting it subtly, with no verbal or somatic components, costs (1 + 1 + 1 + 1) × 1 × 1 = 4 magan.*
 
-A spell cast without verbal and somatic components cannot be seen as it is cast, so it cannot be countered until it resolves (see *Duels*).
+A spell cast without verbal and somatic components cannot be seen as it is cast, so it cannot be countered until it resolves (see *[Duels](#duels)*).
 
 ### Material Components
 
@@ -413,7 +413,7 @@ Spell speed is determined by the spell's magan cost before material component re
 
 You have 2 AP per round, which can be spent on any combination of casting, attacking, defending, or moving. Cheap spells act early in the round. Expensive spells act late, giving enemies and allies time to act first. Spells costing 12 or more magan consume your full round: 2 AP, both spent during the Slow phase.
 
-**Reaction Casting.** Fast spells can be cast as reactions. A reaction spell is triggered by circumstances rather than declared at the start of the round: a Preservate ward in response to an incoming arrow, a Flame Dart as a magical counterattack after a successful defense. Reaction spells cost 1 AP and follow the same trigger framework as other combat reactions. Apart from counters, only Fast spells (1-3 magan) qualify; Moderate and Slow spells require too much preparation to cast reactively. A counter can always be cast as a reaction (see *Duels*).
+**Reaction Casting.** Fast spells can be cast as reactions. A reaction spell is triggered by circumstances rather than declared at the start of the round: a Preservate ward in response to an incoming arrow, a Flame Dart as a magical counterattack after a successful defense. Reaction spells cost 1 AP and follow the same trigger framework as other combat reactions. Apart from counters, only Fast spells (1-3 magan) qualify; Moderate and Slow spells require too much preparation to cast reactively. A counter can always be cast as a reaction (see *[Duels](#duels)*).
 
 ### Example Costs
 
@@ -445,7 +445,7 @@ Damage, healing, and repair all use the same output formula: your *attribute tie
 
 ### Damage
 
-Damage from energy forms bypasses armor and applies directly to health. Damage from material forms is applied to armor durability, ignoring mundane armor resistances. The target makes an attribute trial (see Resisting Spells). If the trial succeeds, the target takes no damage. If the trial fails, the target takes full damage. Specific resistances (from spells, enchanted items, or consumables) reduce damage by the indicated amount.
+Damage from energy forms bypasses armor and applies directly to health. Damage from material forms is applied to armor durability, ignoring mundane armor resistances. The target makes an attribute trial (see [Resisting Spells](#resisting-spells)). If the trial succeeds, the target takes no damage. If the trial fails, the target takes full damage. Specific resistances (from spells, enchanted items, or consumables) reduce damage by the indicated amount.
 
 ### Healing and Repair
 
@@ -468,7 +468,7 @@ Damage older than the current adventuring day cannot be restored through magic. 
 
 #### Restoring Traumas
 
-A Trauma (see *Combat, Trauma Table*) is restored with Transmute. Sacred and Primal can restore any Trauma. The elemental forms restore the Traumas of their own domain: Stone restores bone and teeth (broken limbs, ribs, sternum, skull, spine); Sea restores blood and fluids (open wounds, internal injuries); Sky restores breath (a punctured lung); Fire burns a wound clean (festering and open wounds). Only Sacred and Primal restore health.
+A Trauma (see *[Combat, Trauma Table](../core/combat.md#trauma-table)*) is restored with Transmute. Sacred and Primal can restore any Trauma. The elemental forms restore the Traumas of their own domain: Stone restores bone and teeth (broken limbs, ribs, sternum, skull, spine); Sea restores blood and fluids (open wounds, internal injuries); Sky restores breath (a punctured lung); Fire burns a wound clean (festering and open wounds). Only Sacred and Primal restore health.
 
 The Trauma's tier takes the place of the condition tier in the cost formula:
 
@@ -490,7 +490,7 @@ Mundane treatment does not change the cost; the time it takes does. A Trauma tre
 
 #### Restoring the Mind
 
-Insanity (see *Conditions, Insanity*) is restored with Transmute in a form connected to the target (see *Connected Form*). Magic can undo only insanity gained during the current adventuring day: the insanity returns to the step it held at the start of the day, and if it began today, it is removed entirely. Steps reached on earlier days are beyond magic; the insanity runs its course from its original start. Dependence that an insanity added today (Insanity table, 37–42) is removed with it. Whether dependence gained from using a substance can be affected by magic is determined by the GM.
+Insanity (see *[Conditions, Insanity](../core/conditions.md#insanity)*) is restored with Transmute in a form connected to the target (see *[Connected Form](exorcism-enchantment-shapeshifting.md#connected-form)*). Magic can undo only insanity gained during the current adventuring day: the insanity returns to the step it held at the start of the day, and if it began today, it is removed entirely. Steps reached on earlier days are beyond magic; the insanity runs its course from its original start. Dependence that an insanity added today (Insanity table, 37–42) is removed with it. Whether dependence gained from using a substance can be affected by magic is determined by the GM.
 
 **Magan Cost = (Base + Reach + Scale) × Damage Age × Insanity Step**
 
@@ -534,7 +534,7 @@ Formulate and Transmute barriers are temporary. Formulated creations revert to n
 
 #### Material Barriers
 
-Material form barriers (Stone, Sea, Primal, Profane) create physical structures that block passage. A material barrier physically stops weapons, projectiles, and creatures, and provides the Cover condition to creatures behind it.
+Material form barriers (Stone, Sea, Primal, Profane) create physical structures that block passage. A material barrier physically stops weapons, projectiles, and creatures, and provides the [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") condition to creatures behind it.
 
 **Durability.** Pool = form mastery level × 5 × (1 + Scale modifier). Scale determines toughness because a larger barrier has more material to break through. Duration determines how long the barrier exists, not how tough it is.
 
@@ -552,7 +552,7 @@ Material form barriers (Stone, Sea, Primal, Profane) create physical structures 
 
 #### Energy Barriers
 
-Energy form barriers (Fire, Sky, Sacred, Void) create force that resists passage. A creature beyond an energy barrier is Concealed (Tier 1), and the barrier works the same in both directions. The caster can make the barrier transparent at no cost, or raise it to Tier 2 or Tier 3 using the condition tier multiplier (see *Condition Tier*). A Tier 3 barrier blocks sight at any distance, including within 5 feet. A Void barrier can take any appearance, such as a brick wall.
+Energy form barriers (Fire, Sky, Sacred, Void) create force that resists passage. A creature beyond an energy barrier is [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1), and the barrier works the same in both directions. The caster can make the barrier transparent at no cost, or raise it to Tier 2 or Tier 3 using the condition tier multiplier (see *[Condition Tier](#condition-tier)*). A Tier 3 barrier blocks sight at any distance, including within 5 feet. A Void barrier can take any appearance, such as a brick wall.
 
 **Resistance.** Form mastery level × 2. Range: 2 (Unskilled) to 14 (Grand Master). Attacks and projectiles directed through the barrier have their damage reduced by the resistance value. Scale determines the barrier's area, not its resistance.
 
@@ -613,29 +613,29 @@ Each form can deliver specific conditions through the Enchant command. The form 
 
 | Form | Conditions |
 |:---|:---|
-| Fire | Exhausted, Hastened, Disoriented, Blinded |
-| Sea | Restricted, Tainted, Fortified, Prone |
-| Sky | Impaired, Hastened, Restricted, Prone, Deafened, Unbound |
+| Fire | [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round."), [Hastened](../core/conditions.md#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP."), [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered."), [Blinded](../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") |
+| Sea | [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") |
+| Sky | [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), Hastened, Restricted, Prone, [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."), [Unbound](../core/conditions.md#unbound "Movement enhancement T1 — Fleet: +2 movement speed. You can jump as part of movement. You must begin and end movement on a surface with each AP. T2 — Suspended: Three-dimensional movement at half speed. One axis per AP (horizontal or vertical, not both). Water walking included. Requires concentration to maintain and move. T3 — Soaring: Three-dimensional movement at full speed in any direction. Immune to Prone. Requires concentration to maintain and move.") |
 | Stone | Restricted, Fortified, Prone |
 
 **Entropic Forms**
 
 | Form | Conditions |
 |:---|:---|
-| Primal | Exhausted, Invigorated, Restricted, Tainted, Fortified |
-| Profane | Exhausted, Demoralized, Disoriented, Tainted, Inspired |
-| Sacred | Invigorated, Inspired, Clarity, Fortified, Warded, Demoralized |
+| Primal | Exhausted, [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), Restricted, Tainted, Fortified |
+| Profane | Exhausted, [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), Disoriented, Tainted, [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") |
+| Sacred | Invigorated, Inspired, [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), Fortified, [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage."), Demoralized |
 | Void | Demoralized, Inspired, Impaired, Disoriented, Clarity, Warded |
 
-Charmed and Controlled use connected-form targeting. Each form can impose these conditions on creatures connected to that form (see Exorcise: Connected Form). The form determines the target, not the condition itself.
+[Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") use connected-form targeting. Each form can impose these conditions on creatures connected to that form (see [Exorcise](#exorcise): Connected Form). The form determines the target, not the condition itself.
 
-Every form can impose Attrition of its own damage type as trickle damage (Attrition (Burning) for Fire, Attrition (Freezing) or Attrition (Corroding) for Sea, and so on; see *Trickle Damage*).
+Every form can impose [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") of its own damage type as trickle damage (Attrition (Burning) for Fire, Attrition (Freezing) or Attrition (Corroding) for Sea, and so on; see *[Trickle Damage](#trickle-damage)*).
 
 ### Boons
 
 Boons are beneficial effects that the target automatically receives.
 
-**Condition boons** impose positive conditions (Invigorated, Inspired, Clarity, Hastened, Fortified, Warded) using the standard condition tier multiplier. See the conditions document for specific effects at each tier.
+**Condition boons** impose positive conditions ([Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), [Hastened](../core/conditions.md#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.")) using the standard condition tier multiplier. See the conditions document for specific effects at each tier.
 
 **Protection boons** create durability pools or flat resistance using the formulas above.
 
@@ -649,11 +649,11 @@ Auras are concentration spells that deal flat damage equal to your *form mastery
 
 ### Trickle Damage
 
-Trickle damage is the Attrition condition: a recurring, flat damage effect. Each form and mundane source has its own label or labels (Attrition (Burning), Attrition (Freezing), Attrition (Bleeding), etc.). The damage value equals the source's relevant *attribute tier* (flat, 1-7). Trickle damage ticks at the end of the afflicted creature's turn. Resistance of the corresponding damage type applies; Attrition (Bleeding) is untyped and no resistance applies. See *Conditions, Attrition* for the full label table.
+Trickle damage is the Attrition condition: a recurring, flat damage effect. Each form and mundane source has its own label or labels (Attrition (Burning), Attrition (Freezing), Attrition (Bleeding), etc.). The damage value equals the source's relevant *attribute tier* (flat, 1-7). Trickle damage ticks at the end of the afflicted creature's turn. Resistance of the corresponding damage type applies; Attrition (Bleeding) is untyped and no resistance applies. See *[Conditions, Attrition](../core/conditions.md#attrition)* for the full label table.
 
 **Applied by a hit.** When applied as a rider on an instantaneous spell or creature ability, it ticks once at the end of the target's turn, then expires. To reapply, the source must hit the target again.
 
-**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *Conditions, Breaking Free*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
+**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
 
 **Retargeting.** A resisted or broken trickle spell can be applied again; see Conditions, Resisted or broken.
 
@@ -683,7 +683,7 @@ When you cast a new concentration spell, the AP cost to cast it includes establi
 
 Your free concentration slot can be reassigned at the start of each round. When a spell leaves your free slot, it becomes passive unless you pay to maintain it actively.
 
-**Scrolls.** A spell released from a scroll is concentrated on by the reader, as if they had cast it (see *Skill Mastery, Scribe: Reading Scrolls*).
+**Scrolls.** A spell released from a scroll is concentrated on by the reader, as if they had cast it (see *[Skill Mastery, Scribe: Reading Scrolls](../skills/index.md)*).
 
 ### Interrupted Casting
 
@@ -698,17 +698,17 @@ A spell is interrupted and lost if, before it resolves, you:
 
 Even a familiar spell, one cast at its recorded parameters, makes this trial, and you cannot coerce success on it. A lost spell's magan is spent. AP you have not spent remain available for movement and reactions.
 
-Resisting a spell, and abilities that modify that trial, do not interrupt your casting. Pretermit (see *Skill Mastery, Spellcraft*) recovers part of a lost spell's magan.
+Resisting a spell, and abilities that modify that trial, do not interrupt your casting. Pretermit (see *[Skill Mastery, Spellcraft](../skills/index.md)*) recovers part of a lost spell's magan.
 
 ---
 
 ## Resisting Spells
 
-When a spell targets a creature, the target makes an attribute trial to resist. The resistance attribute is determined by what the spell is doing to the target, not by the command used to cast it. The same table applies to spells, traps, and creature abilities. See *Mastery System* for how mastery DC, attribute trials, and tier dice work.
+When a spell targets a creature, the target makes an attribute trial to resist. The resistance attribute is determined by what the spell is doing to the target, not by the command used to cast it. The same table applies to spells, traps, and creature abilities. See *[Mastery System](../core/mastery-and-trials.md)* for how mastery DC, attribute trials, and tier dice work.
 
 | How does the target resist? | Attribute | Examples |
 |:---|:---|:---|
-| Resist an imposed condition | Condition's attribute | Charmed = Wisdom, Restricted = Strength, Tainted = Endurance |
+| Resist an imposed condition | Condition's attribute | [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") = Wisdom, [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") = Strength, [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") = Endurance |
 | Dodge or react | Agility | Incoming projectile, area burst, falling debris |
 | Break free | Strength | Magical restraint, barrier, having a weapon wrenched away |
 | Resist bodily change | Physique | Polymorph, petrification, forced relocation |
@@ -717,7 +717,7 @@ When a spell targets a creature, the target makes an attribute trial to resist. 
 | See through influence | Wisdom | Charm, fear, emotional manipulation, altered disposition |
 | Maintain sense of self | Charisma | Forced action, possession, domination, mental override, banishment |
 | Perceive deception | Perception | Illusions, false conjurations, detecting scrying |
-| Resist sensory overload | Perception | Blinding flash, deafening crack, clouded sight (Blinded, Deafened) |
+| Resist sensory overload | Perception | Blinding flash, deafening crack, clouded sight ([Blinded](../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority."), [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.")) |
 
 The GM determines which attribute applies based on the specific spell and situation. A fire bolt hurled across the room is dodged (Agility). A touch of death that unmakes flesh is endured (Endurance). A charm that sways the target's regard is seen through (Wisdom). The same command can call for different attributes depending on what the caster is doing with it.
 
@@ -745,13 +745,13 @@ A form + command combination you have never practiced is a *new casting*. Even i
 
 ### Improvised Casting
 
-Sometimes a player will attempt something a spell could plausibly accomplish but does not explicitly define. When this happens, the GM sets a miscast DC from the Trial Difficulty table (see *Mastery System*) based on how far the intended use deviates from the spell's design. The miscast trial and coerced success rules apply as normal.
+Sometimes a player will attempt something a spell could plausibly accomplish but does not explicitly define. When this happens, the GM sets a miscast DC from the Trial Difficulty table (see *[Mastery System](../core/mastery-and-trials.md)*) based on how far the intended use deviates from the spell's design. The miscast trial and coerced success rules apply as normal.
 
 ### Miscast
 
 The minimum miscast DC is 2. If you roll a natural minimum (every die showing 1), the trial always fails and cannot be coerced. Magic is dangerous.
 
-If you fail a miscast trial, the spell fails and its magan is spent. You can choose to *coerce success*: advance Exhausted by 1 tier, and the spell succeeds despite the failed trial. See Pushing Magic below.
+If you fail a miscast trial, the spell fails and its magan is spent. You can choose to *coerce success*: advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier, and the spell succeeds despite the failed trial. See [Pushing Magic](#pushing-magic) below.
 
 ---
 
@@ -759,7 +759,7 @@ If you fail a miscast trial, the spell fails and its magan is spent. You can cho
 
 A practitioner can push past the limits of their skill or their magan, at a cost to body and mind.
 
-**Coerced success.** When you fail a miscast trial, you can choose to succeed anyway. Advance Exhausted by 1 tier.
+**Coerced success.** When you fail a miscast trial, you can choose to succeed anyway. Advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier.
 
 **Overcasting.** When your magan pool cannot cover a spell's cost, you can cast it anyway: your pool drops to 0 and you advance Exhausted by 1 tier. This applies whether the pool is empty or merely short (2 magan left for a 3-magan spell). The spell is still subject to a miscast trial if applicable.
 
@@ -781,11 +781,11 @@ When one practitioner actively counters a spell cast by another, a duel takes pl
 
 You can counter a spell from the moment its casting can be seen until it resolves. A spell cast without verbal and somatic components cannot be seen until it resolves; if its duration is Instantaneous, it cannot be countered, and if it has a duration, it can only be dispelled. A countered spell's magan is spent.
 
-**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *Skill Mastery, Spellcraft*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
+**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *[Skill Mastery, Spellcraft](../skills/index.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
 
-Both practitioners are casting until the duel ends, and *Interrupted Casting* applies to each. A practitioner whose casting is interrupted loses the duel.
+Both practitioners are casting until the duel ends, and *[Interrupted Casting](#interrupted-casting)* applies to each. A practitioner whose casting is interrupted loses the duel.
 
-The loser may advance Exhausted by 1 tier to force a tie; the duel continues. Pushing cannot turn a loss into a win.
+The loser may advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier to force a tie; the duel continues. Pushing cannot turn a loss into a win.
 
 **Victory.** The victor chooses one outcome:
 

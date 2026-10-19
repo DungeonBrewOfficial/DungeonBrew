@@ -11,8 +11,8 @@ Nostrums are the wonder-cures of the age: theriac, mumia, unicorn horn, potable 
 | Kind | What it does | Examples | How you get it |
 |:---|:---|:---|:---|
 | **Effective** | One small thing, though it's sold for a big one | Bezoar, snowdrop, viper wine | Bought, if you can find a genuine one |
-| **Fake** | Nothing, whatever it's sold to do | See Fake Nostrums | Sold everywhere |
-| **Legendary** | What the legends promise | Ambergris, the blood draughts, hippomanes, moly, mumia, stag's heart bone, theriac | Learned by mastery level (see Legendary Nostrums), or granted by the GM |
+| **Fake** | Nothing, whatever it's sold to do | See [Fake Nostrums](#fake-nostrums) | Sold everywhere |
+| **Legendary** | What the legends promise | Ambergris, the blood draughts, hippomanes, moly, mumia, stag's heart bone, theriac | Learned by mastery level (see [Legendary Nostrums](#legendary-nostrums)), or granted by the GM |
 
 ## Effective Nostrums
 
@@ -24,7 +24,7 @@ A bezoar is administered by shaving it into a drink. Each shaving drives back po
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Each shaving reduces Tainted by 1 tier. A stone holds 10 shavings | None | 10 gs a stone |
+| Single strength | Each shaving reduces [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier. A stone holds 10 shavings | None | 10 gs a stone |
 
 | | |
 |:---|:---|
@@ -37,7 +37,7 @@ A bezoar is administered by shaving it into a drink. Each shaving drives back po
 | Properties | None |
 | Modifications | None |
 | Rarity | Exotic |
-| Notes | Also a casting focus until the last shaving is gone (see *Equipment*, Foci) |
+| Notes | Also a casting focus until the last shaving is gone (see *[Equipment](../../../equipment/gear-and-services.md)*, Foci) |
 
 **To make** (days for one dose, and the recipe's Social Class):
 
@@ -64,7 +64,7 @@ Snowdrop is administered through ingestion. It ends one dose of a nightshade-fam
 | Properties | None |
 | Modifications | None |
 | Rarity | Common where it grows |
-| Notes | Grown in giant's blood, it becomes moly (see Legendary Nostrums) |
+| Notes | Grown in giant's blood, it becomes moly (see [Legendary Nostrums](#legendary-nostrums)) |
 
 **To make** (days for one dose, and the recipe's Social Class):
 
@@ -80,7 +80,7 @@ Viper wine is administered through ingestion, a draught at a time. It's sold to 
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | One draught ends one instance of Attrition (Withering) | None | 1 ss a gallon, which holds 64 draughts; 2 sp a vial |
+| Single strength | One draught ends one instance of [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Withering) | None | 1 ss a gallon, which holds 64 draughts; 2 sp a vial |
 
 | | |
 |:---|:---|
@@ -147,7 +147,7 @@ If you take the Nostrum category at a later mastery level, you gain every legend
 
 *Grey, waxy, and sweet-smelling, worth nearly its weight in gold.*
 
-Ambergris is administered through ingestion, steeped in aqua vitae as a cordial. A creature that drinks it is Fortified T3 for the encounter. The ambergris that washes ashore is a perfumer's luxury and does nothing. Only ambergris taken from a sea-dragon or leviathan carries the virtue.
+Ambergris is administered through ingestion, steeped in aqua vitae as a cordial. A creature that drinks it is [Fortified](../../../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") T3 for the encounter. The ambergris that washes ashore is a perfumer's luxury and does nothing. Only ambergris taken from a sea-dragon or leviathan carries the virtue.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -186,7 +186,7 @@ A blood draught is administered through ingestion. Warm blood wakes the dying. H
 
 \* The dead speak for about 60 seconds, as themselves, unable to move, weak, and barely able to talk.
 
-\*\* **Revival:** an Endurance trial, adding the alchemist's mastery level as a bonus, against DC 6, +1 for each time the creature has been raised before. One attempt per death; on a failure, the dose is spent. The revived return Impaired T3 and Exhausted T3, then recover one tier each exploration round, alternating, Impaired first. This replaces the normal recovery for these conditions:
+\*\* **Revival:** an Endurance trial, adding the alchemist's mastery level as a bonus, against DC 6, +1 for each time the creature has been raised before. One attempt per death; on a failure, the dose is spent. The revived return [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T3 and [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") T3, then recover one tier each exploration round, alternating, Impaired first. This replaces the normal recovery for these conditions:
 
 | Time | Impaired | Exhausted |
 |:---|:---:|:---:|
@@ -227,7 +227,7 @@ Hippomanes is administered through ingestion. A creature that drinks it is charm
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Charmed toward the first creature the drinker sees, T1 to T3\* | None | Not sold |
+| Single strength | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") toward the first creature the drinker sees, T1 to T3\* | None | Not sold |
 
 \* A Wisdom trial against the maker's Mastery DC. A failure gives Charmed T1, failing by 5 gives T2, and a natural minimum gives T3. Then one Wisdom trial a day for seven days: a success lowers the tier by 1, ending it at 0; a natural minimum raises it by 1; an ordinary failure changes nothing. Whatever tier remains after the week is permanent.
 
@@ -242,7 +242,7 @@ Hippomanes is administered through ingestion. A creature that drinks it is charm
 | Properties | None |
 | Modifications | None |
 | Rarity | The GM controls the source |
-| Notes | Moly, which gives Warded T3, ends it. It affects any sapient creature, as the GM determines, and connected-form protection doesn't apply |
+| Notes | Moly, which gives [Warded](../../../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") T3, ends it. It affects any sapient creature, as the GM determines, and connected-form protection doesn't apply |
 
 **To make:**
 
@@ -256,7 +256,7 @@ Hippomanes is administered through ingestion. A creature that drinks it is charm
 
 *A white flower with a black root, grown where a giant's blood soaked the earth.*
 
-Moly is administered through ingestion. A creature that takes it is Warded T3 for the encounter. It's snowdrop grown in earth soaked with a giant's blood. The bulb is planted in autumn and flowers by late winter, so an alchemist makes about one dose a year.
+Moly is administered through ingestion. A creature that takes it is [Warded](../../../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") T3 for the encounter. It's snowdrop grown in earth soaked with a giant's blood. The bulb is planted in autumn and flowers by late winter, so an alchemist makes about one dose a year.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -314,7 +314,7 @@ Mumia is administered through ingestion. It heals, clears Injuries, and mends th
 
 *Cartilage near an old deer's heart that turns to bone, grated into cordials.*
 
-Stag's heart bone is administered through ingestion, grated into a cordial. A creature that drinks it is Inspired T3 for the encounter. Ordinary deer heart bone is sold to comfort the heart and cure fainting, and does nothing. It must come from an old white hart, the White Stag, and the hunt is the hard part.
+Stag's heart bone is administered through ingestion, grated into a cordial. A creature that drinks it is [Inspired](../../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") T3 for the encounter. Ordinary deer heart bone is sold to comfort the heart and cure fainting, and does nothing. It must come from an old white hart, the White Stag, and the hunt is the hard part.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -347,7 +347,7 @@ Theriac is administered through ingestion. It ends poisoning, and the older it i
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| A year and a day | Ends all Tainted, at any tier | None | Not sold |
+| A year and a day | Ends all [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), at any tier | None | Not sold |
 | Five years | Ends all Tainted, at any tier. Immune to Tainted for the encounter | None | Not sold |
 | About a decade | Ends all Tainted, at any tier. Immune to Tainted for a day | None | Not sold |
 | About fifty years | Ends all Tainted, at any tier. Immune to Tainted for a year | None | Not sold |

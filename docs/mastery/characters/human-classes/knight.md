@@ -57,8 +57,8 @@ He is a knight. A human warrior that is bound by his oaths to a liege, abiding b
 
 **Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Knight, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Lore*, *Tactics*, and *Wilderness* skills.
-* You learn *Presence* as part of the *Knightly Code* class ability for free, however, the Knight cannot learn the *Deceit* discipline.
+* As a Knight, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Tactics](../../skills/tactics.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Presence](../../skills/presence.md)* as part of the *[Knightly Code](#knightly-code)* class ability for free, however, the Knight cannot learn the *[Deceit](../../skills/presence.md#deceit)* discipline.
 * You gain 1 Skill Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
 **Spell Mastery**. This class does not have access to magic.
@@ -75,7 +75,7 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
 
 ### Knightly Code
 
@@ -85,11 +85,11 @@ Your combat identity: Honor, Valor, and Glory. These three pillars that define y
 
 #### Honor
 
-Honor represents your reputation for principled conduct. You do not prey on the weak or vulnerable. You cannot invest points in the *Stealth* or *Thievery* Skill Masteries.
+Honor represents your reputation for principled conduct. You do not prey on the weak or vulnerable. You cannot invest points in the *[Stealth](../../skills/stealth.md)* or *[Thievery](../../skills/thievery.md)* Skill Masteries.
 
 So long as you attack at least one enemy per round, other enemies you haven't attacked have Inferiority against you.
 
-If you attack an enemy that is Helpless, flanked, or Impaired from a failed Startle trial, you immediately lose all benefits granted by Honor until you complete a rest.
+If you attack an enemy that is [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials."), flanked, or [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") from a failed Startle trial, you immediately lose all benefits granted by Honor until you complete a rest.
 
 #### Valor
 
@@ -97,7 +97,7 @@ Valor represents your courage and willingness to stand in danger. When you bleed
 
 When you take Health damage, each ally within 60 feet gains Dominance on their next attack or defense roll this round.
 
-You automatically advance in the *Presence* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Presence](../../skills/presence.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 #### Glory
 

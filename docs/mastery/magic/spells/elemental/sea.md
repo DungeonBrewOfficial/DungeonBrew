@@ -64,7 +64,7 @@ You touch an object and dissolve it. The material corrodes, pits, and falls apar
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
 | **Components** | F, S, V | **Damage** | ATD + MTD sea |
-| **Resistance** | Agility | **Effects** | 2 (damage + Attrition) |
+| **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
 
 **Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.
 
@@ -97,7 +97,7 @@ You wreathe yourself in biting cold for the encounter. Creatures that strike you
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | Charmed T1 |
+| **Components** | F, S, V | **Condition** | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") T1 |
 | **Resistance** | Wisdom | | |
 
 **Cost:** (1 + 1 + 0) × 3 × 1 = 6.
@@ -170,7 +170,7 @@ You attune your senses to water and active sea magic for the encounter. You perc
 
 **Cost:** (1 + 1 + 1) × 3 = 9.
 
-You conjure a bank of thick fog at a point within 30 feet, filling a small area (up to 10 × 10 ft). The fog persists for the encounter. The fog is haze with a sight range of 5 feet (see *General Rules, Light and Visibility*). The fog is real moisture and interacts with the environment normally: wind disperses it, heat evaporates it, cold condenses it.
+You conjure a bank of thick fog at a point within 30 feet, filling a small area (up to 10 × 10 ft). The fog persists for the encounter. The fog is haze with a sight range of 5 feet (see *[General Rules, Light and Visibility](../../../core/exploration-and-travel.md#light-and-visibility)*). The fog is real moisture and interacts with the environment normally: wind disperses it, heat evaporates it, cold condenses it.
 
 ---
 
@@ -185,6 +185,6 @@ You conjure a bank of thick fog at a point within 30 feet, filling a small area 
 | **Components** | F, S, V | **Effect** | Restore Trauma (blood, fluids) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *Magic Mastery, Restoring Traumas*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and draw its blood back where it belongs. One Trauma of Sea's domain is restored: an open wound or an internal injury. The restoration is permanent.

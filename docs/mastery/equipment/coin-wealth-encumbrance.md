@@ -207,7 +207,7 @@ Long weapons and shields don't fit inside a container. If something doesn't fit,
 
 **Outside Slots.** A backpack has outside slots for gear lashed to it: a Traveler's Backpack has 2, and a Canvas Backpack has 1. Lashed gear is outside the pack, so it counts its own weight. It is drawn like a sheathed weapon.
 
-**Quick Items.** Quick-item containers hold consumables: potions, material components, healing supplies, and scrolls. Each uses 1 quick slot; a scroll uses 2. A quick item can be found and used for 1 AP (see *Combat*, Interaction). The Arm Sheath is the one quick container for a weapon: its kunai or ear dagger is drawn as part of the attack. Quick-item containers are the Bandolier (6), Small Belt Pouch (4), Bracer Pouch (2), Shield Pouch (2), Scroll Case (3 scrolls), and Arm Sheath (1 kunai or ear dagger).
+**Quick Items.** Quick-item containers hold consumables: potions, material components, healing supplies, and scrolls. Each uses 1 quick slot; a scroll uses 2. A quick item can be found and used for 1 AP (see *[Combat](../core/combat.md)*, Interaction). The Arm Sheath is the one quick container for a weapon: its kunai or ear dagger is drawn as part of the attack. Quick-item containers are the Bandolier (6), Small Belt Pouch (4), Bracer Pouch (2), Shield Pouch (2), Scroll Case (3 scrolls), and Arm Sheath (1 kunai or ear dagger).
 
 **Held Containers.** A filled sack, basket, or bucket is carried in your hands and takes no slot, but the hand holding it is in use. Chests and barrels need both hands, a mount, or a vehicle.
 

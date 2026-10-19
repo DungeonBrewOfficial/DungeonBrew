@@ -23,6 +23,9 @@ import re
 import subprocess
 import sys
 
+sys.dont_write_bytecode = True  # keep tools/__pycache__ out of the repo
+from mastery_links import link_pages, write_report  # noqa: E402
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(REPO_ROOT, "docs")
 OUT_DIR = os.path.join(DOCS, "mastery")
@@ -539,6 +542,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--source", default=os.path.join(os.path.dirname(REPO_ROOT), "mastery"),
                         help="path to a checkout of the mastery repo (default: ../mastery)")
+    parser.add_argument("--report", help="write a review list of every cross-reference link here")
     args = parser.parse_args()
     source_dir = os.path.abspath(args.source)
 
@@ -555,8 +559,12 @@ def main():
     ignored = sorted(f for f in os.listdir(source_dir)
                      if f.endswith(".md") and os.path.join(source_dir, f) not in used)
 
-    outputs = {os.path.join(OUT_DIR, PAGES[k]["path"]): render_page(PAGES[k], segs)
-               for k, segs in segments.items()}
+    rendered = {k: {"path": PAGES[k]["path"], "title": PAGES[k]["title"],
+                    "text": render_page(PAGES[k], segs)} for k, segs in segments.items()}
+    links, skipped = link_pages(rendered)
+    if args.report:
+        write_report(args.report, links, skipped, rendered)
+    outputs = {os.path.join(OUT_DIR, p["path"]): p["text"] for p in rendered.values()}
 
     for path in outputs:
         if os.path.exists(path) and not is_generated(path):
@@ -592,7 +600,8 @@ def main():
         rev = "unknown"
     update_nav(rev)
 
-    print(f"Wrote {len(outputs)} pages from mastery @ {rev}.")
+    print(f"Wrote {len(outputs)} pages from mastery @ {rev}, with {len(links)} "
+          f"cross-reference links ({len(skipped)} ambiguous mentions left unlinked).")
     for path in created:
         print(f"  created stub {os.path.relpath(path, REPO_ROOT)}")
     for path in removed:

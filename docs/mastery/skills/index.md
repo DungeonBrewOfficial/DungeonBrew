@@ -6,7 +6,7 @@ generated_by: tools/sync_mastery.py
 
 Skill mastery is a measure of a character's training and expertise in a specific area of study. The more skilled a character is in a mastery, the more effective their trials become and the more powerful the abilities they unlock. Each skill mastery provides a combination of disciplines, combat abilities, and specialized techniques that expand your options both in and out of combat.
 
-For the rules governing mastery points, mastery levels, point progression, and mastery caps by class, see the Mastery chapter.
+For the rules governing mastery points, mastery levels, point progression, and mastery caps by class, see the [Mastery](../core/mastery-and-trials.md) chapter.
 
 ## Skill Trials
 

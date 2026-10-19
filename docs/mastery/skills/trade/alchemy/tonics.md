@@ -14,7 +14,7 @@ Coffee is administered through ingestion. After one round, a creature that drink
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | Reduce Exhausted by up to 1 tier for the duration. Dominance on Perception trials, including Startle | Impotence on Agility trials | 1 ss |
+| Single strength | Reduce [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by up to 1 tier for the duration. Dominance on Perception trials, including Startle | Impotence on Agility trials | 1 ss |
 
 | | |
 |:---|:---|
@@ -45,7 +45,7 @@ Valerian is administered through ingestion. After one round, a creature that tak
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | +1 on Startle and Demoralized trials. Taken before resting, +1 health and +1 magan from that rest | Slow phase. Its smell draws beasts\* | 1 sp |
+| Single strength | +1 on Startle and [Demoralized](../../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") trials. Taken before resting, +1 health and +1 magan from that rest | Slow phase. Its smell draws beasts\* | 1 sp |
 
 \* The smell raises the GM's encounter risk, as tallow candles do.
 
@@ -56,7 +56,7 @@ Valerian is administered through ingestion. After one round, a creature that tak
 | Delivery | Ingested |
 | Use | Exploration, Travel |
 | Duration | Short |
-| Crash | When the dose ends, make an Endurance trial against the dose's DC. On a failure, you are Impaired T1 for as long as the dose lasted |
+| Crash | When the dose ends, make an Endurance trial against the dose's DC. On a failure, you are [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T1 for as long as the dose lasted |
 | Properties | Delayed |
 | Modifications | None |
 | Rarity | Common |

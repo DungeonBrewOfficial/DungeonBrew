@@ -57,13 +57,13 @@ She is a gnome. A demihuman thought to be myth by most, and not thought of at al
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Gnome, you can learn the following skills: *Alertness*, *Athletics*, *Trade (All)*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Lore* as part of the *Gnosis* class ability for free.
+* As a Gnome, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Lore](../../skills/lore.md)* as part of the *Gnosis* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 3 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a gnome, you can learn *Fire*, *Sea*, *Sky*, and *Stone* magic and may choose either *Primal* or *Void* magic, but may not learn both.
+* As a gnome, you can learn *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, and *[Stone](../../magic/index.md#stone)* magic and may choose either *[Primal](../../magic/index.md#primal)* or *[Void](../../magic/index.md#void)* magic, but may not learn both.
 * You gain 1 Spell Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
 **Weapon Mastery**. At first level, you begin with 2 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -77,21 +77,21 @@ You gain abilities below as you increase level.
 
 ### Fae
 
-As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
 
 ### Gnomic Nature
 
 **Small.** Your small size makes it hard for larger creatures to hit you. You have dominance on defense rolls against creatures large or larger.
 
-**Scotopic Sight.** Within 200 feet, creatures in ambient light are not Concealed from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
+**Scotopic Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
 
-**Gnosis.** You automatically advance in the *Lore* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+**Gnosis.** You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Priscan Magic
 
 *Level 1*
 
-You can cast priscan spells. You have a number of *Magan*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -99,7 +99,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Training.** You are trained by an elder gnome of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
 
-**Spell Acquisition.** You can also learn spells independently by sensing fonts of priscan magic. You observe the font and record initial impressions, then document your findings in your compendium, expending magan² ss in experimental materials. Internalizing a spell takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Spell Acquisition.** You can also learn spells independently by sensing fonts of priscan magic. You observe the font and record initial impressions, then document your findings in your compendium, expending magan² ss in experimental materials. Internalizing a spell takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 #### Compendium
 

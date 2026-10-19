@@ -51,7 +51,7 @@ A malevolent, murderous goblin found in ruined castles and places of old violenc
 
 ***Unnatural Strength.*** *(Ability slot 1.)* The Redcap cannot be grappled by creatures with STR lower than its own STR score (13). Attempts to physically restrain it automatically fail.
 
-***Iron-Shod.*** *(Ability slot 2.)* The Redcap's heavy iron boots grant it +2 to trials against Restricted and Prone. It cannot be knocked down by effects that would topple a creature of its size.
+***Iron-Shod.*** *(Ability slot 2.)* The Redcap's heavy iron boots grant it +2 to trials against [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") and [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). It cannot be knocked down by effects that would topple a creature of its size.
 
 > **Note:** The Redcap uses 2 ability slots (T2 Adept maximum) on passive features. It has no active combat abilities — it fights with pike and rock. The Redcap's threat is raw damage output, reach, and the fact that it can't be restrained or knocked down. It is a simple, relentless brute.
 
@@ -88,13 +88,13 @@ A subterranean goblin that only surfaces during the darkest weeks of the year, a
 
 **Passive:**
 
-***Fear of Fire and Light*** *(Passive, no slot).* The Kallikantzaros must succeed on a WIS trial [3] to willingly approach within 10 feet of open flame or light. If it takes Fire damage, it advances Demoralized by 1 tier, treating the source of fire as the source of its fear.
+***Fear of Fire and Light*** *(Passive, no slot).* The Kallikantzaros must succeed on a WIS trial [3] to willingly approach within 10 feet of open flame or light. If it takes Fire damage, it advances [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier, treating the source of fire as the source of its fear.
 
 ***Solstice Bound*** *(Passive, no slot).* The Kallikantzaros can only surface during the darkest weeks of the year (roughly 2-3 weeks around the winter solstice). Outside this window, it remains underground.
 
 **Abilities:**
 
-***Rend*** *(1 AP, Attack. Ability slot 1).* On a hit with a claw attack, with Impotence, if damage is dealt the target must succeed on an END trial [3] or gain Attrition (Bleeding).
+***Rend*** *(1 AP, Attack. Ability slot 1).* On a hit with a claw attack, with Impotence, if damage is dealt the target must succeed on an END trial [3] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
 
 ***Swarm Frenzy*** *(1 AP, Reaction. Ability slot 2).* When an allied Kallikantzaros within 5 feet hits a creature, this Kallikantzaros can make a claw attack against the same target.
 
@@ -181,9 +181,9 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 
 **Passive:**
 
-***Grief Fury*** *(Ability slot 1).* When an allied orc within 30 feet is killed, the orc advances Invigorated by 1 tier (max Tier 3). Degrades by 1 tier per round if not re-triggered. The orc has Dominance on trials to resist conditions that would counter Grief Fury.
+***Grief Fury*** *(Ability slot 1).* When an allied orc within 30 feet is killed, the orc advances [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier (max Tier 3). Degrades by 1 tier per round if not re-triggered. The orc has Dominance on trials to resist conditions that would counter Grief Fury.
 
-***Breaker*** *(Ability slot 2).* When the orc makes an attack where at least one damage die explodes, it can add its STR score (16) to the damage total. Immediately advances Exhausted by 3 tiers, which degrades by 1 tier per round.
+***Breaker*** *(Ability slot 2).* When the orc makes an attack where at least one damage die explodes, it can add its STR score (16) to the damage total. Immediately advances [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 3 tiers, which degrades by 1 tier per round.
 
 **Abilities:**
 
@@ -235,7 +235,7 @@ An ancient tree awakened. The Treow moves with glacial patience, its roots pulli
 
 **Abilities:**
 
-***Root Snare*** *(1 AP, Action. Ability slot 2.)* The target must succeed on a STR trial [6] or advance Restricted by 1 tier. Advances on repeated application. No damage. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it. While a target is Pinned by Root Snare, the Treow's attacks against it have Superiority.
+***Root Snare*** *(1 AP, Action. Ability slot 2.)* The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Advances on repeated application. No damage. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it. While a target is Pinned by Root Snare, the Treow's attacks against it have Superiority.
 
 ***Timber*** *(2 AP, Attack. Ability slot 3.)* The Treow makes a branch slam attack targeting all creatures in a 10-foot line. Roll one attack and apply to all targets. On a hit, targets must succeed on a STR trial [6] or be pushed 10 feet.
 
@@ -293,7 +293,7 @@ The Dryad's bonded tree is a massive ancient tree (2×2 footprint, 15 ft reach).
 
 **Abilities:**
 
-***Woodland Meld*** *(1 AP, Action. Ability slot 2).* The Dryad melds into natural terrain and emerges from another point within 120 ft. Her next start-of-turn regen becomes 2d6. Cannot use while Restricted.
+***Woodland Meld*** *(1 AP, Action. Ability slot 2).* The Dryad melds into natural terrain and emerges from another point within 120 ft. Her next start-of-turn regen becomes 2d6. Cannot use while [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).").
 
 ***Thorn Bolt*** *(1 AP, Action [Moderate]. Ability slot 3. Range 60 ft).* The target must succeed on an AGI trial [8] or take d12 + d8 primal damage.
 

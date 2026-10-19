@@ -10,7 +10,7 @@ Stealth covers avoiding detection, ambush tactics, and operating unseen. Moving 
 
 Stealth pairs with different attributes depending on the task: Physique for sneaking and hiding; Charisma for disguise and impersonation. DCs are set by the GM.
 
-**Stealth Mastery DC:** Stealth mastery level + Physique tier - Worn Armor and Shield Encumbrance. When you are Concealed through Sneaking or Vanish, Perception trials to search for you are against this DC.
+**Stealth Mastery DC:** Stealth mastery level + Physique tier - Worn Armor and Shield Encumbrance. When you are [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") through Sneaking or Vanish, Perception trials to search for you are against this DC.
 
 ## Mastery Progression
 
@@ -18,7 +18,7 @@ Stealth pairs with different attributes depending on the task: Physique for snea
 
 **Sneaking:** You are able to conceal yourself or move quietly without attracting attention or being detected. You cannot use this skill while being observed, though it is possible to be concealed from one creature and not from another, at least until you are pointed out. You can conceal yourself effectively, providing there is cover or shadows to hide in, and move silently for the duration of your concealment.
 
-During Exploration: When you begin sneaking, you start at Tier 3 Concealed (Hidden) unless the GM determines otherwise based on environmental conditions. For each round of movement, any creature that could perceive you rolls a Perception trial against your Stealth Mastery DC. Alertness (Danger Sense) counters Sneaking. Each success reduces your Concealed by 1 tier. Success by 5 or more reduces your Concealed by 2 tiers instead.
+During Exploration: When you begin sneaking, you start at Tier 3 [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Hidden) unless the GM determines otherwise based on environmental conditions. For each round of movement, any creature that could perceive you rolls a Perception trial against your Stealth Mastery DC. Alertness (Danger Sense) counters Sneaking. Each success reduces your Concealed by 1 tier. Success by 5 or more reduces your Concealed by 2 tiers instead.
 
 **Disguise:** Alter your appearance or impersonate others. Anyone who looks at you closely rolls a Perception trial against your Stealth mastery level + Charisma tier. Alertness (Discernment) counters Disguise. The GM may give them Dominance if they know the person you are impersonating well, or Impotence if they have no reason to doubt you.
 
@@ -37,7 +37,7 @@ In complete darkness, you can navigate and act without penalty by sensing creatu
 
 ### Vanish
 
-In-combat stealth. You must break line of sight before using this ability. Spend 1 AP and roll Physique tier die + Stealth mastery die - Worn Armor and Shield Encumbrance with Impotence against the encounter DC (Division + 1 of the highest-Division creature present). Success advances your Concealed by 1 tier. Success by 5 or more advances your Concealed by 2 tiers.
+In-combat stealth. You must break line of sight before using this ability. Spend 1 AP and roll Physique tier die + Stealth mastery die - Worn Armor and Shield Encumbrance with Impotence against the encounter DC (Division + 1 of the highest-Division creature present). Success advances your [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") by 1 tier. Success by 5 or more advances your Concealed by 2 tiers.
 
 **Skilled: Opportunist Ability (choose one)**
 Choose one of the following. The unchosen ability becomes available at Master.
@@ -48,7 +48,7 @@ When making an Opportunist attack, you can forfeit your flanking bonus to also u
 
 ### Dirty Fighting
 
-When making an Opportunist attack, you can forfeit your flanking bonus to force the target to succeed on a Strength trial against your Stealth Mastery DC or advance Restricted by 1 tier.
+When making an Opportunist attack, you can forfeit your flanking bonus to force the target to succeed on a Strength trial against your Stealth Mastery DC or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 **Expert: Stealth Ability**
 Choose one of the remaining Stealth Abilities you have not yet selected.

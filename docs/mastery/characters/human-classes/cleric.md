@@ -43,7 +43,7 @@ He is a cleric. A human devotee of a god, immortal, or similar being that impart
 
 ## Description
 
-Clerics are devotees of powers greater than themselves, known as *numen*, but also known as gods or goddesses, patrons or patronesses, angels, spirits, demons, devils, immortals, or deities. Their magical prowess comes from their numen, and they act as an extension of that being's will. Due to their unique source of magic, they have access to powerful *sacred* magic that many view as miracles, but those of a darker bent have access to *profane* magic, which is similarly viewed as curses. Clerics have a decent command of weaponry, and due to their deific devotion, they never truly master those skills.
+Clerics are devotees of powers greater than themselves, known as *numen*, but also known as gods or goddesses, patrons or patronesses, angels, spirits, demons, devils, immortals, or deities. Their magical prowess comes from their numen, and they act as an extension of that being's will. Due to their unique source of magic, they have access to powerful *[sacred](../../magic/index.md#sacred)* magic that many view as miracles, but those of a darker bent have access to *[profane](../../magic/index.md#profane)* magic, which is similarly viewed as curses. Clerics have a decent command of weaponry, and due to their deific devotion, they never truly master those skills.
 
 ## Equipment Restrictions
 
@@ -61,13 +61,13 @@ Clerics are devotees of powers greater than themselves, known as *numen*, but al
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Cleric, you can learn the following skills: *Alertness*, *Athletics*, *Trade (All)*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Lore* as part of the *Theurgic Lore* class ability for free.
+* As a Cleric, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Lore](../../skills/lore.md)* as part of the *[Theurgic Lore](#theurgic-lore)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a cleric, you can learn *Fire*, *Sea*, *Sky*, and *Stone* magic, and either *Sacred* or *Profane* magic, but not both: a Lawful cleric learns *Sacred*, a Chaotic cleric learns *Profane*, and a Neutral cleric chooses.
+* As a cleric, you can learn *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, and *[Stone](../../magic/index.md#stone)* magic, and either *[Sacred](../../magic/index.md#sacred)* or *[Profane](../../magic/index.md#profane)* magic, but not both: a Lawful cleric learns *Sacred*, a Chaotic cleric learns *Profane*, and a Neutral cleric chooses.
 * You gain 1 Spell Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Weapon Mastery**. At first level, you begin with 2 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -81,7 +81,7 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
 
 ### Theurgic Authority (Cleric)
 
@@ -91,7 +91,7 @@ You gain the ability to project the will of your numen to drive away, destroy, c
 
 #### Theurgic Lore
 
-You automatically advance in the *Lore* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery tier, choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
+You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery tier, choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
 
 Your Theurgic Lore replaces your access to other Creature Lores. You cannot invest in Creature Lores outside of Asura and Daeva. However, each time you achieve a new mastery tier in Theurgic Lore, you unlock the option to spend 1 Skill Mastery point to gain a Knowledge Lore of your choice. This point can be spent at any time after the tier is achieved, not necessarily at the same level. Knowledge Lores use your Theurgic Lore skill die.
 
@@ -118,9 +118,9 @@ Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose
 
 #### Alignment
 
-**Lawful Cleric:** You can choose to destroy Daeva or inflict Charmed Tier 3 on Asura rather than turn them.
+**Lawful Cleric:** You can choose to destroy Daeva or inflict [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") Tier 3 on Asura rather than turn them.
 
-**Chaotic Cleric:** You can choose to destroy Asura or inflict Controlled Tier 3 on Daeva rather than turn them.
+**Chaotic Cleric:** You can choose to destroy Asura or inflict [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") Tier 3 on Daeva rather than turn them.
 
 **Neutral Cleric:** You must permanently choose to follow either the Lawful or Chaotic path. Choosing Sacred magic follows the Lawful path; choosing Profane magic follows the Chaotic path.
 
@@ -130,15 +130,15 @@ Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose
 
 ### Theurgic Magic
 
-You can cast theurgic spells. You have a number of *Magan*, or spell points, equal to your Charisma score. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast theurgic spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Charisma score. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Charisma Tier (maximum 14).
 
-**Ordination.** You are ordained by a senior theurgic practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor records two prayers into a prayer book you have purchased (see *Codex* in *Equipment*). When you first reach Basic mastery in any form, your mentor records an additional prayer. When you first reach Skilled mastery in any form, your mentor records a final prayer. The first two prayers are a blessing; it is customary to tithe 1 sc for each prayer after that.
+**Ordination.** You are ordained by a senior theurgic practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor records two prayers into a prayer book you have purchased (see *Codex* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your mentor records an additional prayer. When you first reach Skilled mastery in any form, your mentor records a final prayer. The first two prayers are a blessing; it is customary to tithe 1 sc for each prayer after that.
 
-**Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 #### Prayer Book
 
@@ -179,7 +179,7 @@ You channel your numen's authority to consecrate ground, creating a zone infused
 
 **Sacred Ground:** Daeva treat the zone as difficult terrain.
 
-**Purification:** You and allies within the zone have Dominance against the Tainted and Infected conditions.
+**Purification:** You and allies within the zone have Dominance against the [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") and [Infected](../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
 
 **Hallowed:** Your Turn attempts made from within your consecrated zone gain Dominance.
 
@@ -219,7 +219,7 @@ You channel your numen's authority to desecrate ground, creating a zone infused 
 
 **Profane Ground:** Asura treat the zone as difficult terrain.
 
-**Pestilence:** Enemies within the zone have Inferiority on trials against the Tainted and Infected conditions.
+**Pestilence:** Enemies within the zone have Inferiority on trials against the [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") and [Infected](../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
 
 **Unhallowed:** Your Turn attempts made from within your desecrated zone gain Dominance.
 

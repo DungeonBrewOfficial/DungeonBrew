@@ -57,8 +57,8 @@ She is a ranger. A human warrior that is more at home in the wilds than she is a
 
 **Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Ranger, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Lore*, *Presence*, *Stealth*, *Tactics*, and *Thievery* skills.
-* You learn *Wilderness* as part of the *Pathfinder* class ability for free.
+* As a Ranger, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, and *[Thievery](../../skills/thievery.md)* skills.
+* You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Pathfinder](#pathfinder)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Spell Mastery**. This class does not have access to magic.
@@ -75,13 +75,13 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, Connected Form). All other magic affects you normally.
 
 ### Pathfinder
 
 *Level 1*
 
-You automatically advance in the *Wilderness* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Wilderness](../../skills/wilderness/index.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Wayfarer
 
@@ -89,6 +89,6 @@ You automatically advance in the *Wilderness* Skill Mastery. You begin with Untr
 
 **Ranging.** You do not provoke Reprisal Attacks when you move.
 
-**Vigilance.** You are immune to Impaired Tier 3 (Paralyzed) from a Startle or Ambush trial. When a Startle trial would impose Tier 3, you receive Tier 2 instead. When affected by Impaired from a Startle trial, you may still take one Fast action.
+**Vigilance.** You are immune to [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") Tier 3 (Paralyzed) from a Startle or Ambush trial. When a Startle trial would impose Tier 3, you receive Tier 2 instead. When affected by Impaired from a Startle trial, you may still take one Fast action.
 
 **First Strike.** On the first round of combat, your attacks gain Dominance.
