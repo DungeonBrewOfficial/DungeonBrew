@@ -30,7 +30,7 @@ Choose one of the following combat abilities:
 
 Deceit is your ability to lie, bluff, or mislead others through verbal or behavioral deception. This includes maintaining a false story under pressure, misdirecting attention during conversation, or disguising your true intentions in negotiation or social encounters. Anyone you lie to rolls a Perception trial against your Presence Mastery DC. Alertness (Discernment) counters Deceit. The GM may give them Dominance if the lie is hard to believe, or Impotence if they want to believe it.
 
-**Note:** Knights cannot choose Deceit. The Knight's Honor code bars deception, and this discipline conflicts with that class identity. See Knightly Code in Core Classes.
+**Note:** Knights cannot choose Deceit. The Knight's Honor code bars deception, and this discipline conflicts with that class identity. See [Knightly Code](../characters/human-classes/knight.md#knightly-code) in Core Classes.
 
 **Distraction:** Declare before making an attack. Your attack has Inferiority. Whether you hit or miss, the next attack against that target from a different source has Superiority. You cannot benefit from your own Distraction.
 
@@ -38,7 +38,7 @@ Deceit is your ability to lie, bluff, or mislead others through verbal or behavi
 
 Etiquette is your ability to abide by specific customs or behaviors of polite society, especially among well-to-do citizens and nobles. Fitting in is a Charisma + Presence trial against a DC the GM sets, by how strict the company is and how foreign its customs are to you.
 
-**Challenge:** Once per encounter, you may challenge one intelligent creature that has not yet taken damage. The challenge must be declared before the first initiative phase of the second round. If you land the killing blow on the challenged target, you gain Inspired based on the target's Rank: Minion or Adept grants Tier 1 Inspired, Leader or Champion grants Tier 2 Inspired, Master or above grants Tier 3 Inspired. Inspired degrades naturally (1 tier per round).
+**Challenge:** Once per encounter, you may challenge one intelligent creature that has not yet taken damage. The challenge must be declared before the first initiative phase of the second round. If you land the killing blow on the challenged target, you gain [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") based on the target's Rank: Minion or Adept grants Tier 1 Inspired, Leader or Champion grants Tier 2 Inspired, Master or above grants Tier 3 Inspired. Inspired degrades naturally (1 tier per round).
 
 ### Interrogation
 
@@ -56,7 +56,7 @@ Intimidation allows you to suggest physical or verbal threats to enforce your wi
 
 Choose one of the following combat abilities:
 
-**War Cry:** Spend 2 AP to unleash a war cry affecting all enemies within 30 feet. Enemies who fail their Wisdom trial against your Presence Mastery DC advance Demoralized by 1 tier; those who succeed are immune this encounter.
+**War Cry:** Spend 2 AP to unleash a war cry affecting all enemies within 30 feet. Enemies who fail their Wisdom trial against your Presence Mastery DC advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier; those who succeed are immune this encounter.
 
 **Death Knell:** When you land a killing blow, all enemies within 30 feet must roll a Wisdom trial against your Presence Mastery DC. Enemies who fail advance Demoralized by 1 tier; those who succeed are immune this encounter.
 
@@ -68,7 +68,7 @@ Choose one of the following combat abilities:
 
 **Hearten:** As a reaction, you may spend 1 AP when an ally makes a trial, attack, or defense roll. You grant a bonus equal to your Charisma tier to that roll.
 
-**Inspire:** Spend 2 AP to inspire allies within 30 feet. Allies advance Inspired by 1 tier (or degrade Demoralized by 1 tier).
+**Inspire:** Spend 2 AP to inspire allies within 30 feet. Allies advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier (or degrade [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier).
 
 ### Stoic
 
@@ -76,6 +76,6 @@ Stoic is your ability to maintain composure and guard your true thoughts and emo
 
 Choose one of the following combat abilities:
 
-**Iron Will:** You gain Dominance on trials to resist Charmed and Controlled conditions.
+**Iron Will:** You gain Dominance on trials to resist [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") conditions.
 
-**Composure:** When a Startle trial would impose Tier 3 Impaired, you receive Tier 2 instead.
+**Composure:** When a Startle trial would impose Tier 3 [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), you receive Tier 2 instead.

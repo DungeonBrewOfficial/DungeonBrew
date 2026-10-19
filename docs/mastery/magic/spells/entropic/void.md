@@ -47,7 +47,7 @@ You manifest a burst of void energy at a point within 100 feet, engulfing a larg
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
 | **Components** | F, S, V | **Damage** | ATD + MTD void |
-| **Resistance** | Agility | **Effects** | 2 (damage + Attrition) |
+| **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
 
 **Cost:** (1 + 1 + 0) x 1 x 1 x 2 = 4.
 
@@ -63,7 +63,7 @@ You strike a creature within 30 feet with a manifested projectile that destabili
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | Disoriented T1 |
+| **Components** | F, S, V | **Condition** | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T1 |
 | **Resistance** | Intelligence | | |
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
@@ -80,7 +80,7 @@ You scramble a creature's grasp of its surroundings within 30 feet for the encou
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | Demoralized T1 |
+| **Components** | F, S, V | **Condition** | [Demoralized](../../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") T1 |
 | **Resistance** | Wisdom | | |
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
@@ -97,7 +97,7 @@ You reach into a creature's consciousness within 30 feet and suppress its resolv
 |:---|:---|:---|:---|
 | **Reach** | Touch | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | Clarity T1 |
+| **Components** | F, S, V | **Condition** | [Clarity](../../../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC.") T1 |
 | **Resistance** | N/A (ally) | | |
 
 **Cost:** (1 + 0 + 0) x 3 x 1 = 3.
@@ -136,7 +136,7 @@ You surround yourself with a shimmering field of manifested void energy for the 
 
 **Cost:** (1 + 1 + 1) x 3 x 2 = 18. Effects ×2 (dynamic construct).
 
-You create a void construct at a point within 30 feet, filling a small area (up to 10 x 10 ft). The construct is indistinguishable from whatever form the caster envisions: a false wall, a group of soldiers, a roaring fire. On the caster's turn, the caster may spend AP to direct the construct (1 AP to move, 1 AP to attack an adjacent target). The construct deals void damage and has durability determined by its power level and scale (see *Magic Mastery, Dynamic Constructs*). A creature that studies the construct closely makes a Perception trial to recognize it as false. A creature that recognizes the construct as false ignores its presence but can still be damaged by it.
+You create a void construct at a point within 30 feet, filling a small area (up to 10 x 10 ft). The construct is indistinguishable from whatever form the caster envisions: a false wall, a group of soldiers, a roaring fire. On the caster's turn, the caster may spend AP to direct the construct (1 AP to move, 1 AP to attack an adjacent target). The construct deals void damage and has durability determined by its power level and scale (see *[Magic Mastery, Dynamic Constructs](../../index.md#dynamic-constructs)*). A creature that studies the construct closely makes a Perception trial to recognize it as false. A creature that recognizes the construct as false ignores its presence but can still be damaged by it.
 
 ---
 
@@ -199,7 +199,7 @@ You attune your senses to Morphon creatures for the encounter. You perceive the 
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | Charmed T1 |
+| **Components** | F, S, V | **Condition** | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") T1 |
 | **Resistance** | Wisdom | | |
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
@@ -270,7 +270,7 @@ You evoke a thought, image, or sensation from your own mind and place it into th
 | **Components** | F, S, V | **Effect** | Polymorph (self into Morphon form) |
 | **Resistance** | N/A (self) | | |
 
-**Cost:** (1 + 0 + 0) x Division x 3. See *Magic Mastery, Shapeshifting*.
+**Cost:** (1 + 0 + 0) x Division x 3. See *[Magic Mastery, Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
 
 You transform into a Morphon creature of a known subtype within your Division cap for the encounter. Other subtypes are separate spells. Targeting others uses close+ reach.
 
@@ -287,6 +287,6 @@ You transform into a Morphon creature of a known subtype within your Division ca
 | **Components** | F, S, V | **Effect** | Restore Insanity |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Insanity Step. See *Magic Mastery, Restoring the Mind*.
+**Cost:** (1 + 0 + 0) × Damage Age × Insanity Step. See *[Magic Mastery, Restoring the Mind](../../index.md#restoring-the-mind)*.
 
 You touch a Void-connected creature and draw its mind back toward what it was this morning. Insanity gained today is undone, returning to the step it held at the start of the day. The restoration is permanent.

@@ -182,7 +182,7 @@ Mastery trials involve specialized knowledge or training. You roll your attribut
 
 Skill trials use this structure: Physique + Stealth for hiding, Charisma + Stealth for disguise, Intelligence + Thievery for picking a lock. The relevant attribute varies by skill and situation.
 
-Miscast trials also use this structure: your casting attribute tier die + your form mastery die, rolled against a DC based on the magan cost of the spell. See the Magic chapter for the full miscast rules.
+Miscast trials also use this structure: your casting attribute tier die + your form mastery die, rolled against a DC based on the magan cost of the spell. See the [Magic](../magic/index.md) chapter for the full miscast rules.
 
 Even with no mastery investment (Unskilled), a mastery trial still uses a 1d2 as the mastery die rather than dropping to a pure attribute trial.
 
@@ -214,9 +214,9 @@ When you use a spell, weapon maneuver, or skill ability that forces a target to 
 
 Your mastery level in the relevant discipline (the form you are casting, the weapon type you are wielding, or the skill you are using) is numbered 1 through 7, matching the mastery tiers (Unskilled is 1, Grand Master is 7). Add your relevant attribute tier to determine the DC. The maximum possible Mastery DC is 14.
 
-**Hallmark DCs.** Class abilities with their own DC (Song, Chantment, Puca, Agathion, Familiar, and similar) use their hallmark tier + an attribute tier, and so top out at 14 on their own. They are not Mastery DCs: effects that modify Mastery DC (Clarity, guards) do not apply to them.
+**Hallmark DCs.** Class abilities with their own DC (Song, Chantment, Puca, Agathion, Familiar, and similar) use their hallmark tier + an attribute tier, and so top out at 14 on their own. They are not Mastery DCs: effects that modify Mastery DC ([Clarity](conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), guards) do not apply to them.
 
-The target resists by making a trial with the appropriate attribute. If the roll meets or exceeds the DC, the target resists. A character rolls **2d[Tier Die]**: a character with a Tier 2 attribute rolls 2d3 (range 2 to 6, average 4), Tier 5 rolls 2d8 (average 9), Tier 7 rolls 2d12 (average 13). Creatures roll their own trial dice, set by their rank and attribute (see the Monster Manual). The effect is the same: weak targets are nearly defenseless against a high Mastery DC, while powerful ones resist more often than not.
+The target resists by making a trial with the appropriate attribute. If the roll meets or exceeds the DC, the target resists. A character rolls **2d[Tier Die]**: a character with a Tier 2 attribute rolls 2d3 (range 2 to 6, average 4), Tier 5 rolls 2d8 (average 9), Tier 7 rolls 2d12 (average 13). Creatures roll their own trial dice, set by their rank and attribute (see the [Monster Manual](../bestiary/creature-rules.md)). The effect is the same: weak targets are nearly defenseless against a high Mastery DC, while powerful ones resist more often than not.
 
 The specific attribute used for resistance depends on the effect. A spell that seizes the target's will might call for a Charisma trial, while a weapon maneuver that knocks a target prone might call for a Strength or Agility trial. The effect specifies which attribute the target rolls.
 

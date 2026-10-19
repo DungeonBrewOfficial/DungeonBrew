@@ -19,7 +19,7 @@ She is a druid. A human devotee of nature itself, who can tap into the deep magi
 | 7 \ 7 | 2,100 | Healer (Liaig) | - |  8 / 12 / 8 |
 | 8 \ 8 | 2,650 | Healer (Liaig) | - |  9 / 14 / 9 |
 | 9 \ 9 | 3,250 | Healer (Liaig) | +2 |  10 / 16 / 10 |
-| 10 \ 10 | 3,900 | Inspired One (Awenydd) | - |  11 / 18 / 11 |
+| 10 \ 10 | 3,900 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | - |  11 / 18 / 11 |
 | 11 \ 10 | 4,600 | Inspired One (Awenydd) | - |  12 / 20 / 12 |
 | 12 \ 10 | 5,350 | Inspired One (Awenydd) | +2 |  13 / 22 / 13 |
 | 13 \ 10 | 6,150 | Sacred One (Nemed) | - |  14 / 24 / 14 |
@@ -61,13 +61,13 @@ Druids are a priestly order devoted to nature and generally seen as leaders with
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Druid, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Healer)*, *Lore*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, and *Thievery* skills.
-* You learn *Wilderness* as part of the *Wildling* class ability for free.
+* As a Druid, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, and *[Thievery](../../skills/thievery.md)* skills.
+* You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Wildling](#wildling)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a druid, you can learn the 5 following forms: *Fire*, *Sea*, *Sky*, *Stone*, and *Primal* magic.
+* As a druid, you can learn the 5 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, and *[Primal](../../magic/index.md#primal)* magic.
 * You gain 1 Spell Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Weapon Mastery**. At first level, you begin with 2 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -81,13 +81,13 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Telluric Magic
 
 *Level 1*
 
-You can cast telluric spells. You have a number of *Magan*, or spell points, equal to your Wisdom score. For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Wisdom score. For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -95,13 +95,13 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Training.** You are trained by a senior druid of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
 
-**Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You take a natural token from the site to anchor the memory, then meditate to internalize the spell. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You take a natural token from the site to anchor the memory, then meditate to internalize the spell. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 ### Wildling
 
 *Level 1*
 
-You automatically advance in the *Wilderness* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Wilderness](../../skills/wilderness/index.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Puca
 
@@ -197,7 +197,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 ***Charge*** *(Tier 2. 2 AP, Movement + Attack).* Move minimum 15 feet in a straight line. Claw attack gains Dominance on damage. Countered by Set Spear vs Charge.
 
-***Grab*** *(Tier 4).* When the Puca hits with a claw attack, the target must succeed on a Strength trial [Puca DC] or advance Restricted by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a Strength trial [Puca DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+***Grab*** *(Tier 4).* When the Puca hits with a claw attack, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a Strength trial [Puca DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
 ***Swipe*** *(Tier 6. 1 AP, Attack).* Wide claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to all targets. Cutting.
 
@@ -207,13 +207,13 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 ***Pack*** *(Tier 4. 1 AP, Reaction).* When an allied creature hits an enemy within 5 feet of the Puca, the Puca can make a bite attack against the same target.
 
-***Rally Howl*** *(Tier 6. 2 AP).* The Puca howls. All allied creatures within 30 feet advance Invigorated by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+***Rally Howl*** *(Tier 6. 2 AP).* The Puca howls. All allied creatures within 30 feet advance [Invigorated](../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 **Boar (Piercing):**
 
 ***Charge*** *(Tier 2. 2 AP, Movement + Attack).* Move minimum 15 feet in a straight line. Tusk attack gains Dominance on damage. Countered by Set Spear vs Charge.
 
-***Gore*** *(Tier 4. 1 AP, Attack).* Tusk attack with Impotence. On a hit that deals health damage, the target must succeed on an Endurance trial [Puca DC] or gain Attrition (Bleeding) equal to the Puca's tier.
+***Gore*** *(Tier 4. 1 AP, Attack).* Tusk attack with Impotence. On a hit that deals health damage, the target must succeed on an Endurance trial [Puca DC] or gain [Attrition](../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) equal to the Puca's tier.
 
 ***Trample*** *(Tier 6. 2 AP, Movement + Attack).* Move in a straight line up to full speed. Roll one tusk attack with Inferiority and apply it to up to 2 targets in the path.
 

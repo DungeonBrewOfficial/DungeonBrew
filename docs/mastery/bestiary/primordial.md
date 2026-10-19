@@ -61,7 +61,7 @@ A flickering mote of living flame, barely a foot tall. Individually harmless. In
 
 **Mob:**
 
-***Kindling*** *(Mob, no slot).* When the swarm deals damage, the target suffers Attrition (Burning) 3.
+***Kindling*** *(Mob, no slot).* When the swarm deals damage, the target suffers [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning) 3.
 
 > **Note:** Ember Sprites deal elemental damage that bypasses mundane armor — only Fire resistance reduces it, and defense is an AGI trial, not a weapon parry. A swarm of 16 forcing an AGI trial [9] with 16d2 Fire damage and Burning is devastating against low-level PCs with no Fire resistance. The counter is Fire resistance (magical) or Sea damage (classification vulnerability).
 
@@ -145,11 +145,11 @@ A towering conflagration given will — a roaring pillar of flame 15 feet tall a
 
 **Abilities:**
 
-***Wildfire*** *(2 AP, Movement. Ability slot 4).* The Inferno moves up to full speed in a straight line. This movement does not provoke attacks of opportunity. Each creature in its path must succeed on an AGI trial [9] or gain Attrition (Burning) [5].
+***Wildfire*** *(2 AP, Movement. Ability slot 4).* The Inferno moves up to full speed in a straight line. This movement does not provoke attacks of opportunity. Each creature in its path must succeed on an AGI trial [9] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning) [5].
 
-***Consume*** *(2 AP, Ranged 40 ft. Ability slot 5).* The target must succeed on an AGI trial [9] or take 2d6 (DTD) + d8 (END) Fire damage and advance Exhausted by 1 tier.
+***Consume*** *(2 AP, Ranged 40 ft. Ability slot 5).* The target must succeed on an AGI trial [9] or take 2d6 (DTD) + d8 (END) Fire damage and advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier.
 
-***Flare*** *(1 AP, Reaction. Ability slot 6).* When the Inferno takes Sea damage, it releases a burst of steam. All creatures within 10 feet must succeed on a PER trial [9] or advance Concealed (Obscured) by 1 tier for 1 round.
+***Flare*** *(1 AP, Reaction. Ability slot 6).* When the Inferno takes Sea damage, it releases a burst of steam. All creatures within 10 feet must succeed on a PER trial [9] or advance [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Obscured) by 1 tier for 1 round.
 
 **Phase Reference:**
 - **Fast:** Wildfire, Consume, Flare (Reaction)
@@ -194,7 +194,7 @@ A roughly humanoid figure of animated rock, standing about 5 feet tall. It moves
 
 **Abilities:**
 
-***Hurl Rock*** *(1 AP, Attack. Ability slot 1).* The living stone makes a hurl rock attack with Inferiority. On a hit, the target advances Impaired by 1 tier.
+***Hurl Rock*** *(1 AP, Attack. Ability slot 1).* The living stone makes a hurl rock attack with Inferiority. On a hit, the target advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
 
 ***Smash*** *(2 AP, Attack. Ability slot 2).* The living stone makes a slam attack. d4 + d6 + half STR score (7) Crushing. Must act in Slow phase. While preparing, enemies attacking it gain Superiority.
 
@@ -283,7 +283,7 @@ Undines are ancient territorial predators. They are not malevolent — they simp
 
 ***Aquatic*** *(Passive. Ability slot 7).* In water, the Undine has Dominance on all attack and defense rolls. On land, it functions normally.
 
-***Siren's Call*** *(Ability slot 1).* Sapient creatures that can hear the Undine and enter the aura (40 ft) must succeed on a WIS trial [9] or advance Charmed by 1 tier. A creature that succeeds is immune to the aura for the rest of the encounter. While a creature remains in the aura, its Charmed does not deteriorate, including tiers from other sources. Once per turn, it can spend 1 AP on a WIS trial [9] to break the aura's hold; on success, Charmed deteriorates normally even while it remains inside. Leaving the aura also ends the hold, and a creature that re-enters makes a new trial.
+***Siren's Call*** *(Ability slot 1).* Sapient creatures that can hear the Undine and enter the aura (40 ft) must succeed on a WIS trial [9] or advance [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier. A creature that succeeds is immune to the aura for the rest of the encounter. While a creature remains in the aura, its Charmed does not deteriorate, including tiers from other sources. Once per turn, it can spend 1 AP on a WIS trial [9] to break the aura's hold; on success, Charmed deteriorates normally even while it remains inside. Leaving the aura also ends the hold, and a creature that re-enters makes a new trial.
 
 ***Absorb Water*** *(Ability slot 5).* When the Undine takes Sea damage, it heals health equal to the damage dealt instead of taking damage.
 
@@ -293,9 +293,9 @@ Undines are ancient territorial predators. They are not malevolent — they simp
 
 ***Riptide*** *(2 AP, Action. Ability slot 3. Range 30 ft).* All creatures within 30 feet must succeed on a STR trial [9] or be pulled 15 feet toward the nearest body of water (or toward the Undine if already in water).
 
-***Drown*** *(2 AP, Action. Ability slot 4. Range 15 ft. Requires target in water).* The target must succeed on an END trial [9] or advance Exhausted by 1 tier. Charmed from Siren's Call prevents the target from leaving water voluntarily.
+***Drown*** *(2 AP, Action. Ability slot 4. Range 15 ft. Requires target in water).* The target must succeed on an END trial [9] or advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier. Charmed from Siren's Call prevents the target from leaving water voluntarily.
 
-***Mist Veil*** *(1 AP, Reaction. Ability slot 6).* When the Undine takes Fire damage, it releases a burst of steam. All creatures within 10 feet must succeed on a PER trial [9] or advance Concealed (Obscured) by 1 tier for 1 round.
+***Mist Veil*** *(1 AP, Reaction. Ability slot 6).* When the Undine takes Fire damage, it releases a burst of steam. All creatures within 10 feet must succeed on a PER trial [9] or advance [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Obscured) by 1 tier for 1 round.
 
 **Phase Reference:** All abilities are available in all active phases.
 
@@ -340,7 +340,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 
 **Abilities:**
 
-***Grab*** *(1 AP, Action. Ability slot 1).* The ogre attempts to grab a creature within reach. The target must succeed on a STR trial [7] or advance Restricted by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [7] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it. While grabbing, the ogre cannot make club attacks (one hand occupied).
+***Grab*** *(1 AP, Action. Ability slot 1).* The ogre attempts to grab a creature within reach. The target must succeed on a STR trial [7] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [7] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it. While grabbing, the ogre cannot make club attacks (one hand occupied).
 
 ***Bite*** *(1 AP, Attack. Ability slot 2).* The ogre makes a bite attack with Dominance against a Restricted target.
 
@@ -377,13 +377,13 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 
 ***Behemoth (Stone)*** *(Classification, no slot).* Immune to Stone damage. Impotence on trials vs Sky damage. Connected to Stone magic. *(Classification package.)*
 
-***Three Heads*** *(Ability slots 1-2).* The Ettin cannot be flanked. It has awareness in all directions, gains +3 to Startle trials and Perception-based trials, and is immune to Charmed and Controlled.
+***Three Heads*** *(Ability slots 1-2).* The Ettin cannot be flanked. It has awareness in all directions, gains +3 to Startle trials and Perception-based trials, and is immune to [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.").
 
 ***Giant's Grip*** *(Passive. Ability slot 6).* The Ettin wields Versatile weapons in one hand at their two-handed speed (Moderate), without the two-handed step. Its other hand stays free to hurl rocks.
 
 **Abilities:**
 
-***Bash*** *(1 AP, Attack. Ability slot 3).* The Ettin makes a club attack with Impotence. If damage is dealt, the target must succeed on a PER trial [9] or advance Impaired by 1 tier.
+***Bash*** *(1 AP, Attack. Ability slot 3).* The Ettin makes a club attack with Impotence. If damage is dealt, the target must succeed on a PER trial [9] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
 
 ***Cunning Feint*** *(1 AP, Action. Ability slot 4).* One head distracts a target within 10 feet. The target must succeed on a PER trial [9] or the Ettin's next attack against that target this round gains Superiority.
 
@@ -430,7 +430,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 
 ***Reconstitute*** *(1 AP, Action. Ability slot 3).* While standing on stone or earth, the Bergrisar heals END TD (2d8) health.
 
-***Avalanche*** *(2 AP, Movement. Ability slot 4).* The Bergrisar moves up to full speed in a straight line. This movement does not provoke attacks of opportunity. Each creature in its path must succeed on a STR trial [9] or advance Restricted by 1 tier.
+***Avalanche*** *(2 AP, Movement. Ability slot 4).* The Bergrisar moves up to full speed in a straight line. This movement does not provoke attacks of opportunity. Each creature in its path must succeed on a STR trial [9] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 ***Swipe*** *(1 AP, Attack. Ability slot 5).* The Bergrisar makes a fist attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets.
 

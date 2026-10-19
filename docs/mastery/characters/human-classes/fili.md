@@ -61,13 +61,13 @@ Filis are versatile warriors, often tied to the druidic order. They are known fo
 
 **Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Fili, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Lore* as part of the *Filiic Lore* class ability for free.
+* As a Fili, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Lore](../../skills/lore.md)* as part of the *[Filiic Lore](#filiic-lore)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Spell Mastery**. At first level, you begin with 3 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a Fili, you can learn the 5 following forms: *Fire*, *Sea*, *Sky*, *Stone*, and *Primal* magic.
+* As a Fili, you can learn the 5 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, and *[Primal](../../magic/index.md#primal)* magic.
 * You gain 1 Spell Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
 **Weapon Mastery**. At first level, you begin with 2 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -81,19 +81,19 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Filiic Lore
 
 *Level 1*
 
-You automatically advance in the *Lore* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Telluric Magic
 
 *Level 1*
 
-You can cast telluric spells. You have a number of *Magan*, or spell points, equal to half your Wisdom score (rounded down). For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Wisdom score (rounded down). For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -101,7 +101,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Training.** You are trained by a Fili of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
 
-**Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You compose a mnemonic verse to encode the magical principle, then expand it through extended practice. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You compose a mnemonic verse to encode the magical principle, then expand it through extended practice. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 ### Fili Song
 
@@ -129,7 +129,7 @@ You can weave magic through music and oral tradition. When you sing, you can eit
 
 **Advancing Tiers:** A song always begins at Tier 1. Each round you maintain a song, you can choose to maintain the current tier or advance to the next tier at increased cost. You can also reduce the tier voluntarily by any number of tiers. When you advance a Satire to the next tier, each target rolls its trial again; only those who fail advance. Those who succeed remain at their current tier and remain affected.
 
-**Maintained Tiers:** A Praise song is a lasting source: while you maintain it, it holds its tier on each ally within 30 feet (see *Conditions*, Lasting sources). At the start of each of your turns, the song restores any of its tiers an ally has lost. Restored tiers counter an opposing condition first, as normal. Satire songs do not restore; a target whose condition is cancelled is no longer affected by the song.
+**Maintained Tiers:** A Praise song is a lasting source: while you maintain it, it holds its tier on each ally within 30 feet (see *[Conditions](../../core/conditions.md)*, Lasting sources). At the start of each of your turns, the song restores any of its tiers an ally has lost. Restored tiers counter an opposing condition first, as normal. Satire songs do not restore; a target whose condition is cancelled is no longer affected by the song.
 
 **Swapping Songs:** You can maintain only one song at a time. On your turn, you can stop a song and begin another. The old song ends and its conditions deteriorate normally; the new song begins at Tier 1 at the normal cost of 1 AP.
 
@@ -137,7 +137,7 @@ You can weave magic through music and oral tradition. When you sing, you can eit
 
 **Ending a Song:** When a song ends, whether you stop singing or can no longer maintain it, the conditions it held deteriorate normally (see *Conditions*).
 
-**Song Names:** The names below are suggestions. You are encouraged to name your songs to reflect your character's history, culture, and experiences. A song that grants Inspired might be "The Lay of Sir Lyrian" for one Fili and "The Ballad of Thornwall" for another.
+**Song Names:** The names below are suggestions. You are encouraged to name your songs to reflect your character's history, culture, and experiences. A song that grants [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") might be "The Lay of Sir Lyrian" for one Fili and "The Ballad of Thornwall" for another.
 
 #### Praise Songs (Positive Conditions)
 
@@ -145,13 +145,13 @@ Praise songs apply a positive condition to allies within 30 feet while maintaine
 
 **Morale Song (Free).** Allies within 30 feet gain Bonus +1 to attack rolls. Suggested names: *Canticle of Courage, War Chant of the Shieldwall, The Marching Hymn.*
 
-**Song of Inspiration (1+ magan/round).** Allies within 30 feet gain the Inspired condition at the maintained tier. Suggested names: *The Lay of Sir Lyrian, The Ballad of Thornwall, Hymn of the Undaunted.*
+**Song of Inspiration (1+ magan/round).** Allies within 30 feet gain the [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") condition at the maintained tier. Suggested names: *The Lay of Sir Lyrian, The Ballad of Thornwall, Hymn of the Undaunted.*
 
-**Song of Vigor (1+ magan/round).** Allies within 30 feet gain the Invigorated condition at the maintained tier. Suggested names: *The March of Aldred's Host, The Ironworker's Anthem, Drumbeat of the Forge.*
+**Song of Vigor (1+ magan/round).** Allies within 30 feet gain the [Invigorated](../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") condition at the maintained tier. Suggested names: *The March of Aldred's Host, The Ironworker's Anthem, Drumbeat of the Forge.*
 
-**Song of Alacrity (1+ magan/round).** Allies within 30 feet gain the Hastened condition at the maintained tier. Suggested names: *The Rider's Gallop, Fleet-Footed Rhyme, The Windrunner's Reel.*
+**Song of Alacrity (1+ magan/round).** Allies within 30 feet gain the [Hastened](../../core/conditions.md#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP.") condition at the maintained tier. Suggested names: *The Rider's Gallop, Fleet-Footed Rhyme, The Windrunner's Reel.*
 
-**Song of Warding (1+ magan/round).** Allies within 30 feet gain the Warded condition at the maintained tier. Suggested names: *The Lorekeeper's Refrain, Hymn Against the Dark, The Shielding Verse.*
+**Song of Warding (1+ magan/round).** Allies within 30 feet gain the [Warded](../../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") condition at the maintained tier. Suggested names: *The Lorekeeper's Refrain, Hymn Against the Dark, The Shielding Verse.*
 
 #### Saga Songs
 
@@ -161,11 +161,11 @@ Praise songs apply a positive condition to allies within 30 feet while maintaine
 
 Satire songs target intelligent creatures within 30 feet. Cost equals tier × number of affected targets per round.
 
-**Lullaby of the Lost (1+ magan/round per target).** Each target must roll a Perception trial vs your Song DC or advance on the Impaired chain (Dazed → Stunned → Paralyzed). Suggested names: *The Lullaby of the Lost, The Droning of the Deep, Whisper of the Weary.*
+**Lullaby of the Lost (1+ magan/round per target).** Each target must roll a Perception trial vs your Song DC or advance on the [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") chain (Dazed → Stunned → Paralyzed). Suggested names: *The Lullaby of the Lost, The Droning of the Deep, Whisper of the Weary.*
 
-**Song of Shame (1+ magan/round per target).** Each target must roll a Wisdom trial vs your Song DC or advance on the Demoralized chain (Shaken → Frightened → Panicked). Suggested names: *The Satire of Grimbald the Fool, The Ballad of the Craven King, Mockery of the Vainglorious.*
+**Song of Shame (1+ magan/round per target).** Each target must roll a Wisdom trial vs your Song DC or advance on the [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") chain (Shaken → Frightened → Panicked). Suggested names: *The Satire of Grimbald the Fool, The Ballad of the Craven King, Mockery of the Vainglorious.*
 
-**Song of Beguiling (1+ magan/round per target).** Each target must roll a Wisdom trial vs your Song DC or advance on the Charmed chain (Lured → Beguiled → Enthralled). Suggested names: *The Siren's Serenade, The Lover's Lament, Song of the Silver Tongue.*
+**Song of Beguiling (1+ magan/round per target).** Each target must roll a Wisdom trial vs your Song DC or advance on the [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") chain (Lured → Beguiled → Enthralled). Suggested names: *The Siren's Serenade, The Lover's Lament, Song of the Silver Tongue.*
 
 #### Dirge
 

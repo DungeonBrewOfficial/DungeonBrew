@@ -12,7 +12,7 @@ Each poison below can be made with its condition at T1, T2, or T3 unless noted. 
 
 *A mountain flower whose root numbs the tongue, then the limbs, then the heart. Hunters smear it on wolf baits and arrowheads.*
 
-Aconite is administered through ingestion or a wound. A creature affected by aconite takes immediate Primal damage and, after one round, is subject to the Tainted condition. Its bitter, numbing taste gives it away in food or drink unless it's Masked, which is why hunters coat blades and arrows with it.
+Aconite is administered through ingestion or a wound. A creature affected by aconite takes immediate Primal damage and, after one round, is subject to the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition. Its bitter, numbing taste gives it away in food or drink unless it's Masked, which is why hunters coat blades and arrows with it.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -55,7 +55,7 @@ Aqua fortis is administered by contact, splashed by hand or thrown in its glass 
 |:---|:---|
 | Type | Sea |
 | Workspace | Laboratory |
-| Delivery | Contact. Can be thrown (see Incendiaries, Throwing) |
+| Delivery | Contact. Can be thrown (see [Incendiaries](incendiaries.md), Throwing) |
 | Use | Any time |
 | Duration | Instantaneous |
 | Crash | None |
@@ -74,7 +74,7 @@ Aqua fortis is administered by contact, splashed by hand or thrown in its glass 
 
 *A white powder roasted from ore. Tasteless enough for sweets and wine, and its symptoms look like a bad stomach or the flux.*
 
-Arsenic is administered through ingestion. After one round, a creature affected by arsenic is subject to the Tainted condition, and while it's Tainted from arsenic it can't regain health. Because it's tasteless and looks like illness, it's the poisoner's choice for a quiet murder: the weakest dose makes the captain of the guard ill for the day, and the strongest kills without a Healer.
+Arsenic is administered through ingestion. After one round, a creature affected by arsenic is subject to the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition, and while it's Tainted from arsenic it can't regain health. Because it's tasteless and looks like illness, it's the poisoner's choice for a quiet murder: the weakest dose makes the captain of the guard ill for the day, and the strongest kills without a Healer.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -109,7 +109,7 @@ Arsenic is administered through ingestion. After one round, a creature affected 
 
 *Sweet black berries that look like a meal. The poisoned burn with fever, rave, and fight, and the strongest doses stop the heart.*
 
-Belladonna is administered through ingestion, or by contact as a Thickened ointment. After one round, a creature affected by belladonna is subject to the Disoriented condition and, at higher strengths, the Tainted condition one tier behind it: the mind goes first, and the body follows. Its berries look like a meal, which is how most of its victims find it.
+Belladonna is administered through ingestion, or by contact as a Thickened ointment. After one round, a creature affected by belladonna is subject to the [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") condition and, at higher strengths, the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition one tier behind it: the mind goes first, and the body follows. Its berries look like a meal, which is how most of its victims find it.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -142,7 +142,7 @@ Belladonna is administered through ingestion, or by contact as a Thickened ointm
 
 *Green blister beetles, dried and powdered. Sold as a lovers' secret; it burns the gut and kills.*
 
-Cantharides is administered through ingestion or contact. Swallowed, it deals immediate Primal damage and, after one round, the creature is subject to the Tainted condition. On the skin, it only blisters. It's the usual secret ingredient of love philtres, which is how most of its victims come to take it.
+Cantharides is administered through ingestion or contact. Swallowed, it deals immediate Primal damage and, after one round, the creature is subject to the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition. On the skin, it only blisters. It's the usual secret ingredient of love philtres, which is how most of its victims come to take it.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -165,7 +165,7 @@ Cantharides is administered through ingestion or contact. Swallowed, it deals im
 | Rarity | Uncommon: apothecaries |
 | Notes | None |
 
-\*\* Lingering adds Attrition (Withering): the blistering keeps working.
+\*\* Lingering adds [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Withering): the blistering keeps working.
 
 **To make** (days for one dose, and the recipe's Social Class):
 
@@ -179,7 +179,7 @@ Cantharides is administered through ingestion or contact. Swallowed, it deals im
 
 *The crossbowman's herb: the root boiled down to a paste for bolts and hunting arrows. A wounded deer drops within a few hundred paces.*
 
-White hellebore is administered through a wound or ingestion. A creature affected by it takes immediate Primal damage and, after one round, is subject to the Exhausted condition as its strength fails and it collapses. Swallowed, it makes the victim vomit, which works against the poison.
+White hellebore is administered through a wound or ingestion. A creature affected by it takes immediate Primal damage and, after one round, is subject to the [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") condition as its strength fails and it collapses. Swallowed, it makes the victim vomit, which works against the poison.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -214,7 +214,7 @@ White hellebore is administered through a wound or ingestion. A creature affecte
 
 *A ditch weed often mistaken for parsley. The legs fail first, then the rest, and the victim stays awake to the end.*
 
-Hemlock is administered through ingestion, or through a wound as a Thickened blade coating. After one round, a creature affected by hemlock is subject to the Impaired condition. It grows in every ditch, and it's easily mistaken for parsley.
+Hemlock is administered through ingestion, or through a wound as a Thickened blade coating. After one round, a creature affected by hemlock is subject to the [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") condition. It grows in every ditch, and it's easily mistaken for parsley.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -247,7 +247,7 @@ Hemlock is administered through ingestion, or through a wound as a Thickened bla
 
 *A stinking weed of waste ground. Burned for toothache, brewed into ale, rubbed into witches' ointments. It drives a man mad and strong at once.*
 
-Henbane is administered through ingestion, as smoke, or by contact as a Thickened ointment. After one round, a creature affected by henbane is subject to the Disoriented and Invigorated conditions: it lashes out at whoever is nearest, with unnatural strength, and when the dose ends it's left exhausted. Unlike other poisons, it's resisted with a single trial. Some take it willingly, to fight as madmen.
+Henbane is administered through ingestion, as smoke, or by contact as a Thickened ointment. After one round, a creature affected by henbane is subject to the [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") and [Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") conditions: it lashes out at whoever is nearest, with unnatural strength, and when the dose ends it's left exhausted. Unlike other poisons, it's resisted with a single trial. Some take it willingly, to fight as madmen.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -262,7 +262,7 @@ Henbane is administered through ingestion, as smoke, or by contact as a Thickene
 | Delivery | Ingested, Inhaled; Contact through Thickened |
 | Use | Any time |
 | Duration | Short |
-| Crash | Exhausted at the dose's tier, for as long as the dose lasted |
+| Crash | [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") at the dose's tier, for as long as the dose lasted |
 | Properties | Delayed |
 | Modifications | Concentrated, Masked, Potent, Prolonged, Thickened |
 | Rarity | Common on waste ground |
@@ -290,7 +290,7 @@ Oil of vitriol is administered by contact, splashed by hand or thrown in its gla
 |:---|:---|
 | Type | Sea |
 | Workspace | Laboratory |
-| Delivery | Contact. Can be thrown (see Incendiaries, Throwing) |
+| Delivery | Contact. Can be thrown (see [Incendiaries](incendiaries.md), Throwing) |
 | Use | Any time |
 | Duration | Instantaneous |
 | Crash | None |
@@ -309,11 +309,11 @@ Oil of vitriol is administered by contact, splashed by hand or thrown in its gla
 
 *Burned limestone, freshly fired, ground fine, sifted, and sealed bone-dry. Every sailor who has thrown it knows to check the wind first.*
 
-Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught in it take immediate Sea damage and are Blinded for a round, and everyone inside is harder to see. The wind decides where the cloud goes, which can include back toward the thrower.
+Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught in it take immediate Sea damage and are [Blinded](../../../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") for a round, and everyone inside is harder to see. The wind decides where the cloud goes, which can include back toward the thrower.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | A 10 ft radius cloud: Concealed T1 for the round. Sea damage; Blinded for 1 round\* | None | 1 ss |
+| Single strength | A 10 ft radius cloud: [Concealed](../../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") T1 for the round. Sea damage; Blinded for 1 round\* | None | 1 ss |
 
 \* Washing the eyes ends Blinded early: 1 AP with water, by the victim or an adjacent ally.
 
@@ -321,14 +321,14 @@ Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught
 |:---|:---|
 | Type | Sea |
 | Workspace | Field kit |
-| Delivery | Contact, Inhaled. Thrown (see Incendiaries, Throwing) |
+| Delivery | Contact, Inhaled. Thrown (see [Incendiaries](incendiaries.md), Throwing) |
 | Use | Any time |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
 | Modifications | Lingering (Corroding), Prolonged\*\* |
 | Rarity | Common everywhere there's building |
-| Notes | The GM decides the wind. If it blows toward the thrower, they may be caught in the cloud too. Indoors or in still air, the cloud hangs where it burst. A character with *Wilderness (Weather Sense)* can read the wind before throwing. Raw builders' lime is a GM's improvisation, not a concoction |
+| Notes | The GM decides the wind. If it blows toward the thrower, they may be caught in the cloud too. Indoors or in still air, the cloud hangs where it burst. A character with *[Wilderness (Weather Sense)](../../wilderness/index.md#weather-sense)* can read the wind before throwing. Raw builders' lime is a GM's improvisation, not a concoction |
 
 \*\* Prolonged: the cloud hangs for the encounter, and anyone inside at the end of their turn makes the trial. The GM moves or clears it as the wind dictates.
 
@@ -342,7 +342,7 @@ Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught
 
 *Quicksilver sublimed with salt and vitriol: a skin caustic for the apothecary, and a brutal poison for anyone else.*
 
-Sublimate is administered through ingestion, or by contact as a Thickened skin caustic. A creature affected by it takes immediate Stone damage and, after one round, is subject to the Tainted condition. Its vapors poison whoever breathes them, so making it is dangerous even for the alchemist. It's the costliest poison an apothecary sells, made only in a laboratory.
+Sublimate is administered through ingestion, or by contact as a Thickened skin caustic. A creature affected by it takes immediate Stone damage and, after one round, is subject to the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition. Its vapors poison whoever breathes them, so making it is dangerous even for the alchemist. It's the costliest poison an apothecary sells, made only in a laboratory.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -375,7 +375,7 @@ Sublimate is administered through ingestion, or by contact as a Thickened skin c
 
 *Green rust scraped from copper hung over vinegar. A painter's pigment, a surgeon's caustic, and a poison the body throws back up.*
 
-Verdigris is administered through ingestion or by contact on a wound. After one round, a creature affected by verdigris is subject to the Tainted condition. Swallowed, it makes the victim vomit, which works against the poison. Anyone with copper and vinegar can make it, with no furnace needed.
+Verdigris is administered through ingestion or by contact on a wound. After one round, a creature affected by verdigris is subject to the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition. Swallowed, it makes the victim vomit, which works against the poison. Anyone with copper and vinegar can make it, with no furnace needed.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -410,7 +410,7 @@ Verdigris is administered through ingestion or by contact on a wound. After one 
 
 *The churchyard tree. Its seeds and needles stop the heart with almost no warning; livestock are found dead beneath it.*
 
-Yew is administered through ingestion, or through a wound as a Thickened coating on arrows or quarrels. After one round, a creature affected by yew takes Primal damage and is subject to the Tainted condition, with no warning before.
+Yew is administered through ingestion, or through a wound as a Thickened coating on arrows or quarrels. After one round, a creature affected by yew takes Primal damage and is subject to the [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") condition, with no warning before.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|

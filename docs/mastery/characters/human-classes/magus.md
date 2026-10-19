@@ -57,13 +57,13 @@ She is a magus. A human practitioner of the Occult, studied in the ways of magic
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Magus, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Lore*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Trade (Scribe)* as part of the *Student* class ability for free.
+* As a Magus, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* as part of the *[Student](#student)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 6 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a magus, you can learn *Fire*, *Sea*, *Sky*, and *Stone* magic and may choose 2 of the following entropic forms: *Primal*, *Sacred*, *Profane*, or *Void*.
+* As a magus, you can learn *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, and *[Stone](../../magic/index.md#stone)* magic and may choose 2 of the following entropic forms: *[Primal](../../magic/index.md#primal)*, *[Sacred](../../magic/index.md#sacred)*, *[Profane](../../magic/index.md#profane)*, or *[Void](../../magic/index.md#void)*.
 * You gain 1 Spell Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Weapon Mastery**. At first level, you begin with 1 Weapon Mastery point, which must be spent immediately on a Weapon Type or Combat Style. You may use this point to advance a Weapon Type or Combat Style to Untrained mastery, but no further at this level.
@@ -77,25 +77,25 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Occult Magic
 
 *Level 1*
 
-You can cast Occult spells. You have a number of *Magan*, or spell points, equal to your Intelligence score. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan. Your magan are regained through rest and food, as described in the *Exploration* chapter.
+You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence score. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan. Your magan are regained through rest and food, as described in the *Exploration* chapter.
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Intelligence Tier (maximum 14).
 
-**Apprentice.** You must apprentice yourself to an NPC Occult practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master transcribes two spells into a grimoire you have purchased (see *Codex* in *Equipment*). When you first reach Basic mastery in any form, your master transcribes an additional spell. When you first reach Skilled mastery in any form, your master transcribes a final spell. The first two spells are a gift; it is customary to provide 1 sc for each spell after that.
+**Apprentice.** You must apprentice yourself to an NPC Occult practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master transcribes two spells into a grimoire you have purchased (see *Codex* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your master transcribes an additional spell. When you first reach Skilled mastery in any form, your master transcribes a final spell. The first two spells are a gift; it is customary to provide 1 sc for each spell after that.
 
-**Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *Magic Mastery*, *Discovery*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *Trade (Scribe)* discipline for full details. See the *Magic Mastery* chapter, *Spell Sources*.
+**Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *[Magic Mastery](../../magic/index.md)*, *[Discovery](../../magic/index.md#discovery)*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* discipline for full details. See the *Magic Mastery* chapter, *[Spell Sources](../../magic/index.md#spell-sources)*.
 
 #### Grimoire
 
-You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *Equipment* for codex specifications and expansion.
+You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *[Equipment](../../equipment/gear-and-services.md)* for codex specifications and expansion.
 
 **Lost Book.** If your grimoire is lost, you cannot memorize any spells to cast and must either find the lost book or begin creating a new one.
 
@@ -122,13 +122,13 @@ You know the following cantrips as part of your training as a magus. Cantrips re
 
 *Level 1*
 
-You automatically advance in the *Trade (Scribe)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Arcane Familiar
 
 *Level 1*
 
-You attract a familiar to your side, a *Morphon* or *Primordial* spirit of small or average size. A small familiar occupies ½ square (+1 defense, −1 speed). An average familiar occupies 1 square. Its Tier increases with your level on the table below.
+You attract a familiar to your side, a *[Morphon](../../bestiary/morphon.md)* or *[Primordial](../../bestiary/primordial.md)* spirit of small or average size. A small familiar occupies ½ square (+1 defense, −1 speed). An average familiar occupies 1 square. Its Tier increases with your level on the table below.
 
 **Classification.** Your familiar carries the classification package of its kind.
 
@@ -208,13 +208,13 @@ Your familiar dies only through Primordial Connection or if you die. A dead fami
 
 #### Track Abilities Shared by Both Tracks
 
-**Reserve.** Your familiar holds a reserve of points equal to its Tier, regained each day at dawn. As a 2 AP action, it spends points to impose one condition that its form delivers (see *Magic Mastery*, Form and Condition Access). Cost by condition tier: Tier 1 costs 1 point, Tier 2 costs 3 points, Tier 3 costs 6 points. Simple conditions cost points by their listed tier.
+**Reserve.** Your familiar holds a reserve of points equal to its Tier, regained each day at dawn. As a 2 AP action, it spends points to impose one condition that its form delivers (see *[Magic Mastery](../../magic/index.md)*, [Form and Condition Access](../../magic/index.md#form-and-condition-access)). Cost by condition tier: Tier 1 costs 1 point, Tier 2 costs 3 points, Tier 3 costs 6 points. Simple conditions cost points by their listed tier.
 
 - Positive conditions can only be imposed on you, within 30 feet.
 - Negative conditions target one creature your familiar can see within 30 feet, which makes the condition's trial against the Familiar DC.
-- On a failed trial (or automatically, for positive conditions on you), the condition advances by the number of tiers paid for. Reserve requires no concentration. No source holds its tiers: they deteriorate 1 tier per round, including on conditions that normally do not deteriorate (see *Conditions*, Stacking).
-- Simple conditions imposed by Reserve end after 1 round. Prone ends when the creature stands.
-- Simple condition trials: Prone uses Agility for a Stone familiar (the ground heaves) and Strength for a Sea or Sky familiar (a surge of water, a gust of wind). Blinded and Deafened use Perception (see *Magic Mastery*, Resisting Spells).
+- On a failed trial (or automatically, for positive conditions on you), the condition advances by the number of tiers paid for. Reserve requires no concentration. No source holds its tiers: they deteriorate 1 tier per round, including on conditions that normally do not deteriorate (see *[Conditions](../../core/conditions.md)*, [Stacking](../../core/conditions.md#stacking)).
+- Simple conditions imposed by Reserve end after 1 round. [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") ends when the creature stands.
+- Simple condition trials: Prone uses Agility for a Stone familiar (the ground heaves) and Strength for a Sea or Sky familiar (a surge of water, a gust of wind). [Blinded](../../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") and [Deafened](../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") use Perception (see *Magic Mastery*, [Resisting Spells](../../magic/index.md#resisting-spells)).
 
 **Bolt.** A number of times per day equal to its Tier, regained at dawn, your familiar can spend 1 AP to strike one creature it can see within 30 feet with its form (its element, or Void for a Morphon). The target makes an Agility trial against the Familiar DC. On a failure, it takes damage equal to the Familiar tier die. Energy forms (Fire, Sky, Void) bypass armor and apply to health. Material forms (Sea, Stone) apply to armor durability, ignoring mundane armor resistance. Resistance to the form reduces the damage.
 
@@ -230,7 +230,7 @@ Beings from different worlds or planes of existence.
 
 **Void Attunement.** While your familiar is present (within 30 feet, not discorporated or phased), you gain resistance to Void damage equal to its Tier.
 
-**Void Amplification.** While your familiar is present (within 30 feet, not discorporated or phased), your Void spell damage increases by its Tier. When your familiar's natural attack deals damage to durability or health, the target also takes Void damage equal to its Tier (see *Magic Damage on Weapons*).
+**Void Amplification.** While your familiar is present (within 30 feet, not discorporated or phased), your Void spell damage increases by its Tier. When your familiar's natural attack deals damage to durability or health, the target also takes Void damage equal to its Tier (see *[Magic Damage on Weapons](../../bestiary/designing-creatures.md#magic-damage-on-weapons)*).
 
 **Void Reserve.** Gain *Reserve* (Void conditions).
 
@@ -242,13 +242,13 @@ Beings connected to elements of nature, such as sea, sky, stone, and fire.
 
 **Elemental Attunement.** While your familiar is present (within 30 feet, not discorporated or phased), you gain resistance to its element equal to its Tier.
 
-**Elemental Amplification.** While your familiar is present (within 30 feet, not discorporated or phased), your spell damage of its element increases by its Tier. When your familiar's natural attack deals damage to durability or health, the target also takes damage of its element equal to its Tier (see *Magic Damage on Weapons*).
+**Elemental Amplification.** While your familiar is present (within 30 feet, not discorporated or phased), your spell damage of its element increases by its Tier. When your familiar's natural attack deals damage to durability or health, the target also takes damage of its element equal to its Tier (see *[Magic Damage on Weapons](../../bestiary/designing-creatures.md#magic-damage-on-weapons)*).
 
 **Elemental Resilience.** Your shared health pool's maximum increases by 2 × your familiar's Tier.
 
 **Elemental Chameleon.** Your familiar can shift into a nondescript version of its element (a small rock, a torch flame, a waterskin, a puff of smoke or fog). While shifted, it can still sense the world around it and gains additional resistance to all damage types equal to its Tier. It is possible to identify its true nature with an appropriate Divination spell.
 
-**Primordial Connection.** Once per familiar life, when your shared health pool would reach 0, you may remain at 1 Health instead. If you do, your familiar dies. You are conscious but critically vulnerable. Your familiar must be resummoned (see *Death*).
+**Primordial Connection.** Once per familiar life, when your shared health pool would reach 0, you may remain at 1 Health instead. If you do, your familiar dies. You are conscious but critically vulnerable. Your familiar must be resummoned (see *[Death](#death)*).
 
 **Elemental Reserve.** Gain *Reserve* (conditions of its element).
 

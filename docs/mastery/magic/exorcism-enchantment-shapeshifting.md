@@ -28,7 +28,7 @@ A *gestalt* is a creature that has been transformed into a classification it did
 
 You open a gate. A creature crosses through. The creature is real; it existed somewhere in the world and was compelled to appear.
 
-The summoned creature is independent and acts on its own will. Control requires a separate *enchant* spell using the same connected form to impose Charmed or Controlled: a second cast, a second magan cost, and a concentration slot.
+The summoned creature is independent and acts on its own will. Control requires a separate *[enchant](#enchant)* spell using the same connected form to impose [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") or [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."): a second cast, a second magan cost, and a concentration slot.
 
 **Magan cost:** (1 + Reach) × Tier. Minimum reach is close.
 
@@ -94,7 +94,7 @@ Casting enchant on a weapon adds your *form mastery tier die* as typed damage on
 
 ## Shapeshifting
 
-Shapeshifting is a Transmute spell that transforms the target into a creature. The caster must know the connected form for the target creature's classification (see Connected Form table under Exorcise). Each form's Transmute governs its own classification.
+Shapeshifting is a Transmute spell that transforms the target into a creature. The caster must know the connected form for the target creature's classification (see [Connected Form](#connected-form) table under Exorcise). Each form's Transmute governs its own classification.
 
 Shapeshifting spells are learned by creature subtype. Shapeshift (Beasts) and Shapeshift (Plants) are separate spells. The spell produces a generic member of the creature type, not a specific individual. A caster who knows Shapeshift (Beasts) can become a wolf, but not a particular wolf they encountered last week. Attempting to replicate a specific individual is an improvised casting. Duration modifications follow the standard familiar and modified familiar casting rules. The creature's Division is chosen at casting, up to the Division cap, and is not a recorded parameter; casting a known shapeshift into a creature of a different Division needs no miscast trial.
 

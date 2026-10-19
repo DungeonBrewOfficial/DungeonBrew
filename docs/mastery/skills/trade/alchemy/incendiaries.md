@@ -8,7 +8,7 @@ Incendiaries deal Fire damage, from the maker's dice.
 
 ## Throwing
 
-Thrown concoctions use the **Aiming Trial** (*Combat*) at range 15/30/45. Targets resist with an **Agility** trial against the maker's Mastery DC.
+Thrown concoctions use the **Aiming Trial** (*[Combat](../../../core/combat.md)*) at range 15/30/45. Targets resist with an **Agility** trial against the maker's Mastery DC.
 
 - **Bursts.** Serpentine grenades, wildfire pots, and quicklime pots burst wherever they land. On a miss, it lands 5 ft away for each point you missed by, in a direction set by 1d8: 1 is straight past the target, counting clockwise, and 5 is straight back toward the thrower. Everyone inside the area resists.
 - **Splashes.** Aqua fortis and oil of vitriol are thrown at one creature or object. On a miss, the vial breaks harmlessly.
@@ -21,13 +21,13 @@ Thrown concoctions use the **Aiming Trial** (*Combat*) at range 15/30/45. Target
 ## Carrying
 
 - Pots and grenades weigh about 3 lbs each, at 2 or 3 per Light object. Each takes **2 Quick Item slots** in a pouch.
-- The latched case keeps two safe from hazards (see Hazardous).
+- The latched case keeps two safe from hazards (see [Hazardous](index.md#hazardous)).
 
 ## Serpentine (gunpowder, *huoyao*)
 
 *Saltpeter, sulfur, and charcoal.*
 
-Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 10 ft radius one phase after it's lit, dealing Fire damage and leaving everyone caught in it Deafened for a round. Its fuse gives targets a moment to react.
+Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 10 ft radius one phase after it's lit, dealing Fire damage and leaving everyone caught in it [Deafened](../../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") for a round. Its fuse gives targets a moment to react.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
@@ -39,7 +39,7 @@ Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 1
 |:---|:---|
 | Type | Fire |
 | Workspace | Laboratory |
-| Delivery | Contact. Thrown as a grenade (see Throwing) or placed as a petard (see Petards) |
+| Delivery | Contact. Thrown as a grenade (see [Throwing](#throwing)) or placed as a petard (see [Petards](#petards)) |
 | Use | Any time |
 | Duration | Instantaneous |
 | Crash | None |
@@ -82,10 +82,10 @@ Wildfire is thrown as a lit pot or soaked into Wrapped arrows or quarrels. A pot
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Pot | Fire damage in the 5 ft square where it lands. Attrition (Burning)\* | None | 1 ss |
+| Pot | Fire damage in the 5 ft square where it lands. [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning)\* | None | 1 ss |
 | Arrow or quarrel dose | Soaks six Wrapped arrows or quarrels. If the hit deals damage to Health or to durability, the target gains Attrition (Burning)\* | None | 2 sp an arrow or quarrel |
 
-\* Attrition (Burning) equals the maker's mastery level. Smothering or dousing it takes 1 AP, by the creature or an adjacent ally, and ends the pending instance. Thickened fire clings: only sand, vinegar, or urine put it out, for 1 AP, or the creature can roll on earth or sand, for 1 AP, and becomes Prone.
+\* Attrition (Burning) equals the maker's mastery level. Smothering or dousing it takes 1 AP, by the creature or an adjacent ally, and ends the pending instance. Thickened fire clings: only sand, vinegar, or urine put it out, for 1 AP, or the creature can roll on earth or sand, for 1 AP, and becomes [Prone](../../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
 
 | | |
 |:---|:---|

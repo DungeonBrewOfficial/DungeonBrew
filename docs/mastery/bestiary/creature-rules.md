@@ -171,7 +171,7 @@ The vulnerability is strictly about resisting damage, not resisting control effe
 | Eidos (Mortal Folk) | None | None | Void |
 | Eidos (Mortal Beast) | None | None | Primal |
 
-A creature's Connected Form is the magic Form required to Charm, Control, summon, or banish it, or to restore its mind (see Magic Mastery, Connected Form). To summon an Asura requires Sacred magic. To charm Mortal Folk requires Void magic. Damage and all other magic of any Form work normally against any creature.
+A creature's Connected Form is the magic Form required to Charm, Control, summon, or banish it, or to restore its mind (see [Magic Mastery](../magic/index.md), [Connected Form](../magic/exorcism-enchantment-shapeshifting.md#connected-form)). To summon an Asura requires Sacred magic. To charm Mortal Folk requires Void magic. Damage and all other magic of any Form work normally against any creature.
 
 The classification package is the sole system for elemental and magical immunity/vulnerability. Do not add redundant passives (Elemental Body, Water Body, half-damage, etc.) that duplicate what the package already handles. Resistance budget handles mundane damage normally.
 
@@ -179,9 +179,9 @@ Minions inherit the classification package. It is the only classification featur
 
 ### Ability Slots
 
-Every rank above Minion has a set number of ability slots (see Rank Rules). Ability slots can hold active abilities (attacks, reactions, actions) OR passive features (condition immunities, resistances, special traits). This is an either/or — a condition immunity costs the same slot as a combat ability.
+Every rank above Minion has a set number of ability slots (see [Rank Rules](#rank-rules)). Ability slots can hold active abilities (attacks, reactions, actions) OR passive features (condition immunities, resistances, special traits). This is an either/or — a condition immunity costs the same slot as a combat ability.
 
-This creates meaningful tradeoffs. An undead Adept Tainted, Infected, and Exhausted immunity has no/fewer active abilities. It shambles forward and hits you. An undead Champion with 3+ slots can afford those same immunities and still have room for real combat abilities.
+This creates meaningful tradeoffs. An undead Adept [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."), and [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") immunity has no/fewer active abilities. It shambles forward and hits you. An undead Champion with 3+ slots can afford those same immunities and still have room for real combat abilities.
 
 Passive features that occupy ability slots include: condition immunities, elemental healing (e.g., Absorb Flame), special resistances (e.g., Incorporeal: Inferiority on attacks that deal mundane damage), creature healing (e.g., Mend), and magic damage on weapons (e.g., Flaming Blade). These are creature-specific or kingdom-specific, not classification-wide. If it goes beyond the free classification package, it costs a slot.
 
@@ -322,7 +322,7 @@ Minions are d2 creatures. Everything they roll is d2, regardless of Tier, and d2
 | AP | 2 (shared across the group) |
 | Abilities | One Mob trait (no slot), plus the classification package |
 
-**Creature Tier as attribute tier.** Wherever a rule calls for a minion's attribute tier (Attrition damage, for example), use its Creature Tier.
+**Creature Tier as attribute tier.** Wherever a rule calls for a minion's attribute tier ([Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") damage, for example), use its Creature Tier.
 
 **Groups.** A group of minions is one creature: one token, one set of 2 AP, one trial against any effect.
 
@@ -357,7 +357,7 @@ The band is read at the group's current heads: a Swarm cut to 15 heads is a Broo
 **Mob traits.** Every minion has one Mob trait, (no slot): what the mob does beyond its damage. A trait usually triggers when the group deals damage (venom, rot, bleeding). A trait whose effect reaches the senses (a sound, a sight, a smell) can trigger on presence instead: a creature that starts its turn within range of the group and can perceive it makes the trial. Mob trait DC = Creature Tier + band bonus.
 
 - A Mob trait cannot advance a chained condition past the minion's Creature Tier. From Tier 3, the full chain is available.
-- A simple condition of [T2] or higher unlocks one Tier above its bracket: Prone at Tier 3, Blinded at Tier 4.
+- A simple condition of [T2] or higher unlocks one Tier above its bracket: [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") at Tier 3, [Blinded](../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") at Tier 4.
 
 **Stat block.** Each minion lists its per-head stats, a band table (Cluster 6, Brood 12, Swarm 16 by default) giving Heads, Health, Attack, Defense and Mob DC, and its Mob trait with the DC written out for each band.
 
@@ -367,9 +367,9 @@ The Adept is the first creature that functions as an individual. It has full att
 
 | Stat | Value |
 |:---|:---|
-| Attack | DTD + Attribute TD (by weapon category; see Attack). Exploding. Phase from weapon speed (Fast/Moderate/Slow). |
+| Attack | DTD + Attribute TD (by weapon category; see [Attack](#attack)). Exploding. Phase from weapon speed (Fast/Moderate/Slow). |
 | Health (unarmored) | Endurance Score + (Division × Endurance TD) + DTD + size bonus dice. |
-| Health (armored) | (Division × Endurance TD) + Creature Tier + size bonus dice. No DTD, no END Score. Durability = 2 × (END Score + average DTD − Creature Tier). See Armored Health for armor selection. |
+| Health (armored) | (Division × Endurance TD) + Creature Tier + size bonus dice. No DTD, no END Score. Durability = 2 × (END Score + average DTD − Creature Tier). See [Armored Health](#armored-health) for armor selection. |
 | Resistance | Distributed across damage types. Armored: from actual armor pieces and base creature resistance as applicable. Unarmored: from budget. |
 | Attributes | Full attribute scores (independent of Tier/Rank) |
 | Trials | 1d3 + Attribute TD (the attribute the trial calls for) |
@@ -387,7 +387,7 @@ Same stat formulas as Adepts, except:
 | AP | 2 |
 | Abilities | 2-3. Must include a buff ability. |
 
-**Leader Buff (2 AP, Action):** Apply Tier 1 positive condition (Inspired, Fortified, Invigorated, etc.) to allies in range. Lasts 1 round. Can be reapplied each round to stack tiers (Tier 3 max after 3 consecutive rounds). The 2 AP cost means the Leader does nothing else that round. Counter-play: negative conditions cancel positive tier-for-tier, or pressure the Leader to force it to defend instead of buff.
+**Leader Buff (2 AP, Action):** Apply Tier 1 positive condition ([Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), etc.) to allies in range. Lasts 1 round. Can be reapplied each round to stack tiers (Tier 3 max after 3 consecutive rounds). The 2 AP cost means the Leader does nothing else that round. Counter-play: negative conditions cancel positive tier-for-tier, or pressure the Leader to force it to defend instead of buff.
 
 ### Champions
 
@@ -517,4 +517,4 @@ When a creature has meaningfully different speeds, list both: `Speed | 11 (55 ft
 
 Outlier creatures (Quicklings, magically fast creatures, etc.) override the formula with a flat speed value.
 
-**Senses:** Noted per creature on the stat block. Common senses include scotopic sight (within 200 ft, creatures in ambient light are not Concealed from it; within 20 ft, neither are creatures in absolute darkness, seen in grayscale; while it stands in light, it loses the benefit in absolute darkness), crepuscular sight (within 200 ft, creatures in ambient light are not Concealed from it), scent (Dominance on smell-based PER trials), keen sight (Dominance on sight-based PER trials; raptors), seismic sense (vibration detection through ground/web).
+**Senses:** Noted per creature on the stat block. Common senses include scotopic sight (within 200 ft, creatures in ambient light are not [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from it; within 20 ft, neither are creatures in absolute darkness, seen in grayscale; while it stands in light, it loses the benefit in absolute darkness), crepuscular sight (within 200 ft, creatures in ambient light are not Concealed from it), scent (Dominance on smell-based PER trials), keen sight (Dominance on sight-based PER trials; raptors), seismic sense (vibration detection through ground/web).

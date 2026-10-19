@@ -57,13 +57,13 @@ He is a Bahador. A human warrior that commands the Occult. He is a devoted stude
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Bahador, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Lore*, *Presence*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Trade (Scribe)* as part of the *Student* class ability for free.
+* As a Bahador, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* as part of the *[Student](#student)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 2 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a Bahador, you can learn the 5 following forms: *Fire*, *Sea*, *Sky*, *Stone*, and *Void* magic.
+* As a Bahador, you can learn the 5 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, and *[Void](../../magic/index.md#void)* magic.
 * You gain 1 Spell Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -78,31 +78,31 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Student
 
 *Level 1*
 
-You automatically advance in the *Trade (Scribe)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Occult Magic
 
 *Level 1*
 
-You can cast Occult spells. You have a number of *Magan*, or spell points, equal to your Intelligence Tier. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence Tier. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Intelligence Tier (maximum 14).
 
-**Apprentice.** You must apprentice yourself to an NPC Occult practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master transcribes two spells into a grimoire you have purchased (see *Codex* in *Equipment*). When you first reach Basic mastery in any form, your master transcribes an additional spell. When you first reach Skilled mastery in any form, your master transcribes a final spell. The first two spells are a gift; it is customary to provide 1 sc for each spell after that.
+**Apprentice.** You must apprentice yourself to an NPC Occult practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master transcribes two spells into a grimoire you have purchased (see *Codex* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your master transcribes an additional spell. When you first reach Skilled mastery in any form, your master transcribes a final spell. The first two spells are a gift; it is customary to provide 1 sc for each spell after that.
 
-**Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *Magic Mastery*, *Discovery*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *Trade (Scribe)* discipline for full details. See the *Magic Mastery* chapter, *Spell Sources*.
+**Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *[Magic Mastery](../../magic/index.md)*, *[Discovery](../../magic/index.md#discovery)*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* discipline for full details. See the *Magic Mastery* chapter, *[Spell Sources](../../magic/index.md#spell-sources)*.
 
 #### Grimoire
 
-You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *Equipment* for codex specifications and expansion.
+You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *[Equipment](../../equipment/gear-and-services.md)* for codex specifications and expansion.
 
 **Lost Book.** If your grimoire is lost, you cannot memorize any spells to cast and must either find the lost book or begin creating a new one.
 

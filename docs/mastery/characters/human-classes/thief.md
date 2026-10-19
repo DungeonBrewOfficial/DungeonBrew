@@ -57,8 +57,8 @@ He is a thief. A human master of stealth and skill. He is neither a warrior nor 
 
 **Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Thief, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Blacksmith, Healer)*, *Lore*, *Presence*, *Tactics*, and *Wilderness* skills.
-* You learn *Thievery* and *Stealth* as part of the *Roguery* class ability for free.
+* As a Thief, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Tactics](../../skills/tactics.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Thievery](../../skills/thievery.md)* and *[Stealth](../../skills/stealth.md)* as part of the *[Roguery](#roguery)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Spell Mastery**. This class does not have access to magic.
@@ -75,16 +75,16 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Backstab
 
 *Level 1*
 
-Opportunist attacks are always treated as having Dominance. When you make an Opportunist attack while Tier 2 or Tier 3 Concealed, or against a Tier 2 or Tier 3 Demoralized creature or a creature Impaired at Tier 2 or Tier 3 from a failed Startle trial, your attack also gains Superiority.
+Opportunist attacks are always treated as having Dominance. When you make an Opportunist attack while Tier 2 or Tier 3 [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden."), or against a Tier 2 or Tier 3 [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") creature or a creature [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") at Tier 2 or Tier 3 from a failed Startle trial, your attack also gains Superiority.
 
 ### Roguery
 
 *Level 1*
 
-You automatically advance in the *Thievery* and * Stealth* Skill Masteries. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Thievery](../../skills/thievery.md)* and * Stealth* Skill Masteries. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.

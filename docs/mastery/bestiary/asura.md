@@ -59,7 +59,7 @@ A Cherub is not a chubby infant with wings. It is a guardian — the one that st
 
 ***Smite*** *(2 AP, Attack. Ability slot 2).* The Cherub adds its CHA die (d4) to the attack roll. Against Daeva/Undead, Superiority (explosion range extends by 1 on all dice). Full Smite attack: d10 + d6 + d4 Cutting, plus 3 flat Fire if it gets through.
 
-***Rebuke*** *(1 AP, Action. Ability slot 4).* The Cherub speaks a word of divine authority. One creature within 30 feet must succeed on a WIS trial [7] or advance Demoralized by 1 tier. This trial is Sacred in nature.
+***Rebuke*** *(1 AP, Action. Ability slot 4).* The Cherub speaks a word of divine authority. One creature within 30 feet must succeed on a WIS trial [7] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. This trial is Sacred in nature.
 
 ---
 
@@ -101,6 +101,6 @@ A small protective spirit — a guardian of a person, family, or household rathe
 
 **Abilities:**
 
-***Sacred Blessing*** *(2 AP, Action. Ability slot 2).* All allies within 15 feet advance Fortified by 1 tier. Lasts 1 round.
+***Sacred Blessing*** *(2 AP, Action. Ability slot 2).* All allies within 15 feet advance [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") by 1 tier. Lasts 1 round.
 
 ***Warn*** *(1 AP, Reaction. Ability slot 3).* When an enemy targets an ally within 30 feet, the spirit can alert them, granting +2 to their defense roll for that attack.

@@ -57,8 +57,8 @@ He is a dwarf. A stout warrior of myth and legend, considered to be one of the m
 
 **Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a Dwarf, you can learn the following skills: *Alertness*, *Athletics*, *Trade (Alchemist, Healer)*, *Lore*, *Presence*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Trade (Blacksmith)* as part of the *Craftsman* class ability for free.
+* As a Dwarf, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Trade (Blacksmith)](../../skills/trade/index.md#blacksmith-discipline)* as part of the *Craftsman* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
 **Spell Mastery**. This class does not have access to magic.
@@ -75,13 +75,13 @@ You gain abilities below as you increase level.
 
 ### Primordial
 
-As a Primordial Stone being, you are immune to Stone damage and have Impotence on trials to resist Sky damage. You are connected to the Stone magic form. Only Stone magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Primordial Stone being, you are immune to Stone damage and have Impotence on trials to resist Sky damage. You are connected to the Stone magic form. Only Stone magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Master Craftsman
 
 **Armor Lore.** Your attacks ignore a number of points of your target's armor resistance equal to your Perception tier, up to the armor's base resistance value for that damage type.
 
-**Blacksmithing.** You automatically advance in the *Trade (Blacksmith)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+**Blacksmithing.** You automatically advance in the *[Trade (Blacksmith)](../../skills/trade/index.md#blacksmith-discipline)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 **Destiny Creation.** You gain the ability to make a Destiny Creation, although many dwarves continue to acquire knowledge, skills, and materials before actually making their creation.
 
@@ -104,8 +104,8 @@ You may work a number of days equal to your Endurance tier without cost. Each ad
 
 ### Dwarf Lineage
 
-**Apatheia.** You have Dominance on trials against Demoralized, Charmed, and Controlled conditions.
+**Apatheia.** You have Dominance on trials against [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled."), and [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") conditions.
 
-**Scotopic Sight.** Within 200 feet, creatures in ambient light are not Concealed from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
+**Scotopic Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
 
 **Unshakable.** When you take durability or health damage from an attack that explodes, the attacker's next attack against you has Inferiority.

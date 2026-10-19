@@ -33,7 +33,7 @@ Choose one of the following. Unchosen abilities become available at Expert, Mast
 
 ### Ethereal Sight
 
-Spend 1 Exploration Round to detect invisible creatures or supernatural presences in your vicinity. In combat, you gain Dominance on trials to detect creatures Concealed by magic.
+Spend 1 Exploration Round to detect invisible creatures or supernatural presences in your vicinity. In combat, you gain Dominance on trials to detect creatures [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") by magic.
 
 ### Sixth Sense
 
@@ -41,11 +41,11 @@ You gain Dominance when making Startle trials.
 
 ### Vigilant
 
-Creatures gain no benefit from flanking you while you are not Helpless or Impaired from a Startle trial.
+Creatures gain no benefit from flanking you while you are not [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") or [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") from a Startle trial.
 
 ### Watchful Eye
 
-You can use your Perception tier to modify armor resistance instead of Agility while not Helpless. If you are already using Agility, you gain +2 to armor resistance instead.
+You can use your Perception tier to modify armor resistance instead of Agility while not [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials."). If you are already using Agility, you gain +2 to armor resistance instead.
 
 **Expert: Awareness Ability**
 Choose one of the remaining Awareness Abilities you have not yet selected.

@@ -16,7 +16,7 @@ Wilderness has two animal slots: Companion (a War, Guard, or Hunting animal) and
 
 At each mastery level from Untrained through Master, you choose one Wilderness discipline.
 
-Companion advancement scales with your Wilderness mastery level regardless of which discipline you choose. At Untrained you can recruit or purchase D2 domestic animals (dogs, horses). At Basic you can recruit wild animals up to D3. At Skilled, up to D4. At Expert, up to D5. At Master, up to D6. Your companion gains the corresponding tier advancement at each level (see Animal Companion Advancement).
+Companion advancement scales with your Wilderness mastery level regardless of which discipline you choose. At Untrained you can recruit or purchase D2 domestic animals (dogs, horses). At Basic you can recruit wild animals up to D3. At Skilled, up to D4. At Expert, up to D5. At Master, up to D6. Your companion gains the corresponding tier advancement at each level (see [Animal Companion Advancement](animal-companions.md)).
 
 **Untrained through Master: Wilderness Discipline (choose one)**
 Choose one of the following at each mastery level. Unchosen disciplines remain available at subsequent levels.
@@ -42,7 +42,7 @@ You can find food, healing herbs, or spell components while traveling. Hunting o
 | 2 | Skilled | Common | Peasant | Peasant |
 | 3 | Master | Good | Knight | Knight |
 
-Foraged meals spoil after 3 days. Raw meat and fish must be cooked before eating (see *Cooking* in *Camping Roles*). The GM decides how often a region can be foraged, by how lush it is.
+Foraged meals spoil after 3 days. Raw meat and fish must be cooked before eating (see *[Cooking](../../core/exploration-and-travel.md#cooking)* in *[Camping Roles](../../core/exploration-and-travel.md#camping-roles)*). The GM decides how often a region can be foraged, by how lush it is.
 
 You also know how game moves, feeds, and beds down, which helps when you track a beast with Alertness (Stalking).
 
@@ -52,7 +52,7 @@ Your ability to know your direction in the wilderness, locate landmarks, and avo
 
 ### Riding
 
-Your ability to handle a mount in combat and perform advanced mounted maneuvers. You gain one Riding trick per mastery tier (Untrained through Grand Master). If you select Riding at a higher mastery tier, you retroactively gain one trick per tier up to your current mastery. Gallop requires Spur as a prerequisite. All other tricks may be chosen in any order. Riding can also be used to ride unwilling or untrained creatures, but this requires a Physique + Wilderness (Riding) trial with a DC set by the GM. See Mounted Combat Rules below for base mounted combat mechanics.
+Your ability to handle a mount in combat and perform advanced mounted maneuvers. You gain one Riding trick per mastery tier (Untrained through Grand Master). If you select Riding at a higher mastery tier, you retroactively gain one trick per tier up to your current mastery. Gallop requires Spur as a prerequisite. All other tricks may be chosen in any order. Riding can also be used to ride unwilling or untrained creatures, but this requires a Physique + Wilderness (Riding) trial with a DC set by the GM. See [Mounted Combat Rules](#mounted-combat-rules) below for base mounted combat mechanics.
 
 **Spur:** (Command) The rider commands the mount to accelerate to x3-x4 speed (rider's choice). The mount spends 2 AP and must move in a straight line.
 
@@ -94,7 +94,7 @@ These rules apply to any rider on any mount, regardless of training track or Wil
 | x5 | 10 |
 | x6 | 12 |
 
-**Condition Dismount:** When you advance to T2 Impaired or T2 Restricted while mounted, you must succeed on a Physique + Wilderness (Riding) trial against the DC that caused the condition or be dismounted. If you become Helpless while mounted, you are automatically dismounted.
+**Condition Dismount:** When you advance to T2 [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") or T2 [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") while mounted, you must succeed on a Physique + Wilderness (Riding) trial against the DC that caused the condition or be dismounted. If you become [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") while mounted, you are automatically dismounted.
 
 **Initiative:** A mount acts on its rider's initiative. The rider directs the mount's actions via free command.
 

@@ -18,7 +18,7 @@ Each investment in Trade goes toward one discipline. You can pursue several disc
 
 ### Trade Production
 
-Crafting at or below your mastery tier always succeeds. There is no failure check — a tradesman with the skill and materials produces the item. The variable is speed. Mundane weapons, armor, and gear have no tier: anyone with the materials and a workspace can craft them, and time is the limit. Alchemy uses its own method instead (see *Alchemy*).
+Crafting at or below your mastery tier always succeeds. There is no failure check — a tradesman with the skill and materials produces the item. The variable is speed. Mundane weapons, armor, and gear have no tier: anyone with the materials and a workspace can craft them, and time is the limit. Alchemy uses its own method instead (see *[Alchemy](alchemy/index.md)*).
 
 Crafting requires at least Untrained mastery in the discipline, and a suitable workspace, such as a smithy or an alchemy lab, as the GM approves.
 
@@ -51,7 +51,7 @@ Characters with Trade mastery at the appropriate tier can use items of that tier
 | T6 | Noble | 18 | Master |
 | T7 | Royal | 21 | Grand Master |
 
-**Off-Label Use:** If you lack the required Trade mastery, you may still attempt to use an item by rolling an attribute tier die + mastery die (1d2 for Unskilled) against the item's Use DC. On failure, the item is consumed or wasted. This applies to Healing Supplies, scrolls, and alchemical concoctions that must be applied or activated (see *Alchemy*).
+**Off-Label Use:** If you lack the required Trade mastery, you may still attempt to use an item by rolling an attribute tier die + mastery die (1d2 for Unskilled) against the item's Use DC. On failure, the item is consumed or wasted. This applies to Healing Supplies, scrolls, and alchemical concoctions that must be applied or activated (see *[Alchemy](alchemy/index.md)*).
 
 **Exception:** Thieves using the Use Scroll ability (Thievery) always roll regardless of DC, and the scroll is ruined on failure, because they are not trained spellcasters.
 
@@ -82,7 +82,7 @@ To read the chart, find your mastery level. If your Intelligence tier die meets 
 
 ## Healer Discipline
 
-The Healer discipline covers wound treatment, condition management, and emergency stabilization. Exploration treatments take 10 minutes (one exploration round) to administer. Combat applications (triage, treating Tainted) cost 2 AP.
+The Healer discipline covers wound treatment, condition management, and emergency stabilization. Exploration treatments take 10 minutes (one exploration round) to administer. Combat applications (triage, treating [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.")) cost 2 AP.
 
 **Exploration Healing Formula:** (1 Exploration Round, 1 unit of Healing Supplies) Health healing = Supply dice + Trade mastery die + Intelligence tier die. This is a healing trial, so its dice do not explode. Cannot exceed maximum health. A character can benefit from one healing application per encounter (e.g. combat or exploration) in which they take damage. You cannot rebandage the same wounds.
 
@@ -100,11 +100,11 @@ The Healer discipline covers wound treatment, condition management, and emergenc
 | T6 | +5, reduce 1 | +3, reduce 2 | +1, reduce 3 |
 | T7 | +6, reduce 1 | +4, reduce 2 | +2, reduce 3 |
 
-**Treat Infected:** (1 Exploration Round, 1 unit of Healing Supplies) Healer trial (Trade mastery die + Intelligence tier die) against the source DC that inflicted the Infected condition. Supply bonus and tier reduction trade-off follow the same rules as Treat Tainted. On success, reduce the target's Infected condition by the chosen number of tiers. On failure, the unit of Healing Supplies is consumed with no effect.
+**Treat [Infected](../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."):** (1 Exploration Round, 1 unit of Healing Supplies) Healer trial (Trade mastery die + Intelligence tier die) against the source DC that inflicted the Infected condition. Supply bonus and tier reduction trade-off follow the same rules as Treat Tainted. On success, reduce the target's Infected condition by the chosen number of tiers. On failure, the unit of Healing Supplies is consumed with no effect.
 
 **Treat Injuries:** (1 Exploration Round, 1 unit of Healing Supplies) No trial required. Clears a number of Injuries equal to the supply tier used. If the supply tier exceeds the number of Injuries treated, excess tiers convert to healing using the supply dice for the corresponding excess tier (e.g., 3 excess tiers heals using T3 supply dice: 2d4). This counts as the character's one healing application per encounter.
 
-**Treat Trauma:** (1 Exploration Round, 1 unit of Healing Supplies) Perform one treatment listed on the Trauma table (*Combat*, Trauma Table): set a bone, reset a joint, stop bleeding, tend a wound, or revise a scar. Each treatment has a tier (T2 or T3) and requires Healing Supplies of at least that tier (Peasant for T2, Knight for T3). If your Healer mastery meets that tier on the Automatic Use table, the treatment succeeds. Otherwise, make a Healer trial (Trade mastery die + Intelligence tier die + supply bonus) against the tier's Use DC. Supply bonus equals supply tier minus 1. On failure, the unit of Healing Supplies is consumed with no effect, and you may try again. If you fail to set a bone by 5 or more, the bone is set badly: it still heals, but when it does, the patient gains a Minor Trauma (a Limp for a leg, or Arm Bruised to the Bone for an arm). Treatments that require several successes (such as tending daily, 10 successes) count one success per treatment.
+**Treat Trauma:** (1 Exploration Round, 1 unit of Healing Supplies) Perform one treatment listed on the Trauma table (*[Combat](../../core/combat.md)*, [Trauma Table](../../core/combat.md#trauma-table)): set a bone, reset a joint, stop bleeding, tend a wound, or revise a scar. Each treatment has a tier (T2 or T3) and requires Healing Supplies of at least that tier (Peasant for T2, Knight for T3). If your Healer mastery meets that tier on the Automatic Use table, the treatment succeeds. Otherwise, make a Healer trial (Trade mastery die + Intelligence tier die + supply bonus) against the tier's Use DC. Supply bonus equals supply tier minus 1. On failure, the unit of Healing Supplies is consumed with no effect, and you may try again. If you fail to set a bone by 5 or more, the bone is set badly: it still heals, but when it does, the patient gains a Minor Trauma (a Limp for a leg, or Arm Bruised to the Bone for an arm). Treatments that require several successes (such as tending daily, 10 successes) count one success per treatment.
 
 **Healing Supply Dice and Costs:**
 
@@ -120,7 +120,7 @@ The Healer discipline covers wound treatment, condition management, and emergenc
 
 ## Alchemist Discipline
 
-The Alchemist discipline covers making and identifying alchemical concoctions: poisons, medicines, anodynes, tonics, incendiaries, and nostrums. Alchemy mechanics (categories and modifications, making concoctions, workspaces, prices, and using concoctions) are governed by *Alchemy* and scale with your Alchemist mastery level.
+The Alchemist discipline covers making and identifying alchemical concoctions: poisons, medicines, anodynes, tonics, incendiaries, and nostrums. Alchemy mechanics (categories and modifications, making concoctions, workspaces, prices, and using concoctions) are governed by *[Alchemy](alchemy/index.md)* and scale with your Alchemist mastery level.
 
 **Identification:** When encountering an unknown concoction, roll Intelligence tier die + Trade mastery die against the concoction's DC. Identification takes one exploration round, and can also be done in camp as the *Sage* role. On success, you identify the substance and its effects. On failure, you cannot attempt to identify the same concoction again until your attribute tier or Trade mastery increases.
 
@@ -189,7 +189,7 @@ The trial occurs at the midpoint of the crafting process (half the total days el
 - **Your own tradition:** if your Scribe mastery meets the scroll's tier, you know the scroll on sight and use it automatically. Otherwise, use Off-Label Use.
 - **Another tradition:** always Off-Label Use, and only for a scroll in a Form in which you have at least Untrained mastery.
 - **Identifying:** a successful Off-Label roll identifies the scroll, and you can release it later without another roll. The roll can be made outside combat, as the Sage role. On a failure, the scroll is ruined.
-- **Using:** a scroll costs no magan, needs no miscast trial, and can't be coerced. Its spell uses the settings, DC, and dice the scribe fixed when writing it. A spell with a duration needs the reader's concentration (see *Magic Mastery*, Concentration).
+- **Using:** a scroll costs no magan, needs no miscast trial, and can't be coerced. Its spell uses the settings, DC, and dice the scribe fixed when writing it. A spell with a duration needs the reader's concentration (see *[Magic Mastery](../../magic/index.md)*, [Concentration](../../magic/index.md#concentration)).
 - **Learning:** only Occult casters, the Bahador and Magus, can learn a spell from a scroll, and only in a Form in which they have at least Untrained mastery. They learn it by casting it, which consumes the scroll.
 
 **Grimoire Transcription (Bahador/Magus):** Recording a spell in a grimoire follows the universal spell acquisition process: magan² units of Scribe Supplies consumed, 1 day per magan of downtime. The spell occupies 1 page per magan in the grimoire. No Scribe mastery gate is required; any Bahador or Magus can record spells they have discovered. The grimoire's alchemically treated vellum is already bound into the book and does not need to be purchased separately.

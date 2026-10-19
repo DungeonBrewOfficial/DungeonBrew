@@ -57,13 +57,13 @@ He is a paladin. A human warrior of law and life. His power comes from his numen
 
 **Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
-* As a paladin, you can learn the following skills: *Alertness*, *Athletics*, *Trade (All)*, *Presence*, *Spellcraft*, *Tactics*, and *Wilderness* skills.
-* You learn *Lore* as part of the *Theurgic Lore* class ability for free.
+* As a paladin, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Tactics](../../skills/tactics.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Lore](../../skills/lore.md)* as part of the *[Theurgic Lore](#theurgic-lore)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Spell Mastery**. At first level, you begin with 2 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a paladin, you can learn the 5 following forms: *Fire*, *Sea*, *Sky*, *Stone*, and *Sacred* magic.
+* As a paladin, you can learn the 5 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, and *[Sacred](../../magic/index.md#sacred)* magic.
 * You gain 1 Spell Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 **Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -78,7 +78,7 @@ You gain abilities below as you increase level.
 
 ### Mortal
 
-As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Theurgic Authority (Paladin)
 
@@ -88,7 +88,7 @@ You gain the ability to project the will of your numen to drive away or destroy 
 
 #### Theurgic Lore
 
-You automatically advance in the *Lore* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery tier, choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
+You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery tier, choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
 
 Your Theurgic Lore replaces your access to other Creature Lores. You cannot invest in Creature Lores outside of Asura and Daeva. However, each time you achieve a new mastery tier in Theurgic Lore, you unlock the option to spend 1 Skill Mastery point to gain a Knowledge Lore of your choice. This point can be spent at any time after the tier is achieved, not necessarily at the same level. Knowledge Lores use your Theurgic Lore skill die.
 
@@ -119,19 +119,19 @@ You can choose to destroy Daeva rather than turn them. Roll ÷ DC (Division × 2
 
 #### Charm Asura
 
-You can choose to inflict Charmed Tier 3 on Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Charmed. Charmed is permanent. You can Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Charmed creatures to free up capacity. Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Charmed Asura to act, you must use your concentration slot or expend 1 AP per round. Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
+You can choose to inflict [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") Tier 3 on Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Charmed. Charmed is permanent. You can Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Charmed creatures to free up capacity. Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Charmed Asura to act, you must use your concentration slot or expend 1 AP per round. Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
 
 ### Theurgic Magic
 
-You can cast theurgic spells. You have a number of *Magan*, or spell points, equal to your Charisma Tier. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast theurgic spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Charisma Tier. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Charisma Tier (maximum 14).
 
-**Ordination.** You are ordained by a senior theurgic practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor records two prayers into a prayer book you have purchased (see *Codex* in *Equipment*). When you first reach Basic mastery in any form, your mentor records an additional prayer. When you first reach Skilled mastery in any form, your mentor records a final prayer. The first two prayers are a blessing; it is customary to tithe 1 sc for each prayer after that.
+**Ordination.** You are ordained by a senior theurgic practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor records two prayers into a prayer book you have purchased (see *Codex* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your mentor records an additional prayer. When you first reach Skilled mastery in any form, your mentor records a final prayer. The first two prayers are a blessing; it is customary to tithe 1 sc for each prayer after that.
 
-**Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 #### Prayer Book
 
@@ -169,6 +169,6 @@ At each tier from 2-7, choose one effect from your class list.
 
 **Condemn:** When you deal damage with your imbued weapon, spend 1 magan. Target has Inferiority on attacks against anyone other than you until the end of their next turn.
 
-**Steadfast:** While imbuing, you have Dominance against the Restricted condition.
+**Steadfast:** While imbuing, you have Dominance against the [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") condition.
 
 **Martyr's Resolve:** When you are at half health or below, your imbued weapon attacks gain Dominance.

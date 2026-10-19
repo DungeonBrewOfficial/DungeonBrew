@@ -36,7 +36,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 **Mob:**
 
-***Cudgel*** *(Mob, no slot).* When the group deals damage, the target must succeed on a PER trial [Cluster 3 / Brood 5 / Swarm 7] or advance Impaired by 1 tier (max Tier 1).
+***Cudgel*** *(Mob, no slot).* When the group deals damage, the target must succeed on a PER trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier (max Tier 1).
 
 ---
 
@@ -69,7 +69,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 **Abilities:**
 
-***Low Cut*** *(1 AP, Attack. Ability slot 1).* On a hit with a great knife attack, with Inferiority, the target must succeed on a STR trial [3] or advance Restricted by 1 tier.
+***Low Cut*** *(1 AP, Attack. Ability slot 1).* On a hit with a great knife attack, with Inferiority, the target must succeed on a STR trial [3] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 > **Note:** Armor piecemeal'd to budget. Jack of Plate Hauberk (7) + Greaves/Cuisses (3) = 10 = T1 Adept budget. Listed Durability 38; "Scavenged" brings it to the formula value of 14. Taken from a better-equipped victim; strong against blades, weak against arrows.
 
@@ -111,7 +111,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 ***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the bandit leader takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
 
-***Rally*** *(2 AP, Action. Ability slot 2).* The bandit leader shouts encouragement, All allied bandits within 30 feet advance Inspired by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+***Rally*** *(2 AP, Action. Ability slot 2).* The bandit leader shouts encouragement, All allied bandits within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 ---
 
@@ -173,7 +173,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 **Mob:**
 
-***Pitchforks and Hooks*** *(Mob, no slot).* When the group deals damage, the target must succeed on a STR trial [Cluster 4 / Brood 6 / Swarm 8] or advance Restricted by 1 tier (max Tier 2).
+***Pitchforks and Hooks*** *(Mob, no slot).* When the group deals damage, the target must succeed on a STR trial [Cluster 4 / Brood 6 / Swarm 8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier (max Tier 2).
 
 > **Note:** Militia are peasants with spears, the most basic armed force a lord can muster. Minion rules apply: d2 everything, flat resistance.
 
@@ -261,7 +261,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 ***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the sergeant takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
 
-***Command*** *(2 AP, Action. Ability slot 2).* The sergeant shouts orders, All allied soldiers within 30 feet advance Inspired by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+***Command*** *(2 AP, Action. Ability slot 2).* The sergeant shouts orders, All allied soldiers within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 > **Note:** The sergeant has three combat styles via the longsword's Versatile property: Shield (defensive wall), Single (balanced), Two-Handed (aggressive). The kite shield is strapped — removing it costs 1 AP, which is the sergeant's entire offensive budget on a 2 AP creature. The sergeant most likely picks a style at encounter start and stays there.
 
@@ -310,7 +310,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 ***Intercept*** *(1 AP, Reaction. Ability slot 2).* When an enemy attacks an ally within 5 feet of the knight, the knight becomes the target of the attack instead. Gains Dominance on the defense roll.
 
-***Shield Punch*** *(1 AP, Attack. W&S style. Ability slot 3).* The knight makes a shield attack: d6 + d3 Crushing (its shield-grip attack dice). On hit, if the knight deals damage, the target must succeed on a PER trial [6] or advance Impaired by 1 tier.
+***Shield Punch*** *(1 AP, Attack. W&S style. Ability slot 3).* The knight makes a shield attack: d6 + d3 Crushing (its shield-grip attack dice). On hit, if the knight deals damage, the target must succeed on a PER trial [6] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
 
 ***Half-Sword*** *(2 AP, Attack. Swords style. Ability slot 4).* Requires a free hand (cannot be used while wielding shield). The target must succeed on a PHY or AGI trial [6] (target's choice). On failure, the knight rolls its PHY die with Dominance. This damage bypasses armor.
 
@@ -358,7 +358,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 **Abilities:**
 
-***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [4] or advance Restricted by 1 tier. Multiple successful Pinning Shots stack the condition.
+***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [4] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
 
 > **Note:** The woodsman is a ranged-focused fighter. No weapon style modifier (single weapon bow). The seax is a backup weapon for melee. Low armor, moderate health — this is a back-line fighter that crumbles if engaged in melee. The 0 Cutting resistance means blades go right through the Hide armor's gaps.
 
@@ -396,9 +396,9 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 **Abilities:**
 
-***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or advance Restricted by 1 tier. Multiple successful Pinning Shots stack the condition.
+***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
 
-***Mark Quarry*** *(2 AP, Action. Ability slot 2).* The ranger captain designates a target within line of sight. All allied hunters and beasts within 60 feet advance Inspired by 1 tier against that target only. Lasts 1 round. Can be reapplied to stack tiers.
+***Mark Quarry*** *(2 AP, Action. Ability slot 2).* The ranger captain designates a target within line of sight. All allied hunters and beasts within 60 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier against that target only. Lasts 1 round. Can be reapplied to stack tiers.
 
 > **Note:** Mark Quarry is a single-target variant of the standard Leader buff. Narrower than Rally/Command (one target vs all targets), but this IS how hunting parties operate — the captain identifies the quarry, the pack focuses. 2 AP cost is appropriate; it still grants Inspired to all allies within range. The limitation reflects the encounter design: hunters coordinate on a single dangerous target, not a battlefield of enemies.
 
@@ -436,7 +436,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 **Mob:**
 
-***Blood Up*** *(Mob, no slot).* When the group deals damage, it advances Invigorated by 1 tier.
+***Blood Up*** *(Mob, no slot).* When the group deals damage, it advances [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier.
 
 ---
 
@@ -510,7 +510,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 ***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the captain takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
 
-***Command Shout*** *(2 AP, Action. Ability slot 2).* The Captain shouts orders. All allied infantry within 30 feet advance Inspired by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+***Command Shout*** *(2 AP, Action. Ability slot 2).* The Captain shouts orders. All allied infantry within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 ---
 
@@ -590,7 +590,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 ***Empty Fade*** *(1 AP, Reaction. Ability slot 2).* When an enemy approaches to make a melee attack, the Warlord feints retreat. The attacker must succeed on a PER trial [7] or attack with Impotence while the Warlord defends normally. If the attack misses, the Warlord counter-attacks with a bonus of +3. If the attack hits, the attacker gains a bonus equal to their attack attribute tier to damage.
 
-***Command Shout*** *(2 AP, Action. 1/encounter. Ability slot 3).* The Warlord shouts orders. All allied infantry within 30 feet advance Inspired by 1 tier. Persists until end of encounter.
+***Command Shout*** *(2 AP, Action. 1/encounter. Ability slot 3).* The Warlord shouts orders. All allied infantry within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Persists until end of encounter.
 
 ***Deflect*** *(2 AP, declared at start of round. Ability slot 4).* The Warlord cannot attack this round. Can defend against up to 3 attacks instead of the normal 2. The remaining 1 AP can be used for reactions or movement.
 

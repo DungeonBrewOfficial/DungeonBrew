@@ -9,7 +9,7 @@ generated_by: tools/sync_mastery.py
 
 ## Animals
 
-While there are a variety of animals that can be purchased for trade or consumption, the animals listed below are most often chosen by adventurers looking for useful or loyal companions. Animals with a stat block in *Creatures – Mortal Beasts* use that block; the entry below tells you which. Commands and further training follow *Animal Companion Advancement*.
+While there are a variety of animals that can be purchased for trade or consumption, the animals listed below are most often chosen by adventurers looking for useful or loyal companions. Animals with a stat block in *Creatures – Mortal Beasts* use that block; the entry below tells you which. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*.
 
 **Bird, Trained Hunting**. Trained hunting birds are birds of prey caught in the wild and then trained and sold. They hunt for their handler, bringing back 1, 2, or 3 meals of raw game on a successful hunt depending on size (an eagle, 4). While capable of taking some larger prey, they can rarely carry it back and instead circle to mark the kill. They also scout, circling above nearby creatures, and circle over their handler and cry when they see creatures approaching. Commands and further training follow *Animal Companion Advancement*. *Stat block: Small, Middling, or Large Hunting Bird, or Hunting Eagle, by species.*
 

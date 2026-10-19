@@ -57,13 +57,13 @@ She is a gray elf. An elf of knowledge and nobility. Her power comes from her gr
 
 **Skills**. At first level, you begin with 1 Skill Mastery point, which must be spent immediately on a Skill. You may use this point to advance a Skill to Untrained mastery, but no further at this level.
 
-* As a Gray Elf, you can learn the following skills: *Athletics*, *Trade (All)*, *Lore*, *Spellcraft*, *Stealth*, *Tactics*, *Thievery*, and *Wilderness* skills.
-* You learn *Alertness* and *Presence* as part of the *Gray Elf Nature* class ability for free.
+* As a Gray Elf, you can learn the following skills: *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
+* You learn *[Alertness](../../skills/alertness.md)* and *[Presence](../../skills/presence.md)* as part of the *[Gray Elf Nature](#gray-elf-nature)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 21, this increases to 2 points per level.
 
 **Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 6 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
-* As a gray elf, you can learn the 6 following forms: *Fire*, *Sea*, *Sky*, *Stone*, *Sacred*, and *Primal* magic.
+* As a gray elf, you can learn the 6 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, *[Sacred](../../magic/index.md#sacred)*, and *[Primal](../../magic/index.md#primal)* magic.
 * You gain 1 Spell Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 **Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
@@ -78,19 +78,19 @@ You gain abilities below as you increase level.
 
 ### Fae
 
-As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+As a Fae being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Elven Nature
 
-**Unshaken.** You are immune to Demoralized.
+**Unshaken.** You are immune to [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.").
 
-**Crepuscular Sight.** Within 200 feet, creatures in ambient light are not Concealed from you.
+**Crepuscular Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you.
 
 **Uncanny Agility.** You can make active defense rolls against ranged attacks without a shield, using your Agility tier die + applicable resistance.
 
 ### Gray Elf Nature
 
-You automatically advance in the *Alertness* and *Presence* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+You automatically advance in the *[Alertness](../../skills/alertness.md)* and *[Presence](../../skills/presence.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 **Thought-Opening.** You have natural telepathy. Creatures that do not possess telepathy or are not elves cannot respond. Normal limitations of communication based on shared languages apply. Using telepathy in combat requires an action and is limited to a single, simple sentence.
 
@@ -112,7 +112,7 @@ You automatically advance in the *Alertness* and *Presence* Skill Mastery. You b
 
 *Level 1*
 
-You can cast priscan spells. You have a number of *Magan*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *Resting*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -120,4 +120,4 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 **Training.** You are trained by an elder gray elf of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
 
-**Spell Acquisition.** You can also discover new spells at fonts of priscan magic. You meditate at the font, burning ritual components worth magan² ss to internalize the spell through your bloodline. Internalizing a spell takes 1 day per magan. Your spells are comprehended and held within you; they require no physical medium. See the *Magic Mastery* chapter, *Spell Sources* and *Discovery*.
+**Spell Acquisition.** You can also discover new spells at fonts of priscan magic. You meditate at the font, burning ritual components worth magan² ss to internalize the spell through your bloodline. Internalizing a spell takes 1 day per magan. Your spells are comprehended and held within you; they require no physical medium. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.

@@ -18,7 +18,7 @@ You may declare a formation at the start of the combat round. Formations share t
 
 When you would make an attribute trial to resist a condition, you may instead make a Tactics mastery trial against the same DC. The sources you can apply this to expand as your mastery grows:
 
-**Terrain** (Untrained): You may substitute for conditions originating from the physical environment — Prone from Unstable terrain, damage from Hazardous terrain, and similar environmental effects.
+**Terrain** (Untrained): You may substitute for conditions originating from the physical environment — [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") from Unstable terrain, damage from Hazardous terrain, and similar environmental effects.
 
 **Creatures** (Skilled): You may also substitute for conditions originating from martial sources — weapon attacks, physical creature abilities, and combat maneuvers. This does not apply to spells.
 
@@ -28,7 +28,7 @@ When you would make an attribute trial to resist a condition, you may instead ma
 
 At Expert mastery, you gain the ability to screen allies from ranged threats by physically interposing yourself between an enemy and an ally. Screening is not a formation — it does not use the declaration slot and can be maintained alongside a guard or formation.
 
-When you or an ally moves into a position where you are directly between a specific enemy and a specific ally (a straight line from enemy to ally passes through your position), you may declare that you are screening that ally from that enemy and whether you are providing Cover or Concealment. You must specify the ally, the enemy and the condition (Conceal or Cover).
+When you or an ally moves into a position where you are directly between a specific enemy and a specific ally (a straight line from enemy to ally passes through your position), you may declare that you are screening that ally from that enemy and whether you are providing [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") or Concealment. You must specify the ally, the enemy and the condition (Conceal or Cover).
 
 You may only screen one ally from one enemy at a time.
 
@@ -87,7 +87,7 @@ You fight on ground you chose, exploiting every irregularity in the environment 
 **Ground Control:** You add your Tactics mastery die to Reprisal Attack rolls when not using a maneuver.
 
 **Expert: Formation + Screening (choose one)**
-Choose one of the remaining formations you have not yet selected. Choose either Cover or Concealment screening.
+Choose one of the remaining formations you have not yet selected. Choose either [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") or Concealment screening.
 
 **Master: Formation + Battlefield Sense (Threats)**
 Choose one of the remaining formations you have not yet selected.

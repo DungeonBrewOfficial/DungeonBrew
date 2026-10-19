@@ -26,7 +26,7 @@ Kits are ready-made bundles for new characters, priced at the sum of their conte
 
 ## Containers
 
-Containers serve a variety of purposes, allowing bulky or valuable goods to be protected and transported over large distances. Rules for carrying containers, slots, capacity, and quick items are in the *Encumbrance* section.
+Containers serve a variety of purposes, allowing bulky or valuable goods to be protected and transported over large distances. Rules for carrying containers, slots, capacity, and quick items are in the *[Encumbrance](coin-wealth-encumbrance.md#encumbrance)* section.
 
 **Ammunition Pouch**. A leather pouch that holds 1 sheaf (24) of sling bullets or darts of one type. Can be affixed to the belt or hip.
 
@@ -277,13 +277,13 @@ There is a variety of items that are useful to adventurers and travelers of all 
 | Leaf of Vellum | L [100] / .1 lb. | 1 sp |
 | Leg, Fine Wooden | NE / 5 lbs. | 1 sc |
 | Lock, Swing Shackle | L / 6 lbs. | 1 sf |
-| Lock, Warded Push Key | L / 4 lbs. | 1 sc |
+| Lock, [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") Push Key | L / 4 lbs. | 1 sc |
 | Merchant's Scale | L / 3 lbs. | 1 sc |
 | Mirror, Small Metal | L / 1 lb. | 1 ss |
 
 **Ball Bearings (1,000)**. You can spill these tiny iron balls from their pouch to cover a level, square area that is 10 feet on a side. A Large or smaller creature moving across the covered area must succeed on an Agility trial or fall prone. A creature moving through the area at half speed doesn't need to roll the trial.
 
-**Bola**. A set of cords with two or three weighted balls on the ends. The bola is whirled overhead and thrown at a target's legs to entangle them. Throwing a bola costs 1 AP. Roll 2d[Physique Tier Die] to set the entanglement DC. The target makes a Strength Trial against your DC. On failure, the target advances Restricted by 1 tier. A Restricted creature can spend 1 AP to cut the bola with a bladed weapon or make a Strength Trial against the original DC to pull free. Cannot target creatures more than one size larger than you or creatures without legs. Single use until retrieved and untangled (1 minute out of combat). Range: 20/40 (second increment with Impotence).
+**Bola**. A set of cords with two or three weighted balls on the ends. The bola is whirled overhead and thrown at a target's legs to entangle them. Throwing a bola costs 1 AP. Roll 2d[Physique Tier Die] to set the entanglement DC. The target makes a Strength Trial against your DC. On failure, the target advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. A Restricted creature can spend 1 AP to cut the bola with a bladed weapon or make a Strength Trial against the original DC to pull free. Cannot target creatures more than one size larger than you or creatures without legs. Single use until retrieved and untangled (1 minute out of combat). Range: 20/40 (second increment with Impotence).
 
 **Block and Tackle**. Wooden pulley system intended for use with Hemp Rope. For the purposes of lifting or pulling objects, force is doubled for each additional pulley.
 
@@ -295,7 +295,7 @@ Any creature that enters the area must succeed on an Agility trial (DC 4) or sto
 
 **Candle, Tallow**. Candles made from animal fat, which have a distinctly unpleasant smell that sometimes attracts beasts or predatory creatures. Lasts about 2 hours and provides 10 feet of light and 10 feet of ambient light. Can be placed in a lantern to avoid snuffing it out due to wind or rain.
 
-**Cane**. A walking stick of ash or oak. A character with a lost foot or broken leg can move with a cane (see *Combat*, Trauma Table).
+**Cane**. A walking stick of ash or oak. A character with a lost foot or broken leg can move with a cane (see *[Combat](../core/combat.md)*, [Trauma Table](../core/combat.md#trauma-table)).
 
 **Chalk**. A small chunk of chalk that is useful for marking passageways to avoid getting lost, inform other adventurers of dangers, or pass other valuable information.
 
@@ -467,9 +467,9 @@ Using lamp oil in combat requires a successful attack to cover a target in the o
 
 **Silk String, Spool**. Spool of silk string that can be used for repairing fabric or sewing buttons. Oftentimes, it is carried by thieves and adventurers to trip traps or construct traps or snares.
 
-**Spell Component (Serf)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 1, to a minimum of 1 magan. These components are consumed with the casting of the spell.
+**Spell Component (Serf)**. Spell components that reduce the magan cost of a *[Priscan](../magic/index.md#priscan-magic)*, *[Occult](../magic/index.md#occult-magic)*, *[Theurgic](../magic/index.md#theurgic-magic)*, or *[Telluric](../magic/index.md#telluric-magic)* spell by 1, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
-If you can cast spells and have *Wilderness* (Hunting and Foraging), you can forage for spell components (see *Hunting and Foraging* in *Skill Mastery*).
+If you can cast spells and have *[Wilderness](../skills/wilderness/index.md)* (Hunting and Foraging), you can forage for spell components (see *[Hunting and Foraging](../skills/wilderness/index.md#hunting-and-foraging)* in *[Skill Mastery](../skills/index.md)*).
 
 **Spell Component (Peasant)**. Spell components that reduce the magan cost of a *Priscan*, *Occult*, *Theurgic*, or *Telluric* spell by 2, to a minimum of 1 magan. These components are consumed with the casting of the spell.
 
@@ -497,7 +497,7 @@ If you can cast spells and have *Wilderness* (Hunting and Foraging), you can for
 
 **Slow Match**. Cord treated to smolder at about a foot an hour, carried lit. Its glowing tip lights fuses and primed wicks for 1 AP, but it is not a flame: anything else must be lit from a flame or with a tinderbox.
 
-**Tinderbox**. A container of wood or metal that contains flint, firesteel, and tinder, such as charcloth or hemp fibers. Lighting something with a tinderbox takes 6 AP (see *Combat*, Interaction).
+**Tinderbox**. A container of wood or metal that contains flint, firesteel, and tinder, such as charcloth or hemp fibers. Lighting something with a tinderbox takes 6 AP (see *Combat*, [Interaction](../core/combat.md#interaction)).
 
 **Torch**. 3-4 foot ash or hickory haft with one end wrapped in wool or linen that is soaked in oil. When lit, it produces light for 10 feet and ambient light for an additional 20 feet. Burns for about 30 minutes (3 exploration rounds).
 
@@ -507,7 +507,7 @@ If you can cast spells and have *Wilderness* (Hunting and Foraging), you can for
 
 ## Foci
 
-A focus is an object that channels a caster's power (see *Components* in *Magic Mastery*). Any caster can use any focus; it must be held in one hand to cast. Worn foci (pectorals, talismans) can be grasped and released freely without drawing or stowing them. Other foci are drawn and stowed like any item. A rod can be wielded as a Club and a staff as a Quarterstaff.
+A focus is an object that channels a caster's power (see *[Components](../magic/index.md#components)* in *[Magic Mastery](../magic/index.md)*). Any caster can use any focus; it must be held in one hand to cast. Worn foci (pectorals, talismans) can be grasped and released freely without drawing or stowing them. Other foci are drawn and stowed like any item. A rod can be wielded as a Club and a staff as a Quarterstaff.
 
 | Focus | Enc / Weight | Price | Carry |
 |:---|:---:|:---:|:---|
@@ -560,7 +560,7 @@ A focus is an object that channels a caster's power (see *Components* in *Magic 
 
 ## Alchemist's Gear
 
-Vessels and protective gear for alchemical concoctions. The concoctions themselves are described in *Alchemy*.
+Vessels and protective gear for alchemical concoctions. The concoctions themselves are described in *[Alchemy](../skills/trade/alchemy/index.md)*.
 
 | Item | Enc / Weight | Holds | Price | Carry |
 |:---|:---:|:---:|:---:|:---|
@@ -572,7 +572,7 @@ Vessels and protective gear for alchemical concoctions. The concoctions themselv
 
 **Field Kit (Apothecary's Satchel)**. A fitted satchel holding a small mortar and pestle, a cased scale and weights, a small pan and trivet, straining cloths, a funnel, a spatula and spoon, shears, a bleeding bowl, corks, wax, and padded places for 12 phials. Phials in their places ignore the breakage hazard. Drawing from it costs 1 AP, as an item on your body.
 
-**Latched Case**. A padded, latched case for two fire-pots or grenades. While shut, its contents ignore the breakage and fire hazards (see *Alchemy*, Hazardous). Drawing from it costs 1 AP, as an item on your body.
+**Latched Case**. A padded, latched case for two fire-pots or grenades. While shut, its contents ignore the breakage and fire hazards (see *Alchemy*, [Hazardous](../skills/trade/alchemy/index.md#hazardous)). Drawing from it costs 1 AP, as an item on your body.
 
 **Vial**. A stoppered vial about the size of a finger, holding 2 oz: one dose of a concoction. Packed vials are assumed to be wrapped against breakage. **Glass** is cheap and fragile, and it is required for acids, which eat metal. **Pewter** is heavier and dearer, and it doesn't break.
 
@@ -580,7 +580,7 @@ Vessels and protective gear for alchemical concoctions. The concoctions themselv
 
 ## Food and Drink
 
-Provisions are sold for cooking, trade, and the table. Items with a Meals value can be eaten as Poor meals; raw meat, fish, and eggs must be cooked first (see *Cooking* in *Camping Roles*). Liquids are sold by the gallon and require a container. Bread and fresh vegetables keep 3 days.
+Provisions are sold for cooking, trade, and the table. Items with a Meals value can be eaten as Poor meals; raw meat, fish, and eggs must be cooked first (see *[Cooking](../core/exploration-and-travel.md#cooking)* in *[Camping Roles](../core/exploration-and-travel.md#camping-roles)*). Liquids are sold by the gallon and require a container. Bread and fresh vegetables keep 3 days.
 
 | Item | Quantity | Enc / Weight | Price | Meals |
 |:---|:---:|:---:|:---:|:---:|

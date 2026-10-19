@@ -23,6 +23,9 @@ import re
 import subprocess
 import sys
 
+sys.dont_write_bytecode = True  # keep tools/__pycache__ out of the repo
+from mastery_links import link_pages, write_report  # noqa: E402
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(REPO_ROOT, "docs")
 OUT_DIR = os.path.join(DOCS, "mastery")
@@ -149,7 +152,11 @@ STUBS = {
 !!! warning "Playtest"
     Mastery is in active playtesting. Rules on these pages can change between sessions.
 
-Mastery is a tabletop roleplaying game that grew out of the OSR. Characters grow through mastery in three domains, weapons, magic, and skills, which share one progression and one set of rules for advancement.
+Mastery is a system which focuses on meaningful choices, character growth and development, and verisimilitude in gameplay where possible. The goal of this system is to allow the mechanics to support the roleplay and the narrative.
+
+The mechanics of this system are designed around grounded gameplay aligned to realism, grimdark, and dark fantasy roleplaying. Characters who fight alone, die alone. Magic used carelessly will eventually hurt you, armor in disrepair will fail you, and the attribute you drop will be the attribute that kills you.
+
+Have fun!
 
 ## Where to Start
 
@@ -539,6 +546,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--source", default=os.path.join(os.path.dirname(REPO_ROOT), "mastery"),
                         help="path to a checkout of the mastery repo (default: ../mastery)")
+    parser.add_argument("--report", help="write a review list of every cross-reference link here")
     args = parser.parse_args()
     source_dir = os.path.abspath(args.source)
 
@@ -555,8 +563,12 @@ def main():
     ignored = sorted(f for f in os.listdir(source_dir)
                      if f.endswith(".md") and os.path.join(source_dir, f) not in used)
 
-    outputs = {os.path.join(OUT_DIR, PAGES[k]["path"]): render_page(PAGES[k], segs)
-               for k, segs in segments.items()}
+    rendered = {k: {"path": PAGES[k]["path"], "title": PAGES[k]["title"],
+                    "text": render_page(PAGES[k], segs)} for k, segs in segments.items()}
+    links, skipped, unmatched = link_pages(rendered)
+    if args.report:
+        write_report(args.report, links, skipped, unmatched, rendered)
+    outputs = {os.path.join(OUT_DIR, p["path"]): p["text"] for p in rendered.values()}
 
     for path in outputs:
         if os.path.exists(path) and not is_generated(path):
@@ -592,7 +604,8 @@ def main():
         rev = "unknown"
     update_nav(rev)
 
-    print(f"Wrote {len(outputs)} pages from mastery @ {rev}.")
+    print(f"Wrote {len(outputs)} pages from mastery @ {rev}, with {len(links)} "
+          f"cross-reference links ({len(skipped)} ambiguous mentions left unlinked).")
     for path in created:
         print(f"  created stub {os.path.relpath(path, REPO_ROOT)}")
     for path in removed:

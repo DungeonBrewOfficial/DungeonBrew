@@ -34,7 +34,7 @@ At each mastery level, choose one Athletics ability from any attribute category.
 
 **Deft:** When you actively defend, add your Agility tier to the defense roll.
 
-**Head Start:** On the first round of combat in which you are not Impaired from a Startle trial, your first movement does not cost AP.
+**Head Start:** On the first round of combat in which you are not [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") from a Startle trial, your first movement does not cost AP.
 
 **Slippery:** You gain Dominance on Agility trials to avoid traps and spells.
 
@@ -46,9 +46,9 @@ At each mastery level, choose one Athletics ability from any attribute category.
 
 **Elemental Resistance:** Choose one element (Sea, Sky, Stone, or Fire). You resist that damage type by an amount equal to your Endurance tier.
 
-**Healthy:** You gain Dominance on trials to resist Tainted and Infected conditions.
+**Healthy:** You gain Dominance on trials to resist [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") and [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
 
-**Vigorous:** After a rest, you regain additional health equal to your Endurance tier. You always reduce Exhausted by 1 tier when resting, regardless of rest quality or location.
+**Vigorous:** After a rest, you regain additional health equal to your Endurance tier. You always reduce [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier when resting, regardless of rest quality or location.
 
 ### PHYSIQUE ABILITIES
 
@@ -66,6 +66,6 @@ At each mastery level, choose one Athletics ability from any attribute category.
 
 **Overbearing:** When a target actively defends against your melee attack, their defense roll has Impotence.
 
-**Sturdy:** You gain Dominance on trials to resist Restricted conditions.
+**Sturdy:** You gain Dominance on trials to resist [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") conditions.
 
 **Unstoppable:** You can automatically succeed at one Strength trial without rolling, as long as the DC is within the maximum possible roll of your dice (tier die + mastery die). For example, if you are rolling 1d4 + 1d6 (max 10), you can auto-succeed on DC 10 or lower, but not DC 11+. You cannot use this again until you complete a rest.

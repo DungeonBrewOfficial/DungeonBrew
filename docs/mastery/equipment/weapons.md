@@ -20,11 +20,11 @@ The bold text at the end of each weapon description, and the Properties column o
 
 - **A bonus to a maneuver's roll** (such as *+2 to Rive Attack*, *+2 to Breaker damage*, or *+1 to Threading the Needle Aiming Trial*) adds to that roll when you use the maneuver with this weapon.
 - **A bonus to a maneuver's DC** (such as *+1 to Horn Thrust DC*) raises your Weapon Mastery DC, which the target rolls against to resist that maneuver.
-- **A maneuver's name alone** (such as *Hook* on a Khopesh) lets you use that maneuver with this weapon, even if it belongs to another weapon type.
+- **A maneuver's name alone** (such as *[Hook](../weapons/type-maneuvers.md#hook)* on a Khopesh) lets you use that maneuver with this weapon, even if it belongs to another weapon type.
 
-You must be able to use a maneuver to benefit from a property that names it. A borrowed maneuver uses your mastery in the weapon's own type to meet its mastery requirement. For example, the Baselard's *Lunge and Fade* requires Expert in Daggers, and the Peasant Flail's *+2 to Smash* applies once you reach Master in the Two-Handed style.
+You must be able to use a maneuver to benefit from a property that names it. A borrowed maneuver uses your mastery in the weapon's own type to meet its mastery requirement. For example, the Baselard's *[Lunge and Fade](../weapons/type-maneuvers.md#lunge-and-fade)* requires Expert in Daggers, and the Peasant Flail's *+2 to Smash* applies once you reach Master in the Two-Handed style.
 
-**Engagement.** A weapon's Engagement column sets its speed. Where it differs from the category's default speed in *Weapon Mastery*, the weapon's listed speed applies.
+**Engagement.** A weapon's Engagement column sets its speed. Where it differs from the category's default speed in *[Weapon Mastery](../weapons/index.md)*, the weapon's listed speed applies.
 
 **Tool.** The weapon doubles as a working tool (chopping, digging, farm work, or fishing) and serves for those tasks without buying a separate tool.
 
@@ -32,7 +32,7 @@ You must be able to use a maneuver to benefit from a property that names it. A b
 
 **No Parry.** The weapon's short, flexible haft cannot turn a blow aside. You cannot use Parry while wielding it.
 
-**Sap.** When you Bash with this weapon, a target that fails the trial advances Impaired by 1 tier, or by 2 tiers if it fails by 5 or more. If the target rolls a natural minimum, it falls Unconscious for a number of rounds equal to your Bludgeons Mastery Tier, or until it takes damage or an adjacent creature spends 1 AP to rouse it. When it wakes, it is Stunned (Impaired Tier 2).
+**Sap.** When you Bash with this weapon, a target that fails the trial advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier, or by 2 tiers if it fails by 5 or more. If the target rolls a natural minimum, it falls [Unconscious](../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.") for a number of rounds equal to your Bludgeons Mastery Tier, or until it takes damage or an adjacent creature spends 1 AP to rouse it. When it wakes, it is Stunned (Impaired Tier 2).
 
 **Sting.** The weapon exists to break the skin and deliver whatever coats or fills its dart: a poison, a sedative, or another agent. The wound itself does little. If you know them, it benefits only from the following:
 - **Maneuvers:** Threading the Needle, Steady Hand.
@@ -330,7 +330,7 @@ Arrows, bullets, darts, and quarrels are used by a variety of launchers. While b
 
 **Swallowtail Head**. Tip with broad, sweeping points that is designed to cut. Mostly used for hunting larger game with the intent that it will become lodged inside the target and cause them to bleed out. The head cannot pierce medium or heavier armor, but on unarmored or lightly armored targets, they must make an Endurance trial or take 1d2 cutting damage per round until it is removed. **(Bleeding (1d2))**
 
-**Wrapped**. 3-4 inches of the haft near the tip is wrapped in linen. Linen can be soaked with flammable liquid, such as oil and lit on fire, or with an alchemical preparation such as wildfire (see *Alchemy*, Wildfire). Soaking arrows or quarrels takes one exploration round.
+**Wrapped**. 3-4 inches of the haft near the tip is wrapped in linen. Linen can be soaked with flammable liquid, such as oil and lit on fire, or with an alchemical preparation such as wildfire (see *[Alchemy](../skills/trade/alchemy/index.md)*, [Wildfire](../skills/trade/alchemy/incendiaries.md#wildfire)). Soaking arrows or quarrels takes one exploration round.
 
 | Ammunition | Cost | Engagement | Launcher Type | Damage Type | Enc / Weight | Properties |
 |:-|:---:|:---:|:---:|:---:|:---:|:------|
