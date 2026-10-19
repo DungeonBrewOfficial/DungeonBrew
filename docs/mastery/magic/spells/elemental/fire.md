@@ -85,7 +85,7 @@ You touch an object, causing it to emit steady light equivalent to a torch for h
 
 **Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.
 
-You hurl a bolt of fire that ignites on impact. The target makes an Agility trial; on failure, it takes full fire damage and gains Attrition (Burning). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
+You hurl a bolt of fire that ignites on impact. The target makes an Agility trial; on failure, it takes full fire damage and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
 
 ---
 
@@ -170,7 +170,7 @@ You attune your senses to heat and active fire magic for the encounter. You perc
 
 **Cost:** (1 + 1 + 0) × 3 × 1 = 6.
 
-You reach through the fire form to charm a fire-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances Charmed by 1 tier.
+You reach through the fire form to charm a fire-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
 
 ---
 

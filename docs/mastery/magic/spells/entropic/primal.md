@@ -51,7 +51,7 @@ You unleash a wave of primal force at a point within 100 feet, engulfing a large
 
 **Cost:** (1 + 1 + 0) x 1 x 1 x 2 = 4.
 
-You strike a creature within 30 feet with primal energy that festers on impact. The target makes an Agility trial; on failure, it takes full primal damage and gains Attrition (Withering). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
+You strike a creature within 30 feet with primal energy that festers on impact. The target makes an Agility trial; on failure, it takes full primal damage and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Withering). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
 
 ---
 
@@ -136,7 +136,7 @@ You wreathe yourself in living thorns for the encounter. Creatures that strike y
 
 **Cost:** (1 + 0 + 0) x 3 x 1 = 3.
 
-You touch a creature and flood it with primal vitality for the encounter. The target advances Invigorated by 1 tier.
+You touch a creature and flood it with primal vitality for the encounter. The target advances [Invigorated](../../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier.
 
 ---
 
@@ -153,7 +153,7 @@ You touch a creature and flood it with primal vitality for the encounter. The ta
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
 
-You cause vines, roots, or living growth to seize a creature within 30 feet for the encounter. The target makes a Strength trial; on failure, it advances Restricted by 1 tier.
+You cause vines, roots, or living growth to seize a creature within 30 feet for the encounter. The target makes a Strength trial; on failure, it advances [Restricted](../../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 ---
 
@@ -170,7 +170,7 @@ You cause vines, roots, or living growth to seize a creature within 30 feet for 
 
 **Cost:** (1 + 1 + 0) x 3 x 1 = 6.
 
-You reach through the primal form to charm a fae-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances Charmed by 1 tier.
+You reach through the primal form to charm a fae-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
 
 ---
 

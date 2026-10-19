@@ -92,12 +92,12 @@ As a result, you may either choose one of the following curses or have one assig
 
 **Insane.** You are touched with madness in ways that are impossible to ignore. Roll twice on the insanity chart, one must be below 50 and one must be above 50.
 
-- As an insane being, you are immune to Void damage and have Impotence on trials to resist Primal damage. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+- As an insane being, you are immune to Void damage and have Impotence on trials to resist Primal damage. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - You gain Dominance on trials against the [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") and [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") conditions.
 
 **Possessed.** You have the spark of a demon or devil inside of you. Your spark is revealed through your physical being, such as skin, hair, eyes, horns, a tail, or similar infernal marks. However, even if your physical being were not altered, your damned spirit can be sensed by anyone looking upon you or being near you. Your flesh is hot to the touch and an odor of brimstone and blood emanates from you.
 
-- As a possessed being, you are immune to Profane damage and have Impotence on trials to resist Sacred damage. You are connected to the Profane magic form. Only Profane magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+- As a possessed being, you are immune to Profane damage and have Impotence on trials to resist Sacred damage. You are connected to the Profane magic form. Only Profane magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - Fire resistance equal to half level (rounded down).
 - Immune to your own fire aura.
 - Sacred magic damage against you has Superiority.
@@ -106,7 +106,7 @@ As a result, you may either choose one of the following curses or have one assig
 
 **Undead.** You are not dead, but not quite alive. You abhor the light, fresh air, and the cheerfulness of others. Your flesh is cold to the touch, your breath smells like a rotting corpse, and you are vulnerable to being turned. A Turn can target you individually; your Turn DC is half your level (rounded down) + your Perception tier.
 
-- As an undead being, you are immune to Profane damage and have Impotence on trials to resist Sacred damage. You are connected to the Profane magic form. Only Profane magic can Charm, Control, summon, or banish you, or restore your mind (see *Magic Mastery*, Connected Form). All other magic affects you normally.
+- As an undead being, you are immune to Profane damage and have Impotence on trials to resist Sacred damage. You are connected to the Profane magic form. Only Profane magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - You do not need to breathe and are immune to spells and effects based on breathing.
 - You constantly hunger for the flesh of the living. If you do not consume the flesh of an intelligent humanoid once per week, you cannot benefit from magical healing.
 

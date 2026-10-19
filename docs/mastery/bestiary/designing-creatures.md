@@ -99,7 +99,7 @@ Conditions are defined in Conditions. The stat block does not restate condition 
 Format: `...the target must succeed on an END trial [DC] or gain Attrition (Bleeding).`
 - Each instance deals damage equal to the source's relevant attribute tier at end of the afflicted creature's turn, then expires.
 - Bleeding uses END trial to resist. Burning uses AGI trial to resist.
-- See [Conditions](../core/conditions.md), Attrition, for damage type labels and applicable resistances.
+- See [Conditions](../core/conditions.md), [Attrition](../core/conditions.md#attrition), for damage type labels and applicable resistances.
 
 **Venomous Bite (venom delivery on weapon hit):**
 Format: `On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts X Primal damage (END Tier). The target must succeed on a [condition's attribute] trial [DC] or advance [Condition] by 1 tier.`

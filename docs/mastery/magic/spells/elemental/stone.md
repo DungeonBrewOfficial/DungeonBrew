@@ -85,7 +85,7 @@ You surround yourself with a churning shell of grit and stone fragments for the 
 
 **Cost:** (1 + 1 + 0) × 3 × 1 = 6.
 
-You cause stone and earth to grip a creature's legs within 30 feet for the encounter. The target makes a Strength trial; on failure, it advances Restricted by 1 tier. The condition persists for the spell's duration.
+You cause stone and earth to grip a creature's legs within 30 feet for the encounter. The target makes a Strength trial; on failure, it advances [Restricted](../../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. The condition persists for the spell's duration.
 
 ---
 

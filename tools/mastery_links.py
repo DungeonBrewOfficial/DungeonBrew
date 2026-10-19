@@ -13,7 +13,8 @@ which adds three kinds of link:
   conditions  capitalized condition names (Tainted, Prone, ...), linked to
               their entry with the rules text as a hover tooltip
 
-Each target is linked once per section, so repeated mentions stay plain.
+Each target is linked once per section, so repeated mentions in prose stay
+plain. Table rows and list items are lookups, so each one links on its own.
 A name that matches more than one heading is left unlinked and reported
 rather than guessed.
 """
@@ -58,6 +59,7 @@ PROTECTED = re.compile(r"`[^`\n]*`|\[[^\]\n]*\]\([^)\n]*\)|<[^>\n]+>")
 ITALIC = re.compile(r"(?<![*\w])\*(?=[^\s*])([^*\n]{1,80}?)(?<=\S)\*(?![*\w])")
 SEE = re.compile(r"\b([Ss]ee (?:the )?)([A-Z][\w'’-]*(?: (?:[A-Z][\w'’-]*|of|and|the|on))*)")
 TABLE_RULE = re.compile(r"^\s*\|?\s*:?-{3,}")
+LOOKUP_LINE = re.compile(r"^\s*(?:\||[-*+]\s|\d+\.\s)")  # table row or list item
 IDCOUNT = re.compile(r"^(.*)_([0-9]+)$")
 LEAD_BOLD = re.compile(r"^(?:<span[^>]*></span>)?\*\*[^*]+\*\*")
 
@@ -384,8 +386,13 @@ def link_pages(pages):
             if not ok or not line.strip() or TABLE_RULE.match(line) or line.startswith("!!!"):
                 continue
             current["line"] = line
+            lookup = LOOKUP_LINE.match(line)
+            if lookup:  # a row or item links on its own, apart from the prose
+                prose_seen, seen = seen, set()
             for step in (link_sections, link_italics, link_see, link_conditions):
                 line = outside_protected(line, step)
+            if lookup:
+                seen = prose_seen
             lines[i] = line
         page["text"] = "\n".join(lines)
 
