@@ -54,6 +54,17 @@ GENERIC = {"attack", "barriers", "casting", "components", "cost", "damage", "dea
 LEVEL = re.compile(r"(untrained|basic|skilled|expert|master|grand master) mastery")
 
 CONDITIONS_PAGE = "core/conditions"
+
+# Places where a condition's name means something else. Add to these when a
+# new rule uses a condition word in another sense.
+NOT_A_CONDITION_ON_PAGE = {
+    "core/durability": {"Fortified"},  # the top tier of the hardness scale
+}
+NOT_A_CONDITION = re.compile("|".join([
+    r"\bInspired One\b",          # Druid level title
+    r"\bWarded (?:Push )?Key\b",  # a kind of lock
+    r"\bClarity and speed\b",     # plain English, Designing Creatures
+]))
 TOOLTIP_MAX = 600
 
 HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*$")
@@ -373,8 +384,13 @@ def link_pages(pages):
             return SEE.sub(sub, seg)
 
         def link_conditions(seg):
+            other_sense = [x.span() for x in NOT_A_CONDITION.finditer(seg)]
+
             def sub(m):
                 name = m.group(1)
+                if (name in NOT_A_CONDITION_ON_PAGE.get(key, ())
+                        or any(a <= m.start() < b for a, b in other_sense)):
+                    return name
                 anchor, tip = conditions[name]
                 if take(CONDITIONS_PAGE, anchor, name, "condition"):
                     return f'[{name}]({url(CONDITIONS_PAGE, anchor)} "{tip}")'

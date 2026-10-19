@@ -277,7 +277,7 @@ There is a variety of items that are useful to adventurers and travelers of all 
 | Leaf of Vellum | L [100] / .1 lb. | 1 sp |
 | Leg, Fine Wooden | NE / 5 lbs. | 1 sc |
 | Lock, Swing Shackle | L / 6 lbs. | 1 sf |
-| Lock, [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") Push Key | L / 4 lbs. | 1 sc |
+| Lock, Warded Push Key | L / 4 lbs. | 1 sc |
 | Merchant's Scale | L / 3 lbs. | 1 sc |
 | Mirror, Small Metal | L / 1 lb. | 1 ss |
 
@@ -425,7 +425,7 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 
 **Lock, Swing Shackle**. A heavy, if somewhat simple iron lock that relies on a spring mechanism to keep the shackle closed. The key is a simple piece of bent iron that uncompresses the spring.
 
-**Lock, [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") Push Key**. Somewhat secure lock that requires two or more springs to be compressed simultaneously to release the shackle. The key has actual teeth which must be turned at the correct angle to compress the springs.
+**Lock, Warded Push Key**. Somewhat secure lock that requires two or more springs to be compressed simultaneously to release the shackle. The key has actual teeth which must be turned at the correct angle to compress the springs.
 
 **Merchant's Scale**. A simple scale to measure the weight of coins, gems, and similar valuables. Knowledge Lore trials to appraise coins, gems, and similar precious materials gain Dominance when you use a merchant's scale.
 

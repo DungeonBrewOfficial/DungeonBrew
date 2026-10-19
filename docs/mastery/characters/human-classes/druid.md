@@ -19,9 +19,9 @@ She is a druid. A human devotee of nature itself, who can tap into the deep magi
 | 7 \ 7 | 2,100 | Healer (Liaig) | - |  8 / 12 / 8 |
 | 8 \ 8 | 2,650 | Healer (Liaig) | - |  9 / 14 / 9 |
 | 9 \ 9 | 3,250 | Healer (Liaig) | +2 |  10 / 16 / 10 |
-| 10 \ 10 | 3,900 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | - |  11 / 18 / 11 |
-| 11 \ 10 | 4,600 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | - |  12 / 20 / 12 |
-| 12 \ 10 | 5,350 | [Inspired](../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") One (Awenydd) | +2 |  13 / 22 / 13 |
+| 10 \ 10 | 3,900 | Inspired One (Awenydd) | - |  11 / 18 / 11 |
+| 11 \ 10 | 4,600 | Inspired One (Awenydd) | - |  12 / 20 / 12 |
+| 12 \ 10 | 5,350 | Inspired One (Awenydd) | +2 |  13 / 22 / 13 |
 | 13 \ 10 | 6,150 | Sacred One (Nemed) | - |  14 / 24 / 14 |
 | 14 \ 10 | 7,000 | Sacred One (Nemed) | - |  15 / 26 / 15 |
 | 15 \ 10 | 7,900 | Sacred One (Nemed) | +2 |  16 / 28 / 16 |
