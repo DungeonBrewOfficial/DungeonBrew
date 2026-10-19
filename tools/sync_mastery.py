@@ -152,7 +152,11 @@ STUBS = {
 !!! warning "Playtest"
     Mastery is in active playtesting. Rules on these pages can change between sessions.
 
-Mastery is a tabletop roleplaying game that grew out of the OSR. Characters grow through mastery in three domains, weapons, magic, and skills, which share one progression and one set of rules for advancement.
+Mastery is a system which focuses on meaningful choices, character growth and development, and verisimilitude in gameplay where possible. The goal of this system is to allow the mechanics to support the roleplay and the narrative.
+
+The mechanics of this system are designed around grounded gameplay aligned to realism, grimdark, and dark fantasy roleplaying. Characters who fight alone, die alone. Magic used carelessly will eventually hurt you, armor in disrepair will fail you, and the attribute you drop will be the attribute that kills you.
+
+Have fun!
 
 ## Where to Start
 
