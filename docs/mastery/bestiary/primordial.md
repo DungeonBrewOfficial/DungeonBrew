@@ -329,6 +329,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 | Defense (with Club) | d8 + d12 + applicable resistance. (2H: −1 step. Attribute: STR) |
 | Defense (with Club 1H) | d10 + 2d6 + applicable resistance. (Attribute: STR) |
 | Defense (unarmed) | d10 + d12 + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 3 (max 2 attacks) |
 | Speed | 7 (35 ft) |
 | Footprint | 2×1 (2 sq) |
@@ -368,6 +369,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 | Trials | 1d10 + Attribute TD |
 | Defense | 2d6 (DTD) + 2d8 (STR) + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d12 (DTD) + 2d6 (STR) + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2/phase, active in Moderate + Slow (4 total, max 2 attacks/phase) |
 | Speed | 9 (45 ft) |
 | Footprint | 2×2 (4 sq) |

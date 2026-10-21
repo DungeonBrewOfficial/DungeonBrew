@@ -253,6 +253,8 @@ Minions always total 8 (all T1). Mortal humanoids (humans, elves, etc.) cap indi
 
 ## Health
 
+A creature reduced to 0 health dies. The GM may rule that a creature is captured, unconscious, or dying instead.
+
 ### Unarmored Health
 
 **Health = Endurance Score + (Division × Endurance TD) + DTD**

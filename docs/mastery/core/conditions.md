@@ -288,7 +288,7 @@ Concealed measures how well others know where a creature is. It comes from two k
 - **Obscuring sources,** such as limited light, fog, and smoke, hide everyone in them alike. Attacking does not end this concealment, and it grants no attack benefits.
 - **Hiding sources,** such as Sneaking, Vanish, and invisibility, hide one creature. A hiding creature gains the attack benefits below, and any attack it makes ends its Concealed once the attack resolves, unless its source says otherwise.
 
-**Close quarters.** A creature within 5 feet of you is not Concealed from you, unless it is invisible or in absolute darkness.
+**Close quarters.** A creature within 5 feet of you is not Concealed from you, unless it is invisible, in absolute darkness, or something blocks your sight of it.
 
 **Searching.** You can spend 1 AP on a Perception trial against the source's DC: a hider's Stealth Mastery DC, a spell's DC, or a DC the GM sets for the scene. On a success, the creature's Concealed drops by 1 tier for you.
 

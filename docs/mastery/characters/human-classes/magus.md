@@ -176,7 +176,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 **Health:** Shared with you. Each Tier adds its tier die to your shared health pool (compounding).
 
-**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see Classification).
+**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see Classification). Its natural attacks are Fast if it is small and Moderate if it is average.
 
 **Defense:** Your Intelligence tier die + Familiar tier die + Resistance.
 

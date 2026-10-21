@@ -199,6 +199,8 @@ If a creature ability resembles a PC maneuver but differs mechanically, it gets 
 
 **Maneuver-sourced abilities cost an ability slot** when written onto a stat block. Using a maneuver ad-hoc (like any creature Charging) does not cost a slot.
 
+**Guards.** A creature that fights with a wielded melee weapon lists its guards in a **Guards** row. It can have any guard its weapon mastery level (its rank) allows; most need only the three Untrained guards. Minions have none. Like a character, it declares one guard at the start of each round.
+
 ### Creature Skills and Ambushes
 
 **Creature skills.** Creatures don't track skills. A creature can attempt anything its nature plausibly allows: a bear climbs and a wolf does not, a thief lies and a zombie does not. Its Speed, Senses, and traits settle the edge cases. It rolls its trial dice: its rank die plus the tier die of the attribute the task calls for. When a PC resists it or sees through it, the DC is Division + 1. For skill counters, a creature counts as having mastery equal to its Division, up to Grand Master at Division 7 and above. A PC's counter discipline applies against a creature at that level; a creature never gains Dominance from a counter discipline, since its perception comes from its attributes and its Senses.

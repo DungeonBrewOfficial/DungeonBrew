@@ -9,7 +9,7 @@ generated_by: tools/sync_mastery.py
 | Formula | Value |
 |:---|:---|
 | **Skill Mastery Die** | 1d2 (Unskilled) → 1d3 (Untrained) → 1d4 (Basic) → 1d6 (Skilled) → 1d8 (Expert) → 1d10 (Master) → 1d12 (GM) |
-| **Health** | Compounding 2× Skill Die |
+| **Health** | Two of each skill die up to the handler's mastery (2d2 + 2d3 + …) |
 | **Attack** | Skill Mastery Die + higher of STR or PHY die |
 | **Defense** | Skill Mastery Die + AGI die + applicable resistance |
 | **Trials** | Skill Mastery Die + Attribute Die |

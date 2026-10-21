@@ -38,8 +38,8 @@ Armor consists of several parts, each of which offers unique protections and ben
 | **HIDE ARMOR**                         | **6 ss**  |	**1/2** |	**46**	|**RESIST: Cutting; 1, Crushing; 4, Cleaving; 2, Piercing; 7, Puncturing; 6**|	**14 lb.**|
 | &emsp; Aketon                          |	5 ss    |	        |4	|RESIST: Cutting; 1, Crushing; 1, Cleaving; 1, Piercing; 1, Puncturing; 1|	2 lb.|
 | &emsp; Hide Hauberk                    |	1 ss    |	      	|30	|RESIST: Cutting; 0, Crushing; 1, Cleaving; 1, Piercing; 3, Puncturing; 2|	7 lb.|
-| &emsp; Hide Coif                       |	1 sg    |		      |4	|RESIST: Cutting; 0, Crushing; 1, Cleaving; 0, Piercing; 2, Puncturing; 2|	2 lb.|
-| &emsp; Hide Greaves, Cuisses           |	1 sg    |	      	|8	|RESIST: Cutting; 0, Crushing; 1, Cleaving; 0, Piercing; 1, Puncturing; 1|	3 lb.|
+| &emsp; Hide Coif                       |	4 sp    |		      |4	|RESIST: Cutting; 0, Crushing; 1, Cleaving; 0, Piercing; 2, Puncturing; 2|	2 lb.|
+| &emsp; Hide Greaves, Cuisses           |	4 sp    |	      	|8	|RESIST: Cutting; 0, Crushing; 1, Cleaving; 0, Piercing; 1, Puncturing; 1|	3 lb.|
 | **JAZERANT LEATHER ARMOR**             | **13 ss** |	**2/3** |	**46**	|**RESIST: Cutting; 6, Crushing; 2, Cleaving; 2, Piercing; 4, Puncturing; 6**	|**23 lb.**|
 | &emsp; Aketon                          |	5 ss    |	        |4	|RESIST: Cutting; 1, Crushing; 1, Cleaving; 1, Piercing; 1, Puncturing; 1|	2 lb.|
 | &emsp; Jazerant Hauberk                |	6 ss    |	      	|30	|RESIST: Cutting; 2, Crushing; 1, Cleaving; 1, Piercing; 1, Puncturing; 2|	12 lb.|

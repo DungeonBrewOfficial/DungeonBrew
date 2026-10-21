@@ -40,6 +40,7 @@ A malevolent, murderous goblin found in ruined castles and places of old violenc
 | Resistance | Budget 20: Cut 4, Cleave 3, Crush 5, Pierce 4, Puncture 2, Sacred 2 |
 | Trials | 1d3 + Attribute TD |
 | Defense (with Pike) | d3 (DTD) + d3 (STR) + 1 (½sq) + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 4 (20 ft) |
 | Footprint | ½ sq |
@@ -132,6 +133,7 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 | Trials | 1d3 + Attribute TD |
 | Defense (1H) | d4 (DTD) + d4 (STR) + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d3 (DTD) + d3 (STR) + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -172,6 +174,7 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 | Trials | 1d8 + Attribute TD |
 | Defense (with Labrys) | d8 + d4 + applicable resistance. (2H: −1 step. Attribute: STR) |
 | Defense (with Francisca) | d10 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking, Vom Tag |
 | AP | 3 (max 2 attacks) |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |

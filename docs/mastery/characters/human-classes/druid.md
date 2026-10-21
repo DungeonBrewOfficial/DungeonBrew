@@ -125,11 +125,11 @@ Your Puca is a Fae creature (immune Primal, vulnerable Void) with its own health
 
 #### Puca Stats
 
-**Health:** Your Wisdom score + compounding tier dice x2 (each tier adds its tier die x2).
+**Health:** Your Wisdom score, plus two of each tier die up to the Puca's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on).
 
 **Rest:** As a character, using its tier die for the Endurance tier die and your level for class level. It treats a safe Wilderness Rest as a Good Night's Rest.
 
-**Attack:** Your Wisdom tier die + Puca tier die. Natural weapon. Damage type determined by form.
+**Attack:** Your Wisdom tier die + Puca tier die. Natural weapon. Damage type determined by form. Its natural attacks act by its current size: Fast at ½ square, Moderate at 1 square, Slow at 2 squares or more.
 
 **Defense:** Your Wisdom tier die + Puca tier die + Resistance.
 

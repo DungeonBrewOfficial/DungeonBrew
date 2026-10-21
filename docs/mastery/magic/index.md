@@ -12,7 +12,7 @@ A spell is a specific combination of a *form* and a *command* that produces a ma
 
 A spell in Mastery is a specific configuration of form, command, and parameters. Obliterate Fire at close range, single target, instantaneous is one spell. Obliterate Fire at distant range, large area, instantaneous is a different spell. Both use the same form and command, but they are distinct spells with different magan costs and different levels of familiarity.
 
-Cantrips are spells. An ability that spends magan without being cast from a form and a command, such as Imbue or a Spellcraft ability, is a magical ability, and it is a spell only if its text says so. Magical abilities count as magic for damage and resistance. Using one while you cast a spell leaves that spell intact, unless the ability is a defense.
+Cantrips are spells. An ability that spends magan without being cast from a form and a command, such as Imbue or a Spellcraft ability, is a magical ability, and it is a spell only if its text says so. Magical abilities count as magic for damage and resistance, but they cannot be countered or dispelled.
 
 ## Spell Sources
 
@@ -90,9 +90,9 @@ A practitioner of theurgic magic uses the Charisma attribute to cast spells. To 
 
 ### Magan Pools
 
-A practitioner's magan pool is determined by their maximum mastery potential. Each time a practitioner increases their casting attribute tier, they roll their casting attribute tier die and add the result to their total magan permanently.
+A practitioner's magan pool is determined by their class's spell progression (see *[Mastery System, Mastery Point Progression](../core/mastery-and-trials.md#mastery-point-progression)*). Each time a practitioner increases their casting attribute tier, they roll their casting attribute tier die and add the result to their total magan permanently.
 
-| Maximum Mastery | Base Magan | Classes |
+| Spell Progression | Base Magan | Classes |
 |:---|:---|:---|
 | Expert | Tier + Total TD | Avenger, Bahador, Paladin |
 | Master | ½ Score + Total TD | Fili, Gnome, Sylvan Elf |
@@ -213,7 +213,7 @@ All casters have access to the four elemental forms: Fire, Sea, Sky, and Stone. 
 |:---|:---|:---:|:---:|:---:|:---:|:---:|
 | Avenger | Theurgic | | ✓ | | | 5 |
 | Bahador | Occult | | | | ✓ | 5 |
-| Cleric | Theurgic | | * | * | | 5 |
+| Cleric | Theurgic | | ‡ | ‡ | ‡ | 5 |
 | Cursed | Priscan | | ✓ | | ✓ | 6 |
 | Druid | Telluric | ✓ | | | | 5 |
 | Fili | Telluric | ✓ | | | | 5 |
@@ -223,7 +223,7 @@ All casters have access to the four elemental forms: Fire, Sea, Sky, and Stone. 
 | Paladin | Theurgic | | | ✓ | | 5 |
 | Sylvan Elf | Priscan | ✓ | | | | 5 |
 
-\* Choose one. † Choose any two.
+\* Choose one. † Choose any two. ‡ Set by alignment: Lawful Sacred, Chaotic Profane, Neutral Void.
 
 ---
 
@@ -687,18 +687,24 @@ Your free concentration slot can be reassigned at the start of each round. When 
 
 ### Interrupted Casting
 
-You are casting a spell from the start of the round, when you declare it, until it resolves in your phase. Declaring a spell draws its magan; you spend its AP when it resolves.
+You are casting a spell from the start of the round, when you declare it, until it resolves in your phase. Declaring a spell draws its magan, and you name any material component when you declare it. A component in a quick item slot is drawn as part of casting the spell; any other component must already be in hand when you declare. You spend the spell's AP when it resolves.
 
-A spell is interrupted and lost if, before it resolves, you:
+While you cast, you can still move, maintain your concentration spells, and make the trials that effects call for against you, including with abilities that modify those trials. An ability that is a defense counts as defending, even when it takes the place of a trial.
 
-- defend against an attack;
-- cast another spell, including a reaction spell or a counter;
-- take health damage and fail a Miscast trial against a DC equal to the health damage taken; or
-- choose to stop casting.
+You lose the spell and its magan if, before it resolves, you:
 
-Even a familiar spell, one cast at its recorded parameters, makes this trial, and you cannot coerce success on it. A lost spell's magan is spent. AP you have not spent remain available for movement and reactions.
+- cast another spell, use another ability, or choose to stop;
+- defend, attack, or interact with an object, unless the spell has no somatic components;
+- cannot spend its AP when it resolves;
+- take health damage or otherwise lose health, other than paying for the spell, and fail a Miscast trial against a DC equal to the health lost;
+- are knocked [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") and fail a Miscast trial against the DC of the effect that knocked you down, unless the spell has no somatic components; or
+- are left unable to finish it by a condition, such as one that prevents casting or takes your AP.
 
-Resisting a spell, and abilities that modify that trial, do not interrupt your casting. Pretermit (see *[Skill Mastery, Spellcraft](../skills/spellcraft.md)*) recovers part of a lost spell's magan.
+A condition that affects only a component you are not using does not affect the spell; a spell without verbal components ignores [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."). If a condition takes away a component you declared, such as a gag or restraints, the spell is lost.
+
+Chained and simple conditions otherwise apply to a spell being cast as written. A condition that makes you act in a later phase, such as [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), delays the spell until that phase.
+
+Even a familiar spell makes these Miscast trials, and you cannot coerce success on them.
 
 ---
 

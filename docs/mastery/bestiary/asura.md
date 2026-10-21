@@ -42,6 +42,7 @@ A Cherub is not a chubby infant with wings. It is a guardian — the one that st
 | Resistance | Budget 60: Cut 8, Cleave 8, Crush 8, Pierce 8, Puncture 8, Profane 0, Fire 8, Primal 7, Void 5 |
 | Trials | 1d6 + Attribute TD |
 | Defense | d10 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 3 (max 2 attacks) |
 | Speed | 6 (30 ft) land, 10 (50 ft) fly |
 | Footprint | 1×1 (1 sq) |

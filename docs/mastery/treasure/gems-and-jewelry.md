@@ -338,7 +338,7 @@ Material, Craftsmanship, and Embellishment are each a number from the tables bel
 
 | d100 | Type | Silver Value |
 |:---:|:---|:---:|
-| 01–02 | Nose Ring | 1 sh |
+| 01–02 | Nose Ring | 2 cf |
 | 03–09 | Earrings | 2 sp |
 | 10 | Navel Ring | 1 sp |
 | 11–12 | Toe Ring | 1 sp |

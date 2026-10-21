@@ -77,16 +77,16 @@ Axes are primarily cleaving weapons, but can also incorporate puncturing or crus
 | Weapon | Cost | Engagement | Category | Damage Type | Enc / Weight | Carry | Properties |
 |:-|:---:|:---:|:---:|:---:|:---:|:---:|:------|
 | Bardiche | 1 sc | Slow | Two-Handed (V) | Cleaving <br> Puncturing | L / 6 lbs. | Long | +2 to Rive Attack |
-| Bearded Axe | 1 sf | Slow \ Mod | Versatile (II/IV) | Cleaving <br> Piercing | L / 4 lbs. | Standard | +2 to Hook Attack |
-| Doloire | 1 st | Slow | Two-Handed (V) | Cleaving <br> Crushing | L / 5 lbs. | Long | Tool, Bash |
-| Francisca | 2 sg | Fast | Light One-Handed (I) <br> Light Thrown (I) | Cutting | L [5] / 1 lb. | Short | Thrown (15/30/45) |
+| Bearded Axe | 2 ss | Slow \ Mod | Versatile (II/IV) | Cleaving <br> Piercing | L / 4 lbs. | Standard | +2 to Hook Attack |
+| Doloire | 6 sp | Slow | Two-Handed (V) | Cleaving <br> Crushing | L / 5 lbs. | Long | Tool, Bash |
+| Francisca | 8 sp | Fast | Light One-Handed (I) <br> Light Thrown (I) | Cutting | L [5] / 1 lb. | Short | Thrown (15/30/45) |
 | Halberd | 1 sc | Slow | Two-Handed (V) | Cleaving <br> Puncturing | L / 6 lbs. | Long | Reach (10 ft.), Set Spear |
 | Labrys | 1 sc | Slow | Two-Handed (V) | Cleaving | L / 7 lbs. | Long | +2 to Attack |
-| Long Axe | 1 sf | Slow \ Mod | Versatile (II/IV) | Cutting <br> Piercing | L / 4 lbs. | Standard | +1 to Horn Thrust DC |
-| Mattock | 1 sg | Mod | Heavy One-Handed (II) | Cutting <br> Puncturing | L / 3 lbs. | Standard | Tool |
-| Pale Axe | 1 sf | Slow | Two-Handed (V) | Cleaving <br> Piercing | L / 5 lbs. | Long | +2 to Hook Attack |
+| Long Axe | 2 ss | Slow \ Mod | Versatile (II/IV) | Cutting <br> Piercing | L / 4 lbs. | Standard | +1 to Horn Thrust DC |
+| Mattock | 4 sp | Mod | Heavy One-Handed (II) | Cutting <br> Puncturing | L / 3 lbs. | Standard | Tool |
+| Pale Axe | 2 ss | Slow | Two-Handed (V) | Cleaving <br> Piercing | L / 5 lbs. | Long | +2 to Hook Attack |
 | Parashu | 1 ss | Slow \ Mod | Versatile (II/IV) | Cutting <br> Cleaving | L / 4 lbs. | Long | +1 to Hew Attack |
-| Shepherd's Axe | 2 sg | Fast | Light One-Handed (I) | Cutting | L / 2 lbs. | Standard | Tool, Bash |
+| Shepherd's Axe | 8 sp | Fast | Light One-Handed (I) | Cutting | L / 2 lbs. | Standard | Tool, Bash |
 | Sickle | 1 ss | Fast | Light One-Handed (I) | Piercing | L / 2 lbs. | Short | Tool |
 | Voulge | 1 ss | Moderate | Two-Handed (V) | Cleaving | L / 5 lbs. | Long | Reach (10 ft.) |
 
@@ -132,20 +132,20 @@ Bludgeons are weapons that are particularly effective against heavier armors. Th
 |:-|:---:|:---:|:---:|:---:|:---:|:---:|:------|
 | Blackjack | 1 ss | Fast | Light One-Handed (I) | Crushing | L / 1 lb. | Short | Sap |
 | Club | 1 cf | Slow \ Mod | Versatile (II/IV) | Crushing | L / 3 lbs. | Standard | Riposte |
-| Flail, Kisten | 1 sf | Mod | Heavy One-Handed (II) | Crushing | L / 3 lbs. | Standard | Around the Shield, No Parry |
+| Flail, Kisten | 2 ss | Mod | Heavy One-Handed (II) | Crushing | L / 3 lbs. | Standard | Around the Shield, No Parry |
 | Flail, Peasant | 1 ss | Slow | Two-Handed (V) | Puncturing | L / 8 lbs. | Long | Around the Shield, +2 to Smash Attack |
-| Flail, Morning Star | 1 sf | Slow \ Mod | Versatile (II/IV) | Puncturing | L / 4 lb. | Standard | Around the Shield, No Parry, +2 to Breaker damage |
-| Hammer, Lucern | 1 sf | Slow | Two-Handed (V) | Crushing <br> Piercing | L / 6 lbs. | Long | Reach (10 ft.), Set Spear |
+| Flail, Morning Star | 2 ss | Slow \ Mod | Versatile (II/IV) | Puncturing | L / 4 lb. | Standard | Around the Shield, No Parry, +2 to Breaker damage |
+| Hammer, Lucern | 2 ss | Slow | Two-Handed (V) | Crushing <br> Piercing | L / 6 lbs. | Long | Reach (10 ft.), Set Spear |
 | Mace, Flanged | 1 sc | Mod | Heavy One-Handed (II) | Puncturing | L / 3 lbs. | Standard | +1 to Sunder DC |
-| Mace, Knobbed | 1 sf | Mod | Heavy One-Handed (II) | Puncturing | L / 3 lbs. | Standard | +1 to Bash DC |
-| Mace, Morning Star | 1 sf | Slow \ Mod | Versatile (II/IV) | Puncturing | L / 4 lbs. | Standard | +1 to Attack |
+| Mace, Knobbed | 2 ss | Mod | Heavy One-Handed (II) | Puncturing | L / 3 lbs. | Standard | +1 to Bash DC |
+| Mace, Morning Star | 2 ss | Slow \ Mod | Versatile (II/IV) | Puncturing | L / 4 lbs. | Standard | +1 to Attack |
 | Maul | 1 ss | Slow | Two-Handed (V) | Crushing | M / 10 lbs. | Long | +2 to Attack |
-| Pick, Horseman's | 1 sf | Mod | Heavy One-Handed (II) | Crushing <br> Puncturing | L / 4 lbs. | Standard | Hook |
-| Planson | 1 sf | Slow | Two-Handed (V) | Crushing <br> Puncturing | L / 8 lbs. | Long | +2 to Sunder Attack |
+| Pick, Horseman's | 2 ss | Mod | Heavy One-Handed (II) | Crushing <br> Puncturing | L / 4 lbs. | Standard | Hook |
+| Planson | 2 ss | Slow | Two-Handed (V) | Crushing <br> Puncturing | L / 8 lbs. | Long | +2 to Sunder Attack |
 | Quarterstaff | 1 cf | Slow | Two-Handed (V) | Crushing | L / 3 lbs. | Long | Trip |
 | Rungu | 1 sp | Fast | Light One-Handed (I) <br> Light Thrown (I) | Crushing | L [5] / 1 lb. | Short | Thrown (30/60/90) |
 | Sling | 1 cf | Mod | Light Thrown (I) | Ammunition | L / 1 lb. | Short | +1 to Bash DC <br> Range (300/600/900) |
-| Stave Sling | 1 sg | Slow | Heavy Thrown (II) | Ammunition | L / 2 lbs. | Long | Brace, +1 to Steady Hand Attack <br> Range (200/400/600) |
+| Stave Sling | 4 sp | Slow | Heavy Thrown (II) | Ammunition | L / 2 lbs. | Long | Brace, +1 to Steady Hand Attack <br> Range (200/400/600) |
 
 ---
 
@@ -177,14 +177,14 @@ Projectile weapons include bows, crossbows, and blowguns. Generally, these are p
 |:-|:---:|:---:|:---:|:---:|:---:|:---:|:------|
 | Blowgun | 1 sp | Mod | Fixed Projectile (1) | Ammunition | L / 1 lb. | Short | Sting, +1 to Threading the Needle Aiming Trial<br>Range (25/50/75) |
 | Crossbow, Balestrino | 1 gn | Fast \ Mod | Fixed Projectile (3d2) | Ammunition | L / 3 lbs. | Short | Sting <br> Range (20/40/60) |
-| Crossbow, Belt-and-Hook | 1 gm | Fast \ Slow | Fixed Projectile (3d6) | Ammunition | L / 9 lbs. | Standard | +1 to Threading the Needle Aiming Trial<br>Range (200/400/600) |
+| Crossbow, Belt-and-Hook | 2 gn | Fast \ Slow | Fixed Projectile (3d6) | Ammunition | L / 9 lbs. | Standard | +1 to Threading the Needle Aiming Trial<br>Range (200/400/600) |
 | Crossbow, Cranequin | 1 gs | Mod \ Slow | Fixed Projectile (3d10) | Ammunition | M / 15 lbs. | Standard | Str Tier 2<br>Range (300/600/900) |
-| Crossbow, Goat's Foot | 1 gm | Fast \ Slow | Fixed Projectile (3d6) | Ammunition | L / 9 lbs. | Standard | +1 to Threading the Needle Aiming Trial, Str Tier 3<br>Range (200/400/600) |
+| Crossbow, Goat's Foot | 2 gn | Fast \ Slow | Fixed Projectile (3d6) | Ammunition | L / 9 lbs. | Standard | +1 to Threading the Needle Aiming Trial, Str Tier 3<br>Range (200/400/600) |
 | Crossbow, Munition | 1 sc | Fast \ Mod | Fixed Projectile (3d4) | Ammunition | L / 6 lbs. | Standard | +1 to Threading the Needle Aiming Trial, Str Tier 2<br>Range (150/300/450) |
 | Crossbow, Windlass | 1 gs | Mod \ Slow | Fixed Projectile (3d10) | Ammunition | M / 15 lbs. | Standard | Str Tier 2<br>Range (300/600/900) |
 | Hornbow | 1 sc | Fast | Light Projectile (I) | Ammunition | L / 2 lbs. | Standard | +1 to Snap Shot Attack <br> +1 to Threading the Needle Aiming Trial, Range (150/300/450) |
 | Selfbow | 1 ss | Mod | Heavy Projectile (IV) | Ammunition | L / 3 lbs. | Long | +1 to Long Shot Attack <br> Range (200/400/600) |
-| Warbow | 1 sf | Slow | Heavy Projectile (IV) | Ammunition | L / 4 lbs. | Long | +2 to Attack <br> Range (250/500/750) |
+| Warbow | 2 ss | Slow | Heavy Projectile (IV) | Ammunition | L / 4 lbs. | Long | +2 to Attack <br> Range (250/500/750) |
 
 ---
 
@@ -212,13 +212,13 @@ Daggers are valuable in tight quarters and are sometimes underappreciated for th
 
 | Weapon | Cost | Engagement | Category | Damage Type | Enc / Weight | Carry | Properties |
 |:-|:---:|:---:|:---:|:---:|:---:|:---:|:------|
-| Baselard | 2 sf | Mod | Heavy One-Handed (II) | Cutting <br> Piercing | L / 2 lbs. | Short | Lunge and Fade |
-| Ear Dagger | 1 sf | Fast | Light One-Handed (I) | Piercing | L / 1 lb. | Short | +1 to Coup de Grace Attack |
-| Great Knife | 2 sf | Fast | Light One-Handed (I) | Cutting <br> Piercing | L / 2 lbs. | Short | Thrown (10/20/30), Riposte |
-| Kunai | 1 sg | Fast | Light One-Handed (I) | Piercing | L / 1 lb. | Short | Tool |
-| Parrying Dagger | 1 sf | Fast | Light One-Handed (I) | Piercing | L / 2 lbs. | Short | +1 to Defense, +1 Defense Bonus to Parry |
-| Rondel | 2 sf | Fast | Light One-Handed (I) | Piercing | L / 1 lb. | Short | +1 to Finding the Gap Aiming Trial |
-| Seax | 1 sf | Fast | Light One-Handed (I) | Cutting <br> Piercing | L / 2 lbs. | Short | Thrown (10/20/30), Rive |
+| Baselard | 4 ss | Mod | Heavy One-Handed (II) | Cutting <br> Piercing | L / 2 lbs. | Short | Lunge and Fade |
+| Ear Dagger | 2 ss | Fast | Light One-Handed (I) | Piercing | L / 1 lb. | Short | +1 to Coup de Grace Attack |
+| Great Knife | 4 ss | Fast | Light One-Handed (I) | Cutting <br> Piercing | L / 2 lbs. | Short | Thrown (10/20/30), Riposte |
+| Kunai | 4 sp | Fast | Light One-Handed (I) | Piercing | L / 1 lb. | Short | Tool |
+| Parrying Dagger | 2 ss | Fast | Light One-Handed (I) | Piercing | L / 2 lbs. | Short | +1 to Defense, +1 Defense Bonus to Parry |
+| Rondel | 4 ss | Fast | Light One-Handed (I) | Piercing | L / 1 lb. | Short | +1 to Finding the Gap Aiming Trial |
+| Seax | 2 ss | Fast | Light One-Handed (I) | Cutting <br> Piercing | L / 2 lbs. | Short | Thrown (10/20/30), Rive |
 | Swordbreaker | 1 gn | Mod | Heavy One-Handed (II) | Cutting | L / 2 lbs. | Short | +1 to Defense, +1 to Disarm DC |
 | War Dart | 4 sp | Fast | Light Thrown (I) | Piercing | L [5] / 1 lb. | Short | Thrown (25/50/75) |
 
@@ -255,14 +255,14 @@ Pole weapons are perhaps the most prolific type of weapon available because on t
 | Crow's Beak | 1 sc | Slow | Two-Handed (V) | Crushing <br> Puncturing | L / 6 lbs. | Long | Reach (10 ft.), Rupture |
 | Glaive | 1 sc | Slow | Two-Handed (V) | Cutting <br> Cleaving | L / 6 lbs. | Long | Reach (10 ft.), +1 to Attack |
 | Guisarme | 1 sc | Slow | Two-Handed (V) | Puncturing | L / 7 lbs. | Long | Reach (10 ft.), Hook |
-| Javelin | 1 st | Fast | Light One-Handed (I) <br> Light Thrown (I) | Piercing | L [5] / 2 lbs. | Long | Thrown (30/60/90) |
+| Javelin | 6 sp | Fast | Light One-Handed (I) <br> Light Thrown (I) | Piercing | L [5] / 2 lbs. | Long | Thrown (30/60/90) |
 | Lance | 1 ss | Slow | Heavy One-Handed (II) | Puncturing | L / 6 lbs. | Long | Reach (10 ft.), Only usable while Mounted with the Charge maneuver. Your Charge gains both Dominance and Superiority. |
 | Pike | 1 ss | Slow | Two-Handed (V) | Puncturing | M / 10 lbs. | Long | Reach (15 ft.) |
-| Ranseur | 1 sf | Slow | Two-Handed (V) | Puncturing | L / 6 lbs. | Long | Reach (10 ft.), +1 to Rebuff DC, +1 to Disarm DC |
-| Spear | 1 sg | Slow \ Mod | Versatile (II/IV) <br> Heavy Thrown (II) | Piercing | L / 3 lbs. | Long | Thrown (20/40/60) |
+| Ranseur | 2 ss | Slow | Two-Handed (V) | Puncturing | L / 6 lbs. | Long | Reach (10 ft.), +1 to Rebuff DC, +1 to Disarm DC |
+| Spear | 4 sp | Slow \ Mod | Versatile (II/IV) <br> Heavy Thrown (II) | Piercing | L / 3 lbs. | Long | Thrown (20/40/60) |
 | Spetum | 1 sc | Slow | Two-Handed (V) | Piercing | L / 6 lbs. | Long | Reach (10 ft.), +1 to Trip DC |
-| Trident | 1 sf | Slow \ Mod | Versatile (II/IV) <br> Heavy Thrown (II) | Piercing | L / 4 lbs. | Long | Thrown (20/40/60), Tool, +1 to Disarm DC |
-| War Scythe | 1 sf | Slow | Two-Handed (V) | Cleaving <br> Cutting | L / 6 lbs. | Long | Tool |
+| Trident | 2 ss | Slow \ Mod | Versatile (II/IV) <br> Heavy Thrown (II) | Piercing | L / 4 lbs. | Long | Thrown (20/40/60), Tool, +1 to Disarm DC |
+| War Scythe | 2 ss | Slow | Two-Handed (V) | Cleaving <br> Cutting | L / 6 lbs. | Long | Tool |
 
 ---
 
@@ -297,14 +297,14 @@ Swords are versatile weapons that are effective at cutting and thrusting. They t
 | Backsword | 1 ss | Fast | Light One-Handed (I) | Cutting <br> Piercing | L / 2 lbs. | Standard | Remise |
 | Claymore | 1 sc | Slow | Two-Handed (V) | Cleaving <br> Piercing | L / 6 lbs. | Long | +2 to Sweep Attack |
 | Executioner's Sword | 1 sc | Slow | Two-Handed (V) | Cleaving | L / 6 lbs. | Standard | +2 to Coup de Grace Attack |
-| Falchion | 1 sf | Slow \ Mod | Versatile (II/IV) | Cleaving | L / 4 lbs. | Standard | Hew |
-| Five Fingers | 1 sf | Fast | Light One-Handed (I) | Cutting | L / 2 lbs. | Short | Coup de Jarnac |
-| Flame Sword | 1 gm | Slow | Two-Handed (V) | Cleaving <br> Piercing | L / 6 lbs. | Long | +2 to Wrath Attack |
-| Khopesh | 1 sf | Mod | Heavy One-Handed (II) | Cleaving | L / 3 lbs. | Standard | Hook |
+| Falchion | 2 ss | Slow \ Mod | Versatile (II/IV) | Cleaving | L / 4 lbs. | Standard | Hew |
+| Five Fingers | 2 ss | Fast | Light One-Handed (I) | Cutting | L / 2 lbs. | Short | Coup de Jarnac |
+| Flame Sword | 2 gn | Slow | Two-Handed (V) | Cleaving <br> Piercing | L / 6 lbs. | Long | +2 to Wrath Attack |
+| Khopesh | 2 ss | Mod | Heavy One-Handed (II) | Cleaving | L / 3 lbs. | Standard | Hook |
 | Longsword | 1 sc | Slow \ Mod | Versatile (II/IV) | Cutting <br> Piercing | L / 3 lbs. | Standard | +2 to Defense during Deflect |
-| Rapier | 1 sf | Fast | Light One-Handed (I) | Piercing | L / 2 lbs. | Standard | +1 to Riposte Attack, +1 to Lunge and Fade Attack |
-| Scimitar | 1 sf | Fast | Heavy One-Handed (II) | Cutting | L / 3 lbs. | Standard | +1 to Charge Attack |
-| Tuck | 1 sf | Slow \ Mod | Versatile (II/IV) | Piercing | L / 4 lbs. | Standard | +1 to Half-Sword DC |
+| Rapier | 2 ss | Fast | Light One-Handed (I) | Piercing | L / 2 lbs. | Standard | +1 to Riposte Attack, +1 to Lunge and Fade Attack |
+| Scimitar | 2 ss | Fast | Heavy One-Handed (II) | Cutting | L / 3 lbs. | Standard | +1 to Charge Attack |
+| Tuck | 2 ss | Slow \ Mod | Versatile (II/IV) | Piercing | L / 4 lbs. | Standard | +1 to Half-Sword DC |
 
 ---
 
@@ -334,13 +334,13 @@ Arrows, bullets, darts, and quarrels are used by a variety of launchers. While b
 
 | Ammunition | Cost | Engagement | Launcher Type | Damage Type | Enc / Weight | Properties |
 |:-|:---:|:---:|:---:|:---:|:---:|:------|
-| Basket Head (24) | 1 sf | One Slower | Bow <br> Crossbow | Piercing | L / 5 lbs. | Basket |
-| Bullet, Lead (24) | 1 st | — | Sling <br> Stave Sling | Crushing | L / 5 lbs. | +2 to Attack |
-| Bullet, Stone (24) | 1 sh | — | Sling <br> Stave Sling | Crushing | L / 4 lbs. | — |
-| Crescent Head (24) | 1 sf | — | Bow <br> Crossbow | Cutting | L / 4 lbs. | Cutting |
-| Dart (24) | 1 st | — | Blowgun <br> Balestrino | Piercing | L / 4 lbs. | — |
-| Leaf Head (24) | 3 st | — | Bow <br> Crossbow | Cutting | L / 4 lbs. | — |
-| Needle Bodkin (24) | 3 st | — | Bow <br> Crossbow | Piercing | L / 4 lbs. | — |
-| Short Bodkin (24) | 3 st | — | Bow <br> Crossbow | Puncturing | L / 4 lbs. | — |
-| Swallowtail Head (24) | 1 sf | — | Bow <br> Crossbow | Cutting | L / 4 lbs. | Bleeding (1d2) |
-| Wrapped (24) | 5 sg | Slow | Bow <br> Crossbow | Piercing | L / 5 lbs. | — |
+| Basket Head (24) | 2 ss | One Slower | Bow <br> Crossbow | Piercing | L / 5 lbs. | Basket |
+| Bullet, Lead (24) | 6 sp | — | Sling <br> Stave Sling | Crushing | L / 5 lbs. | +2 to Attack |
+| Bullet, Stone (24) | 2 cf | — | Sling <br> Stave Sling | Crushing | L / 4 lbs. | — |
+| Crescent Head (24) | 2 ss | — | Bow <br> Crossbow | Cutting | L / 4 lbs. | Cutting |
+| Dart (24) | 6 sp | — | Blowgun <br> Balestrino | Piercing | L / 4 lbs. | — |
+| Leaf Head (24) | 18 sp | — | Bow <br> Crossbow | Cutting | L / 4 lbs. | — |
+| Needle Bodkin (24) | 18 sp | — | Bow <br> Crossbow | Piercing | L / 4 lbs. | — |
+| Short Bodkin (24) | 18 sp | — | Bow <br> Crossbow | Puncturing | L / 4 lbs. | — |
+| Swallowtail Head (24) | 2 ss | — | Bow <br> Crossbow | Cutting | L / 4 lbs. | Bleeding (1d2) |
+| Wrapped (24) | 20 sp | Slow | Bow <br> Crossbow | Piercing | L / 5 lbs. | — |

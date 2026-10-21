@@ -87,6 +87,7 @@ Animated bones held together by Profane energy. No flesh, no muscle, no organs. 
 | Trials | 1d3 + Attribute TD |
 | Defense | d3 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
 | Defense (2H) | d2 (DTD) + d2 (STR) + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -205,6 +206,7 @@ Undead sustained by purpose — vengeance, duty, or a binding oath. Unlike zombi
 | Trials | 1d6 + Attribute TD |
 | Defense (1H) | d8 (DTD) + d6 (STR) + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d6 (DTD) + d4 (STR) + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 3 (max 2 attacks) |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -252,6 +254,7 @@ Undead sustained by purpose — vengeance, duty, or a binding oath. Unlike zombi
 | Resistance | Cut 9, Crush 9, Cleave 9, Pierce 7, Puncture 6, Primal 7, Sea 5, Stone 6, Fire 6, Void 6, Sky 5 (armor 40 + 35 magical = 75 total) |
 | Trials | 1d8 + Attribute TD |
 | Defense (2H) | d10 + d6 + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking, Ochs |
 | AP | 3 (max 2 attacks) |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |

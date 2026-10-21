@@ -25,14 +25,15 @@ The flow of combat follows this structure:
 1. Determine if Startle or Ambush is appropriate and roll.
 2. **Declaration Phase.** At the start of each round, before initiative is rolled, all combatants make the following declarations. Players declare openly and may strategize. The GM commits privately for all enemies and NPCs.
    - **Weapon**: Declare your equipped weapon and combat style. Combat style is how the weapon is being used: Shield, Single (1H), Two-Handed, or Dual Wield. If switching weapons or changing combat style this round, your phase is determined by the slowest weapon or style involved. Reactive weapon changes (dropping a broken shield, switching grip due to circumstances) can occur mid-round without declaration.
-   - **Full-Round Maneuvers**: Declare any maneuver that requires commitment at the start of the round (Deflect, Covering Fire, Fend, etc.).
+   - **Declaration Maneuvers**: Declare any maneuver whose trigger is Declaration.
    - **Spells**: Declare any spell you intend to cast. The spell's casting speed determines your initiative phase. A weapon you hold but do not declare an attack with does not affect your phase; you can still defend and make reprisal attacks with it. If you declare both a spell and a weapon attack, you act in the slower of the two phases.
-   - **Stances**: Declare or change your current stance.
+   - **Guard**: Declare your guard, or a formation if you are trained in Tactics. A companion declares its stance.
+   - **Abilities**: Declare any ability whose text says it must be declared, or that sets your phase.
    - **Held Actions**: Declare that you are holding your action. You must specify one of the following:
      - *Hold to Phase*: Name a phase later than your declared phase. You act in that phase instead. You cannot hold to an earlier phase.
      - *Hold for Trigger*: Name a specific condition (e.g., "the archer breaks cover," "a creature enters this doorway"). Commit AP to the held action. If the trigger occurs during or after your natural phase, you act immediately. If the trigger occurs before your natural phase, you cannot react — your weapon is too slow. If the trigger never occurs, the committed AP are lost.
+   - **Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it.
 
-   On your turn, you can take only the actions you declared, plus movement and reactions. If you abandon a declared action, you cannot replace it with one you did not declare, unless an ability allows it.
 3. Roll 1d6 to determine which side goes first (1-3 = PCs, 4-6 = Enemies).
 4. Resolve Fast phase (winning side, then losing side).
 5. Resolve Moderate phase (winning side, then losing side).
@@ -90,7 +91,7 @@ When both sides are unaware of each other, the DC is 6. The GM adjusts it for we
 
 An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See [General Rules](exploration-and-travel.md), [Group Trials](exploration-and-travel.md#group-trials). A creature sets the DC as the Monster Manual describes.
 
-A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A *Watchman*'s warning may do the same or give the party additional time, as the GM decides.
+A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A *Watchman*'s warning does not stop the ambush, but warned characters in Active roles do not take the −4 to their Startle trials. If the ambushers are spotted well before they strike, the GM decides whether an ambush happens at all.
 
 ### Results
 
@@ -120,7 +121,7 @@ Damage is mundane or magical by its type. An enchanted weapon still deals its we
 
 ### Health Types
 
-**Durability.** Durability is the amount of integrity that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases when you take *Mundane* or *Material Magic* damage minus any resistances it has.
+**Durability.** Durability is the amount of integrity that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases when you take *Mundane* or *Material Magic* damage minus any resistances it has. Armor at 0 durability is broken and gives no resistance.
 
 **Health**: Health is your physical well-being. It comes from two sources:
 
@@ -171,6 +172,7 @@ A **reaction** to defend against an incoming attack. Costs 1 AP.
 **Defense Rules**:
 - Defense dice explode on a max roll.
 - If defense roll is equal to or greater than incoming attack roll, defense succeeds.
+- If the defense fails, the amount by which the attack roll exceeds your defense roll is applied to your armor's durability first, then to your health once durability is depleted.
 - Must be wielding a shield to defend against ranged attacks, unless an ability allows it.
 - Armor Resistance is the static resistance value of your equipped armor.
 
@@ -221,11 +223,10 @@ An interaction is any use of an item or retrieval of an object. Getting an item 
 Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 
 - You must choose the spell you are casting at the start of the round to determine your initiative phase.
-- From the start of the round until your spell resolves, you are casting it. Defending, taking health damage, casting another spell, or choosing to stop can cost you the spell and its magan; see *[Magic Mastery, Interrupted Casting](../magic/index.md#interrupted-casting)*. Because AP are spent when the spell resolves, you can still defend while casting, though the spell is lost.
+- From the start of the round until your spell resolves, you are casting it. Most other actions, and some conditions, cost you the spell and its magan; see *[Magic Mastery, Interrupted Casting](../magic/index.md#interrupted-casting)*. Because AP are spent when the spell resolves, you can still defend while casting, though the spell is lost.
 - After the spell is cast, you can only cast another spell during the same round if the spell is a *reaction* and you have AP remaining. Only Fast spells (1-3 magan) can be cast as reactions, except counters, which are always reactions (see *[Magic Mastery, Duels](../magic/index.md#duels)*). A reaction spell is triggered by circumstances rather than declared at the start of the round (e.g., a defensive ward against an incoming attack, a magical counterattack after a successful defense). See [Magic Mastery](../magic/index.md) for full details.
-- If the spell requires material components and they are not in a Quick Item slot, you must retrieve them first: 2 AP from a container.
+- Material components in a Quick Item slot are drawn as part of casting. Any other component must already be in hand when you declare the spell; retrieving one from a container costs 2 AP.
 - You can always cast a spell slower than the indicated casting speed without rolling a Miscast trial.
-- You can move, as an action or a reaction, without affecting the casting of a spell.
 
 ## Other Actions
 
@@ -314,7 +315,7 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, Healer Discipline). 
 | 32 | **Break your right leg.** As left leg. | Severe | Set (Healer, T3) + 30 days' rest |
 | 33 | **Ringing Ears.** Penalty -1 on Perception trials that rely on hearing. | Minor | 3 days' rest |
 | 34–35 | **Close Call!** No Trauma. |  |  |
-| 36–37 | **Limp.** Movement reduced by 1 (5 ft). When you move more than once in a round, make a Physique trial (Easy, 2) or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). | Minor | 10 days' rest |
+| 36–37 | **Limp.** Movement reduced by 1 (5 ft). When you move more than once in a round, make a Physique trial (Easy, 3) or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). | Minor | 10 days' rest |
 | 38 | **Teeth Knocked Out.** Penalty -1 on Charisma trials. Spells with verbal components require a miscast trial. A prosthesis removes the effect. | Grievous | Prosthesis |
 | 39–40 | **Close Call!** No Trauma. |  |  |
 | 41 | **Cracked Sternum.** You have 1 AP per round. Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | 10 days' rest |
