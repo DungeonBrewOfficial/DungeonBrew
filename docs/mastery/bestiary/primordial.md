@@ -11,6 +11,7 @@ Primordial creatures tend toward the impersonal and the ancient. They ARE a fund
 **Builder notes:** This file covers all Primordial creatures: elementals (Autochthon), giants (Behemoth), and other fundamental-force creatures. Each creature's Form tag indicates which elemental/force magic interacts with it. Primordials can be connected to one or more of Fire, Sea, Sky, Stone — or to a non-elemental force.
 
 **Classification package (all Primordials):**
+
 - **Benefit:** Immune to [element] damage. (A fire elemental cannot be burned — it IS fire.)
 - **Cost:** Impotence on trials vs [opposing element] damage. (Fire/Sea and Sky/Stone are opposing pairs.)
 - **Connected to [element] magic.** (Casters need the creature's element Form for magical interaction beyond dealing damage. Critically: the element that can't damage the creature is the same element best positioned to control it.)
@@ -152,6 +153,7 @@ A towering conflagration given will — a roaring pillar of flame 15 feet tall a
 ***Flare*** *(1 AP, Reaction. Ability slot 6).* When the Inferno takes Sea damage, it releases a burst of steam. All creatures within 10 feet must succeed on a PER trial [9] or advance [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Obscured) by 1 tier for 1 round.
 
 **Phase Reference:**
+
 - **Fast:** Wildfire, Consume, Flare (Reaction)
 - **Moderate:** all above + Slam
 
@@ -329,6 +331,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 | Defense (with Club) | d8 + d12 + applicable resistance. (2H: −1 step. Attribute: STR) |
 | Defense (with Club 1H) | d10 + 2d6 + applicable resistance. (Attribute: STR) |
 | Defense (unarmed) | d10 + d12 + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 3 (max 2 attacks) |
 | Speed | 7 (35 ft) |
 | Footprint | 2×1 (2 sq) |
@@ -368,6 +371,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 | Trials | 1d10 + Attribute TD |
 | Defense | 2d6 (DTD) + 2d8 (STR) + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d12 (DTD) + 2d6 (STR) + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2/phase, active in Moderate + Slow (4 total, max 2 attacks/phase) |
 | Speed | 9 (45 ft) |
 | Footprint | 2×2 (4 sq) |
@@ -390,6 +394,7 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 ***Swipe*** *(1 AP, Attack. Ability slot 5).* The Ettin makes a club attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets.
 
 **Phase Reference:**
+
 - **Moderate:** Club, Bash, Cunning Feint, Swipe
 - **Slow:** all above + Rock
 
@@ -435,5 +440,6 @@ Giants are Primordial Behemoths — massive beings of stone and earth given huma
 ***Swipe*** *(1 AP, Attack. Ability slot 5).* The Bergrisar makes a fist attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets.
 
 **Phase Reference:**
+
 - **Moderate:** Fist, Stomp, Reconstitute, Avalanche, Swipe
 - **Slow:** all above + Boulder Throw

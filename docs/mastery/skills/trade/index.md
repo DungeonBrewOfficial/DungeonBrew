@@ -141,6 +141,7 @@ You can only scribe scrolls from your own casting tradition (Theurgic, Occult, o
 **Scroll Creation:** You can only scribe scrolls for spells you already know (familiar Form + Command combinations). A scroll is an abridged version of a full spell, with the magical physics compressed and cast into the vellum so the spell is already prepared. Scrolls always cost 2 AP to use, regardless of the spell's normal speed. A scroll is always 1 leaf of vellum, regardless of the spell's magan cost.
 
 **Requirements:**
+
 - 1 leaf of vellum (purchased separately, 1 sp)
 - magan² units of Scribe Supplies (consumed, 1 ss per unit)
 - Time: 1 day per magan cost of the spell

@@ -86,11 +86,11 @@ As a result, you may either choose one of the following curses or have one assig
 
 - As a horrific being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - Choose one Athletics ability for free (does not cost Skill Mastery points). Describe how your malformation enables it. GM must approve the connection between the malformation and the chosen ability.
-  - A Cursed with an enormous, bloated frame might gain **Healthy** (increased endurance from sheer mass).
-  - A Cursed with elongated, double-jointed arms might gain **Nimble** (unnatural flexibility and reach).
-  - A Cursed with a hunched, low-slung posture and a third leg might gain **Poised** (near-impossible to knock off balance).
+    - A Cursed with an enormous, bloated frame might gain **Healthy** (increased endurance from sheer mass).
+    - A Cursed with elongated, double-jointed arms might gain **Nimble** (unnatural flexibility and reach).
+    - A Cursed with a hunched, low-slung posture and a third leg might gain **Poised** (near-impossible to knock off balance).
 
-**Insane.** You are touched with madness in ways that are impossible to ignore. Roll twice on the insanity chart, one must be below 50 and one must be above 50.
+**Insane.** You are touched with madness in ways that are impossible to ignore. Roll twice on the insanity table, once on 1–50 and once on 51–100.
 
 - As an insane being, you are immune to Void damage and have Impotence on trials to resist Primal damage. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - You gain Dominance on trials against the [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") and [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") conditions.
@@ -104,7 +104,7 @@ As a result, you may either choose one of the following curses or have one assig
 - **Demon Trigger:** Each time you personally deal a killing blow (your Agathion's kills do not count), roll Wisdom tier die where a roll of a 1 is a failure. For each kill as a part of the same action, increase the chance of failure by 1 (e.g., kill 3 creatures with one spell, fail on 1-3). If you roll a failure, your possessed nature causes your *Fire Aura* to trigger.
 - **Fire Aura:** All creatures within 10 feet take fire damage equal to Perception tier each round. Lasts a number of rounds equal to Wisdom tier. You retain full control of your actions.
 
-**Undead.** You are not dead, but not quite alive. You abhor the light, fresh air, and the cheerfulness of others. Your flesh is cold to the touch, your breath smells like a rotting corpse, and you are vulnerable to being turned. A Turn can target you individually; your Turn DC is half your level (rounded down) + your Perception tier.
+**Undead.** You are not dead, but not quite alive. You abhor the light, fresh air, and the cheerfulness of others. Your flesh is cold to the touch, and your breath smells like a rotting corpse.
 
 - As an undead being, you are immune to Profane damage and have Impotence on trials to resist Sacred damage. You are connected to the Profane magic form. Only Profane magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - You do not need to breathe and are immune to spells and effects based on breathing.
@@ -112,9 +112,13 @@ As a result, you may either choose one of the following curses or have one assig
 
 ### Hard to Kill
 
-You do not age and cannot die from mundane means, such as being stabbed or bludgeoned to death. You remain conscious and aware even beyond 0 Health. Below 0 Health, each -5 Health increment results in the loss of a limb as determined by the GM (usually 1d4). You are aware of the location of your limbs and can still move and use them with Inferiority and Impotence. A limb can be reconnected and will be as strong as it once was in an hour. A limb that is destroyed can be regrown in 1 week. Multiple limbs are exponentially more difficult to regrow. Two limbs take 3 weeks, three limbs take 6 weeks, and 4 limbs take 12 weeks. If you are decapitated and lose the rest of your body, a year and a day must pass before you can regain it fully.
+You do not age and cannot die from mundane means, such as being stabbed or bludgeoned to death.
 
-You can only die if your head is destroyed from magical sources, including elemental magic (Fire, Sea, Sky, Stone), spiritual magic (Sacred, Profane, Primal, Void). If your head is attached to your body when you receive one of these types of damage, roll your Endurance tier die - death only occurs on a 1. You cannot be resurrected by any means.
+At 0 Health you still gain an Injury, but you make no Endurance trial and have no dying timer: you remain conscious and are always fighting on, and you suffer Traumas as normal.
+
+Your Traumas heal on their own, without treatment. Add up their weight: 1 for each Minor, 3 for each Severe, and 5 for each Grievous Trauma. A total of 5 or less heals in 1 week, 6–10 in 3 weeks, 11–15 in 6 weeks, and 16 or more in 12 weeks. A new Trauma restarts the count from the new total. A Trauma that would heal sooner by its normal recovery still does. A severed part can be reattached and is as strong as before within an hour. If you are decapitated and lose the rest of your body, a year and a day must pass before you regain it fully.
+
+You can die only from magic. While you are at 0 Health, each time you take magical damage, roll your Endurance tier die. On a 1, your head is destroyed and you die. You cannot be resurrected by any means.
 
 ### Borrowed Vigor
 
@@ -148,30 +152,34 @@ Each time you gain a level, you can choose to re-bind your spells to different o
 
 You create or inherit a familiar bound to you that is known as an *agathion*. This creature can be an animal as small as a sparrow to an average creature or humanoid. Although an agathion appears and moves like these creatures, that is where their similarities end, possessing strange powers and subsisting on exotic fare, such as the light from a new moon, the dreams of children, or elf blood as determined by the GM.
 
-An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevolent Fae. It possesses its own personality and will, often one reflecting its spirit, which is violent and chaotic. However, its existence is entirely under your control. Your agathion can become unruly if given too much freedom or if it no longer respects or fears you. Your control over your agathion allows you to change its appearance (such as skin, fur, or hair color), its ability to speak, and even imprison it within its own mind as a means of punishing and controlling it to bend it to your will.
+An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevolent Fae. Its body is always mortal: a beast, a human, or a halfling. Only the spirit within it is Daeva, Morphon, or Fae. It possesses its own personality and will, often one reflecting its spirit, which is violent and chaotic. However, its existence is entirely under your control. Your agathion can become unruly if given too much freedom or if it no longer respects or fears you. Your control over your agathion allows you to change its appearance (such as skin, fur, or hair color), its ability to speak, and even imprison it within its own mind as a means of punishing and controlling it to bend it to your will.
 
 **Form** determines physical capabilities:
 
 **Beast Form:**
+
 - Natural mobility based on creature description (flying, swimming, climbing, burrowing)
 - Natural damage type (bite/claws/charge)
 - Cannot equip weapons or armor
-- Telepathic communication only
+- Telepathic communication only, within 60 feet
 - Gains 6 resistance to each mundane damage type at T1. Starting at T2, gain +1 resistance to all damage types per tier.
-- Cursed Perception Score + Compounding 2× tier die
+- Health: Cursed Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on)
 - Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0) + locomotion (+4 on the mode the creature qualifies for: four-legged runners on land, fliers, swimmers). Climbing is a capability without a speed bonus; burrowing is half land speed.
 
 **Humanoid Form:**
+
 - Can equip one weapon (determines damage type and properties, NOT additional dice)
 - Can wear armor (adds durability)
 - Can speak, interact with objects, blend into crowds
 - No special movement
-- Compounding 2× tier die
-- Speed: 3 + Agathion tier (1 square, no locomotion bonus)
+- Health: two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on)
+- Takes the shape of a human (1 square) or a halfling (½ square). The normal size modifiers apply.
+- Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0), no locomotion bonus
 
 **Weapon Rule:** The tier die IS the weapon die. A humanoid Agathion wielding a sword rolls the same attack as a beast biting. The weapon determines damage type and properties (poison, reach, ranged), not additional dice. The spirit's power channels through whatever the mortal form wields.
 
 **Spirit Track** determines magical nature and active ability:
+
 - **Fae (Primal):** Trickery, deception, charm
 - **Daeva (Profane):** Destruction, corruption, fire
 - **Morphon (Void):** Reality distortion, displacement, chaos
@@ -184,7 +192,7 @@ The Agathion has its own independent health pool.
 
 #### Agathion Attack and Defense
 
-**Attack Roll:** Cursed's Perception tier die + Agathion tier die
+**Attack Roll:** Cursed's Perception tier die + Agathion tier die. In Beast Form, its natural attacks are Fast if it occupies ½ square and Moderate if it occupies 1 square. In Humanoid Form, it acts at the speed of its weapon, like any character.
 
 **Defense Roll:** Cursed's Perception tier die + Agathion tier die + Resistance
 
@@ -204,9 +212,9 @@ The tier die does not represent the Agathion getting stronger. The spirit was al
 | 20 | 6 | 1d10 |
 | 24 | 7 | 1d12 |
 
-**Health (Beast):** Your Perception score + each tier adds its tier die × 2 to the Agathion's health pool (compounding).
+**Health (Beast):** Your Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on).
 
-**Health (Humanoid):** Each tier adds its tier die x 2 to the Agathion's health pool (compounding).
+**Health (Humanoid):** Two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on).
 
 **Rest:** As a character, using its tier die for the Endurance tier die and your level for class level. A Fae Agathion treats a safe Wilderness Rest as a Good Night's Rest.
 
@@ -226,9 +234,9 @@ If your Agathion dies, you must create a new one. This process requires locating
 
 #### Control Trial
 
-When the Cursed commands the Agathion to use an active ability, they roll the tier die. On a 1, the spirit directs the ability according to its own nature and personality. On any other result, the Cursed directs the ability as intended.
+When the Cursed commands the Agathion to use an active ability, they roll the tier die. On a 1, the spirit directs the ability according to its own nature and personality. On any other result, the Cursed directs the ability as intended. A failed control trial affects only that use; the Agathion's other actions remain under your control.
 
-**Wresting Control:** The Cursed can spend 1 AP to reroll the control trial to force the Agathion to drop the effect. On a 1, the Agathion refuses.
+**Wresting Control:** If a failed control trial leaves the spirit directing a lasting effect, such as a Fae Agathion's Charm or a spell from Spell Conduit that the Agathion is concentrating on, you can spend 1 AP on your turn to roll the control trial again. On any result but a 1, the effect ends. On a 1, the Agathion refuses, and you can try again on a later turn.
 
 **Spirit Personality:** The Cursed's player and GM establish the Agathion's personality and grudges at character creation. This personality determines target selection on failed control trials.
 

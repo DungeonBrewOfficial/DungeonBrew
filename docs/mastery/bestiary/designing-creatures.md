@@ -48,6 +48,7 @@ Format:
 
 ```
 Phase Reference:
+
 - [First Phase]: [abilities available]
 - [Later Phase]: all above + [additional abilities]
 ```
@@ -97,12 +98,14 @@ Conditions are defined in Conditions. The stat block does not restate condition 
 
 **[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (damage-over-time conditions):**
 Format: `...the target must succeed on an END trial [DC] or gain Attrition (Bleeding).`
+
 - Each instance deals damage equal to the source's relevant attribute tier at end of the afflicted creature's turn, then expires.
 - Bleeding uses END trial to resist. Burning uses AGI trial to resist.
 - See [Conditions](../core/conditions.md), [Attrition](../core/conditions.md#attrition), for damage type labels and applicable resistances.
 
 **Venomous Bite (venom delivery on weapon hit):**
 Format: `On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts X Primal damage (END Tier). The target must succeed on a [condition's attribute] trial [DC] or advance [Condition] by 1 tier.`
+
 - Damage must be dealt (venom needs to enter the body — armor blocks it)
 - Primal damage = END Tier (flat value)
 - Trial for a condition ([Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") for necrotic venoms: END; [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") for neurotoxins: PER)
@@ -110,6 +113,7 @@ Format: `On a hit with a bite attack, with Impotence, if damage is dealt, the ve
 
 **Diseased Bite (disease delivery on weapon hit):**
 Format: `On a hit with a bite attack, with Impotence, if health damage is dealt, the target must succeed on an END trial [DC] or advance Infected by 1 tier.`
+
 - Same structure as Venomous Bite but no immediate Primal damage — disease is slower
 - Requires health damage (not just durability damage)
 
@@ -198,6 +202,8 @@ If a creature ability resembles a PC maneuver but differs mechanically, it gets 
 **Modified maneuvers:** Empty Fade is reworked for NPCs to preserve PC agency (PER trial to see through the feint). Set Spear follows the PC version: Reprisal when a creature moves into reach; Superiority applies specifically vs Charge.
 
 **Maneuver-sourced abilities cost an ability slot** when written onto a stat block. Using a maneuver ad-hoc (like any creature Charging) does not cost a slot.
+
+**Guards.** A creature that fights with a wielded melee weapon lists its guards in a **Guards** row. It can have any guard its weapon mastery level (its rank) allows; most need only the three Untrained guards. Minions have none. Like a character, it declares one guard at the start of each round.
 
 ### Creature Skills and Ambushes
 

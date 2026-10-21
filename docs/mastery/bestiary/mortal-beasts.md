@@ -396,6 +396,7 @@ All creatures in this file are **Mortal Beast (Primal)**.
 ***Bellow*** *(1 AP, Action. Ability slot 5).* All creatures within 30 ft must succeed on a WIS trial [10] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
 
 **Phase Reference** *(each phase includes all abilities from earlier phases):*
+
 - **Fast:** Bellow, Quake
 - **Moderate:** all above + Tusk, Charge, Gore, Trample
 - **Slow:** all above
@@ -514,6 +515,7 @@ All creatures in this file are **Mortal Beast (Primal)**.
 ***Swipe*** *(1 AP, Attack. Ability slot 3).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
 
 **Phase Reference** *(each phase includes all abilities from earlier phases):*
+
 - **Fast:** Bite, Charge (with Bite)
 - **Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
 
@@ -559,6 +561,7 @@ All creatures in this file are **Mortal Beast (Primal)**.
 ***Swipe*** *(1 AP, Attack. Ability slot 4).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
 
 **Phase Reference** *(each phase includes all abilities from earlier phases):*
+
 - **Fast:** Bite, Charge (with Bite), Maul
 - **Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
 
@@ -608,6 +611,7 @@ All creatures in this file are **Mortal Beast (Primal)**.
 ***Swipe*** *(1 AP, Attack. Ability slot 5).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
 
 **Phase Reference** *(each phase includes all abilities from earlier phases):*
+
 - **Fast:** Bite, Charge (with Bite), Maul, Roar of the King
 - **Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
 - **Slow:** all above

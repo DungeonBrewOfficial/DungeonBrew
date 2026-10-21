@@ -202,6 +202,6 @@ You draw heat from a creature you touch for the encounter. The target makes an E
 | **Components** | F, S, V | **Effect** | Restore Trauma (festering, open wounds) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a wound and burn it clean. One Trauma of Fire's domain is restored: a festering wound or an open wound. Cauterizing a festering wound stops the infection from advancing; it does not cure [Infected](../../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."). The restoration is permanent.

@@ -2,7 +2,7 @@
 generated_by: tools/sync_mastery.py
 ---
 
-# Magic
+# Magic Mastery
 
 The capacity to work magic is rare, and even in those in whom it manifests, difficult to control and more difficult to master. Wielders of the various forms of magic will find that impulsivity and carelessness will quickly result in their swift departure from this world with as much verve as their enemies or allies. Moreover, the dangers of magic extend to those around them, making its use often distrusted or unlawful in civilized circles. Mishandling magic stains the body and soul of reckless casters, creating visible signs of the craft.
 
@@ -12,7 +12,7 @@ A spell is a specific combination of a *form* and a *command* that produces a ma
 
 A spell in Mastery is a specific configuration of form, command, and parameters. Obliterate Fire at close range, single target, instantaneous is one spell. Obliterate Fire at distant range, large area, instantaneous is a different spell. Both use the same form and command, but they are distinct spells with different magan costs and different levels of familiarity.
 
-Cantrips are spells. An ability that spends magan without being cast from a form and a command, such as Imbue or a Spellcraft ability, is a magical ability, and it is a spell only if its text says so. Magical abilities count as magic for damage and resistance. Using one while you cast a spell leaves that spell intact, unless the ability is a defense.
+Cantrips are spells. An ability that spends magan without being cast from a form and a command, such as Imbue or a Spellcraft ability, is a magical ability, and it is a spell only if its text says so. Magical abilities count as magic for damage and resistance, but they cannot be countered or dispelled.
 
 ## Spell Sources
 
@@ -56,7 +56,7 @@ If the variation's magan exceeds your Form DC, make a trial at the midpoint of t
 
 Occult magic is the magic of understanding, the practice of uncovering the hidden structure of reality in order to manipulate its facets and produce desired outcomes. Occult magic is derivative by nature, studying and systematizing the principles that underlie all other sources of magic. Occult casters pursue magic through study and intellectual rigor.
 
-A practitioner of occult magic uses the Intelligence attribute to cast spells. To discover new spells, the caster studies occult writings and teachings: tomes, runic inscriptions, carved tablets, found grimoires, or the instruction of other practitioners. These teach principles rather than finished spells. The GM names the forms they cover, and each form is studied as its own source (see *[Discovery](#discovery)*). Scrolls are the exception: a scroll holds one fixed spell and is learned by casting it, which consumes the scroll (see *[Skill Mastery, Scribe: Reading Scrolls](../skills/index.md)*). The caster transcribes each spell into their grimoire using the Scribe discipline. See *Codex* in the Equipment chapter for grimoire specifications.
+A practitioner of occult magic uses the Intelligence attribute to cast spells. To discover new spells, the caster studies occult writings and teachings: tomes, runic inscriptions, carved tablets, found grimoires, or the instruction of other practitioners. These teach principles rather than finished spells. The GM names the forms they cover, and each form is studied as its own source (see *[Discovery](#discovery)*). Scrolls are the exception: a scroll holds one fixed spell and is learned by casting it, which consumes the scroll (see *Skill Mastery, [Scribe: Reading Scrolls](../skills/trade/index.md#scribe-discipline)*). The caster transcribes each spell into their grimoire using the Scribe discipline. See *Codex* in the Equipment chapter for grimoire specifications.
 
 ### Priscan Magic
 
@@ -90,9 +90,9 @@ A practitioner of theurgic magic uses the Charisma attribute to cast spells. To 
 
 ### Magan Pools
 
-A practitioner's magan pool is determined by their maximum mastery potential. Each time a practitioner increases their casting attribute tier, they roll their casting attribute tier die and add the result to their total magan permanently.
+A practitioner's magan pool is determined by their class's spell progression (see *[Mastery System](../core/mastery-and-trials.md), [Mastery Point Progression](../core/mastery-and-trials.md#mastery-point-progression)*). Each time a practitioner increases their casting attribute tier, they roll their casting attribute tier die and add the result to their total magan permanently.
 
-| Maximum Mastery | Base Magan | Classes |
+| Spell Progression | Base Magan | Classes |
 |:---|:---|:---|
 | Expert | Tier + Total TD | Avenger, Bahador, Paladin |
 | Master | ½ Score + Total TD | Fili, Gnome, Sylvan Elf |
@@ -102,7 +102,7 @@ A practitioner's magan pool is determined by their maximum mastery potential. Ea
 
 ### Magan Recovery
 
-Magan is recovered through rest and sustenance; see *[General Rules, Resting](../core/exploration-and-travel.md#resting)*.
+Magan is recovered through rest and sustenance; see *[General Rules](../core/exploration-and-travel.md), [Resting](../core/exploration-and-travel.md#resting)*.
 
 ---
 
@@ -213,7 +213,7 @@ All casters have access to the four elemental forms: Fire, Sea, Sky, and Stone. 
 |:---|:---|:---:|:---:|:---:|:---:|:---:|
 | Avenger | Theurgic | | ✓ | | | 5 |
 | Bahador | Occult | | | | ✓ | 5 |
-| Cleric | Theurgic | | * | * | | 5 |
+| Cleric | Theurgic | | ‡ | ‡ | ‡ | 5 |
 | Cursed | Priscan | | ✓ | | ✓ | 6 |
 | Druid | Telluric | ✓ | | | | 5 |
 | Fili | Telluric | ✓ | | | | 5 |
@@ -223,7 +223,7 @@ All casters have access to the four elemental forms: Fire, Sea, Sky, and Stone. 
 | Paladin | Theurgic | | | ✓ | | 5 |
 | Sylvan Elf | Priscan | ✓ | | | | 5 |
 
-\* Choose one. † Choose any two.
+\* Choose one. † Choose any two. ‡ Set by alignment: Lawful Sacred, Chaotic Profane, Neutral Void.
 
 ---
 
@@ -345,7 +345,7 @@ Simple conditions that can be imposed by spells are assigned a tier for costing 
 
 You select the condition tier at the time of casting and pay the full cost at that tier. (Fili Song advances conditions over time; see the [Fili](../characters/human-classes/fili.md) class.)
 
-Barriers and environmental effects (fog, dust, magical darkness) can produce [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") or [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") as properties of the terrain. Cover from a physical barrier is determined by geometry: how much of the target is behind the barrier relative to the attacker. Concealment from darkness, fog, smoke, or dust follows *[General Rules, Light and Visibility](../core/exploration-and-travel.md#light-and-visibility)*: magical darkness is ambient light or absolute darkness, and a fog or smoke spell is haze with a sight range the spell sets. A spell that produces a higher tier of Cover or Concealed on a specific target uses the condition tier multiplier above.
+Barriers and environmental effects (fog, dust, magical darkness) can produce [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") or [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") as properties of the terrain. Cover from a physical barrier is determined by geometry: how much of the target is behind the barrier relative to the attacker. Concealment from darkness, fog, smoke, or dust follows *[General Rules](../core/exploration-and-travel.md), [Light and Visibility](../core/exploration-and-travel.md#light-and-visibility)*: magical darkness is ambient light or absolute darkness, and a fog or smoke spell is haze with a sight range the spell sets. A spell that produces a higher tier of Cover or Concealed on a specific target uses the condition tier multiplier above.
 
 ### Effect Stacking
 
@@ -683,22 +683,28 @@ When you cast a new concentration spell, the AP cost to cast it includes establi
 
 Your free concentration slot can be reassigned at the start of each round. When a spell leaves your free slot, it becomes passive unless you pay to maintain it actively.
 
-**Scrolls.** A spell released from a scroll is concentrated on by the reader, as if they had cast it (see *[Skill Mastery, Scribe: Reading Scrolls](../skills/index.md)*).
+**Scrolls.** A spell released from a scroll is concentrated on by the reader, as if they had cast it (see *Skill Mastery, [Scribe: Reading Scrolls](../skills/trade/index.md#scribe-discipline)*).
 
 ### Interrupted Casting
 
-You are casting a spell from the start of the round, when you declare it, until it resolves in your phase. Declaring a spell draws its magan; you spend its AP when it resolves.
+You are casting a spell from the start of the round, when you declare it, until it resolves in your phase. Declaring a spell draws its magan, and you name any material component when you declare it. A component in a quick item slot is drawn as part of casting the spell; any other component must already be in hand when you declare. You spend the spell's AP when it resolves.
 
-A spell is interrupted and lost if, before it resolves, you:
+While you cast, you can still move, maintain your concentration spells, and make the trials that effects call for against you, including with abilities that modify those trials. An ability that is a defense counts as defending, even when it takes the place of a trial.
 
-- defend against an attack;
-- cast another spell, including a reaction spell or a counter;
-- take health damage and fail a Miscast trial against a DC equal to the health damage taken; or
-- choose to stop casting.
+You lose the spell and its magan if, before it resolves, you:
 
-Even a familiar spell, one cast at its recorded parameters, makes this trial, and you cannot coerce success on it. A lost spell's magan is spent. AP you have not spent remain available for movement and reactions.
+- cast another spell, use another ability, or choose to stop;
+- defend, attack, or interact with an object, unless the spell has no somatic components;
+- cannot spend its AP when it resolves;
+- take health damage or otherwise lose health, other than paying for the spell, and fail a Miscast trial against a DC equal to the health lost;
+- are knocked [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") and fail a Miscast trial against the DC of the effect that knocked you down, unless the spell has no somatic components; or
+- are left unable to finish it by a condition, such as one that prevents casting or takes your AP.
 
-Resisting a spell, and abilities that modify that trial, do not interrupt your casting. Pretermit (see *[Skill Mastery, Spellcraft](../skills/spellcraft.md)*) recovers part of a lost spell's magan.
+A condition that affects only a component you are not using does not affect the spell; a spell without verbal components ignores [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."). If a condition takes away a component you declared, such as a gag or restraints, the spell is lost.
+
+Chained and simple conditions otherwise apply to a spell being cast as written. A condition that makes you act in a later phase, such as [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), delays the spell until that phase.
+
+Even a familiar spell makes these Miscast trials, and you cannot coerce success on them.
 
 ---
 
@@ -781,7 +787,7 @@ When one practitioner actively counters a spell cast by another, a duel takes pl
 
 You can counter a spell from the moment its casting can be seen until it resolves. A spell cast without verbal and somatic components cannot be seen until it resolves; if its duration is Instantaneous, it cannot be countered, and if it has a duration, it can only be dispelled. A countered spell's magan is spent.
 
-**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *[Skill Mastery, Spellcraft](../skills/spellcraft.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
+**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *Skill Mastery, [Spellcraft](../skills/spellcraft.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
 
 Both practitioners are casting until the duel ends, and *[Interrupted Casting](#interrupted-casting)* applies to each. A practitioner whose casting is interrupted loses the duel.
 

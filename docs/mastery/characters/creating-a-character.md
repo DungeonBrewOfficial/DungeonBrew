@@ -6,19 +6,20 @@ generated_by: tools/sync_mastery.py
 
 ## Rolling Attributes
 
-Each attribute is assigned a Tier based on the significance of that attribute to the class that relies on it. The higher the tier, the better the dice used to determine the points.
+Each attribute is assigned a set of three dice based on how important that attribute is to your class. Larger dice give higher scores.
 
-| Tier | Die |
+| Dice Pool | Cost |
 |:---:|:---:|
-|Tier 1 | 3d2
-|Tier 2 | 3d3
-|Tier 3 | 3d4
-|Tier 4 | 3d6
-|Tier 5 | 3d8
-|Tier 6 | 3d10
-|Tier 7 | 3d12
+| 3d2 | 1 |
+| 3d3 | 2 |
+| 3d4 | 3 |
+| 3d6 | 4 |
+| 3d8 | 5 |
+| 3d10 | 6 |
+| 3d12 | 7 |
 
-When rolling your character, you will start with a pool of dice equal to 36 Tiers, which could be composed of any number of combinations which do not exceed 36, such as:
+You have 36 points to spend on sets, one set for each attribute, such as:
+
 * 3d3, 3d4, 3d6, 3d6, 3d8, 3d8, 3d10, and 3d12
 * 3d4, 3d4, 3d6, 3d6, 3d8, 3d8, 3d10, and 3d10
 * 3d3, 3d3, 3d3, 3d3, 3d12, 3d12, 3d12, and 3d12
@@ -86,10 +87,22 @@ ___
 After assigning a set of dice to a attribute, roll the assigned set, and check off a number of boxes equal to the points you rolled. It is expected that most of your rolls will result in Tier 2 or Tier 3 attributes. You may have 1 or 2 attributes at Tier 1 if you chose to make use of smaller dice sets. You will likely have no Tier 4 attributes, but it is not impossible.
 
 All attributes fall on a scale from Tier 1 to Tier 7, with a Score between 1 and 30.
-* You are considered to have the Score indicated at the top of the column when you have completed a column (e.g. In the Strength attribute, only the first box has been crossed off, meaning that the character has a 6 Strength, but as soon as that column is complete, their Strength becomes a 7).
+
+* Each score costs points to complete. Scores 1–5 cost 1 point each, 6–10 cost 2, 11–15 cost 3, 16–20 cost 4, 21–25 cost 5, and 26–30 cost 6. Completing the last score in a group gives you the next tier.
+
+| Scores | Points each | Total to complete | Tier gained |
+|:---:|:---:|:---:|:---:|
+| 1–5 | 1 | 5 | 2 |
+| 6–10 | 2 | 15 | 3 |
+| 11–15 | 3 | 30 | 4 |
+| 16–20 | 4 | 50 | 5 |
+| 21–25 | 5 | 75 | 6 |
+| 26–30 | 6 | 105 | 7 |
+
 * You are considered to have the next Tier when you have completed the previous Tier (e.g. when you have a Score of 5, you are Tier 2, when you have a score of 30, you are Tier 7).
 
 Before completing the process of crossing off your attributes, you can make a final change to these points to determine how your Scores will look.
+
 * After generating your attributes, you may choose to EITHER swap any two scores or re-roll any 1 attribute.
 * You gain 3 points to apply to any attributes: 1 point for being a level 1 character, and 2 starting points. The points from Leveling begin when you reach level 2.
 

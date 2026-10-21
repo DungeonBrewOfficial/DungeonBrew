@@ -78,7 +78,7 @@ def skill_path(name):
 
 
 PAGES = {
-    "core/mastery": page("core/mastery-and-trials.md", "Mastery & Trials"),
+    "core/mastery": page("core/mastery-and-trials.md", "Mastery System"),
     "core/combat": page("core/combat.md", "Combat"),
     "core/conditions": page("core/conditions.md", "Conditions"),
     "core/exploration": page("core/exploration-and-travel.md", "Exploration & Travel"),
@@ -98,7 +98,7 @@ PAGES = {
     "weapons/style": page("weapons/style-maneuvers.md", "Style Maneuvers", lead=False),
     "weapons/type": page("weapons/type-maneuvers.md", "Type Maneuvers", lead=False),
 
-    "magic/index": page("magic/index.md", "Magic"),
+    "magic/index": page("magic/index.md", "Magic Mastery"),
     "magic/rites": page("magic/exorcism-enchantment-shapeshifting.md",
                         "Exorcism, Enchantment & Shapeshifting", lead=False),
 
@@ -160,7 +160,7 @@ Have fun!
 
 ## Where to Start
 
-**Players.** Start with [Creating a Character](characters/creating-a-character.md), then read [Mastery & Trials](core/mastery-and-trials.md) for how rolls work and [Combat](core/combat.md) for how fights run.
+**Players.** Start with [Creating a Character](characters/creating-a-character.md), then read [Mastery System](core/mastery-and-trials.md) for how rolls work and [Combat](core/combat.md) for how fights run.
 
 **Game Masters.** The [Bestiary](bestiary/index.md) holds the creatures and the rules for running and building them. [Treasure](treasure/index.md) covers what the party finds.
 """),
@@ -299,15 +299,15 @@ NAV = ("Mastery", "index", [
         ("Demihuman Classes", "char/demihuman", [f"class/{s}" for s, _ in DEMIHUMAN]),
         "char/factions",
     ]),
-    ("Skills", "skills/index", [
+    ("Skill Mastery", "skills/index", [
         *[f"skill/{n}" for n in SKILLS if n not in ("Trade", "Wilderness")],
         ("Trade", "skill/Trade", [
             ("Alchemy", "alchemy/index", [f"alchemy/{n}" for n in CONCOCTIONS]),
         ]),
         ("Wilderness", "skill/Wilderness", ["skills/companions"]),
     ]),
-    ("Weapons", "weapons/index", ["weapons/style", "weapons/type"]),
-    ("Magic", "magic/index", [
+    ("Weapon Mastery", "weapons/index", ["weapons/style", "weapons/type"]),
+    ("Magic Mastery", "magic/index", [
         "magic/rites",
         ("Spells", None, [
             ("Elemental", None, [f"spells/{n}" for n in ELEMENTAL]),
@@ -318,8 +318,10 @@ NAV = ("Mastery", "index", [
                          "equip/gear", "equip/animals"]),
     ("Treasure", "treasure/index", ["treasure/furs", "treasure/gems",
                                     "treasure/art", "treasure/great"]),
-    ("Bestiary", "bestiary/index", ["bestiary/rules", "bestiary/design",
-                                    *[f"creatures/{s}" for s, _ in CREATURES]]),
+    ("Bestiary", "bestiary/index", [
+        ("Monster Manual", None, ["bestiary/rules", "bestiary/design"]),
+        *[f"creatures/{s}" for s, _ in CREATURES],
+    ]),
 ])
 
 # ---------------------------------------------------------------------------
@@ -328,6 +330,7 @@ HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 CENTER = re.compile(r"</?center>", re.IGNORECASE)
 RULE = re.compile(r"^\s*(-{3,}|_{3,}|\*{3,})\s*$")
 WIDE_DIV = {"<div class='wide'>", '<div class="wide">', "</div>"}
+LIST_ITEM = re.compile(r"^(\s*)([-*+]|\d+\.)\s")
 
 
 class SyncError(Exception):
@@ -368,7 +371,42 @@ def preprocess(lines):
                 out += [("", False), (line, True), ("", False)]
                 continue
         out.append((line, False))
-    return out
+    return fix_lists(out)
+
+
+def fix_lists(lines):
+    """GM Binder reads lists loosely; MkDocs does not. Give each list a blank
+    line before it, so it is not read as part of the paragraph above, and put
+    nested items on 4-space steps, which MkDocs needs to keep a list whole."""
+    out = []
+    levels = []  # source indents of the open list levels
+    for line, is_h in lines:
+        m = None if is_h else LIST_ITEM.match(line)
+        if m:
+            indent = len(m.group(1).expandtabs(4))
+            if not levels and out and out[-1][0].strip():
+                out.append(("", False))
+            while levels and levels[-1] > indent:
+                levels.pop()
+            if not levels or indent > levels[-1]:
+                levels.append(indent)
+            line = "    " * (len(levels) - 1) + line.lstrip()
+        elif levels and line.strip() and line[:1].isspace() and not is_h:
+            line = "    " * len(levels) + line.lstrip()  # continuation of an item
+        elif line.strip() and not line[:1].isspace():
+            levels = []
+        out.append((line, is_h))
+    # A blank line where a sub-list closes and its parent list carries on
+    # makes MkDocs set the parent's items as paragraphs, in smaller type.
+    tight = []
+    for i, (line, is_h) in enumerate(out):
+        if not line.strip() and tight and i + 1 < len(out):
+            prev, nxt = tight[-1][0], out[i + 1][0]
+            if prev.startswith("    ") and LIST_ITEM.match(prev) and LIST_ITEM.match(nxt) \
+                    and not nxt[:1].isspace():
+                continue
+        tight.append((line, is_h))
+    return tight
 
 
 def split_source(spec, source_dir):

@@ -21,7 +21,7 @@ Kits are ready-made bundles for new characters, priced at the sum of their conte
 | **Healer's Kit** | *In pack:* 20 Healing Supplies (Serf), 4 Healing Supplies (Peasant) | 66 sp |
 | **Scholar's Kit** | *In pack:* codex, 1 Scribe Supplies, 2 black ink, quill, 2 tallow candles; scroll case *(Belt)* with 3 leaves of vellum | 150 sp |
 | **Smith's Kit** | *In pack:* 4 repair kits, hammer, whetstone | 108 sp |
-| **Traveler's Kit** | *On the animal:* pack saddle, saddle blanket, halter, panniers [16] *(9 horse bread, small tent)* | 78 sp |
+| **Traveler's Kit** | *No animal included. On the animal:* pack saddle, saddle blanket, halter, panniers [16] *(9 horse bread, small tent)* | 78 sp |
 | **Traveler's Kit, with Mule** | As the Traveler's Kit, plus a donkey or mule | 162 sp |
 
 ## Containers
@@ -50,37 +50,37 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 | Arm Sheath* | L / .5 lb. | 1 Dagger | 1 ss | Forearm |
 | Backpack, Canvas | L / 1 lb. | 8 | 3 sp | Back |
 | Backpack, Traveler's | L / 3 lbs. | 16 | 1 ss | Back |
-| Bandolier* | L / 3 lbs. | 6 quick | 1 sf | Shoulder |
+| Bandolier* | L / 3 lbs. | 6 quick | 2 ss | Shoulder |
 | Barrel, Large Oak | 11 / 110 lbs. | 96 | 1 ss | Not carried |
-| Barrel, Medium Oak | 8 / 78 lbs. | 48 | 1 st | Not carried |
+| Barrel, Medium Oak | 8 / 78 lbs. | 48 | 6 sp | Not carried |
 | Barrel, Small Oak | 5 / 50 lbs. | 24 | 3 sp | Not carried |
 | Basket, Large Hempen | L / 4 lbs. | 18 | 3 sp | Held |
 | Basket, Medium Hempen | L / 2 lbs. | 8 | 1 sp | Held |
-| Basket, Small Hempen | L / 1 lb. | 6 | 1 sh | Held |
+| Basket, Small Hempen | L / 1 lb. | 6 | 2 cf | Held |
 | Belt Pouch, Large | L / .5 lb. | 4  | 1 sp | Belt, Hip |
-| Belt Pouch, Small* | L / .2 lb. | 4 quick | 1 sh | Belt, Hip |
+| Belt Pouch, Small* | L / .2 lb. | 4 quick | 2 cf | Belt, Hip |
 | Bottle, Glass | L / 10 lbs. | 1 ga | 4 sp | Held, Back |
-| Bracer Pouch* | L / .5 lb. | 2 quick | 1 sg | Forearm |
+| Bracer Pouch* | L / .5 lb. | 2 quick | 4 sp | Forearm |
 | Bucket | L / 10 lbs. | 1 ga | 1 cf | Held |
 | Chest, Large Oak | 8 / 80 lbs. | 48  | 2 ss | Not carried |
 | Chest, Medium Oak | 5 / 50 lbs. | 24  | 10 sp | Not carried |
 | Chest, Small Oak | H / 40 lbs. | 16  | 5 sp | Not carried |
-| Frog | L / .5 lb. | 1 weapon | 1 sg | Hip |
-| Map Case | L / 2 lbs. | 3 maps | 2 sg | Hip, Shoulder, Back |
+| Frog | L / .5 lb. | 1 weapon | 4 sp | Hip |
+| Map Case | L / 2 lbs. | 3 maps | 8 sp | Hip, Shoulder, Back |
 | Quarrel Case | L / 1 lb. | 1 sheaf | 1 sp | Hip, Shoulder, Leg |
 | Quiver | L / 1 lb. | 1 sheaf | 1 sp | Hip, Shoulder |
 | Sack, Large | L / 2 lbs. | 6  | 1 sp | Held |
-| Sack, Medium | L / 1 lb. | 4  | 1 sh | Held |
+| Sack, Medium | L / 1 lb. | 4  | 2 cf | Held |
 | Sack, Small | L / .5 lb. | 2  | 1 cf | Held |
-| Saddle Bags, Large | M / 12 lbs. | 8 | 1 sf | Mount |
+| Saddle Bags, Large | M / 12 lbs. | 8 | 2 ss | Mount |
 | Saddle Bags, Medium | L / 8 lbs. | 4 | 1 ss | Mount |
-| Saddle Bags, Panniers | M / 12 lbs. | 16 | 1 st | Mount |
-| Saddle Bags, Small | L / 4 lbs. | 2 | 1 st | Mount |
+| Saddle Bags, Panniers | M / 12 lbs. | 16 | 6 sp | Mount |
+| Saddle Bags, Small | L / 4 lbs. | 2 | 6 sp | Mount |
 | Scabbard, Leather | L / 1 lb. | 1 melee weapon | 1 ss | Hip, Shoulder, Back |
 | Scabbard, Ornate | L / 1 lb. | 1 melee weapon | 10 gs | Hip, Shoulder, Back |
-| Scroll Case* | L / 2 lbs. | 3 scrolls | 2 sg | Belt, Hip, Shoulder |
-| Shield Pouch* | L / 1 lb. | 2 quick | 1 sg | On a shield |
-| Waterskin | L [2] / 5 lbs. | .5 ga | 1 sh | Belt, Hip |
+| Scroll Case* | L / 2 lbs. | 3 scrolls | 8 sp | Belt, Hip, Shoulder |
+| Shield Pouch* | L / 1 lb. | 2 quick | 4 sp | On a shield |
+| Waterskin | L [2] / 5 lbs. | .5 ga | 2 cf | Belt, Hip |
 
 \* *Quick Item Container, see description*
 
@@ -162,26 +162,26 @@ Clothing not only protects you from the elements but also serves as a status sym
 
 | Textile | Quantity | Price |
 |:---|:---:|:---:|
-| Broadcloth, Fine | Yard <sup>2</sup> | 10 sg
+| Broadcloth, Fine | Yard <sup>2</sup> | 40 sp
 | Broadcloth, Plain | Yard <sup>2</sup>  | 25 sp
 | Broadcloth, Scarlet | Yard <sup>2</sup>  | 1 sc
-| Canvas | Yard <sup>2</sup>  | 1 ep
-| Cloth of Gold | Yard <sup>2</sup>  | 5 gm
+| Canvas | Yard <sup>2</sup>  | 2 sp
+| Cloth of Gold | Yard <sup>2</sup>  | 10 gn
 | Cloth of Gold, Pure | Yard <sup>2</sup>  | 10 gs
 | Cloth of Gold, Raised | Yard <sup>2</sup>  | 25 gn
 | Cloth of Silver | Yard <sup>2</sup>  | 3 gs
 | Linen, Fine | Yard <sup>2</sup>  | 1 ss
-| Linen, Plain | Yard <sup>2</sup>  | 1 st
-| Silk, Fine | Yard <sup>2</sup>  | 35 sg
-| Silk, Plain | Yard <sup>2</sup>  | 25 sg
-| Velvet, Fine | Yard <sup>2</sup>  | 70 sg
+| Linen, Plain | Yard <sup>2</sup>  | 6 sp
+| Silk, Fine | Yard <sup>2</sup>  | 140 sp
+| Silk, Plain | Yard <sup>2</sup>  | 100 sp
+| Velvet, Fine | Yard <sup>2</sup>  | 280 sp
 | Velvet, Plain | Yard <sup>2</sup>  | 3 sc
-| Wool, Fine | Yard <sup>2</sup>  | 7 st
-| Wool, Thick | Yard <sup>2</sup>  | 3 st
+| Wool, Fine | Yard <sup>2</sup>  | 42 sp
+| Wool, Thick | Yard <sup>2</sup>  | 18 sp
 
 | Clothing | Enc / Weight | Price |
 |:---|:---:|:---:|
-| Belt | .5 lb. | 1 sh
+| Belt | .5 lb. | 2 cf
 | Blanket, Winter | L / 3 lbs. | 1 ss
 | Boots, Fine | 1 lb. | 6 ss
 | Boots, Riding | 2 lbs. | 3 ss
@@ -189,9 +189,9 @@ Clothing not only protects you from the elements but also serves as a status sym
 | Boots, Wool | 1 lb. | 2 ss
 | Breeches, Plain Linen | 1 lb. | 8 sp
 | Cloak, Fine Fur | 6 lbs. | 3 gs
-| Cloak, Good Wool | 4 lbs. | 6 sf
+| Cloak, Good Wool | 4 lbs. | 12 ss
 | Cloak, Linen | 2 lbs. | 2 sp
-| Girdle | .5 lb. | 1 sf
+| Girdle | .5 lb. | 2 ss
 | Gloves, Wool | .2 lb. | 1 ss
 | Gown, Common | 2 lbs. | 3 ss
 | Gown, Fashionable | 6 lbs. | 10 gs
@@ -202,9 +202,9 @@ Clothing not only protects you from the elements but also serves as a status sym
 | Robe, Embroidered | 2 lbs. | 1 gs
 | Sash | .2 lb. | 2 sp
 | Shoes, Fine | 1 lb. | 6 sp
-| Shoes, Simple | 2 lbs. | 5 sh
-| Tabard | 1 lb. | 3 st
-| Tunic, Fine Linen | 1 lb. | 3 st
+| Shoes, Simple | 2 lbs. | 10 cf
+| Tabard | 1 lb. | 18 sp
+| Tunic, Fine Linen | 1 lb. | 18 sp
 | Tunic, Plain Linen | 1 lb. | 1 ss
 | Vest | 1 lb. | 2 sp
 
@@ -231,21 +231,21 @@ There is a variety of items that are useful to adventurers and travelers of all 
 | Adventuring Gear | Enc [Stack] / Weight | Price |
 |:---|:---:|:---:|
 | Ball Bearings (1,000) | L / 8 lbs. | 1 ss |
-| Block and Tackle | L / 5 lbs. | 1 sg |
+| Block and Tackle | L / 5 lbs. | 4 sp |
 | Bola | L / 2 lbs. | 1 sp |
-| Caltrops | L / 4 lbs. | 1 st |
+| Caltrops | L / 4 lbs. | 6 sp |
 | Candle, Beeswax | L [10] / 1 lb. | 7 sp |
 | Candle, Tallow | L [10] / 1 lb. | 2 sp |
-| Cane | L / 2 lbs. | 1 sg |
+| Cane | L / 2 lbs. | 4 sp |
 | Chalk | NE / .1 lb. | 1 cf |
 | Codex | M / 19 lbs. | 2 sc |
 | Crampons | L / 2 lbs. | 2 ss |
-| Cresset Lamp | L / 1 lb. | 1 sg |
+| Cresset Lamp | L / 1 lb. | 4 sp |
 | Crowbar | L / 8 lbs. | 1 ss |
-| Crutch | L / 4 lbs. | 1 sg |
-| Eye Patch | NE / .05 lb. | 1 sh |
+| Crutch | L / 4 lbs. | 4 sp |
+| Eye Patch | NE / .05 lb. | 2 cf |
 | False Teeth | NE / .1 lb. | 1 sc |
-| Flour Pouch | NE / .5 lb. | 1 sh |
+| Flour Pouch | NE / .5 lb. | 2 cf |
 | Glass Eye | NE / .05 lb. | 1 sc |
 | Grappling Hook | L / 4 lbs. | 2 sp |
 | Hammer | L / 3 lbs. | 10 sp |
@@ -257,26 +257,26 @@ There is a variety of items that are useful to adventurers and travelers of all 
 | Healing Supplies (Noble) | L / 6 lbs. | 4 gs |
 | Healing Supplies (Royal) | L / 8 lbs. | 8 gs |
 | Hook | NE / 1 lb. | 1 ss |
-| Ink, Black (Vial) | L [20] / .5 lb. | 1 ep |
+| Ink, Black (Vial) | L [20] / .5 lb. | 2 sp |
 | Ink, Colored (Vial) | L [20] / .5 lb. | 1 ss |
-| Instrument, Bagpipe | L / 8 lbs. | 1 sf |
-| Instrument, Chalumeau | L / 1 lb. | 1 st |
+| Instrument, Bagpipe | L / 8 lbs. | 2 ss |
+| Instrument, Chalumeau | L / 1 lb. | 6 sp |
 | Instrument, Dulcimer | L / 4 lbs. | 1 gn |
-| Instrument, Flute | L / 1 lb. | 1 sf |
-| Instrument, Gemshorn | L / 1 lb. | 1 st |
+| Instrument, Flute | L / 1 lb. | 2 ss |
+| Instrument, Gemshorn | L / 1 lb. | 6 sp |
 | Instrument, Harp | L / 4 lbs. | 1 gs |
-| Instrument, Zither | L / 10 lbs. | 1 gm |
+| Instrument, Zither | L / 10 lbs. | 2 gn |
 | Iron Hand | NE / 3 lbs. | 2 gs |
 | Iron Pot | L / 5 lbs. | 2 sp |
-| Iron Spike | L [10] / 1 lb. | 1 ep |
+| Iron Spike | L [10] / 1 lb. | 2 sp |
 | Ladder, 10 ft. | M / 20 lbs. | 3 sp |
-| Lantern, Ox Horn | L / 2 lbs. | 1 sf |
-| Leaf of Paper | L [200] / .05 lb. | 1 sh |
+| Lantern, Ox Horn | L / 2 lbs. | 2 ss |
+| Leaf of Paper | L [200] / .05 lb. | 2 cf |
 | Leaf of Papyrus | L [200] / .05 lb. | 1 cf |
-| Leaf of Parchment | L [100] / .1 lb. | 1 sh |
+| Leaf of Parchment | L [100] / .1 lb. | 2 cf |
 | Leaf of Vellum | L [100] / .1 lb. | 1 sp |
 | Leg, Fine Wooden | NE / 5 lbs. | 1 sc |
-| Lock, Swing Shackle | L / 6 lbs. | 1 sf |
+| Lock, Swing Shackle | L / 6 lbs. | 2 ss |
 | Lock, Warded Push Key | L / 4 lbs. | 1 sc |
 | Merchant's Scale | L / 3 lbs. | 1 sc |
 | Mirror, Small Metal | L / 1 lb. | 1 ss |
@@ -351,39 +351,39 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 
 | Adventuring Gear Cont. | Enc [Stack] / Weight | Price |
 |:---|:---:|:---:|
-| Net, Weighted | L / 4 lbs. | 1 sf |
+| Net, Weighted | L / 4 lbs. | 2 ss |
 | Oil, Lamp (Flask) | L / 1 lb. | 1 sp |
 | Peg Leg | NE / 4 lbs. | 1 ss |
 | Pickaxe | L / 3 lbs. | 5 sp |
 | Piton | L [20] / .5 lb. | 1 sp |
-| Pole, 10 ft. | L / 6 lbs. | 1 ep |
+| Pole, 10 ft. | L / 6 lbs. | 2 sp |
 | Quill | NE / .01 lb. | 1 cf |
-| Rations, Dry | L [20] / .5 lb. | 1 sh |
+| Rations, Dry | L [20] / .5 lb. | 2 cf |
 | Rations, Iron | L [10] / 1 lb. | 1 sp |
-| Rations, Standard | L [6] / 1.5 lbs. | 1 sh |
+| Rations, Standard | L [6] / 1.5 lbs. | 2 cf |
 | Reading Stone | NE / .5 lb. | 1 gn |
-| Repair Kit | L [2] / 5 lbs. | 1 sf |
-| Rope, Hemp (50 ft.) | L / 10 lbs. | 1 sg |
+| Repair Kit | L [2] / 5 lbs. | 2 ss |
+| Rope, Hemp (50 ft.) | L / 10 lbs. | 4 sp |
 | Scribe Supplies | L [10] / .5 lb. | 1 ss |
-| Sewing Needle | NE / .01 lb. | 1 sh |
-| Signal Whistle | NE / .2 lb. | 2 sg |
-| Silk String, Spool (50 ft.) | L / .1 lb. | 1 st |
+| Sewing Needle | NE / .01 lb. | 2 cf |
+| Signal Whistle | NE / .2 lb. | 8 sp |
+| Silk String, Spool (50 ft.) | L / .1 lb. | 6 sp |
 | Slow Match (10 ft.) | L / .5 lb. | 1 sp |
 | Spell Component (Serf) | L [40] / .25 lb. | 10 sp |
 | Spell Component (Peasant) | L [40] / .25 lb. | 10 ss |
-| Spell Component (Knight) | L [40] / .25 lb. | 10 sf |
+| Spell Component (Knight) | L [40] / .25 lb. | 1 gs |
 | Spell Component (Burgher)| L [40] / .25 lb. | 10 sc |
 | Spell Component (Magnate) | L [40] / .25 lb. | 10 gs |
 | Spell Component (Noble) | L [40] / .25 lb. | 20 gs |
 | Spell Component (Royal) | L [40] / .25 lb. | 40 gs |
-| Tent, Large | M / 20 lbs. | 1 sf |
+| Tent, Large | M / 20 lbs. | 2 ss |
 | Tent, Pavilion | 5 / 50 lbs. | 1 gn |
 | Tent, Small | L / 10 lbs. | 1 ss |
 | Thieves' Picks | L / 3 lbs. | 1 ss |
 | Tinderbox | L / 1 lb. | 1 sp |
-| Torch | L [5] / 2 lbs. | 1 sh |
-| Torch (Waterproof) | L [5] / 2 lbs. | 1 sg |
-| Whetstone | L / 1 lb. | 1 ep |
+| Torch | L [5] / 2 lbs. | 2 cf |
+| Torch (Waterproof) | L [5] / 2 lbs. | 4 sp |
+| Whetstone | L / 1 lb. | 2 sp |
 
 **Ink, Black (Vial)**. Black ink made from water, galls from an oak tree, ferrous sulphate, and gum arabic. One vial of ink is enough to write about 500 words or one side of a page.
 
@@ -511,22 +511,22 @@ A focus is an object that channels a caster's power (see *[Components](../magic/
 
 | Focus | Enc / Weight | Price | Carry |
 |:---|:---:|:---:|:---|
-| Astrolabe | L / 3 lbs. | 1 gm | Belt, Hip |
+| Astrolabe | L / 3 lbs. | 2 gn | Belt, Hip |
 | Bezoar | NE / .2 lb. | 10 gs | Belt |
 | Calipers, Brass | L / 1 lb. | 1 ss | Belt, Hip |
 | Censer | L / 3 lbs. | 1 ss | Belt, Hip |
 | Fetish | NE / .5 lb. | 1 sp | Belt |
 | Knucklebones | NE / .2 lb. | 1 cf | Belt |
-| Mask, Ritual | L / 1 lb. | 1 st | Belt, Hip |
+| Mask, Ritual | L / 1 lb. | 6 sp | Belt, Hip |
 | Pectoral, Silver | NE / 1 lb. | 1 gn | Worn |
 | Pectoral, Wooden | NE / .5 lb. | 1 cf | Worn |
 | Relic | NE / .5 lb. | 1 gn | Belt |
 | Rod | L / 2 lbs. | 1 cf | Short |
 | Scourge | L / 1 lb. | 2 sp | Belt, Hip |
-| Sistrum | L / 2 lbs. | 1 sf | Belt, Hip |
+| Sistrum | L / 2 lbs. | 2 ss | Belt, Hip |
 | Speculum | L / 1 lb. | 1 ss | Belt, Hip |
 | Staff | L / 3 lbs. | 1 cf | Long |
-| Talisman | NE / .2 lb. | 1 sg | Worn |
+| Talisman | NE / .2 lb. | 4 sp | Worn |
 
 **Astrolabe**. A brass disc of engraved plates and a rotating sighting arm, used to reckon the hours and the positions of the stars.
 
@@ -564,11 +564,11 @@ Vessels and protective gear for alchemical concoctions. The concoctions themselv
 
 | Item | Enc / Weight | Holds | Price | Carry |
 |:---|:---:|:---:|:---:|:---|
-| Field Kit (Apothecary's Satchel) | L / 10 lbs. | Tools + 12 phials | 1 sf | Hip, Shoulder |
-| Latched Case | L / 2 lbs. | 2 pots | 2 sg | Belt, Hip |
-| Vial, Glass | L [20] / .1 lb. | 1 dose | 1 ep | — |
-| Vial, Pewter | L [10] / .25 lb. | 1 dose | 1 sg | — |
-| Waxed Cloth Wrap | L / .2 lb. | 1 item | 1 sh | — |
+| Field Kit (Apothecary's Satchel) | L / 10 lbs. | Tools + 12 phials | 2 ss | Hip, Shoulder |
+| Latched Case | L / 2 lbs. | 2 pots | 8 sp | Belt, Hip |
+| Vial, Glass | L [20] / .1 lb. | 1 dose | 2 sp | — |
+| Vial, Pewter | L [10] / .25 lb. | 1 dose | 4 sp | — |
+| Waxed Cloth Wrap | L / .2 lb. | 1 item | 2 cf | — |
 
 **Field Kit (Apothecary's Satchel)**. A fitted satchel holding a small mortar and pestle, a cased scale and weights, a small pan and trivet, straining cloths, a funnel, a spatula and spoon, shears, a bleeding bowl, corks, wax, and padded places for 12 phials. Phials in their places ignore the breakage hazard. Drawing from it costs 1 AP, as an item on your body.
 
@@ -587,7 +587,7 @@ Provisions are sold for cooking, trade, and the table. Items with a Meals value 
 | Ale, Good | Gallon | L / 9 lbs. | 2 sp | — |
 | Ale, Penny | Gallon | L / 9 lbs. | 3 cf | — |
 | Apples | Dozen | L / 3 lbs. | 1 sp | 2 |
-| Beer, Small | Gallon | L / 8 lbs. | 1 sh | — |
+| Beer, Small | Gallon | L / 8 lbs. | 2 cf | — |
 | Bread | Loaf | L / 1 lb. | 1 cf | 2 |
 | Butter | lb | L [10] / 1 lb. | 1 sp | — |
 | Cheese | Wheel | L / 6 lbs. | 3 sp | 12 |
@@ -600,7 +600,7 @@ Provisions are sold for cooking, trade, and the table. Items with a Meals value 
 | Fish, Sole | per | L / 2 lbs. | 2 sp | — |
 | Flour, Rye | lb | L [10] / 1 lb. | 1 cf | — |
 | Ginger | lb | L [10] / 1 lb. | 28 sp | — |
-| Herbs | lb | L [10] / 1 lb. | 1 sh | — |
+| Herbs | lb | L [10] / 1 lb. | 2 cf | — |
 | Honey | Pint | L [5] / 1.5 lbs. | 3 sp | — |
 | Mace | lb | L [10] / 1 lb. | 36 sp | — |
 | Milk | Gallon | L / 8 lbs. | 1 sp | — |
@@ -611,7 +611,7 @@ Provisions are sold for cooking, trade, and the table. Items with a Meals value 
 | Raisins | lb | L [10] / 1 lb. | 2 sp | — |
 | Rice | lb | L [10] / 1 lb. | 2 sp | — |
 | Saffron | lb | L [10] / 1 lb. | 176 sp | — |
-| Salt | lb | L [10] / 1 lb. | 1 sh | — |
+| Salt | lb | L [10] / 1 lb. | 2 cf | — |
 | Sugar | lb | L [10] / 1 lb. | 24 sp | — |
 | Vegetables, Fresh | Bundle | L / 2 lbs. | 1 cf | 2 |
 | Wine, Red | Gallon | L / 8 lbs. | 3 sp | — |
@@ -652,42 +652,42 @@ Travelers often find the need to pay for services when on the road. Sometimes, t
 | Lodging and Services | Per | Price |
 |:---|:---:|:---:|
 | Bath | Bath | 1 cf |
-| Bearer/Porter | Day | 1 ep |
-| Blacksmith | Day | 2 sg |
-| Carpenter | Day | 2 sg |
+| Bearer/Porter | Day | 2 sp |
+| Blacksmith | Day | 8 sp |
+| Carpenter | Day | 8 sp |
 | City Rooms (Poor) | Month | 5 sp |
-| City Rooms (Common) | Month | 5 sg |
-| City Rooms (Good) | Month | 10 sg |
+| City Rooms (Common) | Month | 20 sp |
+| City Rooms (Good) | Month | 40 sp |
 | Guide | Day | 1 sp |
-| Healer | Injury | 2 sg |
-| Inn Lodging (Poor) | Night | 1 sh |
+| Healer | Injury | 8 sp |
+| Inn Lodging (Poor) | Night | 2 cf |
 | Inn Lodging (Common) | Night | 3 sp |
-| Inn Lodging (Good) | Night | 1 st |
-| Kenneling Dog | Day | 3 sh |
+| Inn Lodging (Good) | Night | 6 sp |
+| Kenneling Dog | Day | 6 cf |
 | Laundry | Load | 1 cf |
-| Leather Worker | Day | 2 sg |
+| Leather Worker | Day | 8 sp |
 | Limner | Day | 1 sc |
 | Linkboy | Night | 1 sp |
-| Mason | Day | 2 sg |
+| Mason | Day | 8 sp |
 | Meal (Poor) | Meal | 1 cf |
-| Meal (Common) | Meal | 1 sh |
+| Meal (Common) | Meal | 2 cf |
 | Meal (Good) | Meal | 1 sp |
 | Meal (Banquet) | Meal | 1 ss |
 | Messenger | Message | 1 cf |
 | Minstrel | Song | 1 cf |
 | Mourner | Funeral | 1 cf |
-| Pack Handler | Day | 1 ep |
+| Pack Handler | Day | 2 sp |
 | Riding Horse, Rent | Day | 1 ss |
-| Scribe | 400 words | 2 sg |
-| Sedan Chair, Hired | Hour | 1 st |
+| Scribe | 400 words | 8 sp |
+| Sedan Chair, Hired | Hour | 6 sp |
 | Stabling Animals | Day | 2 sp |
 | Stabling Large Animals | Day | 3 sp |
-| Tailor | Day | 2 sg |
-| Teamster | Day | 1 sg |
-| Transport 1 Tun (Land) | Mile | 3 sh |
-| Transport 1 Tun (Water) | Mile | 1 sh |
-| Travel, Sea (Steerage) | Day | 2 sh |
-| Valet/Lackey | Day | 1 ep |
+| Tailor | Day | 8 sp |
+| Teamster | Day | 4 sp |
+| Transport 1 Tun (Land) | Mile | 6 cf |
+| Transport 1 Tun (Water) | Mile | 2 cf |
+| Travel, Sea (Steerage) | Day | 1 sp |
+| Valet/Lackey | Day | 2 sp |
 
 **Leather Worker**. This occupation is principally concerned with the fabrication of leather goods such as back packs, belts, straps, horse tack, etc. The cost per day does not include materials that might be needed for the work.
 
@@ -717,7 +717,7 @@ Travelers often find the need to pay for services when on the road. Sometimes, t
 
 **Scribe**. A scribe will write a single document, or 400 words. This cost does not include materials, which can increase the cost. The scribe may also be hired to include additional artistry for a similar cost.
 
-**Sedan Chair, Hired**. Sedan chairs can sometimes be rented to taxi an occupant around the city. They generally charge by the hour, a minimum of 1 st. The same amount is charged for waiting, and charged again if the travel would take the chair beyond the city walls.
+**Sedan Chair, Hired**. Sedan chairs can sometimes be rented to taxi an occupant around the city. They generally charge by the hour, a minimum of 6 sp. The same amount is charged for waiting, and charged again if the travel would take the chair beyond the city walls.
 
 **Stabling Animals**. For feed and stabling of small or medium horses, mules, or donkeys.
 

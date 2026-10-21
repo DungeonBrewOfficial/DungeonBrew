@@ -178,7 +178,7 @@ A large, heavy hide with thick, shaggy fur, valued more for its imposing size an
 | Muskrat / Nutria | 3 sp | 6 sp | 18 sp |
 | Rabbit (Coney) / Hare | 1 sp | 2 sp | 6 sp |
 | Squirrel, Gris (Winter Grey) | 1 sp | 2 sp | 6 sp |
-| Squirrel, Red (Summer) | 1 sh | 1 sp | 3 sp |
+| Squirrel, Red (Summer) | 2 cf | 1 sp | 3 sp |
 | Squirrel, Vair (Patterned) | 2 sp | 4 sp | 12 sp |
 
 ---

@@ -303,21 +303,21 @@ Material, Craftsmanship, and Embellishment are each a number from the tables bel
 1. **Type.** Find the Type table, roll 1d100 or choose a type, and write down its Silver Value.
 2. **Material.** Find the Material table, roll 1d100 or choose a material, and write down its number.
 3. **Craftsmanship.** Find the Craftsmanship table, roll 2d6 or choose a result, and write down its number.
-   - For Masterwork, roll 1d4 and use the result as its number.
+    - For Masterwork, roll 1d4 and use the result as its number.
 4. **Embellishment.** Find the Embellishment table, roll 1d20 or choose a result, and write down its number.
-   - Gold, red gold, and platinum are never gilded, so treat Gilded as None for them.
-   - Enamel is fused onto metal, so treat Enamelled as None for pieces not made of metal.
-   - For Inlaid, roll a second material on the Material table and multiply its number by 0.25.
+    - Gold, red gold, and platinum are never gilded, so treat Gilded as None for them.
+    - Enamel is fused onto metal, so treat Enamelled as None for pieces not made of metal.
+    - For Inlaid, roll a second material on the Material table and multiply its number by 0.25.
 5. **Add.** Add the material, craftsmanship, and embellishment numbers together.
 6. **Multiply.** Multiply that total by the Silver Value.
 7. **Gem Chance.** Find the type on the Gems in Jewelry table and roll 1d100; if the roll is within its Gem Chance, the piece has gems.
 8. **Number of Gems.** On the same row, roll the die under Gems to find how many gems the piece holds.
-   - An odd number is a center stone and pairs, and an even number is all pairs.
-   - Earrings hold one matched pair, prayer beads are all one gem, and a torc's two gems sit one at each end.
+    - An odd number is a center stone and pairs, and an even number is all pairs.
+    - Earrings hold one matched pair, prayer beads are all one gem, and a torc's two gems sit one at each end.
 9. **Each Gem.** Roll one gem for the center stone and one for each pair, as described in Gems.
-   - Both stones of a pair are the same gem, quality, and size.
-   - The Setting on the same row limits each gem's size, as shown in the Setting table.
-   - The largest stone takes the center.
+    - Both stones of a pair are the same gem, quality, and size.
+    - The Setting on the same row limits each gem's size, as shown in the Setting table.
+    - The largest stone takes the center.
 10. **Value.** Add the value of each gem to the total from step 6.
     - A piece is always worth at least 1 cf.
 
@@ -338,7 +338,7 @@ Material, Craftsmanship, and Embellishment are each a number from the tables bel
 
 | d100 | Type | Silver Value |
 |:---:|:---|:---:|
-| 01–02 | Nose Ring | 1 sh |
+| 01–02 | Nose Ring | 2 cf |
 | 03–09 | Earrings | 2 sp |
 | 10 | Navel Ring | 1 sp |
 | 11–12 | Toe Ring | 1 sp |

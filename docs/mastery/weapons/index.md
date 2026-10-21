@@ -69,27 +69,32 @@ In addition to being able to train with weapon types, you can also train in weap
 There is a difference between knowing how to fight with a weapon and specializing in that style of fighting. Every character with weapon proficiency knows at least the basics of the fighting styles used with that weapon, but to gain additional benefits, must train.
 
 **Single Weapon Style**. The single weapon style requires that you wield only one Light One-Handed, Heavy One-Handed, or Versatile One-Handed in a single hand and nothing in your off-hand.
+
 * You increase the damage done with single weapons by 1 for current Tier of mastery in this style.
 
 Maneuvers gained from mastery in this style are only usable while wielding a weapon as described.
 
 **Weapon and Shield Style**. The weapon and shield weapon style requires that you wield a Light One-Handed, Heavy One-Handed, or Versatile One-Handed weapon in your main hand and a shield in your off-hand.
+
 * Wielding a shield in your off-hand allows you to take defense reactions against ranged attacks and can choose to allow your shield to absorb durability damage instead of your armor.
 * You may attack with your shield for 1 AP. Shield attacks follow the I weapon dice track, deal Crushing damage, and use the same attribute as your main-hand weapon.
 
 Maneuvers gained from mastery in this style are only usable while wielding a weapon with a shield as described.
 
 **Two-Handed Weapon Style**. The two-handed weapon style requires that you wield only one weapon in two hands. The weapon can be Versatile Two-Handed or Two-Handed.
+
 * When rolling weapon dice for a two-handed weapon attack, roll one additional die of the same type and drop the lowest result.
 
 Maneuvers gained from mastery in this style are only usable while wielding a weapon as described.
 
 **Two-Weapon Style**. The two-weapon style requires that you wield a Light One-Handed, Heavy One-Handed, or Versatile One-Handed weapon in each hand.
+
 * When you make an attack (1 AP), you attack with both your main-hand and off-hand weapons. Both weapons benefit from your attribute tier die.
 
 Maneuvers gained from mastery in this style are only usable while wielding a weapon in each hand as described.
 
 **Ranged Style**. The ranged style requires that you wield a bow, crossbow, blowgun, sling, stave sling, or a weapon with the Thrown property.
+
 * Ranged weapons require an Aiming Trial to hit (see [Combat](../core/combat.md) chapter).
 * Ranged attacks can only be defended against if the defender is wielding a shield.
 * Drawing or nocking ammunition, or drawing another thrown weapon of the same type, does not cost AP.

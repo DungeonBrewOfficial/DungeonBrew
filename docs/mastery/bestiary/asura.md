@@ -11,6 +11,7 @@ All creatures in this file are **Asura Yazata (Sacred)** — lesser Sacred being
 **Builder notes:** Asura are the least populated combat-creature domain because most Sacred beings encountered by PCs would be allies, patrons, or narrative forces rather than enemies. The creatures below represent situations where an Asura opposes the party — a guardian they must bypass, a being whose purpose conflicts with theirs, or a corrupted angel. These are proof-of-concept stat blocks, not a comprehensive bestiary.
 
 **Classification package (all Asura):**
+
 - **Benefit:** Immune to Sacred damage. (Sustained by Sacred magic — Sacred energy is native to them.)
 - **Cost:** Impotence on trials vs Profane damage. (Sacred nature is universally opposed to Profane.)
 - **Connected to Sacred magic.** (Casters need Sacred Form to charm, bind, banish, or otherwise magically interact beyond dealing damage.)
@@ -42,6 +43,7 @@ A Cherub is not a chubby infant with wings. It is a guardian — the one that st
 | Resistance | Budget 60: Cut 8, Cleave 8, Crush 8, Pierce 8, Puncture 8, Profane 0, Fire 8, Primal 7, Void 5 |
 | Trials | 1d6 + Attribute TD |
 | Defense | d10 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 3 (max 2 attacks) |
 | Speed | 6 (30 ft) land, 10 (50 ft) fly |
 | Footprint | 1×1 (1 sq) |

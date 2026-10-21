@@ -219,6 +219,6 @@ You reach through the profane form to charm an undead creature within 30 feet fo
 | **Components** | F, S, V | **Effect** | Polymorph (self into undead form) |
 | **Resistance** | N/A (self) | | |
 
-**Cost:** (1 + 0 + 0) x Division x 3. See *[Magic Mastery, Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
+**Cost:** (1 + 0 + 0) x Division x 3. See *[Magic Mastery](../../index.md), [Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
 
 You transform into an undead creature of a known subtype within your Division cap for the encounter. Other subtypes are separate spells. Targeting others uses close+ reach.

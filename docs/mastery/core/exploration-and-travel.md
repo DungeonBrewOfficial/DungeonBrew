@@ -67,7 +67,7 @@ Some effects last for a stretch of the story instead of a count of rounds. The G
 
 ## Light and Visibility
 
-Light and anything thick in the air limit how well you can see, using the [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") condition: a creature you can make out only as a shape is Concealed (Tier 1), one you can place only by direction is Tier 2, and one you cannot find at all is Tier 3. Light and haze never conceal a creature within 5 feet of you, except in absolute darkness.
+Light and anything thick in the air limit how well you can see, using the [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") condition: a creature you can make out only as a shape is Concealed (Tier 1), one you can place only by direction is Tier 2, and one you cannot find at all is Tier 3. Light and haze never conceal a creature within 5 feet of you, except in absolute darkness or when something blocks your sight of it.
 
 **Light.** What matters is the light on the creature you are looking at, not the light around you.
 
@@ -88,6 +88,7 @@ The GM judges the plan. A careless plan can raise the DC the leader rolls agains
 ## Exploration Roles
 
 Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration Round*. Searching substantially larger or particularly dense areas (such as a cluttered great hall or a storeroom packed with crates and barrels) takes multiple *Exploration Rounds*.
+
 * Each member of the party should choose one role while exploring an area.
 * More than one member of the party can serve in each role.
 * It is possible to have roles assigned, make trials, and then switch roles. However, a new series of trials means that another *Exploration Round* has passed, as applicable.
@@ -158,6 +159,7 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 ## Traveling Roles
 
 A traveling day takes 8 hours.
+
 * Each member of the party should choose one role during the course of travel.
 * Active Roles (A) are fully occupied with their task and have a -4 to *[Startle](combat.md#startle)* trials if not forewarned by the *Watchman* or *Scout*.
 * Active Roles also advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier if they engage in similar activities while camping.
@@ -223,6 +225,7 @@ A traveling day takes 8 hours.
 ## Camping Roles
 
 Camping is broken into Resting and Activities. 8 hours are spent resting and 8 hours are spent in activities. Each character can engage in 1 camping role per evening and the effects do not stack.
+
 * Each member of the party should choose one role while camping.
 * More than one member of the party can serve in each role.
 * Active Roles (A) are fully occupied with their task and have a -4 to *[Startle](combat.md#startle)* trials if not forewarned by the *Watchman*.
@@ -368,6 +371,28 @@ The more quickly you try to move, the more you can exhaust yourselves, burn thro
 
 **Working on the road.** Work you can do in your hands while riding in a wagon or walking at a steady pace is possible while traveling: preparing bandages, identifying items, studying, or small crafting. Work that needs a workshop, an anvil, or a fixed place to work, such as repairing armor or forging, waits until you stop. The GM decides where a task falls.
 
+### Weather
+
+Weather wears on travelers. A creature that fails an Endurance trial in this section advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. The GM decides what counts as dressed for the weather.
+
+**Cold.** Outdoors in cold weather without clothing for it, make an Endurance trial (Straightforward, 4) every 2 hours.
+
+**Extreme Cold.** In bitter cold, make an Endurance trial (Tricky, 5) at the end of each Travel Round, unless you are dressed for extreme cold.
+
+**Strong Wind.** Ranged attacks have their Aiming Trial DC increased by 2, and Perception trials that rely on hearing have Impotence. Strong wind puts out open flames, clears haze, and makes flying without magic nearly impossible. In snow, blowing snow is haze (see *[Light and Visibility](#light-and-visibility)*).
+
+**Heavy Snow.** Falling snow is haze, with a sight range the GM sets by how hard it falls (see *[Light and Visibility](#light-and-visibility)*).
+
+**Blizzard.** Extreme cold, strong wind, and heavy snow together.
+
+**High Altitude.** Each hour of travel at high altitude counts as 2 hours for *Pushing the Pace*.
+
+**Ice.** Ice is Unstable terrain (see *[Combat](combat.md)*).
+
+**Frigid Water.** When you enter frigid water, make an Endurance trial (Tricky, 5). On a failure, you are also *[Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")* (Tier 1). At the end of each round you stay in the water, make the trial again: each combat round in combat, each exploration round otherwise. On a natural minimum, you go into shock and fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")*.
+
+**Wet and Cold.** While you are wet in cold weather or strong wind, make an Endurance trial (Tricky, 5) at the end of each round: each combat round in combat, each exploration round otherwise. A fire and dry clothing end it, and you return to the normal rules for the weather.
+
 ### Movement
 
 Movement speeds vary based on species, encumbrance, and other factors, such as whether the character is sneaking or hurrying. Overland movement uses your Speed: a Day covers 18 + Speed miles, a Travel Round covers a Day ÷ 8, and an Exploration Round covers Speed × 0.2 miles.
@@ -406,7 +431,7 @@ Some creatures (such as horses) have maximum movement rates that allow them to r
 A fall can be nothing, a broken bone, or death. The higher the fall and the harder the ground, the worse it gets. A **fall** is unplanned: you slip, are pushed, or the floor gives way. A **drop** is a jump down that you choose and can prepare for.
 
 1. **Height.** Find the Falling table and the row for the height of the fall, rounding down, and write down its DC and damage.
-   - Use the Hard column for stone, wood, packed earth, and similar ground, and the Soft column for sand, deep snow, loose earth, and similar ground.
+    - Use the Hard column for stone, wood, packed earth, and similar ground, and the Soft column for sand, deep snow, loose earth, and similar ground.
 2. **Trial.** For a fall, roll a Physique trial against the DC; for a drop, roll a Physique + Athletics (Jumping) trial instead.
 3. **Result.** Compare the trial to the DC, and find the result on the table below.
 

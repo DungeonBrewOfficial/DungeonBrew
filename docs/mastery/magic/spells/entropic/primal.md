@@ -83,7 +83,7 @@ You touch a creature and channel primal energy through its wounds. The creature 
 | **Components** | F, S, V | **Effect** | Restore Trauma (any) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and urge its living body back toward what it was. One Trauma is restored. The restoration is permanent.
 
@@ -100,7 +100,7 @@ You touch a creature and urge its living body back toward what it was. One Traum
 | **Components** | F, S, V | **Effect** | Polymorph (self into beast form) |
 | **Resistance** | N/A (self) | | |
 
-**Cost:** (1 + 0 + 0) × Division × 3. See *[Magic Mastery, Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
+**Cost:** (1 + 0 + 0) × Division × 3. See *[Magic Mastery](../../index.md), [Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
 
 You transform into a beast within your Division cap for the encounter. Other subtypes (Plants, Fae) are separate spells. Targeting others uses close+ reach.
 

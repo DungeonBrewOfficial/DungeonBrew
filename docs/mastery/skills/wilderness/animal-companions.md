@@ -9,7 +9,7 @@ generated_by: tools/sync_mastery.py
 | Formula | Value |
 |:---|:---|
 | **Skill Mastery Die** | 1d2 (Unskilled) → 1d3 (Untrained) → 1d4 (Basic) → 1d6 (Skilled) → 1d8 (Expert) → 1d10 (Master) → 1d12 (GM) |
-| **Health** | Compounding 2× Skill Die |
+| **Health** | Two of each skill die up to the handler's mastery (2d2 + 2d3 + …) |
 | **Attack** | Skill Mastery Die + higher of STR or PHY die |
 | **Defense** | Skill Mastery Die + AGI die + applicable resistance |
 | **Trials** | Skill Mastery Die + Attribute Die |
@@ -106,12 +106,14 @@ Training depth is inversely proportional to native Division. Higher Division ani
 ### Example: D2 Dog vs D6 Bear
 
 **D2 Kennel Dog (full training, heavy barding):**
+
 - Trained attributes: ~12 + 20 (5 × 4) = 32
 - Trained resistance: 10 native + 24 distributable (3 × +8, 2 tiers spent on barding proficiency), plus heavy barding resistance
 - Full War track (6 primary abilities + 5 secondary choices across 6 tiers)
 - Access to Light, Medium, or Heavy barding
 
 **D6 Brown Bear (minimal training, light barding):**
+
 - Trained attributes: ~28 + 4 (1 × 4) = 32
 - Trained resistance: ~60 native + 8 distributable (1 × +8), plus light barding resistance
 - War track (2 primary abilities + 1 secondary choice across 2 tiers only)

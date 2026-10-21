@@ -14,6 +14,7 @@ While there are a variety of animals that can be purchased for trade or consumpt
 **Bird, Trained Hunting**. Trained hunting birds are birds of prey caught in the wild and then trained and sold. They hunt for their handler, bringing back 1, 2, or 3 meals of raw game on a successful hunt depending on size (an eagle, 4). While capable of taking some larger prey, they can rarely carry it back and instead circle to mark the kill. They also scout, circling above nearby creatures, and circle over their handler and cry when they see creatures approaching. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Small, Middling, or Large Hunting Bird, or Hunting Eagle, by species.*
 
 There are premiums for the type of bird, the color, and the quality. The lowest end of the spectrum is around 1 gs for an untrained, poor-quality bird (*stat block: the matching Raptor or Eagle*). There is practically no upper limit to a high-quality, well-trained bird, especially for the right color and the right buyer. However, a reasonable value for a trained hunting bird generally falls between 5 gs and 50 gs.
+
 * **Golden Eagle** (Eagle) - Largest available hunting bird, which is capable of hunting most other birds and small mammals up to the size of fawns.
 * **Goshawk** (Large hawk) - Medium to large hawk that is a proficient hunter in woodlands, usually targeting medium to large birds and small mammals.
 * **Gyrfalcon** (Large falcon) - Large falcon that hunts other raptors and birds up to the size of geese and small mammals up to 24 lbs.
@@ -26,11 +27,11 @@ There are premiums for the type of bird, the color, and the quality. The lowest 
 
 **Dog, Guard**. A guard dog is a medium or giant breed, such as a shepherd or mastiff, trained to keep watch. They are trained to wear light barding and come with gambeson barding. They often need to sleep during the day. When traveling, they tend to ride on the wagon so that they can stay awake during the night. A guard dog will naturally approach intruders and alert its master of an impending threat, going so far as to attack if they persist into a guarded area. *Stat block: Medium Guard Dog or Giant Guard Dog.*
 
-A working guard dog requires 1 sp in rations per day and requires 3 sh per day to kennel.
+A working guard dog requires 1 sp in rations per day and requires 6 cf per day to kennel.
 
 **Dog, Hunting**. A hunting dog is a medium or large breed, such as a spaniel or hound, trained to track and retrieve hunted quarry. They will naturally survey an area for strange smells and alert their master. *Stat block: Medium Hunting Dog or Large Hunting Dog.*
 
-A working hunting dog requires 1 sp in rations per day and requires 3 sh per day to kennel.
+A working hunting dog requires 1 sp in rations per day and requires 6 cf per day to kennel.
 
 **Dog, Untrained**. A dog of working stock that has not been trained for war, guard, or hunting work. It follows its owner and can be trained through *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Medium Dog, Large Dog, or Giant Dog.*
 
@@ -45,7 +46,7 @@ A working hunting dog requires 1 sp in rations per day and requires 3 sh per day
 | Calf | per |	3 ss
 | Capon | per |	3 sp
 | Cat | per |	1 sp
-| Chicken | per | 1 sh
+| Chicken | per | 2 cf
 | Cow | per |	10 ss
 | Dog, Guard | per | 1 gs
 | Dog, Hunting | per | 1 gs
@@ -73,13 +74,13 @@ A working hunting dog requires 1 sp in rations per day and requires 3 sh per day
 | Pigeon | dozen |	4 sp
 | Pigeon, Homing | per | 1 sp
 | Ram | per | 4 ss
-| Sheep | per |	1 sf
-| Songbird | per |	1 sf
+| Sheep | per |	2 ss
+| Songbird | per |	2 ss
 | Swan | per |	4 ss
 
 **Dog, War**. A war dog is a large or giant breed, such as a rottweiler or mastiff, trained for war. They are trained to wear light barding and come with boiled leather barding. They naturally gravitate toward simple tactics, such as flanking enemies. *Stat block: Heavy War Dog or Giant War Dog.*
 
-A working war dog requires 1 sp in rations per day and requires 3 sh per day to kennel.
+A working war dog requires 1 sp in rations per day and requires 6 cf per day to kennel.
 
 **Horse, Donkey, Mule**. Pack horse, donkey, or mule range from 5 ss to 10 ss depending on their quality. Generally, they are not trained for riding, are spooked easily, and are relatively slow moving. *Stat block: Pony / Donkey.*
 
@@ -130,16 +131,16 @@ A working ox can graze for most of the year. Otherwise it requires 15 lbs of hay
 | Item | Quantity | Enc / Weight | Price |
 |:---|:---:|:---:|:---:|
 | Bit and Bridle | per | L / 3 lbs. | 1 ss |
-| Halter | per | L / 1 lb. | 1 st |
+| Halter | per | L / 1 lb. | 6 sp |
 | Harness, Cart | per | L / 10 lbs. | 2 sp |
 | Hay | Bushel | M / 30 lbs. | 2 sp |
-| Horse Bread | Loaf | L [3] / 3 lbs. | 1 sh |
+| Horse Bread | Loaf | L [3] / 3 lbs. | 2 cf |
 | Oats | Bushel | M / 34 lbs. | 2 sp |
 | Saddle Blanket | per | L / 2 lbs. | 2 sp |
 | Saddle, Pack | per | L / 10 lbs. | 4 ss |
 | Saddle, Riding | per | M / 25 lbs. | 1 sc |
-| Saddle, War | per | M / 25 lbs. | 1 gm |
-| Shoeing | Set of 4 | — | 2 sg |
+| Saddle, War | per | M / 25 lbs. | 2 gn |
+| Shoeing | Set of 4 | — | 8 sp |
 | Yoke | per | M / 15 lbs. | 2 ss |
 
 **Bit and Bridle**. Headstall, reins, and an iron bit for steering a mount. Part of full tack (see above).
@@ -175,7 +176,7 @@ Vehicles are necessary for travel and transport of animals, people, and goods. V
 | Vehicle | Terrain | Capacity | Price |
 |:---|:---:|:---:|:---:|
 | Barge or Ferry | Freshwater | 50-200 Tuns | 10 gs |
-| Canoe | Freshwater | .5 Tuns | 2 sf |
+| Canoe | Freshwater | .5 Tuns | 4 ss |
 | Caravel | Sea | 50-100 Tuns | 200 gs |
 | Carrack | Sea | 100-200 Tuns | 400 gs |
 | Carriage Coach, <br> Ornate | Land | 1-6 Occupants | 400 gs |
@@ -230,7 +231,7 @@ Vehicles are necessary for travel and transport of animals, people, and goods. V
 
 | Part | Vehicle  | Price |
 |:---|:---:|:---:|
-| Oar, Common | Canoe, Dory | 1 ep |
+| Oar, Common | Canoe, Dory | 2 sp |
 | Oar, Galley | Drakkar, Galley | 1 ss |
 | Sail | Ships | 5 gs |
-| Wheel  | Cart, Chariot, Wagon | 1 sg |
+| Wheel  | Cart, Chariot, Wagon | 4 sp |

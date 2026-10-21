@@ -185,6 +185,6 @@ You evoke air into your own body for the encounter. You do not need to actively 
 | **Components** | F, S, V | **Effect** | Restore Trauma (breath) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and draw the air back into its chest. One Trauma of Sky's domain is restored: a punctured lung. The restoration is permanent.

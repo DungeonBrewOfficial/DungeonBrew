@@ -41,7 +41,7 @@ Minion through Master tells the story of an organization. The Minion is the regu
 
 ### Motivation
 
-Every creature wants something. Before building its numbers, decide what drives it, using the same three scales as character Motivations (Mastery Core Classes, Motivations):
+Every creature wants something. Before building its numbers, decide what drives it, using the same three scales as character Motivations ([Mastery Core Classes](../characters/creating-a-character.md), [Motivations](../characters/creating-a-character.md#motivations)):
 
 - **Major:** its nature, what it is. A hunter wants to hunt. A collector wants to collect. A false form wants to be real.
 - **Moderate:** its current arc. What it has been doing in this region, or to these people, over weeks or months.
@@ -253,6 +253,8 @@ Minions always total 8 (all T1). Mortal humanoids (humans, elves, etc.) cap indi
 
 ## Health
 
+A creature reduced to 0 health dies. The GM may rule that a creature is captured, unconscious, or dying instead.
+
 ### Unarmored Health
 
 **Health = Endurance Score + (Division × Endurance TD) + DTD**
@@ -411,6 +413,7 @@ Same stat formulas as Adepts, except:
 | Abilities | 4. Personal combat + buff ability + signature ability. |
 
 **Master 1/Encounter Ability (2 AP, Action):** Masters get ONE ability that exceeds standard duration limits, usable once per encounter. Two variants:
+
 - **Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Front-loaded burst that fades.
 - **Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering buff.
 

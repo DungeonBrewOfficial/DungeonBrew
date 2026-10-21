@@ -62,6 +62,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Resistance | Cut 4, Crush 2, Cleave 2, Pierce 1, Puncture 1 (Scavenged Jack of Plate, 10 total) |
 | Trials | 1d3 + Attribute TD |
 | Defense | d2 + d2 + applicable resistance. (Dual Wield: −1 step. Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 (+1 off-hand attack per round from Dual Wield) |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -102,6 +103,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Resistance | Cut 1, Crush 3, Cleave 2, Pierce 5, Puncture 4 (Piecemeal Hide, 15 total) |
 | Trials | 1d4 + Attribute TD |
 | Defense (Kunai, Single) | d4 + d4 + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -135,6 +137,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Resistance | Cut 1, Crush 3, Cleave 2, Pierce 3, Puncture 1 (from armor, 10 total) |
 | Trials | 1d3 + Attribute TD |
 | Defense | d3 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -209,6 +212,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Defense (with Shield) | d6 + d8 + applicable resistance. Can defend vs ranged. (Shield: +1 step. Attribute: STR) |
 | Defense (1H) | d4 + d6 + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d3 + d4 + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -250,6 +254,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Defense (with Shield) | d8 + d6 + applicable resistance. Can defend vs ranged. (Shield: +1 step. Attribute: STR) |
 | Defense (1H) | d6 + d4 + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d4 + d3 + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -297,6 +302,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Defense (with Shield) | d10 + d6 + applicable resistance. Can defend vs ranged. (Shield: +1 step. Attribute: STR) |
 | Defense (1H) | d8 + d4 + applicable resistance. (Attribute: STR) |
 | Defense (2H) | d6 + d3 + applicable resistance. (2H: −1 step. Attribute: STR) |
+| Guards | Mutable, Stable, Striking, Vom Tag |
 | AP | 3 (max 2 attacks) |
 | Speed | 5 (25 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -349,6 +355,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Resistance | Cut 1, Crush 4, Cleave 2, Pierce 7, Puncture 6 (Hide Armor, 20 total) |
 | Trials | 1d3 + Attribute TD |
 | Defense (Seax) | d4 (DTD) + d4 (PHY) + applicable resistance. Cannot defend while wielding bow only. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -387,6 +394,7 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Resistance | Cut 10, Crush 4, Cleave 5, Pierce 5, Puncture 6 (Piecemeal Chain, 30 total) |
 | Trials | 1d4 + Attribute TD |
 | Defense (Shepherd's Axe) | d6 (DTD) + d4 (PHY) + applicable resistance. Cannot defend while wielding bow only. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -464,6 +472,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Resistance | Cut 7, Crush 4, Cleave 4, Pierce 3, Puncture 2 (from armor, 20 total) |
 | Trials | 1d3 + Attribute TD |
 | Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -501,6 +510,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Resistance | Cut 10, Crush 4, Cleave 5, Pierce 5, Puncture 6 (from armor, 30 total) |
 | Trials | 1d4 + Attribute TD |
 | Defense | d8 + d6 + applicable resistance. Can defend vs ranged. (Shield: +1 step. Attribute: PHY) |
+| Guards | Mutable, Stable, Striking |
 | AP | 2 |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -538,6 +548,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Trials | 1d6 + Attribute TD |
 | Defense (with Pike) | d6 + d4 + applicable resistance. (2H: −1 step. Attribute: STR) |
 | Defense (with Backsword) | d8 + d6 + applicable resistance. (Single, no modifier. Attribute: PHY) |
+| Guards | Mutable, Stable, Striking, Alber |
 | AP | 3 (max 2 attacks) |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -579,6 +590,7 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Resistance | Cut 12, Crush 6, Cleave 6, Pierce 6, Puncture 8, Stone 4, Primal 4, Sea 4 (armor 38 + 12 magical, 50 total) |
 | Trials | 1d8 + Attribute TD |
 | Defense | d12 + d6 + applicable resistance. Can defend vs ranged. (Shield: +1 step. Attribute: PHY) |
+| Guards | Mutable, Stable, Striking, Ochs |
 | AP | 3 (max 2 attacks) |
 | Speed | 6 (30 ft) |
 | Footprint | 1×1 (1 sq) |
@@ -596,4 +608,4 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 ---
 
-*All flags resolved. Rules codified in Monster Manual Rules (Revised).*
+*All flags resolved. Rules codified in [Monster Manual Rules (Revised)](creature-rules.md).*
