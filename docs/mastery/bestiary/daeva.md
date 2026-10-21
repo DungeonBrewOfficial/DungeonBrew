@@ -7,6 +7,7 @@ generated_by: tools/sync_mastery.py
 This file contains Daeva creatures — beings sustained by Profane magic. Most entries here are **Daeva Gestalt (Undead)** — mortals whose natural life cycle has been overwritten by Profane magic.
 
 **Classification package (all Daeva):**
+
 - **Benefit:** Immune to Profane damage. (Sustained by Profane magic — Profane energy is native to them.)
 - **Cost:** Impotence on trials vs Sacred damage. (Profane nature is universally opposed to Sacred.)
 - **Connected to Profane magic.** (Casters need Profane Form to charm, bind, banish, or otherwise magically interact beyond dealing damage.)

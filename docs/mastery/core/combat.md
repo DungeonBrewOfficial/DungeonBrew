@@ -24,16 +24,15 @@ The flow of combat follows this structure:
 
 1. Determine if Startle or Ambush is appropriate and roll.
 2. **Declaration Phase.** At the start of each round, before initiative is rolled, all combatants make the following declarations. Players declare openly and may strategize. The GM commits privately for all enemies and NPCs.
-   - **Weapon**: Declare your equipped weapon and combat style. Combat style is how the weapon is being used: Shield, Single (1H), Two-Handed, or Dual Wield. If switching weapons or changing combat style this round, your phase is determined by the slowest weapon or style involved. Reactive weapon changes (dropping a broken shield, switching grip due to circumstances) can occur mid-round without declaration.
-   - **Declaration Maneuvers**: Declare any maneuver whose trigger is Declaration.
-   - **Spells**: Declare any spell you intend to cast. The spell's casting speed determines your initiative phase. A weapon you hold but do not declare an attack with does not affect your phase; you can still defend and make reprisal attacks with it. If you declare both a spell and a weapon attack, you act in the slower of the two phases.
-   - **Guard**: Declare your guard, or a formation if you are trained in Tactics. A companion declares its stance.
-   - **Abilities**: Declare any ability whose text says it must be declared, or that sets your phase.
-   - **Held Actions**: Declare that you are holding your action. You must specify one of the following:
-     - *Hold to Phase*: Name a phase later than your declared phase. You act in that phase instead. You cannot hold to an earlier phase.
-     - *Hold for Trigger*: Name a specific condition (e.g., "the archer breaks cover," "a creature enters this doorway"). Commit AP to the held action. If the trigger occurs during or after your natural phase, you act immediately. If the trigger occurs before your natural phase, you cannot react — your weapon is too slow. If the trigger never occurs, the committed AP are lost.
-   - **Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it.
-
+    - **Weapon**: Declare your equipped weapon and combat style. Combat style is how the weapon is being used: Shield, Single (1H), Two-Handed, or Dual Wield. If switching weapons or changing combat style this round, your phase is determined by the slowest weapon or style involved. Reactive weapon changes (dropping a broken shield, switching grip due to circumstances) can occur mid-round without declaration.
+    - **Declaration Maneuvers**: Declare any maneuver whose trigger is Declaration.
+    - **Spells**: Declare any spell you intend to cast. The spell's casting speed determines your initiative phase. A weapon you hold but do not declare an attack with does not affect your phase; you can still defend and make reprisal attacks with it. If you declare both a spell and a weapon attack, you act in the slower of the two phases.
+    - **Guard**: Declare your guard, or a formation if you are trained in Tactics. A companion declares its stance.
+    - **Abilities**: Declare any ability whose text says it must be declared, or that sets your phase.
+    - **Held Actions**: Declare that you are holding your action. You must specify one of the following:
+        - *Hold to Phase*: Name a phase later than your declared phase. You act in that phase instead. You cannot hold to an earlier phase.
+        - *Hold for Trigger*: Name a specific condition (e.g., "the archer breaks cover," "a creature enters this doorway"). Commit AP to the held action. If the trigger occurs during or after your natural phase, you act immediately. If the trigger occurs before your natural phase, you cannot react — your weapon is too slow. If the trigger never occurs, the committed AP are lost.
+    - **Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it.
 3. Roll 1d6 to determine which side goes first (1-3 = PCs, 4-6 = Enemies).
 4. Resolve Fast phase (winning side, then losing side).
 5. Resolve Moderate phase (winning side, then losing side).
@@ -47,6 +46,7 @@ All combatants have **2 Action Points (AP)** per round. These can be spent proac
 ### Action Costs
 
 All basic actions cost **1 AP**:
+
 - **Movement**: Move up to your movement speed
 - **Attack**: Make one melee or ranged attack
 - **Defense**: Defend against one incoming attack
@@ -56,6 +56,7 @@ All basic actions cost **1 AP**:
 ### Use It or Lose It
 
 Unspent AP do not carry over to the next round. AP can be spent:
+
 - **Proactively** on your turn in your initiative phase
 - **Reactively** in response to enemy actions (defending, counterattacking, reprisal attacks)
 
@@ -89,7 +90,7 @@ When both sides are unaware of each other, the DC is 6. The GM adjusts it for we
 
 ### Ambush
 
-An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See [General Rules](exploration-and-travel.md), [Group Trials](exploration-and-travel.md#group-trials). A creature sets the DC as the Monster Manual describes.
+An ambush must be prepared so that one group of combatants is aware of the other before combat begins. The ambushers set the DC rather than a flat value. For PCs, laying an ambush is a group trial: the DC is the leader's Stealth Mastery DC, with any bonus from a Helper. See [General Rules](exploration-and-travel.md), [Group Trials](exploration-and-travel.md#group-trials). A creature sets the DC as the [Monster Manual](../bestiary/creature-rules.md) describes.
 
 A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A *Watchman*'s warning does not stop the ambush, but warned characters in Active roles do not take the −4 to their Startle trials. If the ambushers are spotted well before they strike, the GM decides whether an ambush happens at all.
 
@@ -140,14 +141,16 @@ Refers to a single unarmed or weapon attack.
 
 - **Melee**: attacks automatically hit, unless the target spends AP to defend.
 - **Ranged**: attacks require an *Aiming Trial* to hit.
-	- **Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
+    - **Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
 
 **Attack Formulas**:
+
 - *Melee/Thrown Attack*: STR or PHY Tier Die + WEA + Modifiers
 - *Bow Attack*: PHY Tier Die + WEA + Modifiers
 - *Crossbow Attack*: PER Tier Die + Fixed Weapon Dice + Modifiers
 
 **Attack Rules**:
+
 - Attack dice explode on a max roll.
 - Attacks always hit unless target chooses to defend.
 - If target chooses to defend, and defense roll is equal to or greater than incoming attack roll, defense succeeds.
@@ -170,6 +173,7 @@ A **reaction** to defend against an incoming attack. Costs 1 AP.
 **Defense Formula**: STR or PHY Tier Die + Armor Resistance + Shield + Modifiers
 
 **Defense Rules**:
+
 - Defense dice explode on a max roll.
 - If defense roll is equal to or greater than incoming attack roll, defense succeeds.
 - If the defense fails, the amount by which the attack roll exceeds your defense roll is applied to your armor's durability first, then to your health once durability is depleted.
@@ -186,7 +190,7 @@ A **reaction** to defend against an incoming attack. Costs 1 AP.
 
 **Movement Reaction**: You can spend 1 AP as a reaction to reposition on the battlefield or turn to face an approaching enemy. If you leave a creature's attack range, they can choose to make a reprisal attack against you.
 
-Skills, abilities, and spells can grant other reactions, such as Bolster, Pretermit, or a counter (see *[Magic Mastery, Duels](../magic/index.md#duels)*).
+Skills, abilities, and spells can grant other reactions, such as Bolster, Pretermit, or a counter (see *[Magic Mastery](../magic/index.md), [Duels](../magic/index.md#duels)*).
 
 ### Movement
 
@@ -202,11 +206,11 @@ A single movement up to the creature's movement speed. Costs 1 AP.
 ### Terrain
 
 - **Rugged Terrain**: Mud, deep snow, sand, dense undergrowth, rubble, shallow water, thick brush.
-	- Moving through Rugged terrain costs double movement.
+    - Moving through Rugged terrain costs double movement.
 - **Unstable Terrain**: Ice, slick stone, mossy surfaces, wet ship decks, loose scree, rain-slicked slopes.
-	- A creature moving through Unstable terrain must succeed on an Agility trial, as determined by the GM, or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
+    - A creature moving through Unstable terrain must succeed on an Agility trial, as determined by the GM, or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
 - **Hazardous Terrain**: Fire, acid pools, caltrops, thorn thickets, boiling mud.
-	- A creature in Hazardous terrain takes 1 damage of the appropriate type. The damage may be triggered by entering or ending a turn in the terrain (e.g., fire) or movement (e.g., caltrops). Specific hazards may impose additional effects at the GM's discretion.
+    - A creature in Hazardous terrain takes 1 damage of the appropriate type. The damage may be triggered by entering or ending a turn in the terrain (e.g., fire) or movement (e.g., caltrops). Specific hazards may impose additional effects at the GM's discretion.
 - **Elevation**: A creature with elevation over its target gains Dominance on attack and defense rolls against that target. A creature attacking a target with elevation has Impotence on attack and defense rolls against that target.
 
 ### Interaction
@@ -223,8 +227,8 @@ An interaction is any use of an item or retrieval of an object. Getting an item 
 Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 
 - You must choose the spell you are casting at the start of the round to determine your initiative phase.
-- From the start of the round until your spell resolves, you are casting it. Most other actions, and some conditions, cost you the spell and its magan; see *[Magic Mastery, Interrupted Casting](../magic/index.md#interrupted-casting)*. Because AP are spent when the spell resolves, you can still defend while casting, though the spell is lost.
-- After the spell is cast, you can only cast another spell during the same round if the spell is a *reaction* and you have AP remaining. Only Fast spells (1-3 magan) can be cast as reactions, except counters, which are always reactions (see *[Magic Mastery, Duels](../magic/index.md#duels)*). A reaction spell is triggered by circumstances rather than declared at the start of the round (e.g., a defensive ward against an incoming attack, a magical counterattack after a successful defense). See [Magic Mastery](../magic/index.md) for full details.
+- From the start of the round until your spell resolves, you are casting it. Most other actions, and some conditions, cost you the spell and its magan; see *[Magic Mastery](../magic/index.md), [Interrupted Casting](../magic/index.md#interrupted-casting)*. Because AP are spent when the spell resolves, you can still defend while casting, though the spell is lost.
+- After the spell is cast, you can only cast another spell during the same round if the spell is a *reaction* and you have AP remaining. Only Fast spells (1-3 magan) can be cast as reactions, except counters, which are always reactions (see *Magic Mastery, [Duels](../magic/index.md#duels)*). A reaction spell is triggered by circumstances rather than declared at the start of the round (e.g., a defensive ward against an incoming attack, a magical counterattack after a successful defense). See [Magic Mastery](../magic/index.md) for full details.
 - Material components in a Quick Item slot are drawn as part of casting. Any other component must already be in hand when you declare the spell; retrieving one from a container costs 2 AP.
 - You can always cast a spell slower than the indicated casting speed without rolling a Miscast trial.
 
@@ -283,11 +287,11 @@ Roll 1d100 for each Trauma. Each Trauma has a tier:
 
 - **Minor:** heals within days, with rest or a single treatment.
 - **Severe:** heals only over weeks of rest or repeated tending; some must be treated first (set, reset, or tended).
-- **Grievous:** heals only with magic, while Damage Age still reaches it (Magic Mastery, Restoring Traumas). After that, it is permanent.
+- **Grievous:** heals only with magic, while Damage Age still reaches it ([Magic Mastery](../magic/index.md), [Restoring Traumas](../magic/index.md#restoring-traumas)). After that, it is permanent.
 
 Days' rest means full days of downtime with no travel, combat, or work.
 
-Healer treatments use *Treat Trauma* (Skill Mastery, Trade, Healer Discipline). The tier listed (T2, T3) is the treatment's tier: a healer with the required mastery succeeds automatically, and anyone else rolls against its Use DC.
+Healer treatments use *Treat Trauma* (Skill Mastery, Trade, [Healer Discipline](../skills/trade/index.md#healer-discipline)). The tier listed (T2, T3) is the treatment's tier: a healer with the required mastery succeeds automatically, and anyone else rolls against its Use DC.
 
 | d100 | Trauma | Tier | Mundane recovery |
 |:---:|:---|:---:|:---|

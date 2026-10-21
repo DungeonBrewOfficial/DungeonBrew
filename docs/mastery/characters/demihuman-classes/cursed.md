@@ -86,9 +86,9 @@ As a result, you may either choose one of the following curses or have one assig
 
 - As a horrific being, you are immune to Primal damage and have Impotence on trials to resist Void damage. You are connected to the Primal magic form. Only Primal magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 - Choose one Athletics ability for free (does not cost Skill Mastery points). Describe how your malformation enables it. GM must approve the connection between the malformation and the chosen ability.
-  - A Cursed with an enormous, bloated frame might gain **Healthy** (increased endurance from sheer mass).
-  - A Cursed with elongated, double-jointed arms might gain **Nimble** (unnatural flexibility and reach).
-  - A Cursed with a hunched, low-slung posture and a third leg might gain **Poised** (near-impossible to knock off balance).
+    - A Cursed with an enormous, bloated frame might gain **Healthy** (increased endurance from sheer mass).
+    - A Cursed with elongated, double-jointed arms might gain **Nimble** (unnatural flexibility and reach).
+    - A Cursed with a hunched, low-slung posture and a third leg might gain **Poised** (near-impossible to knock off balance).
 
 **Insane.** You are touched with madness in ways that are impossible to ignore. Roll twice on the insanity table, once on 1–50 and once on 51–100.
 
@@ -157,6 +157,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 **Form** determines physical capabilities:
 
 **Beast Form:**
+
 - Natural mobility based on creature description (flying, swimming, climbing, burrowing)
 - Natural damage type (bite/claws/charge)
 - Cannot equip weapons or armor
@@ -166,6 +167,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 - Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0) + locomotion (+4 on the mode the creature qualifies for: four-legged runners on land, fliers, swimmers). Climbing is a capability without a speed bonus; burrowing is half land speed.
 
 **Humanoid Form:**
+
 - Can equip one weapon (determines damage type and properties, NOT additional dice)
 - Can wear armor (adds durability)
 - Can speak, interact with objects, blend into crowds
@@ -177,6 +179,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 **Weapon Rule:** The tier die IS the weapon die. A humanoid Agathion wielding a sword rolls the same attack as a beast biting. The weapon determines damage type and properties (poison, reach, ranged), not additional dice. The spirit's power channels through whatever the mortal form wields.
 
 **Spirit Track** determines magical nature and active ability:
+
 - **Fae (Primal):** Trickery, deception, charm
 - **Daeva (Profane):** Destruction, corruption, fire
 - **Morphon (Void):** Reality distortion, displacement, chaos

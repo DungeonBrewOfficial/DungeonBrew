@@ -12,7 +12,7 @@ Value plate and objects with the steps in Valuing a Piece under Jewelry, with th
 
 - **Step 1.** Use the Plate and Objects table in place of the Type table.
 - **Steps 7–9.** Use the Gem Chance, Gems, and Setting shown on the Plate and Objects table.
-  - Spoons, bowls, candlesticks, diptychs, jugs, vases, and aquamaniles are never set with gems.
+    - Spoons, bowls, candlesticks, diptychs, jugs, vases, and aquamaniles are never set with gems.
 
 ### Example
 
@@ -139,7 +139,7 @@ Embroidery decorates vestments, altar cloths, cushions, and hangings, worked in 
 4. **Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
 5. **Gem Chance.** Roll 1d100; on a roll of 01–25, the piece is sewn with gems.
 6. **Gems.** Roll the number of gems shown for its size, then roll each gem as in Gems in Jewelry, with a Broad setting.
-   - Pearls were the stones most often sewn into embroidery.
+    - Pearls were the stones most often sewn into embroidery.
 7. **Value.** Add the value of each gem to the total from step 4.
 
 ### Example
@@ -177,7 +177,7 @@ Knotted carpets are rare and highly prized. They are laid beside beds and before
 1. **Size.** Find the Carpet Size table, roll 1d10 or choose a size, and write down its area and weight.
 2. **Grade.** Find the Carpet Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
 3. **Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
-   - A carpet found on a floor has been walked on, so roll its condition twice and use the lower roll.
+    - A carpet found on a floor has been walked on, so roll its condition twice and use the lower roll.
 4. **Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
 
 ### Example

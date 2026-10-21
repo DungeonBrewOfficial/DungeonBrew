@@ -66,7 +66,7 @@ When a spell you are casting is lost, you may spend 1 AP as a reaction to regain
 
 ### Snye
 
-When you stop casting a declared spell, you may begin casting a Fast spell you did not declare instead. It resolves in the Slow phase. The declared spell is lost (see *[Magic Mastery, Interrupted Casting](../magic/index.md#interrupted-casting)*). The Fast spell is cast normally, with its own magan and AP.
+When you stop casting a declared spell, you may begin casting a Fast spell you did not declare instead. It resolves in the Slow phase. The declared spell is lost (see *[Magic Mastery](../magic/index.md), [Interrupted Casting](../magic/index.md#interrupted-casting)*). The Fast spell is cast normally, with its own magan and AP.
 
 ### Wale
 

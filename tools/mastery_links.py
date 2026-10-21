@@ -3,7 +3,7 @@
 sync_mastery.py renders every page, then hands them all to link_pages(),
 which adds three kinds of link:
 
-  sections    a chapter followed by a plain section name,
+  sections    a chapter followed by a section name, in italics or plain text,
               "*Magic Mastery*, Connected Form" or "see Combat, Trauma Table",
               links the section name straight to that section
   references  italicized names the source already uses as pointers:
@@ -29,6 +29,8 @@ import unicodedata
 # A bare reference links the first page; "Chapter, Section" searches them all.
 CHAPTERS = {
     "magic mastery": ["magic/index", "magic/rites"],
+    "magic": ["magic/index", "magic/rites"],
+    "mastery core classes": ["char/creation"],  # class pages appended in link_pages()
     "mastery system": ["core/mastery"],
     "mastery": ["core/mastery"],
     "skill mastery": ["skills/index"],  # skill pages appended in link_pages()
@@ -41,8 +43,15 @@ CHAPTERS = {
     "treasure": ["treasure/index", "treasure/furs", "treasure/gems", "treasure/art",
                  "treasure/great"],
     "monster manual": ["bestiary/rules", "bestiary/design"],
+    "monster manual rules (revised)": ["bestiary/rules", "bestiary/design"],
     "animal companion advancement": ["skills/companions"],
 }
+# Chapter names distinctive enough to count as citations in plain text, with no
+# italics or "see". "Skill Mastery" and "Weapon Mastery" are also game terms
+# ("4 Skill Mastery points"), so they count only when a section follows.
+BARE_CHAPTERS = ["Monster Manual Rules (Revised)", "Monster Manual", "Mastery Core Classes",
+                 "Mastery System", "General Rules", "Magic Mastery"]
+PLAIN_CHAPTERS = BARE_CHAPTERS + ["Skill Mastery", "Weapon Mastery"]
 FORMS = {"fire", "sea", "sky", "stone", "primal", "profane", "sacred", "void"}
 TRADITIONS = {"occult", "priscan", "telluric", "theurgic"}
 # Mechanic nouns that head sections in several unrelated places. These link
@@ -149,6 +158,16 @@ class Site:
             if depth > 1:
                 self.by_text.setdefault(text.casefold(), []).append((key, anchor))
 
+    def find_section(self, text, keys):
+        """A section named in a citation, such as "Trade, Healer Discipline" or
+        "Scribe: Reading Scrolls". The most specific part wins."""
+        parts = [p.strip() for p in re.split(r"[,:]", text) if p.strip()]
+        for part in [text.strip(), *reversed(parts)]:
+            hit = self.find(part, keys) or self.find(f"{part} Discipline", keys)
+            if hit:
+                return hit
+        return None
+
     def find(self, text, keys):
         for key in keys:
             for k, anchor in self.by_text.get(text.casefold(), []):
@@ -168,11 +187,7 @@ class Site:
         if m and m.group(1).casefold() in CHAPTERS:
             keys = CHAPTERS[m.group(1).casefold()]
             section = m.group(2)
-            for part in (section, *reversed(section.split(":"))):
-                hit = self.find(part.strip(), keys)
-                if hit:
-                    return hit
-            return (keys[0], None)
+            return self.find_section(section, keys) or (keys[0], None)
 
         if LEVEL.fullmatch(norm):
             return self.find("Mastery Levels", ["core/mastery"])
@@ -267,15 +282,21 @@ def condition_entries(site):
 def link_pages(pages):
     """Add links in place. Returns (links, skipped) for the review report."""
     CHAPTERS["skill mastery"] = ["skills/index", *(k for k in pages if k.startswith("skill/"))]
+    CHAPTERS["mastery core classes"] = ["char/creation", *(k for k in pages
+                                                          if k.startswith("class/"))]
     CHAPTERS["alchemy"] = ["alchemy/index", *(k for k in pages
                                               if k.startswith("alchemy/") and k != "alchemy/index")]
 
     site = Site(pages)
     conditions = condition_entries(site)
     names = "|".join(re.escape(c) for c in sorted(CHAPTERS, key=len, reverse=True))
+    plain_names = "|".join(re.escape(c) for c in PLAIN_CHAPTERS)
+    part = r"[A-Z][\w'’-]*(?:[ :]+[\w'’-]+){0,7}"
     section_ref = re.compile(
-        r"(\*(?i:" + names + r")\*|\b[Ss]ee (?:the )?(?i:" + names + r"))"
-        r",\s+([A-Z][\w'’-]*(?:\s+[\w'’-]+){0,7})")
+        r"(\*(?i:" + names + r")\*|\b[Ss]ee (?:the )?(?i:" + names + r")|\b(?:"
+        + plain_names + r"))" r",\s+(" + part + r"(?:,\s+" + part + r")*)")
+    bare_ref = re.compile(r"\b(" + "|".join(re.escape(c) for c in BARE_CHAPTERS)
+                          + r")(?!\w)(?! point)")
     unmatched = []
     cond_re = re.compile(r"\b(" + "|".join(sorted(conditions, key=len, reverse=True)) + r")\b")
     links, skipped = [], []
@@ -331,15 +352,22 @@ def link_pages(pages):
         def link_sections(seg):
             def sub(m):
                 chapter = re.sub(r"^\*|\*$|^[Ss]ee (?:the )?", "", m.group(1)).casefold()
-                words = m.group(2).split()
-                for n in range(len(words), 0, -1):
-                    text = " ".join(words[:n])
-                    hit = site.find(text, CHAPTERS[chapter])
-                    if hit:
-                        rest = m.group(2)[len(text):]
-                        if take(hit[0], hit[1], text, "section"):
-                            return f"{m.group(1)}, [{text}]({url(*hit)}){rest}"
-                        return m.group(0)
+                cited = m.group(2)
+                # "Trade, Healer Discipline": try the last, most specific part first
+                starts = [0] + [x.end() for x in re.finditer(r",\s+", cited)]
+                for start in reversed(starts):
+                    words = re.split(r",\s+", cited[start:], maxsplit=1)[0].split()
+                    for n in range(len(words), 0, -1):
+                        text = " ".join(words[:n])
+                        if not cited.startswith(text, start):
+                            continue
+                        hit = site.find_section(text, CHAPTERS[chapter])
+                        if hit:
+                            if not take(hit[0], hit[1], text, "section"):
+                                return m.group(0)
+                            end = start + len(text)
+                            linked = f"{cited[:start]}[{text}]({url(*hit)}){cited[end:]}"
+                            return f"{m.group(1)}, {linked}"
                 unmatched.append({"page": key, "section": section_text,
                                   "text": f"{m.group(1).strip('*')}, {m.group(2)}"})
                 return m.group(0)
@@ -383,6 +411,15 @@ def link_pages(pages):
                 return m.group(0)
             return SEE.sub(sub, seg)
 
+        def link_bare(seg):
+            """A chapter named in plain text: "as the Monster Manual describes"."""
+            def sub(m):
+                target = CHAPTERS[m.group(1).casefold()][0]
+                if take(target, None, m.group(1), "reference"):
+                    return f"[{m.group(1)}]({url(target, None)})"
+                return m.group(0)
+            return bare_ref.sub(sub, seg)
+
         def link_conditions(seg):
             other_sense = [x.span() for x in NOT_A_CONDITION.finditer(seg)]
 
@@ -410,7 +447,7 @@ def link_pages(pages):
             lookup = LOOKUP_LINE.match(line)
             if lookup:  # a row or item links on its own, apart from the prose
                 prose_seen, seen = seen, set()
-            for step in (link_sections, link_italics, link_see, link_conditions):
+            for step in (link_sections, link_italics, link_see, link_bare, link_conditions):
                 line = outside_protected(line, step)
             if lookup:
                 seen = prose_seen

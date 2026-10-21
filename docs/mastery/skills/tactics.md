@@ -50,10 +50,9 @@ At Expert mastery, you choose either Cover or Concealment screening. At Grand Ma
 **Basic: Poliorcetics + Tactical Anticipation**
 
 - **Poliorcetics:** The craft of siege warfare: how walls, gates, and doors fail, and how to keep them standing, from field fortifications to siege engines.
-  - **Breaking:** Roll an Intelligence + Tactics trial against a structure's hardness value to find its weak spot. Your attacks against that structure then ignore its resistance. A material's immunities still apply.
-  - **Bracing:** Roll against the hardness value you are aiming for to raise a structure one step, such as Solid to Hard against DC 11. Bracing follows Working Time.
-  - You may gain a Bonus from the materials or tools at hand, such as barrels stacked against a door or a pry bar worked into a seam.
-
+    - **Breaking:** Roll an Intelligence + Tactics trial against a structure's hardness value to find its weak spot. Your attacks against that structure then ignore its resistance. A material's immunities still apply.
+    - **Bracing:** Roll against the hardness value you are aiming for to raise a structure one step, such as Solid to Hard against DC 11. Bracing follows Working Time.
+    - You may gain a Bonus from the materials or tools at hand, such as barrels stacked against a door or a pry bar worked into a seam.
 - **Tactical Anticipation:** When you defend against a Counterattack or a Reprisal Attack, your defense roll has Dominance.
 
 **Skilled: Formation (choose one) + Battlefield Sense (Creatures)**
@@ -91,6 +90,7 @@ Choose one of the remaining formations you have not yet selected. Choose either 
 
 **Master: Formation + Battlefield Sense (Threats)**
 Choose one of the remaining formations you have not yet selected.
+
 - **Battlefield Sense (Threats)**: Your mastery trial substitution expands to include conditions originating from magic and traps.
 
 **Grand Master: Formation + Screening**

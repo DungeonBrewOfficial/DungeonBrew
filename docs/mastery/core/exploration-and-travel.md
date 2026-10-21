@@ -88,6 +88,7 @@ The GM judges the plan. A careless plan can raise the DC the leader rolls agains
 ## Exploration Roles
 
 Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration Round*. Searching substantially larger or particularly dense areas (such as a cluttered great hall or a storeroom packed with crates and barrels) takes multiple *Exploration Rounds*.
+
 * Each member of the party should choose one role while exploring an area.
 * More than one member of the party can serve in each role.
 * It is possible to have roles assigned, make trials, and then switch roles. However, a new series of trials means that another *Exploration Round* has passed, as applicable.
@@ -158,6 +159,7 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 ## Traveling Roles
 
 A traveling day takes 8 hours.
+
 * Each member of the party should choose one role during the course of travel.
 * Active Roles (A) are fully occupied with their task and have a -4 to *[Startle](combat.md#startle)* trials if not forewarned by the *Watchman* or *Scout*.
 * Active Roles also advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier if they engage in similar activities while camping.
@@ -223,6 +225,7 @@ A traveling day takes 8 hours.
 ## Camping Roles
 
 Camping is broken into Resting and Activities. 8 hours are spent resting and 8 hours are spent in activities. Each character can engage in 1 camping role per evening and the effects do not stack.
+
 * Each member of the party should choose one role while camping.
 * More than one member of the party can serve in each role.
 * Active Roles (A) are fully occupied with their task and have a -4 to *[Startle](combat.md#startle)* trials if not forewarned by the *Watchman*.
@@ -428,7 +431,7 @@ Some creatures (such as horses) have maximum movement rates that allow them to r
 A fall can be nothing, a broken bone, or death. The higher the fall and the harder the ground, the worse it gets. A **fall** is unplanned: you slip, are pushed, or the floor gives way. A **drop** is a jump down that you choose and can prepare for.
 
 1. **Height.** Find the Falling table and the row for the height of the fall, rounding down, and write down its DC and damage.
-   - Use the Hard column for stone, wood, packed earth, and similar ground, and the Soft column for sand, deep snow, loose earth, and similar ground.
+    - Use the Hard column for stone, wood, packed earth, and similar ground, and the Soft column for sand, deep snow, loose earth, and similar ground.
 2. **Trial.** For a fall, roll a Physique trial against the DC; for a drop, roll a Physique + Athletics (Jumping) trial instead.
 3. **Result.** Compare the trial to the DC, and find the result on the table below.
 

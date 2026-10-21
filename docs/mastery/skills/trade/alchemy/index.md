@@ -80,7 +80,7 @@ Identifying a concoction is a use of the Alchemist discipline (see *[Skill Maste
 
 ### The Poison Register
 
-Every legal sale of a poison is recorded: the seller writes down who bought it. If a poison turns up in a body, the town knows whose door to knock on, so honest alchemists are careful who they sell to. A buyer who wants no record has to find the black market (see *[Skill Mastery](../../index.md)*, [Thievery](../../thievery.md), Demimonde).
+Every legal sale of a poison is recorded: the seller writes down who bought it. If a poison turns up in a body, the town knows whose door to knock on, so honest alchemists are careful who they sell to. A buyer who wants no record has to find the black market (see *[Skill Mastery](../../index.md)*, Thievery, [Demimonde](../../thievery.md#demimonde)).
 
 ### Talking About Tier
 
@@ -122,11 +122,11 @@ Making concoctions needs at least Untrained Trade (Alchemist) mastery.
 
 - **If the recipe's Social Class is at or below your Trade (Alchemist) mastery,** you make it without a roll.
 - **If it is above your mastery,** you can still attempt it. Make a **crafting trial** (Intelligence tier die + Trade mastery die) at the halfway point of the work, against **2 + (the recipe's Use DC − your Mastery DC)**. Your Mastery DC is your mastery level + your Intelligence tier (see *[Mastery System](../../../core/mastery-and-trials.md)*).
-  - *Example: a Skilled alchemist with Intelligence tier 4 (d6) has Mastery DC 8. She attempts a Magnate recipe (Use DC 14). The trial DC is 2 + (14 − 8) = 8.*
-  - **Past Royal,** a recipe has no Use DC on the table. Each step past Royal adds 3 to Royal's 21.
-  - *Example: a Grand Master with Intelligence tier 7 (d12) has Mastery DC 14. She attempts aconite, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3, with three modifications (Royal + 2). Its DC is 21 + 3 + 3 = 27, so the trial DC is 2 + (27 − 14) = 15.*
-  - **A natural minimum** fails the trial, and you also suffer the concoction's effects: opium knocks you out, a helpful concoction's effect is wasted on you, and a damaging one deals your own dice to you. Incendiaries can kill their maker this way: a Serpentine natural minimum is the workshop exploding.
-  - **On a failure,** choose Abandon or Commit (see [Spoiled Batches](#spoiled-batches)).
+    - *Example: a Skilled alchemist with Intelligence tier 4 (d6) has Mastery DC 8. She attempts a Magnate recipe (Use DC 14). The trial DC is 2 + (14 − 8) = 8.*
+    - **Past Royal,** a recipe has no Use DC on the table. Each step past Royal adds 3 to Royal's 21.
+    - *Example: a Grand Master with Intelligence tier 7 (d12) has Mastery DC 14. She attempts aconite, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3, with three modifications (Royal + 2). Its DC is 21 + 3 + 3 = 27, so the trial DC is 2 + (27 − 14) = 15.*
+    - **A natural minimum** fails the trial, and you also suffer the concoction's effects: opium knocks you out, a helpful concoction's effect is wasted on you, and a damaging one deals your own dice to you. Incendiaries can kill their maker this way: a Serpentine natural minimum is the workshop exploding.
+    - **On a failure,** choose Abandon or Commit (see [Spoiled Batches](#spoiled-batches)).
 
 ### 3. Time and Batches
 

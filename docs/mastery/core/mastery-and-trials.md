@@ -2,7 +2,7 @@
 generated_by: tools/sync_mastery.py
 ---
 
-# Mastery & Trials
+# Mastery System
 
 Mastery is a measure of your character's proficiency in three domains: weapons, magic, and skills. These three domains share the same progression, the same levels of mastery, the same costs, and the same rules for advancement. What differs is how each domain uses that proficiency. Weapons translate mastery into damage and maneuvers, magic into spell power and resistance, and skills into the trials you attempt and the abilities you unlock.
 

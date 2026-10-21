@@ -19,6 +19,7 @@ Each attribute is assigned a set of three dice based on how important that attri
 | 3d12 | 7 |
 
 You have 36 points to spend on sets, one set for each attribute, such as:
+
 * 3d3, 3d4, 3d6, 3d6, 3d8, 3d8, 3d10, and 3d12
 * 3d4, 3d4, 3d6, 3d6, 3d8, 3d8, 3d10, and 3d10
 * 3d3, 3d3, 3d3, 3d3, 3d12, 3d12, 3d12, and 3d12
@@ -86,6 +87,7 @@ ___
 After assigning a set of dice to a attribute, roll the assigned set, and check off a number of boxes equal to the points you rolled. It is expected that most of your rolls will result in Tier 2 or Tier 3 attributes. You may have 1 or 2 attributes at Tier 1 if you chose to make use of smaller dice sets. You will likely have no Tier 4 attributes, but it is not impossible.
 
 All attributes fall on a scale from Tier 1 to Tier 7, with a Score between 1 and 30.
+
 * Each score costs points to complete. Scores 1–5 cost 1 point each, 6–10 cost 2, 11–15 cost 3, 16–20 cost 4, 21–25 cost 5, and 26–30 cost 6. Completing the last score in a group gives you the next tier.
 
 | Scores | Points each | Total to complete | Tier gained |
@@ -100,6 +102,7 @@ All attributes fall on a scale from Tier 1 to Tier 7, with a Score between 1 and
 * You are considered to have the next Tier when you have completed the previous Tier (e.g. when you have a Score of 5, you are Tier 2, when you have a score of 30, you are Tier 7).
 
 Before completing the process of crossing off your attributes, you can make a final change to these points to determine how your Scores will look.
+
 * After generating your attributes, you may choose to EITHER swap any two scores or re-roll any 1 attribute.
 * You gain 3 points to apply to any attributes: 1 point for being a level 1 character, and 2 starting points. The points from Leveling begin when you reach level 2.
 

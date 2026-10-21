@@ -15,11 +15,13 @@ At each mastery level, you select one Creature Lore discipline and one Knowledge
 **Identification:** When you encounter an unknown creature, item, or place within your lore's domain, you can try to identify it against a DC the GM sets. Meeting the DC tells you what it is. The more you beat it by, the more you know about it.
 
 With Daeva Lore, facing a creature:
+
 - **Success:** You recognize a Skeleton Warrior, a Daeva Druj Gestalt. Undead are immune to Profane damage and weak to Sacred damage.
 - **Success by 2:** You know it does not breathe, eat, or sleep, and that it is connected to Profane magic.
 - **Success by 4:** You know it is immune to [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."), and [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.").
 
 With Artifact Lore, examining an object:
+
 - **Success:** You recognize a Toadstone, which protects against poison.
 - **Success by 2:** You know it grows warm when poison is within 5 feet.
 - **Success by 4:** You know it is strongest against ingested poison.

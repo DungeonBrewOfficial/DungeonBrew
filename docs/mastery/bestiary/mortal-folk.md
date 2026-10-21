@@ -608,4 +608,4 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 ---
 
-*All flags resolved. Rules codified in Monster Manual Rules (Revised).*
+*All flags resolved. Rules codified in [Monster Manual Rules (Revised)](creature-rules.md).*

@@ -35,6 +35,7 @@ You must be able to use a maneuver to benefit from a property that names it. A b
 **Sap.** When you Bash with this weapon, a target that fails the trial advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier, or by 2 tiers if it fails by 5 or more. If the target rolls a natural minimum, it falls [Unconscious](../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.") for a number of rounds equal to your Bludgeons Mastery Tier, or until it takes damage or an adjacent creature spends 1 AP to rouse it. When it wakes, it is Stunned (Impaired Tier 2).
 
 **Sting.** The weapon exists to break the skin and deliver whatever coats or fills its dart: a poison, a sedative, or another agent. The wound itself does little. If you know them, it benefits only from the following:
+
 - **Maneuvers:** Threading the Needle, Steady Hand.
 - **Ranged Style passives:** Precision Fire, Elevated Position, Firing Port (Marksman); Light Feet, Enfilade, Moving Target (Skirmisher).
 

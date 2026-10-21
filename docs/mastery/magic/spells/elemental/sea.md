@@ -170,7 +170,7 @@ You attune your senses to water and active sea magic for the encounter. You perc
 
 **Cost:** (1 + 1 + 1) × 3 = 9.
 
-You conjure a bank of thick fog at a point within 30 feet, filling a small area (up to 10 × 10 ft). The fog persists for the encounter. The fog is haze with a sight range of 5 feet (see *[General Rules, Light and Visibility](../../../core/exploration-and-travel.md#light-and-visibility)*). The fog is real moisture and interacts with the environment normally: wind disperses it, heat evaporates it, cold condenses it.
+You conjure a bank of thick fog at a point within 30 feet, filling a small area (up to 10 × 10 ft). The fog persists for the encounter. The fog is haze with a sight range of 5 feet (see *[General Rules](../../../core/exploration-and-travel.md), [Light and Visibility](../../../core/exploration-and-travel.md#light-and-visibility)*). The fog is real moisture and interacts with the environment normally: wind disperses it, heat evaporates it, cold condenses it.
 
 ---
 
@@ -185,6 +185,6 @@ You conjure a bank of thick fog at a point within 30 feet, filling a small area 
 | **Components** | F, S, V | **Effect** | Restore Trauma (blood, fluids) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and draw its blood back where it belongs. One Trauma of Sea's domain is restored: an open wound or an internal injury. The restoration is permanent.

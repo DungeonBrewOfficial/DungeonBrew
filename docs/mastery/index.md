@@ -11,6 +11,6 @@ Have fun!
 
 ## Where to Start
 
-**Players.** Start with [Creating a Character](characters/creating-a-character.md), then read [Mastery & Trials](core/mastery-and-trials.md) for how rolls work and [Combat](core/combat.md) for how fights run.
+**Players.** Start with [Creating a Character](characters/creating-a-character.md), then read [Mastery System](core/mastery-and-trials.md) for how rolls work and [Combat](core/combat.md) for how fights run.
 
 **Game Masters.** The [Bestiary](bestiary/index.md) holds the creatures and the rules for running and building them. [Treasure](treasure/index.md) covers what the party finds.

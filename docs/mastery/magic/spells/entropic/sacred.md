@@ -83,7 +83,7 @@ You touch a creature and channel sacred energy through its wounds. The creature 
 | **Components** | F, S, V | **Effect** | Restore Trauma (any) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and channel sacred energy into what was taken from it. One Trauma is restored. The restoration is permanent.
 

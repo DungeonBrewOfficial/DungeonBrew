@@ -305,6 +305,7 @@ The Dryad's bonded tree is a massive ancient tree (2×2 footprint, 15 ft reach).
 ***Thornwall*** *(1 AP, Action [Slow]. 1/encounter. Ability slot 5. Range 60 ft).* The Dryad raises a wall of thorny growth up to 20 feet long and 5 feet tall. The wall has 90 durability. Creatures forcing through take 6 primal damage and must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 **Phase Reference** *(each phase includes all abilities from earlier phases):*
+
 - **Moderate:** Strike, Thorn Bolt, Ensnare, Woodland Meld
 - **Slow:** all above + Thornwall
 

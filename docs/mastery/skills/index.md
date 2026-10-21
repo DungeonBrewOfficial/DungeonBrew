@@ -10,7 +10,7 @@ For the rules governing mastery points, mastery levels, point progression, and m
 
 ## Skill Trials
 
-Skill trials follow the standard trial rules defined in Mastery System. Sneaking, crafting, identifying magic, and other skill-based actions use **mastery trials** (attribute tier die + mastery die). When a skill ability forces a target to resist, the target rolls against your **Mastery DC** (mastery level + attribute tier). When the obstacle is the task itself, such as a lock, a cipher, or counting cards, you roll a mastery trial against a DC the GM sets. When the obstacle is someone who might notice or resist, such as a watcher, a mark, or a card player across the table, they roll an attribute trial against your Mastery DC. The GM decides which applies, and a single scene can use both. A target always resists with an attribute trial. If the target has the discipline that counters yours, at a mastery level equal to or higher than yours, it has Dominance on the trial. Each skill names the attribute its trials usually use. The GM can call for a different attribute when the situation suits it. The GM may roll any trial in secret when knowing the result would spoil the scene.
+Skill trials follow the standard trial rules defined in [Mastery System](../core/mastery-and-trials.md). Sneaking, crafting, identifying magic, and other skill-based actions use **mastery trials** (attribute tier die + mastery die). When a skill ability forces a target to resist, the target rolls against your **Mastery DC** (mastery level + attribute tier). When the obstacle is the task itself, such as a lock, a cipher, or counting cards, you roll a mastery trial against a DC the GM sets. When the obstacle is someone who might notice or resist, such as a watcher, a mark, or a card player across the table, they roll an attribute trial against your Mastery DC. The GM decides which applies, and a single scene can use both. A target always resists with an attribute trial. If the target has the discipline that counters yours, at a mastery level equal to or higher than yours, it has Dominance on the trial. Each skill names the attribute its trials usually use. The GM can call for a different attribute when the situation suits it. The GM may roll any trial in secret when knowing the result would spoil the scene.
 
 Each skill's Structure section specifies which attribute pairs with that skill for trials.
 
@@ -43,6 +43,7 @@ Unless explicitly stated, a skill attack ability cannot be used as part of the s
 Each skill mastery unlocks abilities at mastery levels and provides disciplines — trained areas of knowledge and skill.
 
 **Mastery Levels (1-7):**
+
 - Level 1 — Unskilled (1d2): Default. Every character starts here with no mastery investment.
 - Level 2 — Untrained (1d3): 1st unlock
 - Level 3 — Basic (1d4): 2nd unlock
@@ -83,6 +84,7 @@ Each skill mastery unlocks abilities at mastery levels and provides disciplines 
 **Trade discipline key:** A = Alchemist, B = Blacksmith, H = Healer, S = Scribe. "All" = all four disciplines.
 
 **Notable restrictions:**
+
 - **Spellcraft** is barred for all non-casters: Dwarf, Fighter, Halfling, Knight, Orc, Ranger, Thief.
 - **Stealth and Thievery** are barred for Knight and Paladin.
 - **Trade (Scribe)** is restricted to casters. Bahador and Magus get it free via Student. Druid, Fili, and Sylvan Elf have no access. Non-casters cannot learn it.

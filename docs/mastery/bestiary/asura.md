@@ -11,6 +11,7 @@ All creatures in this file are **Asura Yazata (Sacred)** — lesser Sacred being
 **Builder notes:** Asura are the least populated combat-creature domain because most Sacred beings encountered by PCs would be allies, patrons, or narrative forces rather than enemies. The creatures below represent situations where an Asura opposes the party — a guardian they must bypass, a being whose purpose conflicts with theirs, or a corrupted angel. These are proof-of-concept stat blocks, not a comprehensive bestiary.
 
 **Classification package (all Asura):**
+
 - **Benefit:** Immune to Sacred damage. (Sustained by Sacred magic — Sacred energy is native to them.)
 - **Cost:** Impotence on trials vs Profane damage. (Sacred nature is universally opposed to Profane.)
 - **Connected to Sacred magic.** (Casters need Sacred Form to charm, bind, banish, or otherwise magically interact beyond dealing damage.)

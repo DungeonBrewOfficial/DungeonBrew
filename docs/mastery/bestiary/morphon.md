@@ -75,6 +75,7 @@ The name comes from folklore: a fetch is an apparition of a living person, a dou
 ***False Form*** *(Passive. Ability slot 1).* The Fetch appears as a person known to those who see it. Different viewers may see different forms. This is not an illusion — there is no hidden true form beneath the surface. The Fetch IS the false image. It inhabits the identity completely and believes itself to be that person. False Form cannot be "seen through" with Perception or magical detection because there is nothing to see through — the false form is the creature's actual nature.
 
 The deception is discovered through interaction, not observation:
+
 - Physical contact — the Fetch feels wrong, like touching cold water shaped into a person
 - Damage — the form flickers and distorts, revealing a featureless silhouette beneath before it reassembles
 - Sustained conversation — the words come a half-beat late, memories don't quite align, knowledge that should be there is missing or wrong

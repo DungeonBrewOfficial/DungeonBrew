@@ -176,6 +176,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 **Fae Spirit.** The Puca recovers all health at dawn. If the Puca reaches 0 Health, it discorporates — it cannot act, cannot be targeted, and provides no abilities. You can resummon it early by spending magan equal to 3x the Puca's tier and performing a 10-minute uninterrupted ritual. The Puca reforms at full health. If not resummoned, it reforms automatically at dawn at full health. If you die, the Puca disperses permanently.
 
 **Form Mastery.** Your forms improve:
+
 - *Combat forms:* Size increases to 2 squares (size bonuses apply: +2 attack, +2 speed). You can ride the Puca while in combat form.
 - *Mount:* +2 speed. Your mounted charge gains Superiority on the damage roll on top of Dominance.
 - *Small Scout:* Environmental Specialization (Wilderness) on stealth trials. Vanish — the Puca can attempt to hide while observed in low light, obscured conditions, or during a distraction (1 AP). Stealth trials use Puca tier die + your Wisdom tier die.

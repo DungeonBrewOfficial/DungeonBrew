@@ -151,7 +151,7 @@ You touch a damaged stone or metal object and restore it toward its native state
 | **Components** | F, S, V | **Effect** | Restore Trauma (bone, teeth) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery, Restoring Traumas](../../index.md#restoring-traumas)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and draw its broken bone back toward what it was. One Trauma of Stone's domain is restored: a broken limb, ribs, sternum, skull, or spine, or lost teeth. The restoration is permanent.
 

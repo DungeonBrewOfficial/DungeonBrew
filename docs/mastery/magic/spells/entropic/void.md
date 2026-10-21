@@ -136,7 +136,7 @@ You surround yourself with a shimmering field of manifested void energy for the 
 
 **Cost:** (1 + 1 + 1) x 3 x 2 = 18. Effects ×2 (dynamic construct).
 
-You create a void construct at a point within 30 feet, filling a small area (up to 10 x 10 ft). The construct is indistinguishable from whatever form the caster envisions: a false wall, a group of soldiers, a roaring fire. On the caster's turn, the caster may spend AP to direct the construct (1 AP to move, 1 AP to attack an adjacent target). The construct deals void damage and has durability determined by its power level and scale (see *[Magic Mastery, Dynamic Constructs](../../index.md#dynamic-constructs)*). A creature that studies the construct closely makes a Perception trial to recognize it as false. A creature that recognizes the construct as false ignores its presence but can still be damaged by it.
+You create a void construct at a point within 30 feet, filling a small area (up to 10 x 10 ft). The construct is indistinguishable from whatever form the caster envisions: a false wall, a group of soldiers, a roaring fire. On the caster's turn, the caster may spend AP to direct the construct (1 AP to move, 1 AP to attack an adjacent target). The construct deals void damage and has durability determined by its power level and scale (see *[Magic Mastery](../../index.md), [Dynamic Constructs](../../index.md#dynamic-constructs)*). A creature that studies the construct closely makes a Perception trial to recognize it as false. A creature that recognizes the construct as false ignores its presence but can still be damaged by it.
 
 ---
 
@@ -270,7 +270,7 @@ You evoke a thought, image, or sensation from your own mind and place it into th
 | **Components** | F, S, V | **Effect** | Polymorph (self into Morphon form) |
 | **Resistance** | N/A (self) | | |
 
-**Cost:** (1 + 0 + 0) x Division x 3. See *[Magic Mastery, Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
+**Cost:** (1 + 0 + 0) x Division x 3. See *[Magic Mastery](../../index.md), [Shapeshifting](../../exorcism-enchantment-shapeshifting.md#shapeshifting)*.
 
 You transform into a Morphon creature of a known subtype within your Division cap for the encounter. Other subtypes are separate spells. Targeting others uses close+ reach.
 
@@ -287,6 +287,6 @@ You transform into a Morphon creature of a known subtype within your Division ca
 | **Components** | F, S, V | **Effect** | Restore Insanity |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Insanity Step. See *[Magic Mastery, Restoring the Mind](../../index.md#restoring-the-mind)*.
+**Cost:** (1 + 0 + 0) × Damage Age × Insanity Step. See *[Magic Mastery](../../index.md), [Restoring the Mind](../../index.md#restoring-the-mind)*.
 
 You touch a Void-connected creature and draw its mind back toward what it was this morning. Insanity gained today is undone, returning to the step it held at the start of the day. The restoration is permanent.
