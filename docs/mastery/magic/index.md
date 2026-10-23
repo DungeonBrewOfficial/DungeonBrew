@@ -213,17 +213,17 @@ All casters have access to the four elemental forms: Fire, Sea, Sky, and Stone. 
 |:---|:---|:---:|:---:|:---:|:---:|:---:|
 | Avenger | Theurgic | | ✓ | | | 5 |
 | Bahador | Occult | | | | ✓ | 5 |
-| Cleric | Theurgic | | ‡ | ‡ | ‡ | 5 |
+| Cleric | Theurgic | | § | § | § | 5 |
 | Cursed | Priscan | | ✓ | | ✓ | 6 |
 | Druid | Telluric | ✓ | | | | 5 |
 | Fili | Telluric | ✓ | | | | 5 |
-| Gnome | Priscan | * | | | * | 5 |
+| Gnome | Priscan | † | | | † | 5 |
 | Gray Elf | Priscan | ✓ | | ✓ | | 6 |
-| Magus | Occult | † | † | † | † | 6 |
+| Magus | Occult | ‡ | ‡ | ‡ | ‡ | 6 |
 | Paladin | Theurgic | | | ✓ | | 5 |
 | Sylvan Elf | Priscan | ✓ | | | | 5 |
 
-\* Choose one. † Choose any two. ‡ Set by alignment: Lawful Sacred, Chaotic Profane, Neutral Void.
+† Choose one. ‡ Choose any two. § Set by alignment: Lawful Sacred, Chaotic Profane, Neutral Void.
 
 ---
 
@@ -655,7 +655,7 @@ Trickle damage is the Attrition condition: a recurring, flat damage effect. Each
 
 <span id="sustained-by-a-spell"></span>**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md#breaking-free)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
 
-<span id="retargeting"></span>**Retargeting.** A resisted or broken trickle spell can be applied again; see [Conditions](../core/conditions.md), Resisted or broken.
+<span id="retargeting"></span>**Retargeting.** A resisted or broken trickle spell can be applied again; see *Resisted or broken* above.
 
 ---
 
