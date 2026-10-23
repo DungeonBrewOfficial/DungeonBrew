@@ -10,17 +10,17 @@ Morphon is NOT Lovecraftian horror or D&D aberrations. The conceptual foundation
 
 All creatures in this file are **Eidos Morphon Sora (Void)** — non-numen beings of the void.
 
-**Classification package:** Immune to Void damage. Vulnerable to Primal damage (Impotence on damage trials vs Primal). Connected Form: Void.
+<span id="classification-package"></span>**Classification package:** Immune to Void damage. Vulnerable to Primal damage (Impotence on damage trials vs Primal). Connected Form: Void.
 
-**Morphon creature identity — Eidolon and Eidola:**
+<span id="morphon-creature-identity-eidolon-and-eidola"></span>**Morphon creature identity — Eidolon and Eidola:**
 
 Morphon creatures are built from two tracks that cross-cut the Akasha (numen) and Sora (non-numen) kingdoms:
 
-**Eidolon** — ideal forms. The true shape of a thing. The encounter is awe and dissonance: meeting something MORE real than reality. The world feels diminished next to it.
+<span id="eidolon"></span>**Eidolon** — ideal forms. The true shape of a thing. The encounter is awe and dissonance: meeting something MORE real than reality. The world feels diminished next to it.
 
-**Eidola** — deceptive forms. The false shape of a thing. The encounter is paranoia and misdirection: the dawning realization that what you're looking at isn't what it appears to be.
+<span id="eidola"></span>**Eidola** — deceptive forms. The false shape of a thing. The encounter is paranoia and misdirection: the dawning realization that what you're looking at isn't what it appears to be.
 
-**Morphon encounters.** Morphon creatures are at their most dangerous together, because each one preys on a different mortal instinct, and a party that answers one of them well often walks straight into another.
+<span id="morphon-encounters"></span>**Morphon encounters.** Morphon creatures are at their most dangerous together, because each one preys on a different mortal instinct, and a party that answers one of them well often walks straight into another.
 
 The Fetch and the Eidolon of the Hunt are the simplest pairing. The Fetch's role is to separate. Wearing a face someone trusts, it draws one member of the party away from the others with a quiet word ("Come, I need to show you something"), and the pocket of false belief it builds around itself thins the boundary between the world and the void. The Eidolon is drawn to that thinness, and it finds the one who was led away. The party's real challenge is noticing that someone is missing before the hunt begins.
 
@@ -44,13 +44,13 @@ When it is finally confronted, the Fetch does not flee and does not fight. It pl
 
 The name comes from folklore: a fetch is an apparition of a living person, a double that isn't the original.
 
-**Attributes:**
+<span id="attributes"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3 (T1, d2) | 12 (T3, d4) | 6 (T2, d3) | 9 (T2, d3) | 9 (T2, d3) | 16 (T4, d6) | 12 (T3, d4) | 14 (T3, d4) |
 
-**Tier Budget:** 1+3+2+2+2+4+3+3 = 20. Budget for T2 Adept = 18. Close (+2). ✓
+<span id="tier-budget"></span>**Tier Budget:** 1+3+2+2+2+4+3+3 = 20. Budget for T2 Adept = 18. Close (+2). ✓
 
 > **Note:** High WIS because the Fetch needs it to read people and sustain its constructed identity (its targets resist Whisper's [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") with WIS). High PER to read people — it picks up details about the person it mimics, mannerisms, speech patterns, the shape of a relationship. High CHA to sustain the identity — it needs enough social presence to be convincing as the person it believes it is. Weak physically (T1 STR, T2 PHY) — it's a form, not a fighter. When the constructed reality collapses and the Fetch is cornered, Void Touch bypasses mundane armor entirely, making every hit go straight to health. The Fetch dies fast, but it's dangerous while it lasts.
 
@@ -66,13 +66,13 @@ The name comes from folklore: a fetch is an apparition of a living person, a dou
 | Footprint | 1x1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** Normal senses. The Fetch perceives the world the way the person it mimics would — sight, sound, touch. It sees well enough to interact convincingly.
+<span id="senses"></span>**Senses:** Normal senses. The Fetch perceives the world the way the person it mimics would — sight, sound, touch. It sees well enough to interact convincingly.
 
-**Behavior:** The Fetch is an investigation long before it is a fight. A party usually meets it in a settlement where it has lived for some time, and everyone there is [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") toward it: Lured if it arrived recently, Beguiled if it has been there long enough to belong. It never starts violence. It defends the life it has built with Whisper, trying to talk the party into accepting it as everyone else has. It turns to Void Touch only when the deception has collapsed and it has nothing left to protect, and although it dies within a few rounds, its touch ignores armor, so it can kill someone on the way down.
+<span id="behavior"></span>**Behavior:** The Fetch is an investigation long before it is a fight. A party usually meets it in a settlement where it has lived for some time, and everyone there is [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") toward it: Lured if it arrived recently, Beguiled if it has been there long enough to belong. It never starts violence. It defends the life it has built with Whisper, trying to talk the party into accepting it as everyone else has. It turns to Void Touch only when the deception has collapsed and it has nothing left to protect, and although it dies within a few rounds, its touch ignores armor, so it can kill someone on the way down.
 
-**Abilities:**
+<span id="abilities"></span>**Abilities:**
 
-***False Form*** *(Passive. Ability slot 1).* The Fetch appears as a person known to those who see it. Different viewers may see different forms. This is not an illusion — there is no hidden true form beneath the surface. The Fetch IS the false image. It inhabits the identity completely and believes itself to be that person. False Form cannot be "seen through" with Perception or magical detection because there is nothing to see through — the false form is the creature's actual nature.
+<span id="false-form"></span>***False Form*** *(Passive. Ability slot 1).* The Fetch appears as a person known to those who see it. Different viewers may see different forms. This is not an illusion — there is no hidden true form beneath the surface. The Fetch IS the false image. It inhabits the identity completely and believes itself to be that person. False Form cannot be "seen through" with Perception or magical detection because there is nothing to see through — the false form is the creature's actual nature.
 
 The deception is discovered through interaction, not observation:
 
@@ -83,7 +83,7 @@ The deception is discovered through interaction, not observation:
 
 Once a character discovers the Fetch is false, other Charmed characters nearby do not automatically realize this. They must be convinced or have the Charm broken independently.
 
-***Whisper*** *(1 AP, Range 30 ft. Ability slot 2).* The Fetch speaks in the voice of the person it resembles. The words are subtly wrong — truths that shouldn't be known, promises that don't quite fit, memories with the details shifted. The target must succeed on a WIS trial [4] or advance [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier. The Fetch can sustain Charmed on up to 12 creatures (CHA score).
+<span id="whisper"></span>***Whisper*** *(1 AP, Range 30 ft. Ability slot 2).* The Fetch speaks in the voice of the person it resembles. The words are subtly wrong — truths that shouldn't be known, promises that don't quite fit, memories with the details shifted. The target must succeed on a WIS trial [4] or advance [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier. The Fetch can sustain Charmed on up to 12 creatures (CHA score).
 
 Outside of combat, Charmed from Whisper persists for up to 24 hours. The Fetch maintains its network through daily interaction — a conversation here, a shared meal there — refreshing the 24-hour clock on each person. If the Fetch misses someone for a day, the Charm lapses and they begin noticing something is wrong.
 
@@ -101,13 +101,13 @@ The ideal form of a predator. Not a wolf, not a cat, not any specific beast — 
 
 The encounter is not horror. It is awe. The Eidolon is beautiful in the way a perfect thing is beautiful — too precise, too graceful, too present. Reality feels less real next to it. Other predators in the area fall silent. Prey animals freeze not from fear but from recognition: this is the thing they have always been running from.
 
-**Attributes:**
+<span id="attributes_1"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 16 (T4, d6) | 12 (T3, d4) | 12 (T3, d4) | 3 (T1, d2) | 12 (T3, d4) | 3 (T1, d2) | 16 (T4, d6) |
 
-**Tier Budget:** 2+4+3+3+1+3+1+4 = 21. Budget for T2 Champion = 22. Close (-1). ✓
+<span id="tier-budget_1"></span>**Tier Budget:** 2+4+3+3+1+3+1+4 = 21. Budget for T2 Champion = 22. Close (-1). ✓
 
 > **Note:** Fast and perceptive (AGI T4, PER T4) with moderate toughness (PHY/END T3). INT T1 — not intelligent, this is the form of an animal, not a thinking being. CHA T1 — no social presence, no personality. WIS T3 — strong instincts, the ideal hunter's judgment about when to strike and when to wait. STR T2 — it kills with speed and precision, not brute strength.
 
@@ -123,19 +123,19 @@ The encounter is not horror. It is awe. The Eidolon is beautiful in the way a pe
 | Footprint | 1x1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** The Eidolon perceives the presence of living creatures within 60 ft regardless of concealment, invisibility, or darkness. Beyond 60 ft, it relies on normal senses. It is drawn to creatures affected by the [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") condition — it knows their location within 120 ft.
+<span id="senses_1"></span>**Senses:** The Eidolon perceives the presence of living creatures within 60 ft regardless of concealment, invisibility, or darkness. Beyond 60 ft, it relies on normal senses. It is drawn to creatures affected by the [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") condition — it knows their location within 120 ft.
 
-**Behavior:** The Eidolon is found in places where the boundary is thin: a fog-bound clearing, a mountain pass at twilight, the edge of a forest at dusk. It hunts patiently and without mercy. Anyone who runs gives it Superiority through Relentless Chase, and its Presence of the Ideal keeps frightened prey from settling, so the instinct to flee is exactly what kills people. The party survives it by holding its ground, which denies the chase its advantage, by resisting the fear, and by bringing magic to bear, since its Incorporeal nature blunts mundane blows: spells, or the magical portion of an enchanted weapon's hit, strike it cleanly. Primal damage exploits its vulnerability, but charming, controlling, or banishing it requires Void magic, the form it is connected to.
+<span id="behavior_1"></span>**Behavior:** The Eidolon is found in places where the boundary is thin: a fog-bound clearing, a mountain pass at twilight, the edge of a forest at dusk. It hunts patiently and without mercy. Anyone who runs gives it Superiority through Relentless Chase, and its Presence of the Ideal keeps frightened prey from settling, so the instinct to flee is exactly what kills people. The party survives it by holding its ground, which denies the chase its advantage, by resisting the fear, and by bringing magic to bear, since its Incorporeal nature blunts mundane blows: spells, or the magical portion of an enchanted weapon's hit, strike it cleanly. Primal damage exploits its vulnerability, but charming, controlling, or banishing it requires Void magic, the form it is connected to.
 
-**Abilities:**
+<span id="abilities_1"></span>**Abilities:**
 
-***Incorporeal*** *(Passive. Ability slot 1).* Attacks that deal mundane damage have Inferiority against it (dice cannot explode). Magical damage, including the magical portion of an enchanted weapon's hit, lands normally. The Eidolon is form without substance: physical weapons find partial purchase but cannot land a solid blow.
+<span id="incorporeal"></span>***Incorporeal*** *(Passive. Ability slot 1).* Attacks that deal mundane damage have Inferiority against it (dice cannot explode). Magical damage, including the magical portion of an enchanted weapon's hit, lands normally. The Eidolon is form without substance: physical weapons find partial purchase but cannot land a solid blow.
 
-***Relentless Chase*** *(2 AP, Movement + Attack. Ability slot 2).* The Eidolon moves up to its full speed and makes a bite attack against a target it moves adjacent to. This movement does not provoke attacks of opportunity. If the target moved during its last turn, the attack has Superiority.
+<span id="relentless-chase"></span>***Relentless Chase*** *(2 AP, Movement + Attack. Ability slot 2).* The Eidolon moves up to its full speed and makes a bite attack against a target it moves adjacent to. This movement does not provoke attacks of opportunity. If the target moved during its last turn, the attack has Superiority.
 
 > **Note:** Superiority on moving targets is the core of the Eidolon's identity — the ideal predator is BETTER at catching things that run. Running from it triggers the hunt; standing your ground is actually safer. This creates a tactical choice: do you run (and give it Superiority) or stand and fight (against a creature with Incorporeal that resists your mundane weapons)?
 
-***Presence of the Ideal*** *(Passive. Ability slot 3).* Creatures that enter the aura (20 ft) must succeed on a WIS trial [6] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. A creature that succeeds is immune to the aura for the rest of the encounter. While a creature remains in the aura, its Demoralized does not deteriorate, including tiers from other sources. Once per turn, it can spend 1 AP on a WIS trial [6] to break the aura's hold; on success, Demoralized deteriorates normally even while it remains inside. Leaving the aura also ends the hold, and a creature that re-enters makes a new trial. This trial is Void in nature.
+<span id="presence-of-the-ideal"></span>***Presence of the Ideal*** *(Passive. Ability slot 3).* Creatures that enter the aura (20 ft) must succeed on a WIS trial [6] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. A creature that succeeds is immune to the aura for the rest of the encounter. While a creature remains in the aura, its Demoralized does not deteriorate, including tiers from other sources. Once per turn, it can spend 1 AP on a WIS trial [6] to break the aura's hold; on success, Demoralized deteriorates normally even while it remains inside. Leaving the aura also ends the hold, and a creature that re-enters makes a new trial. This trial is Void in nature.
 
 ---
 
@@ -164,15 +164,15 @@ Mortals drew a healer in the stars, a man holding a serpent. There was never a h
 | Brood | 12 | 12 | 12d2 Void | 12d2 + 4 | 7 |
 | Swarm | 16 | 16 | 16d2 Void | 16d2 + 4 | 9 |
 
-**Passive:**
+<span id="passive"></span>**Passive:**
 
-***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
+<span id="morphon"></span>***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
 
-***Starlight Bite*** *(Attack definition, no slot).* The serpents are form without full substance. Their attacks deal Void damage, avoided by an AGI trial [Cluster 5 / Brood 7 / Swarm 9] instead of a standard defense action.
+<span id="starlight-bite"></span>***Starlight Bite*** *(Attack definition, no slot).* The serpents are form without full substance. Their attacks deal Void damage, avoided by an AGI trial [Cluster 5 / Brood 7 / Swarm 9] instead of a standard defense action.
 
-**Mob:**
+<span id="mob"></span>**Mob:**
 
-***False Cure*** *(Mob, no slot).* When the mass deals damage, the target must succeed on an END trial [Cluster 5 / Brood 7 / Swarm 9] or advance [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier. Incubation: each dawn, the target makes an END trial [5]. On success, Infected drops by 1 tier; on failure, it advances by 1 tier.
+<span id="false-cure"></span>***False Cure*** *(Mob, no slot).* When the mass deals damage, the target must succeed on an END trial [Cluster 5 / Brood 7 / Swarm 9] or advance [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier. Incubation: each dawn, the target makes an END trial [5]. On success, Infected drops by 1 tier; on failure, it advances by 1 tier.
 
 ---
 
@@ -182,13 +182,13 @@ Mortals drew a healer in the stars, a man holding a serpent. There was never a h
 
 The figure at the edge of your vision. People have described it for as long as there have been people: the shape in the corner of the room, the silhouette at the foot of the bed, the presence that is gone when you turn your head. It is not a lie or a trick of the eye. It is the true form of the feeling of being watched, and it is real. It wants nothing but witnesses. It finds the one who is alone, the one who is still, the one who cannot sleep, and it holds them until they cannot look away.
 
-**Attributes:**
+<span id="attributes_2"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 21 (T5, d8) | 12 (T3, d4) | 12 (T3, d4) | 14 (T3, d4) | 24 (T5, d8) | 16 (T4, d6) | 22 (T5, d8) |
 
-**Tier Budget:** 2+5+3+3+3+5+4+5 = 30. Budget for T3 Master = 30. ✓
+<span id="tier-budget_2"></span>**Tier Budget:** 2+5+3+3+3+5+4+5 = 30. Budget for T3 Master = 30. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -202,36 +202,36 @@ The figure at the edge of your vision. People have described it for as long as t
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** Scotopic sight.
+<span id="senses_2"></span>**Senses:** Scotopic sight.
 
-**Behavior:** The Shadow-Man is rarely encountered alone: it needs shadows and allies that keep the party too busy to pin it down. It avoids prepared or well-lit groups, targets the isolated, the still, and the sleepless, and withdraws through shadow when threatened. It commits only to the Stare, and breaks it off rather than be destroyed.
+<span id="behavior_2"></span>**Behavior:** The Shadow-Man is rarely encountered alone: it needs shadows and allies that keep the party too busy to pin it down. It avoids prepared or well-lit groups, targets the isolated, the still, and the sleepless, and withdraws through shadow when threatened. It commits only to the Stare, and breaks it off rather than be destroyed.
 
-**Passive:**
+<span id="passive_1"></span>**Passive:**
 
-***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
+<span id="morphon_1"></span>***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
 
-***Peripheral*** *(Passive. Ability slot 1).* The Shadow-Man is always [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 2): it cannot be directly targeted. Its abilities do not remove Concealed. A creature can spend 1 AP searching for it (PER trial [8]). On a success, the Shadow-Man is Concealed (Tier 1) to that creature until the start of that creature's next turn, and the Shadow-Man cannot use Gaze on it.
+<span id="peripheral"></span>***Peripheral*** *(Passive. Ability slot 1).* The Shadow-Man is always [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 2): it cannot be directly targeted. Its abilities do not remove Concealed. A creature can spend 1 AP searching for it (PER trial [8]). On a success, the Shadow-Man is Concealed (Tier 1) to that creature until the start of that creature's next turn, and the Shadow-Man cannot use Gaze on it.
 
-**Abilities:**
+<span id="abilities_2"></span>**Abilities:**
 
-***Gaze*** *(1 AP, Action. Ability slot 2. Range 30 ft).* A creature that can see, other than one Peripheral bars it from targeting, must succeed on a PER trial [8] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier. A creature that did not move on its last turn has Impotence on this trial.
+<span id="gaze"></span>***Gaze*** *(1 AP, Action. Ability slot 2. Range 30 ft).* A creature that can see, other than one Peripheral bars it from targeting, must succeed on a PER trial [8] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier. A creature that did not move on its last turn has Impotence on this trial.
 
-***Shadow-Step*** *(1 AP, Movement or Reaction. Ability slot 3).* While standing in shadow, the Shadow-Man steps into it and out of another shadow within 60 feet, including a shadow cast by a creature, and is [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 2) again. It can do this as its movement, or as a reaction when targeted by an attack, in which case the attack fails. It can Shadow-Step while [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), which ends the Restricted.
+<span id="shadow-step"></span>***Shadow-Step*** *(1 AP, Movement or Reaction. Ability slot 3).* While standing in shadow, the Shadow-Man steps into it and out of another shadow within 60 feet, including a shadow cast by a creature, and is [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 2) again. It can do this as its movement, or as a reaction when targeted by an attack, in which case the attack fails. It can Shadow-Step while [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), which ends the Restricted.
 
-***The Stare*** *(1 AP, Action. Ability slot 4).* Only against a Paralyzed creature within 5 feet. The Shadow-Man drops its Concealment and holds the creature's gaze. While it stares, the creature's [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") does not deteriorate. At the start of each of its turns, it may spend 1 AP to hold the Stare, and the creature takes d12 (DTD) + d8 (WIS) Void damage. Exploding. The Stare ends if the Shadow-Man moves, uses Shadow-Step, or chooses to end it. A creature that takes damage from the Stare is marked permanently. While a marked creature can see the Shadow-Man, it is [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") at Tier 1 (Shaken) toward it.
+<span id="the-stare"></span>***The Stare*** *(1 AP, Action. Ability slot 4).* Only against a Paralyzed creature within 5 feet. The Shadow-Man drops its Concealment and holds the creature's gaze. While it stares, the creature's [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") does not deteriorate. At the start of each of its turns, it may spend 1 AP to hold the Stare, and the creature takes d12 (DTD) + d8 (WIS) Void damage. Exploding. The Stare ends if the Shadow-Man moves, uses Shadow-Step, or chooses to end it. A creature that takes damage from the Stare is marked permanently. While a marked creature can see the Shadow-Man, it is [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") at Tier 1 (Shaken) toward it.
 
-***Gather the Dark*** *(2 AP, Action. 1/encounter. Ability slot 5).* Allies within 60 feet that are in shadow advance [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") by 1 tier until the end of the encounter, as an obscuring source: attacking does not end it, and it grants no attack benefits.
+<span id="gather-the-dark"></span>***Gather the Dark*** *(2 AP, Action. 1/encounter. Ability slot 5).* Allies within 60 feet that are in shadow advance [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") by 1 tier until the end of the encounter, as an obscuring source: attacking does not end it, and it grants no attack benefits.
 
-**Optional: The Watcher's Paranoia.** A GM running the Shadow-Man as a haunting across several nights can let its mark deepen into insanity, using the Suspicion entries on the Insanity table. Each night the Shadow-Man stares at a creature, that creature takes the next step:
+<span id="optional-the-watchers-paranoia"></span>**Optional: The Watcher's Paranoia.** A GM running the Shadow-Man as a haunting across several nights can let its mark deepen into insanity, using the Suspicion entries on the Insanity table. Each night the Shadow-Man stares at a creature, that creature takes the next step:
 
-1. **Mild Suspicion,** 8 hours.
-2. **Moderate Suspicion,** 1 day.
-3. **Severe Suspicion,** 1 week.
-4. **Severe Suspicion,** permanent.
+1. <span id="mild-suspicion"></span>**Mild Suspicion,** 8 hours.
+2. <span id="moderate-suspicion"></span>**Moderate Suspicion,** 1 day.
+3. <span id="severe-suspicion"></span>**Severe Suspicion,** 1 week.
+4. <span id="severe-suspicion_1"></span>**Severe Suspicion,** permanent.
 
 A creature takes at most one step per night. The count never resets when an insanity wears off: the Shadow-Man remembers its witnesses. Magic that restores the mind can undo the step gained today, but not the count.
 
-**In a village,** this is the shape of the haunting. The first victims are wary and sleep badly. By the third visit they bar their doors and watch their neighbors. When the party arrives, the village trusts no one, and the party is strangers. Any character the Shadow-Man reaches climbs the same ladder.
+<span id="in-a-village"></span>**In a village,** this is the shape of the haunting. The first victims are wary and sleep badly. By the third visit they bar their doors and watch their neighbors. When the party arrives, the village trusts no one, and the party is strangers. Any character the Shadow-Man reaches climbs the same ladder.
 
 ---
 
@@ -243,13 +243,13 @@ An old magpie that sits on fence posts and talks to travelers. It is friendly, c
 
 The direct approach works on the trusting, but the Magpie has learned that the wary keep their names to themselves, so it seldom relies on asking. More often, something goes missing first. A jackdaw snatches a ring from a windowsill, or a Fetch's quick hand lifts a locket in a crowd, or the Magpie takes the thing itself and flies off with it. Its owner gives chase to a perch nearby, where an old bird is terribly sorry about the whole business. "These corvids, always taking shiny things. Tell me your name, friend, so that I may apologize properly." The trinket is already in its claws by then, so all it needs is the name, and an angry person demanding their property back rarely stops to wonder why a bird wants to know who they are.
 
-**Attributes:**
+<span id="attributes_3"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 5 (T2, d3) | 16 (T4, d6) | 9 (T2, d3) | 8 (T2, d3) | 18 (T4, d6) | 14 (T3, d4) | 20 (T5, d8) | 14 (T3, d4) |
 
-**Tier Budget:** 2+4+2+2+4+3+5+3 = 25. Budget for T2 Master = 24. Close (+1). ✓
+<span id="tier-budget_3"></span>**Tier Budget:** 2+4+2+2+4+3+5+3 = 25. Budget for T2 Master = 24. Close (+1). ✓
 
 | Stat | Value |
 |:---|:---|
@@ -263,21 +263,21 @@ The direct approach works on the trusting, but the Magpie has learned that the w
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-**Behavior:** The Magpie is not hostile. It talks, trades, and collects. It fights to keep what it holds, using the names in its possession before its beak, and if pressed hard it flies for its nest.
+<span id="behavior_3"></span>**Behavior:** The Magpie is not hostile. It talks, trades, and collects. It fights to keep what it holds, using the names in its possession before its beak, and if pressed hard it flies for its nest.
 
-**Passive:**
+<span id="passive_2"></span>**Passive:**
 
-***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
+<span id="morphon_2"></span>***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
 
-***Name-Taker*** *(Passive. Ability slot 1).* When a creature speaks its own name to the Magpie while the Magpie holds an object belonging to that creature, the Magpie locks the name in the object. While its name is locked away, the creature has Amnesia (Insanity table). Returning the object to its owner restores the name and ends the Amnesia. Objects in the Magpie's nest are in its possession. Names of creatures not connected to Void hold no shine for it; it cannot take them.
+<span id="name-taker"></span>***Name-Taker*** *(Passive. Ability slot 1).* When a creature speaks its own name to the Magpie while the Magpie holds an object belonging to that creature, the Magpie locks the name in the object. While its name is locked away, the creature has Amnesia (Insanity table). Returning the object to its owner restores the name and ends the Amnesia. Objects in the Magpie's nest are in its possession. Names of creatures not connected to Void hold no shine for it; it cannot take them.
 
-**Abilities:**
+<span id="abilities_3"></span>**Abilities:**
 
-***Speak the Name*** *(1 AP, Action. Ability slot 2. Range 60 ft).* A creature whose name the Magpie holds, and that can hear it, is Compelled ([Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."), Tier 1) with no trial. Most often the Magpie sends it away. If the creature is already Controlled, it must instead succeed on a CHA trial [7], with Impotence, or advance Controlled by 1 tier.
+<span id="speak-the-name"></span>***Speak the Name*** *(1 AP, Action. Ability slot 2. Range 60 ft).* A creature whose name the Magpie holds, and that can hear it, is Compelled ([Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."), Tier 1) with no trial. Most often the Magpie sends it away. If the creature is already Controlled, it must instead succeed on a CHA trial [7], with Impotence, or advance Controlled by 1 tier.
 
-***Call the Flock*** *(2 AP, Action. Ability slot 3. Range 60 ft).* Allied corvids within range advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+<span id="call-the-flock"></span>***Call the Flock*** *(2 AP, Action. Ability slot 3. Range 60 ft).* Allied corvids within range advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
-***Every Name at Once*** *(2 AP, Action. 1/encounter. Ability slot 4).* The Magpie speaks every name it holds. Each named creature within 60 feet that can hear it is affected as by Speak the Name.
+<span id="every-name-at-once"></span>***Every Name at Once*** *(2 AP, Action. 1/encounter. Ability slot 4).* The Magpie speaks every name it holds. Each named creature within 60 feet that can hear it is affected as by Speak the Name.
 
 ---
 
@@ -287,13 +287,13 @@ The direct approach works on the trusting, but the Magpie has learned that the w
 
 An old grey cat with a voice like dry paper. She is the original familiar, the true form of the bond between a mortal and whatever lies beyond, and every witch's cat in every story is a lesser copy of her. She has sat beside hundreds of masters. Her price for service is that the master teach her, and what she learns is taken: a careless master goes hollow and forgetful while the cat grows wiser. Clever masters feed her just enough to keep her, and the cleverest die of old age before she has had her fill. Travelers meet her at the edge of her master's land, where she trades a truth for a truth and tests whether they are worth talking to with riddles.
 
-**Attributes:**
+<span id="attributes_4"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 22 (T5, d8) | 12 (T3, d4) | 12 (T3, d4) | 26 (T6, d10) | 18 (T4, d6) | 12 (T3, d4) | 14 (T3, d4) |
 
-**Tier Budget:** 2+5+3+3+6+4+3+3 = 29. Budget for T3 Champion = 28. Close (+1). ✓
+<span id="tier-budget_4"></span>**Tier Budget:** 2+5+3+3+6+4+3+3 = 29. Budget for T3 Champion = 28. Close (+1). ✓
 
 | Stat | Value |
 |:---|:---|
@@ -307,20 +307,20 @@ An old grey cat with a voice like dry paper. She is the original familiar, the t
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-**Senses:** Crepuscular sight.
+<span id="senses_3"></span>**Senses:** Crepuscular sight.
 
-**Behavior:** The Grimalkin defends her master's household for as long as the bargain holds. She does not fight in the open and leaves any fight her master is not worth.
+<span id="behavior_4"></span>**Behavior:** The Grimalkin defends her master's household for as long as the bargain holds. She does not fight in the open and leaves any fight her master is not worth.
 
-**Passive:**
+<span id="passive_3"></span>**Passive:**
 
-***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
+<span id="morphon_3"></span>***Morphon (Sora)*** *(Classification, no slot).* Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
 
-***Through the Wall*** *(Passive. Ability slot 1).* The Grimalkin moves through walls, doors, and floors as if they were open space. As a 1 AP action, she can lead one willing creature she is touching through a barrier with her.
+<span id="through-the-wall"></span>***Through the Wall*** *(Passive. Ability slot 1).* The Grimalkin moves through walls, doors, and floors as if they were open space. As a 1 AP action, she can lead one willing creature she is touching through a barrier with her.
 
-***Within the Walls*** *(Passive. Ability slot 2).* The Grimalkin can end her movement inside a wall, door, or floor. While inside, she cannot be targeted, and she can do nothing but move. When she uses an ability or attacks, she must first emerge, and she cannot re-enter a wall until the start of her next turn.
+<span id="within-the-walls"></span>***Within the Walls*** *(Passive. Ability slot 2).* The Grimalkin can end her movement inside a wall, door, or floor. While inside, she cannot be targeted, and she can do nothing but move. When she uses an ability or attacks, she must first emerge, and she cannot re-enter a wall until the start of her next turn.
 
-**Abilities:**
+<span id="abilities_4"></span>**Abilities:**
 
-***What You Know*** *(1 AP, Action. Ability slot 3. Range 30 ft).* A creature that can hear the Grimalkin must succeed on an INT trial [7] or advance [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") by 1 tier. A creature that has ever traded with her, by answering her questions or her riddles, has Impotence on this trial.
+<span id="what-you-know"></span>***What You Know*** *(1 AP, Action. Ability slot 3. Range 30 ft).* A creature that can hear the Grimalkin must succeed on an INT trial [7] or advance [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") by 1 tier. A creature that has ever traded with her, by answering her questions or her riddles, has Impotence on this trial.
 
-***Drink*** *(1 AP, Action. Ability slot 4).* The Grimalkin leans close to a [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") creature within reach and draws in its breath, and the thoughts that ride on it. The creature must succeed on an INT trial [7] or take d10 (DTD) + d10 (INT) Void damage. Exploding.
+<span id="drink"></span>***Drink*** *(1 AP, Action. Ability slot 4).* The Grimalkin leans close to a [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") creature within reach and draws in its breath, and the thoughts that ride on it. The creature must succeed on an INT trial [7] or take d10 (DTD) + d10 (INT) Void damage. Exploding.

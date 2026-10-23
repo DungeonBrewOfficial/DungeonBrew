@@ -15,7 +15,7 @@ generated_by: tools/sync_mastery.py
 | **Components** | F, S, V | **Damage** | ATD + MTD sea |
 | **Resistance** | Agility | | |
 
-**Cost:** (1 + 1 + 0) × 1 = 2.
+<span id="cost"></span>**Cost:** (1 + 1 + 0) × 1 = 2.
 
 You hurl a jagged shard of ice at a creature within line of sight, 30 feet. The target makes an Agility trial; on failure, it takes full cold damage.
 
@@ -32,7 +32,7 @@ You hurl a jagged shard of ice at a creature within line of sight, 30 feet. The 
 | **Components** | F, S, V | **Damage** | ATD + MTD sea |
 | **Resistance** | Agility | | |
 
-**Cost:** (1 + 2 + 2) × 1 = 5.
+<span id="cost_1"></span>**Cost:** (1 + 2 + 2) × 1 = 5.
 
 You crash a wave of conjured water down on a point within line of sight, 100 feet, engulfing a large area (up to 15 × 15 ft). Each creature in the area makes an Agility trial; on failure, it takes full sea damage.
 
@@ -49,7 +49,7 @@ You crash a wave of conjured water down on a point within line of sight, 100 fee
 | **Components** | F, S, V | **Damage** | ATD + MTD sea |
 | **Resistance** | Endurance (creature) | | |
 
-**Cost:** (1 + 0 + 0) × 1 = 1.
+<span id="cost_2"></span>**Cost:** (1 + 0 + 0) × 1 = 1.
 
 You touch an object and dissolve it. The material corrodes, pits, and falls apart as though subjected to years of erosion in seconds.
 
@@ -66,7 +66,7 @@ You touch an object and dissolve it. The material corrodes, pits, and falls apar
 | **Components** | F, S, V | **Damage** | ATD + MTD sea |
 | **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
 
-**Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.
+<span id="cost_3"></span>**Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.
 
 You hurl a bolt of freezing water that flash-freezes on impact. The target makes an Agility trial; on failure, it takes full sea damage and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Freezing). The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
 
@@ -83,7 +83,7 @@ You hurl a bolt of freezing water that flash-freezes on impact. The target makes
 | **Components** | F, S, V | **Damage** | Mastery Level sea (aura) |
 | **Resistance** | N/A (self) | | |
 
-**Cost:** (1 + 0 + 0) × 3 = 3.
+<span id="cost_4"></span>**Cost:** (1 + 0 + 0) × 3 = 3.
 
 You wreathe yourself in biting cold for the encounter. Creatures that strike you in melee take sea damage equal to your mastery level in Sea.
 
@@ -100,7 +100,7 @@ You wreathe yourself in biting cold for the encounter. Creatures that strike you
 | **Components** | F, S, V | **Condition** | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") T1 |
 | **Resistance** | Wisdom | | |
 
-**Cost:** (1 + 1 + 0) × 3 × 1 = 6.
+<span id="cost_5"></span>**Cost:** (1 + 1 + 0) × 3 × 1 = 6.
 
 You reach through the sea form to charm a sea-connected creature within 30 feet for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
 
@@ -117,7 +117,7 @@ You reach through the sea form to charm a sea-connected creature within 30 feet 
 | **Components** | F, S, V | **Effect** | Protection vs sea damage |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × 3 = 3.
+<span id="cost_6"></span>**Cost:** (1 + 0 + 0) × 3 = 3.
 
 You touch a creature and ward it against sea damage for the encounter. The ward produces a durability pool: Mastery Level × 5 × 3 (duration multiplier). When the pool is depleted, the spell ends.
 
@@ -134,7 +134,7 @@ You touch a creature and ward it against sea damage for the encounter. The ward 
 | **Components** | F, S, V | **Effect** | Reshape existing water/ice |
 | **Resistance** | N/A (object); Strength (held) | | |
 
-**Cost:** (1 + 1 + 0) × 1 = 2.
+<span id="cost_7"></span>**Cost:** (1 + 1 + 0) × 1 = 2.
 
 You seize control of existing water or ice within 30 feet and reshape it within its square: shape a block of ice into a crude tool, raise a basin of water into a column, or part a shallow stream. The amount stays the same; water stays water and ice stays ice. If a creature holds the water or ice, it makes a Strength trial; on failure, you reshape it. The reshaped water cannot strike, envelop, or bind a creature. It returns to its original shape at the end of the round; anything it doused stays doused.
 
@@ -151,7 +151,7 @@ You seize control of existing water or ice within 30 feet and reshape it within 
 | **Components** | F, S, V | **Effect** | Detection (water, moisture, sea magic) |
 | **Resistance** | N/A (self) | | |
 
-**Cost:** (1 + 0 + 0) × 3 = 3.
+<span id="cost_8"></span>**Cost:** (1 + 0 + 0) × 3 = 3.
 
 You attune your senses to water and active sea magic for the encounter. You perceive water sources (underground streams, moisture in walls, liquid in containers), ice formations, and active sea magic (enchantments, wards, auras) within range.
 
@@ -168,7 +168,7 @@ You attune your senses to water and active sea magic for the encounter. You perc
 | **Components** | F, S, V | **Effect** | Concealment (fog) |
 | **Resistance** | N/A (no target) | | |
 
-**Cost:** (1 + 1 + 1) × 3 = 9.
+<span id="cost_9"></span>**Cost:** (1 + 1 + 1) × 3 = 9.
 
 You conjure a bank of thick fog at a point within 30 feet, filling a small area (up to 10 × 10 ft). The fog persists for the encounter. The fog is haze with a sight range of 5 feet (see *[General Rules](../../../core/exploration-and-travel.md), [Light and Visibility](../../../core/exploration-and-travel.md#light-and-visibility)*). The fog is real moisture and interacts with the environment normally: wind disperses it, heat evaporates it, cold condenses it.
 
@@ -185,6 +185,6 @@ You conjure a bank of thick fog at a point within 30 feet, filling a small area 
 | **Components** | F, S, V | **Effect** | Restore Trauma (blood, fluids) |
 | **Resistance** | N/A (ally) | | |
 
-**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
+<span id="cost_10"></span>**Cost:** (1 + 0 + 0) × Damage Age × Trauma Tier. See *[Magic Mastery](../../index.md), [Restoring Traumas](../../index.md#restoring-traumas)*.
 
 You touch a creature and draw its blood back where it belongs. One Trauma of Sea's domain is restored: an open wound or an internal injury. The restoration is permanent.

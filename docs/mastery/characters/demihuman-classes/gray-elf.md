@@ -49,24 +49,24 @@ She is a gray elf. An elf of knowledge and nobility. Her power comes from her gr
 
 ## Gray Elf Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Belrain, a Fifth Level Elf," you should say "I'm Belrain, the Adventurer."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Belrain, a Fifth Level Elf," you should say "I'm Belrain, the Adventurer."
 
-**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 1 Skill Mastery point, which must be spent immediately on a Skill. You may use this point to advance a Skill to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 1 Skill Mastery point, which must be spent immediately on a Skill. You may use this point to advance a Skill to Untrained mastery, but no further at this level.
 
 * As a Gray Elf, you can learn the following skills: *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Alertness](../../skills/alertness.md)* and *[Presence](../../skills/presence.md)* as part of the *[Gray Elf Nature](#gray-elf-nature)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 21, this increases to 2 points per level.
 
-**Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 6 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
+<span id="spell-mastery"></span>**Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 6 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
 * As a gray elf, you can learn the 6 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, *[Sacred](../../magic/index.md#sacred)*, and *[Primal](../../magic/index.md#primal)* magic.
 * You gain 1 Spell Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
-**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
@@ -82,17 +82,17 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 
 ### Elven Nature
 
-**Unshaken.** You are immune to [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.").
+<span id="unshaken"></span>**Unshaken.** You are immune to [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.").
 
-**Crepuscular Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you.
+<span id="crepuscular-sight"></span>**Crepuscular Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you.
 
-**Uncanny Agility.** You can make active defense rolls against ranged attacks without a shield, using your Agility tier die + applicable resistance.
+<span id="uncanny-agility"></span>**Uncanny Agility.** You can make active defense rolls against ranged attacks without a shield, using your Agility tier die + applicable resistance.
 
 ### Gray Elf Nature
 
 You automatically advance in the *[Alertness](../../skills/alertness.md)* and *[Presence](../../skills/presence.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-**Thought-Opening.** You have natural telepathy. Creatures that do not possess telepathy or are not elves cannot respond. Normal limitations of communication based on shared languages apply. In combat, telepathy costs 1 AP and is limited to a single, simple sentence. You can use it at any time, including outside your turn.
+<span id="thought-opening"></span>**Thought-Opening.** You have natural telepathy. Creatures that do not possess telepathy or are not elves cannot respond. Normal limitations of communication based on shared languages apply. In combat, telepathy costs 1 AP and is limited to a single, simple sentence. You can use it at any time, including outside your turn.
 
 | Wisdom Tier | Range |
 |:---:|:---:|
@@ -104,9 +104,9 @@ You automatically advance in the *[Alertness](../../skills/alertness.md)* and *[
 | 6 | 10 miles |
 | 7 | 100 miles |
 
-**Healing Touch.** During exploration, you can spend 10 minutes in physical contact with a wounded creature other than yourself to heal them for your Wisdom tier die. This can only restore damage taken today. You can use this a number of times equal to your Wisdom tier, regaining all uses after a rest. No magan cost.
+<span id="healing-touch"></span>**Healing Touch.** During exploration, you can spend 10 minutes in physical contact with a wounded creature other than yourself to heal them for your Wisdom tier die. This can only restore damage taken today. You can use this a number of times equal to your Wisdom tier, regaining all uses after a rest. No magan cost.
 
-**Wisdom of Ages.** Wherever Presence uses your Charisma, including its trials, its Presence Mastery DC, and bonuses equal to your Charisma tier, you use Wisdom instead.
+<span id="wisdom-of-ages"></span>**Wisdom of Ages.** Wherever Presence uses your Charisma, including its trials, its Presence Mastery DC, and bonuses equal to your Charisma tier, you use Wisdom instead.
 
 ### Priscan Magic
 
@@ -118,6 +118,6 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Perception Tier (maximum 14).
 
-**Training.** You are trained by an elder gray elf of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
+<span id="training"></span>**Training.** You are trained by an elder gray elf of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
 
-**Spell Acquisition.** You can also discover new spells at fonts of priscan magic. You meditate at the font, burning ritual components worth magan² ss to internalize the spell through your bloodline. Internalizing a spell takes 1 day per magan. Your spells are comprehended and held within you; they require no physical medium. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
+<span id="spell-acquisition"></span>**Spell Acquisition.** You can also discover new spells at fonts of priscan magic. You meditate at the font, burning ritual components worth magan² ss to internalize the spell through your bloodline. Internalizing a spell takes 1 day per magan. Your spells are comprehended and held within you; they require no physical medium. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.

@@ -36,21 +36,21 @@ Take your time in reviewing the suggested rolls below, especially in regard to s
 
 Every attribute matters. Each one resists something that can take you out of a fight, and each one drives some of the weapons, magic, or skills you will lean on. A low score is a weakness an enemy can find.
 
-**Strength.** Heavy and two-handed weapons, and the heavy thrown ones. How much you can carry. Breaking free of restraints, and resisting being held or pinned ([Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).")).
+<span id="strength"></span>**Strength.** Heavy and two-handed weapons, and the heavy thrown ones. How much you can carry. Breaking free of restraints, and resisting being held or pinned ([Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).")).
 
-**Agility.** Your speed. Your armor resistance in light and medium armor. How fast your body reacts when combat opens (Startle). Dodging damaging spells, bursts, and falling debris.
+<span id="agility"></span>**Agility.** Your speed. Your armor resistance in light and medium armor. How fast your body reacts when combat opens (Startle). Dodging damaging spells, bursts, and falling debris.
 
-**Physique.** Light weapons, thrown blades, and bows. Moving silently, climbing, balancing, swimming, and riding. Landing a fall, and resisting magic that would reshape or move your body.
+<span id="physique"></span>**Physique.** Light weapons, thrown blades, and bows. Moving silently, climbing, balancing, swimming, and riding. Landing a fall, and resisting magic that would reshape or move your body.
 
-**Endurance.** Your health. Surviving when you fall to 0. Resisting poison, disease, and exhaustion ([Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."), [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")), and long days on the march.
+<span id="endurance"></span>**Endurance.** Your health. Surviving when you fall to 0. Resisting poison, disease, and exhaustion ([Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."), [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")), and long days on the march.
 
-**Intelligence.** The Occult tradition of the Bahador and Magus. Knowledge, crafts, and planning. Resisting confusion ([Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.")) and magic that would read your mind.
+<span id="intelligence"></span>**Intelligence.** The Occult tradition of the Bahador and Magus. Knowledge, crafts, and planning. Resisting confusion ([Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.")) and magic that would read your mind.
 
-**Wisdom.** The Telluric tradition of the Druid and Fili. Sound judgment. Resisting fear and charm ([Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.")).
+<span id="wisdom"></span>**Wisdom.** The Telluric tradition of the Druid and Fili. Sound judgment. Resisting fear and charm ([Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.")).
 
-**Charisma.** The Theurgic tradition of the Avenger, Cleric, and Paladin. Persuasion, leadership, and disguise. Resisting control and possession ([Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.")).
+<span id="charisma"></span>**Charisma.** The Theurgic tradition of the Avenger, Cleric, and Paladin. Persuasion, leadership, and disguise. Resisting control and possession ([Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.")).
 
-**Perception.** The Priscan tradition of the Cursed, Elves, and Gnome. Aiming every ranged attack. How fast your mind reacts when combat opens (Startle). Noticing what is hidden, and resisting being stunned or fooled by illusions ([Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")).
+<span id="perception"></span>**Perception.** The Priscan tradition of the Cursed, Elves, and Gnome. Aiming every ranged attack. How fast your mind reacts when combat opens (Startle). Noticing what is hidden, and resisting being stunned or fooled by illusions ([Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")).
 
 ___
 
@@ -110,7 +110,7 @@ Before completing the process of crossing off your attributes, you can make a fi
 
 Each time you gain a level in your chosen class, you have a number of points equal to your level that you can apply to any attribute until you reach level 10, at which point you always gain 10 points per level (e.g. At level 4, you gain 4 points, at level 13, you gain 10 points, at level 32, you gain 10 points). There is no upper limit to leveling, although you will eventually max out all of your attributes, and that is probably a good stopping point.
 
-**Beyond Level 30.** Class tables end at level 30, but advancement continues. Each level beyond 30 requires 50 more experience than the level before it, grants 10 attribute points, and grants mastery points at your level 30 rate. Health continues on your class's schedule, and you keep your final title.
+<span id="beyond-level-30"></span>**Beyond Level 30.** Class tables end at level 30, but advancement continues. Each level beyond 30 requires 50 more experience than the level before it, grants 10 attribute points, and grants mastery points at your level 30 rate. Health continues on your class's schedule, and you keep your final title.
 
 ## Personality
 
@@ -120,97 +120,97 @@ Alignment isn't all there is to your personality. You should think about your ma
 
 Alignment only focuses on Law, Neutrality, and Chaos with no reference to moral questions of Good and Evil. Those are left to your GM and you to determine as part of the game.
 
-**Law**. Everything should follow an order, and that obeying rules is the natural way of life. You try to tell the truth, obey laws that are fair, keep promises, and care for all living things. If a choice must be made between the benefit of a group or an individual, you will usually choose the group.
+<span id="law"></span>**Law**. Everything should follow an order, and that obeying rules is the natural way of life. You try to tell the truth, obey laws that are fair, keep promises, and care for all living things. If a choice must be made between the benefit of a group or an individual, you will usually choose the group.
 
-**Chaos**. Life is random and that chance and luck rule the world. Laws are made to be broken, as long as a person can get away with it. It is not important to keep promises, and lying and telling the truth are both useful. Selfishness is the normal way of life, and the group is not important. You often act on sudden desires and whims. You have strong belief in the power of luck.
+<span id="chaos"></span>**Chaos**. Life is random and that chance and luck rule the world. Laws are made to be broken, as long as a person can get away with it. It is not important to keep promises, and lying and telling the truth are both useful. Selfishness is the normal way of life, and the group is not important. You often act on sudden desires and whims. You have strong belief in the power of luck.
 
-**Neutrality**. The world is a balance between Law and Chaos. It is important that neither side get too much power and upset this balance. The individual is important, but so is the group; the two sides must work together. You are most interested in personal survival. You believe in your own wits and abilities rather than luck. You tend to return the treatment you receive from others.
+<span id="neutrality"></span>**Neutrality**. The world is a balance between Law and Chaos. It is important that neither side get too much power and upset this balance. The individual is important, but so is the group; the two sides must work together. You are most interested in personal survival. You believe in your own wits and abilities rather than luck. You tend to return the treatment you receive from others.
 
 ### Human Characteristics
 
 Humans judge the world according to themselves and their point of view, oftentimes struggling to empathize with other creatures, seeing them as being alien, and the more alien, the less empathy they possess.
 
-**Accustomed to Power**. Humans have been on an upward trajectory for so long that they often assume that this is how it has always been. They see themselves as the dominant species in the world, failing to recognize that demihumans once held their position.
+<span id="accustomed-to-power"></span>**Accustomed to Power**. Humans have been on an upward trajectory for so long that they often assume that this is how it has always been. They see themselves as the dominant species in the world, failing to recognize that demihumans once held their position.
 
-**Changeable**. Perhaps not to themselves, but in the perspective of longer-lived species, humans change quickly and often. Not always the individual, but their society along with its goals and beliefs.
+<span id="changeable"></span>**Changeable**. Perhaps not to themselves, but in the perspective of longer-lived species, humans change quickly and often. Not always the individual, but their society along with its goals and beliefs.
 
-**Cruel**. More than any other species, humans are wont to be cruel, toward themselves and, far more often, to the most alien human-like creatures they come across. Nothing seems to incite humanity more than semi-humanity.
+<span id="cruel"></span>**Cruel**. More than any other species, humans are wont to be cruel, toward themselves and, far more often, to the most alien human-like creatures they come across. Nothing seems to incite humanity more than semi-humanity.
 
-**Ambitious**. Humans want the world. They want to own, categorize, and control every piece they can lay their hands on. Anything that cannot be owned, categorized, or controlled must be eliminated.
+<span id="ambitious"></span>**Ambitious**. Humans want the world. They want to own, categorize, and control every piece they can lay their hands on. Anything that cannot be owned, categorized, or controlled must be eliminated.
 
-**Exception to the Rule**. There is an exception to every rule when it comes to how humanity behaves and expects others to behave. However, these are the exception and *not* the rule.
+<span id="exception-to-the-rule"></span>**Exception to the Rule**. There is an exception to every rule when it comes to how humanity behaves and expects others to behave. However, these are the exception and *not* the rule.
 
 ### Cursed Characteristics
 
 While cursed have human ancestry, their curse has robbed them of their humanity so that they seem fiendish monsters in comparison.
 
-**Human but Inhuman**. Human characteristics can still manifest, but are often warped and terrifying. Cursed might have wild and violent mood swings, a tendency toward unimaginable cruelty, or world-ending ambition. Ultimately, their humanity is only superficial at best.
+<span id="human-but-inhuman"></span>**Human but Inhuman**. Human characteristics can still manifest, but are often warped and terrifying. Cursed might have wild and violent mood swings, a tendency toward unimaginable cruelty, or world-ending ambition. Ultimately, their humanity is only superficial at best.
 
-**Disconnected**. No civilized society would willingly accept a cursed, unless in dire need. They do not view themselves as being a part of any culture or species, except for other cursed, and even their fellow cursed people are kept at an arm's length.
+<span id="disconnected"></span>**Disconnected**. No civilized society would willingly accept a cursed, unless in dire need. They do not view themselves as being a part of any culture or species, except for other cursed, and even their fellow cursed people are kept at an arm's length.
 
-**Monstrous**. No matter the curse, a cursed is ultimately monstrous, whether through unnatural cravings, such as the flesh or organs of intelligent creatures, a propensity for unprovoked violence, or insanity that warps their view of the world.
+<span id="monstrous"></span>**Monstrous**. No matter the curse, a cursed is ultimately monstrous, whether through unnatural cravings, such as the flesh or organs of intelligent creatures, a propensity for unprovoked violence, or insanity that warps their view of the world.
 
-**Cursed**. Witches and warlocks are cursed, no matter how they may choose to distort their existence into something meaningful or positive. Their doom is a burden that shapes their existence in inescapable ways. A cursed creature is ultimately damned to an existence of pain, intolerance, hatred, and almost always ends in violence; that knowledge is forever branded into the psyche of every cursed.
+<span id="cursed_1"></span>**Cursed**. Witches and warlocks are cursed, no matter how they may choose to distort their existence into something meaningful or positive. Their doom is a burden that shapes their existence in inescapable ways. A cursed creature is ultimately damned to an existence of pain, intolerance, hatred, and almost always ends in violence; that knowledge is forever branded into the psyche of every cursed.
 
 ### Dwarf Characteristics
 
 Dwarves are not humans and seem alien in comparison.
 
-**Stoic**. Dwarves are dour and sober, rarely given to display any kind of emotion, especially in front of other species or peoples not of their clan.
+<span id="stoic"></span>**Stoic**. Dwarves are dour and sober, rarely given to display any kind of emotion, especially in front of other species or peoples not of their clan.
 
-**Secretive**. Dwarves keep their secrets well, refusing to even speak their language in front of others. They keep many secrets concerning their craftsmanship and are offended by prying eyes and tongues that try to learn them.
+<span id="secretive"></span>**Secretive**. Dwarves keep their secrets well, refusing to even speak their language in front of others. They keep many secrets concerning their craftsmanship and are offended by prying eyes and tongues that try to learn them.
 
-**Proud and Noble**. Dwarves take great offense at being made fun of. They extend this opinion to their friends, family, clans, and craftsmanship. They value their honor and the honor of others. Life is serious business.
+<span id="proud-and-noble"></span>**Proud and Noble**. Dwarves take great offense at being made fun of. They extend this opinion to their friends, family, clans, and craftsmanship. They value their honor and the honor of others. Life is serious business.
 
-**Loyal and Vengeful**. Dwarves have a deep-seeded loyalty to their clan that cannot be uprooted. Any violence inflicted on their people is not soon forgotten and any failure to live up to their expectations of loyalty is equated with violence.
+<span id="loyal-and-vengeful"></span>**Loyal and Vengeful**. Dwarves have a deep-seeded loyalty to their clan that cannot be uprooted. Any violence inflicted on their people is not soon forgotten and any failure to live up to their expectations of loyalty is equated with violence.
 
 ### Elf Characteristics
 
 Elves are not humans and seem alien in comparison.
 
-**Emotional Beings**. Elves feel emotion more deeply than most other species, particularly pain and grief. They become physically exhausted and can even age when confronted with particularly harrowing experiences.
+<span id="emotional-beings"></span>**Emotional Beings**. Elves feel emotion more deeply than most other species, particularly pain and grief. They become physically exhausted and can even age when confronted with particularly harrowing experiences.
 
-**Fearless**. Despite the degree of emotion that Elves feel, they are also strong, capable people who rarely experience fear or danger in the same way that other species do.
+<span id="fearless"></span>**Fearless**. Despite the degree of emotion that Elves feel, they are also strong, capable people who rarely experience fear or danger in the same way that other species do.
 
-**Light-Hearted**. Elves love to laugh and joke. Their tendency to feel pain and grief means that they often take great pleasure in joviality when they can, even to the offense of other species or in the face of deadly danger.
+<span id="light-hearted"></span>**Light-Hearted**. Elves love to laugh and joke. Their tendency to feel pain and grief means that they often take great pleasure in joviality when they can, even to the offense of other species or in the face of deadly danger.
 
-**Time-Warped View**. Elves only age through strife and pain, and as a result they tend to live for long periods of time, effectively immortal except through extreme exhaustion or violent death. They tend to view other species as a human might a pet. They may grow to like them or love them, but ultimately see them as doomed peoples and rarely form significant attachment to them. However, this view also gives elves a particular love of long-lasting beauty, such as seen in the sea and stars.
+<span id="time-warped-view"></span>**Time-Warped View**. Elves only age through strife and pain, and as a result they tend to live for long periods of time, effectively immortal except through extreme exhaustion or violent death. They tend to view other species as a human might a pet. They may grow to like them or love them, but ultimately see them as doomed peoples and rarely form significant attachment to them. However, this view also gives elves a particular love of long-lasting beauty, such as seen in the sea and stars.
 
 ### Gnome Characteristics
 
 Gnomes are not humans and seem alien in comparison.
 
-**Curious**. Gnomes seek answers to any question they can fathom. They are open to new ideas and are drawn to contrarian subjects that will force them to question their own position on any given subject. They despise easy answers and tautology.
+<span id="curious"></span>**Curious**. Gnomes seek answers to any question they can fathom. They are open to new ideas and are drawn to contrarian subjects that will force them to question their own position on any given subject. They despise easy answers and tautology.
 
-**Rational**. The power of a gnomish mind is a thing to behold. They enjoy a challenge and seek to discover inventive solutions to any given problem. As a result of their obsessive rationality, they abstain from any appeals to emotion and often view it as an obstacle, making them seem cold and unfeeling to others.
+<span id="rational"></span>**Rational**. The power of a gnomish mind is a thing to behold. They enjoy a challenge and seek to discover inventive solutions to any given problem. As a result of their obsessive rationality, they abstain from any appeals to emotion and often view it as an obstacle, making them seem cold and unfeeling to others.
 
-**Natural**. They often have a unique connection to the natural world, having taken the time to experience and discover its secrets. They understand the unique balance of nature better than most and are particularly attuned to the changeable aspects that make the whole function as it does.
+<span id="natural"></span>**Natural**. They often have a unique connection to the natural world, having taken the time to experience and discover its secrets. They understand the unique balance of nature better than most and are particularly attuned to the changeable aspects that make the whole function as it does.
 
-**Time to Think**. Due to the lifespan of a gnome, they are rarely hurried, and prefer to take their time with any problem with which they are faced. They prefer to ponder and discuss every little detail before arriving at a decision, and as a result are pedantic in their attention to the world around them.
+<span id="time-to-think"></span>**Time to Think**. Due to the lifespan of a gnome, they are rarely hurried, and prefer to take their time with any problem with which they are faced. They prefer to ponder and discuss every little detail before arriving at a decision, and as a result are pedantic in their attention to the world around them.
 
 ### Halfling Characteristics
 
 Halflings are not humans, but are most like them of any species.
 
-**Gentle**. Halflings are neither cruel nor vindictive. They may possess many faults, in terms of sloth or greed or gluttony, but cruelty is not in them.
+<span id="gentle"></span>**Gentle**. Halflings are neither cruel nor vindictive. They may possess many faults, in terms of sloth or greed or gluttony, but cruelty is not in them.
 
-**Resilient**. Halflings are as wont as humans to complain about any little old thing, but when it is time to sow seed, they will work until their hands blister with barely a mutter until it is time to sit by the fire with a pipe and ale. They adapt to the world they find themselves in more readily than most, but will return to a life of ease if they can.
+<span id="resilient"></span>**Resilient**. Halflings are as wont as humans to complain about any little old thing, but when it is time to sow seed, they will work until their hands blister with barely a mutter until it is time to sit by the fire with a pipe and ale. They adapt to the world they find themselves in more readily than most, but will return to a life of ease if they can.
 
-**Generous**. Greed among halflings only lasts until the halfling sees suffering among others. Halflings would sooner give their last seed bread than see one of their kin starve.
+<span id="generous"></span>**Generous**. Greed among halflings only lasts until the halfling sees suffering among others. Halflings would sooner give their last seed bread than see one of their kin starve.
 
-**A Life of Ease**. Halflings are content with a simple life and rarely find an itch to leave their homes and see the world. The bucolic life of farming, eating, and smoking is the life they prefer. It is rare to see an adventuring halfling and rarer still to see one of significant power.
+<span id="a-life-of-ease"></span>**A Life of Ease**. Halflings are content with a simple life and rarely find an itch to leave their homes and see the world. The bucolic life of farming, eating, and smoking is the life they prefer. It is rare to see an adventuring halfling and rarer still to see one of significant power.
 
 ### Orc Characteristics
 
 Orcs are not humans and seem crude monsters in comparison.
 
-**Barbaric**. Orcs value strength and bravado over intelligence or reason. As such, a highly charismatic orc is rude, violent, and loud and a low charisma orc would be reserved, patient, and quiet.
+<span id="barbaric"></span>**Barbaric**. Orcs value strength and bravado over intelligence or reason. As such, a highly charismatic orc is rude, violent, and loud and a low charisma orc would be reserved, patient, and quiet.
 
-**Violent**. Although humans can be violent, they reason and justify their actions, whereas orcs assume violence as the baseline and must justify any lack of violence. The appropriate response to most situations is a violent display of strength and power. Asserting authority is essential to maintaining the status quo.
+<span id="violent"></span>**Violent**. Although humans can be violent, they reason and justify their actions, whereas orcs assume violence as the baseline and must justify any lack of violence. The appropriate response to most situations is a violent display of strength and power. Asserting authority is essential to maintaining the status quo.
 
-**Twisted**. Orcs are malformed creatures of chaos. They see the world through that malformation. The civilization coveted by humans is offensive, the stoicism prided by dwarves is cowardice, the light-heartedness of elves is obnoxious, and the bucolic ease of halflings is weakness.
+<span id="twisted"></span>**Twisted**. Orcs are malformed creatures of chaos. They see the world through that malformation. The civilization coveted by humans is offensive, the stoicism prided by dwarves is cowardice, the light-heartedness of elves is obnoxious, and the bucolic ease of halflings is weakness.
 
-**Short-lived**. Orcs do not actually age particularly quickly. However, like elves, orcs do age based on the grief and stress that they encounter. However, they are so immersed in their violent world that they age extremely rapidly, when they do not end up of dying outright from violence. As a result, their lifespan is no more than 2/3rds that of humans. Sadly, they voraciously consume the limited time that they possess in desperate and bloody quest to survive, creating a self-defeating cycle that ultimately leads to their death.
+<span id="short-lived"></span>**Short-lived**. Orcs do not actually age particularly quickly. However, like elves, orcs do age based on the grief and stress that they encounter. However, they are so immersed in their violent world that they age extremely rapidly, when they do not end up of dying outright from violence. As a result, their lifespan is no more than 2/3rds that of humans. Sadly, they voraciously consume the limited time that they possess in desperate and bloody quest to survive, creating a self-defeating cycle that ultimately leads to their death.
 
 ### General Personality Traits
 
@@ -245,11 +245,11 @@ Characters with very high or very low trait scores will develop a reputation for
 
 Your motivations are what drive your character: their goals and aspirations. Motivations help to inform the GM what your plans are as you communicate and play so that you are on the same page. They are permitted to change often to reflect new information or as your character grows.
 
-**Major Motivations**. Think of *Major Motivations* as long-term ideas that shape the way your character lives, thinks, and behaves throughout the campaign or throughout their life. For lawful characters, you might be motivated by doing right by your family and friends, keeping the people of your homeland safe, or fighting for justice for the underprivileged. For chaotic characters, you might be motivated by conquering nations or peoples so that your name lives on in legend, fulfilling your personal desires for wealth or power, or exacting revenge against an individual by targeting their people and loved ones.
+<span id="major-motivations"></span>**Major Motivations**. Think of *Major Motivations* as long-term ideas that shape the way your character lives, thinks, and behaves throughout the campaign or throughout their life. For lawful characters, you might be motivated by doing right by your family and friends, keeping the people of your homeland safe, or fighting for justice for the underprivileged. For chaotic characters, you might be motivated by conquering nations or peoples so that your name lives on in legend, fulfilling your personal desires for wealth or power, or exacting revenge against an individual by targeting their people and loved ones.
 
-**Moderate Motivations**. Think of *Moderate Motivations* as ideas that shape the way your character approaches story arcs during the campaign, something that motivates between 1 to 5 levels of play. For lawful characters, you might be motivated by issues of personal growth, such as attempting to overcome a flaw or helping one of your companions to overcome one of their flaws. For chaotic characters, you might be motivated by personal quests of vengeance or power, such as eliminating a rival or locating and retrieving a powerful artifact.
+<span id="moderate-motivations"></span>**Moderate Motivations**. Think of *Moderate Motivations* as ideas that shape the way your character approaches story arcs during the campaign, something that motivates between 1 to 5 levels of play. For lawful characters, you might be motivated by issues of personal growth, such as attempting to overcome a flaw or helping one of your companions to overcome one of their flaws. For chaotic characters, you might be motivated by personal quests of vengeance or power, such as eliminating a rival or locating and retrieving a powerful artifact.
 
-**Minor Motivations**. Think of *Minor Motivations* as ideas that shape the way your character approaches individual quests or sessions of play, something that motivates no more than 3 or 4 sessions of play. For lawful characters, you might be motivated by saving a village from a violent band of ogres with as little bloodshed as possible or saving as many plague victims as possible. For chaotic characters, you might be motivated by how you can swindle a local village out of their goods and wealth or saving yourself from being caught up in a war or battle.
+<span id="minor-motivations"></span>**Minor Motivations**. Think of *Minor Motivations* as ideas that shape the way your character approaches individual quests or sessions of play, something that motivates no more than 3 or 4 sessions of play. For lawful characters, you might be motivated by saving a village from a violent band of ogres with as little bloodshed as possible or saving as many plague victims as possible. For chaotic characters, you might be motivated by how you can swindle a local village out of their goods and wealth or saving yourself from being caught up in a war or battle.
 
 ## Height and Weight
 

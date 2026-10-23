@@ -6,7 +6,7 @@ generated_by: tools/sync_mastery.py
 
 Alchemy is the craft of real substances: poisons, medicines, painkillers, tonics, incendiaries, and the nostrums sold as cures for everything. It is a discipline of the Trade skill (see *[Skill Mastery](../../index.md)*, [Alchemist Discipline](../index.md#alchemist-discipline)).
 
-**Alchemy is mundane.** It spends no magan and uses no form or command. Its products are real substances: permanent, unaffected by Magical Impermanence, and beyond the reach of dispelling.
+<span id="alchemy-is-mundane"></span>**Alchemy is mundane.** It spends no magan and uses no form or command. Its products are real substances: permanent, unaffected by Magical Impermanence, and beyond the reach of dispelling.
 
 ## Quick Reference
 
@@ -63,12 +63,12 @@ Alchemy is the craft of real substances: poisons, medicines, painkillers, tonics
 
 There are six **categories** of concoction and six **modification** picks:
 
-- **Categories:** Anodyne, Incendiary, Medicine, Nostrum, Poison, Tonic.
-- **Modifications:** Concentrated, Corrected, Masked, Potent (comes with Poison), Prolonged, and Thickened and Lingering (one pick teaches both).
+- <span id="categories"></span>**Categories:** Anodyne, Incendiary, Medicine, Nostrum, Poison, Tonic.
+- <span id="modifications_1"></span>**Modifications:** Concentrated, Corrected, Masked, Potent (comes with Poison), Prolonged, and Thickened and Lingering (one pick teaches both).
 
 At each mastery level from Untrained to Grand Master, choose **one category and one modification**. You can make concoctions only from categories you have chosen, and apply only modifications you have learned.
 
-**Poison is a fixed pair:** choosing the Poison category teaches Potent with it. At each level where you don't take Poison, choose one of the other five categories and one of the other five modifications. A Grand Master has all six of each.
+<span id="poison-is-a-fixed-pair"></span>**Poison is a fixed pair:** choosing the Poison category teaches Potent with it. At each level where you don't take Poison, choose one of the other five categories and one of the other five modifications. A Grand Master has all six of each.
 
 ### The Codex
 
@@ -86,8 +86,8 @@ Every legal sale of a poison is recorded: the seller writes down who bought it. 
 
 Two things describe a concoction, and they mean different things:
 
-- **Tier** always belongs to a **condition**: "[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2" means the dose can push its victim as far as Tainted Tier 2. A concoction with no condition, such as an acid or an incendiary, has no condition tiers.
-- **Social Class** places a whole recipe on the Automatic Use table (*[Skill Mastery](../../index.md)*, [Universal Trade Rules](../index.md#universal-trade-rules)): Peasant, Knight, Burgher, Magnate, Noble, or Royal. A recipe's Social Class comes from its condition tier plus any modifications, and it decides who can make the recipe without a roll and how hard the concoction is to use. Each entry's table gives the Social Class.
+- <span id="tier"></span>**Tier** always belongs to a **condition**: "[Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2" means the dose can push its victim as far as Tainted Tier 2. A concoction with no condition, such as an acid or an incendiary, has no condition tiers.
+- <span id="social-class"></span>**Social Class** places a whole recipe on the Automatic Use table (*[Skill Mastery](../../index.md)*, [Universal Trade Rules](../index.md#universal-trade-rules)): Peasant, Knight, Burgher, Magnate, Noble, or Royal. A recipe's Social Class comes from its condition tier plus any modifications, and it decides who can make the recipe without a roll and how hard the concoction is to use. Each entry's table gives the Social Class.
 
 So an alchemist says *"I'm making hemlock, [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T2, Masked,"* and the table says that's a Magnate recipe.
 
@@ -101,9 +101,9 @@ A **preparation** is one dose or batch in progress.
 
 ### 1. Choose
 
-- **The recipe:** a concoction from a category you know. The recipe sets its own **duration**; only the Prolonged modification makes it last longer.
-- **The condition tier** (T1, T2, or T3): how far its condition can go.
-- **Modifications:** any the recipe allows and you have learned, each at most once, up to three.
+- <span id="the-recipe"></span>**The recipe:** a concoction from a category you know. The recipe sets its own **duration**; only the Prolonged modification makes it last longer.
+- <span id="the-condition-tier"></span>**The condition tier** (T1, T2, or T3): how far its condition can go.
+- <span id="modifications_2"></span>**Modifications:** any the recipe allows and you have learned, each at most once, up to three.
 
 ### 2. Find the Social Class
 
@@ -120,18 +120,18 @@ Each entry has a table with the condition tiers down the side and the number of 
 
 Making concoctions needs at least Untrained Trade (Alchemist) mastery.
 
-- **If the recipe's Social Class is at or below your Trade (Alchemist) mastery,** you make it without a roll.
-- **If it is above your mastery,** you can still attempt it. Make a **crafting trial** (Intelligence tier die + Trade mastery die) at the halfway point of the work, against **the recipe's Use DC**. Working in a laboratory or another adequate workshop gives Dominance on the trial (see *[Skill Mastery](../../index.md)*, [Trade Production](../index.md#trade-production)).
+- <span id="if-the-recipes-social-class-is-at-or-below-your-trade-mastery"></span>**If the recipe's Social Class is at or below your Trade (Alchemist) mastery,** you make it without a roll.
+- <span id="if-it-is-above-your-mastery"></span>**If it is above your mastery,** you can still attempt it. Make a **crafting trial** (Intelligence tier die + Trade mastery die) at the halfway point of the work, against **the recipe's Use DC**. Working in a laboratory or another adequate workshop gives Dominance on the trial (see *[Skill Mastery](../../index.md)*, [Trade Production](../index.md#trade-production)).
     - *Example: a Skilled alchemist with Intelligence tier 4 attempts a Magnate recipe (Use DC 10). In a laboratory, Dominance steps her d6 + d6 up to d8 + d8 against 10.*
-    - **Past Royal,** a recipe has no Use DC on the table. Each step past Royal adds 2 to Royal's 14.
+    - <span id="past-royal"></span>**Past Royal,** a recipe has no Use DC on the table. Each step past Royal adds 2 to Royal's 14.
     - *Example: a Grand Master attempts aconite, [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T3, with three modifications (Royal + 2). Its Use DC is 14 + 2 + 2 = 18.*
-    - **A natural minimum** fails the trial, and you also suffer the concoction's effects: opium knocks you out, a helpful concoction's effect is wasted on you, and a damaging one deals your own dice to you. Incendiaries can kill their maker this way: a Serpentine natural minimum is the workshop exploding.
-    - **On a failure,** choose Abandon or Commit (see [Spoiled Batches](#spoiled-batches)).
+    - <span id="a-natural-minimum"></span>**A natural minimum** fails the trial, and you also suffer the concoction's effects: opium knocks you out, a helpful concoction's effect is wasted on you, and a damaging one deals your own dice to you. Incendiaries can kill their maker this way: a Serpentine natural minimum is the workshop exploding.
+    - <span id="on-a-failure"></span>**On a failure,** choose Abandon or Commit (see [Spoiled Batches](#spoiled-batches)).
 
 ### 3. Time and Batches
 
-- **One dose** takes the days shown in the entry's table.
-- **A batch** takes half again as long (multiply by 1.5, rounding up).
+- <span id="one-dose"></span>**One dose** takes the days shown in the entry's table.
+- <span id="a-batch"></span>**A batch** takes half again as long (multiply by 1.5, rounding up).
 
 | Condition tier (or strength) | Batch size |
 |:---|:---|
@@ -145,21 +145,21 @@ Concoctions with no condition tiers, such as acids and incendiaries, make batche
 
 When the work is finished, the maker's skill is fixed on every dose:
 
-- **The dose's DC** = the maker's Mastery DC. Every trial to resist the dose, and every Identification of it, is against this DC.
-- **Damage** = the maker's Trade mastery die + Intelligence tier die. Making it with Dominance steps both dice up (see *[Mastery System](../../../core/mastery-and-trials.md)*).
+- <span id="the-doses-dc"></span>**The dose's DC** = the maker's Mastery DC. Every trial to resist the dose, and every Identification of it, is against this DC.
+- <span id="damage"></span>**Damage** = the maker's Trade mastery die + Intelligence tier die. Making it with Dominance steps both dice up (see *[Mastery System](../../../core/mastery-and-trials.md)*).
 
 ### Where You Work
 
 Each entry's **Workspace** row names what its recipe needs, and a laboratory can make anything a field kit can. The GM approves the workspace.
 
-- **Laboratory:** a furnace, stills, glassware, and crucibles, for anything distilled, sublimated, melted, or long-aged. A laboratory is a building (see *Strongholds*). Until characters own one, they rent or arrange access to an existing laboratory or apothecary's shop. You can have as many preparations underway as your mastery level or the laboratory's stills allow, whichever is lower. The GM sets how many stills a laboratory has.
-- **Field kit:** the alchemist's portable gear (see *[Equipment](../../../equipment/gear-and-services.md)*, [Alchemist's Gear](../../../equipment/gear-and-services.md#alchemists-gear)), for any recipe that needs no furnace. You can have one preparation underway at a time. It advances one day each evening you take the Sage role in camp (see *[General Rules](../../../core/exploration-and-travel.md)*, [Camping Roles](../../../core/exploration-and-travel.md#camping-roles)).
+- <span id="laboratory"></span>**Laboratory:** a furnace, stills, glassware, and crucibles, for anything distilled, sublimated, melted, or long-aged. A laboratory is a building (see *Strongholds*). Until characters own one, they rent or arrange access to an existing laboratory or apothecary's shop. You can have as many preparations underway as your mastery level or the laboratory's stills allow, whichever is lower. The GM sets how many stills a laboratory has.
+- <span id="field-kit"></span>**Field kit:** the alchemist's portable gear (see *[Equipment](../../../equipment/gear-and-services.md)*, [Alchemist's Gear](../../../equipment/gear-and-services.md#alchemists-gear)), for any recipe that needs no furnace. You can have one preparation underway at a time. It advances one day each evening you take the Sage role in camp (see *[General Rules](../../../core/exploration-and-travel.md)*, [Camping Roles](../../../core/exploration-and-travel.md#camping-roles)).
 
 ### Vessels
 
-- **Liquids** need a glass or pewter vial (see *[Equipment](../../../equipment/gear-and-services.md)*). Acids need glass. Vials are reusable unless broken or thrown.
-- **Dry doses**, such as powders, bark, and dried herbs, are dispensed in a **paper twist**, the apothecary's *chartula*, at no cost.
-- **Thrown vessels**, such as wildfire pots and grenades, are clay, at 1 cf, included in the materials.
+- <span id="liquids"></span>**Liquids** need a glass or pewter vial (see *[Equipment](../../../equipment/gear-and-services.md)*). Acids need glass. Vials are reusable unless broken or thrown.
+- <span id="dry-doses"></span>**Dry doses**, such as powders, bark, and dried herbs, are dispensed in a **paper twist**, the apothecary's *chartula*, at no cost.
+- <span id="thrown-vessels"></span>**Thrown vessels**, such as wildfire pots and grenades, are clay, at 1 cf, included in the materials.
 
 ---
 
@@ -190,7 +190,7 @@ Every entry lists the price of a **market dose**: the ordinary, unmodified versi
 
 *Example: a wildfire pot bought in a shop deals 1d4 + 1d4 Fire damage and Burning 3.*
 
-**Modified doses** aren't stocked. They are made to order, priced by their Social Class:
+<span id="modified-doses"></span>**Modified doses** aren't stocked. They are made to order, priced by their Social Class:
 
 | Social Class | Price |
 |:---|:---:|
@@ -204,7 +204,7 @@ Every entry lists the price of a **market dose**: the ordinary, unmodified versi
 
 Anything past Royal is priced by the GM. A commissioned dose has its maker's DC and damage.
 
-**Fakes** sell for what the real thing would.
+<span id="fakes"></span>**Fakes** sell for what the real thing would.
 
 ### Availability
 
@@ -220,8 +220,8 @@ Items with no condition tiers are **Peasant** recipes. Their materials are price
 
 When a crafting trial fails, choose:
 
-- **Abandon:** stop at once. Half the remaining time and materials are saved. You get nothing.
-- **Commit:** finish the batch. You gain **+2 on your next attempt at the same recipe**. This doesn't stack. Then **the GM rolls 2d6 in secret** on the table below and notes the result on the batch. The batch looks ordinary, so whoever uses it, the alchemist or a buyer, gets the result. You can learn what you actually made by identifying it.
+- <span id="abandon"></span>**Abandon:** stop at once. Half the remaining time and materials are saved. You get nothing.
+- <span id="commit"></span>**Commit:** finish the batch. You gain **+2 on your next attempt at the same recipe**. This doesn't stack. Then **the GM rolls 2d6 in secret** on the table below and notes the result on the batch. The batch looks ordinary, so whoever uses it, the alchemist or a buyer, gets the result. You can learn what you actually made by identifying it.
 
 | 2d6 | Result | What happens |
 |:---:|:---|:---|
@@ -240,12 +240,12 @@ When a crafting trial fails, choose:
 
 Each recipe lists how it reaches the body:
 
-- **Contact:** on the skin, splashed or smeared.
-- **Ingested:** eaten or drunk.
-- **Inhaled:** smoke, dust, or a soaked sponge.
-- **Wound:** on a blade, arrow, quarrel, or dart. A coating holds one dose and lasts until it's used or wiped off. Coating a weapon takes 1 AP. You can coat several weapons in advance. Wound poisons must reach health: damage absorbed by armor doesn't deliver them.
+- <span id="contact"></span>**Contact:** on the skin, splashed or smeared.
+- <span id="ingested"></span>**Ingested:** eaten or drunk.
+- <span id="inhaled"></span>**Inhaled:** smoke, dust, or a soaked sponge.
+- <span id="wound"></span>**Wound:** on a blade, arrow, quarrel, or dart. A coating holds one dose and lasts until it's used or wiped off. Coating a weapon takes 1 AP. You can coat several weapons in advance. Wound poisons must reach health: damage absorbed by armor doesn't deliver them.
 
-**One dose is one use:** one drink, one hit, one projectile.
+<span id="one-dose-is-one-use"></span>**One dose is one use:** one drink, one hit, one projectile.
 
 ### Delayed
 
@@ -259,26 +259,26 @@ Each recipe sets how long a dose works. **Instantaneous** lasts this round, **Sh
 
 ### Resisting
 
-A concoction with condition tiers, such as a poison, is resisted over several rounds. The target makes one Attribute Trial per tier: the first when the concoction takes effect, and the rest at the end of each of its turns. Each failure advances the condition one tier. After the last trial, the condition stays at the tier it reached for the rest of the dose's duration (see *[Conditions](../../../core/conditions.md)*, Lasting sources).
+A concoction with condition tiers, such as a poison, is resisted over several rounds. The target makes one Attribute Trial per tier: the first when the concoction takes effect, and the rest at the end of each of its turns. Each failure advances the condition one tier. After the last trial, the condition stays at the tier it reached for the rest of the dose's duration (see *[Conditions](../../../core/conditions.md)*, [Lasting sources](../../../core/conditions.md#lasting-sources)).
 
 ### Willing and Unwilling Users
 
-- **A willing user** of a helpful concoction gets its full effect automatically. They roll only against its **side effects**, using the side effect's own attribute against the dose's DC.
-- **An unwilling target** of a helpful concoction makes an Endurance trial against the dose's DC, unless the entry names another attribute. On a success, nothing happens.
-- **Crash:** when a helpful concoction ends, its crash **lasts as long as the substance did**.
+- <span id="a-willing-user"></span>**A willing user** of a helpful concoction gets its full effect automatically. They roll only against its **side effects**, using the side effect's own attribute against the dose's DC.
+- <span id="an-unwilling-target"></span>**An unwilling target** of a helpful concoction makes an Endurance trial against the dose's DC, unless the entry names another attribute. On a success, nothing happens.
+- <span id="crash"></span>**Crash:** when a helpful concoction ends, its crash **lasts as long as the substance did**.
 
 ### Applying and Activating
 
-**Taking a dose needs no skill:** anyone can drink, eat, or breathe one.
+<span id="taking-a-dose-needs-no-skill"></span>**Taking a dose needs no skill:** anyone can drink, eat, or breathe one.
 
-**Anything that must be applied or activated**, such as coating a blade with a wound poison, applying a contact poison, lighting and throwing an incendiary or a pot of acid or quicklime, or dosing an effective nostrum, uses the Trade rules for **Automatic Use** (*[Skill Mastery](../../index.md)*, [Universal Trade Rules](../index.md#universal-trade-rules)):
+<span id="anything-that-must-be-applied-or-activated"></span>**Anything that must be applied or activated**, such as coating a blade with a wound poison, applying a contact poison, lighting and throwing an incendiary or a pot of acid or quicklime, or dosing an effective nostrum, uses the Trade rules for **Automatic Use** (*[Skill Mastery](../../index.md)*, [Universal Trade Rules](../index.md#universal-trade-rules)):
 
 - If you know the concoction's category **and** your Trade (Alchemist) mastery reaches its Social Class, you do it without a roll.
 - Otherwise, make an **Off-Label Use** roll against the recipe's **Use DC** (see Making a Concoction, Find the Social Class). On a failure, the dose is wasted.
 
 ### No Stacking
 
-**A concoction doesn't stack with itself.** While it is active on you, another dose of the same concoction has no effect. Once it ends, a new dose works normally. Different concoctions do stack.
+<span id="a-concoction-doesnt-stack-with-itself"></span>**A concoction doesn't stack with itself.** While it is active on you, another dose of the same concoction has no effect. Once it ends, a new dose works normally. Different concoctions do stack.
 
 ### Typing
 
@@ -292,15 +292,15 @@ Every substance that deals damage has a **type**, by origin, which is also its d
 | Sea | Caustics, such as acids and quicklime |
 | Stone | Minerals and metals, such as arsenic, mercury, and verdigris |
 
-- **Resistance** of that type reduces the substance's damage.
-- **Immunity** to that type cancels its **damage only, never its conditions.** A Fae immune to Primal takes no damage from aconite but can still be [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by it.
+- <span id="resistance"></span>**Resistance** of that type reduces the substance's damage.
+- <span id="immunity"></span>**Immunity** to that type cancels its **damage only, never its conditions.** A Fae immune to Primal takes no damage from aconite but can still be [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by it.
 - Acids ignore the resistance of the material they eat (see their entries).
 
 ### Pain Relief
 
 Painkillers let you **ignore pain penalties up to the dose's strength**: −1, −2, or −3. Pain penalties are the penalties from Injuries and from Bruised to the Bone. Painkillers never restore the use of a broken or missing limb or a lost eye: a broken arm still can't hold a shield.
 
-**Pain Traumas** are the ones that say "Endurance trial or the AP is spent": Broken Ribs, Cracked Sternum, Internal Injury, Painful Scar, and Skull Fracture. Painkillers can help with those trials as their entries say.
+<span id="pain-traumas"></span>**Pain Traumas** are the ones that say "Endurance trial or the AP is spent": Broken Ribs, Cracked Sternum, Internal Injury, Painful Scar, and Skull Fracture. Painkillers can help with those trials as their entries say.
 
 ### Rousing
 
@@ -321,7 +321,7 @@ A **Hazardous** item is dangerous to carry. Fire can set it off, a hard fall can
 | Wildfire arrows or quarrels | Fire |
 | Wildfire pot | Fire, breakage |
 
-**Protection** (see *[Equipment](../../../equipment/gear-and-services.md)*, [Alchemist's Gear](../../../equipment/gear-and-services.md#alchemists-gear)): a **latched case** protects against fire and breakage while shut, and drawing from it takes 1 AP; a **waxed cloth wrap** protects against damp; the **field kit's** padded places protect against breakage; Corrected Serpentine's **corned powder** ignores damp.
+<span id="protection"></span>**Protection** (see *[Equipment](../../../equipment/gear-and-services.md)*, [Alchemist's Gear](../../../equipment/gear-and-services.md#alchemists-gear)): a **latched case** protects against fire and breakage while shut, and drawing from it takes 1 AP; a **waxed cloth wrap** protects against damp; the **field kit's** padded places protect against breakage; Corrected Serpentine's **corned powder** ignores damp.
 
 ---
 

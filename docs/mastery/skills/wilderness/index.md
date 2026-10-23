@@ -18,14 +18,14 @@ At each mastery level from Untrained through Master, you choose one Wilderness d
 
 Companion advancement scales with your Wilderness mastery level regardless of which discipline you choose. At Untrained you can recruit or purchase D2 domestic animals (dogs, horses). At Basic you can recruit wild animals up to D3. At Skilled, up to D4. At Expert, up to D5. At Master, up to D6. Your companion gains the corresponding tier advancement at each level (see [Animal Companion Advancement](animal-companions.md)).
 
-**Untrained through Master: Wilderness Discipline (choose one)**
+<span id="untrained-through-master-wilderness-discipline"></span>**Untrained through Master: Wilderness Discipline (choose one)**
 Choose one of the following at each mastery level. Unchosen disciplines remain available at subsequent levels.
 
 ### Beast Lore
 
 The study of animals. This skill represents your understanding of animals in all of their forms and helps you identify unknown animals and their intentions as well as harvest valuable parts. Beast Lore also represents your ability to avoid confrontations with wild animals, train domesticated animals, and command trained or domesticated animals. In some instances, you can also use this skill to domesticate or train wild animals over time. Wild animals are unpredictable and either skittish of or hostile toward humanoids. Domesticated animals may have minor training, such as sheep following a shepherd or a mule pulling a cart, but are ill-suited for dangerous circumstances such as battle and will behave as a wild animal. Trained animals are usually trained to perform a certain task, such as Hunting Dogs who help to track and run down prey or War Horses who are able to perform their function in battle without endangering themselves or their rider.
 
-**Note:** Within the Wilderness skill, Beast Lore's primary function is to acquire and enhance animal companions rather than general creature knowledge.
+<span id="note"></span>**Note:** Within the Wilderness skill, Beast Lore's primary function is to acquire and enhance animal companions rather than general creature knowledge.
 
 ### Hunting and Foraging
 
@@ -54,23 +54,23 @@ Your ability to know your direction in the wilderness, locate landmarks, and avo
 
 Your ability to handle a mount in combat and perform advanced mounted maneuvers. You gain one Riding trick per mastery tier (Untrained through Grand Master). If you select Riding at a higher mastery tier, you retroactively gain one trick per tier up to your current mastery. Gallop requires Spur as a prerequisite. All other tricks may be chosen in any order. Riding can also be used to ride unwilling or untrained creatures, but this requires a Physique + Wilderness (Riding) trial with a DC set by the GM. See [Mounted Combat Rules](#mounted-combat-rules) below for base mounted combat mechanics.
 
-**Spur:** (Command) The rider commands the mount to accelerate to x3-x4 speed (rider's choice). The mount spends 2 AP and must move in a straight line.
+<span id="spur"></span>**Spur:** (Command) The rider commands the mount to accelerate to x3-x4 speed (rider's choice). The mount spends 2 AP and must move in a straight line.
 
-**Gallop:** (Command) The rider commands the mount to accelerate to x5-x6 speed (rider's choice). The mount must have been at Spur speed (x3-x4) the previous round. The mount spends 2 AP and must sustain a straight line across both rounds.
+<span id="gallop"></span>**Gallop:** (Command) The rider commands the mount to accelerate to x5-x6 speed (rider's choice). The mount must have been at Spur speed (x3-x4) the previous round. The mount spends 2 AP and must sustain a straight line across both rounds.
 
-**At Speed:** The rider can mount or dismount at any speed without a trial. The speed-based DC for mounting and dismounting no longer applies.
+<span id="at-speed"></span>**At Speed:** The rider can mount or dismount at any speed without a trial. The speed-based DC for mounting and dismounting no longer applies.
 
-**Guide with Knees:** The rider can direct the mount without using hands, freeing both hands for weapons or other actions. Changing the mount's facing no longer costs AP.
+<span id="guide-with-knees"></span>**Guide with Knees:** The rider can direct the mount without using hands, freeing both hands for weapons or other actions. Changing the mount's facing no longer costs AP.
 
-**Saddle Hang:** (1 AP rider) The rider drops to the side of the mount, using its body as cover. Ranged attacks targeting the rider must target the mount instead. The rider cannot attack while hanging. The rider can return to the saddle for 1 AP.
+<span id="saddle-hang"></span>**Saddle Hang:** (1 AP rider) The rider drops to the side of the mount, using its body as cover. Ranged attacks targeting the rider must target the mount instead. The rider cannot attack while hanging. The rider can return to the saddle for 1 AP.
 
-**Saddle Turn:** The rider can twist in the saddle to attack into the mount's rear arc, removing the rear arc restriction.
+<span id="saddle-turn"></span>**Saddle Turn:** The rider can twist in the saddle to attack into the mount's rear arc, removing the rear arc restriction.
 
 ### Weather Sense
 
 Predict the weather over the coming hours or days with a Perception + Wilderness trial. The GM sets the DC by how far ahead you look and the conditions.
 
-**Grand Master: Wilderness Mastery**
+<span id="grand-master-wilderness-mastery"></span>**Grand Master: Wilderness Mastery**
 You gain Dominance on one Wilderness discipline of your choice.
 
 ## Training Archetypes
@@ -83,7 +83,7 @@ Pre-trained dogs are available for purchase at D4 as Guard, Hunting, or War, wit
 
 These rules apply to any rider on any mount, regardless of training track or Wilderness mastery.
 
-**Mounting and Dismounting:** Mounting or dismounting costs the rider 1 AP. The mount must be willing or trained. Mounting an untrained or unwilling creature requires a Physique + Wilderness (Riding) trial with a DC set by the GM. Mounting or dismounting while the mount is moving requires a Physique + Wilderness (Riding) trial. The DC is 2 + 2 per speed multiplier above x1:
+<span id="mounting-and-dismounting"></span>**Mounting and Dismounting:** Mounting or dismounting costs the rider 1 AP. The mount must be willing or trained. Mounting an untrained or unwilling creature requires a Physique + Wilderness (Riding) trial with a DC set by the GM. Mounting or dismounting while the mount is moving requires a Physique + Wilderness (Riding) trial. The DC is 2 + 2 per speed multiplier above x1:
 
 | Speed | DC |
 |:---:|:---:|
@@ -94,18 +94,18 @@ These rules apply to any rider on any mount, regardless of training track or Wil
 | x5 | 10 |
 | x6 | 12 |
 
-**Condition Dismount:** When you advance to T2 [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") or T2 [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") while mounted, you must succeed on a Physique + Wilderness (Riding) trial against the DC that caused the condition or be dismounted. If you become [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") while mounted, you are automatically dismounted.
+<span id="condition-dismount"></span>**Condition Dismount:** When you advance to T2 [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") or T2 [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") while mounted, you must succeed on a Physique + Wilderness (Riding) trial against the DC that caused the condition or be dismounted. If you become [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") while mounted, you are automatically dismounted.
 
-**Initiative:** A mount acts on its rider's initiative. The rider directs the mount's actions via free command.
+<span id="initiative"></span>**Initiative:** A mount acts on its rider's initiative. The rider directs the mount's actions via free command.
 
-**Action Economy:** The rider's AP and the mount's AP are separate. The mount spends its AP on movement, facing changes, and its own defense. The rider spends their AP on attacks, defense, and dismounting. The mount's movement carries the rider without costing the rider AP.
+<span id="action-economy"></span>**Action Economy:** The rider's AP and the mount's AP are separate. The mount spends its AP on movement, facing changes, and its own defense. The rider spends their AP on attacks, defense, and dismounting. The mount's movement carries the rider without costing the rider AP.
 
-**Facing:** A mounted rider has a 3-square rear arc they cannot attack into. Changing the mount's facing costs 1 AP (mount's AP) regardless of degree of rotation.
+<span id="facing"></span>**Facing:** A mounted rider has a 3-square rear arc they cannot attack into. Changing the mount's facing costs 1 AP (mount's AP) regardless of degree of rotation.
 
-**Targeting:** An attacker can choose to target the rider or the mount.
+<span id="targeting"></span>**Targeting:** An attacker can choose to target the rider or the mount.
 
-**Mount Defense:** The mount defends itself using its own AP. If the mount has no remaining AP, attacks against it are undefended. The rider can use class abilities that intercept attacks for allies (such as the Intercept maneuver) to defend the mount, spending their own AP.
+<span id="mount-defense"></span>**Mount Defense:** The mount defends itself using its own AP. If the mount has no remaining AP, attacks against it are undefended. The rider can use class abilities that intercept attacks for allies (such as the Intercept maneuver) to defend the mount, spending their own AP.
 
-**Reprisal Attacks:** Movement out of an enemy's range provokes a Reprisal Attack. The attacking creature chooses whether to target the rider or the mount.
+<span id="reprisal-attacks"></span>**Reprisal Attacks:** Movement out of an enemy's range provokes a Reprisal Attack. The attacking creature chooses whether to target the rider or the mount.
 
-**Mount Falls:** When a mount is reduced to 0 health, the rider must succeed on a Strength trial against DC 8 or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 2 tiers, pinned under the fallen mount. Restricted does not deteriorate while held. Once per turn, the rider can spend 1 AP on a Strength trial against DC 8 to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+<span id="mount-falls"></span>**Mount Falls:** When a mount is reduced to 0 health, the rider must succeed on a Strength trial against DC 8 or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 2 tiers, pinned under the fallen mount. Restricted does not deteriorate while held. Once per turn, the rider can spend 1 AP on a Strength trial against DC 8 to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.

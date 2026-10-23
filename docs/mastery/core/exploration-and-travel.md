@@ -42,9 +42,9 @@ Time is tracked as indicated below. Every activity that you undertake, takes tim
 
 You should keep these actions in mind when traveling so that you are spending your time wisely. However, rushing can result in a loss of valuable experience that can be won from thoroughly seeing what a location has to offer.
 
-* **Combat Round**. 10 seconds.
-* **Exploration Round**. 10 minutes.
-* **Travel Round**. 1 hour.
+* <span id="combat-round"></span>**Combat Round**. 10 seconds.
+* <span id="exploration-round"></span>**Exploration Round**. 10 minutes.
+* <span id="travel-round"></span>**Travel Round**. 1 hour.
 
 ___
 
@@ -60,22 +60,22 @@ ___
 
 Some effects last for a stretch of the story instead of a count of rounds. The GM sets these boundaries by the shape of the adventure.
 
-* **Encounter**. A single fight, negotiation, or scene, from its start until the GM calls it resolved.
-* **Adventuring Day**. The stretch of active play between rests: a delve, a day's march, an assault on a keep. It runs about 8 hours.
-* **Half the Adventuring Day**. Either side of the adventure's natural midpoint, such as the halfway point of a dungeon.
-* **Downtime**. The time each day not spent adventuring or sleeping: about 8 hours, usually in camp. Certain roles can also do downtime work while traveling. Work measured in days of downtime, such as encoding or transcribing a spell, advances one day for each day of downtime spent on it.
+* <span id="encounter"></span>**Encounter**. A single fight, negotiation, or scene, from its start until the GM calls it resolved.
+* <span id="adventuring-day"></span>**Adventuring Day**. The stretch of active play between rests: a delve, a day's march, an assault on a keep. It runs about 8 hours.
+* <span id="half-the-adventuring-day"></span>**Half the Adventuring Day**. Either side of the adventure's natural midpoint, such as the halfway point of a dungeon.
+* <span id="downtime"></span>**Downtime**. The time each day not spent adventuring or sleeping: about 8 hours, usually in camp. Certain roles can also do downtime work while traveling. Work measured in days of downtime, such as encoding or transcribing a spell, advances one day for each day of downtime spent on it.
 
 ## Light and Visibility
 
 Light and anything thick in the air limit how well you can see, using the [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") condition: a creature you can make out only as a shape is Concealed (Tier 1), one you can place only by direction is Tier 2, and one you cannot find at all is Tier 3. Light and haze never conceal a creature within 5 feet of you, except in absolute darkness or when something blocks your sight of it.
 
-**Light.** What matters is the light on the creature you are looking at, not the light around you.
+<span id="light"></span>**Light.** What matters is the light on the creature you are looking at, not the light around you.
 
-- **Light:** You see normally. This includes a bright full moon in the open.
-- **Ambient light:** Too little light for detail, such as a moonless night, the floor of a dense wood, or the fringe of a torch's glow. You can move without stumbling and make out shapes, but not read or see fine detail. A creature in ambient light is [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1). Where ambient light gives way to darkness, a creature within 5 feet of that edge is Concealed (Tier 2).
-- **Absolute darkness:** Pitch black. A creature in absolute darkness is [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 3).
+- <span id="light_1"></span>**Light:** You see normally. This includes a bright full moon in the open.
+- <span id="ambient-light"></span>**Ambient light:** Too little light for detail, such as a moonless night, the floor of a dense wood, or the fringe of a torch's glow. You can move without stumbling and make out shapes, but not read or see fine detail. A creature in ambient light is [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1). Where ambient light gives way to darkness, a creature within 5 feet of that edge is Concealed (Tier 2).
+- <span id="absolute-darkness"></span>**Absolute darkness:** Pitch black. A creature in absolute darkness is [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 3).
 
-**Haze.** Fog, smoke, dust, and driving rain have a sight range set by the scene, from 5 feet in the thickest smoke to 30 feet or more in a light mist. Within it, creatures are [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1); within 5 feet of its edge, Tier 2; beyond it, Tier 3. Haze works the same in both directions, and no kind of sight sees through it.
+<span id="haze"></span>**Haze.** Fog, smoke, dust, and driving rain have a sight range set by the scene, from 5 feet in the thickest smoke to 30 feet or more in a light mist. Within it, creatures are [Concealed](conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1); within 5 feet of its edge, Tier 2; beyond it, Tier 3. Haze works the same in both directions, and no kind of sight sees through it.
 
 Some peoples see better in the dark; their traits say how.
 
@@ -112,8 +112,8 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 ### Investigator (A)
 
 * You search the area for hidden features, hazards, and items of interest.
-* *[Alertness (Danger Sense)](../skills/alertness.md)* to locate traps and environmental hazards.
-* *[Alertness (Secret Doors)](../skills/alertness.md)* to find hidden passages, concealed compartments, and secret mechanisms.
+* *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* to locate traps and environmental hazards.
+* *[Alertness (Secret Doors)](../skills/alertness.md#secret-doors)* to find hidden passages, concealed compartments, and secret mechanisms.
 * *[Thievery (Breaching)](../skills/thievery.md#breaching)* to disable or disarm located traps and locks.
 * *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify features, anomalies, or hazards in worked or unworked stone.
 * *[Lore (applicable discipline)](../skills/lore.md)* to identify features relevant to the area.
@@ -131,9 +131,9 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 ### Scout (A)
 
 * You range ahead of the party to identify threats and survey the surroundings.
-* *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *[Alertness (Danger Sense)](../skills/alertness.md)* to identify possible traps and hazards.
-* *[Alertness (Stalking)](../skills/alertness.md)* to find and follow signs of passage.
+* *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* to identify possible traps and hazards.
+* *[Alertness (Stalking)](../skills/alertness.md#stalking)* to find and follow signs of passage.
 * *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* or *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify what left them.
 * *[Lore (Stone Lore)](../skills/lore.md#stone-lore)* to identify direction and location underground.
 
@@ -146,14 +146,14 @@ Exploring a room, hallway, or section of wall takes a minimum of 1 *Exploration 
 ### Throatcutter (A)
 
 * You ensure downed enemies are dispatched and search remains for useful materials.
-* *[Alertness (Treasure Sense)](../skills/alertness.md)* to locate valuables concealed on or within remains.
+* *[Alertness (Treasure Sense)](../skills/alertness.md#treasure-sense)* to locate valuables concealed on or within remains.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to harvest valuable creature parts.
 * *[Trade Alchemist](../skills/trade/index.md#alchemist-discipline)* to collect alchemical components from creatures.
 
 ### Watchman
 
 * You keep watch for threats while the party works.
-* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 
 ## Traveling Roles
@@ -203,9 +203,9 @@ A traveling day takes 8 hours.
 ### Scout (A)
 
 * You range ahead of the party to identify threats and survey the route.
-* *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
-* *[Alertness (Danger Sense)](../skills/alertness.md)* to identify possible traps and hazardous terrain.
-* *[Alertness (Stalking)](../skills/alertness.md)* to find and follow signs of passage.
+* *Perception* trials to spot ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* to identify possible traps and hazardous terrain.
+* *[Alertness (Stalking)](../skills/alertness.md#stalking)* to find and follow signs of passage.
 * *[Wilderness (Orienteering)](../skills/wilderness/index.md#orienteering)* to navigate while ranging and assess terrain ahead.
 * *[Wilderness (Weather Sense)](../skills/wilderness/index.md#weather-sense)* to read weather conditions on the route ahead.
 * *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* or *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify what left them.
@@ -219,7 +219,7 @@ A traveling day takes 8 hours.
 ### Watchman
 
 * You keep watch for threats while the party travels.
-* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 
 ## Camping Roles
@@ -239,14 +239,14 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 
 * You conceal the camp from detection.
 * *[Wilderness (Orienteering)](../skills/wilderness/index.md#orienteering)* to identify a concealed and defensible camping location.
-* *[Stealth (Sneaking)](../skills/stealth.md)* to camouflage the camp. Those searching for it roll a Perception trial against your Stealth Mastery DC. The GM adjusts any trials against the DC or DC itself for how much there is to hide, such as a large party, horses, or wagons.
+* *[Stealth (Sneaking)](../skills/stealth.md#sneaking)* to camouflage the camp. Those searching for it roll a Perception trial against your Stealth Mastery DC. The GM adjusts any trials against the DC or DC itself for how much there is to hide, such as a large party, horses, or wagons.
 
 ### Camp Manager (A)
 
 * You organize the camp for defense and efficiency.
 * *[Tactics](../skills/tactics.md)* to arrange camp members and positions for optimal response to threats.
 * Grants a +2 bonus to *[Startle](combat.md#startle)* trials for camp members in case of attack.
-* *[Tactics (Poliorcetics)](../skills/tactics.md)* to fortify the camp with stakes, ditches, or a ring of wagons, against a DC the GM sets. On a success, camp members have Partial [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") against attacks from outside the camp.
+* *[Tactics (Poliorcetics)](../skills/tactics.md#poliorcetics)* to fortify the camp with stakes, ditches, or a ring of wagons, against a DC the GM sets. On a success, camp members have Partial [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") against attacks from outside the camp.
 
 ### Cooking
 
@@ -304,7 +304,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 ### Watchman
 
 * You keep watch for threats during the night.
-* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
+* *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 * Watchmen are necessary throughout the night every 1-2 hours, without which there is no warning in case of an encounter.
 
@@ -312,28 +312,28 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 
 Resting is necessary to regain health, recover magan, and regain other class abilities. Resting always assumes between 6-8 hours of sleep.
 
-* **Dungeon Rest**. After 8 hours of rest, you regain 1 health and 1 magan. You must have at least 1 health to regain 1 health. Dungeon Rest does not reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")*.
-* **Wilderness Rest**. If you are in danger, this rest is treated as *Dungeon Rest*. If you are safe and secure, you regain 1d3 health and magan. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier, but not below T1. Gnomes, Druids, Elves, Orcs, and Rangers treat a safe *Wilderness Rest* as a *Good Night's Rest*.
-* **Good Night's Rest**. After 8 hours of rest in a tavern, inn, or dwelling with no danger, you regain your Endurance tier die to health and casting tier die to magan. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
-* **Civilized Rest**. After 24 hours in a town or city with no possibility of danger. You regain your Endurance tier die x2 to health and casting tier die x2 to magan. You are able to perform normal daily activities, such as moving about the location to shop, interact, or otherwise engage in seeing the sights. Strenuous activities, including repairing gear, training with weapons, and learning spells are not possible while benefiting from a *Civilized Rest*. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 2 tiers.
-* **Bed Rest**. After 24 hours in a bed in a safe and secure location, such as a tavern, inn, or other dwelling. You are awake for no more than 8 hours and cannot leave the dwelling. Regain your Endurance tier die x2 plus 1 health per class level and casting tier die x2 plus 1 magan per class level. Remove the *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* condition entirely.
+* <span id="dungeon-rest"></span>**Dungeon Rest**. After 8 hours of rest, you regain 1 health and 1 magan. You must have at least 1 health to regain 1 health. Dungeon Rest does not reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")*.
+* <span id="wilderness-rest"></span>**Wilderness Rest**. If you are in danger, this rest is treated as *Dungeon Rest*. If you are safe and secure, you regain 1d3 health and magan. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier, but not below T1. Gnomes, Druids, Elves, Orcs, and Rangers treat a safe *Wilderness Rest* as a *Good Night's Rest*.
+* <span id="good-nights-rest"></span>**Good Night's Rest**. After 8 hours of rest in a tavern, inn, or dwelling with no danger, you regain your Endurance tier die to health and casting tier die to magan. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
+* <span id="civilized-rest"></span>**Civilized Rest**. After 24 hours in a town or city with no possibility of danger. You regain your Endurance tier die x2 to health and casting tier die x2 to magan. You are able to perform normal daily activities, such as moving about the location to shop, interact, or otherwise engage in seeing the sights. Strenuous activities, including repairing gear, training with weapons, and learning spells are not possible while benefiting from a *Civilized Rest*. Reduce *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 2 tiers.
+* <span id="bed-rest"></span>**Bed Rest**. After 24 hours in a bed in a safe and secure location, such as a tavern, inn, or other dwelling. You are awake for no more than 8 hours and cannot leave the dwelling. Regain your Endurance tier die x2 plus 1 health per class level and casting tier die x2 plus 1 magan per class level. Remove the *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* condition entirely.
 
-**Rest and Abilities.** When an ability recovers after "a rest," any rest restores it, from a Dungeon Rest up. When an ability names a specific rest, such as a Good Night's Rest, that rest or a better one is required. No Rest restores nothing, and an Interrupted Rest counts as the rest one stage worse, so an interrupted Dungeon Rest restores nothing.
+<span id="rest-and-abilities"></span>**Rest and Abilities.** When an ability recovers after "a rest," any rest restores it, from a Dungeon Rest up. When an ability names a specific rest, such as a Good Night's Rest, that rest or a better one is required. No Rest restores nothing, and an Interrupted Rest counts as the rest one stage worse, so an interrupted Dungeon Rest restores nothing.
 
-**Companions.** Companions rest as characters do and use the same rest types. A Puca or Agathion uses its tier die in place of the Endurance tier die; an animal companion uses its handler's Wilderness mastery die. Each uses its master's level in place of class level. Animal companions, the Puca, and Fae Agathions treat a safe Wilderness Rest as a Good Night's Rest. A companion that is discorporated, phased out, or dead during the rest gains nothing from it and recovers only by its own rules. A familiar shares your health pool, so your rest restores it.
+<span id="companions"></span>**Companions.** Companions rest as characters do and use the same rest types. A Puca or Agathion uses its tier die in place of the Endurance tier die; an animal companion uses its handler's Wilderness mastery die. Each uses its master's level in place of class level. Animal companions, the Puca, and Fae Agathions treat a safe Wilderness Rest as a Good Night's Rest. A companion that is discorporated, phased out, or dead during the rest gains nothing from it and recovers only by its own rules. A familiar shares your health pool, so your rest restores it.
 
-**Interrupted Rest.** If a rest is disturbed by danger or the threat of danger, or a *Civilized Rest* or *Bed Rest* is broken by strenuous activity, it counts as the rest one step down: Bed → Civilized → Good Night's → Wilderness → Dungeon → *No Rest*.
+<span id="interrupted-rest"></span>**Interrupted Rest.** If a rest is disturbed by danger or the threat of danger, or a *Civilized Rest* or *Bed Rest* is broken by strenuous activity, it counts as the rest one step down: Bed → Civilized → Good Night's → Wilderness → Dungeon → *No Rest*.
 
-* **No Rest**. You are able to sleep, at best, only half of your 6-8 hours. You cannot recover health or magan. Advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
-* **Consecutive No Rest**. Each day of *No Rest* advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. Effects compound normally.
+* <span id="no-rest"></span>**No Rest**. You are able to sleep, at best, only half of your 6-8 hours. You cannot recover health or magan. Advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
+* <span id="consecutive-no-rest"></span>**Consecutive No Rest**. Each day of *No Rest* advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. Effects compound normally.
 
 You cannot benefit from more than 1 type of rest in 24 hours. You can benefit from up to two meals a day, and only one of them can be a Banquet. Each ration is one meal. Food restores health based on your Endurance tier and magan based on your casting tier.
 
-**Hot Meals.** Cooked Dry rations and meals prepared at an inn are hot meals. A Poor meal is hot if it is served fresh, at the GM's discretion. If you eat a hot meal, add your Endurance tier to the health and your casting tier to the magan you recover during your next rest. The bonus applies once per rest, no matter how many hot meals you eat.
+<span id="hot-meals"></span>**Hot Meals.** Cooked Dry rations and meals prepared at an inn are hot meals. A Poor meal is hot if it is served fresh, at the GM's discretion. If you eat a hot meal, add your Endurance tier to the health and your casting tier to the magan you recover during your next rest. The bonus applies once per rest, no matter how many hot meals you eat.
 
-**Going Hungry.** Each time you go a number of days equal to your Endurance tier without a meal, advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. If you are already Exhausted Tier 3, you fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead, and die in a number of days equal to your Endurance tier unless you are fed.
+<span id="going-hungry"></span>**Going Hungry.** Each time you go a number of days equal to your Endurance tier without a meal, advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. If you are already Exhausted Tier 3, you fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead, and die in a number of days equal to your Endurance tier unless you are fed.
 
-**Going Thirsty.** A day in which you don't drink the day's water (see *[Weather](#weather)*, Hydrated and Covered) advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. If you are already Exhausted Tier 3, you fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead, and die in a number of hours equal to your Endurance tier unless you are given water.
+<span id="going-thirsty"></span>**Going Thirsty.** A day in which you don't drink the day's water (see *[Weather](#weather)*, Hydrated and Covered) advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. If you are already Exhausted Tier 3, you fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead, and die in a number of hours equal to your Endurance tier unless you are given water.
 
 [Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") from going hungry or thirsty doesn't recover with rest until you eat or drink.
 
@@ -369,11 +369,11 @@ The more quickly you try to move, the more you can exhaust yourselves, burn thro
 | Normal | ×1 | Penalty −2 to travel trials |
 | Slow | ×0.5 | No penalty |
 
-**Travel trials** are the mastery trials you make for a Traveling Role while on the move. Attribute trials, including *Pushing the Pace*, are not travel trials.
+<span id="travel-trials"></span>**Travel trials** are the mastery trials you make for a Traveling Role while on the move. Attribute trials, including *Pushing the Pace*, are not travel trials.
 
-**Pushing the Pace.** At the end of a day in which you traveled faster than Normal pace or longer than 8 hours, make an Endurance attribute trial. The DC is 2, +1 for each hour at Fast pace, +2 for each hour at Marathon pace, and +1 for each hour beyond 8. These add together. On a failure, advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier, or by 2 tiers if any of the day was at Marathon pace.
+<span id="pushing-the-pace"></span>**Pushing the Pace.** At the end of a day in which you traveled faster than Normal pace or longer than 8 hours, make an Endurance attribute trial. The DC is 2, +1 for each hour at Fast pace, +2 for each hour at Marathon pace, and +1 for each hour beyond 8. These add together. On a failure, advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier, or by 2 tiers if any of the day was at Marathon pace.
 
-**Working on the road.** Work you can do in your hands while riding in a wagon or walking at a steady pace is possible while traveling: preparing bandages, identifying items, studying, or small crafting. Work that needs a workshop, an anvil, or a fixed place to work, such as repairing armor or forging, waits until you stop. The GM decides where a task falls.
+<span id="working-on-the-road"></span>**Working on the road.** Work you can do in your hands while riding in a wagon or walking at a steady pace is possible while traveling: preparing bandages, identifying items, studying, or small crafting. Work that needs a workshop, an anvil, or a fixed place to work, such as repairing armor or forging, waits until you stop. The GM decides where a task falls.
 
 ### Weather
 
@@ -387,38 +387,38 @@ Weather wears on travelers. Each day falls in a **temperature band**, and it may
 | Hot | 80–100°F |
 | Extreme Heat | Above 100°F |
 
-**Cold.** Outdoors in Cold, make an Endurance trial (Straightforward, 4) every 2 hours.
+<span id="cold"></span>**Cold.** Outdoors in Cold, make an Endurance trial (Straightforward, 4) every 2 hours.
 
-**Extreme Cold.** Outdoors in Extreme Cold, make an Endurance trial (Tricky, 5) at the end of each Travel Round.
+<span id="extreme-cold"></span>**Extreme Cold.** Outdoors in Extreme Cold, make an Endurance trial (Tricky, 5) at the end of each Travel Round.
 
-**Dressed for the Cold.** Count the cold-weather pieces you wear: one for your head, one cloak, one for your hands, and one for your feet (see *[Equipment](../equipment/gear-and-services.md)*, Clothing). Worn body armor counts as 2 pieces. With fewer than 2 pieces, you make the trials as normal. With 2 or 3, you make them with Dominance. With all 4, you make none. In Extreme Cold, pieces made for Cold count toward 2 or 3, but you make no trials only if every piece is made for Extreme Cold.
+<span id="dressed-for-the-cold"></span>**Dressed for the Cold.** Count the cold-weather pieces you wear: one for your head, one cloak, one for your hands, and one for your feet (see *[Equipment](../equipment/gear-and-services.md)*, Clothing). Worn body armor counts as 2 pieces. With fewer than 2 pieces, you make the trials as normal. With 2 or 3, you make them with Dominance. With all 4, you make none. In Extreme Cold, pieces made for Cold count toward 2 or 3, but you make no trials only if every piece is made for Extreme Cold.
 
-**Hot.** Outdoors in the heat of the day, make an Endurance trial (Straightforward, 4) every 2 hours.
+<span id="hot"></span>**Hot.** Outdoors in the heat of the day, make an Endurance trial (Straightforward, 4) every 2 hours.
 
-**Extreme Heat.** Outdoors in Extreme Heat, make an Endurance trial (Tricky, 5) at the end of each Travel Round.
+<span id="extreme-heat"></span>**Extreme Heat.** Outdoors in Extreme Heat, make an Endurance trial (Tricky, 5) at the end of each Travel Round.
 
-**Hydrated and Covered.** You are **Hydrated** if you have drunk the day's water: ½ gallon in Temperate weather, 1 gallon in Hot, and 2 in Extreme Heat. A waterskin holds ½ gallon. You are **Covered** if you wear a head piece and a body piece made for heat (see *[Equipment](../equipment/gear-and-services.md)*, Clothing). Worn body armor counts as one of the two missing. With both, you make no heat trials. With one, you make them with Dominance. With neither, you make them as normal.
+<span id="hydrated-and-covered"></span>**Hydrated and Covered.** You are **Hydrated** if you have drunk the day's water: ½ gallon in Temperate weather, 1 gallon in Hot, and 2 in Extreme Heat. A waterskin holds ½ gallon. You are **Covered** if you wear a head piece and a body piece made for heat (see *[Equipment](../equipment/gear-and-services.md)*, Clothing). Worn body armor counts as one of the two missing. With both, you make no heat trials. With one, you make them with Dominance. With neither, you make them as normal.
 
-**Wet and Cold.** While you are wet in Cold or Extreme Cold, or in strong wind, make an Endurance trial (Tricky, 5) at the end of each round: each combat round in combat, each exploration round otherwise. A fire and dry clothing end it, and you return to the normal rules for the weather. A wool or pile cloak keeps rain off: you are wet only if you are soaked, such as by falling into water, wading, or a long downpour.
+<span id="wet-and-cold"></span>**Wet and Cold.** While you are wet in Cold or Extreme Cold, or in strong wind, make an Endurance trial (Tricky, 5) at the end of each round: each combat round in combat, each exploration round otherwise. A fire and dry clothing end it, and you return to the normal rules for the weather. A wool or pile cloak keeps rain off: you are wet only if you are soaked, such as by falling into water, wading, or a long downpour.
 
-**Strong Wind.** Wind of 30 mph or more. Ranged attacks have their Aiming Trial DC increased by 2, and Perception trials that rely on hearing have Impotence. Strong wind puts out open flames, clears haze, and makes flying without magic nearly impossible. In snow, blowing snow is haze (see *[Light and Visibility](#light-and-visibility)*).
+<span id="strong-wind"></span>**Strong Wind.** Wind of 30 mph or more. Ranged attacks have their Aiming Trial DC increased by 2, and Perception trials that rely on hearing have Impotence. Strong wind puts out open flames, clears haze, and makes flying without magic nearly impossible. In snow, blowing snow is haze (see *[Light and Visibility](#light-and-visibility)*).
 
-**Heavy Snow.** Falling snow is haze, with a sight range the GM sets by how hard it falls (see *[Light and Visibility](#light-and-visibility)*).
+<span id="heavy-snow"></span>**Heavy Snow.** Falling snow is haze, with a sight range the GM sets by how hard it falls (see *[Light and Visibility](#light-and-visibility)*).
 
-**Blizzard.** Extreme Cold, strong wind, and heavy snow together.
+<span id="blizzard"></span>**Blizzard.** Extreme Cold, strong wind, and heavy snow together.
 
-**High Altitude.** Each hour of travel at high altitude counts as 2 hours for *Pushing the Pace*.
+<span id="high-altitude"></span>**High Altitude.** Each hour of travel at high altitude counts as 2 hours for *Pushing the Pace*.
 
-**Ice.** Ice is Unstable terrain (see *[Combat](combat.md)*).
+<span id="ice"></span>**Ice.** Ice is Unstable terrain (see *[Combat](combat.md)*).
 
-**Frigid Water.** When you enter frigid water, make an Endurance trial (Tricky, 5). On a failure, you are also *[Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")* (Tier 1). At the end of each round you stay in the water, make the trial again: each combat round in combat, each exploration round otherwise. On a natural minimum, you go into shock and fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")*.
+<span id="frigid-water"></span>**Frigid Water.** When you enter frigid water, make an Endurance trial (Tricky, 5). On a failure, you are also *[Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")* (Tier 1). At the end of each round you stay in the water, make the trial again: each combat round in combat, each exploration round otherwise. On a natural minimum, you go into shock and fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")*.
 
 ### Weather Tables
 
 The GM rolls the day's weather on the season's table. On a 1 or a 20, roll on that season's Extreme table instead.
 
 - The **band** comes from the rolled temperature (see *[Weather](#weather)*). The "Usual band" column shows the band at the row's average, for quick reference.
-- **Wet:** any precipitation. **Windy:** wind of 30 mph or more (strong wind). **Low visibility:** haze, with a sight range the GM sets.
+- <span id="wet"></span>**Wet:** any precipitation. **Windy:** wind of 30 mph or more (strong wind). **Low visibility:** haze, with a sight range the GM sets.
 
 #### Climate
 
@@ -599,11 +599,11 @@ Movement speeds vary based on species, encumbrance, and other factors, such as w
 | 15 | 3 mi | 4.1 mi | 33 mi |
 | 16 | 3.2 mi | 4.3 mi | 34 mi |
 
-**Exploration Round.** A brisk 10 minutes with no rest. This pace cannot be sustained for long.
+<span id="exploration-round_1"></span>**Exploration Round.** A brisk 10 minutes with no rest. This pace cannot be sustained for long.
 
-**Travel Round.** An hour at a walk, with periods of slowing to avoid over-exertion. You can keep this pace for several hours, but you need rest over the course of a day.
+<span id="travel-round_1"></span>**Travel Round.** An hour at a walk, with periods of slowing to avoid over-exertion. You can keep this pace for several hours, but you need rest over the course of a day.
 
-**Day.** Eight hours at a walk, including breaks for water, food, and relieving yourself. Traveling more than 8 hours risks *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* (see *Pushing the Pace*).
+<span id="day"></span>**Day.** Eight hours at a walk, including breaks for water, food, and relieving yourself. Traveling more than 8 hours risks *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* (see *Pushing the Pace*).
 
 The travel pace table multiplies the Day distance.
 
@@ -615,10 +615,10 @@ Some creatures (such as horses) have maximum movement rates that allow them to r
 
 A fall can be nothing, a broken bone, or death. The higher the fall and the harder the ground, the worse it gets. A **fall** is unplanned: you slip, are pushed, or the floor gives way. A **drop** is a jump down that you choose and can prepare for.
 
-1. **Height.** Find the Falling table and the row for the height of the fall, rounding down, and write down its DC and damage.
+1. <span id="height"></span>**Height.** Find the Falling table and the row for the height of the fall, rounding down, and write down its DC and damage.
     - Use the Hard column for stone, wood, packed earth, and similar ground, and the Soft column for sand, deep snow, loose earth, and similar ground.
-2. **Trial.** For a fall, roll a Physique trial against the DC; for a drop, roll a Physique + Athletics (Jumping) trial instead.
-3. **Result.** Compare the trial to the DC, and find the result on the table below.
+2. <span id="trial"></span>**Trial.** For a fall, roll a Physique trial against the DC; for a drop, roll a Physique + Athletics (Jumping) trial instead.
+3. <span id="result"></span>**Result.** Compare the trial to the DC, and find the result on the table below.
 
 | Result | Fall | Drop |
 |:---|:---|:---|

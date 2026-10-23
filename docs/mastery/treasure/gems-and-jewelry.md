@@ -13,11 +13,11 @@ Gems are the most compact wealth a party can find, and a small pouch of stones c
 
 Merchants and jewelers have names of their own for stones, and those names don't always match what the stone is.
 
-**Cardinal Gems.** Diamond, ruby, sapphire, emerald, and amethyst: the five great stones of crowns, regalia, and altars. Diamonds are a trade of their own, with merchants who deal in nothing else.
+<span id="cardinal-gems"></span>**Cardinal Gems.** Diamond, ruby, sapphire, emerald, and amethyst: the five great stones of crowns, regalia, and altars. Diamonds are a trade of their own, with merchants who deal in nothing else.
 
-**Hardstones.** Agate, bloodstone, carnelian, chalcedony, chrysoprase, jade, jasper, lapis lazuli, onyx, and porphyry, a hard purple stone, prized less for setting than for carving into cups, seals, inlay, and, in porphyry's case, the grandest vessels and tombs.
+<span id="hardstones"></span>**Hardstones.** Agate, bloodstone, carnelian, chalcedony, chrysoprase, jade, jasper, lapis lazuli, onyx, and porphyry, a hard purple stone, prized less for setting than for carving into cups, seals, inlay, and, in porphyry's case, the grandest vessels and tombs.
 
-**Oriental and Occidental.** Merchants sort stones by color: every red stone is a ruby of some kind, and every purple stone an amethyst. An "oriental" stone is the finest of its color, hard and brilliant, taking a polish second only to diamond. An "oriental amethyst" or "oriental topaz" is such a stone, and is in truth a sapphire of that color. An "occidental" stone is the softer, lesser kind.
+<span id="oriental-and-occidental"></span>**Oriental and Occidental.** Merchants sort stones by color: every red stone is a ruby of some kind, and every purple stone an amethyst. An "oriental" stone is the finest of its color, hard and brilliant, taking a polish second only to diamond. An "oriental amethyst" or "oriental topaz" is such a stone, and is in truth a sapphire of that color. An "occidental" stone is the softer, lesser kind.
 
 ### How It Works
 
@@ -28,7 +28,7 @@ Merchants and jewelers have names of their own for stones, and those names don't
 | Quality | 2d10 | A multiplier |
 | Size | Cascading d4 | The gem's carats |
 
-**Value** = base value × quality multiplier × carats × carats, in silver pennies.
+<span id="value"></span>**Value** = base value × quality multiplier × carats × carats, in silver pennies.
 
 *Example:* A Good sapphire of 2 carats is worth 35 × 3 × 2 × 2 = 420 sp.
 
@@ -158,133 +158,133 @@ Hardstone that has not been carved is sold as raw material, by weight, for about
 
 ### Gem Descriptions
 
-**Agate.** A translucent, banded stone whose layers curve in rings of white, grey, brown, and red. Carved into beads, cups, and seals.
+<span id="agate"></span>**Agate.** A translucent, banded stone whose layers curve in rings of white, grey, brown, and red. Carved into beads, cups, and seals.
 
-**Amber.** A hardened, translucent tree resin of warm golden-yellow to deep orange, often containing preserved insects or plant matter.
+<span id="amber"></span>**Amber.** A hardened, translucent tree resin of warm golden-yellow to deep orange, often containing preserved insects or plant matter.
 
-**Amblygonite.** A translucent, glassy stone that is typically pale yellow, though can be found in soft shades of grey or pink.
+<span id="amblygonite"></span>**Amblygonite.** A translucent, glassy stone that is typically pale yellow, though can be found in soft shades of grey or pink.
 
-**Amethyst.** A transparent gemstone ranging in color from a light, pinkish-violet to a deep, royal purple.
+<span id="amethyst"></span>**Amethyst.** A transparent gemstone ranging in color from a light, pinkish-violet to a deep, royal purple.
 
-**Ametrine.** A bi-color quartz that displays distinct zones of both golden-yellow citrine and royal-purple amethyst in the same crystal.
+<span id="ametrine"></span>**Ametrine.** A bi-color quartz that displays distinct zones of both golden-yellow citrine and royal-purple amethyst in the same crystal.
 
-**Apatite.** A brightly colored stone, most often seen in vivid hues of teal, neon blue, or grassy green.
+<span id="apatite"></span>**Apatite.** A brightly colored stone, most often seen in vivid hues of teal, neon blue, or grassy green.
 
-**Aquamarine.** A transparent, crystalline gemstone with a clear, pale color reminiscent of calm seawater.
+<span id="aquamarine"></span>**Aquamarine.** A transparent, crystalline gemstone with a clear, pale color reminiscent of calm seawater.
 
-**Axinite.** A glassy, clove-brown to reddish-violet stone that can flash different colors when viewed from various angles.
+<span id="axinite"></span>**Axinite.** A glassy, clove-brown to reddish-violet stone that can flash different colors when viewed from various angles.
 
-**Balas.** A red to rose-pink stone long sold as a ruby, and set as the great "rubies" of many crowns. Paler and softer in color than a true ruby, and worth about half as much. Some are a dusky mauve.
+<span id="balas"></span>**Balas.** A red to rose-pink stone long sold as a ruby, and set as the great "rubies" of many crowns. Paler and softer in color than a true ruby, and worth about half as much. Some are a dusky mauve.
 
-**Beryl.** A clear, crystalline gemstone that appears in soft hues of yellow, gold, pink, or peach, and very rarely a deep raspberry red.
+<span id="beryl"></span>**Beryl.** A clear, crystalline gemstone that appears in soft hues of yellow, gold, pink, or peach, and very rarely a deep raspberry red.
 
-**Bloodstone.** A dark green, opaque stone flecked with spots of red, as if spattered with blood. Carved for seals and amulets.
+<span id="bloodstone"></span>**Bloodstone.** A dark green, opaque stone flecked with spots of red, as if spattered with blood. Carved for seals and amulets.
 
-**Callais.** An opaque stone of sky-blue to blue-green, often veined with brown or black. Polished smooth rather than cut.
+<span id="callais"></span>**Callais.** An opaque stone of sky-blue to blue-green, often veined with brown or black. Polished smooth rather than cut.
 
-**Carbuncle.** A deep red garnet, polished into a smooth dome. The old name for any glowing red stone, and the everyday red of rings and brooches.
+<span id="carbuncle"></span>**Carbuncle.** A deep red garnet, polished into a smooth dome. The old name for any glowing red stone, and the everyday red of rings and brooches.
 
-**Carnelian.** A translucent, orange to blood-red stone. Favored for seal rings, and said to release hot wax cleanly.
+<span id="carnelian"></span>**Carnelian.** A translucent, orange to blood-red stone. Favored for seal rings, and said to release hot wax cleanly.
 
-**Chiastolite.** An earthy, olive-green or reddish-brown stone that flashes different colors when turned. Some crystals, cut across, show a dark cross, and are carried as amulets.
+<span id="chiastolite"></span>**Chiastolite.** An earthy, olive-green or reddish-brown stone that flashes different colors when turned. Some crystals, cut across, show a dark cross, and are carried as amulets.
 
-**Chrysoberyl.** A transparent stone with a distinct yellowish-green to honey-brown color and a bright, glassy luster. The finest show a single bright line of light across the stone, like a cat's eye.
+<span id="chrysoberyl"></span>**Chrysoberyl.** A transparent stone with a distinct yellowish-green to honey-brown color and a bright, glassy luster. The finest show a single bright line of light across the stone, like a cat's eye.
 
-**Chrysoberyl, Color-Change.** Appears bluish-green in daylight, yet shifts to a reddish-purple when viewed under candle or firelight.
+<span id="chrysoberyl-color-change"></span>**Chrysoberyl, Color-Change.** Appears bluish-green in daylight, yet shifts to a reddish-purple when viewed under candle or firelight.
 
-**Chrysolite.** A transparent gemstone known for its distinct and uniform lime or olive-green color. A rarer golden-brown stone is often sold as the same.
+<span id="chrysolite"></span>**Chrysolite.** A transparent gemstone known for its distinct and uniform lime or olive-green color. A rarer golden-brown stone is often sold as the same.
 
-**Chrysoprase.** A translucent, apple-green stone, smooth and even in color. Some chapels set it into their walls.
+<span id="chrysoprase"></span>**Chrysoprase.** A translucent, apple-green stone, smooth and even in color. Some chapels set it into their walls.
 
-**Citrine.** A transparent quartz ranging from a pale, straw-yellow to a warm, brownish-orange.
+<span id="citrine"></span>**Citrine.** A transparent quartz ranging from a pale, straw-yellow to a warm, brownish-orange.
 
-**Coral.** Branches of red to pink coral from the sea, polished into beads and charms. Red coral is worn against the evil eye.
+<span id="coral"></span>**Coral.** Branches of red to pink coral from the sea, polished into beads and charms. Red coral is worn against the evil eye.
 
-**Diamond.** A perfectly transparent, crystalline stone that internally fractures light into dazzling flashes of rainbow color.
+<span id="diamond"></span>**Diamond.** A perfectly transparent, crystalline stone that internally fractures light into dazzling flashes of rainbow color.
 
-**Diaspore.** A transparent stone, often pale yellow or green, known for changing to a pinkish-orange under different light.
+<span id="diaspore"></span>**Diaspore.** A transparent stone, often pale yellow or green, known for changing to a pinkish-orange under different light.
 
-**Diopside.** A transparent, forest-green gem that can sometimes display a four-rayed star effect on its surface.
+<span id="diopside"></span>**Diopside.** A transparent, forest-green gem that can sometimes display a four-rayed star effect on its surface.
 
-**Emerald.** A rich, vibrant green gemstone, often with fine, wispy internal inclusions that give it a mossy depth.
+<span id="emerald"></span>**Emerald.** A rich, vibrant green gemstone, often with fine, wispy internal inclusions that give it a mossy depth.
 
-**Enstatite.** A greenish-brown to olive-colored stone with a fibrous appearance that gives it a silky sheen.
+<span id="enstatite"></span>**Enstatite.** A greenish-brown to olive-colored stone with a fibrous appearance that gives it a silky sheen.
 
-**False Sapphire.** A transparent, sapphire-blue stone with more fire than a true sapphire, and sold as a lesser one.
+<span id="false-sapphire"></span>**False Sapphire.** A transparent, sapphire-blue stone with more fire than a true sapphire, and sold as a lesser one.
 
-**Fibrolite.** A fibrous, translucent stone, typically grey or brownish, often cut to display a cat's-eye effect.
+<span id="fibrolite"></span>**Fibrolite.** A fibrous, translucent stone, typically grey or brownish, often cut to display a cat's-eye effect.
 
-**Fluorite.** A soft, often banded stone that appears in a wide spectrum of colors, commonly purple, blue, and green.
+<span id="fluorite"></span>**Fluorite.** A soft, often banded stone that appears in a wide spectrum of colors, commonly purple, blue, and green.
 
-**Garnet, Demantoid.** A rare and brilliant green garnet known for its fiery light dispersion that can outshine diamond.
+<span id="garnet-demantoid"></span>**Garnet, Demantoid.** A rare and brilliant green garnet known for its fiery light dispersion that can outshine diamond.
 
-**Garnet, Grossular.** A brilliant, transparent garnet in a pure, vivid green, like fresh spring leaves, or a golden yellow-green with high luster.
+<span id="garnet-grossular"></span>**Garnet, Grossular.** A brilliant, transparent garnet in a pure, vivid green, like fresh spring leaves, or a golden yellow-green with high luster.
 
-**Garnet, Malaia.** A vibrant garnet that ranges in color from a pinkish-orange to a reddish-brown.
+<span id="garnet-malaia"></span>**Garnet, Malaia.** A vibrant garnet that ranges in color from a pinkish-orange to a reddish-brown.
 
-**Garnet, Mandarin.** An intensely bright orange to reddish-orange garnet.
+<span id="garnet-mandarin"></span>**Garnet, Mandarin.** An intensely bright orange to reddish-orange garnet.
 
-**Garnet, Rhodolite.** A transparent garnet with a distinctive and rich raspberry-red to purplish-red color.
+<span id="garnet-rhodolite"></span>**Garnet, Rhodolite.** A transparent garnet with a distinctive and rich raspberry-red to purplish-red color.
 
-**Idocrase.** A translucent stone found in shades of yellowish-green to olive-brown, often with a glossy or resinous luster.
+<span id="idocrase"></span>**Idocrase.** A translucent stone found in shades of yellowish-green to olive-brown, often with a glossy or resinous luster.
 
-**Jacinth.** A stone of honey-yellow to cinnamon-orange, glowing warm in candlelight.
+<span id="jacinth"></span>**Jacinth.** A stone of honey-yellow to cinnamon-orange, glowing warm in candlelight.
 
-**Jade.** A tough, opaque stone with a smooth luster, most commonly seen in shades of muted to vibrant green.
+<span id="jade"></span>**Jade.** A tough, opaque stone with a smooth luster, most commonly seen in shades of muted to vibrant green.
 
-**Jet.** A light, deep black stone that takes a mirror polish and grows warm in the hand. Worn in mourning.
+<span id="jet"></span>**Jet.** A light, deep black stone that takes a mirror polish and grows warm in the hand. Worn in mourning.
 
-**Kyanite.** A stone known for its streaky, sapphire-like blue color and a silky, fibrous appearance.
+<span id="kyanite"></span>**Kyanite.** A stone known for its streaky, sapphire-like blue color and a silky, fibrous appearance.
 
-**Lapis Lazuli.** An opaque stone of deep blue flecked with glittering gold. Ground, it makes the costliest blue paint.
+<span id="lapis-lazuli"></span>**Lapis Lazuli.** An opaque stone of deep blue flecked with glittering gold. Ground, it makes the costliest blue paint.
 
-**Moonstone.** A milky, translucent stone with a soft blue sheen that drifts across its surface as it moves.
+<span id="moonstone"></span>**Moonstone.** A milky, translucent stone with a soft blue sheen that drifts across its surface as it moves.
 
-**Onyx.** A banded stone of black and white layers, carved into cameos and seals.
+<span id="onyx"></span>**Onyx.** A banded stone of black and white layers, carved into cameos and seals.
 
-**Opal, Black.** An opaque, dark-bodied stone with a surface that erupts in shifting, vibrant flashes of iridescent color.
+<span id="opal-black"></span>**Opal, Black.** An opaque, dark-bodied stone with a surface that erupts in shifting, vibrant flashes of iridescent color.
 
-**Opal, Fire.** A translucent stone with a uniform, glowing body of fiery orange, red, or yellow.
+<span id="opal-fire"></span>**Opal, Fire.** A translucent stone with a uniform, glowing body of fiery orange, red, or yellow.
 
-**Opal, White.** A stone with a milky, pale white body that shimmers with a subtle, iridescent play-of-color.
+<span id="opal-white"></span>**Opal, White.** A stone with a milky, pale white body that shimmers with a subtle, iridescent play-of-color.
 
-**Pearl.** A lustrous, white to cream sphere grown in a shell. The roundest and largest are the jewels of nobles and kings.
+<span id="pearl"></span>**Pearl.** A lustrous, white to cream sphere grown in a shell. The roundest and largest are the jewels of nobles and kings.
 
-**Pearl, Black.** A rare pearl of dark grey to black, with green, blue, or peacock overtones.
+<span id="pearl-black"></span>**Pearl, Black.** A rare pearl of dark grey to black, with green, blue, or peacock overtones.
 
-**Petalite.** A transparent, colorless to pale pink gem that can have a glassy or sometimes pearly luster.
+<span id="petalite"></span>**Petalite.** A transparent, colorless to pale pink gem that can have a glassy or sometimes pearly luster.
 
-**Phenakite.** A brilliant, colorless stone that is often so clear and well-formed it can be mistaken for a diamond. Some are a pale pink.
+<span id="phenakite"></span>**Phenakite.** A brilliant, colorless stone that is often so clear and well-formed it can be mistaken for a diamond. Some are a pale pink.
 
-**Quartz.** A common, clear, and glassy crystalline mineral, sometimes with a milky or smoky translucence.
+<span id="quartz"></span>**Quartz.** A common, clear, and glassy crystalline mineral, sometimes with a milky or smoky translucence.
 
-**Ruby.** A gemstone of deep, almost glowing, crimson red that can sometimes contain silky, microscopic inclusions.
+<span id="ruby"></span>**Ruby.** A gemstone of deep, almost glowing, crimson red that can sometimes contain silky, microscopic inclusions.
 
-**Sapphire.** A transparent gemstone prized for its deep, velvety to brilliant royal blue color.
+<span id="sapphire"></span>**Sapphire.** A transparent gemstone prized for its deep, velvety to brilliant royal blue color.
 
-**Scapolite.** A transparent to translucent stone, often yellow or pale violet, that can exhibit a silky, cat's-eye sheen.
+<span id="scapolite"></span>**Scapolite.** A transparent to translucent stone, often yellow or pale violet, that can exhibit a silky, cat's-eye sheen.
 
-**Sphalerite.** A stone with exceptional light dispersion, often appearing in fiery shades of yellow, orange, or red.
+<span id="sphalerite"></span>**Sphalerite.** A stone with exceptional light dispersion, often appearing in fiery shades of yellow, orange, or red.
 
-**Sphene.** A brilliant yellowish-green, green, or brown gem known for its intense, multi-colored flashes of fire.
+<span id="sphene"></span>**Sphene.** A brilliant yellowish-green, green, or brown gem known for its intense, multi-colored flashes of fire.
 
-**Spinel.** A bright, glassy stone in blue, violet, pink, or orange. The red stones are sold as balas.
+<span id="spinel"></span>**Spinel.** A bright, glassy stone in blue, violet, pink, or orange. The red stones are sold as balas.
 
-**Spodumene, Green.** A transparent stone of pale mint-green to emerald-green.
+<span id="spodumene-green"></span>**Spodumene, Green.** A transparent stone of pale mint-green to emerald-green.
 
-**Spodumene, Pink.** A transparent, pastel pink to light-violet stone that may fade in direct sunlight.
+<span id="spodumene-pink"></span>**Spodumene, Pink.** A transparent, pastel pink to light-violet stone that may fade in direct sunlight.
 
-**Sunstone.** A translucent, orange to reddish-brown stone filled with tiny, glittering metallic inclusions that create a spangled effect.
+<span id="sunstone"></span>**Sunstone.** A translucent, orange to reddish-brown stone filled with tiny, glittering metallic inclusions that create a spangled effect.
 
-**Topaz.** A hard, transparent crystal most commonly seen in shades of golden-yellow or sky blue.
+<span id="topaz"></span>**Topaz.** A hard, transparent crystal most commonly seen in shades of golden-yellow or sky blue.
 
-**Tourmaline.** A crystalline gemstone famous for appearing in more colors and color combinations than any other stone.
+<span id="tourmaline"></span>**Tourmaline.** A crystalline gemstone famous for appearing in more colors and color combinations than any other stone.
 
-**Tourmaline, Bi-Color.** A tourmaline crystal that displays two or more distinct colors, such as the classic pink and green "watermelon" variety.
+<span id="tourmaline-bi-color"></span>**Tourmaline, Bi-Color.** A tourmaline crystal that displays two or more distinct colors, such as the classic pink and green "watermelon" variety.
 
-**Water Sapphire.** A transparent, violet-blue gem that shifts to pale yellow or grey as it is turned.
+<span id="water-sapphire"></span>**Water Sapphire.** A transparent, violet-blue gem that shifts to pale yellow or grey as it is turned.
 
-**Zircon.** A brilliant, transparent stone with a fiery sparkle, found in many colors but most often a bright, sky blue.
+<span id="zircon"></span>**Zircon.** A brilliant, transparent stone with a fiery sparkle, found in many colors but most often a bright, sky blue.
 
 ---
 
@@ -294,45 +294,45 @@ Jewelry turns up in hoards, on the fallen, in merchants' strongboxes, and among 
 
 Every type of jewelry has a **Silver Value**: what its material would be worth if the piece were made of silver. The rest of a piece's value is worked out from it.
 
-**Value** = Silver Value × (Material + Craftsmanship + Embellishment) + Gems
+<span id="value_1"></span>**Value** = Silver Value × (Material + Craftsmanship + Embellishment) + Gems
 
 Material, Craftsmanship, and Embellishment are each a number from the tables below. Add the three numbers, multiply by the Silver Value, then add the value of any gems.
 
 ### Valuing a Piece
 
-1. **Type.** Find the Type table, roll 1d100 or choose a type, and write down its Silver Value.
-2. **Material.** Find the Material table, roll 1d100 or choose a material, and write down its number.
-3. **Craftsmanship.** Find the Craftsmanship table, roll 2d6 or choose a result, and write down its number.
+1. <span id="type"></span>**Type.** Find the Type table, roll 1d100 or choose a type, and write down its Silver Value.
+2. <span id="material"></span>**Material.** Find the Material table, roll 1d100 or choose a material, and write down its number.
+3. <span id="craftsmanship"></span>**Craftsmanship.** Find the Craftsmanship table, roll 2d6 or choose a result, and write down its number.
     - For Masterwork, roll 1d4 and use the result as its number.
-4. **Embellishment.** Find the Embellishment table, roll 1d20 or choose a result, and write down its number.
+4. <span id="embellishment"></span>**Embellishment.** Find the Embellishment table, roll 1d20 or choose a result, and write down its number.
     - Gold, red gold, and platinum are never gilded, so treat Gilded as None for them.
     - Enamel is fused onto metal, so treat Enamelled as None for pieces not made of metal.
     - For Inlaid, roll a second material on the Material table and multiply its number by 0.25.
-5. **Add.** Add the material, craftsmanship, and embellishment numbers together.
-6. **Multiply.** Multiply that total by the Silver Value.
-7. **Gem Chance.** Find the type on the Gems in Jewelry table and roll 1d100; if the roll is within its Gem Chance, the piece has gems.
-8. **Number of Gems.** On the same row, roll the die under Gems to find how many gems the piece holds.
+5. <span id="add"></span>**Add.** Add the material, craftsmanship, and embellishment numbers together.
+6. <span id="multiply"></span>**Multiply.** Multiply that total by the Silver Value.
+7. <span id="gem-chance"></span>**Gem Chance.** Find the type on the Gems in Jewelry table and roll 1d100; if the roll is within its Gem Chance, the piece has gems.
+8. <span id="number-of-gems"></span>**Number of Gems.** On the same row, roll the die under Gems to find how many gems the piece holds.
     - An odd number is a center stone and pairs, and an even number is all pairs.
     - Earrings hold one matched pair, prayer beads are all one gem, and a torc's two gems sit one at each end.
-9. **Each Gem.** Roll one gem for the center stone and one for each pair, as described in Gems.
+9. <span id="each-gem"></span>**Each Gem.** Roll one gem for the center stone and one for each pair, as described in Gems.
     - Both stones of a pair are the same gem, quality, and size.
     - The Setting on the same row limits each gem's size, as shown in the Setting table.
     - The largest stone takes the center.
-10. **Value.** Add the value of each gem to the total from step 6.
+10. <span id="value_2"></span>**Value.** Add the value of each gem to the total from step 6.
     - A piece is always worth at least 1 cf.
 
 ### Example
 
-1. **Type.** 1d100 rolls 47: a Brooch, Silver Value 20.
-2. **Material.** 1d100 rolls 88: Electrum, number 3.
-3. **Craftsmanship.** 2d6 rolls 7: Fine, number 0.1.
-4. **Embellishment.** 1d20 rolls 18: Gilded, number 0.5.
-5. **Add.** 3 + 0.1 + 0.5 = 3.6.
-6. **Multiply.** 20 × 3.6 = 72.
-7. **Gem Chance.** A brooch's Gem Chance is 01–30, and 1d100 rolls 55, so the brooch has no gems.
-8. **Number of Gems.** No gems to roll.
-9. **Each Gem.** No gems to roll.
-10. **Value.** A gilt electrum brooch of fine work, worth 72 sp.
+1. <span id="type_1"></span>**Type.** 1d100 rolls 47: a Brooch, Silver Value 20.
+2. <span id="material_1"></span>**Material.** 1d100 rolls 88: Electrum, number 3.
+3. <span id="craftsmanship_1"></span>**Craftsmanship.** 2d6 rolls 7: Fine, number 0.1.
+4. <span id="embellishment_1"></span>**Embellishment.** 1d20 rolls 18: Gilded, number 0.5.
+5. <span id="add_1"></span>**Add.** 3 + 0.1 + 0.5 = 3.6.
+6. <span id="multiply_1"></span>**Multiply.** 20 × 3.6 = 72.
+7. <span id="gem-chance_1"></span>**Gem Chance.** A brooch's Gem Chance is 01–30, and 1d100 rolls 55, so the brooch has no gems.
+8. <span id="number-of-gems_1"></span>**Number of Gems.** No gems to roll.
+9. <span id="each-gem_1"></span>**Each Gem.** No gems to roll.
+10. <span id="value_3"></span>**Value.** A gilt electrum brooch of fine work, worth 72 sp.
 
 ### Type (d100)
 
@@ -404,7 +404,7 @@ Material, Craftsmanship, and Embellishment are each a number from the tables bel
 | 95–99 | Gold | ×22 |
 | 00 | Platinum | ×25 |
 
-**Hardstone.** A stone carved into vessels and figures; its value includes the long work of carving it. Roll 1d10 on the Hardstone table to find the stone.
+<span id="hardstone"></span>**Hardstone.** A stone carved into vessels and figures; its value includes the long work of carving it. Roll 1d10 on the Hardstone table to find the stone.
 
 | d10 | Hardstone |
 |:---:|:---|
@@ -483,32 +483,32 @@ Material, Craftsmanship, and Embellishment are each a number from the tables bel
 
 ### Types of Jewelry
 
-**Amulet.** A charm worn for protection, named for its purpose rather than its form.
+<span id="amulet"></span>**Amulet.** A charm worn for protection, named for its purpose rather than its form.
 
-**Bangle.** A rigid bracelet.
+<span id="bangle"></span>**Bangle.** A rigid bracelet.
 
-**Belly Chain.** A chain worn around the waist, against the skin.
+<span id="belly-chain"></span>**Belly Chain.** A chain worn around the waist, against the skin.
 
-**Carcanet.** A jeweled collar worn close at the neck, usually of linked, gem-set plaques.
+<span id="carcanet"></span>**Carcanet.** A jeweled collar worn close at the neck, usually of linked, gem-set plaques.
 
-**Chatelaine.** A hook or clasp worn at the belt, with short chains holding keys, a seal, scissors, or other small tools.
+<span id="chatelaine"></span>**Chatelaine.** A hook or clasp worn at the belt, with short chains holding keys, a seal, scissors, or other small tools.
 
-**Choker.** A necklace worn close around the throat.
+<span id="choker"></span>**Choker.** A necklace worn close around the throat.
 
-**Corolla.** A wreath of metal leaves worn on the head.
+<span id="corolla"></span>**Corolla.** A wreath of metal leaves worn on the head.
 
-**Coronet.** A small crown marking noble rank, below a sovereign's.
+<span id="coronet"></span>**Coronet.** A small crown marking noble rank, below a sovereign's.
 
-**Crown.** A full ring, open or closed over the top, worn by a ruler as the sign of sovereignty.
+<span id="crown"></span>**Crown.** A full ring, open or closed over the top, worn by a ruler as the sign of sovereignty.
 
-**Diadem.** A jeweled band worn around the brow as a sign of rule.
+<span id="diadem"></span>**Diadem.** A jeweled band worn around the brow as a sign of rule.
 
-**Girdle.** A belt worn at the waist, often of linked metal plaques.
+<span id="girdle"></span>**Girdle.** A belt worn at the waist, often of linked metal plaques.
 
-**Locket.** A pendant that opens to hold a keepsake.
+<span id="locket"></span>**Locket.** A pendant that opens to hold a keepsake.
 
-**Medallion.** A large disc worn as a pendant, bearing an image or design.
+<span id="medallion"></span>**Medallion.** A large disc worn as a pendant, bearing an image or design.
 
-**Tiara.** A jeweled half-circle worn upright at the front of the head.
+<span id="tiara"></span>**Tiara.** A jeweled half-circle worn upright at the front of the head.
 
-**Torc.** A rigid neck ring, open at the front, with decorated ends.
+<span id="torc"></span>**Torc.** A rigid neck ring, open at the front, with decorated ends.

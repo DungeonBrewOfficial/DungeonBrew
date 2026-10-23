@@ -12,19 +12,19 @@ Lore uses Intelligence. DCs are set by the GM.
 
 At each mastery level, you select one Creature Lore discipline and one Knowledge Lore discipline.
 
-**Identification:** When you encounter an unknown creature, item, or place within your lore's domain, you can try to identify it against a DC the GM sets. Meeting the DC tells you what it is. The more you beat it by, the more you know about it.
+<span id="identification"></span>**Identification:** When you encounter an unknown creature, item, or place within your lore's domain, you can try to identify it against a DC the GM sets. Meeting the DC tells you what it is. The more you beat it by, the more you know about it.
 
 With Daeva Lore, facing a creature:
 
-- **Success:** You recognize a Skeleton Warrior, a Daeva Druj Gestalt. Undead are immune to Profane damage and weak to Sacred damage.
-- **Success by 2:** You know it does not breathe, eat, or sleep, and that it is connected to Profane magic.
-- **Success by 4:** You know it is immune to [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."), and [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.").
+- <span id="success"></span>**Success:** You recognize a Skeleton Warrior, a Daeva Druj Gestalt. Undead are immune to Profane damage and weak to Sacred damage.
+- <span id="success-by-2"></span>**Success by 2:** You know it does not breathe, eat, or sleep, and that it is connected to Profane magic.
+- <span id="success-by-4"></span>**Success by 4:** You know it is immune to [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."), and [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.").
 
 With Artifact Lore, examining an object:
 
-- **Success:** You recognize a Toadstone, which protects against poison.
-- **Success by 2:** You know it grows warm when poison is within 5 feet.
-- **Success by 4:** You know it is strongest against ingested poison.
+- <span id="success_1"></span>**Success:** You recognize a Toadstone, which protects against poison.
+- <span id="success-by-2_1"></span>**Success by 2:** You know it grows warm when poison is within 5 feet.
+- <span id="success-by-4_1"></span>**Success by 4:** You know it is strongest against ingested poison.
 
 Examining an object takes one exploration round. On a failure, you cannot attempt to identify the same subject again until your attribute tier or Lore mastery increases.
 
@@ -32,9 +32,9 @@ Examining an object takes one exploration round. On a failure, you cannot attemp
 
 Creature Lores focus on specific types of beings and provide mechanical combat benefits. When you gain a Creature Lore discipline, you make a one-time choice of how your knowledge manifests in combat:
 
-**Slayer (Offensive):** You have Dominance on attack rolls and spell damage rolls against that creature type.
-**Warder (Defensive):** You have Dominance on defense rolls against that creature type.
-**Defier (Trials):** You have Dominance on trials to resist effects from that creature type, such as its breath, charm, fear, or possession.
+<span id="slayer"></span>**Slayer (Offensive):** You have Dominance on attack rolls and spell damage rolls against that creature type.
+<span id="warder"></span>**Warder (Defensive):** You have Dominance on defense rolls against that creature type.
+<span id="defier"></span>**Defier (Trials):** You have Dominance on trials to resist effects from that creature type, such as its breath, charm, fear, or possession.
 
 This choice is permanent for that specific Creature Lore. Different Creature Lores can have different choices — you could be a Dragon Slayer, Daeva Warder, and Fae Defier.
 
@@ -70,10 +70,10 @@ Knowledge Lores provide utility, identification capabilities, and situational ad
 
 The study of lost civilizations and their knowledge. Ancient Lore covers four fields:
 
-- **Ancient History:** lost civilizations, species, and peoples, and the places and mundane artifacts they left behind.
-- **Ancient Languages:** tongues no longer spoken, and the strange symbols and lost writing they survive in.
-- **Ancient Geography:** how the lands and waters have changed, so you can find places that seem out of place today.
-- **Ancient Religions:** the faiths of the past, and their texts and precepts.
+- <span id="ancient-history"></span>**Ancient History:** lost civilizations, species, and peoples, and the places and mundane artifacts they left behind.
+- <span id="ancient-languages"></span>**Ancient Languages:** tongues no longer spoken, and the strange symbols and lost writing they survive in.
+- <span id="ancient-geography"></span>**Ancient Geography:** how the lands and waters have changed, so you can find places that seem out of place today.
+- <span id="ancient-religions"></span>**Ancient Religions:** the faiths of the past, and their texts and precepts.
 
 ### Artifact Lore
 

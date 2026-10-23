@@ -12,17 +12,17 @@ This chapter describes how mastery works. For the specifics of what each domain 
 
 Several mechanics modify die rolls throughout the game. These apply across all mastery domains, whether in combat, magic, or skill trials.
 
-**Superiority.** Expand the number your dice explode on by 1. A d4 that normally explodes on 4 now explodes on 3 or 4.
+<span id="superiority"></span>**Superiority.** Expand the number your dice explode on by 1. A d4 that normally explodes on 4 now explodes on 3 or 4.
 
-**Inferiority.** Your dice do not explode.
+<span id="inferiority"></span>**Inferiority.** Your dice do not explode.
 
-**Dominance.** All dice in the roll advance one step on the Die Progression Chart.
+<span id="dominance"></span>**Dominance.** All dice in the roll advance one step on the Die Progression Chart.
 
-**Impotence.** All dice in the roll drop one step on the Die Progression Chart.
+<span id="impotence"></span>**Impotence.** All dice in the roll drop one step on the Die Progression Chart.
 
-**Bonus.** Add a flat number to the roll total.
+<span id="bonus"></span>**Bonus.** Add a flat number to the roll total.
 
-**Penalty.** Subtract a flat number from the roll total.
+<span id="penalty"></span>**Penalty.** Subtract a flat number from the roll total.
 
 ### Die Progression Chart
 
@@ -32,17 +32,17 @@ Dominance moves each die one step to the right. Impotence moves each die one ste
 
 *Example: A character with Attribute Tier 7 (d12) wielding a Grand Master two-handed weapon (2d10) makes an attack with Dominance. Their tier die becomes 2d6 and their weapon dice become 2d12.*
 
-**Die Pools.** Each entry on the chart is a die pool; 1d8 is a pool of one die, 2d6 is a pool of two. Effects treat each pool as a unit.
+<span id="die-pools"></span>**Die Pools.** Each entry on the chart is a die pool; 1d8 is a pool of one die, 2d6 is a pool of two. Effects treat each pool as a unit.
 
-- **Replacing.** An effect that replaces a die replaces one whole pool, and only a pool lower on the chart than the replacement. Properties tied to the replaced pool, such as a two-handed weapon's extra die, apply to the new pool.
-- **Adding.** An effect that adds a die adds one die of the pool's own type. A two-handed weapon with a 2d6 pool rolls 3d6 and drops the lowest.
+- <span id="replacing"></span>**Replacing.** An effect that replaces a die replaces one whole pool, and only a pool lower on the chart than the replacement. Properties tied to the replaced pool, such as a two-handed weapon's extra die, apply to the new pool.
+- <span id="adding"></span>**Adding.** An effect that adds a die adds one die of the pool's own type. A two-handed weapon with a 2d6 pool rolls 3d6 and drops the lowest.
 
 ### Dice Mechanic Interactions
 
-- **Attack**, **damage** (including spell damage), and **defense** dice explode on a maximum roll, except a d2, which never explodes. **Trial** dice do not explode.
-- **Dominance** and **Impotence** cancel each other out.
-- **Superiority** and **Inferiority** cancel each other out.
-- **Bonus** and **Penalty** modifiers combine. Bonuses and Penalties from different sources add together, but the same ability does not add to itself: if a creature is affected by more than one instance of the same ability, only one applies. An ability that states it stacks is an exception.
+- <span id="attack"></span>**Attack**, **damage** (including spell damage), and **defense** dice explode on a maximum roll, except a d2, which never explodes. **Trial** dice do not explode.
+- <span id="dominance_1"></span>**Dominance** and **Impotence** cancel each other out.
+- <span id="superiority_1"></span>**Superiority** and **Inferiority** cancel each other out.
+- <span id="bonus_1"></span>**Bonus** and **Penalty** modifiers combine. Bonuses and Penalties from different sources add together, but the same ability does not add to itself: if a creature is affected by more than one instance of the same ability, only one applies. An ability that states it stacks is an exception.
 - Each creature can only be affected by one instance of **Dominance**, **Impotence**, **Superiority**, and **Inferiority** at a time.
 
 ---
@@ -61,19 +61,19 @@ There are seven levels of mastery, from Unskilled to Grand Master. Each level ha
 | Master | 1d10 |
 | Grand Master | 1d12 |
 
-**Unskilled** means you have no familiarity with the weapon, form, or skill in question. You have invested nothing.
+<span id="unskilled"></span>**Unskilled** means you have no familiarity with the weapon, form, or skill in question. You have invested nothing.
 
-**Untrained** means you have had minimal exposure. You may have practiced with a weapon once or twice, watched a spell being cast, or had a brief lesson. You know enough to attempt something, but not much more.
+<span id="untrained"></span>**Untrained** means you have had minimal exposure. You may have practiced with a weapon once or twice, watched a spell being cast, or had a brief lesson. You know enough to attempt something, but not much more.
 
-**Basic** means you have achieved a baseline understanding. You can wield the weapon without injuring yourself or your allies, cast the form reliably at simple parameters, or perform the skill under ordinary conditions.
+<span id="basic"></span>**Basic** means you have achieved a baseline understanding. You can wield the weapon without injuring yourself or your allies, cast the form reliably at simple parameters, or perform the skill under ordinary conditions.
 
-**Skilled** means you are genuinely proficient. You employ your weapons effectively in battle, handle your forms with confidence, and perform your skills under pressure. To those still new to the long road of mastery, you are impressive, but you are still a novice compared to true masters.
+<span id="skilled"></span>**Skilled** means you are genuinely proficient. You employ your weapons effectively in battle, handle your forms with confidence, and perform your skills under pressure. To those still new to the long road of mastery, you are impressive, but you are still a novice compared to true masters.
 
-**Expert** means you have become deadly in your domain. Veteran warriors are wary of your blade, your command of magic is formidable, and your skills impress even seasoned practitioners.
+<span id="expert"></span>**Expert** means you have become deadly in your domain. Veteran warriors are wary of your blade, your command of magic is formidable, and your skills impress even seasoned practitioners.
 
-**Master** means your proficiency is exceptionally rare. Those who surpass you can be counted on one hand.
+<span id="master"></span>**Master** means your proficiency is exceptionally rare. Those who surpass you can be counted on one hand.
 
-**Grand Master** means you have reached the pinnacle. Your name will spread far and wide, and you will attract those wishing to learn from you or to challenge your title. Only a handful of individuals in the world are your equal, though none could claim to be your better without proof.
+<span id="grand-master"></span>**Grand Master** means you have reached the pinnacle. Your name will spread far and wide, and you will attract those wishing to learn from you or to challenge your title. Only a handful of individuals in the world are your equal, though none could claim to be your better without proof.
 
 ## Mastery Points
 
@@ -198,31 +198,31 @@ It is important to remember that despite the upper range being 23, for much of t
 
 Nuance is always an important factor. The same task is not always of equal difficulty depending on background, experience, or class.
 
-**Effortless (2).** Any routine task, such as walking down the street or eating a meal. There is no need to roll for this task.
+<span id="effortless"></span>**Effortless (2).** Any routine task, such as walking down the street or eating a meal. There is no need to roll for this task.
 
-**Easy (3).** Tasks that have a chance of failure if untrained or unfamiliar, but routine otherwise. This type of task would be apprentice-level tasks in most skilled professions. Similarly, a master blacksmith will not fail to heat the forge correctly and a tailor will not fail to take correct measurements for a garment. Take training or background into account. A character who has never held a smith's hammer or a pair of shears will likely treat these tasks as somewhere between *Difficult* and *Impossible*.
+<span id="easy"></span>**Easy (3).** Tasks that have a chance of failure if untrained or unfamiliar, but routine otherwise. This type of task would be apprentice-level tasks in most skilled professions. Similarly, a master blacksmith will not fail to heat the forge correctly and a tailor will not fail to take correct measurements for a garment. Take training or background into account. A character who has never held a smith's hammer or a pair of shears will likely treat these tasks as somewhere between *Difficult* and *Impossible*.
 
-**Straightforward (4).** A task that is not complicated, but sometimes requires effort to complete. Digging a latrine, hauling supplies, or other forms of physical labor mostly require effort on the part of the worker, and taking shortcuts or being inattentive can result in difficulty or failure to adequately complete the task.
+<span id="straightforward"></span>**Straightforward (4).** A task that is not complicated, but sometimes requires effort to complete. Digging a latrine, hauling supplies, or other forms of physical labor mostly require effort on the part of the worker, and taking shortcuts or being inattentive can result in difficulty or failure to adequately complete the task.
 
-**Tricky (5).** Tasks that require some understanding of the steps involved and regardless of skill, there is always room for failure or mistakes. For particularly skilled individuals, these margins for error are usually accounted for by uncontrollable factors. Leaping across a 10-foot chasm only becomes *Tricky* when there is inclement weather or loose gravel affecting the leap or the landing.
+<span id="tricky"></span>**Tricky (5).** Tasks that require some understanding of the steps involved and regardless of skill, there is always room for failure or mistakes. For particularly skilled individuals, these margins for error are usually accounted for by uncontrollable factors. Leaping across a 10-foot chasm only becomes *Tricky* when there is inclement weather or loose gravel affecting the leap or the landing.
 
-**Difficult (7).** A task which results in failure most of the time for anyone of limited skill and has a measurable chance of failure even for masters of their craft. An apprentice trying to replicate their master's work is far more likely to fail than to succeed. A master might fail due to the volatility of the materials they are working with or because of less than ideal equipment or working conditions.
+<span id="difficult"></span>**Difficult (7).** A task which results in failure most of the time for anyone of limited skill and has a measurable chance of failure even for masters of their craft. An apprentice trying to replicate their master's work is far more likely to fail than to succeed. A master might fail due to the volatility of the materials they are working with or because of less than ideal equipment or working conditions.
 
-**Intricate (9).** Tasks that require a multitude of complex steps to complete or require favorable conditions. An alchemist trying to brew a unique potion with incomplete instructions or a warrior mastering a particularly complicated maneuver with their weapon.
+<span id="intricate"></span>**Intricate (9).** Tasks that require a multitude of complex steps to complete or require favorable conditions. An alchemist trying to brew a unique potion with incomplete instructions or a warrior mastering a particularly complicated maneuver with their weapon.
 
-**Sophisticated (11).** A task that requires a master to have any reasonable hope of success. Evading a pack of wolves that has your scent or working with a material that you have only read about in books.
+<span id="sophisticated"></span>**Sophisticated (11).** A task that requires a master to have any reasonable hope of success. Evading a pack of wolves that has your scent or working with a material that you have only read about in books.
 
-**Challenging (13).** Tasks that are crafted to present difficulty or naturally dangerous, such as climbing the sheer face of a mountain or picking a particularly well-crafted lock.
+<span id="challenging"></span>**Challenging (13).** Tasks that are crafted to present difficulty or naturally dangerous, such as climbing the sheer face of a mountain or picking a particularly well-crafted lock.
 
-**Ambitious (15).** Tasks that bend or shape the threshold of what is considered normal or possible. Sneaking through a room of armed guards or discovering a new type of healing.
+<span id="ambitious"></span>**Ambitious (15).** Tasks that bend or shape the threshold of what is considered normal or possible. Sneaking through a room of armed guards or discovering a new type of healing.
 
-**Heroic (17).** A task that seems as though it should be impossible, and identifies the individual who accomplishes it as unique. Holding a door closed against a rampaging giant or evading the breath of a dragon.
+<span id="heroic"></span>**Heroic (17).** A task that seems as though it should be impossible, and identifies the individual who accomplishes it as unique. Holding a door closed against a rampaging giant or evading the breath of a dragon.
 
-**Unfathomable (19).** A task that defies belief; requires seeing or experiencing it first-hand, and even then, is thought to be a fluke. Successfully tossing a hat in the air with the intent and result of it sailing in the wind to land atop someone's head a hundred feet away.
+<span id="unfathomable"></span>**Unfathomable (19).** A task that defies belief; requires seeing or experiencing it first-hand, and even then, is thought to be a fluke. Successfully tossing a hat in the air with the intent and result of it sailing in the wind to land atop someone's head a hundred feet away.
 
-**Immeasurable (21).** Tasks that seem ridiculous to think about and defy reason when reflected upon. Calming an aggressive, wild predator in the middle of its assault or resisting an immensely deadly poison.
+<span id="immeasurable"></span>**Immeasurable (21).** Tasks that seem ridiculous to think about and defy reason when reflected upon. Calming an aggressive, wild predator in the middle of its assault or resisting an immensely deadly poison.
 
-**Impossible (23).** Tasks that result in failure a vast majority of the time, even for masters, and only marginally achievable given the right circumstances. Consider trying to escape a room engulfed in flame while coated in lamp oil without getting burned.
+<span id="impossible"></span>**Impossible (23).** Tasks that result in failure a vast majority of the time, even for masters, and only marginally achievable given the right circumstances. Consider trying to escape a room engulfed in flame while coated in lamp oil without getting burned.
 
 ### Setting DCs
 
@@ -246,11 +246,11 @@ A *Heroic* task (17) is out of reach for anyone below level 15. Untrained charac
 
 When you use a spell, weapon maneuver, or skill ability that forces a target to resist, you set a static DC and the target rolls to beat it. This is the inverse of a trial: instead of you rolling against a difficulty, you *are* the difficulty.
 
-**Mastery DC = Your Mastery Level + Your Attribute Tier**
+<span id="mastery-dc-your-mastery-level-your-attribute-tier"></span>**Mastery DC = Your Mastery Level + Your Attribute Tier**
 
 Your mastery level in the relevant discipline (the form you are casting, the weapon type you are wielding, or the skill you are using) is numbered 1 through 7, matching the mastery tiers (Unskilled is 1, Grand Master is 7). Add your relevant attribute tier to determine the DC.
 
-**Hallmark DCs.** Class abilities with their own DC (Song, Chantment, Puca, Agathion, Familiar, and similar) use their hallmark tier + an attribute tier, and so top out at 14 on their own. They are not Mastery DCs: effects that modify Mastery DC ([Clarity](conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), guards) do not apply to them.
+<span id="hallmark-dcs"></span>**Hallmark DCs.** Class abilities with their own DC (Song, Chantment, Puca, Agathion, Familiar, and similar) use their hallmark tier + an attribute tier, and so top out at 14 on their own. They are not Mastery DCs: effects that modify Mastery DC ([Clarity](conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), guards) do not apply to them.
 
 The target resists by making a trial with the appropriate attribute. If the roll meets or exceeds the DC, the target resists. A character rolls **2d[Tier Die]**: a character with a Tier 2 attribute rolls 2d3 (range 2 to 6, average 4), Tier 5 rolls 2d8 (average 9), Tier 7 rolls 2d12 (average 13). Creatures roll their own trial dice, set by their rank and attribute (see the [Monster Manual](../bestiary/creature-rules.md)). The effect is the same: weak targets are nearly defenseless against a high Mastery DC, while powerful ones resist more often than not.
 

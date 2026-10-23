@@ -32,7 +32,7 @@ Aqua vitae is administered through ingestion. After one round, a creature that d
 | Rarity | Uncommon: apothecaries and monasteries |
 | Notes | Ordinary drink is not alchemy |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -68,7 +68,7 @@ Dwale is administered through ingestion, or inhaled from a Thickened soaked spon
 | Rarity | Uncommon: surgeons and apothecaries |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -103,7 +103,7 @@ Mandrake is administered through ingestion, usually in wine, or by contact as a 
 | Rarity | Common where it grows; Imported elsewhere. Fakes are common |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_2"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -140,7 +140,7 @@ Opium is administered through ingestion, or by contact as a Thickened plaster. A
 | Rarity | Common where the poppy grows; Imported elsewhere |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_3"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|

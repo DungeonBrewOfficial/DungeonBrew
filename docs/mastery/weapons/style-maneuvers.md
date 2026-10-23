@@ -16,11 +16,11 @@ Available when wielding a weapon in one hand (including Versatile weapons used o
 
 You strike an approaching enemy as they close to melee range to disrupt their attack.
 
-**Cost**: 2 AP
+<span id="cost"></span>**Cost**: 2 AP
 
-**Trigger**: Defense, when a creature that moved at least 5 feet toward you this turn makes a melee attack against you, including Charge
+<span id="trigger"></span>**Trigger**: Defense, when a creature that moved at least 5 feet toward you this turn makes a melee attack against you, including Charge
 
-**Effect**: Move 5 feet toward the attacker. The attacker makes a Physique or Perception Trial (attacker's choice) against your Mastery DC. You make a melee attack against the attacker and defend against the attacker's attack. On failure, your attack resolves first and the attacker's attack gains Inferiority. On success, the attacker's attack resolves first.
+<span id="effect"></span>**Effect**: Move 5 feet toward the attacker. The attacker makes a Physique or Perception Trial (attacker's choice) against your Mastery DC. You make a melee attack against the attacker and defend against the attacker's attack. On failure, your attack resolves first and the attacker's attack gains Inferiority. On success, the attacker's attack resolves first.
 
 ---
 
@@ -30,11 +30,11 @@ You strike an approaching enemy as they close to melee range to disrupt their at
 
 You seize an opponent with your free hand to pin them in place and strike while they cannot defend properly.
 
-**Cost**: 2 AP
+<span id="cost_1"></span>**Cost**: 2 AP
 
-**Trigger**: Attack, targeting a creature no more than one size larger than you
+<span id="trigger_1"></span>**Trigger**: Attack, targeting a creature no more than one size larger than you
 
-**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, the target advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Make a melee attack against the target and, if the target failed the trial, add your weapon attribute tier to the attack.
+<span id="effect_1"></span>**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, the target advances [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Make a melee attack against the target and, if the target failed the trial, add your weapon attribute tier to the attack.
 
 ---
 
@@ -44,11 +44,11 @@ You seize an opponent with your free hand to pin them in place and strike while 
 
 You attack again immediately after the target defends, striking before they recover their guard.
 
-**Cost**: 1 AP
+<span id="cost_2"></span>**Cost**: 1 AP
 
-**Trigger**: Contingency, when a target successfully defends against your melee attack
+<span id="trigger_2"></span>**Trigger**: Contingency, when a target successfully defends against your melee attack
 
-**Effect**: Make a melee attack against the target. The target makes a Perception Trial against your Mastery DC. On failure, the attack gains Superiority. On success, the attack gains Inferiority.
+<span id="effect_2"></span>**Effect**: Make a melee attack against the target. The target makes a Perception Trial against your Mastery DC. On failure, the attack gains Superiority. On success, the attack gains Inferiority.
 
 ---
 
@@ -58,11 +58,11 @@ You attack again immediately after the target defends, striking before they reco
 
 You deflect an attack and step past your opponent to strike from their unguarded side.
 
-**Cost**: 1 AP
+<span id="cost_3"></span>**Cost**: 1 AP
 
-**Trigger**: Counterattack, on a successful defense against a melee attack
+<span id="trigger_3"></span>**Trigger**: Counterattack, on a successful defense against a melee attack
 
-**Effect**: Move 5 feet to an unoccupied space adjacent to the attacker without provoking Reprisal Attacks. Make a melee attack against the attacker with Dominance.
+<span id="effect_3"></span>**Effect**: Move 5 feet to an unoccupied space adjacent to the attacker without provoking Reprisal Attacks. Make a melee attack against the attacker with Dominance.
 
 ---
 
@@ -72,11 +72,11 @@ You deflect an attack and step past your opponent to strike from their unguarded
 
 You circle your target and deliver a relentless series of strikes from every angle.
 
-**Cost**: 2 AP
+<span id="cost_4"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_4"></span>**Trigger**: Attack
 
-**Effect**: Make 3 melee attacks with Superiority against the same target. You may move 5 feet between each attack. Gain 3 tiers of Exhaustion.
+<span id="effect_4"></span>**Effect**: Make 3 melee attacks with Superiority against the same target. You may move 5 feet between each attack. Gain 3 tiers of Exhaustion.
 
 ---
 
@@ -92,11 +92,11 @@ Available when wielding a weapon in two hands (including Versatile weapons used 
 
 You put your full weight behind a committed swing, sacrificing your defensive position for power.
 
-**Cost**: 1 AP
+<span id="cost_5"></span>**Cost**: 1 AP
 
-**Trigger**: Attack
+<span id="trigger_5"></span>**Trigger**: Attack
 
-**Effect**: Make a melee attack with Dominance. The next melee attack against you before the start of your next turn gains Dominance.
+<span id="effect_5"></span>**Effect**: Make a melee attack with Dominance. The next melee attack against you before the start of your next turn gains Dominance.
 
 ---
 
@@ -106,11 +106,11 @@ You put your full weight behind a committed swing, sacrificing your defensive po
 
 You swing your weapon in a wide arc through multiple enemies standing near you.
 
-**Cost**: 2 AP
+<span id="cost_6"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_6"></span>**Trigger**: Attack
 
-**Effect**: Target up to 3 creatures adjacent to you in a continuous arc (no allies between targets). Make one attack with Inferiority and apply the same result to all targets.
+<span id="effect_6"></span>**Effect**: Target up to 3 creatures adjacent to you in a continuous arc (no allies between targets). Make one attack with Inferiority and apply the same result to all targets.
 
 ---
 
@@ -120,11 +120,11 @@ You swing your weapon in a wide arc through multiple enemies standing near you.
 
 You strike a retreating enemy as they leave your reach to cut them down mid-stride.
 
-**Cost**: 1 AP
+<span id="cost_7"></span>**Cost**: 1 AP
 
-**Trigger**: Reprisal, when a creature no more than one size larger than you within your range uses movement to leave your range
+<span id="trigger_7"></span>**Trigger**: Reprisal, when a creature no more than one size larger than you within your range uses movement to leave your range
 
-**Effect**: Make a melee attack with Inferiority against the creature. If you deal damage, the target makes a Strength Trial against your Mastery DC. On failure, the target is knocked prone.
+<span id="effect_7"></span>**Effect**: Make a melee attack with Inferiority against the creature. If you deal damage, the target makes a Strength Trial against your Mastery DC. On failure, the target is knocked prone.
 
 ---
 
@@ -134,11 +134,11 @@ You strike a retreating enemy as they leave your reach to cut them down mid-stri
 
 You wind up a massive overhead strike that sacrifices speed for raw force.
 
-**Cost**: 2 AP
+<span id="cost_8"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_8"></span>**Trigger**: Attack
 
-**Effect**: You act in Slow phase. Make one melee attack with Inferiority that adds half your Strength score (rounded down) to damage.
+<span id="effect_8"></span>**Effect**: You act in Slow phase. Make one melee attack with Inferiority that adds half your Strength score (rounded down) to damage.
 
 ---
 
@@ -148,11 +148,11 @@ You wind up a massive overhead strike that sacrifices speed for raw force.
 
 You move between enemies, making a total of three attacks against targets in range.
 
-**Cost**: 2 AP
+<span id="cost_9"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_9"></span>**Trigger**: Attack
 
-**Effect**: Make a total of 3 melee attacks with Superiority, distributed among up to 3 targets within range. You may move 5 feet between each attack without provoking Reprisal Attacks. Gain 3 tiers of Exhaustion.
+<span id="effect_9"></span>**Effect**: Make a total of 3 melee attacks with Superiority, distributed among up to 3 targets within range. You may move 5 feet between each attack without provoking Reprisal Attacks. Gain 3 tiers of Exhaustion.
 
 ---
 
@@ -168,11 +168,11 @@ Available when wielding weapons in both hands with the listed mastery. Baseline:
 
 You feint with your off-hand weapon to create an opening for a stronger main-hand strike.
 
-**Cost**: 1 AP
+<span id="cost_10"></span>**Cost**: 1 AP
 
-**Trigger**: Attack
+<span id="trigger_10"></span>**Trigger**: Attack
 
-**Effect**: Off-hand attacks with Impotence. Main-hand attacks with Dominance.
+<span id="effect_10"></span>**Effect**: Off-hand attacks with Impotence. Main-hand attacks with Dominance.
 
 ---
 
@@ -182,11 +182,11 @@ You feint with your off-hand weapon to create an opening for a stronger main-han
 
 You follow a missed main-hand attack with an off-hand strike as you withdraw from the target.
 
-**Cost**: 0 AP
+<span id="cost_11"></span>**Cost**: 0 AP
 
-**Trigger**: Contingency, after your main-hand attack misses, before rolling off-hand
+<span id="trigger_11"></span>**Trigger**: Contingency, after your main-hand attack misses, before rolling off-hand
 
-**Effect**: Off-hand attack has Inferiority. You can move up to half your movement speed without provoking Reprisal Attacks from the creature you attacked.
+<span id="effect_11"></span>**Effect**: Off-hand attack has Inferiority. You can move up to half your movement speed without provoking Reprisal Attacks from the creature you attacked.
 
 ---
 
@@ -196,11 +196,11 @@ You follow a missed main-hand attack with an off-hand strike as you withdraw fro
 
 You use both weapons, alternating hands, to deflect incoming attacks.
 
-**Cost**: 2 AP
+<span id="cost_12"></span>**Cost**: 2 AP
 
-**Trigger**: Declaration
+<span id="trigger_12"></span>**Trigger**: Declaration
 
-**Effect**: You make no attacks this round. You may defend against up to 4 melee attacks, alternating main-hand and off-hand weapons. Each defense uses the weapon's die in place of your attribute tier die with both Impotence and Inferiority.
+<span id="effect_12"></span>**Effect**: You make no attacks this round. You may defend against up to 4 melee attacks, alternating main-hand and off-hand weapons. Each defense uses the weapon's die in place of your attribute tier die with both Impotence and Inferiority.
 
 ---
 
@@ -210,11 +210,11 @@ You use both weapons, alternating hands, to deflect incoming attacks.
 
 You commit to an ambitious defense, making yourself vulnerable in order to exploit your enemy's aggression.
 
-**Cost**: 1 AP
+<span id="cost_13"></span>**Cost**: 1 AP
 
-**Trigger**: Defense, when enemy attacks you
+<span id="trigger_13"></span>**Trigger**: Defense, when enemy attacks you
 
-**Effect**: Defend with Superiority. If you successfully defend and take no damage, make a free Counterattack with main-hand. If you take any damage, it is doubled.
+<span id="effect_13"></span>**Effect**: Defend with Superiority. If you successfully defend and take no damage, make a free Counterattack with main-hand. If you take any damage, it is doubled.
 
 ---
 
@@ -224,11 +224,11 @@ You commit to an ambitious defense, making yourself vulnerable in order to explo
 
 You unleash a sustained flurry of strikes with both weapons, attacking three times with each.
 
-**Cost**: 2 AP
+<span id="cost_14"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_14"></span>**Trigger**: Attack
 
-**Effect**: Make 3 attacks with each weapon (6 total). All attacks gain Dominance. Gain 3 tiers of Exhaustion.
+<span id="effect_14"></span>**Effect**: Make 3 attacks with each weapon (6 total). All attacks gain Dominance. Gain 3 tiers of Exhaustion.
 
 ---
 
@@ -244,11 +244,11 @@ Available when wielding a weapon in one hand and shield in the other with the li
 
 You step between an ally and their attacker, taking the attack yourself with your shield raised.
 
-**Cost**: 1 AP
+<span id="cost_15"></span>**Cost**: 1 AP
 
-**Trigger**: Contingency, when an enemy within your range attacks an ally within your range (announce before enemy rolls)
+<span id="trigger_15"></span>**Trigger**: Contingency, when an enemy within your range attacks an ally within your range (announce before enemy rolls)
 
-**Effect**: Move between your ally and the attacker, swapping positions if both you and your ally are willing. You become the target of the attack and gain Dominance on your defense roll.
+<span id="effect_15"></span>**Effect**: Move between your ally and the attacker, swapping positions if both you and your ally are willing. You become the target of the attack and gain Dominance on your defense roll.
 
 ---
 
@@ -258,11 +258,11 @@ You step between an ally and their attacker, taking the attack yourself with you
 
 You strike the target with the face of your shield to disorient them.
 
-**Cost**: 1 AP
+<span id="cost_16"></span>**Cost**: 1 AP
 
-**Trigger**: Attack
+<span id="trigger_16"></span>**Trigger**: Attack
 
-**Effect**: Make a shield attack. On hit, if you deal damage, the target makes a Perception Trial against your Mastery DC or advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier. Cannot target creatures more than one size category larger than you.
+<span id="effect_16"></span>**Effect**: Make a shield attack. On hit, if you deal damage, the target makes a Perception Trial against your Mastery DC or advances [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier. Cannot target creatures more than one size category larger than you.
 
 ---
 
@@ -272,11 +272,11 @@ You strike the target with the face of your shield to disorient them.
 
 You trap the attacker's weapon against your shield and strike while they cannot defend.
 
-**Cost**: 1 AP
+<span id="cost_17"></span>**Cost**: 1 AP
 
-**Trigger**: Counterattack, on a successful defense against a weapon attack
+<span id="trigger_17"></span>**Trigger**: Counterattack, on a successful defense against a weapon attack
 
-**Effect**: The attacker makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, you bind their weapon against your shield. Make a melee attack with Dominance against the bound creature. The bound creature cannot defend against this attack.
+<span id="effect_17"></span>**Effect**: The attacker makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, you bind their weapon against your shield. Make a melee attack with Dominance against the bound creature. The bound creature cannot defend against this attack.
 
 ---
 
@@ -286,11 +286,11 @@ You trap the attacker's weapon against your shield and strike while they cannot 
 
 You drive your shield into the target to force them backward.
 
-**Cost**: 1 AP
+<span id="cost_18"></span>**Cost**: 1 AP
 
-**Trigger**: Attack
+<span id="trigger_18"></span>**Trigger**: Attack
 
-**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, push the target backwards in a straight line up to half your movement speed. Cannot target creatures more than one size category larger than you.
+<span id="effect_18"></span>**Effect**: The target makes a Strength Trial against your Mastery DC. On failure, push the target backwards in a straight line up to half your movement speed. Cannot target creatures more than one size category larger than you.
 
 ---
 
@@ -300,11 +300,11 @@ You drive your shield into the target to force them backward.
 
 You press forward with a combination of weapon strikes and shield blows.
 
-**Cost**: 2 AP
+<span id="cost_19"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_19"></span>**Trigger**: Attack
 
-**Effect**: Make 3 attacks in any combination of weapon attacks and shield strikes. Each weapon attack gains Superiority. Each shield strike is a Shield Punch. Gain 3 tiers of Exhaustion.
+<span id="effect_19"></span>**Effect**: Make 3 attacks in any combination of weapon attacks and shield strikes. Each weapon attack gains Superiority. Each shield strike is a Shield Punch. Gain 3 tiers of Exhaustion.
 
 ---
 
@@ -350,11 +350,11 @@ When you are behind Total [Cover](../core/conditions.md#cover "Physical barrier 
 
 You aim for the target's weapon hand or weapon to knock it from their grip at range.
 
-**Cost**: 1 AP
+<span id="cost_20"></span>**Cost**: 1 AP
 
-**Trigger**: Attack, targeting an Average or smaller creature wielding a weapon
+<span id="trigger_20"></span>**Trigger**: Attack, targeting an Average or smaller creature wielding a weapon
 
-**Effect**: Make a ranged attack with Inferiority. On hit, instead of dealing damage, the target makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, their weapon is knocked from their grip and lands 10 feet away. They must use movement to retrieve it or switch to another weapon.
+<span id="effect_20"></span>**Effect**: Make a ranged attack with Inferiority. On hit, instead of dealing damage, the target makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, their weapon is knocked from their grip and lands 10 feet away. They must use movement to retrieve it or switch to another weapon.
 
 ---
 
@@ -364,11 +364,11 @@ You aim for the target's weapon hand or weapon to knock it from their grip at ra
 
 You sight a vital point on the target and wait for the precise moment to release.
 
-**Cost**: 2 AP
+<span id="cost_21"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_21"></span>**Trigger**: Attack
 
-**Effect**: Your Aiming Trial DC increases by 4 for this attack. If you pass the Aiming Trial, your attack gains Superiority and adds your Perception Tier Die to the attack.
+<span id="effect_21"></span>**Effect**: Your Aiming Trial DC increases by 4 for this attack. If you pass the Aiming Trial, your attack gains Superiority and adds your Perception Tier Die to the attack.
 
 ---
 
@@ -408,11 +408,11 @@ When you have moved this round, the Aiming Trial DC for ranged attacks targeting
 
 You shoot an enemy in the act of attacking your ally to weaken their strike.
 
-**Cost**: 1 AP
+<span id="cost_22"></span>**Cost**: 1 AP
 
-**Trigger**: Contingency, when an enemy within 30 feet attacks an ally (announce before enemy rolls)
+<span id="trigger_22"></span>**Trigger**: Contingency, when an enemy within 30 feet attacks an ally (announce before enemy rolls)
 
-**Effect**: Make a ranged attack against the attacker. Damage resolves normally. The attacker then makes a trial with their attack attribute against your Mastery DC. On failure, subtract the damage you dealt from the attacker's attack roll against your ally.
+<span id="effect_22"></span>**Effect**: Make a ranged attack against the attacker. Damage resolves normally. The attacker then makes a trial with their attack attribute against your Mastery DC. On failure, subtract the damage you dealt from the attacker's attack roll against your ally.
 
 ---
 
@@ -422,8 +422,8 @@ You shoot an enemy in the act of attacking your ally to weaken their strike.
 
 You fire at targets while moving at full speed, never stopping long enough to present a stationary target.
 
-**Cost**: 2 AP
+<span id="cost_23"></span>**Cost**: 2 AP
 
-**Trigger**: Attack
+<span id="trigger_23"></span>**Trigger**: Attack
 
-**Effect**: Move your full movement speed. During this movement, make 2 ranged attacks. Each attack gains Bonus equal to your weapon attribute tier. Gain 3 tiers of Exhaustion.
+<span id="effect_23"></span>**Effect**: Move your full movement speed. During this movement, make 2 ranged attacks. Each attack gains Bonus equal to your weapon attribute tier. Gain 3 tiers of Exhaustion.

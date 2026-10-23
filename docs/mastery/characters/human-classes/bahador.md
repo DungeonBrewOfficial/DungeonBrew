@@ -49,24 +49,24 @@ He is a Bahador. A human warrior that commands the Occult. He is a devoted stude
 
 ## Bahador Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Valamor, a Second Level Bahador," you should say "I'm Valamor, the Novice."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Valamor, a Second Level Bahador," you should say "I'm Valamor, the Novice."
 
-**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Bahador, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* as part of the *[Student](#student)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
-**Spell Mastery**. At first level, you begin with 2 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
+<span id="spell-mastery"></span>**Spell Mastery**. At first level, you begin with 2 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
 * As a Bahador, you can learn the 5 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, and *[Void](../../magic/index.md#void)* magic.
 * You gain 1 Spell Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
-**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
@@ -96,27 +96,27 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Intelligence Tier (maximum 14).
 
-**Apprentice.** You must apprentice yourself to an NPC Occult practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master transcribes two spells into a grimoire you have purchased (see *Codex* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your master transcribes an additional spell. When you first reach Skilled mastery in any form, your master transcribes a final spell. The first two spells are a gift; it is customary to provide 1 sc for each spell after that.
+<span id="apprentice"></span>**Apprentice.** You must apprentice yourself to an NPC Occult practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your master transcribes two spells into a grimoire you have purchased (see *[Codex](../../equipment/gear-and-services.md#codex)* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your master transcribes an additional spell. When you first reach Skilled mastery in any form, your master transcribes a final spell. The first two spells are a gift; it is customary to provide 1 sc for each spell after that.
 
-**Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *[Magic Mastery](../../magic/index.md)*, *[Discovery](../../magic/index.md#discovery)*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* discipline for full details. See the *Magic Mastery* chapter, *[Spell Sources](../../magic/index.md#spell-sources)*.
+<span id="spell-acquisition"></span>**Spell Acquisition.** You can also learn new spells from scrolls, and discover them in found grimoires or from other willing practitioners (see *[Magic Mastery](../../magic/index.md)*, *[Discovery](../../magic/index.md#discovery)*). To learn a spell from a scroll, of any tradition, you cast it, which consumes the scroll. Transcribing a spell into your grimoire requires magan² Scribe Supplies and takes 1 day per magan, consuming 1 page per magan. See the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* discipline for full details. See the *Magic Mastery* chapter, *[Spell Sources](../../magic/index.md#spell-sources)*.
 
 #### Grimoire
 
 You start with a grimoire containing two spells chosen by you or your GM. A starter grimoire (2 inches, 200 pages) weighs about 19 lbs and can hold a considerable number of spells. See *[Equipment](../../equipment/gear-and-services.md)* for codex specifications and expansion.
 
-**Lost Book.** If your grimoire is lost, you cannot memorize any spells to cast and must either find the lost book or begin creating a new one.
+<span id="lost-book"></span>**Lost Book.** If your grimoire is lost, you cannot memorize any spells to cast and must either find the lost book or begin creating a new one.
 
 ### Chantment
 
 *Level 1*
 
-**Polestar.** Your weapon serves as your spell Focus.
+<span id="polestar"></span>**Polestar.** Your weapon serves as your spell Focus.
 
-**Imbue.** You can spend 1 AP to imbue your weapon with a damage type from a spell form in which you have at least Untrained mastery. While imbued, when your weapon deals damage to durability or health, it deals additional damage of the chosen type equal to your tier die. You either dedicate your concentration slot to maintain the imbuing or spend 1 AP per round. Cost: 1 magan per round.
+<span id="imbue"></span>**Imbue.** You can spend 1 AP to imbue your weapon with a damage type from a spell form in which you have at least Untrained mastery. While imbued, when your weapon deals damage to durability or health, it deals additional damage of the chosen type equal to your tier die. You either dedicate your concentration slot to maintain the imbuing or spend 1 AP per round. Cost: 1 magan per round.
 
 At Tier 1, you can spend 1 AP on your turn to change your imbued damage type. At Tier 4, you can change your imbued damage type on your turn without expending AP.
 
-**Chantment DC:** your Chantment tier + your casting attribute tier (Charisma for Avengers and Paladins, Intelligence for Bahadors).
+<span id="chantment-dc"></span>**Chantment DC:** your Chantment tier + your casting attribute tier (Charisma for Avengers and Paladins, Intelligence for Bahadors).
 
 | Level | Tier | Tier Die |
 |:---:|:---:|:---:|
@@ -130,14 +130,14 @@ At Tier 1, you can spend 1 AP on your turn to change your imbued damage type. At
 
 At each tier from 2-7, choose one effect from your class list.
 
-**Arcane Fortitude:** Spend 1 Magan to replace one of your trial's attribute dice with your Chantment tier die on a single trial to resist a spell or magical effect.
+<span id="arcane-fortitude"></span>**Arcane Fortitude:** Spend 1 Magan to replace one of your trial's attribute dice with your Chantment tier die on a single trial to resist a spell or magical effect.
 
-**Spell Parry:** While imbuing, when you are directly targeted by a damage spell (chosen as a target, not caught in an area), you can spend 1 AP and 1 magan to replace your trial with a defense roll against the spell's DC: your weapon's attribute tier die + your Chantment tier die + your resistance to that damage type. Shields do not apply. On a failure, you take full damage. This is a defense.
+<span id="spell-parry"></span>**Spell Parry:** While imbuing, when you are directly targeted by a damage spell (chosen as a target, not caught in an area), you can spend 1 AP and 1 magan to replace your trial with a defense roll against the spell's DC: your weapon's attribute tier die + your Chantment tier die + your resistance to that damage type. Shields do not apply. On a failure, you take full damage. This is a defense.
 
-**Arcane Siphon:** When you deal magical damage with your imbued weapon to a target affected by a sustained spell, you can spend 1 magan to attempt to strip the effect. Make a trial using your Intelligence tier die + Chantment tier die against the spell's DC. On success, the tiers that spell placed on the target are removed; tiers from other sources remain. This does not end the caster's concentration, and the caster can spend 1 AP on their turn to reapply the effect; the target makes a new trial.
+<span id="arcane-siphon"></span>**Arcane Siphon:** When you deal magical damage with your imbued weapon to a target affected by a sustained spell, you can spend 1 magan to attempt to strip the effect. Make a trial using your Intelligence tier die + Chantment tier die against the spell's DC. On success, the tiers that spell placed on the target are removed; tiers from other sources remain. This does not end the caster's concentration, and the caster can spend 1 AP on their turn to reapply the effect; the target makes a new trial.
 
-**Adaptive Ward:** When you take magical damage while imbuing, you gain resistance to that damage type equal to your Chantment tier until the end of your next turn. Each damage type grants its own resistance; the same type again refreshes the duration and does not stack.
+<span id="adaptive-ward"></span>**Adaptive Ward:** When you take magical damage while imbuing, you gain resistance to that damage type equal to your Chantment tier until the end of your next turn. Each damage type grants its own resistance; the same type again refreshes the duration and does not stack.
 
-**Displacement:** When you take damage while imbuing, you can spend 1 magan to teleport up to 5 feet per tier.
+<span id="displacement"></span>**Displacement:** When you take damage while imbuing, you can spend 1 magan to teleport up to 5 feet per tier.
 
-**Rift:** When you deal magical damage with your imbued weapon, you can spend magan to attempt to teleport the target. The target rolls a Physique trial against your Chantment DC. On failure, the target is teleported to an unoccupied space on the same horizontal plane up to 5 feet per magan spent, in a direction of your choice. On success, the magan is spent and nothing happens.
+<span id="rift"></span>**Rift:** When you deal magical damage with your imbued weapon, you can spend magan to attempt to teleport the target. The target rolls a Physique trial against your Chantment DC. On failure, the target is teleported to an unoccupied space on the same horizontal plane up to 5 feet per magan spent, in a direction of your choice. On success, the magan is spent and nothing happens.

@@ -22,15 +22,15 @@ The source ability (spell, creature feature, effect) specifies "advance [Conditi
 
 Trials to resist conditions do not require AP.
 
-**Breaking free.** Once per turn, a creature held by a lasting source (a concentrated spell, a grab, an aura) can spend 1 AP to make a trial against the source's DC, using the condition's resistance attribute. On success, the source's hold drops by 1 tier. When the hold reaches 0, the creature is free of that source. A creature that is Paralyzed, Possessed, Dominated, Enthralled, Confused, or Bewildered cannot break free on its own. Conditions without a lasting source cannot be broken; they deteriorate normally. Some holds exceed a creature's ability to break them; its allies can counter the condition, dispel the spell, or take the caster down (a [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected.") caster loses active concentration; damage breaks passive concentration).
+<span id="breaking-free"></span>**Breaking free.** Once per turn, a creature held by a lasting source (a concentrated spell, a grab, an aura) can spend 1 AP to make a trial against the source's DC, using the condition's resistance attribute. On success, the source's hold drops by 1 tier. When the hold reaches 0, the creature is free of that source. A creature that is Paralyzed, Possessed, Dominated, Enthralled, Confused, or Bewildered cannot break free on its own. Conditions without a lasting source cannot be broken; they deteriorate normally. Some holds exceed a creature's ability to break them; its allies can counter the condition, dispel the spell, or take the caster down (a [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected.") caster loses active concentration; damage breaks passive concentration).
 
-**Assisted escape.** Once per round, an ally adjacent to a creature held in [Restricted](#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") can spend 1 AP on its own turn to make the break-free trial on the held creature's behalf, using the ally's Strength. On success, the hold drops by 1 tier. Each ally makes its own attempt; several allies can help in the same round.
+<span id="assisted-escape"></span>**Assisted escape.** Once per round, an ally adjacent to a creature held in [Restricted](#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") can spend 1 AP on its own turn to make the break-free trial on the held creature's behalf, using the ally's Strength. On success, the hold drops by 1 tier. Each ally makes its own attempt; several allies can help in the same round.
 
 ### Stacking
 
 Multiple sources of the same condition stack additively. A Knight's rallying cry that advances [Inspired](#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier and a Fili's song that advances Inspired by 1 tier result in Inspired Tier 2 on affected creatures. Different conditions stack freely.
 
-**Lasting sources.** A lasting source holds the tiers it applied for as long as it lasts. Lasting sources are a spell under concentration, a creature holding a grab, an aura the target remains within, and any effect with a duration longer than one round.
+<span id="lasting-sources"></span>**Lasting sources.** A lasting source holds the tiers it applied for as long as it lasts. Lasting sources are a spell under concentration, a creature holding a grab, an aura the target remains within, and any effect with a duration longer than one round.
 
 - Tiers that no source holds deteriorate 1 tier per round, at the end of the turn of the creature or effect that last advanced the condition, down to the tiers still held.
 - When a lasting source's duration ends, all the tiers it holds end with it at once.
@@ -48,7 +48,7 @@ Some positive conditions are paired against two negative conditions (dual-pairin
 
 *Example: A creature has [Tainted](#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") T2 and [Infected](#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") T1. [Fortified](#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") T2 is applied. Tainted drops by 2 (removed), Infected drops by 2 (removed), Fortified is consumed. If only Tainted T2 were present, Fortified T2 vs Tainted T2 would remove both (normal case).*
 
-**Condition Pairings:**
+<span id="condition-pairings"></span>**Condition Pairings:**
 
 | Positive | Negative | Pairing |
 |----------|----------|---------|
@@ -71,11 +71,11 @@ Some positive conditions are paired against two negative conditions (dual-pairin
 
 Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound.
 
-**Tier 1 — Weary:** Impotence on all rolls.
+<span id="tier-1-weary"></span>**Tier 1 — Weary:** Impotence on all rolls.
 
-**Tier 2 — Fatigued:** Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials.
+<span id="tier-2-fatigued"></span>**Tier 2 — Fatigued:** Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials.
 
-**Tier 3 — Depleted:** Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.
+<span id="tier-3-depleted"></span>**Tier 3 — Depleted:** Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.
 
 ---
 
@@ -85,11 +85,11 @@ Fatigue from lack of rest, overexertion, or environmental strain. Affects body a
 
 Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown.
 
-**Tier 1 — Dazed:** Penalty -1 to all rolls. Must act in Slow phase.
+<span id="tier-1-dazed"></span>**Tier 1 — Dazed:** Penalty -1 to all rolls. Must act in Slow phase.
 
-**Tier 2 — Stunned:** Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase.
+<span id="tier-2-stunned"></span>**Tier 2 — Stunned:** Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase.
 
-**Tier 3 — Paralyzed:** Cannot take any actions. Considered [Helpless](#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") and [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."). The creature is aware of its surroundings but unable to act or respond.
+<span id="tier-3-paralyzed"></span>**Tier 3 — Paralyzed:** Cannot take any actions. Considered [Helpless](#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") and [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."). The creature is aware of its surroundings but unable to act or respond.
 
 ---
 
@@ -99,11 +99,11 @@ Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle tr
 
 Grappling, binding, entanglement, or physical constraint. Tiers compound.
 
-**Tier 1 — Grappled:** Cannot move. Penalty -1 to physical rolls.
+<span id="tier-1-grappled"></span>**Tier 1 — Grappled:** Cannot move. Penalty -1 to physical rolls.
 
-**Tier 2 — Pinned:** Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls.
+<span id="tier-2-pinned"></span>**Tier 2 — Pinned:** Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls.
 
-**Tier 3 — Restrained:** Cannot move or take any actions except attempts to resist. Considered [Helpless](#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials."). Can maintain concentration. Can cast spells without somatic components (+1 magan).
+<span id="tier-3-restrained"></span>**Tier 3 — Restrained:** Cannot move or take any actions except attempts to resist. Considered [Helpless](#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials."). Can maintain concentration. Can cast spells without somatic components (+1 magan).
 
 ---
 
@@ -113,11 +113,11 @@ Grappling, binding, entanglement, or physical constraint. Tiers compound.
 
 Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound.
 
-**Tier 1 — Shaken:** Inferiority on attack rolls and spell damage rolls. Cannot willingly advance toward the source of fear.
+<span id="tier-1-shaken"></span>**Tier 1 — Shaken:** Inferiority on attack rolls and spell damage rolls. Cannot willingly advance toward the source of fear.
 
-**Tier 2 — Frightened:** Inferiority on attack rolls, defense rolls, and spell damage rolls. Cannot willingly advance toward the source of fear.
+<span id="tier-2-frightened"></span>**Tier 2 — Frightened:** Inferiority on attack rolls, defense rolls, and spell damage rolls. Cannot willingly advance toward the source of fear.
 
-**Tier 3 — Panicked:** Inferiority on attack rolls, defense rolls, and spell damage rolls. Must flee from the source of fear by the safest available route. If cornered, may defend but cannot attack or cast offensive spells.
+<span id="tier-3-panicked"></span>**Tier 3 — Panicked:** Inferiority on attack rolls, defense rolls, and spell damage rolls. Must flee from the source of fear by the safest available route. If cornered, may defend but cannot attack or cast offensive spells.
 
 ---
 
@@ -127,11 +127,11 @@ Fear directed at a specific source. While that source is in sight, the fear pers
 
 Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment.
 
-**Tier 1 — Befuddled:** AP may only be spent on defense or on breaking free. The creature behaves defensively and cautiously, aware that something is wrong but unable to act on it.
+<span id="tier-1-befuddled"></span>**Tier 1 — Befuddled:** AP may only be spent on defense or on breaking free. The creature behaves defensively and cautiously, aware that something is wrong but unable to act on it.
 
-**Tier 2 — Confused:** AP may only be spent on attacking the nearest creature (or moving to reach it). If multiple creatures are equidistant, determine target randomly. The creature lashes out violently and unpredictably with whatever offensive capability it has, including spells.
+<span id="tier-2-confused"></span>**Tier 2 — Confused:** AP may only be spent on attacking the nearest creature (or moving to reach it). If multiple creatures are equidistant, determine target randomly. The creature lashes out violently and unpredictably with whatever offensive capability it has, including spells.
 
-**Tier 3 — Bewildered:** AP may only be spent on movement. Roll 1d8 for direction. The creature wanders erratically, dissociated and unaware of its surroundings or safety. Considered [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected.").
+<span id="tier-3-bewildered"></span>**Tier 3 — Bewildered:** AP may only be spent on movement. Roll 1d8 for direction. The creature wanders erratically, dissociated and unaware of its surroundings or safety. Considered [Catatonic](#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected.").
 
 ---
 
@@ -141,11 +141,11 @@ Confusion, mental fog, or inability to process surroundings and act coherently. 
 
 Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound.
 
-**Tier 1 — Dosed:** Penalty -1 to all rolls.
+<span id="tier-1-dosed"></span>**Tier 1 — Dosed:** Penalty -1 to all rolls.
 
-**Tier 2 — Blighted:** Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn.
+<span id="tier-2-blighted"></span>**Tier 2 — Blighted:** Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn.
 
-**Tier 3 — Corrupted:** Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.
+<span id="tier-3-corrupted"></span>**Tier 3 — Corrupted:** Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.
 
 ---
 
@@ -155,11 +155,11 @@ Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tie
 
 Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome.
 
-**Tier 1 — Afflicted:** Rest is treated as 1 stage lower (Good Night's Rest becomes Wilderness Rest, Wilderness becomes Dungeon, Dungeon provides no benefit).
+<span id="tier-1-afflicted"></span>**Tier 1 — Afflicted:** Rest is treated as 1 stage lower (Good Night's Rest becomes Wilderness Rest, Wilderness becomes Dungeon, Dungeon provides no benefit).
 
-**Tier 2 — Sickened:** Rest is treated as 2 stages lower. Cannot recover health from meals or rations.
+<span id="tier-2-sickened"></span>**Tier 2 — Sickened:** Rest is treated as 2 stages lower. Cannot recover health from meals or rations.
 
-**Tier 3 — Diseased:** Cannot benefit from rest. Cannot recover health or magan except through magical healing.
+<span id="tier-3-diseased"></span>**Tier 3 — Diseased:** Cannot benefit from rest. Cannot recover health or magan except through magical healing.
 
 ---
 
@@ -169,11 +169,11 @@ Illness, disease, or supernatural contamination. Infected does not deteriorate n
 
 Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered.
 
-**Tier 1 — Lured:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature complies with requests that do not conflict with its deeply held beliefs, personality, or values, and that do not involve harming others, betraying companions, or endangering itself. Requests that cross those lines require a Wisdom trial.
+<span id="tier-1-lured"></span>**Tier 1 — Lured:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature complies with requests that do not conflict with its deeply held beliefs, personality, or values, and that do not involve harming others, betraying companions, or endangering itself. Requests that cross those lines require a Wisdom trial.
 
-**Tier 2 — Beguiled:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature's personality and values are dulled. The creature complies with requests even if they involve harming others or betraying companions. Requests that would directly endanger the creature require a Wisdom trial.
+<span id="tier-2-beguiled"></span>**Tier 2 — Beguiled:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature's personality and values are dulled. The creature complies with requests even if they involve harming others or betraying companions. Requests that would directly endanger the creature require a Wisdom trial.
 
-**Tier 3 — Enthralled:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature's identity is subsumed by devotion to the source. The creature complies with all requests except direct self-harm. Self-harm requires a Wisdom trial.
+<span id="tier-3-enthralled"></span>**Tier 3 — Enthralled:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature's identity is subsumed by devotion to the source. The creature complies with all requests except direct self-harm. Self-harm requires a Wisdom trial.
 
 ---
 
@@ -183,11 +183,11 @@ Magical or supernatural influence over disposition. Social condition. The creatu
 
 Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies.
 
-**Tier 1 — Compelled:** The controller directs 1 of the target's AP, issuing a simple command (one sentence). Limited to mundane actions: attack, move, defend, interact. The target retains 1 AP under their own control.
+<span id="tier-1-compelled"></span>**Tier 1 — Compelled:** The controller directs 1 of the target's AP, issuing a simple command (one sentence). Limited to mundane actions: attack, move, defend, interact. The target retains 1 AP under their own control.
 
-**Tier 2 — Possessed:** The controller directs both of the target's AP. May command mundane actions and familiar spells. The target has no agency during their turn.
+<span id="tier-2-possessed"></span>**Tier 2 — Possessed:** The controller directs both of the target's AP. May command mundane actions and familiar spells. The target has no agency during their turn.
 
-**Tier 3 — Dominated:** The controller directs both of the target's AP with full access to the target's capabilities: class features, weapon maneuvers, modified spells (target rolls miscast with their own dice). Self-harm commands are permitted; before executing, the target may attempt a Charisma trial adding their Charisma tier as a bonus. On success, the target takes no action for the round.
+<span id="tier-3-dominated"></span>**Tier 3 — Dominated:** The controller directs both of the target's AP with full access to the target's capabilities: class features, weapon maneuvers, modified spells (target rolls miscast with their own dice). Self-harm commands are permitted; before executing, the target may attempt a Charisma trial adding their Charisma tier as a bonus. On success, the target takes no action for the round.
 
 ---
 
@@ -199,11 +199,11 @@ Loss of bodily autonomy through magical domination or possession. Combat-timefra
 
 Raw energy and vitality. Physical surge that graduates to total enhancement at peak.
 
-**Tier 1 — Energized:** Dominance on physical rolls.
+<span id="tier-1-energized"></span>**Tier 1 — Energized:** Dominance on physical rolls.
 
-**Tier 2 — Empowered:** Dominance on physical rolls. Bonus +1 to physical rolls.
+<span id="tier-2-empowered"></span>**Tier 2 — Empowered:** Dominance on physical rolls. Bonus +1 to physical rolls.
 
-**Tier 3 — Tireless:** Dominance on all rolls. Bonus +2 to all rolls.
+<span id="tier-3-tireless"></span>**Tier 3 — Tireless:** Dominance on all rolls. Bonus +2 to all rolls.
 
 ---
 
@@ -213,11 +213,11 @@ Raw energy and vitality. Physical surge that graduates to total enhancement at p
 
 Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential.
 
-**Tier 1 — Rallied:** Dominance on mental rolls.
+<span id="tier-1-rallied"></span>**Tier 1 — Rallied:** Dominance on mental rolls.
 
-**Tier 2 — Emboldened:** Dominance on mental rolls. Bonus +1 to attribute and mastery trials.
+<span id="tier-2-emboldened"></span>**Tier 2 — Emboldened:** Dominance on mental rolls. Bonus +1 to attribute and mastery trials.
 
-**Tier 3 — Fearless:** Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.
+<span id="tier-3-fearless"></span>**Tier 3 — Fearless:** Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.
 
 ---
 
@@ -227,11 +227,11 @@ Courage, conviction, mental resolve. Sharpened focus translates mental resolve i
 
 Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill.
 
-**Tier 1 — Focused:** Bonus +1 to mastery trials.
+<span id="tier-1-focused"></span>**Tier 1 — Focused:** Bonus +1 to mastery trials.
 
-**Tier 2 — Lucid:** Bonus +1 to mastery trials. +1 Mastery DC.
+<span id="tier-2-lucid"></span>**Tier 2 — Lucid:** Bonus +1 to mastery trials. +1 Mastery DC.
 
-**Tier 3 — Transcendent:** Bonus +1 to mastery trials. +2 Mastery DC.
+<span id="tier-3-transcendent"></span>**Tier 3 — Transcendent:** Bonus +1 to mastery trials. +2 Mastery DC.
 
 ---
 
@@ -241,11 +241,11 @@ Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, 
 
 Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun.
 
-**Tier 1 — Quickened:** Bonus +1 to physical rolls. Treat Agility tier as 1 higher.
+<span id="tier-1-quickened"></span>**Tier 1 — Quickened:** Bonus +1 to physical rolls. Treat Agility tier as 1 higher.
 
-**Tier 2 — Alert:** Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier.
+<span id="tier-2-alert"></span>**Tier 2 — Alert:** Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier.
 
-**Tier 3 — Hasted:** Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP.
+<span id="tier-3-hasted"></span>**Tier 3 — Hasted:** Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP.
 
 ---
 
@@ -255,11 +255,11 @@ Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin
 
 Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination.
 
-**Tier 1 — Girded:** +1 mundane and primal resistance.
+<span id="tier-1-girded"></span>**Tier 1 — Girded:** +1 mundane and primal resistance.
 
-**Tier 2 — Hardened:** +2 mundane and primal resistance. Recover 1 health at end of turn.
+<span id="tier-2-hardened"></span>**Tier 2 — Hardened:** +2 mundane and primal resistance. Recover 1 health at end of turn.
 
-**Tier 3 — Robust:** +3 mundane and primal resistance. Recover 1 health at end of turn.
+<span id="tier-3-robust"></span>**Tier 3 — Robust:** +3 mundane and primal resistance. Recover 1 health at end of turn.
 
 ---
 
@@ -269,11 +269,11 @@ Bodily resilience, constitutional hardening. The body is toughened against physi
 
 Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm.
 
-**Tier 1 — Buffered:** Dominance on attribute trials. +1 resistance to magic damage.
+<span id="tier-1-buffered"></span>**Tier 1 — Buffered:** Dominance on attribute trials. +1 resistance to magic damage.
 
-**Tier 2 — Shielded:** Dominance on attribute trials. +2 resistance to magic damage.
+<span id="tier-2-shielded"></span>**Tier 2 — Shielded:** Dominance on attribute trials. +2 resistance to magic damage.
 
-**Tier 3 — Impervious:** Dominance on attribute trials. +3 resistance to magic damage.
+<span id="tier-3-impervious"></span>**Tier 3 — Impervious:** Dominance on attribute trials. +3 resistance to magic damage.
 
 ---
 
@@ -285,18 +285,18 @@ Mental fortitude, magical resilience. The mind is shielded against influence and
 
 Concealed measures how well others know where a creature is. It comes from two kinds of source:
 
-- **Obscuring sources,** such as limited light, fog, and smoke, hide everyone in them alike. Attacking does not end this concealment, and it grants no attack benefits.
-- **Hiding sources,** such as Sneaking, Vanish, and invisibility, hide one creature. A hiding creature gains the attack benefits below, and any attack it makes ends its Concealed once the attack resolves, unless its source says otherwise.
+- <span id="obscuring-sources"></span>**Obscuring sources,** such as limited light, fog, and smoke, hide everyone in them alike. Attacking does not end this concealment, and it grants no attack benefits.
+- <span id="hiding-sources"></span>**Hiding sources,** such as Sneaking, Vanish, and invisibility, hide one creature. A hiding creature gains the attack benefits below, and any attack it makes ends its Concealed once the attack resolves, unless its source says otherwise.
 
-**Close quarters.** A creature within 5 feet of you is not Concealed from you, unless it is invisible, in absolute darkness, or something blocks your sight of it.
+<span id="close-quarters"></span>**Close quarters.** A creature within 5 feet of you is not Concealed from you, unless it is invisible, in absolute darkness, or something blocks your sight of it.
 
-**Searching.** You can spend 1 AP on a Perception trial against the source's DC: a hider's Stealth Mastery DC, a spell's DC, or a DC the GM sets for the scene. On a success, the creature's Concealed drops by 1 tier for you.
+<span id="searching"></span>**Searching.** You can spend 1 AP on a Perception trial against the source's DC: a hider's Stealth Mastery DC, a spell's DC, or a DC the GM sets for the scene. On a success, the creature's Concealed drops by 1 tier for you.
 
-**Tier 1 — Obscured:** You can make out a shape. An attack against it from beyond 5 feet, with a ranged or reach weapon, requires an Aiming Trial with its DC increased by 2. A hiding creature is treated as flanking its target.
+<span id="tier-1-obscured"></span>**Tier 1 — Obscured:** You can make out a shape. An attack against it from beyond 5 feet, with a ranged or reach weapon, requires an Aiming Trial with its DC increased by 2. A hiding creature is treated as flanking its target.
 
-**Tier 2 — Shrouded:** You know the direction, not the place. The creature cannot be directly targeted. A hiding creature's attacks impose Inferiority on the target's defense.
+<span id="tier-2-shrouded"></span>**Tier 2 — Shrouded:** You know the direction, not the place. The creature cannot be directly targeted. A hiding creature's attacks impose Inferiority on the target's defense.
 
-**Tier 3 — Hidden:** You do not know where it is. The creature cannot be directly targeted. A hiding creature's attacks cannot be defended against.
+<span id="tier-3-hidden"></span>**Tier 3 — Hidden:** You do not know where it is. The creature cannot be directly targeted. A hiding creature's attacks cannot be defended against.
 
 #### Cover
 
@@ -304,21 +304,21 @@ Physical barrier between attacker and target
 
 Cover is positional relative to the attacker. A creature can have cover from one direction and be fully exposed from another. Cover applies to ranged attacks and spell trials. Cover does not affect melee attacks. A creature in Total Cover must spend 1 AP to partially break cover to attack or cast a spell and is treated as being under Majority Cover during the Phase in which they act, resuming Total Cover at the end of their Phase.
 
-**Tier 1 — Partial Cover:** The barrier obscures part of the creature's body (approximately 45 to 90 degrees from the barrier). Aiming Trial DC increases by 2. The creature gains +2 to trials against area of effect and single-target damage spells.
+<span id="tier-1-partial-cover"></span>**Tier 1 — Partial Cover:** The barrier obscures part of the creature's body (approximately 45 to 90 degrees from the barrier). Aiming Trial DC increases by 2. The creature gains +2 to trials against area of effect and single-target damage spells.
 
-**Tier 2 — Majority Cover:** The creature is mostly behind the barrier (approximately 45 degrees or less from the barrier). Aiming Trial DC increases by 4. The creature gains +4 to trials against area of effect and single-target damage spells.
+<span id="tier-2-majority-cover"></span>**Tier 2 — Majority Cover:** The creature is mostly behind the barrier (approximately 45 degrees or less from the barrier). Aiming Trial DC increases by 4. The creature gains +4 to trials against area of effect and single-target damage spells.
 
-**Tier 3 — Total Cover:** The barrier is directly between the creature and the attacker. The creature cannot be targeted by ranged attacks or spells requiring line of sight. Area of effect spells that include the creature's space may still affect them, depending on the epicenter of the spell still affect them.
+<span id="tier-3-total-cover"></span>**Tier 3 — Total Cover:** The barrier is directly between the creature and the attacker. The creature cannot be targeted by ranged attacks or spells requiring line of sight. Area of effect spells that include the creature's space may still affect them, depending on the epicenter of the spell still affect them.
 
 #### Unbound
 
 Movement enhancement
 
-**Tier 1 — Fleet:** +2 movement speed. You can jump as part of movement. You must begin and end movement on a surface with each AP.
+<span id="tier-1-fleet"></span>**Tier 1 — Fleet:** +2 movement speed. You can jump as part of movement. You must begin and end movement on a surface with each AP.
 
-**Tier 2 — Suspended:** Three-dimensional movement at half speed. One axis per AP (horizontal or vertical, not both). Water walking included. Requires concentration to maintain and move.
+<span id="tier-2-suspended"></span>**Tier 2 — Suspended:** Three-dimensional movement at half speed. One axis per AP (horizontal or vertical, not both). Water walking included. Requires concentration to maintain and move.
 
-**Tier 3 — Soaring:** Three-dimensional movement at full speed in any direction. Immune to [Prone](#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Requires concentration to maintain and move.
+<span id="tier-3-soaring"></span>**Tier 3 — Soaring:** Three-dimensional movement at full speed in any direction. Immune to [Prone](#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Requires concentration to maintain and move.
 
 ---
 
@@ -365,17 +365,17 @@ The parenthetical label identifies the damage type and narrative source:
 
 ## Insanity
 
-**Insanity is an optional rule.** The GM chooses a setting:
+<span id="insanity-is-an-optional-rule"></span>**Insanity is an optional rule.** The GM chooses a setting:
 
-- **Realistic:** a character gains an insanity on reaching 0 health, or on reaching Tier 3 of a mental condition (Panicked, Enthralled, Dominated, or Bewildered).
-- **Brutal:** as Realistic, and also on a natural minimum on a trial against a mental condition ([Demoralized](#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled."), [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."), or [Disoriented](#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.")), or on suffering a Trauma.
-- **Deadly:** as Brutal, and also on taking health damage from a hit whose dice explode.
+- <span id="realistic"></span>**Realistic:** a character gains an insanity on reaching 0 health, or on reaching Tier 3 of a mental condition (Panicked, Enthralled, Dominated, or Bewildered).
+- <span id="brutal"></span>**Brutal:** as Realistic, and also on a natural minimum on a trial against a mental condition ([Demoralized](#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled."), [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."), or [Disoriented](#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.")), or on suffering a Trauma.
+- <span id="deadly"></span>**Deadly:** as Brutal, and also on taking health damage from a hit whose dice explode.
 
 The Trauma and Insanity settings are chosen separately; a table can run Brutal Traumas with Realistic Insanity, or any other combination.
 
-**Duration.** The first time a character is affected, roll on the Insanity table; the insanity lasts 8 hours. Each later instance, while the character is still affected, does not roll again: it extends the current insanity one step, from 8 hours to 1 day, then 1 week, then permanent.
+<span id="duration"></span>**Duration.** The first time a character is affected, roll on the Insanity table; the insanity lasts 8 hours. Each later instance, while the character is still affected, does not roll again: it extends the current insanity one step, from 8 hours to 1 day, then 1 week, then permanent.
 
-**Severity.** The table rises in severity: results above 50 are the more debilitating. The Insane curse (Cursed) rolls twice, once on 1–50 and once on 51–100, and both results are permanent.
+<span id="severity"></span>**Severity.** The table rises in severity: results above 50 are the more debilitating. The Insane curse (Cursed) rolls twice, once on 1–50 and once on 51–100, and both results are permanent.
 
 | d100 | Insanity |
 |:---:|:---|

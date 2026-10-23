@@ -49,21 +49,21 @@ He is a knight. A human warrior that is bound by his oaths to a liege, abiding b
 
 ## Knight Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. Your knight should use this title when talking with other characters. Instead of saying "I'm Marsham, a Second Level Knight," the character should say "I'm Marsham, the Squire."
+<span id="title"></span>**Title**. Your knight should use this title when talking with other characters. Instead of saying "I'm Marsham, a Second Level Knight," the character should say "I'm Marsham, the Squire."
 
-**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Knight, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Tactics](../../skills/tactics.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Presence](../../skills/presence.md)* as part of the *[Knightly Code](#knightly-code)* class ability for free, however, the Knight cannot learn the *[Deceit](../../skills/presence.md#deceit)* discipline.
 * You gain 1 Skill Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
-**Spell Mastery**. This class does not have access to magic.
+<span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.
 
-**Weapon Mastery**. At first level, you begin with 4 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 4 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.

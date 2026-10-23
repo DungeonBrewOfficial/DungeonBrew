@@ -30,7 +30,7 @@ You open a gate. A creature crosses through. The creature is real; it existed so
 
 The summoned creature is independent and acts on its own will. Control requires a separate *[enchant](#enchant)* spell using the same connected form to impose [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") or [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."): a second cast, a second magan cost, and a concentration slot.
 
-**Magan cost:** (1 + Reach) × Tier. Minimum reach is close.
+<span id="magan-cost"></span>**Magan cost:** (1 + Reach) × Tier. Minimum reach is close.
 
 | Tier | Close | Distant | Far |
 |:---:|:---:|:---:|:---:|
@@ -42,11 +42,11 @@ The summoned creature is independent and acts on its own will. Control requires 
 | 6 | 12 | 18 | 30 |
 | 7 | 14 | 21 | 35 |
 
-**Spell speed:** Follows standard rules (1-3 Fast, 4-6 Moderate, 7-11 Slow, 12+ Slow/2 AP).
+<span id="spell-speed"></span>**Spell speed:** Follows standard rules (1-3 Fast, 4-6 Moderate, 7-11 Slow, 12+ Slow/2 AP).
 
-**Tier.** Your form mastery level determines the tier ceiling (1:1). You choose which tier to summon at, from T1 up to your mastery cap. The chosen tier feeds into the cost formula.
+<span id="tier"></span>**Tier.** Your form mastery level determines the tier ceiling (1:1). You choose which tier to summon at, from T1 up to your mastery cap. The chosen tier feeds into the cost formula.
 
-**Rank.** Roll your casting attribute die, divide by 2, round up. The result determines the rank of the creature that appears.
+<span id="rank"></span>**Rank.** Roll your casting attribute die, divide by 2, round up. The result determines the rank of the creature that appears.
 
 | Attribute Die | Possible Ranks |
 |:---:|:---|
@@ -58,17 +58,17 @@ The summoned creature is independent and acts on its own will. Control requires 
 | d10 | Minion through Master |
 | d12 | Minion through Epic |
 
-**Minion group size.** When the rank result is Minion, the raw die face before dividing determines group size. A raw result of 1 = 1d8 heads. A raw result of 2 = 2d8 heads.
+<span id="minion-group-size"></span>**Minion group size.** When the rank result is Minion, the raw die face before dividing determines group size. A raw result of 1 = 1d8 heads. A raw result of 2 = 2d8 heads.
 
-**Specific creature.** The GM determines the specific creature within the rolled tier and rank, informed by the form (which classification answers) and the narrative context.
+<span id="specific-creature"></span>**Specific creature.** The GM determines the specific creature within the rolled tier and rank, informed by the form (which classification answers) and the narrative context.
 
 ### Expulsion (Banishing)
 
 You compel a creature to depart. The creature resists.
 
-**Magan cost:** Same formula as invocation: (1 + Reach) × Tier. The tier is the creature's tier. Reach is the creature's current distance from you.
+<span id="magan-cost_1"></span>**Magan cost:** Same formula as invocation: (1 + Reach) × Tier. The tier is the creature's tier. Reach is the creature's current distance from you.
 
-**Resistance.** The creature makes a Wisdom or Charisma trial (GM determines which is appropriate) against your spell DC. Success means the creature resists. Failure means the creature is compelled to depart.
+<span id="resistance"></span>**Resistance.** The creature makes a Wisdom or Charisma trial (GM determines which is appropriate) against your spell DC. Success means the creature resists. Failure means the creature is compelled to depart.
 
 ---
 
@@ -80,15 +80,15 @@ Enchant puts magic into an object. In combat, the most common application is tem
 
 Casting enchant on a weapon adds your *form mastery tier die* as typed damage on a successful hit. The damage type matches the form (enchant fire = fire damage, enchant sacred = sacred damage). The typed damage is a separate damage event from the physical attack. The attack itself remains mundane; only the added typed damage is magical. The typed damage bypasses armor and applies directly to health, subject to the target's resistance to that damage type.
 
-**Magan cost.** Standard spell cost model. A typical combat enchantment at touch range, single target, short duration: (1 + 0 + 0) × 3 = 3 magan for the encounter.
+<span id="magan-cost_2"></span>**Magan cost.** Standard spell cost model. A typical combat enchantment at touch range, single target, short duration: (1 + 0 + 0) × 3 = 3 magan for the encounter.
 
-**Concentration required.** The enchantment occupies a concentration slot for its duration.
+<span id="concentration-required"></span>**Concentration required.** The enchantment occupies a concentration slot for its duration.
 
-**Damage scaling.** Form mastery tier die (Unskilled d2, Untrained d3, Basic d4, Skilled d6, Expert d8, Master d10, Grand Master d12).
+<span id="damage-scaling"></span>**Damage scaling.** Form mastery tier die (Unskilled d2, Untrained d3, Basic d4, Skilled d6, Expert d8, Master d10, Grand Master d12).
 
-**Locked type per cast.** The damage type is set when you cast the spell. Changing types requires dropping the spell and recasting: new AP, new magan, new casting time.
+<span id="locked-type-per-cast"></span>**Locked type per cast.** The damage type is set when you cast the spell. Changing types requires dropping the spell and recasting: new AP, new magan, new casting time.
 
-**Targeting.** You can enchant your own weapon or an ally's.
+<span id="targeting"></span>**Targeting.** You can enchant your own weapon or an ally's.
 
 ---
 
@@ -102,7 +102,7 @@ Shapeshifting spells are learned by creature subtype. Shapeshift (Beasts) and Sh
 
 Shapeshifting uses the standard spell cost model with the creature's Division as a multiplier.
 
-**Magan cost:** (1 + Reach + Scale) × Division × Duration.
+<span id="magan-cost_3"></span>**Magan cost:** (1 + Reach + Scale) × Division × Duration.
 
 A self-targeted transformation at short duration: (1 + 0 + 0) × Division × 3. A ranged transformation on an ally at close reach: (1 + 1 + 0) × Division × Duration.
 
@@ -122,17 +122,17 @@ A self-targeted transformation at short duration: (1 + 0 + 0) × Division × 3. 
 | D12 | 12 | 36 | 60 | 96 |
 | D13 | 13 | 39 | 65 | 104 |
 
-**Division cap:** The creature's Division cannot exceed twice the caster's form mastery level. A caster with mastery level 2 can access creatures up to D4. A Grand Master (ML 7) can access up to D13 (the full range) but at significant magan cost.
+<span id="division-cap"></span>**Division cap:** The creature's Division cannot exceed twice the caster's form mastery level. A caster with mastery level 2 can access creatures up to D4. A Grand Master (ML 7) can access up to D13 (the full range) but at significant magan cost.
 
-**Material components** can reduce the magan cost by up to 8, following standard material component rules.
+<span id="material-components"></span>**Material components** can reduce the magan cost by up to 8, following standard material component rules.
 
-**Concentration required.** The transformation occupies a concentration slot for its duration.
+<span id="concentration-required_1"></span>**Concentration required.** The transformation occupies a concentration slot for its duration.
 
 ### Durability
 
 The transformed creature has a durability pool that absorbs damage before it reaches the target's real health. The durability pool replaces the creature's health pool. The target's real health is unchanged underneath the form. The pool uses the same formula as the Preservate durability pool, with Division as the variable.
 
-**Durability pool:** Division × 5 × Duration multiplier.
+<span id="durability-pool"></span>**Durability pool:** Division × 5 × Duration multiplier.
 
 | Division | Base (×5) | Short (×3) | Long (×5) | Extended (×8) |
 |:---|:---:|:---:|:---:|:---:|

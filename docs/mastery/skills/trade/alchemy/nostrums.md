@@ -39,7 +39,7 @@ A bezoar is administered by shaving it into a drink. Each shaving drives back po
 | Rarity | Exotic |
 | Notes | Also a casting focus until the last shaving is gone (see *[Equipment](../../../equipment/gear-and-services.md)*, [Foci](../../../equipment/gear-and-services.md#foci)) |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 Bezoars are found or bought.
 
@@ -66,7 +66,7 @@ Snowdrop is administered through ingestion. It ends one dose of a nightshade-fam
 | Rarity | Common where it grows |
 | Notes | Grown in giant's blood, it becomes moly (see [Legendary Nostrums](#legendary-nostrums)) |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -95,7 +95,7 @@ Viper wine is administered through ingestion, a draught at a time. It's sold to 
 | Rarity | Uncommon |
 | Notes | Bought by the gallon, it needs a waterskin or bottle |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_2"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 About thirty vipers and eight gallons of wine, sealed in a cask for six months, make about 500 draughts. Materials cost about 57 sp: the wine at 3 sp a gallon, the vipers at about 1 sp each, and a small oak barrel.
 
@@ -166,7 +166,7 @@ Ambergris is administered through ingestion, steeped in aqua vitae as a cordial.
 | Rarity | The GM controls the source |
 | Notes | None |
 
-**To make:**
+<span id="to-make_3"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
@@ -211,7 +211,7 @@ A blood draught is administered through ingestion. Warm blood wakes the dying. H
 | Rarity | The GM controls the source |
 | Notes | It keeps only while worn warm against the skin: chest, armpit, belly; never a boot, since feet run cold. Drawing it takes 1 AP. Creatures that can't be resurrected, by Annihilate or Lay to Rest, can't be revived this way. A living donor who gives blood advances [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by one tier |
 
-**To make:**
+<span id="to-make_4"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
@@ -244,7 +244,7 @@ Hippomanes is administered through ingestion. A creature that drinks it is charm
 | Rarity | The GM controls the source |
 | Notes | Moly, which gives [Warded](../../../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") T3, ends it. It affects any sapient creature, as the GM determines, and connected-form protection doesn't apply |
 
-**To make:**
+<span id="to-make_5"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
@@ -275,7 +275,7 @@ Moly is administered through ingestion. A creature that takes it is [Warded](../
 | Rarity | The GM controls the source |
 | Notes | None |
 
-**To make:**
+<span id="to-make_6"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
@@ -304,7 +304,7 @@ Mumia is administered through ingestion. It heals, clears Injuries, and mends th
 | Rarity | The GM controls the source |
 | Notes | None |
 
-**To make:**
+<span id="to-make_7"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
@@ -333,7 +333,7 @@ Stag's heart bone is administered through ingestion, grated into a cordial. A cr
 | Rarity | The GM controls the source |
 | Notes | None |
 
-**To make:**
+<span id="to-make_8"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
@@ -368,7 +368,7 @@ Theriac is administered through ingestion. It ends poisoning, and the older it i
 | Rarity | The GM controls the source |
 | Notes | Ordinary theriac, made with vipers, works as opium |
 
-**To make:**
+<span id="to-make_9"></span>**To make:**
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|

@@ -8,11 +8,11 @@ generated_by: tools/sync_mastery.py
 
 ### Format and Basics
 
-**Ability format:** `***Name*** *(AP cost, Action Type [Speed], Ability slot X).* Description.`
+<span id="ability-format"></span>**Ability format:** `***Name*** *(AP cost, Action Type [Speed], Ability slot X).* Description.`
 
 Speed tags in the ability header are optional. When present, they indicate the weapon's combat phase for GM reference. Abilities that are not tied to any weapon (spells, roars, special actions) omit the speed tag; they are available in any phase the creature is active in.
 
-**Ability Speed Determination:**
+<span id="ability-speed-determination"></span>**Ability Speed Determination:**
 
 Abilities fall into three categories for combat phase timing:
 
@@ -22,13 +22,13 @@ Abilities fall into three categories for combat phase timing:
 
 Speed is a floor, not a lock. A Fast ability works in a Fast, Moderate, or Slow phase. A Moderate ability works in Moderate or Slow. A Slow ability only works in Slow.
 
-**Ability DCs:** Division + 1.
+<span id="ability-dcs"></span>**Ability DCs:** Division + 1.
 
-**Condition duration:** 1 round (default). Do not restate "lasts 1 round" in ability text — it is the system default. Conditions that persist longer or have non-standard behavior (e.g., [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") from Grab does not deteriorate) note this explicitly.
+<span id="condition-duration"></span>**Condition duration:** 1 round (default). Do not restate "lasts 1 round" in ability text — it is the system default. Conditions that persist longer or have non-standard behavior (e.g., [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") from Grab does not deteriorate) note this explicitly.
 
-**Trial attribute:** A trial to resist a condition always uses that condition's attribute (Conditions), including holds and auras.
+<span id="trial-attribute"></span>**Trial attribute:** A trial to resist a condition always uses that condition's attribute (Conditions), including holds and auras.
 
-**Condition language:** Write "advance [Condition] by 1 tier" — never "gain Tier 1 [Condition]." Do not parenthetically name tier levels (no "(Shaken)", "(Grappled)"). Do not restate what the condition's modifiers do — that lives in the conditions document.
+<span id="condition-language"></span>**Condition language:** Write "advance [Condition] by 1 tier" — never "gain Tier 1 [Condition]." Do not parenthetically name tier levels (no "(Shaken)", "(Grappled)"). Do not restate what the condition's modifiers do — that lives in the conditions document.
 
 ### AP Line Conventions
 
@@ -63,21 +63,21 @@ Non-Epic creatures (Adept through Master) do not need Phase Reference blocks. Th
 
 Ability descriptions are mechanical text for GM use during play. Clarity and speed of parsing are the priorities.
 
-**Species names:** Use the generic species name in ability descriptions ("the bear," "the cat," "the wolf"), not the subspecies ("the cave bear," "the mountain lion"). The stat block header already identifies the specific creature.
+<span id="species-names"></span>**Species names:** Use the generic species name in ability descriptions ("the bear," "the cat," "the wolf"), not the subspecies ("the cave bear," "the mountain lion"). The stat block header already identifies the specific creature.
 
-**Attack references:** Write "The [creature] makes a [weapon] attack with [modifier]" when an ability triggers an attack. This identifies the weapon (for speed inheritance and damage), the modifier (Dominance, Impotence, Inferiority), and reads as a clear instruction.
+<span id="attack-references"></span>**Attack references:** Write "The [creature] makes a [weapon] attack with [modifier]" when an ability triggers an attack. This identifies the weapon (for speed inheritance and damage), the modifier (Dominance, Impotence, Inferiority), and reads as a clear instruction.
 
-**Multi-target attacks:** "The [creature] makes a [weapon] attack targeting up to X creatures within reach. Roll one attack with [modifier] and apply to all targets."
+<span id="multi-target-attacks"></span>**Multi-target attacks:** "The [creature] makes a [weapon] attack targeting up to X creatures within reach. Roll one attack with [modifier] and apply to all targets."
 
-**Grab pattern:** "The [creature] makes a [weapon] attack. In lieu of an attack roll, the target must succeed on a [ATTR] trial [DC] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier." This frames Grab as a weapon action (inheriting that weapon's speed) while replacing the attack roll with a trial.
+<span id="grab-pattern"></span>**Grab pattern:** "The [creature] makes a [weapon] attack. In lieu of an attack roll, the target must succeed on a [ATTR] trial [DC] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier." This frames Grab as a weapon action (inheriting that weapon's speed) while replacing the attack roll with a trial.
 
-**Trial abbreviations:** Always abbreviate attribute names in trial references: STR, AGI, PHY, END, INT, WIS, CHA, PER. Never spell them out in ability text.
+<span id="trial-abbreviations"></span>**Trial abbreviations:** Always abbreviate attribute names in trial references: STR, AGI, PHY, END, INT, WIS, CHA, PER. Never spell them out in ability text.
 
-**No flavor in mechanical text.** Cut adjectives that describe what the action looks like rather than what it does. "Wide claw attack" is "claw attack." "Massive boulder" is "boulder." The GM narrates flavor; the stat block provides mechanics.
+<span id="no-flavor-in-mechanical-text"></span>**No flavor in mechanical text.** Cut adjectives that describe what the action looks like rather than what it does. "Wide claw attack" is "claw attack." "Massive boulder" is "boulder." The GM narrates flavor; the stat block provides mechanics.
 
-**No em-dashes.** Use periods or semicolons for clause separation in ability text.
+<span id="no-em-dashes"></span>**No em-dashes.** Use periods or semicolons for clause separation in ability text.
 
-**Condition notation:** Write "advance [Condition] by 1 tier" or use the specific format for damage-over-time conditions (e.g., "gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning) [5]"). Never write "gain Tier 1 [Condition]." Do not parenthetically name tier levels.
+<span id="condition-notation"></span>**Condition notation:** Write "advance [Condition] by 1 tier" or use the specific format for damage-over-time conditions (e.g., "gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning) [5]"). Never write "gain Tier 1 [Condition]." Do not parenthetically name tier levels.
 
 ### Ability Cost Axis
 
@@ -90,20 +90,20 @@ Every ability has a cost proportional to its effect. The cost is expressed throu
 | Forfeit positioning bonus | Ability requires specific positioning (flanking/behind) and the creature gives up that advantage to use it |
 | No modifier (normal attack) | Ability requires a prior condition as a gate (e.g., target must be [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).")) |
 
-**Exceptions:** 2 AP AoE abilities that apply conditions use a trial with no attack modifier — the 2 AP cost IS the gate.
+<span id="exceptions"></span>**Exceptions:** 2 AP AoE abilities that apply conditions use a trial with no attack modifier — the 2 AP cost IS the gate.
 
 ### Condition Application Templates
 
 Conditions are defined in Conditions. The stat block does not restate condition mechanics — it provides only the application method and relevant values.
 
-**[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (damage-over-time conditions):**
+<span id="attrition"></span>**[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (damage-over-time conditions):**
 Format: `...the target must succeed on an END trial [DC] or gain Attrition (Bleeding).`
 
 - Each instance deals damage equal to the source's relevant attribute tier at end of the afflicted creature's turn, then expires.
 - Bleeding uses END trial to resist. Burning uses AGI trial to resist.
 - See [Conditions](../core/conditions.md), [Attrition](../core/conditions.md#attrition), for damage type labels and applicable resistances.
 
-**Venomous Bite (venom delivery on weapon hit):**
+<span id="venomous-bite"></span>**Venomous Bite (venom delivery on weapon hit):**
 Format: `On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts X Primal damage (END Tier). The target must succeed on a [condition's attribute] trial [DC] or advance [Condition] by 1 tier.`
 
 - Damage must be dealt (venom needs to enter the body — armor blocks it)
@@ -111,7 +111,7 @@ Format: `On a hit with a bite attack, with Impotence, if damage is dealt, the ve
 - Trial for a condition ([Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") for necrotic venoms: END; [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") for neurotoxins: PER)
 - No custom durations. No secondary condition chains.
 
-**Diseased Bite (disease delivery on weapon hit):**
+<span id="diseased-bite"></span>**Diseased Bite (disease delivery on weapon hit):**
 Format: `On a hit with a bite attack, with Impotence, if health damage is dealt, the target must succeed on an END trial [DC] or advance Infected by 1 tier.`
 
 - Same structure as Venomous Bite but no immediate Primal damage — disease is slower
@@ -121,11 +121,11 @@ Format: `On a hit with a bite attack, with Impotence, if health damage is dealt,
 
 Some creatures have a two-ability setup: a Grab that applies [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), then a Finisher that requires Restricted as a gate.
 
-**Grab:** 1 AP, Action (not Attack — no attack roll). Target makes a STR trial to resist. [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") does not deteriorate while the creature holds it. Write the escape inline in every hold: "Once per turn, the target can spend 1 AP on a STR trial [DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it." (Matches *[Conditions](../core/conditions.md)*, Breaking free and Assisted escape.)
+<span id="grab"></span>**Grab:** 1 AP, Action (not Attack — no attack roll). Target makes a STR trial to resist. [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") does not deteriorate while the creature holds it. Write the escape inline in every hold: "Once per turn, the target can spend 1 AP on a STR trial [DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it." (Matches *[Conditions](../core/conditions.md)*, [Breaking free](../core/conditions.md#breaking-free) and Assisted escape.)
 
-**Finisher (Maul, Feed, Kill, Death Roll):** 1 AP, Attack. Requires [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target (any tier unless specified). Attack with Dominance (or other bonus). The gate justifies the low AP cost and high damage.
+<span id="finisher"></span>**Finisher (Maul, Feed, Kill, Death Roll):** 1 AP, Attack. Requires [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target (any tier unless specified). Attack with Dominance (or other bonus). The gate justifies the low AP cost and high damage.
 
-**Exception — Feed (Monstrous Widow):** 1 AP, Action (not Attack). Requires [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") (T3 [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).")). No attack roll — bypasses armor entirely (parallel to Coup de Grace). Damage = DTD + END as Primal. High gate justifies extreme payoff.
+<span id="exception-feed"></span>**Exception — Feed (Monstrous Widow):** 1 AP, Action (not Attack). Requires [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") (T3 [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).")). No attack roll — bypasses armor entirely (parallel to Coup de Grace). Damage = DTD + END as Primal. High gate justifies extreme payoff.
 
 ### Hamstring Model
 
@@ -157,7 +157,7 @@ Creatures can use the Charge maneuver (2 AP, Move 15+ ft straight line, first me
 
 Standardized creature language: "The [creature] moves at least 15 feet in a straight line and makes a [weapon(s)] attack with Dominance. Countered by Set Spear vs Charge." When the creature can Charge with multiple weapons, list the options: "a bite or claw attack."
 
-**Trample variant:** Same as Charge (2 AP, Move+Attack) but trades Dominance for a STR trial; be knocked prone on hit. Used by large creatures (horses, bulls) whose mass applies the condition naturally. Countered by Set Spear.
+<span id="trample-variant"></span>**Trample variant:** Same as Charge (2 AP, Move+Attack) but trades Dominance for a STR trial; be knocked prone on hit. Used by large creatures (horses, bulls) whose mass applies the condition naturally. Countered by Set Spear.
 
 ### Roar/Fear (AoE Condition)
 
@@ -165,19 +165,19 @@ Standardized creature language: "The [creature] moves at least 15 feet in a stra
 
 Range scales by rank: Leader 10 ft, Champion 20 ft, Master 30 ft, Epic 40 ft, Legendary 50 ft.
 
-**Degree-of-failure ("fail by 5 or more"):** Reserved for Epic and Legendary rank ONLY. At lower DCs, the minimum roll cannot fail by 5+, making the mechanic meaningless. When used, creatures that fail by 5+ advance by 2 tiers instead of 1.
+<span id="degree-of-failure"></span>**Degree-of-failure ("fail by 5 or more"):** Reserved for Epic and Legendary rank ONLY. At lower DCs, the minimum roll cannot fail by 5+, making the mechanic meaningless. When used, creatures that fail by 5+ advance by 2 tiers instead of 1.
 
 ### Aura Framework
 
 Auras are passive supernatural effects that cost an ability slot. Three rules govern all auras:
 
-**Size:** 10 ft × rank position (Leader = 10, Champion = 20, Master = 30, Epic = 40, Legendary = 50).
+<span id="size"></span>**Size:** 10 ft × rank position (Leader = 10, Champion = 20, Master = 30, Epic = 40, Legendary = 50).
 
-**Trigger:** Either first entry on the creature's turn OR end of turn in aura — not both. Choose one per aura.
+<span id="trigger"></span>**Trigger:** Either first entry on the creature's turn OR end of turn in aura — not both. Choose one per aura.
 
-**Behavior:** Damage auras deal flat damage (no trial). Condition auras require a trial when a creature enters; on failure, advance the condition by 1 tier. A creature that succeeds is immune to that aura for the rest of the encounter. **The hold:** while the creature remains inside, the condition does not deteriorate, including tiers added by other sources. **Breaking the hold:** once per turn, the creature can spend 1 AP on a trial against the aura's DC, using the condition's attribute; on success, the aura no longer holds it and the condition deteriorates normally even while it remains inside. Leaving the aura also ends the hold. A creature that leaves and later re-enters makes a new entry trial.
+<span id="behavior"></span>**Behavior:** Damage auras deal flat damage (no trial). Condition auras require a trial when a creature enters; on failure, advance the condition by 1 tier. A creature that succeeds is immune to that aura for the rest of the encounter. **The hold:** while the creature remains inside, the condition does not deteriorate, including tiers added by other sources. **Breaking the hold:** once per turn, the creature can spend 1 AP on a trial against the aura's DC, using the condition's attribute; on success, the aura no longer holds it and the condition deteriorates normally even while it remains inside. Leaving the aura also ends the hold. A creature that leaves and later re-enters makes a new entry trial.
 
-**Writing auras:** this is a building pattern. Each aura's stat block spells out the full procedure inline so the GM can run it without cross-referencing.
+<span id="writing-auras"></span>**Writing auras:** this is a building pattern. Each aura's stat block spells out the full procedure inline so the GM can run it without cross-referencing.
 
 ### Creature Maneuvers
 
@@ -197,17 +197,17 @@ Creatures can use any PC maneuver they have the mastery level to access. If the 
 
 If a creature ability resembles a PC maneuver but differs mechanically, it gets a different name. The naming rule is absolute: same name means same rules.
 
-**Barred maneuvers:** Cleave (mostly useless on stat blocks).
+<span id="barred-maneuvers"></span>**Barred maneuvers:** Cleave (mostly useless on stat blocks).
 
-**Modified maneuvers:** Empty Fade is reworked for NPCs to preserve PC agency (PER trial to see through the feint). Set Spear follows the PC version: Reprisal when a creature moves into reach; Superiority applies specifically vs Charge.
+<span id="modified-maneuvers"></span>**Modified maneuvers:** Empty Fade is reworked for NPCs to preserve PC agency (PER trial to see through the feint). Set Spear follows the PC version: Reprisal when a creature moves into reach; Superiority applies specifically vs Charge.
 
-**Maneuver-sourced abilities cost an ability slot** when written onto a stat block. Using a maneuver ad-hoc (like any creature Charging) does not cost a slot.
+<span id="maneuver-sourced-abilities-cost-an-ability-slot"></span>**Maneuver-sourced abilities cost an ability slot** when written onto a stat block. Using a maneuver ad-hoc (like any creature Charging) does not cost a slot.
 
-**Guards.** A creature that fights with a wielded melee weapon lists its guards in a **Guards** row. It can have any guard its weapon mastery level (its rank) allows; most need only the three Untrained guards. Minions have none. Like a character, it declares one guard at the start of each round.
+<span id="guards"></span>**Guards.** A creature that fights with a wielded melee weapon lists its guards in a **Guards** row. It can have any guard its weapon mastery level (its rank) allows; most need only the three Untrained guards. Minions have none. Like a character, it declares one guard at the start of each round.
 
 ### Creature Skills and Ambushes
 
-**Creature skills.** Creatures don't track skills. A creature can attempt anything its nature plausibly allows: a bear climbs and a wolf does not, a thief lies and a zombie does not. Its Speed, Senses, and traits settle the edge cases. It rolls its trial dice: its rank die plus the tier die of the attribute the task calls for. When a PC resists it or sees through it, the DC is Division + 1. For skill counters, a creature counts as having mastery equal to its Division, up to Grand Master at Division 7 and above. A PC's counter discipline applies against a creature at that level; a creature never gains Dominance from a counter discipline, since its perception comes from its attributes and its Senses.
+<span id="creature-skills"></span>**Creature skills.** Creatures don't track skills. A creature can attempt anything its nature plausibly allows: a bear climbs and a wolf does not, a thief lies and a zombie does not. Its Speed, Senses, and traits settle the edge cases. It rolls its trial dice: its rank die plus the tier die of the attribute the task calls for. When a PC resists it or sees through it, the DC is Division + 1. For skill counters, a creature counts as having mastery equal to its Division, up to Grand Master at Division 7 and above. A PC's counter discipline applies against a creature at that level; a creature never gains Dominance from a counter discipline, since its perception comes from its attributes and its Senses.
 
 | Division | Counts as |
 |:---:|:---|
@@ -219,15 +219,15 @@ If a creature ability resembles a PC maneuver but differs mechanically, it gets 
 | 6 | Master |
 | 7–13 | Grand Master |
 
-**Ambushes.** Any creature can set an ambush given time, cover, and a plan; its DC is Division + 1. For a group, use the Division of the creature leading the ambush. A creature with Ambusher needs none of that: in its element, it is always ready.
+<span id="ambushes"></span>**Ambushes.** Any creature can set an ambush given time, cover, and a plan; its DC is Division + 1. For a group, use the Division of the creature leading the ambush. A creature with Ambusher needs none of that: in its element, it is always ready.
 
 ### 1/Encounter Abilities
 
 Master rank and above can have ONE ability that exceeds standard duration, usable once per encounter.
 
-**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Creates a burst window — front-loaded power that fades. Example: Alpha Rally Howl (T3 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), degrades 1/round).
+<span id="deteriorating"></span>**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Creates a burst window — front-loaded power that fades. Example: Alpha Rally Howl (T3 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), degrades 1/round).
 
-**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering. Example: Command Shout (T1 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") for encounter).
+<span id="persistent"></span>**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering. Example: Command Shout (T1 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") for encounter).
 
 These parallel Epic (4 AP budget) and Legendary (6 AP budget) power scaling.
 
@@ -273,11 +273,11 @@ A creature's mastery level equals its rank.
 
 Creature casting attributes are determined by the creature's relationship to magic, not by mortal traditions.
 
-**Numen (CHA).** Numen are sources of magic. Their power is self-referential — they tap into their own nature. Casting attribute is Charisma: force of self, metaphysical presence.
+<span id="numen"></span>**Numen (CHA).** Numen are sources of magic. Their power is self-referential — they tap into their own nature. Casting attribute is Charisma: force of self, metaphysical presence.
 
-**Non-numen creatures (PER).** Non-numen magical creatures are sustained by the cycle but are not its source. They perceive magic in the world around them and shape it. Casting attribute is Perception: attunement to the magical world.
+<span id="non-numen-creatures"></span>**Non-numen creatures (PER).** Non-numen magical creatures are sustained by the cycle but are not its source. They perceive magic in the world around them and shape it. Casting attribute is Perception: attunement to the magical world.
 
-**Mortal NPC casters** use their tradition's attribute: Occult (INT), Priscan (PER), Telluric (WIS), Theurgic (CHA). Priscan and Theurgic are the mortal traditions closest to how creatures naturally access magic — Priscan mirrors non-numen perception, Theurgic mirrors numen presence. Occult and Telluric are uniquely mortal approaches with no creature equivalent.
+<span id="mortal-npc-casters_1"></span>**Mortal NPC casters** use their tradition's attribute: Occult (INT), Priscan (PER), Telluric (WIS), Theurgic (CHA). Priscan and Theurgic are the mortal traditions closest to how creatures naturally access magic — Priscan mirrors non-numen perception, Theurgic mirrors numen presence. Occult and Telluric are uniquely mortal approaches with no creature equivalent.
 
 ### Spell Variables
 
@@ -324,17 +324,17 @@ Weapon style modifiers are baked into the stat block during creature building. T
 | Single Weapon | — | — | — |
 | Natural Weapon | — | — | — |
 
-**Style steps.** A style step moves every die in the roll one rung on the die chart and is built into the written dice. It mirrors the PC weapon styles (a shield's Defense bonus, the two-handed extra die). It is not Dominance or Impotence: it does not count toward the one-instance limit, does not cancel, and real Dominance or Impotence applies on top of it. When a style no longer applies (a shield breaks or is removed, or an effect ignores it), undo its step.
+<span id="style-steps"></span>**Style steps.** A style step moves every die in the roll one rung on the die chart and is built into the written dice. It mirrors the PC weapon styles (a shield's Defense bonus, the two-handed extra die). It is not Dominance or Impotence: it does not count toward the one-instance limit, does not cancel, and real Dominance or Impotence applies on top of it. When a style no longer applies (a shield breaks or is removed, or an effect ignores it), undo its step.
 
-**Two-Handed and Shield are mirrors.** One trades defense for offense, the other trades offense for defense. **Dual Wield** gets more attacks but worse defense. **Single and Natural** are the neutral baseline — no bonus, no penalty.
+<span id="two-handed-and-shield-are-mirrors"></span>**Two-Handed and Shield are mirrors.** One trades defense for offense, the other trades offense for defense. **Dual Wield** gets more attacks but worse defense. **Single and Natural** are the neutral baseline — no bonus, no penalty.
 
 When building a creature, apply the style step to the relevant dice in the attack or defense line, then write the final dice into the stat block. The GM never needs to know the style rules — they just roll what's written.
 
-**Dual Wield extra attacks.** A dual-wielding creature makes one off-hand strike per phase it is active in (Adept through Master: 1 per round; Epic: 2; Legendary: 3). Each off-hand strike costs no AP, uses the creature's attack line, and does not count against its max attacks.
+<span id="dual-wield-extra-attacks"></span>**Dual Wield extra attacks.** A dual-wielding creature makes one off-hand strike per phase it is active in (Adept through Master: 1 per round; Epic: 2; Legendary: 3). Each off-hand strike costs no AP, uses the creature's attack line, and does not count against its max attacks.
 
-**The Shield's −1 step applies to all attacks** while the shield is equipped, including thrown weapons. A creature wielding a shield and throwing a weapon still has the −1 step on the throw.
+<span id="the-shields-1-step-applies-to-all-attacks"></span>**The Shield's −1 step applies to all attacks** while the shield is equipped, including thrown weapons. A creature wielding a shield and throwing a weapon still has the −1 step on the throw.
 
-**Shields (NPCs).** A shield's listed Durability is its maximum. Its starting Durability is Tier × 25% of that maximum (rounded down), full from Tier 4. When a hit gets past defense and resistance, the damage passes through layers in order: shield, armor, then Health. Each layer absorbs damage up to its current Durability and passes the rest to the next. The GM decides whether the shield takes the hit; if not, the damage starts at the armor. A creature without armor still uses its shield, and damage passes from the shield straight to Health. When the shield's Durability reaches 0, it breaks: the NPC loses the Shield style's +1 step on defense and can no longer defend against ranged attacks. A held shield can be dropped freely, and the NPC can then use a different grip or pick up another shield. A strapped shield costs 1 AP to remove; until it is removed, the NPC stays in the shield grip with a broken shield and keeps the Shield style's −1 step on attack. A looted shield repairs to its maximum like armor.
+<span id="shields"></span>**Shields (NPCs).** A shield's listed Durability is its maximum. Its starting Durability is Tier × 25% of that maximum (rounded down), full from Tier 4. When a hit gets past defense and resistance, the damage passes through layers in order: shield, armor, then Health. Each layer absorbs damage up to its current Durability and passes the rest to the next. The GM decides whether the shield takes the hit; if not, the damage starts at the armor. A creature without armor still uses its shield, and damage passes from the shield straight to Health. When the shield's Durability reaches 0, it breaks: the NPC loses the Shield style's +1 step on defense and can no longer defend against ranged attacks. A held shield can be dropped freely, and the NPC can then use a different grip or pick up another shield. A strapped shield costs 1 AP to remove; until it is removed, the NPC stays in the shield grip with a broken shield and keeps the Shield style's −1 step on attack. A looted shield repairs to its maximum like armor.
 
 | Tier | Kite (max 24) | Heater (max 18) | Targe (max 12) |
 |:---:|:---:|:---:|:---:|
@@ -345,10 +345,10 @@ When building a creature, apply the style step to the relevant dice in the attac
 
 Stat block line: `**Shield:** Damaged Kite (Durability 12 / 24)` (current / maximum; the descriptor is optional). The `Durability` row stays the armor's value.
 
-**Stance switching:** Removing a strapped shield costs 1 AP. Changing grip on the same weapon (e.g., one-handed to two-handed) is free. Phase for the round is determined by the slower of the two styles involved.
+<span id="stance-switching"></span>**Stance switching:** Removing a strapped shield costs 1 AP. Changing grip on the same weapon (e.g., one-handed to two-handed) is free. Phase for the round is determined by the slower of the two styles involved.
 
-**Exceptions.** Weapon attribute and speed follow the Weapon Mastery table. A creature that breaks the table does so through a named ability that occupies a slot and states the exception (e.g., the Ettin's Giant's Grip).
+<span id="exceptions_1"></span>**Exceptions.** Weapon attribute and speed follow the Weapon Mastery table. A creature that breaks the table does so through a named ability that occupies a slot and states the exception (e.g., the Ettin's Giant's Grip).
 
-**Attribute tag.** Every Attack and Defense row except a minion's ends with `(Attribute: X)`, inside the row's style parenthetical when it has one: `(2H: −1 step. Attribute: STR)`. Keep style words (Shield, 2H, Two-Handed, Dual Wield, Single) to the row label and the step tag.
+<span id="attribute-tag"></span>**Attribute tag.** Every Attack and Defense row except a minion's ends with `(Attribute: X)`, inside the row's style parenthetical when it has one: `(2H: −1 step. Attribute: STR)`. Keep style words (Shield, 2H, Two-Handed, Dual Wield, Single) to the row label and the step tag.
 
-**No weapon-specific properties on monsters.** Weapon mastery properties (Breaker, Parrying, etc.) are tied to PC progression and do not apply to creature stat blocks. Exception possible for Epic/Legendary creatures. Monsters balance on Tier/Rank, not weapon mastery.
+<span id="no-weapon-specific-properties-on-monsters"></span>**No weapon-specific properties on monsters.** Weapon mastery properties (Breaker, Parrying, etc.) are tied to PC progression and do not apply to creature stat blocks. Exception possible for Epic/Legendary creatures. Monsters balance on Tier/Rank, not weapon mastery.

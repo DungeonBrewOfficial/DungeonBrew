@@ -34,18 +34,18 @@ Rank represents the creature's **role and capability** — its place in an organ
 | Epic | Solo monster. Dangerous and deadly in its own right. | d10 |
 | Legendary | Force of nature. Smaug. The Kraken. | d12 |
 
-**Trials.** Adept and above roll the Trial Base Die + the tier die of the attribute the trial calls for (a STR trial adds the STR tier die, a WIS trial adds the WIS tier die). The rank die works like a PC's skill die; the attribute die gives each creature its own strengths and weak points. Minions have no attribute array, so they roll the Trial Base Die (d2) + the creature's Tier die for every trial. Startle trials follow their own rule (AGI and PER tier dice, per Combat, Startle and Ambush).
+<span id="trials"></span>**Trials.** Adept and above roll the Trial Base Die + the tier die of the attribute the trial calls for (a STR trial adds the STR tier die, a WIS trial adds the WIS tier die). The rank die works like a PC's skill die; the attribute die gives each creature its own strengths and weak points. Minions have no attribute array, so they roll the Trial Base Die (d2) + the creature's Tier die for every trial. Startle trials follow their own rule (AGI and PER tier dice, per Combat, Startle and Ambush).
 
-**Rank as Narrative Role:**
+<span id="rank-as-narrative-role"></span>**Rank as Narrative Role:**
 Minion through Master tells the story of an organization. The Minion is the regular thief, the Adept is the most dangerous thief in a skirmish, the Leader is the local crime boss, the Champion is the Guild Master's favorite assassin, and the Master is the Guild Master himself. Epic is the ronin thief kicked out of the guild that no one fucks with. Legendary is the forgotten thief everyone thinks is dead — and when he shows up, the lackeys in the room can't touch him.
 
 ### Motivation
 
 Every creature wants something. Before building its numbers, decide what drives it, using the same three scales as character Motivations ([Mastery Core Classes](../characters/creating-a-character.md), [Motivations](../characters/creating-a-character.md#motivations)):
 
-- **Major:** its nature, what it is. A hunter wants to hunt. A collector wants to collect. A false form wants to be real.
-- **Moderate:** its current arc. What it has been doing in this region, or to these people, over weeks or months.
-- **Minor:** why it is here now. The scent it caught, the traveler it has its eye on.
+- <span id="major"></span>**Major:** its nature, what it is. A hunter wants to hunt. A collector wants to collect. A false form wants to be real.
+- <span id="moderate"></span>**Moderate:** its current arc. What it has been doing in this region, or to these people, over weeks or months.
+- <span id="minor"></span>**Minor:** why it is here now. The scent it caught, the traveler it has its eye on.
 
 Motivation decides behavior: when the creature fights, flees, talks, or bargains, and what would make it stop. Violence follows from motivation; it is not the default. A predator fights because hunting is what it is. A collector fights to keep what it has collected. Many creatures want something a party can give, refuse, or make not worth pursuing, and the fight comes when someone decides that killing it is simpler than understanding it.
 
@@ -153,8 +153,8 @@ Each classification has kingdoms that provide further specificity. The kingdom i
 
 Every classification carries one innate benefit and one innate cost. These are free — they do not come from the creature's ability slots or resistance budget. They are definitional: a fire elemental is immune to fire damage because it IS fire, not because it trained or evolved fire resistance.
 
-**Benefit:** Immune to [classification's primary damage type] damage.
-**Cost:** Impotence on trials vs [opposing force] damage.
+<span id="benefit"></span>**Benefit:** Immune to [classification's primary damage type] damage.
+<span id="cost"></span>**Cost:** Impotence on trials vs [opposing force] damage.
 
 The vulnerability is strictly about resisting damage, not resisting control effects. A zombie has Impotence on trials against Sacred damage — not against Sacred Enthrallment. A Cherub has Impotence on trials against Profane damage — not against Profane domination.
 
@@ -185,15 +185,15 @@ This creates meaningful tradeoffs. An undead Adept [Tainted](../core/conditions.
 
 Passive features that occupy ability slots include: condition immunities, elemental healing (e.g., Absorb Flame), special resistances (e.g., Incorporeal: Inferiority on attacks that deal mundane damage), creature healing (e.g., Mend), and magic damage on weapons (e.g., Flaming Blade). These are creature-specific or kingdom-specific, not classification-wide. If it goes beyond the free classification package, it costs a slot.
 
-**Free traits.** Senses and detection traits (e.g., Ambusher) do not occupy ability slots. Tag them `(no slot)`.
+<span id="free-traits"></span>**Free traits.** Senses and detection traits (e.g., Ambusher) do not occupy ability slots. Tag them `(no slot)`.
 
 ### Cross-Domain Conditions
 
 These are not kingdoms. They are statuses that can apply to any creature regardless of classification.
 
-- **Numen** — patron status. Powerful enough to grant magic to devotees.
-- **Gestalt** — transformed into a domain the creature did not originate from. Undead = Daeva Gestalt. Lycanthrope = Fae Gestalt. Features specific to the Gestalt type are noted on the stat block.
-- **Dragon** — cross-domain form. Individual dragons belong to different classifications based on nature.
+- <span id="numen"></span>**Numen** — patron status. Powerful enough to grant magic to devotees.
+- <span id="gestalt"></span>**Gestalt** — transformed into a domain the creature did not originate from. Undead = Daeva Gestalt. Lycanthrope = Fae Gestalt. Features specific to the Gestalt type are noted on the stat block.
+- <span id="dragon"></span>**Dragon** — cross-domain form. Individual dragons belong to different classifications based on nature.
 
 ---
 
@@ -215,19 +215,19 @@ Every creature has a resistance budget determined by **Tier × Rank × 5**, wher
 
 ### Damage Types
 
-**Mundane (5):** Cutting, Cleaving, Crushing, Piercing, Puncturing
+<span id="mundane"></span>**Mundane (5):** Cutting, Cleaving, Crushing, Piercing, Puncturing
 
-**Magical (8):** Fire, Sea, Sky, Stone, Void, Profane, Sacred, Primal
+<span id="magical"></span>**Magical (8):** Fire, Sea, Sky, Stone, Void, Profane, Sacred, Primal
 
 Resistance points are distributed across damage types during creature building. Distribution creates the creature's identity — a knight dumps points into mundane resistance (armor), a fire elemental concentrates on fire (near immunity) but has almost no sea resistance. The budget forces meaningful weaknesses; no creature can be resistant to everything.
 
 ### Resistance by Rank
 
-**Minions** spend their entire budget as flat Tier resistance across all 5 mundane types. No magical resistance.
+<span id="minions_1"></span>**Minions** spend their entire budget as flat Tier resistance across all 5 mundane types. No magical resistance.
 
-**Adepts and above** distribute resistance across damage types. For armored creatures, use piecemeal armor pieces from Equipment with resistance at or below the resistance budget (some creatures, like animals with barding, have base resistance that also is combined with armor resistance). Remaining budget (if any) can go to magical resistance or supplemental mundane resistance. For unarmored creatures (beasts, etc.), the full budget is distributed as natural resistance. Animals generally have high Crushing resistance (muscle/bone absorb blunt force) and lower Cutting resistance (blades slice through hide/flesh).
+<span id="adepts-and-above"></span>**Adepts and above** distribute resistance across damage types. For armored creatures, use piecemeal armor pieces from Equipment with resistance at or below the resistance budget (some creatures, like animals with barding, have base resistance that also is combined with armor resistance). Remaining budget (if any) can go to magical resistance or supplemental mundane resistance. For unarmored creatures (beasts, etc.), the full budget is distributed as natural resistance. Animals generally have high Crushing resistance (muscle/bone absorb blunt force) and lower Cutting resistance (blades slice through hide/flesh).
 
-**Vulnerability** (from classification package) is expressed as Impotence on trials vs the opposing damage type — not amplified damage, not negative resistance. A creature with 0 resistance to its opposing type takes unresisted damage AND has Impotence on trials against damage of that type. No negative resistance mechanic exists.
+<span id="vulnerability"></span>**Vulnerability** (from classification package) is expressed as Impotence on trials vs the opposing damage type — not amplified damage, not negative resistance. A creature with 0 resistance to its opposing type takes unresisted damage AND has Impotence on trials against damage of that type. No negative resistance mechanic exists.
 
 ---
 
@@ -247,7 +247,7 @@ The tier budget is a guideline for total attribute tiers across all 8 attributes
 
 Minions always total 8 (all T1). Mortal humanoids (humans, elves, etc.) cap individual attributes at T7. Non-humanoid creatures — beasts, giants, dragons, etc. — can exceed T7 per attribute, which naturally pushes their totals higher and into higher ranks. A bear is stronger than a human.
 
-**Exceptional attributes:** Epic creatures should have at least one attribute at T5+. Legendary creatures should have at least one at T6+.
+<span id="exceptional-attributes"></span>**Exceptional attributes:** Epic creatures should have at least one attribute at T5+. Legendary creatures should have at least one at T6+.
 
 ---
 
@@ -257,41 +257,41 @@ A creature reduced to 0 health dies. The GM may rule that a creature is captured
 
 ### Unarmored Health
 
-**Health = Endurance Score + (Division × Endurance TD) + DTD**
+<span id="health-endurance-score-dtd"></span>**Health = Endurance Score + (Division × Endurance TD) + DTD**
 
 Size adds +2 Endurance dice per size step (i.e., per +2 in the size attack bonus column).
 
 ### Armored Health
 
-**Health = (Division × Endurance TD) + Creature Tier**
+<span id="health-creature-tier"></span>**Health = (Division × Endurance TD) + Creature Tier**
 
 Size adds +2 Endurance dice per size step (i.e., per +2 in the size attack bonus column).
 
 No DTD, no Endurance Score. The Endurance Score and DTD are traded for armor durability at a 2:1 ratio.
 
-**Durability = 2 × (Endurance Score + average DTD − Creature Tier)**
+<span id="durability-2"></span>**Durability = 2 × (Endurance Score + average DTD − Creature Tier)**
 
 This is twice the gap between the creature's unarmored and armored Health. The Division and size dice cancel out, so the result is always a whole number.
 
-**Why armor trades Health for Durability.** Spells go directly to Health, and magan is finite. Weapons go through Durability first, and AP renews every round. An armored creature has low Health and high Durability: a caster can drop it quickly, while martials must grind through its armor. An unarmored creature has high Health: martials deal the damage, and casters spend several magan to make a dent. Armor decides which half of the party a creature is built to test. At higher Divisions the traded share of Health shrinks, so high-tier armored creatures survive a single spell while their Durability still taxes martials.
+<span id="why-armor-trades-health-for-durability"></span>**Why armor trades Health for Durability.** Spells go directly to Health, and magan is finite. Weapons go through Durability first, and AP renews every round. An armored creature has low Health and high Durability: a caster can drop it quickly, while martials must grind through its armor. An unarmored creature has high Health: martials deal the damage, and casters spend several magan to make a dent. Armor decides which half of the party a creature is built to test. At higher Divisions the traded share of Health shrinks, so high-tier armored creatures survive a single spell while their Durability still taxes martials.
 
-**Armor selection.** Choose armor from Equipment that meets two conditions:
+<span id="armor-selection"></span>**Armor selection.** Choose armor from Equipment that meets two conditions:
 
-1. **Its listed Durability is at or above the creature's Durability.** The formula value is how much Durability the armor has left. The armor's Durability in the equipment table is its maximum when undamaged. *Example:* A gambeson has 46 Durability undamaged. The Guard's formula value is 19, so the Guard's gambeson has 19 of 46 Durability remaining. An optional descriptor (Worn, Battered, Corroded, Ragged, Scavenged) is a narrative label for that damage, with no fixed reduction of its own. A worn gambeson is a gambeson: the same item with the same resistance, currently below its maximum Durability. Looted NPC armor keeps its current Durability and can be repaired up to its maximum like any other armor.
-2. **Its resistance is at or below the creature's resistance budget.** Remove pieces to bring it down (a byrnie without sleeves, barding without the crupper). Fill the rest of the budget with natural or magical resistance that fits the creature.
+1. <span id="its-listed-durability-is-at-or-above-the-creatures-durability"></span>**Its listed Durability is at or above the creature's Durability.** The formula value is how much Durability the armor has left. The armor's Durability in the equipment table is its maximum when undamaged. *Example:* A gambeson has 46 Durability undamaged. The Guard's formula value is 19, so the Guard's gambeson has 19 of 46 Durability remaining. An optional descriptor (Worn, Battered, Corroded, Ragged, Scavenged) is a narrative label for that damage, with no fixed reduction of its own. A worn gambeson is a gambeson: the same item with the same resistance, currently below its maximum Durability. Looted NPC armor keeps its current Durability and can be repaired up to its maximum like any other armor.
+2. <span id="its-resistance-is-at-or-below-the-creatures-resistance-budget"></span>**Its resistance is at or below the creature's resistance budget.** Remove pieces to bring it down (a byrnie without sleeves, barding without the crupper). Fill the rest of the budget with natural or magical resistance that fits the creature.
 
-**Build order.** Two approaches, depending on the creature:
+<span id="build-order"></span>**Build order.** Two approaches, depending on the creature:
 
-- **Creature-first:** start from the base creature's natural resistance, then add armor to fill the budget (war dogs, war horses).
-- **Armor-first:** choose the armor that fits the creature, then fill the rest of the budget to suit its nature (revenants, Warlord). A plain human carries almost no natural resistance, so the armor covers nearly all of the budget.
+- <span id="creature-first"></span>**Creature-first:** start from the base creature's natural resistance, then add armor to fill the budget (war dogs, war horses).
+- <span id="armor-first"></span>**Armor-first:** choose the armor that fits the creature, then fill the rest of the budget to suit its nature (revenants, Warlord). A plain human carries almost no natural resistance, so the armor covers nearly all of the budget.
 
-**Aketon.** Optional for NPCs. Scavenged and ill-fitting armor is often worn without one. PCs require an aketon per the equipment rules.
+<span id="aketon"></span>**Aketon.** Optional for NPCs. Scavenged and ill-fitting armor is often worn without one. PCs require an aketon per the equipment rules.
 
 ---
 
 ## Attack
 
-**Attack = DTD + Attribute TD + Size Bonus**
+<span id="attack-dtd-attribute-td-size-bonus"></span>**Attack = DTD + Attribute TD + Size Bonus**
 
 Wielded weapons use their category's attribute and speed from the Weapon Mastery table (Light weapons and bows PHY; Versatile, Heavy One-Handed, Two-Handed and Heavy Thrown STR; crossbows PER). Natural weapons use the higher of STR or PHY. Ranged attacks still require an Aiming Trial. Size bonus is determined by total squares occupied: ½sq = 0, 1sq = 0, 2sq = +2, 4sq = +4, 6sq = +6, 9+ = +8. Small creatures (½sq) receive no size penalty — their attributes already reflect their physical capability. Apply weapon style step (see Weapon Styles) during building, then write final dice into stat block. Attack dice explode on max roll (d2s never explode).
 
@@ -301,7 +301,7 @@ Phase is determined by the weapon and listed on the attack line. Abilities inher
 
 ## Defense
 
-**Defense = DTD + Attribute TD (per weapon type) + applicable Resistance**
+<span id="defense-dtd-attribute-td-applicable-resistance"></span>**Defense = DTD + Attribute TD (per weapon type) + applicable Resistance**
 
 With a wielded weapon, defense uses that weapon's attribute. With natural weapons, defense uses the higher of AGI or PHY. A creature whose natural weapons serve different functions (the Constrictor's precision bite and power squeeze) may use the attribute that fits each; flag it in the stat block. Must have a melee weapon equipped (unarmed counts if proficient). Apply weapon style step (see Weapon Styles) during building, then write final dice into stat block. Defense dice explode on max roll (d2s never explode). Must spend 1 AP to defend. If not defended, damage applies to armor durability first, then health.
 
@@ -324,11 +324,11 @@ Minions are d2 creatures. Everything they roll is d2, regardless of Tier, and d2
 | AP | 2 (shared across the group) |
 | Abilities | One Mob trait (no slot), plus the classification package |
 
-**Creature Tier as attribute tier.** Wherever a rule calls for a minion's attribute tier ([Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") damage, for example), use its Creature Tier.
+<span id="creature-tier-as-attribute-tier"></span>**Creature Tier as attribute tier.** Wherever a rule calls for a minion's attribute tier ([Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") damage, for example), use its Creature Tier.
 
-**Groups.** A group of minions is one creature: one token, one set of 2 AP, one trial against any effect.
+<span id="groups"></span>**Groups.** A group of minions is one creature: one token, one set of 2 AP, one trial against any effect.
 
-**Size.** A group's footprint is its heads' footprints combined. The footprint sets the space the group occupies and its size for effects that check size. The group's size modifiers come from a single head: apply that creature's attack, defense and speed modifiers once to each roll or move. Minions never gain size Health dice; each head has 1 Health.
+<span id="size_1"></span>**Size.** A group's footprint is its heads' footprints combined. The footprint sets the space the group occupies and its size for effects that check size. The group's size modifiers come from a single head: apply that creature's attack, defense and speed modifiers once to each roll or move. Minions never gain size Health dice; each head has 1 Health.
 
 | Group | Heads | Band Bonus | Encounter Role |
 |:---|:---:|:---:|:---|
@@ -338,30 +338,30 @@ Minions are d2 creatures. Everything they roll is d2, regardless of Tier, and d2
 
 The band is read at the group's current heads: a Swarm cut to 15 heads is a Brood. Below 4 heads, the band bonus is +0. Group labels also set XP and encounter difficulty. Minions are rarely fielded alone; their traits compound with the other enemies on the field.
 
-**Attack and defense.** Each group attack rolls 1d2 per current head against one target, and the group's two attacks may target different creatures. Defense rolls 1d2 per current head, and Resistance is added once to the roll.
+<span id="attack-and-defense"></span>**Attack and defense.** Each group attack rolls 1d2 per current head against one target, and the group's two attacks may target different creatures. Defense rolls 1d2 per current head, and Resistance is added once to the roll.
 
-**Enveloping.** A group flanks a target when its heads occupy squares on opposite sides of that target. It gains the flanking bonus (+2) on its attacks against that target, one attack per AP, as normal. A group never occupies its target's square.
+<span id="enveloping"></span>**Enveloping.** A group flanks a target when its heads occupy squares on opposite sides of that target. It gains the flanking bonus (+2) on its attacks against that target, one attack per AP, as normal. A group never occupies its target's square.
 
-**Killing heads.** Each head has 1 Health. When damage gets through:
+<span id="killing-heads"></span>**Killing heads.** Each head has 1 Health. When damage gets through:
 
-- **Melee attacks and spells** (at any range) remove one head per kept damage die. Dice added by explosions count; dropped dice do not. Heads removed cannot exceed the net damage dealt.
-- **Ranged weapon attacks** (projectile and thrown) remove one head per hit. An effect that hits several targets removes one head per target hit.
-- **[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")** removes one head per instance, whatever its damage.
+- <span id="melee-attacks-and-spells"></span>**Melee attacks and spells** (at any range) remove one head per kept damage die. Dice added by explosions count; dropped dice do not. Heads removed cannot exceed the net damage dealt.
+- <span id="ranged-weapon-attacks"></span>**Ranged weapon attacks** (projectile and thrown) remove one head per hit. An effect that hits several targets removes one head per target hit.
+- <span id="attrition"></span>**[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")** removes one head per instance, whatever its damage.
 
-**Firing into a group.** Aiming Trials against a minion group have their difficulty reduced by 2. A roll of 1 still misses.
+<span id="firing-into-a-group"></span>**Firing into a group.** Aiming Trials against a minion group have their difficulty reduced by 2. A roll of 1 still misses.
 
-**Area effects.** Any area of effect spell or ability that inflicts a condition (including auras and effects that reach every creature within a range) must include at least half of the group's current footprint to apply the condition to the group. Area of effect spells or abilities that inflict damage still inflict damage normally, regardless of how much of the group the area covers, as determined by the GM.
+<span id="area-effects"></span>**Area effects.** Any area of effect spell or ability that inflicts a condition (including auras and effects that reach every creature within a range) must include at least half of the group's current footprint to apply the condition to the group. Area of effect spells or abilities that inflict damage still inflict damage normally, regardless of how much of the group the area covers, as determined by the GM.
 
-**Single-target effects.** An effect aimed at one creature applies only its damage to a group. Its conditions and forced movement have no effect.
+<span id="single-target-effects"></span>**Single-target effects.** An effect aimed at one creature applies only its damage to a group. Its conditions and forced movement have no effect.
 
-**A group of one.** A single minion is a creature like any other: Aiming Trials against it take no reduction, and effects aimed at it apply in full, including conditions and forced movement. The other group rules apply at any head count; the band bonus starts at 4.
+<span id="a-group-of-one"></span>**A group of one.** A single minion is a creature like any other: Aiming Trials against it take no reduction, and effects aimed at it apply in full, including conditions and forced movement. The other group rules apply at any head count; the band bonus starts at 4.
 
-**Mob traits.** Every minion has one Mob trait, (no slot): what the mob does beyond its damage. A trait usually triggers when the group deals damage (venom, rot, bleeding). A trait whose effect reaches the senses (a sound, a sight, a smell) can trigger on presence instead: a creature that starts its turn within range of the group and can perceive it makes the trial. Mob trait DC = Creature Tier + band bonus.
+<span id="mob-traits"></span>**Mob traits.** Every minion has one Mob trait, (no slot): what the mob does beyond its damage. A trait usually triggers when the group deals damage (venom, rot, bleeding). A trait whose effect reaches the senses (a sound, a sight, a smell) can trigger on presence instead: a creature that starts its turn within range of the group and can perceive it makes the trial. Mob trait DC = Creature Tier + band bonus.
 
 - A Mob trait cannot advance a chained condition past the minion's Creature Tier. From Tier 3, the full chain is available.
 - A simple condition of [T2] or higher unlocks one Tier above its bracket: [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") at Tier 3, [Blinded](../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") at Tier 4.
 
-**Stat block.** Each minion lists its per-head stats, a band table (Cluster 6, Brood 12, Swarm 16 by default) giving Heads, Health, Attack, Defense and Mob DC, and its Mob trait with the DC written out for each band.
+<span id="stat-block"></span>**Stat block.** Each minion lists its per-head stats, a band table (Cluster 6, Brood 12, Swarm 16 by default) giving Heads, Health, Attack, Defense and Mob DC, and its Mob trait with the DC written out for each band.
 
 ### Adepts
 
@@ -389,7 +389,7 @@ Same stat formulas as Adepts, except:
 | AP | 2 |
 | Abilities | 2-3. Must include a buff ability. |
 
-**Leader Buff (2 AP, Action):** Apply Tier 1 positive condition ([Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), etc.) to allies in range. Lasts 1 round. Can be reapplied each round to stack tiers (Tier 3 max after 3 consecutive rounds). The 2 AP cost means the Leader does nothing else that round. Counter-play: negative conditions cancel positive tier-for-tier, or pressure the Leader to force it to defend instead of buff.
+<span id="leader-buff"></span>**Leader Buff (2 AP, Action):** Apply Tier 1 positive condition ([Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), etc.) to allies in range. Lasts 1 round. Can be reapplied each round to stack tiers (Tier 3 max after 3 consecutive rounds). The 2 AP cost means the Leader does nothing else that round. Counter-play: negative conditions cancel positive tier-for-tier, or pressure the Leader to force it to defend instead of buff.
 
 ### Champions
 
@@ -412,10 +412,10 @@ Same stat formulas as Adepts, except:
 | AP | 3 (max 2 attacks) |
 | Abilities | 4. Personal combat + buff ability + signature ability. |
 
-**Master 1/Encounter Ability (2 AP, Action):** Masters get ONE ability that exceeds standard duration limits, usable once per encounter. Two variants:
+<span id="master-1encounter-ability"></span>**Master 1/Encounter Ability (2 AP, Action):** Masters get ONE ability that exceeds standard duration limits, usable once per encounter. Two variants:
 
-- **Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Front-loaded burst that fades.
-- **Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering buff.
+- <span id="deteriorating"></span>**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Front-loaded burst that fades.
+- <span id="persistent"></span>**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering buff.
 
 Standard Leader-style buffs (2 AP, 1-round duration, stackable) are also available — the 1/encounter ability is in addition to, not instead of.
 
@@ -454,7 +454,7 @@ Same stat formulas as Adepts, except:
 | Epic | 4 (2/phase) | 2/phase | 2 of 3 | Solo viable, creature-specific abilities |
 | Legendary | 6 (2/phase) | 2/phase | All 3 | Hand-crafted, degree-of-failure mechanics |
 
-**Phase AP (Epic and Legendary):** Rather than a single pool of AP per round, Epic and Legendary creatures get 2 AP per combat phase they are active in. This spreads their actions across the round, preventing alpha-strikes while giving them the total AP needed to compete with a full party. The party gets to act between phases, creating back-and-forth interplay.
+<span id="phase-ap"></span>**Phase AP (Epic and Legendary):** Rather than a single pool of AP per round, Epic and Legendary creatures get 2 AP per combat phase they are active in. This spreads their actions across the round, preventing alpha-strikes while giving them the total AP needed to compete with a full party. The party gets to act between phases, creating back-and-forth interplay.
 
 ---
 
@@ -462,9 +462,9 @@ Same stat formulas as Adepts, except:
 
 Size is defined by two independent values on the stat block:
 
-**Footprint** — the grid squares the creature occupies (e.g., 1×1, 2×1, 3×2). Shape matters: a 4×1 giant snake and a 2×2 spider have the same total squares but different tactical profiles. The snake fits through a corridor the spider can't.
+<span id="footprint"></span>**Footprint** — the grid squares the creature occupies (e.g., 1×1, 2×1, 3×2). Shape matters: a 4×1 giant snake and a 2×2 spider have the same total squares but different tactical profiles. The snake fits through a corridor the spider can't.
 
-**Reach** — how far the creature threatens (5 ft default, increases with height/limb length). Noted per creature.
+<span id="reach"></span>**Reach** — how far the creature threatens (5 ft default, increases with height/limb length). Noted per creature.
 
 Total squares determine mechanical bonuses:
 
@@ -479,26 +479,26 @@ Total squares determine mechanical bonuses:
 
 Small creatures (½sq) have no penalty to attack or health — their attributes already reflect their physical capability. The -1 speed is offset by +1 defense (small = harder to hit). Size attack bonus for larger creatures is flat (no extra dice, no explosion cascade). Size benefits (more health, more damage, more speed) are offset by tactical costs — larger footprints expose more sides for enemies to engage, stretching AP thin on defense. Larger creatures also have difficulty navigating tight spaces.
 
-**Size names.** Each row's name is used wherever a rule refers to size. "One size larger" means one row up the table.
+<span id="size-names"></span>**Size names.** Each row's name is used wherever a rule refers to size. "One size larger" means one row up the table.
 
-**PCs.** Every PC occupies 1 square. Gnomes and halflings are Small; all other PCs are Average. PCs use their size for size checks (maneuver size limits, effects that name a size); the table's modifiers are for creatures, and PCs take their size effects from their own traits.
+<span id="pcs"></span>**PCs.** Every PC occupies 1 square. Gnomes and halflings are Small; all other PCs are Average. PCs use their size for size checks (maneuver size limits, effects that name a size); the table's modifiers are for creatures, and PCs take their size effects from their own traits.
 
 ---
 
 ## Speed
 
-**Speed = 3 + AGI Tier + Size Modifier + Locomotion**
+<span id="speed-3-agi-tier-size-modifier-locomotion"></span>**Speed = 3 + AGI Tier + Size Modifier + Locomotion**
 
 Each point of speed = 1 square = 5 feet per AP spent on movement. Consecutive movement actions increase speed by half (rounded down).
 
-**Size Modifier** comes from the Size table (based on total squares).
+<span id="size-modifier"></span>**Size Modifier** comes from the Size table (based on total squares).
 
-**Locomotion:** +4 for the creature's qualifying movement mode. The bonus is tied to the movement type, not the creature — a creature that qualifies for +4 in one mode does not automatically get it in another.
+<span id="locomotion"></span>**Locomotion:** +4 for the creature's qualifying movement mode. The bonus is tied to the movement type, not the creature — a creature that qualifies for +4 in one mode does not automatically get it in another.
 
-- **Quadruped (+4 land):** Creatures with 4+ legs built for running. Applies to wolves, horses, deer, cats, etc. Does NOT apply to belly-crawlers (crocodiles, lizards, turtles) — their legs are not built for speed.
-- **Flying (+4 fly):** Creatures with wings. Applies to fly speed only. Birds on the ground use base speed (3 + Size) — AGI reflects aerial agility, not ground mobility. Most flyers don't need a land speed entry; if grounded, assume base 3 (15 ft).
-- **Swimming (+4 swim):** Aquatic creatures in water. Applies to swim speed only. A crocodile gets +4 swimming but not on land.
-- **Burrowing:** Half of the creature's land speed.
+- <span id="quadruped"></span>**Quadruped (+4 land):** Creatures with 4+ legs built for running. Applies to wolves, horses, deer, cats, etc. Does NOT apply to belly-crawlers (crocodiles, lizards, turtles) — their legs are not built for speed.
+- <span id="flying"></span>**Flying (+4 fly):** Creatures with wings. Applies to fly speed only. Birds on the ground use base speed (3 + Size) — AGI reflects aerial agility, not ground mobility. Most flyers don't need a land speed entry; if grounded, assume base 3 (15 ft).
+- <span id="swimming"></span>**Swimming (+4 swim):** Aquatic creatures in water. Applies to swim speed only. A crocodile gets +4 swimming but not on land.
+- <span id="burrowing"></span>**Burrowing:** Half of the creature's land speed.
 
 Creatures with multiple qualifying modes calculate each separately. A dragon with functional running legs AND wings gets +4 to both land and fly speed. A crocodile gets +4 to swim but 0 to land.
 
@@ -520,4 +520,4 @@ When a creature has meaningfully different speeds, list both: `Speed | 11 (55 ft
 
 Outlier creatures (Quicklings, magically fast creatures, etc.) override the formula with a flat speed value.
 
-**Senses:** Noted per creature on the stat block. Common senses include scotopic sight (within 200 ft, creatures in ambient light are not [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from it; within 20 ft, neither are creatures in absolute darkness, seen in grayscale; while it stands in light, it loses the benefit in absolute darkness), crepuscular sight (within 200 ft, creatures in ambient light are not Concealed from it), scent (Dominance on smell-based PER trials), keen sight (Dominance on sight-based PER trials; raptors), seismic sense (vibration detection through ground/web).
+<span id="senses"></span>**Senses:** Noted per creature on the stat block. Common senses include scotopic sight (within 200 ft, creatures in ambient light are not [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from it; within 20 ft, neither are creatures in absolute darkness, seen in grayscale; while it stands in light, it loses the benefit in absolute darkness), crepuscular sight (within 200 ft, creatures in ambient light are not Concealed from it), scent (Dominance on smell-based PER trials), keen sight (Dominance on sight-based PER trials; raptors), seismic sense (vibration detection through ground/web).

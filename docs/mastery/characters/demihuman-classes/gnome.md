@@ -49,24 +49,24 @@ She is a gnome. A demihuman thought to be myth by most, and not thought of at al
 
 ## Gnome Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Noldor, a Fifth Level Gnome," you should say "I'm Noldor, the Learner."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Noldor, a Fifth Level Gnome," you should say "I'm Noldor, the Learner."
 
-**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Gnome, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Lore](../../skills/lore.md)* as part of the *Gnosis* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
-**Spell Mastery**. At first level, you begin with 3 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
+<span id="spell-mastery"></span>**Spell Mastery**. At first level, you begin with 3 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
 * As a gnome, you can learn *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, and *[Stone](../../magic/index.md#stone)* magic and may choose either *[Primal](../../magic/index.md#primal)* or *[Void](../../magic/index.md#void)* magic, but may not learn both.
 * You gain 1 Spell Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
-**Weapon Mastery**. At first level, you begin with 2 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 2 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 * You can obtain Expert mastery with a gnome.
@@ -81,11 +81,11 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 
 ### Gnomic Nature
 
-**Small.** Your small size makes it hard for larger creatures to hit you. You have dominance on defense rolls against creatures large or larger.
+<span id="small"></span>**Small.** Your small size makes it hard for larger creatures to hit you. You have dominance on defense rolls against creatures large or larger.
 
-**Scotopic Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
+<span id="scotopic-sight"></span>**Scotopic Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
 
-**Gnosis.** You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+<span id="gnosis"></span>**Gnosis.** You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Priscan Magic
 
@@ -97,9 +97,9 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Perception Tier (maximum 14).
 
-**Training.** You are trained by an elder gnome of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
+<span id="training"></span>**Training.** You are trained by an elder gnome of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor teaches you two spells. When you first reach Basic mastery in any form, your mentor teaches you an additional spell. When you first reach Skilled mastery in any form, your mentor teaches you a final spell.
 
-**Spell Acquisition.** You can also learn spells independently by sensing fonts of priscan magic. You observe the font and record initial impressions, then document your findings in your compendium, expending magan² ss in experimental materials. Internalizing a spell takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
+<span id="spell-acquisition"></span>**Spell Acquisition.** You can also learn spells independently by sensing fonts of priscan magic. You observe the font and record initial impressions, then document your findings in your compendium, expending magan² ss in experimental materials. Internalizing a spell takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 #### Compendium
 

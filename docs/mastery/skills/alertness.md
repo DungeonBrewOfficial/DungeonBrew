@@ -14,21 +14,21 @@ At Skilled, you begin choosing Awareness Abilities. At each mastery level from S
 
 ## Mastery Progression
 
-**Untrained: Danger Sense + Secret Doors + Discernment**
+<span id="untrained-danger-sense-secret-doors-discernment"></span>**Untrained: Danger Sense + Secret Doors + Discernment**
 
-**Danger Sense:** Spot environmental hazards, traps, and ambushes. Listen at doors, windows, or thin walls for faint noises. Notice changes in your surroundings. You must be in quiet conditions to hear through barriers. When you are ambushed, roll a Perception trial against the ambush's DC as it is sprung; on a success, you make no Startle trial. While you sleep, you still roll to notice danger, with Impotence; on a success, you wake before it reaches you.
+<span id="danger-sense"></span>**Danger Sense:** Spot environmental hazards, traps, and ambushes. Listen at doors, windows, or thin walls for faint noises. Notice changes in your surroundings. You must be in quiet conditions to hear through barriers. When you are ambushed, roll a Perception trial against the ambush's DC as it is sprung; on a success, you make no Startle trial. While you sleep, you still roll to notice danger, with Impotence; on a success, you wake before it reaches you.
 
-**Secret Doors:** Find hidden passages, concealed compartments, and secret mechanisms with Perception + Alertness trials against a DC the GM sets.
+<span id="secret-doors"></span>**Secret Doors:** Find hidden passages, concealed compartments, and secret mechanisms with Perception + Alertness trials against a DC the GM sets.
 
-**Discernment:** Read people through careful observation of behavior, body language, and reactions, with a Perception + Alertness trial against a DC the GM sets. A target who is hiding their thoughts or lying to you sets the DC instead: you roll a Perception trial against their Presence Mastery DC. Discernment counters Stoic and Deceit.
+<span id="discernment"></span>**Discernment:** Read people through careful observation of behavior, body language, and reactions, with a Perception + Alertness trial against a DC the GM sets. A target who is hiding their thoughts or lying to you sets the DC instead: you roll a Perception trial against their Presence Mastery DC. Discernment counters Stoic and Deceit.
 
-**Basic: Stalking + Treasure Sense**
+<span id="basic-stalking-treasure-sense"></span>**Basic: Stalking + Treasure Sense**
 
-**Stalking:** Notice and follow the signs of something's passing: prints in a ruin's dust, a snapped fern, a face in a crowd, someone slipping down an alley ahead of you. Stalking is a Perception + Alertness trial against a DC the GM sets, by how old the trail is and how much has crossed it. If you know your quarry, the GM may grant Dominance or a similar bonus, such as through the applicable Creature Lore for monsters, Wilderness (Hunting and Foraging) for beasts, or Thievery (Savvy) or Lore (Cultural Lore) for people. A person trying to lose you uses Sneaking, and Stalking counters it.
+<span id="stalking"></span>**Stalking:** Notice and follow the signs of something's passing: prints in a ruin's dust, a snapped fern, a face in a crowd, someone slipping down an alley ahead of you. Stalking is a Perception + Alertness trial against a DC the GM sets, by how old the trail is and how much has crossed it. If you know your quarry, the GM may grant Dominance or a similar bonus, such as through the applicable Creature Lore for monsters, Wilderness (Hunting and Foraging) for beasts, or Thievery (Savvy) or Lore (Cultural Lore) for people. A person trying to lose you uses Sneaking, and Stalking counters it.
 
-**Treasure Sense:** A feel for where valuables hide: coins sewn into a lining, a gem in a cushion, a false bottom in a chest, and sometimes a sense that something precious is near. Searching is a Perception + Alertness trial against a DC the GM sets, by how well the item is hidden and how far away it is.
+<span id="treasure-sense"></span>**Treasure Sense:** A feel for where valuables hide: coins sewn into a lining, a gem in a cushion, a false bottom in a chest, and sometimes a sense that something precious is near. Searching is a Perception + Alertness trial against a DC the GM sets, by how well the item is hidden and how far away it is.
 
-**Skilled: Awareness Ability (choose one)**
+<span id="skilled-awareness-ability"></span>**Skilled: Awareness Ability (choose one)**
 Choose one of the following. Unchosen abilities become available at Expert, Master, and Grand Master.
 
 ### Ethereal Sight
@@ -47,11 +47,11 @@ Creatures gain no benefit from flanking you while you are not [Helpless](../core
 
 You can use your Perception tier to modify armor resistance instead of Agility while not [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials."). If you are already using Agility, you gain +2 to armor resistance instead.
 
-**Expert: Awareness Ability**
+<span id="expert-awareness-ability"></span>**Expert: Awareness Ability**
 Choose one of the remaining Awareness Abilities you have not yet selected.
 
-**Master: Awareness Ability**
+<span id="master-awareness-ability"></span>**Master: Awareness Ability**
 Choose one of the remaining Awareness Abilities you have not yet selected.
 
-**Grand Master: Awareness Ability**
+<span id="grand-master-awareness-ability"></span>**Grand Master: Awareness Ability**
 You gain the remaining Awareness Ability.

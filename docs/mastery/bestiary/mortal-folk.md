@@ -34,9 +34,9 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Brood | 12 | 12 | 12d2 | 12d2 + 1 | 5 |
 | Swarm | 16 | 16 | 16d2 | 16d2 + 1 | 7 |
 
-**Mob:**
+<span id="mob"></span>**Mob:**
 
-***Cudgel*** *(Mob, no slot).* When the group deals damage, the target must succeed on a PER trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier (max Tier 1).
+<span id="cudgel"></span>***Cudgel*** *(Mob, no slot).* When the group deals damage, the target must succeed on a PER trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier (max Tier 1).
 
 ---
 
@@ -44,15 +44,15 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 2, Tier 1, Adept. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 4 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 6 (T2, d3) | 6 (T2, d3) | 4 (T1, d2) | 4 (T1, d2) | 8 (T2, d3) |
 
-**Tier Budget:** 1+3+2+2+2+1+1+2 = 14. Budget for T1 Adept = 12. Over (+2).
+<span id="tier-budget"></span>**Tier Budget:** 1+3+2+2+2+1+1+2 = 14. Budget for T1 Adept = 12. Over (+2).
 
-**Armor:** Scavenged Jack of Plate (hauberk + greaves and cuisses, no aketon) (Cut 4, Crush 2, Cleave 2, Pierce 1, Puncture 1 = 10 total)
+<span id="armor"></span>**Armor:** Scavenged Jack of Plate (hauberk + greaves and cuisses, no aketon) (Cut 4, Crush 2, Cleave 2, Pierce 1, Puncture 1 = 10 total)
 
 | Stat | Value |
 |:---|:---|
@@ -68,9 +68,9 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities"></span>**Abilities:**
 
-***Low Cut*** *(1 AP, Attack. Ability slot 1).* On a hit with a great knife attack, with Inferiority, the target must succeed on a STR trial [3] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+<span id="low-cut"></span>***Low Cut*** *(1 AP, Attack. Ability slot 1).* On a hit with a great knife attack, with Inferiority, the target must succeed on a STR trial [3] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
 > **Note:** Armor piecemeal'd to budget. Jack of Plate Hauberk (7) + Greaves/Cuisses (3) = 10 = T1 Adept budget. Listed Durability 38; "Scavenged" brings it to the formula value of 14. Taken from a better-equipped victim; strong against blades, weak against arrows.
 
@@ -80,17 +80,17 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 3, Tier 1, Leader. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_1"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 4 (T1, d2) | 13 (T3, d4) | 12 (T3, d4) | 8 (T2, d3) | 4 (T1, d2) | 4 (T1, d2) | 13 (T3, d4) | 8 (T2, d3) |
 
-**Tier Budget:** 1+3+3+2+1+1+3+2 = 16. Budget for T1 Leader = 14. Over (+2).
+<span id="tier-budget_1"></span>**Tier Budget:** 1+3+3+2+1+1+3+2 = 16. Budget for T1 Leader = 14. Over (+2).
 
 > **Note:** Over by 2. Deliberate — PHY, AGI, and CHA are the character's identity (mobile dart-thrower, charismatic leader). STR, INT, WIS dumped to T1.
 
-**Armor:** Piecemeal Hide — Aketon + Hide Hauberk + Hide Greaves/Cuisses (Cut 1, Crush 3, Cleave 2, Pierce 5, Puncture 4 = 15 total)
+<span id="armor_1"></span>**Armor:** Piecemeal Hide — Aketon + Hide Hauberk + Hide Greaves/Cuisses (Cut 1, Crush 3, Cleave 2, Pierce 5, Puncture 4 = 15 total)
 
 > **Note:** Hide Coif removed to hit T1 Leader budget (15). No head protection.
 
@@ -109,11 +109,11 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_1"></span>**Abilities:**
 
-***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the bandit leader takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
+<span id="riposte"></span>***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the bandit leader takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
 
-***Rally*** *(2 AP, Action. Ability slot 2).* The bandit leader shouts encouragement, All allied bandits within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+<span id="rally"></span>***Rally*** *(2 AP, Action. Ability slot 2).* The bandit leader shouts encouragement, All allied bandits within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 ---
 
@@ -121,13 +121,13 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 2, Tier 1, Adept. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_2"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 4 (T1, d2) | 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 4 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
 
-**Armor:** Ragged Gambeson (hauberk + greaves and cuisses)
+<span id="armor_2"></span>**Armor:** Ragged Gambeson (hauberk + greaves and cuisses)
 
 | Stat | Value |
 |:---|:---|
@@ -143,9 +143,9 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_2"></span>**Abilities:**
 
-***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the thug takes no damage from a melee attack, it can counter-attack with a bonus of +2 to the attack roll.
+<span id="riposte_1"></span>***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the thug takes no damage from a melee attack, it can counter-attack with a bonus of +2 to the attack roll.
 
 ---
 
@@ -174,9 +174,9 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Brood | 12 | 12 | 12d2 | 12d2 + 2 | 6 |
 | Swarm | 16 | 16 | 16d2 | 16d2 + 2 | 8 |
 
-**Mob:**
+<span id="mob_1"></span>**Mob:**
 
-***Pitchforks and Hooks*** *(Mob, no slot).* When the group deals damage, the target must succeed on a STR trial [Cluster 4 / Brood 6 / Swarm 8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier (max Tier 2).
+<span id="pitchforks-and-hooks"></span>***Pitchforks and Hooks*** *(Mob, no slot).* When the group deals damage, the target must succeed on a STR trial [Cluster 4 / Brood 6 / Swarm 8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier (max Tier 2).
 
 > **Note:** Militia are peasants with spears, the most basic armed force a lord can muster. Minion rules apply: d2 everything, flat resistance.
 
@@ -186,17 +186,17 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 3, Tier 2, Adept. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_3"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 16 (T4, d6) | 8 (T2, d3) | 9 (T2, d3) | 9 (T2, d3) | 6 (T2, d3) | 8 (T2, d3) | 6 (T2, d3) | 9 (T2, d3) |
 
-**Tier Budget:** 4+2+2+2+2+2+2+2 = 18. Budget for T2 Adept = 18. ✓
+<span id="tier-budget_2"></span>**Tier Budget:** 4+2+2+2+2+2+2+2 = 18. Budget for T2 Adept = 18. ✓
 
-**Armor:** Gambeson Padded Armor (Cut 3, Crush 6, Cleave 3, Pierce 6, Puncture 2 = 20 total)
+<span id="armor_3"></span>**Armor:** Gambeson Padded Armor (Cut 3, Crush 6, Cleave 3, Pierce 6, Puncture 2 = 20 total)
 
-**Shield:** Damaged Kite (Durability 12 / 24)
+<span id="shield"></span>**Shield:** Damaged Kite (Durability 12 / 24)
 
 | Stat | Value |
 |:---|:---|
@@ -218,9 +218,9 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_3"></span>**Abilities:**
 
-***Set Spear*** *(1 AP, Reaction. Ability slot 1).* When a creature uses movement to enter the guard's reach, the guard makes a spear attack. If the guard deals damage, the creature's movement ends. If the creature is using the Charge maneuver, the attack gains Superiority. If the attack deals damage to a charging creature, the charge is interrupted and the creature cannot complete its attack.
+<span id="set-spear"></span>***Set Spear*** *(1 AP, Reaction. Ability slot 1).* When a creature uses movement to enter the guard's reach, the guard makes a spear attack. If the guard deals damage, the creature's movement ends. If the creature is using the Charge maneuver, the attack gains Superiority. If the attack deals damage to a charging creature, the charge is interrupted and the creature cannot complete its attack.
 
 > **Note:** The spare attribute tier (budget 17→18) went to STR, the spear's attribute in every grip (Versatile and Heavy Thrown both use STR). STR and PHY swapped 2026-10-03 when NPC weapons moved to the Weapon Mastery category table.
 
@@ -230,17 +230,17 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 4, Tier 2, Leader. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_4"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 11 (T3, d4) | 8 (T2, d3) | 12 (T3, d4) | 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 9 (T2, d3) | 8 (T2, d3) |
 
-**Tier Budget:** 3+2+3+3+2+2+2+2 = 19. Budget for T2 Leader = 20. Close (-1). ✓
+<span id="tier-budget_3"></span>**Tier Budget:** 3+2+3+3+2+2+2+2 = 19. Budget for T2 Leader = 20. Close (-1). ✓
 
-**Armor:** Piecemeal Chain — Aketon + Chain Haubergeon + Chain Chausses/Sabatons + Chain Sleeves/Mittens (Cut 10, Crush 4, Cleave 5, Pierce 5, Puncture 6 = 30 total)
+<span id="armor_4"></span>**Armor:** Piecemeal Chain — Aketon + Chain Haubergeon + Chain Chausses/Sabatons + Chain Sleeves/Mittens (Cut 10, Crush 4, Cleave 5, Pierce 5, Puncture 6 = 30 total)
 
-**Shield:** Damaged Kite (Durability 12 / 24)
+<span id="shield_1"></span>**Shield:** Damaged Kite (Durability 12 / 24)
 
 | Stat | Value |
 |:---|:---|
@@ -262,11 +262,11 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 > **Note:** Removing the kite shield costs 1 AP (strapped). The sergeant's phase is Slow in both Shield and Single styles. Swapping to Two-Handed changes phase to Moderate but costs 1 AP to remove the shield, leaving 1 AP to act.
 
-**Abilities:**
+<span id="abilities_4"></span>**Abilities:**
 
-***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the sergeant takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
+<span id="riposte_2"></span>***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the sergeant takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
 
-***Command*** *(2 AP, Action. Ability slot 2).* The sergeant shouts orders, All allied soldiers within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+<span id="command"></span>***Command*** *(2 AP, Action. Ability slot 2).* The sergeant shouts orders, All allied soldiers within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 > **Note:** The sergeant has three combat styles via the longsword's Versatile property: Shield (defensive wall), Single (balanced), Two-Handed (aggressive). The kite shield is strapped — removing it costs 1 AP, which is the sergeant's entire offensive budget on a 2 AP creature. The sergeant most likely picks a style at encounter start and stays there.
 
@@ -276,17 +276,17 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 5, Tier 2, Champion. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_5"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 13 (T3, d4) | 9 (T2, d3) | 13 (T3, d4) | 12 (T3, d4) | 9 (T2, d3) | 8 (T2, d3) | 11 (T3, d4) | 8 (T2, d3) |
 
-**Tier Budget:** 3+2+3+3+2+2+3+2 = 20. Budget for T2 Champion = 22. Close (-2). ✓
+<span id="tier-budget_4"></span>**Tier Budget:** 3+2+3+3+2+2+3+2 = 20. Budget for T2 Champion = 22. Close (-2). ✓
 
-**Armor:** Brigandine (Cut 9, Crush 9, Cleave 9, Pierce 7, Puncture 6 = 40 total)
+<span id="armor_5"></span>**Armor:** Brigandine (Cut 9, Crush 9, Cleave 9, Pierce 7, Puncture 6 = 40 total)
 
-**Shield:** Damaged Heater (Durability 9 / 18)
+<span id="shield_2"></span>**Shield:** Damaged Heater (Durability 9 / 18)
 
 > **Note:** Renamed from "Knight" to "Knight-Servile" per the Knight class title progression. T2 Champion = Knight-Servile (a trained knight still in service). Brigandine fits this station.
 
@@ -310,15 +310,15 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 > **Note:** Removing the heater shield costs 1 AP (strapped). The knight has 3 AP, so removing the shield still leaves 2 AP to act. Phase is Slow in both Shield and Single styles, Moderate in Two-Handed.
 
-**Abilities:**
+<span id="abilities_5"></span>**Abilities:**
 
-***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the knight takes no damage from a melee attack, it can counter-attack with a bonus of +4 to the attack roll.
+<span id="riposte_3"></span>***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the knight takes no damage from a melee attack, it can counter-attack with a bonus of +4 to the attack roll.
 
-***Intercept*** *(1 AP, Reaction. Ability slot 2).* When an enemy attacks an ally within 5 feet of the knight, the knight becomes the target of the attack instead. Gains Dominance on the defense roll.
+<span id="intercept"></span>***Intercept*** *(1 AP, Reaction. Ability slot 2).* When an enemy attacks an ally within 5 feet of the knight, the knight becomes the target of the attack instead. Gains Dominance on the defense roll.
 
-***Shield Punch*** *(1 AP, Attack. W&S style. Ability slot 3).* The knight makes a shield attack: d6 + d3 Crushing (its shield-grip attack dice). On hit, if the knight deals damage, the target must succeed on a PER trial [6] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
+<span id="shield-punch"></span>***Shield Punch*** *(1 AP, Attack. W&S style. Ability slot 3).* The knight makes a shield attack: d6 + d3 Crushing (its shield-grip attack dice). On hit, if the knight deals damage, the target must succeed on a PER trial [6] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
 
-***Half-Sword*** *(2 AP, Attack. Swords style. Ability slot 4).* Requires a free hand (cannot be used while wielding shield). The target must succeed on a PHY or AGI trial [6] (target's choice). On failure, the knight rolls its PHY die with Dominance. This damage bypasses armor.
+<span id="half-sword"></span>***Half-Sword*** *(2 AP, Attack. Swords style. Ability slot 4).* Requires a free hand (cannot be used while wielding shield). The target must succeed on a PHY or AGI trial [6] (target's choice). On failure, the knight rolls its PHY die with Dominance. This damage bypasses armor.
 
 > **Note:** Shield Punch and Half-Sword are style-gated. With shield equipped, the knight has Intercept and Shield Punch. If the shield is removed or broken, the knight gains Half-Sword instead. This creates a progression: losing the shield trades defensive utility for an armor-piercing trick.
 
@@ -332,17 +332,17 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 3, Tier 2, Adept. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_6"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 8 (T2, d3) | 12 (T3, d4) | 11 (T3, d4) | 9 (T2, d3) | 6 (T2, d3) | 9 (T2, d3) | 4 (T1, d2) | 13 (T3, d4) |
 
-**Tier Budget:** 2+3+3+2+2+2+1+3 = 18. Budget for T2 Adept = 18. ✓
+<span id="tier-budget_5"></span>**Tier Budget:** 2+3+3+2+2+2+1+3 = 18. Budget for T2 Adept = 18. ✓
 
 > **Note:** PHY raised from 9 (T2) to 11 (T3) on 2026-10-03, spending the spare tier, because bows use PHY under the Weapon Mastery category table. The Aiming Trial still uses PER.
 
-**Armor:** Hide Armor — full set (Cut 1, Crush 4, Cleave 2, Pierce 7, Puncture 6 = 20 total)
+<span id="armor_6"></span>**Armor:** Hide Armor — full set (Cut 1, Crush 4, Cleave 2, Pierce 7, Puncture 6 = 20 total)
 
 > **Note:** Upgraded from partial Hide (Hauberk + Coif only, 12) to full Hide Armor (20) to match T2 Adept budget. Added Aketon (required base) and Hide Greaves/Cuisses.
 
@@ -361,11 +361,11 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** Scent (tracking trained dogs often accompany woodsmen).
+<span id="senses"></span>**Senses:** Scent (tracking trained dogs often accompany woodsmen).
 
-**Abilities:**
+<span id="abilities_6"></span>**Abilities:**
 
-***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [4] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
+<span id="pinning-shot"></span>***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [4] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
 
 > **Note:** The woodsman is a ranged-focused fighter. No weapon style modifier (single weapon bow). The seax is a backup weapon for melee. Low armor, moderate health — this is a back-line fighter that crumbles if engaged in melee. The 0 Cutting resistance means blades go right through the Hide armor's gaps.
 
@@ -375,15 +375,15 @@ All creatures in this file are **Mortal Folk (Void)**.
 
 *Division 4, Tier 2, Leader. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_7"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 13 (T3, d4) | 11 (T3, d4) | 11 (T3, d4) | 8 (T2, d3) | 11 (T3, d4) | 8 (T2, d3) | 14 (T3, d4) |
 
-**Tier Budget:** 2+3+3+3+2+3+2+3 = 21. Budget for T2 Leader = 20. Over (+1). ✓
+<span id="tier-budget_6"></span>**Tier Budget:** 2+3+3+3+2+3+2+3 = 21. Budget for T2 Leader = 20. Over (+1). ✓
 
-**Armor:** Piecemeal Chain — Aketon + Chain Haubergeon + Chain Chausses/Sabatons + Chain Sleeves/Mittens (Cut 10, Crush 4, Cleave 5, Pierce 5, Puncture 6 = 30 total)
+<span id="armor_7"></span>**Armor:** Piecemeal Chain — Aketon + Chain Haubergeon + Chain Chausses/Sabatons + Chain Sleeves/Mittens (Cut 10, Crush 4, Cleave 5, Pierce 5, Puncture 6 = 30 total)
 
 | Stat | Value |
 |:---|:---|
@@ -400,13 +400,13 @@ All creatures in this file are **Mortal Folk (Void)**.
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** Scent (via hunting dog companion, not inherent).
+<span id="senses_1"></span>**Senses:** Scent (via hunting dog companion, not inherent).
 
-**Abilities:**
+<span id="abilities_7"></span>**Abilities:**
 
-***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
+<span id="pinning-shot_1"></span>***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
 
-***Mark Quarry*** *(2 AP, Action. Ability slot 2).* The ranger captain designates a target within line of sight. All allied hunters and beasts within 60 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier against that target only. Lasts 1 round. Can be reapplied to stack tiers.
+<span id="mark-quarry"></span>***Mark Quarry*** *(2 AP, Action. Ability slot 2).* The ranger captain designates a target within line of sight. All allied hunters and beasts within 60 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier against that target only. Lasts 1 round. Can be reapplied to stack tiers.
 
 > **Note:** Mark Quarry is a single-target variant of the standard Leader buff. Narrower than Rally/Command (one target vs all targets), but this IS how hunting parties operate — the captain identifies the quarry, the pack focuses. 2 AP cost is appropriate; it still grants [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") to all allies within range. The limitation reflects the encounter design: hunters coordinate on a single dangerous target, not a battlefield of enemies.
 
@@ -442,9 +442,9 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Brood | 12 | 12 | 12d2 | 12d2 + 2 | None |
 | Swarm | 16 | 16 | 16d2 | 16d2 + 2 | None |
 
-**Mob:**
+<span id="mob_2"></span>**Mob:**
 
-***Blood Up*** *(Mob, no slot).* When the group deals damage, it advances [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier.
+<span id="blood-up"></span>***Blood Up*** *(Mob, no slot).* When the group deals damage, it advances [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier.
 
 ---
 
@@ -452,15 +452,15 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 *Division 3, Tier 2, Adept. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_8"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 12 (T3, d4) | 13 (T3, d4) | 13 (T3, d4) | 7 (T2, d3) | 4 (T1, d2) | 4 (T1, d2) | 7 (T2, d3) |
 
-**Tier Budget:** 2+3+3+3+2+1+1+2 = 17. Budget for T2 Adept = 18. Close (-1). ✓
+<span id="tier-budget_7"></span>**Tier Budget:** 2+3+3+3+2+1+1+2 = 17. Budget for T2 Adept = 18. Close (-1). ✓
 
-**Armor:** Worn Jack of Plate
+<span id="armor_8"></span>**Armor:** Worn Jack of Plate
 
 | Stat | Value |
 |:---|:---|
@@ -478,9 +478,9 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_8"></span>**Abilities:**
 
-***False*** *(1 AP, Reaction. Ability slot 1).* When the warrior moves out of a threatened space and is attacked, it gains +1 to its defense roll. If the attack misses, the warrior can make a melee attack with Superiority before completing its movement.
+<span id="false"></span>***False*** *(1 AP, Reaction. Ability slot 1).* When the warrior moves out of a threatened space and is attacked, it gains +1 to its defense roll. If the attack misses, the warrior can make a melee attack with Superiority before completing its movement.
 
 ---
 
@@ -488,17 +488,17 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 *Division 4, Tier 2, Leader. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_9"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 12 (T3, d4) | 13 (T3, d4) | 13 (T3, d4) | 9 (T2, d3) | 4 (T1, d2) | 8 (T2, d3) | 7 (T2, d3) |
 
-**Tier Budget:** 2+3+3+3+2+1+2+2 = 18. Budget for T2 Leader = 20. Close (-2). ✓
+<span id="tier-budget_8"></span>**Tier Budget:** 2+3+3+3+2+1+2+2 = 18. Budget for T2 Leader = 20. Close (-2). ✓
 
-**Armor:** Battered Byrnie (no coif)
+<span id="armor_9"></span>**Armor:** Battered Byrnie (no coif)
 
-**Shield:** Damaged Kite (Durability 12 / 24)
+<span id="shield_3"></span>**Shield:** Damaged Kite (Durability 12 / 24)
 
 | Stat | Value |
 |:---|:---|
@@ -516,11 +516,11 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_9"></span>**Abilities:**
 
-***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the captain takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
+<span id="riposte_4"></span>***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the captain takes no damage from a melee attack, it can counter-attack with a bonus of +3 to the attack roll.
 
-***Command Shout*** *(2 AP, Action. Ability slot 2).* The Captain shouts orders. All allied infantry within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+<span id="command-shout"></span>***Command Shout*** *(2 AP, Action. Ability slot 2).* The Captain shouts orders. All allied infantry within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
 
 ---
 
@@ -528,15 +528,15 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 *Division 5, Tier 2, Champion. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_10"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 16 (T4, d6) | 8 (T2, d3) | 4 (T1, d2) | 4 (T1, d2) | 11 (T3, d4) |
 
-**Tier Budget:** 4+3+4+4+2+1+1+3 = 22. Budget for T2 Champion = 22. ✓
+<span id="tier-budget_9"></span>**Tier Budget:** 4+3+4+4+2+1+1+3 = 22. Budget for T2 Champion = 22. ✓
 
-**Armor:** Worn Brigandine
+<span id="armor_10"></span>**Armor:** Worn Brigandine
 
 | Stat | Value |
 |:---|:---|
@@ -554,13 +554,13 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_10"></span>**Abilities:**
 
-***Set Spear*** *(1 AP, Reaction. Ability slot 1).* When a creature uses movement to enter the veteran's reach, the veteran makes a pike attack. If the veteran deals damage, the creature's movement ends. If the creature is using the Charge maneuver, the attack gains Superiority. If the attack deals damage to a charging creature, the charge is interrupted and the creature cannot complete its attack.
+<span id="set-spear_1"></span>***Set Spear*** *(1 AP, Reaction. Ability slot 1).* When a creature uses movement to enter the veteran's reach, the veteran makes a pike attack. If the veteran deals damage, the creature's movement ends. If the creature is using the Charge maneuver, the attack gains Superiority. If the attack deals damage to a charging creature, the charge is interrupted and the creature cannot complete its attack.
 
-***Trip*** *(1 AP, Attack. Ability slot 2).* The veteran targets a creature within reach. The target must succeed on a STR or AGI trial [6] (target's choice) or be knocked prone.
+<span id="trip"></span>***Trip*** *(1 AP, Attack. Ability slot 2).* The veteran targets a creature within reach. The target must succeed on a STR or AGI trial [6] (target's choice) or be knocked prone.
 
-***Riposte*** *(1 AP, Reaction. Ability slot 3).* When the veteran takes no damage from a melee attack, it can counter-attack with a bonus of +4 to the attack roll.
+<span id="riposte_5"></span>***Riposte*** *(1 AP, Reaction. Ability slot 3).* When the veteran takes no damage from a melee attack, it can counter-attack with a bonus of +4 to the attack roll.
 
 ---
 
@@ -568,17 +568,17 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 
 *Division 6, Tier 2, Master. 1×1 Mortal Folk (Void).*
 
-**Attributes:**
+<span id="attributes_11"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 13 (T3, d4) | 12 (T3, d4) | 14 (T3, d4) | 13 (T3, d4) | 12 (T3, d4) | 9 (T2, d3) | 12 (T3, d4) | 8 (T2, d3) |
 
-**Tier Budget:** 3+3+3+3+3+2+3+2 = 22. Budget for T2 Master = 24. Close (-2). ✓
+<span id="tier-budget_10"></span>**Tier Budget:** 3+3+3+3+3+2+3+2 = 22. Budget for T2 Master = 24. Close (-2). ✓
 
-**Armor:** Scale Mail
+<span id="armor_11"></span>**Armor:** Scale Mail
 
-**Shield:** Damaged Kite (Durability 12 / 24)
+<span id="shield_4"></span>**Shield:** Damaged Kite (Durability 12 / 24)
 
 | Stat | Value |
 |:---|:---|
@@ -596,15 +596,15 @@ Infantry share a common base array (the Warrior's). Higher ranks raise attribute
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Abilities:**
+<span id="abilities_11"></span>**Abilities:**
 
-***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the warlord takes no damage from a melee attack, it can counter-attack with a bonus of +5 to the attack roll.
+<span id="riposte_6"></span>***Riposte*** *(1 AP, Reaction. Ability slot 1).* When the warlord takes no damage from a melee attack, it can counter-attack with a bonus of +5 to the attack roll.
 
-***Empty Fade*** *(1 AP, Reaction. Ability slot 2).* When an enemy approaches to make a melee attack, the Warlord feints retreat. The attacker must succeed on a PER trial [7] or attack with Impotence while the Warlord defends normally. If the attack misses, the Warlord counter-attacks with a bonus of +3. If the attack hits, the attacker gains a bonus equal to their attack attribute tier to damage.
+<span id="empty-fade"></span>***Empty Fade*** *(1 AP, Reaction. Ability slot 2).* When an enemy approaches to make a melee attack, the Warlord feints retreat. The attacker must succeed on a PER trial [7] or attack with Impotence while the Warlord defends normally. If the attack misses, the Warlord counter-attacks with a bonus of +3. If the attack hits, the attacker gains a bonus equal to their attack attribute tier to damage.
 
-***Command Shout*** *(2 AP, Action. 1/encounter. Ability slot 3).* The Warlord shouts orders. All allied infantry within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Persists until end of encounter.
+<span id="command-shout_1"></span>***Command Shout*** *(2 AP, Action. 1/encounter. Ability slot 3).* The Warlord shouts orders. All allied infantry within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Persists until end of encounter.
 
-***Deflect*** *(2 AP, declared at start of round. Ability slot 4).* The Warlord cannot attack this round. Can defend against up to 3 attacks instead of the normal 2. The remaining 1 AP can be used for reactions or movement.
+<span id="deflect"></span>***Deflect*** *(2 AP, declared at start of round. Ability slot 4).* The Warlord cannot attack this round. Can defend against up to 3 attacks instead of the normal 2. The remaining 1 AP can be used for reactions or movement.
 
 ---
 

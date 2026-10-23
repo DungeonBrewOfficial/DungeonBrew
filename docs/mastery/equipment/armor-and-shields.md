@@ -6,9 +6,9 @@ generated_by: tools/sync_mastery.py
 
 Each piece of armor is unique in the protection that it offers. Some armor is lighter, easier to move in, and less restricting, but does not offer very good protection. Heavier armors offer better protection, but are physically taxing to move in.
 
-**Durability.** Durability is the amount of *health* that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases by the damage you take, minus the armor's resistances.
+<span id="durability"></span>**Durability.** Durability is the amount of *health* that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases by the damage you take, minus the armor's resistances.
 
-**Resistance**. Armor is resistant to certain damage types: cutting, crushing, cleaving, piercing, and puncturing.
+<span id="resistance"></span>**Resistance**. Armor is resistant to certain damage types: cutting, crushing, cleaving, piercing, and puncturing.
 
 - If you are wearing *Light* armor, you can apply your Agility Tier to each mundane resistance.
 - If you are wearing *Medium* armor, you can apply half (rounded down) of your Agility Tier to each mundane resistance.
@@ -55,17 +55,17 @@ Armor consists of several parts, each of which offers unique protections and ben
 
 Light armor offers the least protection, but is effective for characters who are not particularly strong or need to stay light on their feet.
 
-**Aketon**. This is an arming jacket that is primarily used to help secure and distribute the weight of heavier armors. It does offer some minor protection, but is not generally considered sufficient as independent armor.
+<span id="aketon"></span>**Aketon**. This is an arming jacket that is primarily used to help secure and distribute the weight of heavier armors. It does offer some minor protection, but is not generally considered sufficient as independent armor.
 
-**Boiled Leather Armor**. This armor is made from hardened leather that is often boiled in salt water or wine. It offers general protection against most attacks.
+<span id="boiled-leather-armor"></span>**Boiled Leather Armor**. This armor is made from hardened leather that is often boiled in salt water or wine. It offers general protection against most attacks.
 
-**Gambeson Padded Armor**. This armor consists of layered, quilted fabric that is often reinforced by being boiled in salt water or wine.
+<span id="gambeson-padded-armor"></span>**Gambeson Padded Armor**. This armor consists of layered, quilted fabric that is often reinforced by being boiled in salt water or wine.
 
-**Hide Armor**. This is armor prepared from layers of pelts, hides, or the thick hide of a creature with naturally thick skin. It is most effective against piercing and puncturing attacks.
+<span id="hide-armor"></span>**Hide Armor**. This is armor prepared from layers of pelts, hides, or the thick hide of a creature with naturally thick skin. It is most effective against piercing and puncturing attacks.
 
-**Jazerant Leather Armor**. This is a light coat of armor that consists of mail or metal plates sewn between layers of fabric or leather, similar to Jack of Plate. It tends to be a bit lighter to wear.
+<span id="jazerant-leather-armor"></span>**Jazerant Leather Armor**. This is a light coat of armor that consists of mail or metal plates sewn between layers of fabric or leather, similar to Jack of Plate. It tends to be a bit lighter to wear.
 
-**Jack of Plate**. This is a light coat of armor that consists of metal plates riveted between layers of fabric or leather. While this armor is fairly effective, the gaps between the plates offer exploitable weaknesses.
+<span id="jack-of-plate"></span>**Jack of Plate**. This is a light coat of armor that consists of metal plates riveted between layers of fabric or leather. While this armor is fairly effective, the gaps between the plates offer exploitable weaknesses.
 
 ### Medium Armor Table
 
@@ -103,15 +103,15 @@ Light armor offers the least protection, but is effective for characters who are
 
 Medium armor can offer adequate protection for those able to wear it. While better armors are available, not everyone is strong enough or wealthy enough to purchase such valuable gear. Many starting fighters opt for medium armor to try and ensure their survival.
 
-**Byrnie**. This armor consists of riveted chain mail that protects the torso, head, arms, and legs. It is light, easy to don, and easy to maintain. Unlike other medium and heavy armors, a Byrnie can be donned and doffed as if it were light armor.
+<span id="byrnie"></span>**Byrnie**. This armor consists of riveted chain mail that protects the torso, head, arms, and legs. It is light, easy to don, and easy to maintain. Unlike other medium and heavy armors, a Byrnie can be donned and doffed as if it were light armor.
 
-**Scale Mail**. This is a scale hauberk that protects the torso, along with scale arm, leg, and head protection. Scale armor consists of pieces of steel that overlap each other and are riveted into a leather undercoat.
+<span id="scale-mail"></span>**Scale Mail**. This is a scale hauberk that protects the torso, along with scale arm, leg, and head protection. Scale armor consists of pieces of steel that overlap each other and are riveted into a leather undercoat.
 
-**Brigandine**. This armor is made from small metal plates sewn or riveted to a layer of canvas or leather and protected by an outer layer of cloth. It incorporates splinted protection for the torso and head, with plate arm and leg protection.
+<span id="brigandine"></span>**Brigandine**. This armor is made from small metal plates sewn or riveted to a layer of canvas or leather and protected by an outer layer of cloth. It incorporates splinted protection for the torso and head, with plate arm and leg protection.
 
-**Breastplate**. This armor consists of plate pieces that protect the torso, arms, and head. Any additional leg protection would result in this armor being classified as Heavy.
+<span id="breastplate"></span>**Breastplate**. This armor consists of plate pieces that protect the torso, arms, and head. Any additional leg protection would result in this armor being classified as Heavy.
 
-**Half-Plate**. This armor consists of plate pieces that protect the torso and arms, with additional coverage from a gorget and tasset. Any additional head or leg protection would result in this armor being classified as Heavy.
+<span id="half-plate"></span>**Half-Plate**. This armor consists of plate pieces that protect the torso and arms, with additional coverage from a gorget and tasset. Any additional head or leg protection would result in this armor being classified as Heavy.
 
 ___
 
@@ -148,13 +148,13 @@ ___
 
 Heavy armor is the best armor and protection available. It is time-consuming to doff and don and exhausting to wear, but can be daunting to overcome on the battlefield, presenting few weaknesses when compared to lighter armors.
 
-**King's Mail**. This chain armor is formed of double-mail, a construction that uses two links rather than one link while still maintaining the 4-in-1 pattern. King's Mail is exceptionally heavy, but offers excellent protection to the torso, arms, legs, and head.
+<span id="kings-mail"></span>**King's Mail**. This chain armor is formed of double-mail, a construction that uses two links rather than one link while still maintaining the 4-in-1 pattern. King's Mail is exceptionally heavy, but offers excellent protection to the torso, arms, legs, and head.
 
-**Plate and Mail**. A combination of double-mail chain hauberk to protect the torso and plate armor that offers excellent protection for the head, arms, and legs.
+<span id="plate-and-mail"></span>**Plate and Mail**. A combination of double-mail chain hauberk to protect the torso and plate armor that offers excellent protection for the head, arms, and legs.
 
-**Three-Quarter Plate**. Also known as Munition Armor, this armor incorporates plate for the head, torso, arms, and upper legs. The inclusion of greaves and sabatons would upgrade this to full-plate armor.
+<span id="three-quarter-plate"></span>**Three-Quarter Plate**. Also known as Munition Armor, this armor incorporates plate for the head, torso, arms, and upper legs. The inclusion of greaves and sabatons would upgrade this to full-plate armor.
 
-**Full Plate**. This armor is composed of interlocking steel plates that are carefully angled to deflect blows. The weight is well distributed. The armor is hot, slow to don, and extremely expensive, but it is the best protection that money can buy.
+<span id="full-plate"></span>**Full Plate**. This armor is composed of interlocking steel plates that are carefully angled to deflect blows. The weight is well distributed. The armor is hot, slow to don, and extremely expensive, but it is the best protection that money can buy.
 
 ## Shields
 
@@ -162,13 +162,13 @@ Shields can provide a minor bonus to a character's Defense and are required to d
 
 - Removing a strapped shield costs 1 AP. A held shield can be dropped freely (0 AP).
 
-**Heater Shield**. A heater shield is a compact, flat shield favored by mounted knights and duelists. It has a bouche to steady a couched lance or spear during a mounted charge. The heater is a strapped shield. **(+2 to Charge Attack while mounted with a lance or spear)**
+<span id="heater-shield"></span>**Heater Shield**. A heater shield is a compact, flat shield favored by mounted knights and duelists. It has a bouche to steady a couched lance or spear during a mounted charge. The heater is a strapped shield. **(+2 to Charge Attack while mounted with a lance or spear)**
 
-**Kite Shield**. A kite shield is a large, tear-drop shield that protects a combatant from shoulder to knee. Its size makes it effective at absorbing sustained punishment, though it is heavier and less nimble than a heater. The kite is a strapped shield.
+<span id="kite-shield"></span>**Kite Shield**. A kite shield is a large, tear-drop shield that protects a combatant from shoulder to knee. Its size makes it effective at absorbing sustained punishment, though it is heavier and less nimble than a heater. The kite is a strapped shield.
 
-**Pavise Shield**. A pavise is a large, heavy shield that is carried by handles and planted on the ground to provide cover. It costs 1 AP to place and 1 AP to pick up. Once planted, the pavise provides cover in a cone from its facing (see [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.")). It is not used in melee. Ranged attacks that miss due to cover provided by the pavise deal their damage to the pavise instead, applied against its mundane resistance. A pavise is deployed, not wielded. It does not count as a shield for class restrictions or the Weapon and Shield style.
+<span id="pavise-shield"></span>**Pavise Shield**. A pavise is a large, heavy shield that is carried by handles and planted on the ground to provide cover. It costs 1 AP to place and 1 AP to pick up. Once planted, the pavise provides cover in a cone from its facing (see [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.")). It is not used in melee. Ranged attacks that miss due to cover provided by the pavise deal their damage to the pavise instead, applied against its mundane resistance. A pavise is deployed, not wielded. It does not count as a shield for class restrictions or the Weapon and Shield style.
 
-**Targe Shield**. A targe is a light, small shield. They are cheap and easily replaceable. The targe is a held shield and can be dropped freely.
+<span id="targe-shield"></span>**Targe Shield**. A targe is a light, small shield. They are cheap and easily replaceable. The targe is a held shield and can be dropped freely.
 
 ___
 
@@ -208,8 +208,8 @@ ___
 
 Light barding offers minimal protection but does not significantly encumber the companion.
 
-**Boiled Leather Barding**. Hardened leather shaped to protect the companion's head, chest, and hindquarters.
-**Gambeson Barding**. Quilted, layered fabric fitted for an animal companion. Like its human counterpart, it excels against crushing and piercing.
+<span id="boiled-leather-barding"></span>**Boiled Leather Barding**. Hardened leather shaped to protect the companion's head, chest, and hindquarters.
+<span id="gambeson-barding"></span>**Gambeson Barding**. Quilted, layered fabric fitted for an animal companion. Like its human counterpart, it excels against crushing and piercing.
 
 ___
 
@@ -234,9 +234,9 @@ ___
 
 Medium barding provides solid protection for companions expected to see regular combat.
 
-**Chain Barding**. Riveted chain mail fitted for an animal companion. Excels against cutting and puncturing but is vulnerable to crushing.
+<span id="chain-barding"></span>**Chain Barding**. Riveted chain mail fitted for an animal companion. Excels against cutting and puncturing but is vulnerable to crushing.
 
-**Scale Barding**. Overlapping steel scales riveted to a leather undercoat. Similar to chain but with better crushing resistance at the cost of slightly less cutting protection.
+<span id="scale-barding"></span>**Scale Barding**. Overlapping steel scales riveted to a leather undercoat. Similar to chain but with better crushing resistance at the cost of slightly less cutting protection.
 
 ___
 
@@ -261,6 +261,6 @@ ___
 
 Heavy barding is the best protection available for animal companions. It is expensive, heavy, and typically reserved for war-trained mounts.
 
-**Plate and Mail Barding**. A combination of double-mail chain peytral with plate protection for the head, neck, hindquarters, and flanks. Cheaper than full plate but with a spikier resistance profile — the chain peytral favors cutting and puncturing over crushing.
+<span id="plate-and-mail-barding"></span>**Plate and Mail Barding**. A combination of double-mail chain peytral with plate protection for the head, neck, hindquarters, and flanks. Cheaper than full plate but with a spikier resistance profile — the chain peytral favors cutting and puncturing over crushing.
 
-**Full Plate Barding**. Interlocking plate covering the entire companion. The best protection available, with uniformly high resistance against cutting, crushing, and piercing, though somewhat weaker against cleaving and puncturing.
+<span id="full-plate-barding"></span>**Full Plate Barding**. Interlocking plate covering the entire companion. The best protection available, with uniformly high resistance against cutting, crushing, and piercing, though somewhat weaker against cleaving and puncturing.

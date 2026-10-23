@@ -49,21 +49,21 @@ He is a thief. A human master of stealth and skill. He is neither a warrior nor 
 
 ## Thief Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Greegan, a Second Level Thief," you should say "I'm Rolf, the Footpad."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Greegan, a Second Level Thief," you should say "I'm Rolf, the Footpad."
 
-**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Thief, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Tactics](../../skills/tactics.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Thievery](../../skills/thievery.md)* and *[Stealth](../../skills/stealth.md)* as part of the *[Roguery](#roguery)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
-**Spell Mastery**. This class does not have access to magic.
+<span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.
 
-**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.

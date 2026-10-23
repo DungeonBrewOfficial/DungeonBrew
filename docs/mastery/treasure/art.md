@@ -10,22 +10,22 @@ Plate is the silver and gold of a wealthy household or temple: cups, salts, cand
 
 Value plate and objects with the steps in Valuing a Piece under Jewelry, with these changes:
 
-- **Step 1.** Use the Plate and Objects table in place of the Type table.
-- **Steps 7–9.** Use the Gem Chance, Gems, and Setting shown on the Plate and Objects table.
+- <span id="step-1"></span>**Step 1.** Use the Plate and Objects table in place of the Type table.
+- <span id="steps-79"></span>**Steps 7–9.** Use the Gem Chance, Gems, and Setting shown on the Plate and Objects table.
     - Spoons, bowls, candlesticks, diptychs, jugs, vases, and aquamaniles are never set with gems.
 
 ### Example
 
-1. **Type.** 1d100 rolls 35: a Cup, Silver Value 200.
-2. **Material.** 1d100 rolls 80: Silver, number 1.
-3. **Craftsmanship.** 2d6 rolls 7: Fine, number 0.1.
-4. **Embellishment.** 1d20 rolls 18: Gilded, number 0.5.
-5. **Add.** 1 + 0.1 + 0.5 = 1.6.
-6. **Multiply.** 200 × 1.6 = 320.
-7. **Gem Chance.** A cup's Gem Chance is 01–10, and 1d100 rolls 40, so the cup has no gems.
-8. **Number of Gems.** No gems to roll.
-9. **Each Gem.** No gems to roll.
-10. **Value.** A gilt silver cup of fine work, worth 320 sp.
+1. <span id="type"></span>**Type.** 1d100 rolls 35: a Cup, Silver Value 200.
+2. <span id="material"></span>**Material.** 1d100 rolls 80: Silver, number 1.
+3. <span id="craftsmanship"></span>**Craftsmanship.** 2d6 rolls 7: Fine, number 0.1.
+4. <span id="embellishment"></span>**Embellishment.** 1d20 rolls 18: Gilded, number 0.5.
+5. <span id="add"></span>**Add.** 1 + 0.1 + 0.5 = 1.6.
+6. <span id="multiply"></span>**Multiply.** 200 × 1.6 = 320.
+7. <span id="gem-chance"></span>**Gem Chance.** A cup's Gem Chance is 01–10, and 1d100 rolls 40, so the cup has no gems.
+8. <span id="number-of-gems"></span>**Number of Gems.** No gems to roll.
+9. <span id="each-gem"></span>**Each Gem.** No gems to roll.
+10. <span id="value"></span>**Value.** A gilt silver cup of fine work, worth 320 sp.
 
 ### Plate and Objects (d100)
 
@@ -54,53 +54,53 @@ Value plate and objects with the steps in Valuing a Piece under Jewelry, with th
 
 ### Types of Plate and Objects
 
-**Aquamanile.** A pouring vessel for washing hands at table, often shaped like an animal.
+<span id="aquamanile"></span>**Aquamanile.** A pouring vessel for washing hands at table, often shaped like an animal.
 
-**Basin and Ewer.** A wide bowl and a matching jug, used to wash the hands at table.
+<span id="basin-and-ewer"></span>**Basin and Ewer.** A wide bowl and a matching jug, used to wash the hands at table.
 
-**Casket.** A small lidded box for valuables.
+<span id="casket"></span>**Casket.** A small lidded box for valuables.
 
-**Censer.** A vessel hung on chains, for burning incense.
+<span id="censer"></span>**Censer.** A vessel hung on chains, for burning incense.
 
-**Chalice and Paten.** A sacred cup and the plate that accompanies it in religious rites.
+<span id="chalice-and-paten"></span>**Chalice and Paten.** A sacred cup and the plate that accompanies it in religious rites.
 
-**Diptych.** Two carved or painted panels joined by a hinge.
+<span id="diptych"></span>**Diptych.** Two carved or painted panels joined by a hinge.
 
-**Flagon.** A large lidded vessel with a handle, for serving wine or ale.
+<span id="flagon"></span>**Flagon.** A large lidded vessel with a handle, for serving wine or ale.
 
-**Great Reliquary.** A large reliquary, such as a shrine or a standing cross.
+<span id="great-reliquary"></span>**Great Reliquary.** A large reliquary, such as a shrine or a standing cross.
 
-**Mirror Case.** A small hinged case holding a polished mirror.
+<span id="mirror-case"></span>**Mirror Case.** A small hinged case holding a polished mirror.
 
-**Nef.** A table ornament shaped like a ship, holding salt, spices, or a lord's knife and napkin.
+<span id="nef"></span>**Nef.** A table ornament shaped like a ship, holding salt, spices, or a lord's knife and napkin.
 
-**Reliquary.** A container for a holy relic.
+<span id="reliquary"></span>**Reliquary.** A container for a holy relic.
 
-**Salt.** A table vessel for salt, often the grandest piece on the table.
+<span id="salt"></span>**Salt.** A table vessel for salt, often the grandest piece on the table.
 
-**Seal Matrix.** The engraved die that presses a seal into wax.
+<span id="seal-matrix"></span>**Seal Matrix.** The engraved die that presses a seal into wax.
 
-**Statuette.** A small cast or carved figure.
+<span id="statuette"></span>**Statuette.** A small cast or carved figure.
 
 ## Tapestries
 
 Tapestries hang in great halls, chapels, and the chambers of the wealthy, and the finest were worth more than any painting. They are also heavy, bulky, and easily ruined by damp, fire, and moths. A tapestry is priced by its size, the thread it is woven from, and the state it is in.
 
-**Value** = Area × Grade × Condition
+<span id="value_1"></span>**Value** = Area × Grade × Condition
 
-1. **Size.** Find the Size table, roll 1d10 or choose a size, and write down its area and weight.
-2. **Grade.** Find the Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
-3. **Condition.** Find the Condition table, roll 1d10 or choose a condition, and write down its number.
-4. **Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
+1. <span id="size"></span>**Size.** Find the Size table, roll 1d10 or choose a size, and write down its area and weight.
+2. <span id="grade"></span>**Grade.** Find the Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
+3. <span id="condition"></span>**Condition.** Find the Condition table, roll 1d10 or choose a condition, and write down its number.
+4. <span id="multiply_1"></span>**Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
 
 Bolts of cloth are valued as in Textiles and Clothing.
 
 ### Example
 
-1. **Size.** 1d10 rolls 10: a Great Hanging, 45 square yards, 100 lb.
-2. **Grade.** 1d20 rolls 16: Wool and Silk, 400 sp per square yard.
-3. **Condition.** 1d10 rolls 5: Worn, number 0.5.
-4. **Multiply.** 45 × 400 = 18,000, and 18,000 × 0.5 = 9,000. A worn great hanging of wool and silk, worth 9,000 sp and weighing 100 lb.
+1. <span id="size_1"></span>**Size.** 1d10 rolls 10: a Great Hanging, 45 square yards, 100 lb.
+2. <span id="grade_1"></span>**Grade.** 1d20 rolls 16: Wool and Silk, 400 sp per square yard.
+3. <span id="condition_1"></span>**Condition.** 1d10 rolls 5: Worn, number 0.5.
+4. <span id="multiply_2"></span>**Multiply.** 45 × 400 = 18,000, and 18,000 × 0.5 = 9,000. A worn great hanging of wool and silk, worth 9,000 sp and weighing 100 lb.
 
 ### Size (d10)
 
@@ -131,26 +131,26 @@ Bolts of cloth are valued as in Textiles and Clothing.
 
 Embroidery decorates vestments, altar cloths, cushions, and hangings, worked in silk and gold thread and often sewn with pearls. The finest took years to make, and much of their value lies in the gold and the stones.
 
-**Value** = Area × Grade × Condition + Gems
+<span id="value_2"></span>**Value** = Area × Grade × Condition + Gems
 
-1. **Size.** Find the Embroidery Size table, roll 1d10 or choose a size, and write down its area, weight, and gems.
-2. **Grade.** Find the Embroidery Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
-3. **Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
-4. **Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
-5. **Gem Chance.** Roll 1d100; on a roll of 01–25, the piece is sewn with gems.
-6. **Gems.** Roll the number of gems shown for its size, then roll each gem as in Gems in Jewelry, with a Broad setting.
+1. <span id="size_2"></span>**Size.** Find the Embroidery Size table, roll 1d10 or choose a size, and write down its area, weight, and gems.
+2. <span id="grade_2"></span>**Grade.** Find the Embroidery Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
+3. <span id="condition_2"></span>**Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
+4. <span id="multiply_3"></span>**Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
+5. <span id="gem-chance_1"></span>**Gem Chance.** Roll 1d100; on a roll of 01–25, the piece is sewn with gems.
+6. <span id="gems"></span>**Gems.** Roll the number of gems shown for its size, then roll each gem as in Gems in Jewelry, with a Broad setting.
     - Pearls were the stones most often sewn into embroidery.
-7. **Value.** Add the value of each gem to the total from step 4.
+7. <span id="value_3"></span>**Value.** Add the value of each gem to the total from step 4.
 
 ### Example
 
-1. **Size.** 1d10 rolls 6: a Vestment or Frontal, 4 square yards, 8 lb, 2d6 gems.
-2. **Grade.** 1d20 rolls 19: Gold Work, 2,000 sp per square yard.
-3. **Condition.** 1d10 rolls 8: Sound, number 1.
-4. **Multiply.** 4 × 2,000 = 8,000, and 8,000 × 1 = 8,000.
-5. **Gem Chance.** 1d100 rolls 60, so the piece has no gems.
-6. **Gems.** No gems to roll.
-7. **Value.** A sound vestment of gold work, worth 8,000 sp.
+1. <span id="size_3"></span>**Size.** 1d10 rolls 6: a Vestment or Frontal, 4 square yards, 8 lb, 2d6 gems.
+2. <span id="grade_3"></span>**Grade.** 1d20 rolls 19: Gold Work, 2,000 sp per square yard.
+3. <span id="condition_3"></span>**Condition.** 1d10 rolls 8: Sound, number 1.
+4. <span id="multiply_4"></span>**Multiply.** 4 × 2,000 = 8,000, and 8,000 × 1 = 8,000.
+5. <span id="gem-chance_2"></span>**Gem Chance.** 1d100 rolls 60, so the piece has no gems.
+6. <span id="gems_1"></span>**Gems.** No gems to roll.
+7. <span id="value_4"></span>**Value.** A sound vestment of gold work, worth 8,000 sp.
 
 ### Embroidery Size (d10)
 
@@ -172,20 +172,20 @@ Embroidery decorates vestments, altar cloths, cushions, and hangings, worked in 
 
 Knotted carpets are rare and highly prized. They are laid beside beds and before altars, spread over tables and chests, and hung behind a lord's chair. A carpet is heavy for its size, more than twice the weight of a tapestry.
 
-**Value** = Area × Grade × Condition
+<span id="value_5"></span>**Value** = Area × Grade × Condition
 
-1. **Size.** Find the Carpet Size table, roll 1d10 or choose a size, and write down its area and weight.
-2. **Grade.** Find the Carpet Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
-3. **Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
+1. <span id="size_4"></span>**Size.** Find the Carpet Size table, roll 1d10 or choose a size, and write down its area and weight.
+2. <span id="grade_4"></span>**Grade.** Find the Carpet Grade table, roll 1d20 or choose a grade, and write down its value per square yard.
+3. <span id="condition_4"></span>**Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
     - A carpet found on a floor has been walked on, so roll its condition twice and use the lower roll.
-4. **Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
+4. <span id="multiply_5"></span>**Multiply.** Multiply the area by the value per square yard, then multiply the result by the condition number.
 
 ### Example
 
-1. **Size.** 1d10 rolls 7: Medium, 6 square yards, 33 lb.
-2. **Grade.** 1d20 rolls 14: Fine, 400 sp per square yard.
-3. **Condition.** 1d10 rolls 4: Worn, number 0.5.
-4. **Multiply.** 6 × 400 = 2,400, and 2,400 × 0.5 = 1,200. A worn fine carpet, worth 1,200 sp and weighing 33 lb.
+1. <span id="size_5"></span>**Size.** 1d10 rolls 7: Medium, 6 square yards, 33 lb.
+2. <span id="grade_5"></span>**Grade.** 1d20 rolls 14: Fine, 400 sp per square yard.
+3. <span id="condition_5"></span>**Condition.** 1d10 rolls 4: Worn, number 0.5.
+4. <span id="multiply_6"></span>**Multiply.** 6 × 400 = 2,400, and 2,400 × 0.5 = 1,200. A worn fine carpet, worth 1,200 sp and weighing 33 lb.
 
 ### Carpet Size (d10)
 
@@ -207,21 +207,21 @@ Knotted carpets are rare and highly prized. They are laid beside beds and before
 
 Paintings hang above altars, in chapels, and in the chambers of the wealthy, and small ones are carried for private prayer. Most are painted on wooden panels, and cheaper ones on cloth. A painting is worth far less than a tapestry of the same size, but a large panel is heavy, and its paint is easily damaged.
 
-**Value** = Area × Grade × Condition
+<span id="value_6"></span>**Value** = Area × Grade × Condition
 
-1. **Size.** Find the Painting Size table, roll 1d10 or choose a size, and write down its area.
-2. **Grade.** Find the Painting Grade table, roll 1d20 or choose a grade, and write down its value and weight per square yard.
-3. **Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
-4. **Value.** Multiply the area by the value per square yard, then multiply the result by the condition number.
-5. **Weight.** Multiply the area by the weight per square yard.
+1. <span id="size_6"></span>**Size.** Find the Painting Size table, roll 1d10 or choose a size, and write down its area.
+2. <span id="grade_6"></span>**Grade.** Find the Painting Grade table, roll 1d20 or choose a grade, and write down its value and weight per square yard.
+3. <span id="condition_6"></span>**Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
+4. <span id="value_7"></span>**Value.** Multiply the area by the value per square yard, then multiply the result by the condition number.
+5. <span id="weight"></span>**Weight.** Multiply the area by the weight per square yard.
 
 ### Example
 
-1. **Size.** 1d10 rolls 2: Small, ¼ square yard.
-2. **Grade.** 1d20 rolls 18: Gilded Panel, 600 sp and 25 lb per square yard.
-3. **Condition.** 1d10 rolls 9: Sound, number 1.
-4. **Value.** ¼ × 600 = 150, and 150 × 1 = 150.
-5. **Weight.** ¼ × 25 = about 6 lb. A small gilded panel in sound condition, worth 150 sp and weighing about 6 lb.
+1. <span id="size_7"></span>**Size.** 1d10 rolls 2: Small, ¼ square yard.
+2. <span id="grade_7"></span>**Grade.** 1d20 rolls 18: Gilded Panel, 600 sp and 25 lb per square yard.
+3. <span id="condition_7"></span>**Condition.** 1d10 rolls 9: Sound, number 1.
+4. <span id="value_8"></span>**Value.** ¼ × 600 = 150, and 150 × 1 = 150.
+5. <span id="weight_1"></span>**Weight.** ¼ × 25 = about 6 lb. A small gilded panel in sound condition, worth 150 sp and weighing about 6 lb.
 
 ### Painting Size (d10)
 
@@ -245,17 +245,17 @@ A small painting is a devotional panel or icon. Large and Great paintings are us
 | 17–19 | Gilded Panel | 600 sp | 25 lb |
 | 20 | Mosaic | 1,000 sp | 40 lb |
 
-**Canvas.** Oil paint on stretched linen.
+<span id="canvas"></span>**Canvas.** Oil paint on stretched linen.
 
-**Encaustic.** Paint mixed into hot wax and laid on a thin wooden panel; an ancient method, long out of use.
+<span id="encaustic"></span>**Encaustic.** Paint mixed into hot wax and laid on a thin wooden panel; an ancient method, long out of use.
 
-**Gilded Panel.** A panel painting laid with gold leaf and the costliest blue.
+<span id="gilded-panel"></span>**Gilded Panel.** A panel painting laid with gold leaf and the costliest blue.
 
-**Mosaic.** Small pieces of colored glass or stone set into a panel to form a picture.
+<span id="mosaic"></span>**Mosaic.** Small pieces of colored glass or stone set into a panel to form a picture.
 
-**Painted Cloth.** Linen painted with glue-bound paint, a cheap stand-in for tapestry.
+<span id="painted-cloth"></span>**Painted Cloth.** Linen painted with glue-bound paint, a cheap stand-in for tapestry.
 
-**Panel.** Egg or oil paint on a wooden panel coated with chalk and glue.
+<span id="panel"></span>**Panel.** Egg or oil paint on a wooden panel coated with chalk and glue.
 
 ### Subject (d30)
 
@@ -296,19 +296,19 @@ A small painting is a devotional panel or icon. Large and Great paintings are us
 
 Stained glass fills the windows of chapels and great halls: colored glass, painted and fired, and held together with strips of lead. A panel can be taken out of its window and carried away, but glass is heavy and breaks easily.
 
-**Value** = Area × Grade × Condition
+<span id="value_9"></span>**Value** = Area × Grade × Condition
 
-1. **Size.** Find the Stained Glass Size table, roll 1d10 or choose a size, and write down its area and weight.
-2. **Grade.** Find the Stained Glass Grade table, roll 1d10 or choose a grade, and write down its value per square yard.
-3. **Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
-4. **Value.** Multiply the area by the value per square yard, then multiply the result by the condition number.
+1. <span id="size_8"></span>**Size.** Find the Stained Glass Size table, roll 1d10 or choose a size, and write down its area and weight.
+2. <span id="grade_8"></span>**Grade.** Find the Stained Glass Grade table, roll 1d10 or choose a grade, and write down its value per square yard.
+3. <span id="condition_8"></span>**Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
+4. <span id="value_10"></span>**Value.** Multiply the area by the value per square yard, then multiply the result by the condition number.
 
 ### Example
 
-1. **Size.** 1d10 rolls 5: Medium, 3 square yards, 75 lb.
-2. **Grade.** 1d10 rolls 9: Rich, 140 sp per square yard.
-3. **Condition.** 1d10 rolls 6: Worn, number 0.5.
-4. **Value.** 3 × 140 = 420, and 420 × 0.5 = 210. A worn panel of rich glass, worth 210 sp and weighing 75 lb.
+1. <span id="size_9"></span>**Size.** 1d10 rolls 5: Medium, 3 square yards, 75 lb.
+2. <span id="grade_9"></span>**Grade.** 1d10 rolls 9: Rich, 140 sp per square yard.
+3. <span id="condition_9"></span>**Condition.** 1d10 rolls 6: Worn, number 0.5.
+4. <span id="value_11"></span>**Value.** 3 × 140 = 420, and 420 × 0.5 = 210. A worn panel of rich glass, worth 210 sp and weighing 75 lb.
 
 ### Stained Glass Size (d10)
 
@@ -328,29 +328,29 @@ Every stained glass panel is Bulky.
 | 5–8 | Painted | 80 sp |
 | 9–10 | Rich | 140 sp |
 
-**Plain.** Mostly clear glass, with little color or painting.
+<span id="plain"></span>**Plain.** Mostly clear glass, with little color or painting.
 
-**Painted.** Colored glass with painted figures and borders.
+<span id="painted"></span>**Painted.** Colored glass with painted figures and borders.
 
-**Rich.** Deep colored glass, finely painted, often set with inserts of colored glass like jewels.
+<span id="rich"></span>**Rich.** Deep colored glass, finely painted, often set with inserts of colored glass like jewels.
 
 ## Statues
 
 Statues stand in squares, chapels, gardens, and ruins. A life-size bronze can be loaded onto a wagon by a few strong people and sold to a collector. A marble one of the same size weighs several times as much.
 
-**Value** = Statue Value × Condition
+<span id="value_12"></span>**Value** = Statue Value × Condition
 
-1. **Size.** Find the Statue table, roll 1d10 or choose a size: 1–7 is Half-size, and 8–10 is Life-size.
-2. **Material.** On the same table, roll 1d10 or choose a material, and write down the value and weight for its size.
-3. **Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
-4. **Value.** Multiply the statue's value by the condition number.
+1. <span id="size_10"></span>**Size.** Find the Statue table, roll 1d10 or choose a size: 1–7 is Half-size, and 8–10 is Life-size.
+2. <span id="material_1"></span>**Material.** On the same table, roll 1d10 or choose a material, and write down the value and weight for its size.
+3. <span id="condition_10"></span>**Condition.** Find the Condition table under Tapestries, roll 1d10 or choose a condition, and write down its number.
+4. <span id="value_13"></span>**Value.** Multiply the statue's value by the condition number.
 
 ### Example
 
-1. **Size.** 1d10 rolls 9: Life-size.
-2. **Material.** 1d10 rolls 8: Bronze, 25,000 sp and 350 lb.
-3. **Condition.** 1d10 rolls 3: Worn, number 0.5.
-4. **Value.** 25,000 × 0.5 = 12,500. A worn life-size bronze, worth 12,500 sp and weighing 350 lb.
+1. <span id="size_11"></span>**Size.** 1d10 rolls 9: Life-size.
+2. <span id="material_2"></span>**Material.** 1d10 rolls 8: Bronze, 25,000 sp and 350 lb.
+3. <span id="condition_11"></span>**Condition.** 1d10 rolls 3: Worn, number 0.5.
+4. <span id="value_14"></span>**Value.** 25,000 × 0.5 = 12,500. A worn life-size bronze, worth 12,500 sp and weighing 350 lb.
 
 ### Statue (d10)
 
