@@ -21,7 +21,7 @@ A comfrey poultice is administered by contact, bound over a deep bruise. It spee
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Exploration, Travel |
 | Duration | Until the bruise heals |
 | Crash | None |
 | Properties | None |
@@ -50,7 +50,7 @@ A honey dressing is administered by contact, bound over a wound and kept there. 
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Exploration, Travel |
 | Duration | While the wound stays dressed |
 | Crash | None |
 | Properties | None |
@@ -79,7 +79,7 @@ Leech's eyesalve is administered by contact, spread on an infected wound. It dri
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -137,7 +137,7 @@ A wash is administered by contact, poured into a wound when it's first cleaned. 
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Exploration, Travel |
 | Duration | Until the next [Infected](../../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") trial |
 | Crash | None |
 | Properties | None |
@@ -170,7 +170,7 @@ Alum is administered by contact, packed into a bleeding wound on yourself or an 
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -199,7 +199,7 @@ Chalk-water is administered by contact, poured over acid-burned skin on yourself
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -228,7 +228,7 @@ Embalmer's salt is administered by contact, rubbed into flesh that is decaying, 
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -257,7 +257,7 @@ Vinegar is administered by contact, splashed over skin burned by lime or lye, on
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -286,7 +286,7 @@ A warming cordial is administered through ingestion, given to yourself or an all
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |

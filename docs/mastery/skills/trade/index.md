@@ -22,6 +22,8 @@ Crafting at or below your mastery tier always succeeds. There is no failure chec
 
 Crafting requires at least Untrained mastery in the discipline, and a suitable workspace, such as a smithy or an alchemy lab, as the GM approves.
 
+**Workshops.** Working in an adequate workshop gives Dominance on crafting rolls, including the production rate roll and crafting trials. You can use a faction's workshop, rent one from a guild, or own one. Work in the field, away from a workshop, gets no Dominance. Some items can only be made in a workshop; the GM can rule a workshop inadequate, such as a forge in disrepair, in which case it still allows the work but gives no Dominance.
+
 Materials cost 50% of the item's value. To determine your production rate, roll Intelligence tier die + Trade mastery die and cross-reference your roll with your mastery level on the Trade Production Rate table to find your sp/day output. Time to craft is item value ÷ production rate in days. Minimum craft time is 1 hour per item, maximum 8 working hours per day. If you do not wish to roll, you use the floor rate for your mastery level (the leftmost column value in your row).
 
 #### Trade Production Rate (sp/day)
@@ -39,19 +41,19 @@ Materials cost 50% of the item's value. To determine your production rate, roll 
 
 ### Automatic Use
 
-Characters with Trade mastery at the appropriate tier can use items of that tier automatically — no roll required. Training assumes competence; an Expert blacksmith does not roll to repair common armor, and a Skilled healer does not roll to apply Knight-tier Healing Supplies.
+Characters with Trade mastery at the appropriate tier can use items of that tier automatically — no roll required. Training assumes competence; an Expert blacksmith does not roll to repair common armor.
 
 | Item Tier | Social Class | Use DC | Trade Mastery Required |
 |-----------|-------------|--------|--------------------------|
-| T1 | Serf | 3 | Unskilled |
+| T1 | Serf | 3 | Untrained |
 | T2 | Peasant | 4 | Untrained |
-| T3 | Knight | 8 | Basic |
-| T4 | Burgher | 10 | Skilled |
-| T5 | Magnate | 14 | Expert |
-| T6 | Noble | 18 | Master |
-| T7 | Royal | 21 | Grand Master |
+| T3 | Knight | 6 | Basic |
+| T4 | Burgher | 8 | Skilled |
+| T5 | Magnate | 10 | Expert |
+| T6 | Noble | 12 | Master |
+| T7 | Royal | 14 | Grand Master |
 
-**Off-Label Use:** If you lack the required Trade mastery, you may still attempt to use an item by rolling an attribute tier die + mastery die (1d2 for Unskilled) against the item's Use DC. On failure, the item is consumed or wasted. This applies to Healing Supplies, scrolls, and alchemical concoctions that must be applied or activated (see *[Alchemy](alchemy/index.md)*).
+**Off-Label Use:** If you lack the required Trade mastery, you may still attempt to use an item by rolling an attribute tier die + mastery die (1d2 for Unskilled) against the item's Use DC. On failure, the item is consumed or wasted. This applies to scrolls and to alchemical concoctions that must be applied or activated (see *[Alchemy](alchemy/index.md)*).
 
 **Exception:** Thieves using the Use Scroll ability (Thievery) always roll regardless of DC, and the scroll is ruined on failure, because they are not trained spellcasters.
 
@@ -82,41 +84,25 @@ To read the chart, find your mastery level. If your Intelligence tier die meets 
 
 ## Healer Discipline
 
-The Healer discipline covers wound treatment, condition management, and emergency stabilization. Exploration treatments take 10 minutes (one exploration round) to administer. Combat applications (triage, treating [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.")) cost 2 AP.
+The Healer discipline covers treating wounds, injuries, traumas, poison, and disease. Every treatment uses up one kit (see *[Equipment](../../equipment/gear-and-services.md)*). A healer rolls Trade mastery die + Intelligence tier die.
 
-**Exploration Healing Formula:** (1 Exploration Round, 1 unit of Healing Supplies) Health healing = Supply dice + Trade mastery die + Intelligence tier die. This is a healing trial, so its dice do not explode. Cannot exceed maximum health. A character can benefit from one healing application per encounter (e.g. combat or exploration) in which they take damage. You cannot rebandage the same wounds.
+**Tools.** Treating Wounds, Injuries, and Minor Traumas needs a Surgeon's Pocket Set. Treating Severe and Grievous Traumas needs a Surgeon's Chest. Without the tools a treatment needs, its roll has Impotence. In an infirmary or another adequate workshop, treatment rolls have Dominance (see *[Trade Production](#trade-production)*).
 
-**Triage Healing Formula:** (2 AP, 1 unit of Healing Supplies) Health healing = Supply tier. Cannot exceed maximum health. A character can benefit from one triage application per Injury (characters only receive Injuries when reaching 0 health).
+**Untrained hands.** Without at least Untrained Healer mastery, you roll before using a Wound Kit (against 3) or an Injury Kit (against 4). On a failure, the kit is wasted.
 
-**Treat [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."):** (2 AP, 1 unit of Healing Supplies) Healer trial (Trade mastery die + Intelligence tier die) against the source DC that inflicted the Tainted condition. Supply bonus equals supply tier minus 1. Before rolling, you may sacrifice 2 bonus to increase the tier reduction by 1 (maximum reduction 3). On success, reduce the target's Tainted condition by the chosen number of tiers. On failure, the unit of Healing Supplies is consumed with no effect.
+**Heal.** *1 Exploration Round. Wound Kit. Pocket Set.* The patient regains health equal to your roll. A patient can be Healed once per encounter in which they were wounded. Without a pocket set, the patient regains health equal to your Healer mastery level instead; it still counts as their Heal for the encounter.
 
-| Supply Tier | Option A | Option B | Option C |
-|:---:|:---|:---|:---|
-| T1 | +0, reduce 1 | | |
-| T2 | +1, reduce 1 | | |
-| T3 | +2, reduce 1 | +0, reduce 2 | |
-| T4 | +3, reduce 1 | +1, reduce 2 | |
-| T5 | +4, reduce 1 | +2, reduce 2 | +0, reduce 3 |
-| T6 | +5, reduce 1 | +3, reduce 2 | +1, reduce 3 |
-| T7 | +6, reduce 1 | +4, reduce 2 | +2, reduce 3 |
+**Triage.** *2 AP. Wound Kit. No tools.* Only during combat. The patient regains health equal to your Healer mastery level. A downed patient can be triaged once per Injury. A conscious patient can be triaged once per encounter, and you and the patient both spend your whole turn on it, with no attacks, defense, or movement. Triage does not count as the patient's Heal.
 
-**Treat [Infected](../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."):** (1 Exploration Round, 1 unit of Healing Supplies) Healer trial (Trade mastery die + Intelligence tier die) against the source DC that inflicted the Infected condition. Supply bonus and tier reduction trade-off follow the same rules as Treat [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."). On success, reduce the target's Infected condition by the chosen number of tiers. On failure, the unit of Healing Supplies is consumed with no effect.
+**Treat Injury.** *1 Exploration Round. Injury Kit. Pocket Set.* Clears one Injury, with no roll. Without a pocket set, roll with Impotence against 4; on a failure, the kit is wasted.
 
-**Treat Injuries:** (1 Exploration Round, 1 unit of Healing Supplies) No trial required. Clears a number of Injuries equal to the supply tier used. If the supply tier exceeds the number of Injuries treated, excess tiers convert to healing using the supply dice for the corresponding excess tier (e.g., 3 excess tiers heals using T3 supply dice: 2d4). This counts as the character's one healing application per encounter.
+**Treat Trauma.** *1 Exploration Round. Trauma Kit. Pocket Set or Chest.* Perform one treatment listed on the Trauma table (*[Combat](../../core/combat.md)*, [Trauma Table](../../core/combat.md#trauma-table)): stop the bleeding, reset a joint, set a bone, tend a wound, or revise a scar. Roll against the Trauma's tier: Minor 5, Severe 7, Grievous 9. On a failure, the kit is wasted, and you may try again. If you fail to set a bone by 5 or more, the bone is set badly: it still heals, but when it does, the patient gains a Minor Trauma (a Limp for a leg, or Arm Bruised to the Bone for an arm). Treatments that need several successes, such as tending daily for 10 successes, count one success per treatment.
 
-**Treat Trauma:** (1 Exploration Round, 1 unit of Healing Supplies) Perform one treatment listed on the Trauma table (*[Combat](../../core/combat.md)*, [Trauma Table](../../core/combat.md#trauma-table)): set a bone, reset a joint, stop bleeding, tend a wound, or revise a scar. Each treatment has a tier (T2 or T3) and requires Healing Supplies of at least that tier (Peasant for T2, Knight for T3). If your Healer mastery meets that tier on the Automatic Use table, the treatment succeeds. Otherwise, make a Healer trial (Trade mastery die + Intelligence tier die + supply bonus) against the tier's Use DC. Supply bonus equals supply tier minus 1. On failure, the unit of Healing Supplies is consumed with no effect, and you may try again. If you fail to set a bone by 5 or more, the bone is set badly: it still heals, but when it does, the patient gains a Minor Trauma (a Limp for a leg, or Arm Bruised to the Bone for an arm). Treatments that require several successes (such as tending daily, 10 successes) count one success per treatment.
+**Treat Poison.** *2 AP. Physic Kit. No tools.* Roll against the DC of the poison that caused the patient's [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."). On a success, Tainted drops by 1 tier, or by 2 if you succeed by 5 or more.
 
-**Healing Supply Dice and Costs:**
+**Treat Disease.** *1 Exploration Round. Physic Kit. No tools.* Roll against the DC of the disease that caused the patient's [Infected](../../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased."). On a success, the patient has +2 on their next Infected trial.
 
-| Tier | Social Class | Supply Dice | Supply Avg | Cost | Trade Mastery Required to Use/Craft |
-|------|-------------|----------|---------|------|--------------------------|
-| T1 | Serf | 2d2 | 3 | 1 sp | Unskilled |
-| T2 | Peasant | 2d3 | 4 | 1 ss | Untrained |
-| T3 | Knight | 2d4 | 5 | 1 sc | Basic |
-| T4 | Burgher | 3d6 | 10.5 | 1 gs | Skilled |
-| T5 | Magnate | 4d8 | 18 | 2 gs | Expert |
-| T6 | Noble | 5d10 | 27.5 | 4 gs | Master |
-| T7 | Royal | 6d12 | 39 | 8 gs | Grand Master |
+**Use Medicine.** You can apply medicines and counter-vials (see *[Alchemy](alchemy/index.md)*) using your Healer mastery in place of Alchemist mastery for Automatic Use. You cannot make them.
 
 ## Alchemist Discipline
 
@@ -138,7 +124,7 @@ The Scribe discipline covers the creation of magical scrolls. It is open only to
 
 You can only scribe scrolls from your own casting tradition (Theurgic, Occult, or Priscan based on your class).
 
-**Scroll Creation:** You can only scribe scrolls for spells you already know (familiar Form + Command combinations). A scroll is an abridged version of a full spell, with the magical physics compressed and cast into the vellum so the spell is already prepared. Scrolls always cost 2 AP to use, regardless of the spell's normal speed. A scroll is always 1 leaf of vellum, regardless of the spell's magan cost.
+**Scroll Creation:** You can only scribe scrolls for spells you already know (familiar Form + Command combinations). A scroll is an abridged version of a full spell, with the magical physics compressed and cast into the vellum so the spell is already prepared. Scrolls always cost 2 AP and are Slow to use, regardless of the spell's normal speed. A scroll is always 1 leaf of vellum, regardless of the spell's magan cost.
 
 **Requirements:**
 
@@ -177,20 +163,21 @@ Cost listed is for Scribe Supplies only (magan² units at 1 ss each). Add 1 sp f
 
 When a scroll's magan cost exceeds the caster's DC for the spell's Form, the Scribe must pass a crafting trial. If the magan cost is equal to or less than the Form DC, no trial is required.
 
-Trial DC = 2 + (magan cost - Form DC). The trial uses your tradition's attribute tier die, Intelligence, Charisma, or Perception, + Trade mastery die.
+Trial DC = 2 + (magan cost - Form DC). The trial uses your tradition's attribute tier die, Intelligence, Charisma, or Perception, + Trade mastery die. Working in your study or another adequate workshop gives Dominance on the trial (see [Trade Production](#trade-production)).
 
 The trial occurs at the midpoint of the crafting process (half the total days elapsed). On a success, the Scribe completes the scroll normally. On a failure, the Scribe recognizes the compression is failing and must choose:
 
 *Abandon:* Stop work immediately. Half the remaining time and half the remaining Scribe Supplies are saved. The leaf of vellum is ruined.
 
-*Commit:* Complete the full crafting time and expend all supplies. The scroll is ruined, but the Scribe gains Dominance on their next attempt to create the exact same scroll (same spell, same magan cost). This reflects the Scribe internalizing where the compression broke down. Dominance does not stack across multiple committed failures.
+*Commit:* Complete the full crafting time and expend all supplies. The scroll is ruined, but the Scribe gains +2 on their next attempt to create the exact same scroll (same spell, same magan cost). The +2 does not stack across multiple committed failures.
 
-**Reading Scrolls.** A scroll's tier comes from its classification: Vestige is T1, Distortion T2, Manifestation T3, Incantation T4, Invocation T5, Devastation T6, and Culmination T7. Its Use DC is that tier's Use DC on the Automatic Use table. A magan cost not listed in the table above uses the classification of the band it falls in. Reading a scroll uses the attribute of the scroll's tradition, Intelligence for Occult, Charisma for Theurgic, or Perception for Priscan, plus your Trade (Scribe) mastery die.
+**Reading Scrolls.** 2 AP. Slow. Declared. Reading a scroll is casting a spell. It costs no magan, and if it is interrupted, the scroll is lost.
 
-- **Your own tradition:** if your Scribe mastery meets the scroll's tier, you know the scroll on sight and use it automatically. Otherwise, use Off-Label Use.
-- **Another tradition:** always Off-Label Use, and only for a scroll in a Form in which you have at least Untrained mastery.
-- **Identifying:** a successful Off-Label roll identifies the scroll, and you can release it later without another roll. The roll can be made outside combat, as the Sage role. On a failure, the scroll is ruined.
-- **Using:** a scroll costs no magan, needs no miscast trial, and can't be coerced. Its spell uses the settings, DC, and dice the scribe fixed when writing it. A spell with a duration needs the reader's concentration (see *[Magic Mastery](../../magic/index.md)*, [Concentration](../../magic/index.md#concentration)).
+A scroll's tradition is plain to anyone with at least Untrained Scribe mastery. If the scroll is your own tradition and your Scribe mastery is at or above its tier, reading it needs no roll. Otherwise, you roll the scroll's tradition attribute tier die (Intelligence for Occult, Charisma for Theurgic, Perception for Priscan) + your Scribe mastery die against its Use DC. On a failure, the scroll is ruined. You can read a scroll of another tradition only if you have at least Untrained mastery in its Form.
+
+- **Identifying:** Outside combat, as the Sage role, you can identify a scroll to learn its spell. Make the same roll you would to read it; if reading it would need no roll, you succeed automatically. On a failure, you learn nothing, and you cannot try that scroll again until your Scribe mastery increases. You can read a scroll you have not identified, but you will not know what it does until it goes off.
+- **The spell:** it uses the reach, scale, duration, DC, and dice the scribe chose when writing it, and it can't be coerced. A spell with a duration needs the reader's concentration (see *[Magic Mastery](../../magic/index.md)*, [Concentration](../../magic/index.md#concentration)).
 - **Learning:** only Occult casters, the Bahador and Magus, can learn a spell from a scroll, and only in a Form in which they have at least Untrained mastery. They learn it by casting it, which consumes the scroll.
+- **Tier and Use DC:** a scroll's tier comes from its classification: Vestige is T1, Distortion T2, Manifestation T3, Incantation T4, Invocation T5, Devastation T6, and Culmination T7. A magan cost not listed in the table above uses the classification of the band it falls in. Its Use DC is that tier's Use DC on the Automatic Use table.
 
 **Grimoire Transcription (Bahador/Magus):** Recording a spell in a grimoire follows the universal spell acquisition process: magan² units of Scribe Supplies consumed, 1 day per magan of downtime. The spell occupies 1 page per magan in the grimoire. No Scribe mastery gate is required; any Bahador or Magus can record spells they have discovered. The grimoire's alchemically treated vellum is already bound into the book and does not need to be purchased separately.

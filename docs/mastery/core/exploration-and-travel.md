@@ -182,7 +182,7 @@ A traveling day takes 8 hours.
 ### Hunter / Forager (A)
 
 * You travel parallel to the party, looking for food and identifying possible threats.
-* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, healing herbs, or Spell Components for the group.
 * *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to locate game in the region, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify non-beast creatures in the region.
 
@@ -272,7 +272,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 ### Hunter / Forager (A)
 
 * You leave the camp in search of food and to survey the nearby area.
-* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, Healing Supplies, or Spell Components for the group.
+* *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to provide meals, healing herbs, or Spell Components for the group.
 * *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to locate game near the camp, and *[Wilderness (Beast Lore)](../skills/wilderness/index.md#beast-lore)* to identify it.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify non-beast creatures near the camp.
 
@@ -331,7 +331,11 @@ You cannot benefit from more than 1 type of rest in 24 hours. You can benefit fr
 
 **Hot Meals.** Cooked Dry rations and meals prepared at an inn are hot meals. A Poor meal is hot if it is served fresh, at the GM's discretion. If you eat a hot meal, add your Endurance tier to the health and your casting tier to the magan you recover during your next rest. The bonus applies once per rest, no matter how many hot meals you eat.
 
-**Going Hungry.** A day in which you eat no meal advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier.
+**Going Hungry.** Each time you go a number of days equal to your Endurance tier without a meal, advance *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. If you are already Exhausted Tier 3, you fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead, and die in a number of days equal to your Endurance tier unless you are fed.
+
+**Going Thirsty.** A day in which you don't drink the day's water (see *[Weather](#weather)*, Hydrated and Covered) advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. If you are already Exhausted Tier 3, you fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead, and die in a number of hours equal to your Endurance tier unless you are given water.
+
+[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") from going hungry or thirsty doesn't recover with rest until you eat or drink.
 
 Some classes may gain other bonuses to magan regeneration.
 
@@ -373,17 +377,35 @@ The more quickly you try to move, the more you can exhaust yourselves, burn thro
 
 ### Weather
 
-Weather wears on travelers. A creature that fails an Endurance trial in this section advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. The GM decides what counts as dressed for the weather.
+Weather wears on travelers. Each day falls in a **temperature band**, and it may also be **Wet** or **Windy** (see *[Weather Tables](#weather-tables)*). A creature that fails an Endurance trial in this section advances *[Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* by 1 tier. A creature that is already Exhausted Tier 3 and fails falls *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")*. It dies in a number of hours equal to its Endurance tier unless it is warmed (in cold) or cooled (in heat).
 
-**Cold.** Outdoors in cold weather without clothing for it, make an Endurance trial (Straightforward, 4) every 2 hours.
+| Band | Temperature |
+|:---|:---|
+| Extreme Cold | Below 10°F |
+| Cold | 10–40°F |
+| Temperate | 40–80°F |
+| Hot | 80–100°F |
+| Extreme Heat | Above 100°F |
 
-**Extreme Cold.** In bitter cold, make an Endurance trial (Tricky, 5) at the end of each Travel Round, unless you are dressed for extreme cold.
+**Cold.** Outdoors in Cold, make an Endurance trial (Straightforward, 4) every 2 hours.
 
-**Strong Wind.** Ranged attacks have their Aiming Trial DC increased by 2, and Perception trials that rely on hearing have Impotence. Strong wind puts out open flames, clears haze, and makes flying without magic nearly impossible. In snow, blowing snow is haze (see *[Light and Visibility](#light-and-visibility)*).
+**Extreme Cold.** Outdoors in Extreme Cold, make an Endurance trial (Tricky, 5) at the end of each Travel Round.
+
+**Dressed for the Cold.** Count the cold-weather pieces you wear: one for your head, one cloak, one for your hands, and one for your feet (see *[Equipment](../equipment/gear-and-services.md)*, Clothing). Worn body armor counts as 2 pieces. With fewer than 2 pieces, you make the trials as normal. With 2 or 3, you make them with Dominance. With all 4, you make none. In Extreme Cold, pieces made for Cold count toward 2 or 3, but you make no trials only if every piece is made for Extreme Cold.
+
+**Hot.** Outdoors in the heat of the day, make an Endurance trial (Straightforward, 4) every 2 hours.
+
+**Extreme Heat.** Outdoors in Extreme Heat, make an Endurance trial (Tricky, 5) at the end of each Travel Round.
+
+**Hydrated and Covered.** You are **Hydrated** if you have drunk the day's water: ½ gallon in Temperate weather, 1 gallon in Hot, and 2 in Extreme Heat. A waterskin holds ½ gallon. You are **Covered** if you wear a head piece and a body piece made for heat (see *[Equipment](../equipment/gear-and-services.md)*, Clothing). Worn body armor counts as one of the two missing. With both, you make no heat trials. With one, you make them with Dominance. With neither, you make them as normal.
+
+**Wet and Cold.** While you are wet in Cold or Extreme Cold, or in strong wind, make an Endurance trial (Tricky, 5) at the end of each round: each combat round in combat, each exploration round otherwise. A fire and dry clothing end it, and you return to the normal rules for the weather. A wool or pile cloak keeps rain off: you are wet only if you are soaked, such as by falling into water, wading, or a long downpour.
+
+**Strong Wind.** Wind of 30 mph or more. Ranged attacks have their Aiming Trial DC increased by 2, and Perception trials that rely on hearing have Impotence. Strong wind puts out open flames, clears haze, and makes flying without magic nearly impossible. In snow, blowing snow is haze (see *[Light and Visibility](#light-and-visibility)*).
 
 **Heavy Snow.** Falling snow is haze, with a sight range the GM sets by how hard it falls (see *[Light and Visibility](#light-and-visibility)*).
 
-**Blizzard.** Extreme cold, strong wind, and heavy snow together.
+**Blizzard.** Extreme Cold, strong wind, and heavy snow together.
 
 **High Altitude.** Each hour of travel at high altitude counts as 2 hours for *Pushing the Pace*.
 
@@ -391,7 +413,170 @@ Weather wears on travelers. A creature that fails an Endurance trial in this sec
 
 **Frigid Water.** When you enter frigid water, make an Endurance trial (Tricky, 5). On a failure, you are also *[Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")* (Tier 1). At the end of each round you stay in the water, make the trial again: each combat round in combat, each exploration round otherwise. On a natural minimum, you go into shock and fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")*.
 
-**Wet and Cold.** While you are wet in cold weather or strong wind, make an Endurance trial (Tricky, 5) at the end of each round: each combat round in combat, each exploration round otherwise. A fire and dry clothing end it, and you return to the normal rules for the weather.
+### Weather Tables
+
+The GM rolls the day's weather on the season's table. On a 1 or a 20, roll on that season's Extreme table instead.
+
+- The **band** comes from the rolled temperature (see *[Weather](#weather)*). The "Usual band" column shows the band at the row's average, for quick reference.
+- **Wet:** any precipitation. **Windy:** wind of 30 mph or more (strong wind). **Low visibility:** haze, with a sight range the GM sets.
+
+#### Climate
+
+The tables describe a **temperate** land. For other latitudes, the GM shifts every rolled temperature:
+
+| Climate | Shift |
+|:---|:---:|
+| Northern (long winters, short summers) | −20°F |
+| Temperate | none |
+| Southern (mild winters, hot summers) | +15°F |
+
+At −20°F, the Winter Extreme blizzard averages −30°F, and an ordinary Northern winter day is often Extreme Cold. Deserts, high mountains, the far north and similar places need their own tables.
+
+#### Weather, Spring
+
+*Roll: d20*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility |
+|---|---|---|---|---|---|---|
+| 1 | Weather, Extreme - Spring |  |  |  |  |  |
+| 2 | Very Cold | [6d4] F | Cold (avg 15°F) | [2d20-2] mph | N/A | Good |
+| 3 | Cold | [10d4] F | Cold (avg 25°F) | [2d20-2] mph | N/A | Good |
+| 4 | Somewhat Cold | [14d4] F | Cold (avg 35°F) | [2d20-2] mph | N/A | Good |
+| 5–7 | Cool | [18d4] F | Temperate (avg 45°F) | [2d20-2] mph | N/A | Good |
+| 8–13 | Moderate | [22d4] F | Temperate (avg 55°F) | [2d20-2] mph | N/A | Good |
+| 14–16 | Warm | [26d4] F | Temperate (avg 65°F) | [2d20-2] mph | N/A | Good |
+| 17 | Somewhat Hot | [30d4] F | Temperate (avg 75°F) | [2d20-2] mph | N/A | Good |
+| 18 | Hot | [34d4] F | Hot (avg 85°F) | [2d20-2] mph | N/A | Good |
+| 19 | Very Hot | [38d4] F | Hot (avg 95°F) | [2d20-2] mph | N/A | Good |
+| 20 | Weather, Extreme - Spring |  |  |  |  |  |
+
+#### Weather, Extreme - Spring
+
+*Roll: d100*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
+|---|---|---|---|---|---|---|---|
+| 1–5 | Blizzard Conditions | [10d6-40] F | Extreme Cold (avg -5°F) | [2d20] mph | [2d4+6] inches | Low | [1d12] Hours |
+| 6–10 | Heavy Snowfall | [10d6-31] F | Extreme Cold (avg 4°F) | [2d20-2] mph | [2d4+4] inches | Low | [1d12] Hours |
+| 11–15 | Moderate Snowfall | [10d6-27] F | Extreme Cold (avg 8°F) | [2d20-2] mph | [1d4+4] inches | Low | [1d12] Hours |
+| 16–20 | Light Snowfall | [10d6-23] F | Cold (avg 12°F) | [2d20-2] mph | [1d4] inches | Low | [1d12] Hours |
+| 21–25 | Flurries | [10d6-19] F | Cold (avg 16°F) | [2d20-2] mph | [1d2-1] inches | Low | [1d12] Hours |
+| 26–35 | Extreme Cold | [10d6-40] F | Extreme Cold (avg -5°F) | [1d20-1] mph | N/A | Good | [1d6] Days |
+| 36–40 | Sleet | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 41–45 | Snow and Rain Mix | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 46–50 | Freezing Rain | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 51–55 | Freezing Mist | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 56–65 | Extreme Wind | [10d10-10] F | Temperate (avg 45°F) | [4d10+10] mph | N/A | Moderate | [1d12] Hours |
+| 66–70 | Heavy Rain | [10d10-10] F | Temperate (avg 45°F) | [2d20] mph | [1d3] inches | Low | [1d3] Hours |
+| 71–75 | Moderate Rain | [10d10-10] F | Temperate (avg 45°F) | [2d20-2] mph | [1d2] inches | Low | [1d8] Hours |
+| 76–80 | Light Rain | [10d10-10] F | Temperate (avg 45°F) | [2d20-2] mph | [1d2-1] inches | Low | [1d12] Hours |
+| 81–85 | Drizzle | [10d10-10] F | Temperate (avg 45°F) | [2d20-2] mph | Minimal | Low | [1d12] Hours |
+| 86–95 | Foggy | [10d10-10] F | Temperate (avg 45°F) | [1d20-1] mph | N/A | Low | [1d3] Hours |
+| 96–100 | Extreme Heat | [8d10+45] F | Hot (avg 89°F) | [1d20-1] mph | N/A | Good | [1d3] Days |
+
+#### Weather, Summer
+
+*Roll: d20*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility |
+|---|---|---|---|---|---|---|
+| 1 | Weather, Extreme - Summer |  |  |  |  |  |
+| 2 | Very Cold | [22d4] F | Temperate (avg 55°F) | [2d20-2] mph | N/A | Good |
+| 3 | Cold | [24d4] F | Temperate (avg 60°F) | [2d20-2] mph | N/A | Good |
+| 4 | Somewhat Cold | [26d4] F | Temperate (avg 65°F) | [2d20-2] mph | N/A | Good |
+| 5 | Cool | [28d4] F | Temperate (avg 70°F) | [2d20-2] mph | N/A | Good |
+| 6–7 | Moderate | [30d4] F | Temperate (avg 75°F) | [2d20-2] mph | N/A | Good |
+| 8–9 | Warm | [32d4] F | Hot (avg 80°F) | [2d20-2] mph | N/A | Good |
+| 10–13 | Somewhat Hot | [34d4] F | Hot (avg 85°F) | [2d20-2] mph | N/A | Good |
+| 14–17 | Hot | [38d4] F | Hot (avg 95°F) | [2d20-2] mph | N/A | Good |
+| 18–19 | Very Hot | [42d4] F | Extreme Heat (avg 105°F) | [2d20-2] mph | N/A | Good |
+| 20 | Weather, Extreme - Summer |  |  |  |  |  |
+
+#### Weather, Extreme - Summer
+
+*Roll: d100*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
+|---|---|---|---|---|---|---|---|
+| 1–5 | Torrential Rain | [20d8] F | Hot (avg 90°F) | [2d20] mph | [1d3+1] inches | Low | [1d3] Hours |
+| 6–10 | Thunderstorm | [20d8] F | Hot (avg 90°F) | [2d20-2] mph | [1d3] inches | Low | [1d3] Hours |
+| 11–15 | Hail | [20d8] F | Hot (avg 90°F) | [2d20-2] mph | [1d3] inches | Low | [1d3] Hours |
+| 16–25 | Heavy Rain | [20d8] F | Hot (avg 90°F) | [2d20] mph | [1d3] inches | Low | [1d3] Hours |
+| 26–35 | Moderate Rain | [20d8] F | Hot (avg 90°F) | [2d20-2] mph | [1d2] inches | Low | [1d12] Hours |
+| 36–45 | Light Rain | [20d8] F | Hot (avg 90°F) | [2d20-2] mph | [1d2-1] inches | Low | [1d12] Hours |
+| 46–55 | Drizzle | [20d8] F | Hot (avg 90°F) | [2d20-2] mph | Minimal | Low | [1d12] Hours |
+| 56–65 | Extreme Wind | [20d8] F | Hot (avg 90°F) | [4d10+10] mph | N/A | Moderate | [2d12] Hours |
+| 66–75 | Foggy | [20d8] F | Hot (avg 90°F) | [1d20-1] mph | N/A | Low | [1d3] Hours |
+| 76–100 | Extreme Heat | [42d4] F | Extreme Heat (avg 105°F) | [1d20-1] mph | N/A | Good | [1d6+1] Days |
+
+#### Weather, Autumn
+
+*Roll: d20*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility |
+|---|---|---|---|---|---|---|
+| 1 | Weather, Extreme - Autumn |  |  |  |  |  |
+| 2 | Very Cold | [8d4] F | Cold (avg 20°F) | [2d20-2] mph | N/A | Good |
+| 3 | Cold | [12d4] F | Cold (avg 30°F) | [2d20-2] mph | N/A | Good |
+| 4–5 | Somewhat Cold | [16d4] F | Temperate (avg 40°F) | [2d20-2] mph | N/A | Good |
+| 6–9 | Cool | [18d4] F | Temperate (avg 45°F) | [2d20-2] mph | N/A | Good |
+| 10–14 | Moderate | [22d4] F | Temperate (avg 55°F) | [2d20-2] mph | N/A | Good |
+| 15–16 | Warm | [26d4] F | Temperate (avg 65°F) | [2d20-2] mph | N/A | Good |
+| 17 | Somewhat Hot | [28d4] F | Temperate (avg 70°F) | [2d20-2] mph | N/A | Good |
+| 18 | Hot | [32d4] F | Hot (avg 80°F) | [2d20-2] mph | N/A | Good |
+| 19 | Very Hot | [36d4] F | Hot (avg 90°F) | [2d20-2] mph | N/A | Good |
+| 20 | Weather, Extreme - Autumn |  |  |  |  |  |
+
+#### Weather, Extreme - Autumn
+
+*Roll: d100*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
+|---|---|---|---|---|---|---|---|
+| 1–5 | Early Blizzard | [10d6-35] F | Extreme Cold (avg 0°F) | [2d20] mph | [2d4+4] inches | Low | [1d12] Hours |
+| 6–10 | Heavy Snowfall | [10d6-27] F | Extreme Cold (avg 8°F) | [2d20-2] mph | [1d4+4] inches | Low | [1d12] Hours |
+| 11–15 | Light Snowfall | [10d6-23] F | Cold (avg 12°F) | [2d20-2] mph | [1d4] inches | Low | [1d12] Hours |
+| 16–25 | Hard Frost | [10d6-30] F | Extreme Cold (avg 5°F) | [1d20-1] mph | N/A | Good | [1d6] Days |
+| 26–30 | Sleet | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 31–35 | Freezing Rain | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 36–50 | Gale | [10d10-10] F | Temperate (avg 45°F) | [4d10+10] mph | N/A | Moderate | [2d12] Hours |
+| 51–60 | Heavy Rain | [10d10-10] F | Temperate (avg 45°F) | [2d20] mph | [1d3] inches | Low | [1d6] Hours |
+| 61–70 | Moderate Rain | [10d10-10] F | Temperate (avg 45°F) | [2d20-2] mph | [1d2] inches | Low | [1d12] Hours |
+| 71–75 | Drizzle | [10d10-10] F | Temperate (avg 45°F) | [2d20-2] mph | Minimal | Low | [2d12] Hours |
+| 76–90 | Foggy | [10d10-10] F | Temperate (avg 45°F) | [1d20-1] mph | N/A | Low | [1d6] Hours |
+| 91–100 | Late Heat | [6d10+55] F | Hot (avg 88°F) | [1d20-1] mph | N/A | Good | [1d6] Days |
+
+#### Weather, Winter
+
+*Roll: d20*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility |
+|---|---|---|---|---|---|---|
+| 1 | Weather, Extreme - Winter |  |  |  |  |  |
+| 2–4 | Very Cold | [10d6-30] F | Extreme Cold (avg 5°F) | [2d20-2] mph | N/A | Good |
+| 5–8 | Cold | [6d4] F | Cold (avg 15°F) | [2d20-2] mph | N/A | Good |
+| 9–12 | Somewhat Cold | [10d4] F | Cold (avg 25°F) | [2d20-2] mph | N/A | Good |
+| 13–15 | Cool | [14d4] F | Cold (avg 35°F) | [2d20-2] mph | N/A | Good |
+| 16–17 | Moderate | [18d4] F | Temperate (avg 45°F) | [2d20-2] mph | N/A | Good |
+| 18 | Warm | [20d4] F | Temperate (avg 50°F) | [2d20-2] mph | N/A | Good |
+| 19 | Mild | [24d4] F | Temperate (avg 60°F) | [2d20-2] mph | N/A | Good |
+| 20 | Weather, Extreme - Winter |  |  |  |  |  |
+
+#### Weather, Extreme - Winter
+
+*Roll: d100*
+
+| Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
+|---|---|---|---|---|---|---|---|
+| 1–15 | Blizzard Conditions | [10d6-45] F | Extreme Cold (avg -10°F) | [2d20+5] mph | [2d4+8] inches | Low | [2d12] Hours |
+| 16–25 | Heavy Snowfall | [10d6-35] F | Extreme Cold (avg 0°F) | [2d20-2] mph | [2d4+4] inches | Low | [1d12] Hours |
+| 26–30 | Moderate Snowfall | [10d6-30] F | Extreme Cold (avg 5°F) | [2d20-2] mph | [1d4+4] inches | Low | [1d12] Hours |
+| 31–50 | Extreme Cold | [10d6-50] F | Extreme Cold (avg -15°F) | [1d20-1] mph | N/A | Good | [1d10] Days |
+| 51–60 | Ice Storm | [10d6-15] F | Cold (avg 20°F) | [2d20] mph | [1d3] inches | Low | [1d12] Hours |
+| 61–65 | Freezing Fog | [10d6-20] F | Cold (avg 15°F) | [1d20-1] mph | N/A | Low | [1d6] Hours |
+| 66–80 | Extreme Wind | [10d6-20] F | Cold (avg 15°F) | [4d10+10] mph | N/A | Moderate | [1d12] Hours |
+| 81–90 | Freezing Rain | [10d6-11] F | Cold (avg 24°F) | [2d20-2] mph | [1d3] inches | Low | [1d12] Hours |
+| 91–100 | Thaw | [10d10] F | Temperate (avg 55°F) | [2d20-2] mph | [1d2] inches (rain) | Low | [1d6] Days |
 
 ### Movement
 

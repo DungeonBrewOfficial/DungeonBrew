@@ -106,7 +106,9 @@ Your Theurgic Lore replaces your access to other Creature Lores. You cannot inve
 
 #### Turn
 
-Once per encounter, you may spend 1 AP to attempt to turn one of your two kinds of being. Choose which kind, then choose one Division; every creature of that Division you can see is targeted. Roll your Charisma tier die + Lore skill die.
+**1 AP. Fast. Declared. Once per encounter.**
+
+Choose one of your two kinds of being, then choose one Division; every creature of that Division you can see is targeted. On your turn, roll your Charisma tier die + Lore skill die.
 
 **DC:** Division × 2. If your roll meets or exceeds the DC, you succeed.
 
@@ -124,9 +126,9 @@ Once per encounter, you may spend 1 AP to attempt to turn one of your two kinds 
 
 **Neutral Cleric:** You can choose to inflict [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") Tier 3 on Morphon or Primordial rather than turn them. You do not destroy; you bind.
 
-**Destroy.** Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
+**Destroy.** 1 AP. Slow. Declared. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
 
-**[Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.")/[Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.").** Roll ÷ DC (Division × 2) = number of creatures Controlled/Charmed. Controlled/Charmed is permanent. You can Control/Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Controlled/Charmed creatures to free up capacity. Controlled/Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. Regardless of whether it is Controlled or Charmed, to command them to act, you must use your concentration slot or expend 1 AP per round. Controlled/Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
+**[Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.")/[Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.").** 1 AP. Slow. Declared. Roll ÷ DC (Division × 2) = number of creatures Controlled/Charmed. Controlled/Charmed is permanent. You can Control/Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Controlled/Charmed creatures to free up capacity. Controlled/Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. Regardless of whether it is Controlled or Charmed, to command them to act, you must use your concentration slot or expend 1 AP per round. Controlled/Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
 
 ### Theurgic Magic
 
@@ -150,8 +152,8 @@ You start with a prayer book containing two prayers chosen by you or your GM. Ea
 
 Your Dominion is a zone of your numen's authority, created in one of three modes. When you create a zone, choose which of your Dominion's effects are active; each active effect adds to the cost. Preservation, Retribution, and Malediction, if you know them, are not active effects: they are available in any zone you create and cost magan only when used. The GM determines which creatures are within a zone, as for area spells.
 
-- **Fixed:** 1 AP. Moderate. A zone centered on your position when created. It lasts for the encounter and does not require concentration. Cost: 3 magan per active effect. Radius: 10 feet.
-- **Aura:** 2 AP. An aura with a 10-foot radius that moves with you. You either dedicate your concentration slot to maintain it or spend 1 AP per round. Cost: 1 magan per active effect per round, beginning the round you activate it. At the start of each of your turns, you can change which effects are active.
+- **Fixed:** 1 AP. 3 magan per active effect. Moderate. Declared. A zone centered on your position when created. It lasts for the encounter and does not require concentration. Radius: 10 feet.
+- **Aura:** 2 AP. 1 magan per active effect per round, beginning the round you activate it. Slow. Declared. An aura with a 10-foot radius that moves with you. You either dedicate your concentration slot to maintain it or spend 1 AP per round. At the start of each of your turns, you can change which effects are active.
 - **Exploration:** Once per day, a 10-minute rite performed with your Focus. The zone is centered on your Focus, which must remain at the site. All of your effects can be active at no magan cost. Radius: 10 feet per Charisma tier. Persists as long as your Focus remains.
 
 | Level | Tier | Tier Die |

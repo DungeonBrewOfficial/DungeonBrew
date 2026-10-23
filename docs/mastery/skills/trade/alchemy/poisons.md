@@ -25,7 +25,7 @@ Aconite is administered through ingestion or a wound. A creature affected by aco
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Ingested, Wound |
-| Use | Any time |
+| Use | Any time. 1 AP to coat; the weapon's speed. |
 | Duration | Short |
 | Crash | None |
 | Properties | None |
@@ -56,7 +56,7 @@ Aqua fortis is administered by contact, splashed by hand or thrown in its glass 
 | Type | Sea |
 | Workspace | Laboratory |
 | Delivery | Contact. Can be thrown (see [Incendiaries](incendiaries.md), Throwing) |
-| Use | Any time |
+| Use | Any time. 1 AP. Moderate (thrown). |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | Hazardous |
@@ -194,7 +194,7 @@ White hellebore is administered through a wound or ingestion. A creature affecte
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Wound, Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP to coat; the weapon's speed. |
 | Duration | Short |
 | Crash | None |
 | Properties | None |
@@ -227,7 +227,7 @@ Hemlock is administered through ingestion, or through a wound as a Thickened bla
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Ingested; Wound through Thickened |
-| Use | Any time |
+| Use | Any time. 1 AP to coat; the weapon's speed. |
 | Duration | Short |
 | Crash | None |
 | Properties | Delayed |
@@ -291,7 +291,7 @@ Oil of vitriol is administered by contact, splashed by hand or thrown in its gla
 | Type | Sea |
 | Workspace | Laboratory |
 | Delivery | Contact. Can be thrown (see [Incendiaries](incendiaries.md), Throwing) |
-| Use | Any time |
+| Use | Any time. 1 AP. Moderate (thrown). |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | Hazardous |
@@ -322,7 +322,7 @@ Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught
 | Type | Sea |
 | Workspace | Field kit |
 | Delivery | Contact, Inhaled. Thrown (see [Incendiaries](incendiaries.md), Throwing) |
-| Use | Any time |
+| Use | Any time. 1 AP. Moderate (thrown). |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -423,7 +423,7 @@ Yew is administered through ingestion, or through a wound as a Thickened coating
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Ingested; Wound through Thickened |
-| Use | Any time |
+| Use | Any time. 1 AP to coat; the weapon's speed. |
 | Duration | Short |
 | Crash | None |
 | Properties | Delayed |

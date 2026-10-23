@@ -145,21 +145,21 @@ One health pool across all forms. Health represents the spirit's vitality, not t
 
 #### Tier Structure
 
-Combat form abilities unlock at even tiers (2, 4, 6). At odd tiers (1, 3, 5, 7), select one ability from the Puca Abilities list. At Tier 1, you also gain Shared Senses for free.
+At Tier 1, choose your Puca's first combat form. It learns another at Tiers 2, 4, and 6. Each combat form comes with all of its abilities. At odd tiers (1, 3, 5, 7), select one ability from the Puca Abilities list. At Tier 1, you also gain Shared Senses for free.
 
 | Tier | Unlock |
 |:---:|:---|
-| 1 | Puca + Shapeshift + Shared Senses (free). Select Ability 1. |
-| 2 | Combat form ability 1. |
+| 1 | Puca + Shapeshift + Shared Senses (free). First combat form. Select Ability 1. |
+| 2 | Second combat form. |
 | 3 | Select Ability 2. |
-| 4 | Combat form ability 2. |
+| 4 | Third combat form. |
 | 5 | Select Ability 3. |
-| 6 | Combat form ability 3. |
+| 6 | Fourth combat form. |
 | 7 | Select Ability 4. |
 
 #### Shapeshift
 
-*(1 AP).* The Puca changes between any form it has access to.
+*(1 AP. Declared.)* The Puca changes between any form it has access to. In a round it changes form, the slowest form involved sets its phase.
 
 #### Shared Senses
 
@@ -171,7 +171,7 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 **Spell Conduit.** You may originate any spell (all 5 forms) from your Puca's position instead of your own, provided the Puca is within 30 feet. The spell's range is measured from the Puca. You pay all costs (magan, concentration) normally. Touch spells can be delivered through the Puca without entering melee. Ranged spells benefit from reduced effective distance.
 
-**Primal Tether.** *(2 AP. 30 ft range.)* The Puca sacrifices health equal to its tier die (rolled) and you heal for the same amount. Works as long as you are not dead (-10 Health).
+**Primal Tether.** *(2 of the Puca's AP. 30 ft range.)* The Puca sacrifices health equal to its tier die (rolled) and you heal for the same amount. Works as long as you are not dead.
 
 **Fae Spirit.** The Puca recovers all health at dawn. If the Puca reaches 0 Health, it discorporates — it cannot act, cannot be targeted, and provides no abilities. You can resummon it early by spending magan equal to 3x the Puca's tier and performing a 10-minute uninterrupted ritual. The Puca reforms at full health. If not resummoned, it reforms automatically at dawn at full health. If you die, the Puca disperses permanently.
 
@@ -192,31 +192,55 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 **Mount** (Crushing; stag, horse, elk, caribou): 2 square footprint, large enough to ride. Speed: +4 land. Not a combat form.
 
-**Combat Forms** — abilities unlock at Tiers 2, 4, and 6. Damage type determined by form. All combat forms begin at 1 square. Speed: +4 land.
+**Combat Forms** — each form comes with all of its abilities. Damage type determined by form. All combat forms begin at 1 square. Speed: +4 land, unless the form says otherwise.
 
 **Bear (Cutting):**
 
-***Charge*** *(Tier 2. 2 AP, Movement + Attack).* Move minimum 15 feet in a straight line. Claw attack gains Dominance on damage. Countered by Set Spear vs Charge.
+***Grab*** *(1 AP).* The Puca makes a claw attack. In lieu of an attack roll, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a Strength trial [Puca DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
-***Grab*** *(Tier 4).* When the Puca hits with a claw attack, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a Strength trial [Puca DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+***Maul*** *(1 AP, Attack).* The Puca attacks with Dominance against a [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target.
 
-***Swipe*** *(Tier 6. 1 AP, Attack).* Wide claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to all targets. Cutting.
+***Swipe*** *(1 AP, Attack).* Wide claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to all targets.
 
 **Wolf (Piercing):**
 
-***Hamstring*** *(Tier 2. 1 AP, Attack).* On a hit with a bite attack from behind or flanking, in lieu of damage, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+***Hamstring*** *(1 AP, Attack).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, in lieu of damage, the target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
-***Pack*** *(Tier 4. 1 AP, Reaction).* When an allied creature hits an enemy within 5 feet of the Puca, the Puca can make a bite attack against the same target.
+***Pack*** *(1 AP, Reaction).* When an allied creature hits an enemy within 5 feet of the Puca, the Puca can make a bite attack against the same target.
 
-***Rally Howl*** *(Tier 6. 2 AP).* The Puca howls. All allied creatures within 30 feet advance [Invigorated](../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Lasts 1 round. Can be reapplied to stack tiers.
+***Rally Howl*** *(2 AP).* The Puca howls. All allied creatures within 30 feet advance [Invigorated](../../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier, to no higher than Tier 1. Lasts 1 round. The Puca can howl again on later turns to keep it.
 
 **Boar (Piercing):**
 
-***Charge*** *(Tier 2. 2 AP, Movement + Attack).* Move minimum 15 feet in a straight line. Tusk attack gains Dominance on damage. Countered by Set Spear vs Charge.
+***Charge*** *(2 AP, Movement + Attack).* Move minimum 15 feet in a straight line. Tusk attack gains Dominance on damage. Countered by Set Spear vs Charge.
 
-***Gore*** *(Tier 4. 1 AP, Attack).* Tusk attack with Impotence. On a hit that deals health damage, the target must succeed on an Endurance trial [Puca DC] or gain [Attrition](../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) equal to the Puca's tier.
+***Gore*** *(1 AP, Attack).* Tusk attack with Impotence. On a hit that deals health damage, the target must succeed on an Endurance trial [Puca DC] or gain [Attrition](../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) equal to the Puca's tier.
 
-***Trample*** *(Tier 6. 2 AP, Movement + Attack).* Move in a straight line up to full speed. Roll one tusk attack with Inferiority and apply it to up to 2 targets in the path.
+***Trample*** *(2 AP, Movement + Attack).* Move in a straight line up to full speed. Roll one tusk attack with Inferiority and apply it to up to 2 targets in the path.
+
+**Great Cat (Cutting):** *lion, tiger, leopard, or any great cat.*
+
+***Ambusher*** *(Passive).* In natural terrain, the Puca is always ready to ambush before a combat encounter begins, unless the GM decides otherwise. When it attacks a creature that has not noticed it, that creature makes a Startle trial [Puca DC]. A creature with Alertness (Danger Sense) first rolls a Perception trial [Puca DC] as the ambush is sprung; on a success, it makes no Startle trial.
+
+***Grab*** *(1 AP).* As the Bear's Grab.
+
+***Kill*** *(2 AP, Attack).* The Puca attacks with Superiority against a [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target. On a hit that deals health damage, the target must succeed on an Endurance trial [Puca DC] or gain [Attrition](../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) equal to the Puca's tier.
+
+**Great Serpent (Piercing):** *adder, python, or any great serpent.* Speed: +0 land.
+
+***Venomous Bite*** *(1 AP, Attack).* Bite attack with Impotence. If it deals damage, the venom deals Primal damage equal to the Puca's tier, and the target must succeed on an Endurance trial [Puca DC] or advance [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier. If the target is already Tainted from the Puca's venom, the bite still deals the Primal damage, but the target makes no new trial.
+
+***Constrict*** *(1 AP).* The Puca wraps around a target within reach. The target must succeed on a Strength trial [Puca DC] or advance [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a Strength trial [Puca DC] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+
+***Squeeze*** *(1 AP, Attack).* Only against a target the Puca has [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."). Crushing.
+
+**Great Raptor (Piercing):** *eagle, hawk, owl, or any great raptor.* Speed: +4 fly; no land bonus.
+
+***Stoop*** *(2 AP, Movement + Attack).* The Puca moves up to full speed in a straight line from above and makes a talon attack with Dominance. It must start at least 15 feet above the target.
+
+***Mark*** *(1 AP).* The Puca circles above one creature it can see within 120 feet. Until the end of the Puca's next turn, that creature gains no benefit from [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") against the Puca's allies, and those allies have Dominance on Perception trials to locate it. The Puca can spend 1 AP on later turns to keep circling.
+
+***Aerial Evasion*** *(Passive).* While the Puca is flying, ranged attacks against it add the Puca's tier to the Aiming Trial DC.
 
 Additional combat forms will be added as creature stat blocks are built.
 

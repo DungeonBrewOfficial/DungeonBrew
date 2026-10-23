@@ -92,7 +92,7 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 
 You automatically advance in the *[Alertness](../../skills/alertness.md)* and *[Presence](../../skills/presence.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-**Thought-Opening.** You have natural telepathy. Creatures that do not possess telepathy or are not elves cannot respond. Normal limitations of communication based on shared languages apply. Using telepathy in combat requires an action and is limited to a single, simple sentence.
+**Thought-Opening.** You have natural telepathy. Creatures that do not possess telepathy or are not elves cannot respond. Normal limitations of communication based on shared languages apply. In combat, telepathy costs 1 AP and is limited to a single, simple sentence. You can use it at any time, including outside your turn.
 
 | Wisdom Tier | Range |
 |:---:|:---:|

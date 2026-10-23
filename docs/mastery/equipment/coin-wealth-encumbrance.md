@@ -201,13 +201,13 @@ A weapon comes with a basic sheath, scabbard, frog, or strap to carry it. Kunai 
 
 ### Containers
 
-A container takes one slot and counts as its own weight. Items inside it add no weight and take no slots. A container's capacity is given in Light objects: a Moderate object takes the space of 2, a Heavy object the space of 4, and a stack of insignificant items the space of 1.
+A container takes one slot and counts as its own weight. Items inside it add no weight and take no slots. **A container inside another container** takes space equal to its capacity, full or empty, or its own size if that is larger. A container whose capacity is counted in something other than Light objects (quick items, scrolls, a sheaf, maps, a weapon, gallons) takes its own size. A container's capacity is given in Light objects: a Moderate object takes the space of 2, a Heavy object the space of 4, and a stack of insignificant items the space of 1.
 
 Long weapons and shields don't fit inside a container. If something doesn't fit, lash it to a pack or carry it.
 
 **Outside Slots.** A backpack has outside slots for gear lashed to it: a Traveler's Backpack has 2, and a Canvas Backpack has 1. Lashed gear is outside the pack, so it counts its own weight. It is drawn like a sheathed weapon.
 
-**Quick Items.** Quick-item containers hold consumables: potions, material components, healing supplies, and scrolls. Each uses 1 quick slot; a scroll uses 2. A quick item can be found and used for 1 AP (see *[Combat](../core/combat.md)*, [Interaction](../core/combat.md#interaction)). The Arm Sheath is the one quick container for a weapon: its kunai or ear dagger is drawn as part of the attack. Quick-item containers are the Bandolier (6), Small Belt Pouch (4), Bracer Pouch (2), Shield Pouch (2), Scroll Case (3 scrolls), and Arm Sheath (1 kunai or ear dagger).
+**Quick Items.** Quick-item containers hold consumables: potions, material components, healer's kits, and scrolls. Each uses 1 quick slot; a scroll uses 2. A quick item can be found and used for 1 AP (see *[Combat](../core/combat.md)*, [Interaction](../core/combat.md#interaction)). The Arm Sheath is the one quick container for a weapon: its kunai or ear dagger is drawn as part of the attack. Quick-item containers are the Bandolier (6), Small Belt Pouch (4), Bracer Pouch (2), Shield Pouch (2), Surgeon's Pocket Set (2), Scroll Case (3 scrolls), and Arm Sheath (1 kunai or ear dagger).
 
 **Held Containers.** A filled sack, basket, or bucket is carried in your hands and takes no slot, but the hand holding it is in use. Chests and barrels need both hands, a mount, or a vehicle.
 

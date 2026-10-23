@@ -107,7 +107,9 @@ Your Theurgic Lore replaces your access to other Creature Lores. You cannot inve
 
 #### Turn
 
-Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose Asura or Daeva, then choose one Division; every creature of that Division you can see is targeted. Roll your Charisma tier die + Lore skill die.
+**1 AP. Fast. Declared. Once per encounter.**
+
+Choose Asura or Daeva, then choose one Division; every creature of that Division you can see is targeted. On your turn, roll your Charisma tier die + Lore skill die.
 
 **DC:** Division × 2. If your roll meets or exceeds the DC, you succeed.
 
@@ -119,11 +121,11 @@ Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose
 
 #### Control Daeva
 
-You can choose to inflict [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") Tier 3 on Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Controlled. Controlled is permanent. You can Control a total number of Divisions equal to your Charisma score. You can voluntarily release Controlled creatures to free up capacity. Controlled creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Controlled Daeva to act, you must use your concentration slot or expend 1 AP per round. Controlled creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
+**1 AP. Slow. Declared.** You can choose to inflict [Controlled](../../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") Tier 3 on Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Controlled. Controlled is permanent. You can Control a total number of Divisions equal to your Charisma score. You can voluntarily release Controlled creatures to free up capacity. Controlled creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Controlled Daeva to act, you must use your concentration slot or expend 1 AP per round. Controlled creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
 
 #### Destroy Asura
 
-You can choose to destroy Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
+**1 AP. Slow. Declared.** You can choose to destroy Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
 
 ### Theurgic Magic
 
