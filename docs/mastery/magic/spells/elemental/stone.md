@@ -12,7 +12,7 @@ generated_by: tools/sync_mastery.py
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD stone |
+| **Components** | F, S, V | **Damage** | ATD + MD stone |
 | **Resistance** | Agility | | |
 
 <span id="cost"></span>**Cost:** (1 + 1 + 0) × 1 = 2.
@@ -29,7 +29,7 @@ You hurl a shard of stone at a creature within line of sight, 30 feet. The targe
 |:---|:---|:---|:---|
 | **Reach** | Distant | **Scale** | Large |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD stone |
+| **Components** | F, S, V | **Damage** | ATD + MD stone |
 | **Resistance** | Agility | | |
 
 <span id="cost_1"></span>**Cost:** (1 + 2 + 2) × 1 = 5.
@@ -46,7 +46,7 @@ You send a violent tremor through the ground at a point within line of sight, 10
 |:---|:---|:---|:---|
 | **Reach** | Touch | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD stone |
+| **Components** | F, S, V | **Damage** | ATD + MD stone |
 | **Resistance** | Endurance (creature) | | |
 
 <span id="cost_2"></span>**Cost:** (1 + 0 + 0) × 1 = 1.
@@ -136,7 +136,7 @@ You touch a creature and ward it against stone damage for the encounter. The war
 
 <span id="cost_7"></span>**Cost:** (1 + 0 + 0) × 1 = 1.
 
-You touch a damaged stone or metal object and restore it toward its native state. Cracks seal, fractures knit, and broken pieces fuse back together. The object recovers integrity equal to your ATD + MTD. The repair is permanent; the material is returning to where it belongs. As an instantaneous spell, Mend Stone repairs damage taken this round.
+You touch a damaged stone or metal object and restore it toward its native state. Cracks seal, fractures knit, and broken pieces fuse back together. The object recovers integrity equal to your ATD + MD. The repair is permanent; the material is returning to where it belongs. As an instantaneous spell, Mend Stone repairs damage taken this round.
 
 ---
 

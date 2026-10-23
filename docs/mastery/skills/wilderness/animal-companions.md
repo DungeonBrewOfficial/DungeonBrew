@@ -13,7 +13,7 @@ generated_by: tools/sync_mastery.py
 | **Attack** | Skill Mastery Die + higher of STR or PHY die |
 | **Defense** | Skill Mastery Die + AGI die + applicable resistance |
 | **Trials** | Skill Mastery Die + Attribute Die |
-| **Ability DC** | Higher of STR or PHY Tier + Skill Mastery Tier |
+| **Ability DC** | Higher of STR or PHY Tier + handler's Wilderness mastery level |
 | **Speed** | 3 + AGI Tier + Size Modifier (+2 if 2sq) + 4 (quadruped) |
 | **AP** | Always 2 |
 
@@ -37,7 +37,7 @@ generated_by: tools/sync_mastery.py
 1. Health pool (formula above)
 2. Durability pool (based on equipped barding)
 3. AP locked at 2
-4. DCs for ability-based trials (higher of STR or PHY Tier + Skill Mastery Tier)
+4. DCs for ability-based trials (higher of STR or PHY Tier + handler's Wilderness mastery level)
 5. Attack rolls (Skill Mastery Die + STR or PHY)
 6. Defense rolls (Skill Mastery Die + AGI die + resistance)
 7. Trial dice (Skill Mastery Die + Attribute Die)
@@ -46,16 +46,16 @@ generated_by: tools/sync_mastery.py
 
 ## Recruitment
 
-At each Wilderness mastery tier, the handler can recruit animals up to the corresponding native Division:
+At each Wilderness mastery level, the handler can recruit animals up to the corresponding native Division:
 
-| Skill Tier | Mastery | Max Native Division |
-|:---:|:---|:---:|
-| 2 | Untrained | D2 (Dog, Giant Rat) |
-| 3 | Basic | D3 (Wolf, Boar) |
-| 4 | Skilled | D4 (Black Bear) |
-| 5 | Expert | D5 (War Boar, Widow, Constrictor) |
-| 6 | Master | D6 (Brown Bear) |
-| 7 | Grand Master | — (D6 is the maximum; Grand Master advances D6 or lower) |
+| Mastery Level | Max Native Division |
+|:---|:---:|
+| Untrained (2) | D2 (Dog, Giant Rat) |
+| Basic (3) | D3 (Wolf, Boar) |
+| Skilled (4) | D4 (Black Bear) |
+| Expert (5) | D5 (War Boar, Widow, Constrictor) |
+| Master (6) | D6 (Brown Bear) |
+| Grand Master (7) | — (D6 is the maximum; Grand Master advances D6 or lower) |
 
 Domestic animals (dogs, horses) are purchasable by anyone. Wild animals require Basic mastery or better.
 
@@ -78,7 +78,7 @@ At Untrained, the companion gains its archetype, barding access, and archetype c
 - <span id="4-attribute-tiers"></span>**+4 attribute tiers**, distributed by the handler (no attribute may exceed T7)
 - <span id="resistance"></span>**Resistance** (+8 per tier, distributable across damage types, no single type exceeds 20). A species' native resistance is fixed; only trained resistance is distributed. A native value above 20 is kept but cannot be raised.
 
-| Tier | Resistance | Barding |
+| Mastery | Resistance | Barding |
 |:---:|:---:|:---|
 | Untrained | — | Light Proficiency |
 | Basic | +8 | — |
@@ -128,7 +128,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 
 ### Guard (Defensive)
 
-| Tier | Primary | Secondary |
+| Mastery | Primary | Secondary |
 |:---|:---|:---|
 | Untrained | Guard, Attack, Recall | Barding |
 | Basic | Intercept | Choice |
@@ -139,7 +139,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 
 ### Hunting (Sneaky)
 
-| Tier | Primary | Secondary |
+| Mastery | Primary | Secondary |
 |:---|:---|:---|
 | Untrained | Track, Attack, Recall | Barding |
 | Basic | Lunge | Choice |
@@ -152,7 +152,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 
 ### Mount (Mobility)
 
-| Tier | Primary | Secondary |
+| Mastery | Primary | Secondary |
 |:---|:---|:---|
 | Untrained | Recall, Calm | Barding |
 | Basic | Attack, Wheel | Choice |
@@ -163,7 +163,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 
 ### War (Aggressive)
 
-| Tier | Primary | Secondary |
+| Mastery | Primary | Secondary |
 |:---|:---|:---|
 | Untrained | Attack, Recall | Barding |
 | Basic | Kill | Choice |
@@ -210,7 +210,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 <span id="loyal"></span>**Loyal:** (Passive) Dominance on trials to resist [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") condition.
 
-<span id="stalwart"></span>**Stalwart:** (Passive) The companion gains an additional 2 health at each Mastery tier from this tier forward and retroactively through Basic mastery (Max 10 health at GM).
+<span id="stalwart"></span>**Stalwart:** (Passive) The companion gains an additional 2 health at each mastery level from this level forward and retroactively through Basic mastery (Max 10 health at GM).
 
 <span id="swift"></span>**Swift:** (Passive) The companion's base movement speed increases by 10 feet per round.
 
@@ -358,7 +358,7 @@ One free trick per trained tier (Untrained through GM, limited by the animal's t
 
 | Trick | Description |
 |:---|:---|
-| **Message** | Seeks out one recognized ally to deliver an item or message. Range: 1 mile per handler's Wilderness mastery tier. |
+| **Message** | Seeks out one recognized ally to deliver an item or message. Range: 1 mile per handler's Wilderness mastery level. |
 | **Whistle** | Comes to handler's whistle within hearing distance. |
 | **Stay** | Waits within 30 ft of designated position for up to 2d4 hours or until commanded. |
 | **Fetch** | Fetches one predetermined item. Changeable once per week. |

@@ -18,7 +18,7 @@ Each investment in Trade goes toward one discipline. You can pursue several disc
 
 ### Trade Production
 
-Crafting at or below your mastery tier always succeeds. There is no failure check — a tradesman with the skill and materials produces the item. The variable is speed. Mundane weapons, armor, and gear have no tier: anyone with the materials and a workspace can craft them, and time is the limit. Alchemy uses its own method instead (see *[Alchemy](alchemy/index.md)*).
+Crafting an item always succeeds if your mastery in the discipline meets the Trade Mastery Required for the item's item tier (see *[Automatic Use](#automatic-use)*). There is no failure check — a tradesman with the skill and materials produces the item. The variable is speed. Mundane weapons, armor, and gear have no tier: anyone with the materials and a workspace can craft them, and time is the limit. Alchemy uses its own method instead (see *[Alchemy](alchemy/index.md)*).
 
 Crafting requires at least Untrained mastery in the discipline, and a suitable workspace, such as a smithy or an alchemy lab, as the GM approves.
 
@@ -41,7 +41,7 @@ Materials cost 50% of the item's value. To determine your production rate, roll 
 
 ### Automatic Use
 
-Characters with Trade mastery at the appropriate tier can use items of that tier automatically — no roll required. Training assumes competence; an Expert blacksmith does not roll to repair common armor.
+If your Trade mastery meets the Trade Mastery Required for an item tier, you can use items of that tier automatically, with no roll. Training assumes competence; an Expert blacksmith does not roll to repair common armor.
 
 | Item Tier | Social Class | Use DC | Trade Mastery Required |
 |-----------|-------------|--------|--------------------------|

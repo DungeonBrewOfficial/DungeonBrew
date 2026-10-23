@@ -12,7 +12,7 @@ generated_by: tools/sync_mastery.py
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sky |
+| **Components** | F, S, V | **Damage** | ATD + MD sky |
 | **Resistance** | Agility | | |
 
 <span id="cost"></span>**Cost:** (1 + 1 + 0) × 1 = 2.
@@ -29,7 +29,7 @@ You hurl a bolt of lightning at a creature within line of sight, 30 feet. The ta
 |:---|:---|:---|:---|
 | **Reach** | Distant | **Scale** | Large |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sky |
+| **Components** | F, S, V | **Damage** | ATD + MD sky |
 | **Resistance** | Agility | | |
 
 <span id="cost_1"></span>**Cost:** (1 + 2 + 2) × 1 = 5.
@@ -46,7 +46,7 @@ You release a deafening crack of thunder at a point within line of sight, 100 fe
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sky |
+| **Components** | F, S, V | **Damage** | ATD + MD sky |
 | **Resistance** | Agility | **Effects** | 2 (damage + [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")) |
 
 <span id="cost_2"></span>**Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.

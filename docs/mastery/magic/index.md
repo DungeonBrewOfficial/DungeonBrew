@@ -360,7 +360,7 @@ A spell can combine multiple effects in a single casting. Each additional effect
 | 3 effects | ×3 | Fire + burning + exhausted (damage + 2 conditions) |
 | 4+ effects | ×4+ | Each additional effect adds ×1 |
 
-An effect is a damage roll, a healing or repair roll, or a condition application. A spell can include at most one damage roll. Healing and repair can be doubled (rolling ATD + MTD twice instead of once counts as 2 effects), but damage cannot; magic bypasses armor, and doubled damage output against health pools produces lethality disproportionate to the magan cost.
+An effect is a damage roll, a healing or repair roll, or a condition application. A spell can include at most one damage roll. Healing and repair can be doubled (rolling ATD + MD twice instead of once counts as 2 effects), but damage cannot; magic bypasses armor, and doubled damage output against health pools produces lethality disproportionate to the magan cost.
 
 When a spell imposes multiple conditions, all conditions must be the same tier. The condition tier multiplier applies once.
 
@@ -443,7 +443,7 @@ You have 2 AP per round, which can be spent on any combination of casting, attac
 
 ## Spell Effects
 
-Damage, healing, and repair all use the same output formula: your *attribute tier die* + your *mastery tier die* in the relevant form. Both dice explode on maximum rolls.
+Damage, healing, and repair all use the same output formula: your *attribute tier die* + your *mastery die* in the relevant form. Both dice explode on maximum rolls.
 
 ### Damage
 
@@ -451,7 +451,7 @@ Damage from energy forms bypasses armor and applies directly to health. Damage f
 
 ### Healing and Repair
 
-To heal a creature, cast Transmute Sacred or Transmute Primal on it. To repair an object, cast Transmute Stone (metal) or Transmute Profane (dead organic material such as wood, leather, or bone). The target recovers health or integrity equal to your ATD + MTD. Healing cannot exceed the target's maximum health.
+To heal a creature, cast Transmute Sacred or Transmute Primal on it. To repair an object, cast Transmute Stone (metal) or Transmute Profane (dead organic material such as wood, leather, or bone). The target recovers health or integrity equal to your ATD + MD. Healing cannot exceed the target's maximum health.
 
 Healing and repair are permanent, but older damage is harder to restore. The cost increases with how long the damage has existed.
 
@@ -741,7 +741,7 @@ A spell you have formally recorded or bound through your tradition's encoding pr
 
 ### Modified Familiar Casting
 
-You can modify a familiar spell by changing its parameters: more range, bigger area, longer duration. The same form and command, scaled up or down. You make a miscast trial, rolling your *casting attribute tier die* + *mastery tier die* against a DC equal to the change in magan cost between the base spell and the modified version, measured before material components (minimum DC 2). A change that leaves the cost the same, such as warding against a different damage type, is still a modification: DC 2.
+You can modify a familiar spell by changing its parameters: more range, bigger area, longer duration. The same form and command, scaled up or down. You make a miscast trial, rolling your *casting attribute tier die* + *mastery die* against a DC equal to the change in magan cost between the base spell and the modified version, measured before material components (minimum DC 2). A change that leaves the cost the same, such as warding against a different damage type, is still a modification: DC 2.
 
 *Example: You know Obliterate Fire as a close, personal, instantaneous bolt (2 magan). You want to scale it to a close, large, instantaneous burst (4 magan). The delta is 2, so you roll against DC 2.*
 

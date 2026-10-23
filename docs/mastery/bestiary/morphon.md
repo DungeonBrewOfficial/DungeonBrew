@@ -10,7 +10,7 @@ Morphon is NOT Lovecraftian horror or D&D aberrations. The conceptual foundation
 
 All creatures in this file are **Eidos Morphon Sora (Void)** — non-numen beings of the void.
 
-<span id="classification-package"></span>**Classification package:** Immune to Void damage. Vulnerable to Primal damage (Impotence on damage trials vs Primal). Connected Form: Void.
+<span id="classification-package"></span>**Classification package:** Immune to Void damage. Impotence on trials vs Primal damage. Connected to Void magic.
 
 <span id="morphon-creature-identity-eidolon-and-eidola"></span>**Morphon creature identity — Eidolon and Eidola:**
 

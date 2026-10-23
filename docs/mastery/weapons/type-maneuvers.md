@@ -430,7 +430,7 @@ You Counterattack in the same motion as a missed strike passes you, exploiting t
 
 <span id="trigger_27"></span>**Trigger**: Counterattack, when you take no damage from a melee attack
 
-<span id="effect_27"></span>**Effect**: Make a Counterattack at the creature that attacked you. Gain Bonus equal to your Mastery Tier in the weapon's type.
+<span id="effect_27"></span>**Effect**: Make a Counterattack at the creature that attacked you. Gain Bonus equal to your mastery level in the weapon's type.
 
 ---
 

@@ -52,7 +52,7 @@ Your ability to know your direction in the wilderness, locate landmarks, and avo
 
 ### Riding
 
-Your ability to handle a mount in combat and perform advanced mounted maneuvers. You gain one Riding trick per mastery tier (Untrained through Grand Master). If you select Riding at a higher mastery tier, you retroactively gain one trick per tier up to your current mastery. Gallop requires Spur as a prerequisite. All other tricks may be chosen in any order. Riding can also be used to ride unwilling or untrained creatures, but this requires a Physique + Wilderness (Riding) trial with a DC set by the GM. See [Mounted Combat Rules](#mounted-combat-rules) below for base mounted combat mechanics.
+Your ability to handle a mount in combat and perform advanced mounted maneuvers. You gain one Riding trick per mastery level (Untrained through Grand Master). If you select Riding at a higher mastery level, you retroactively gain one trick per level up to your current mastery. Gallop requires Spur as a prerequisite. All other tricks may be chosen in any order. Riding can also be used to ride unwilling or untrained creatures, but this requires a Physique + Wilderness (Riding) trial with a DC set by the GM. See [Mounted Combat Rules](#mounted-combat-rules) below for base mounted combat mechanics.
 
 <span id="spur"></span>**Spur:** (Command) The rider commands the mount to accelerate to x3-x4 speed (rider's choice). The mount spends 2 AP and must move in a straight line.
 
