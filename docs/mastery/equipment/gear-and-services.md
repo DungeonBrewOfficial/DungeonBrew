@@ -14,15 +14,18 @@ Kits are ready-made bundles for new characters, priced at the sum of their conte
 | Kit | Contents | Price |
 |:---|:---|:---:|
 | **Adventurer's Pack** | Traveler's backpack [16] *(winter blanket, tinderbox, 10 iron rations)*; 5 torches *(lashed outside)*; waterskin *(Hip)* | 38 sp |
+| **Alchemist's Kit** | Field kit *(Shoulder)* with 8 glass vials; 2 doses of alum, 2 honey dressings, latched case *(Belt)*, 2 waxed cloth wraps | 75 sp |
 | **Burglar's Kit** | *In pack:* thieves' picks, silk string spool, flour pouch, sewing needle, signal whistle; crowbar *(Shoulder)* | 39 sp |
 | **Climber's Kit** | *In pack:* grappling hook, 10 pitons, hammer; 50 ft hemp rope *(Shoulder, coiled)* | 26 sp |
 | **Dungeoneer's Kit** | *In pack:* ox horn lantern, 8 tallow candles, small metal mirror, 5 chalk, 3 black ink, quill; map case *(Shoulder)* with 3 leaves of parchment | 66 sp |
 | **Forager's Kit** | *In pack:* iron pot, 10 dry rations, silk string spool (snares), medium sack, 1 lb salt | 14 sp |
-| **Healer's Kit** | *In pack:* 20 Healing Supplies (Serf), 4 Healing Supplies (Peasant) | 66 sp |
+| **Healer's Kit** | *In pack:* 4 Wound Kits, 2 Injury Kits, 1 Trauma Kit, 4 doses of willow bark; surgeon's pocket set *(Belt)* | 140 sp |
+| **Hedge Kit** | *In pack:* 2 Spell Components (Serf); small belt pouch *(Belt)* with 4 Spell Components (Serf) | 60 sp |
+| **Pack Animal Kit** | *No animal included. On the animal:* pack saddle, saddle blanket, halter, panniers [16] *(9 horse bread, small tent)* | 78 sp |
+| **Pack Animal Kit, with Mule** | As the Pack Animal Kit, plus a donkey or mule | 162 sp |
+| **Rider's Kit** | *No animal included. On the animal:* riding saddle, bit and bridle, saddle blanket. *In pack:* 3 horse bread | 75 sp |
 | **Scholar's Kit** | *In pack:* codex, 1 Scribe Supplies, 2 black ink, quill, 2 tallow candles; scroll case *(Belt)* with 3 leaves of vellum | 150 sp |
 | **Smith's Kit** | *In pack:* 4 repair kits, hammer, whetstone | 108 sp |
-| **Traveler's Kit** | *No animal included. On the animal:* pack saddle, saddle blanket, halter, panniers [16] *(9 horse bread, small tent)* | 78 sp |
-| **Traveler's Kit, with Mule** | As the Traveler's Kit, plus a donkey or mule | 162 sp |
 
 ## Containers
 
@@ -80,6 +83,8 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 | Scabbard, Ornate | L / 1 lb. | 1 melee weapon | 10 gs | Hip, Shoulder, Back |
 | Scroll Case* | L / 2 lbs. | 3 scrolls | 8 sp | Belt, Hip, Shoulder |
 | Shield Pouch* | L / 1 lb. | 2 quick | 4 sp | On a shield |
+| Surgeon's Chest | M / 25 lbs. | 2 | 4 gs | Back, Shoulder |
+| Surgeon's Pocket Set* | L / 1 lb. | 2 quick | 1 sc | Belt, Hip |
 | Waterskin | L [2] / 5 lbs. | .5 ga | 2 cf | Belt, Hip |
 
 \* *Quick Item Container, see description*
@@ -136,6 +141,10 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 
 **Shield Pouch**. A small pouch affixed to the back of a shield that can hold about .25 ft.<sup>3</sup> and allows the wielder to quickly use items from inside. (Quick Item: 2 slots)
 
+**Surgeon's Chest**. A lockable chest of fitted trays holding a surgeon's full instruments: everything in a pocket set, plus an amputation saw and knife, a trepan, bullet extractors, cautery irons, syringes, cupping glasses, and a bleeding bowl. Its drawers hold 2 Light objects of supplies. It counts as a Surgeon's Pocket Set, and it is needed for Severe and Grievous Traumas.
+
+**Surgeon's Pocket Set**. A small case of lancets, an incision knife, a razor, scissors, forceps, probes, a spatula, and suture needles, with a drawer and a pouch in the lid for 2 quick items, such as Wound Kits. It is needed for Wounds, Injuries, and Minor Traumas.
+
 **Waterskin**. Holds up to 1/2 gallon of liquid, or enough liquid for half a day. Non-encumbering when empty, but weighs 5 lbs. when full and considered a Light object.
 
 ## Textiles and Clothing
@@ -179,40 +188,72 @@ Clothing not only protects you from the elements but also serves as a status sym
 | Wool, Fine | Yard <sup>2</sup>  | 42 sp
 | Wool, Thick | Yard <sup>2</sup>  | 18 sp
 
-| Clothing | Enc / Weight | Price |
-|:---|:---:|:---:|
-| Belt | .5 lb. | 2 cf
-| Blanket, Winter | L / 3 lbs. | 1 ss
-| Boots, Fine | 1 lb. | 6 ss
-| Boots, Riding | 2 lbs. | 3 ss
-| Boots, Hide | 2 lbs. | 1 ss
-| Boots, Wool | 1 lb. | 2 ss
-| Breeches, Plain Linen | 1 lb. | 8 sp
-| Cloak, Fine Fur | 6 lbs. | 3 gs
-| Cloak, Good Wool | 4 lbs. | 12 ss
-| Cloak, Linen | 2 lbs. | 2 sp
-| Girdle | .5 lb. | 2 ss
-| Gloves, Wool | .2 lb. | 1 ss
-| Gown, Common | 2 lbs. | 3 ss
-| Gown, Fashionable | 6 lbs. | 10 gs
-| Hat, Cloth Cap | .2 lb. | 1 cf
-| Jacket, Fine Silk | 3 lbs. | 35 ss
-| Jacket, Plain Silk | 3 lbs. | 25 ss
-| Robe, Common | 1 lb. | 1 ss
-| Robe, Embroidered | 2 lbs. | 1 gs
-| Sash | .2 lb. | 2 sp
-| Shoes, Fine | 1 lb. | 6 sp
-| Shoes, Simple | 2 lbs. | 10 cf
-| Tabard | 1 lb. | 18 sp
-| Tunic, Fine Linen | 1 lb. | 18 sp
-| Tunic, Plain Linen | 1 lb. | 1 ss
-| Vest | 1 lb. | 2 sp
+| Clothing | Enc / Weight | Price | Weather |
+|:---|:---:|:---:|:---|
+| Belt | .5 lb. | 2 cf | — |
+| Blanket, Winter | L / 3 lbs. | 1 ss | — |
+| Boots, Fine | 1 lb. | 6 ss | Cold (feet) |
+| Boots, Hide | 2 lbs. | 1 ss | Extreme Cold (feet) |
+| Boots, Riding | 2 lbs. | 3 ss | Cold (feet) |
+| Boots, Wool | 1 lb. | 2 ss | Extreme Cold (feet) |
+| Breeches, Plain Linen | 1 lb. | 8 sp | — |
+| Cap, Linen | .2 lb. | 2 sp | — |
+| Cap, Wool | .25 lb. | 6 sp | Cold (head) |
+| Cloak, Fine Fur | 6 lbs. | 3 gs | Extreme Cold (cloak) |
+| Cloak, Good Wool | 4 lbs. | 12 ss | Cold, Wet (cloak) |
+| Cloak, Linen | 2 lbs. | 2 ss | Heat (body) |
+| Cloak, Pile | 5 lbs. | 12 ss | Extreme Cold, Wet (cloak) |
+| Cloak, Sheepskin | 8 lbs. | 1 gn | Extreme Cold (cloak) |
+| Cloak, Wool | 4 lbs. | 6 ss | Cold, Wet (cloak) |
+| Girdle | .5 lb. | 2 ss | — |
+| Gloves, Wool | .2 lb. | 1 ss | Extreme Cold (hands) |
+| Gown, Common | 2 lbs. | 3 ss | — |
+| Gown, Fashionable | 6 lbs. | 10 gs | — |
+| Hat, Fur | .5 lb. | 1 ss | Extreme Cold (head) |
+| Hat, Straw | .25 lb. | 2 sp | Heat (head) |
+| Head-cloth, Linen | .25 lb. | 4 sp | Heat (head) |
+| Hood, Wool | 1 lb. | 2 ss | Cold (head) |
+| Jacket, Fine Silk | 3 lbs. | 35 ss | — |
+| Jacket, Plain Silk | 3 lbs. | 25 ss | — |
+| Robe, Common | 1 lb. | 1 ss | Heat (body) |
+| Robe, Embroidered | 2 lbs. | 1 gs | — |
+| Sash | .2 lb. | 2 sp | — |
+| Shoes, Fine | 1 lb. | 6 sp | — |
+| Shoes, Simple | 2 lbs. | 10 cf | — |
+| Tabard | 1 lb. | 18 sp | — |
+| Tunic, Fine Linen | 1 lb. | 18 sp | — |
+| Tunic, Plain Linen | 1 lb. | 1 ss | — |
+| Vest | 1 lb. | 2 sp | — |
+
+**Clothing Sets.** Ready-made sets for the weather (see *[General Rules](../core/exploration-and-travel.md)*, [Weather](../core/exploration-and-travel.md#weather)), priced at the sum of their pieces.
+
+| Set | Pieces | Price |
+|:---|:---|:---:|
+| Cold Clothing | Wool hood, wool cloak, wool gloves, hide boots | 10 ss |
+| Extreme Cold Clothing | Fur hat, pile cloak, wool gloves, hide boots | 15 ss |
+| Heat Clothing | Linen head-cloth, common robe | 1 ss 4 sp |
 
 **Linen, Plain**. Hempen linen is generally more coarse with a broader weave. Low-cost dyes might be applied for an additional cost, but it is often its natural color.
 
 **Silk, Fine**. Fine silk almost always includes ornate weaves, and can be brocaded, embroidered, and usually dyed rich colors.
 
 **Silk, Plain**. Plain silk is usually defined by the plainness of the weave and the lack of patterning.
+
+**Cap, Wool**. A knitted cap, felted until thick and weatherproof.
+
+**Cloak, Pile**. A heavy wool mantle woven with long locks of wool, so rain runs off it. Prized, and costly for the labor.
+
+**Cloak, Sheepskin**. A cloak of sheepskins worn fleece inward. Warm, but heavy.
+
+**Cloak, Wool**. A plain cloak of thick wool, the everyday traveler's cloak.
+
+**Hat, Fur**. A cap of common fur on a wool or felt body.
+
+**Hat, Straw**. A broad-brimmed hat of plaited straw, a field worker's shade.
+
+**Head-cloth, Linen**. A long linen cloth wrapped about the head and neck, and drawn across the face against sun and sand.
+
+**Hood, Wool**. A wool hood with a short cape over the shoulders.
 
 **Tabard**. A tabard is a piece of cloth worn over armor to help keep rain, mud, blood, and other grime off in order to keep the armor from rusting. Knights also wear tabards to display their colors or sigil.
 
@@ -249,14 +290,8 @@ There is a variety of items that are useful to adventurers and travelers of all 
 | Glass Eye | NE / .05 lb. | 1 sc |
 | Grappling Hook | L / 4 lbs. | 2 sp |
 | Hammer | L / 3 lbs. | 10 sp |
-| Healing Supplies (Serf) | L [10] / 1 lb. | 1 sp |
-| Healing Supplies (Peasant) | L [5] / 2 lbs. | 1 ss |
-| Healing Supplies (Knight) | L [3] / 3 lbs. | 1 sc |
-| Healing Supplies (Burgher) | L [2] / 4 lbs. | 1 gs |
-| Healing Supplies (Magnate) | L [2] / 5 lbs. | 2 gs |
-| Healing Supplies (Noble) | L / 6 lbs. | 4 gs |
-| Healing Supplies (Royal) | L / 8 lbs. | 8 gs |
 | Hook | NE / 1 lb. | 1 ss |
+| Injury Kit | L [5] / 2 lbs. | 1 ss |
 | Ink, Black (Vial) | L [20] / .5 lb. | 2 sp |
 | Ink, Colored (Vial) | L [20] / .5 lb. | 1 ss |
 | Instrument, Bagpipe | L / 8 lbs. | 2 ss |
@@ -333,20 +368,6 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 
 **Hammer**. A heavy hammer used for blacksmithing. Additionally, it can be used for pounding pitons, spikes, or similar labor.
 
-**Healing Supplies (Serf).** A basic collection of bandages, herbs, poultices, and splints. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Unskilled Trade mastery. Supply tier: T1. Supply dice: 2d2.
-
-**Healing Supplies (Peasant).** Clean linen bandages, dried medicinal herbs, rendered animal fat salves, and whittled splints. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Untrained Trade mastery. Supply tier: T2. Supply dice: 2d3.
-
-**Healing Supplies (Knight).** Prepared poultices, antiseptic herbal washes, bone needles with sinew thread for suturing, and fitted splints. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Basic Trade mastery. Supply tier: T3. Supply dice: 2d4.
-
-**Healing Supplies (Burgher).** Cauterizing irons, refined herbal tinctures, steel surgical needles, gut sutures, and boiled linen dressings. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Skilled Trade mastery. Supply tier: T4. Supply dice: 3d6.
-
-**Healing Supplies (Magnate).** Distilled antiseptic compounds, precision surgical instruments, rare medicinal herbs, treated catgut sutures, and silk dressings. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Expert Trade mastery. Supply tier: T5. Supply dice: 4d8.
-
-**Healing Supplies (Noble).** Alchemically purified reagents, masterwork surgical tools, exotic botanical extracts, and woven dressings treated with curative oils. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Master Trade mastery. Supply tier: T6. Supply dice: 5d10.
-
-**Healing Supplies (Royal).** The finest medicinal arts have to offer: surgically precise instruments of tempered steel, reagents distilled through dozens of refinements, and dressings woven from fibers cultivated specifically for wound care. Used with the Healer discipline of the Trade skill to treat wounds, injuries, traumas, and conditions. Requires at least Grand Master Trade mastery. Supply tier: T7. Supply dice: 6d12.
-
 **Hook**. An iron hook on a leather cuff strapped to the forearm. Lets a character who has lost a hand hold a strapped shield or carry a held item, such as a lantern or sack. It cannot wield a weapon or take a two-handed grip.
 
 | Adventuring Gear Cont. | Enc [Stack] / Weight | Price |
@@ -354,6 +375,7 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 | Net, Weighted | L / 4 lbs. | 2 ss |
 | Oil, Lamp (Flask) | L / 1 lb. | 1 sp |
 | Peg Leg | NE / 4 lbs. | 1 ss |
+| Physic Kit | L [10] / 1 lb. | 2 ss |
 | Pickaxe | L / 3 lbs. | 5 sp |
 | Piton | L [20] / .5 lb. | 1 sp |
 | Pole, 10 ft. | L / 6 lbs. | 2 sp |
@@ -383,7 +405,11 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 | Tinderbox | L / 1 lb. | 1 sp |
 | Torch | L [5] / 2 lbs. | 2 cf |
 | Torch (Waterproof) | L [5] / 2 lbs. | 4 sp |
+| Trauma Kit | L [2] / 5 lbs. | 3 ss |
 | Whetstone | L / 1 lb. | 2 sp |
+| Wound Kit | L [20] / .5 lb. | 4 sp |
+
+**Injury Kit**. Linen rollers, bolsters and compresses, tow, dry poultice stores of meal and herbs, a warming oil, a binding cloth, and a light splint. Used to treat one Injury (see *[Skill Mastery](../skills/index.md)*, [Healer Discipline](../skills/trade/index.md#healer-discipline)). Consumed when used.
 
 **Ink, Black (Vial)**. Black ink made from water, galls from an oak tree, ferrous sulphate, and gum arabic. One vial of ink is enough to write about 500 words or one side of a page.
 
@@ -438,6 +464,8 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 **Peg Leg**. A wooden peg on a strapped cuff. Replaces a cane or crutch for a character who has lost a foot. After a year with it, the wearer moves normally (see *[Combat](../core/combat.md)*, [Trauma Table](../core/combat.md#trauma-table)).
 
 Using lamp oil in combat requires a successful attack to cover a target in the oil and a subsequent attack to light the oil on fire, causing 2d6 points of damage in the first round and 1d6 points in the second.
+
+**Physic Kit**. A purge, an emetic, a common cordial, a few herbal simples, and a julep, in papers and a small vial. Used to treat poison or disease (see *[Skill Mastery](../skills/index.md)*, [Healer Discipline](../skills/trade/index.md#healer-discipline)). Consumed when used.
 
 **Pickaxe**. A digging tool, mostly used in mining to break apart rocks or to dislodge precious materials.
 
@@ -503,7 +531,11 @@ If you can cast spells and have *Wilderness* (Hunting and Foraging), you can for
 
 **Torch (Waterproof)**. 3-4 foot ash or hickory haft with one end wrapped in wool or linen that is soaked in a mixture of sulfur and lime that remains lit if doused in water or briefly submerged. When lit, it produces light for 10 feet and ambient light for an additional 20 feet. Burns for about 30 minutes (3 exploration rounds).
 
+**Trauma Kit**. Padded splints and long rollers, bolsters, waxed ligature thread, styptic powder, a caustic ointment, wound plugs, and charcoal for a cautery fire. Used for one Trauma treatment, which may also need surgeon's tools (see *[Skill Mastery](../skills/index.md)*, [Healer Discipline](../skills/trade/index.md#healer-discipline)). Consumed when used.
+
 **Whetstone**. A sharpening stone usually used with water or oil to sharpen bladed weapons. Necessary for weaponsmithing.
+
+**Wound Kit**. A linen roller, lint, pledgets, a spread plaster, a little salve, and a wash of wine and honey. Used to treat wounds after a fight, or for triage during one (see *[Skill Mastery](../skills/index.md)*, [Healer Discipline](../skills/trade/index.md#healer-discipline)). Consumed when used.
 
 ## Foci
 

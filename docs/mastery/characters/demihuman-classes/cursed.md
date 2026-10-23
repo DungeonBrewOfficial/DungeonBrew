@@ -116,7 +116,9 @@ You do not age and cannot die from mundane means, such as being stabbed or bludg
 
 At 0 Health you still gain an Injury, but you make no Endurance trial and have no dying timer: you remain conscious and are always fighting on, and you suffer Traumas as normal.
 
-Your Traumas heal on their own, without treatment. Add up their weight: 1 for each Minor, 3 for each Severe, and 5 for each Grievous Trauma. A total of 5 or less heals in 1 week, 6–10 in 3 weeks, 11–15 in 6 weeks, and 16 or more in 12 weeks. A new Trauma restarts the count from the new total. A Trauma that would heal sooner by its normal recovery still does. A severed part can be reattached and is as strong as before within an hour. If you are decapitated and lose the rest of your body, a year and a day must pass before you regain it fully.
+Your Injuries and Traumas heal on their own, without treatment. Add up their toll: 1 for each Injury or Minor Trauma, 3 for each Severe, and 5 for each Grievous Trauma. A toll of 5 or less heals in 1 week, 6–10 in 3 weeks, 11–15 in 6 weeks, 16–20 in 12 weeks, and 21 or more in a year and a day. Anything that adds to your toll restarts the count from the new total. Anything that heals sooner, by its normal recovery or by treatment, still does, and it comes off your toll without restarting the count. A severed part can be reattached and is as strong as before within an hour. If you are decapitated and lose the rest of your body, a year and a day must pass before you regain it fully.
+
+**Deathless.** When cold, heat, hunger, or thirst would kill you, you stay *[Unconscious](../../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")* instead. Each day past the point where you would have died adds 1 to your toll. When you are warmed, cooled, fed, or given water, you wake at *[Exhausted](../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.")* Tier 3, and it does not recover until your toll has healed.
 
 You can die only from magic. While you are at 0 Health, each time you take magical damage, roll your Endurance tier die. On a 1, your head is destroyed and you die. You cannot be resurrected by any means.
 
@@ -168,7 +170,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 
 **Humanoid Form:**
 
-- Can equip one weapon (determines damage type and properties, NOT additional dice)
+- Can equip one weapon (determines damage type and properties, NOT additional dice) and a shield. It cannot dual wield.
 - Can wear armor (adds durability)
 - Can speak, interact with objects, blend into crowds
 - No special movement
@@ -177,6 +179,14 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 - Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0), no locomotion bonus
 
 **Weapon Rule:** The tier die IS the weapon die. A humanoid Agathion wielding a sword rolls the same attack as a beast biting. The weapon determines damage type and properties (poison, reach, ranged), not additional dice. The spirit's power channels through whatever the mortal form wields.
+
+**Combat Style:** A humanoid Agathion declares its combat style like any character. Its style moves both dice of its attack and defense rolls, the Cursed's Perception tier die and the Agathion tier die, one step up or down the Die Progression Chart (see *[Mastery System](../../core/mastery-and-trials.md)*):
+
+- **Single:** no change.
+- **Two-Handed:** attack rolls step up; defense rolls step down.
+- **Shield:** attack rolls step down; defense rolls step up.
+
+A beast has no combat style.
 
 **Spirit Track** determines magical nature and active ability:
 
@@ -222,6 +232,8 @@ The tier die does not represent the Agathion getting stronger. The spirit was al
 
 **Trials:** Agathion tier die + your Perception tier die.
 
+**Bound Magan:** While your Agathion is alive, your maximum magan increases by its tier. If it dies, your maximum and current magan both drop by that amount, to no lower than 0.
+
 #### Swap
 
 You swap spirits with your Agathion, possessing its body for up to one hour per level. You can choose to allow your Agathion to move freely in your body or not. While in your Agathion's body, you cannot cast spells or use any abilities associated with your class.
@@ -242,11 +254,12 @@ When the Cursed commands the Agathion to use an active ability, they roll the ti
 
 #### Active Abilities (One per Spirit Track)
 
-Active abilities always fire when commanded. The control trial determines who directs the effect.
+Active abilities always fire when commanded. You pay their magan from your own pool, even when the control trial fails. The control trial determines who directs the effect.
 
 **Fae: Charm**
 
-- Cost: 1 AP
+**2 AP. 4 magan. Moderate. Declared.**
+
 - Range: 30 feet
 - Effect: Target rolls Wisdom trial vs Agathion DC or advances [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier for rounds equal to Agathion tier. Once per turn, the target can spend 1 AP on a Wisdom trial against the Agathion DC to break free; on success, the hold drops by 1 tier. An Enthralled target cannot break free on its own.
 - Successful control: Cursed chooses target
@@ -254,7 +267,8 @@ Active abilities always fire when commanded. The control trial determines who di
 
 **Daeva: Hellfire**
 
-- Cost: 1 AP
+**2 AP. 2 magan. Fast. Declared.**
+
 - Range: 15 foot cone
 - Effect: Creatures in cone roll Agility trial vs Agathion DC. Failure: fire damage equal to Agathion tier die + Perception tier die.
 - Successful control: Cursed aims the cone
@@ -262,7 +276,8 @@ Active abilities always fire when commanded. The control trial determines who di
 
 **Morphon: Transpose**
 
-- Cost: 1 AP
+**2 AP. 2 magan. Fast. Declared.**
+
 - Range: 30 feet
 - Effect: Two creatures swap positions. Willing creatures swap automatically. Unwilling roll Physique trial vs Agathion DC. If either resists, neither transposes.
 - Successful control: Cursed picks both targets

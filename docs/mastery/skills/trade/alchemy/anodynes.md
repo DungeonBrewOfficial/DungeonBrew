@@ -47,9 +47,9 @@ Dwale is administered through ingestion, or inhaled from a Thickened soaked spon
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Drowsy | Slow phase; no reactions except defense. A healer has Dominance on Exploration Healing and Treat Injuries rolls | None | 1 sp |
-| Asleep | [Unconscious](../../../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.") for the duration. A healer has Dominance on all healing and Treat Trauma rolls | Poisoned sleep\* | 1 sc |
-| Deep | [Unconscious](../../../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.") and feels nothing. A healer has Dominance on all healing and Treat Trauma rolls, and can't botch setting a bone\*\* | Poisoned sleep\* | 1 gs |
+| Drowsy | Slow phase; no reactions except defense. A healer has Dominance on Heal and Treat Injury rolls | None | 1 sp |
+| Asleep | [Unconscious](../../../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.") for the duration. A healer has Dominance on Heal and Treat Trauma rolls | Poisoned sleep\* | 1 sc |
+| Deep | [Unconscious](../../../core/conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.") and feels nothing. A healer has Dominance on Heal and Treat Trauma rolls, and can't botch setting a bone\*\* | Poisoned sleep\* | 1 gs |
 
 \* When it takes effect, make an Endurance trial against the dose's DC. On a failure, advance [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier, or by 2 tiers for Deep.
 

@@ -107,7 +107,7 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 *Level 1*
 
-You can weave magic through music and oral tradition. When you sing, you can either dedicate your concentration slot to maintain the song (freeing your actions) or spend 1 AP per round to maintain it (keeping your concentration slot open for a spell). You can cast spells while singing. Beginning a song costs 1 AP. The Dirge is a song and follows these rules.
+You can weave magic through music and oral tradition. When you sing, you can either dedicate your concentration slot to maintain the song (freeing your actions) or spend 1 AP per round to maintain it (keeping your concentration slot open for a spell). You can cast spells while singing. The Dirge is a song and follows these rules.
 
 **Song Tier:** Your Song tier is 1 at level 1 and increases by 1 at levels 4, 8, 12, 16, 20, and 24 (Tier 7).
 
@@ -126,6 +126,10 @@ You can weave magic through music and oral tradition. When you sing, you can eit
 **Song DC:** Your Song tier + your Charisma tier. Targets roll the appropriate trial to resist.
 
 **Magan Cost:** Songs cost magan per round equal to the tier of the effect being maintained (Tier 1 = 1 magan/round, Tier 2 = 2 magan/round, Tier 3 = 3 magan/round). The free morale song has no magan cost.
+
+**Beginning a Song:** 1 AP. Slow. Declared.
+
+**Maintaining a Song:** Not declared. You maintain it on your turn, in whatever phase you act.
 
 **Advancing Tiers:** A song always begins at Tier 1. Each round you maintain a song, you can choose to maintain the current tier or advance to the next tier at increased cost. You can also reduce the tier voluntarily by any number of tiers. When you advance a Satire to the next tier, each target rolls its trial again; only those who fail advance. Those who succeed remain at their current tier and remain affected.
 
@@ -169,4 +173,4 @@ Satire songs target intelligent creatures within 30 feet. Cost equals tier × nu
 
 #### Dirge
 
-**The Dirge (2 magan/round).** When an ally drops to 0 Health, you can begin singing. All allies within 30 feet gain Dominance on attack rolls against the creature that downed the ally. Lasts until that creature is dead or combat ends. Suggested names: *Lament for the Fallen, The Avenger's Wail, Requiem of Wrath.*
+**The Dirge (2 magan/round). 1 AP. Fast. Declared.** When an ally drops to 0 Health, you can declare the Dirge in the following round. If you do not, the moment passes. All allies within 30 feet gain Dominance on attack rolls against the creature that downed the ally. Lasts until that creature is dead or combat ends. Suggested names: *Lament for the Fallen, The Avenger's Wail, Requiem of Wrath.*

@@ -103,7 +103,9 @@ Your Theurgic Lore replaces your access to other Creature Lores. You cannot inve
 
 #### Turn
 
-Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose Asura or Daeva, then choose one Division; every creature of that Division you can see is targeted. Roll your Charisma tier die + Lore skill die.
+**1 AP. Fast. Declared. Once per encounter.**
+
+Choose Asura or Daeva, then choose one Division; every creature of that Division you can see is targeted. On your turn, roll your Charisma tier die + Lore skill die.
 
 **DC:** Division × 2. If your roll meets or exceeds the DC, you succeed.
 
@@ -115,11 +117,11 @@ Once per encounter, you may spend 1 AP to attempt to turn Asura or Daeva. Choose
 
 #### Destroy Daeva
 
-You can choose to destroy Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
+**1 AP. Slow. Declared.** You can choose to destroy Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
 
 #### Charm Asura
 
-You can choose to inflict [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") Tier 3 on Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Charmed. Charmed is permanent. You can Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Charmed creatures to free up capacity. Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Charmed Asura to act, you must use your concentration slot or expend 1 AP per round. Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
+**1 AP. Slow. Declared.** You can choose to inflict [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") Tier 3 on Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Charmed. Charmed is permanent. You can Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Charmed creatures to free up capacity. Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Charmed Asura to act, you must use your concentration slot or expend 1 AP per round. Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
 
 ### Theurgic Magic
 

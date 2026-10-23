@@ -26,13 +26,14 @@ The flow of combat follows this structure:
 2. **Declaration Phase.** At the start of each round, before initiative is rolled, all combatants make the following declarations. Players declare openly and may strategize. The GM commits privately for all enemies and NPCs.
     - **Weapon**: Declare your equipped weapon and combat style. Combat style is how the weapon is being used: Shield, Single (1H), Two-Handed, or Dual Wield. If switching weapons or changing combat style this round, your phase is determined by the slowest weapon or style involved. Reactive weapon changes (dropping a broken shield, switching grip due to circumstances) can occur mid-round without declaration.
     - **Declaration Maneuvers**: Declare any maneuver whose trigger is Declaration.
-    - **Spells**: Declare any spell you intend to cast. The spell's casting speed determines your initiative phase. A weapon you hold but do not declare an attack with does not affect your phase; you can still defend and make reprisal attacks with it. If you declare both a spell and a weapon attack, you act in the slower of the two phases.
+    - **Spells**: Declare any spell you intend to cast. The spell's casting speed counts toward your phase (see *[Initiative Phases](#initiative-phases)*).
     - **Guard**: Declare your guard, or a formation if you are trained in Tactics. A companion declares its stance.
-    - **Abilities**: Declare any ability whose text says it must be declared, or that sets your phase.
+    - **Abilities**: Declare any ability you intend to use that has its own speed, or whose text says it must be declared. You cannot use such an ability in a round you did not declare it.
+    - **Items**: Declare any item you intend to use as your plan for the round. Its speed, given in its entry, counts toward your phase.
     - **Held Actions**: Declare that you are holding your action. You must specify one of the following:
         - *Hold to Phase*: Name a phase later than your declared phase. You act in that phase instead. You cannot hold to an earlier phase.
         - *Hold for Trigger*: Name a specific condition (e.g., "the archer breaks cover," "a creature enters this doorway"). Commit AP to the held action. If the trigger occurs during or after your natural phase, you act immediately. If the trigger occurs before your natural phase, you cannot react — your weapon is too slow. If the trigger never occurs, the committed AP are lost.
-    - **Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it.
+    - **Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it or it is a quick item (see *[Interaction](#interaction)*).
 3. Roll 1d6 to determine which side goes first (1-3 = PCs, 4-6 = Enemies).
 4. Resolve Fast phase (winning side, then losing side).
 5. Resolve Moderate phase (winning side, then losing side).
@@ -70,7 +71,9 @@ Initiative is determined by weapon speed rather than random rolls. All weapons f
 - **Moderate**: Standard weapons (swords, maces, spears, etc.)
 - **Slow**: Heavy weapons (mauls, greataxes, heavy crossbows, etc.)
 
-Your phase is set by what you declare this round, not by what you hold.
+Your phase is set by what you declare this round, not by what you hold. If you declare more than one thing with a speed, such as a weapon attack, a spell, an ability, or an item, you act in the slowest of their phases. A weapon you hold but do not declare an attack with does not count toward your phase. If you declare nothing else, your weapon sets your phase, whether or not you attack with it; with nothing in hand, you are Fast.
+
+**Acting Faster Than Your Weapon**: If your phase is faster than the weapon you hold, you cannot attack with it on your turn. You can still defend and make reprisal attacks with it.
 
 **Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), [Spell Speed](../magic/index.md#spell-speed).
 
@@ -217,7 +220,7 @@ A single movement up to the creature's movement speed. Costs 1 AP.
 
 An interaction is any use of an item or retrieval of an object. Getting an item into your hand costs AP based on where it is; using it then costs whatever that item requires (drinking a potion is 1 AP; a scroll is 2 AP).
 
-- **Quick Items** cost nothing to retrieve, so a quick item costs only its use (therefore, taking a vial of alum from your small pouch and using it to stop bleeding requires 1 AP).
+- **Quick Items** cost nothing to retrieve, so a quick item costs only its use (therefore, taking a vial of alum from your small pouch and using it to stop bleeding requires 1 AP). You can use a quick item you did not declare, even in place of something you did declare, as long as the item is no slower than your phase. A scroll is the exception: it is a spell, and it must be declared (see *[Skill Mastery, Reading Scrolls](../skills/index.md)*).
 - **Items on your body** (a weapon in its sheath, or gear on a body slot or lashed outside a pack) cost 1 AP to draw.
 - **Items in a container** (a backpack, sack, chest, or saddlebag) cost 2 AP to retrieve. One retrieval gets everything you need from that container (therefore, to light a torch from your pack, you retrieve the torch and tinderbox for 2 AP, then light it with the tinderbox for 6 AP, requiring 8 AP total, about four rounds. This is why travelers keep a fire, a lantern, or slow match burning).
 - Stowing an item requires 1 AP (therefore, stowing your backsword and drawing a rungu requires 2 AP).
@@ -263,11 +266,11 @@ Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 
 ### Wounds
 
-A wound is reflected by a decrease in your health pool. When you take damage to your health, you have suffered a wound. Wounds can be healed with rest, food, Healing Supplies, or magic.
+A wound is reflected by a decrease in your health pool. When you take damage to your health, you have suffered a wound. Wounds can be healed with rest, food, a healer's Wound Kit, or magic.
 
 ### Injuries
 
-When you reach 0 health, you suffer an Injury. Treating an Injury requires Healing Supplies (Exploration Round) or magical healing.
+When you reach 0 health, you suffer an Injury. Treating an Injury requires a healer's Injury Kit (Exploration Round) or magical healing.
 
 ### Traumas
 
@@ -291,7 +294,7 @@ Roll 1d100 for each Trauma. Each Trauma has a tier:
 
 Days' rest means full days of downtime with no travel, combat, or work.
 
-Healer treatments use *Treat Trauma* (Skill Mastery, Trade, [Healer Discipline](../skills/trade/index.md#healer-discipline)). The tier listed (T2, T3) is the treatment's tier: a healer with the required mastery succeeds automatically, and anyone else rolls against its Use DC.
+Healer treatments use *Treat Trauma* (Skill Mastery, Trade, [Healer Discipline](../skills/trade/index.md#healer-discipline)), rolled against the Trauma's tier: Minor 5, Severe 7, Grievous 9.
 
 | d100 | Trauma | Tier | Mundane recovery |
 |:---:|:---|:---:|:---|
@@ -304,7 +307,7 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, [Healer Discipline](
 | 11 | **Lose your left foot.** Movement halved, and you need a cane, crutch, or prosthesis to move. When you move more than once in a round, make a Physique trial (Straightforward, 4) or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Penalty -2 on trials to keep your balance. After a year with a prosthesis, or after gaining 5 character levels, you move normally. | Grievous | None |
 | 12 | **Lose your right foot.** As left foot. | Grievous | None |
 | 13–15 | **Close Call!** No Trauma. |  |  |
-| 16 | **Punctured Lung.** You have 1 AP per round. If both lungs are punctured, you are suffocating: advance [Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier at the end of each of your turns. | Severe | Tend (Healer, T3) + 30 days' rest |
+| 16 | **Punctured Lung.** You have 1 AP per round. If both lungs are punctured, you are suffocating: advance [Exhausted](conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier at the end of each of your turns. | Severe | Tend (Healer) + 30 days' rest |
 | 17–18 | **Lose a finger.** Penalty -1 on trials using fine tools with that hand (does not stack). Roll 1d10 from the left little finger to find which. If a hand loses all its fingers, treat it as a lost hand. | Grievous | None |
 | 19–20 | **Close Call!** No Trauma. |  |  |
 | 21 | **Lose your left ear.** Penalty -1 on Perception trials that rely on hearing. Bonus +1 on Presence (Intimidation) trials. If you have no ears left, you are [Deafened](conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."). | Grievous | None |
@@ -312,11 +315,11 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, [Healer Discipline](
 | 23 | **Lose your nose.** Penalty -2 on Charisma trials and on Perception trials that rely on smell. Bonus +2 on Presence (Intimidation) trials. | Grievous | None |
 | 24–25 | **Close Call!** No Trauma. |  |  |
 | 26 | **Blurred Vision.** Penalty -1 on Perception trials that rely on sight and on ranged attack rolls. | Minor | 3 days' rest |
-| 27 | **Break your left arm.** You cannot hold anything with two hands, and you can hold only one object at a time. | Severe | Set (Healer, T3) + 30 days' rest |
-| 28 | **Break your right arm.** As left arm. | Severe | Set (Healer, T3) + 30 days' rest |
+| 27 | **Break your left arm.** You cannot hold anything with two hands, and you can hold only one object at a time. | Severe | Set (Healer) + 30 days' rest |
+| 28 | **Break your right arm.** As left arm. | Severe | Set (Healer) + 30 days' rest |
 | 29–30 | **Close Call!** No Trauma. |  |  |
-| 31 | **Break your left leg.** Movement halved, and you need a cane or crutch to move. When you move more than once in a round, you fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Penalty -1 on trials to keep your balance. | Severe | Set (Healer, T3) + 30 days' rest |
-| 32 | **Break your right leg.** As left leg. | Severe | Set (Healer, T3) + 30 days' rest |
+| 31 | **Break your left leg.** Movement halved, and you need a cane or crutch to move. When you move more than once in a round, you fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Penalty -1 on trials to keep your balance. | Severe | Set (Healer) + 30 days' rest |
+| 32 | **Break your right leg.** As left leg. | Severe | Set (Healer) + 30 days' rest |
 | 33 | **Ringing Ears.** Penalty -1 on Perception trials that rely on hearing. | Minor | 3 days' rest |
 | 34–35 | **Close Call!** No Trauma. |  |  |
 | 36–37 | **Limp.** Movement reduced by 1 (5 ft). When you move more than once in a round, make a Physique trial (Easy, 3) or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). | Minor | 10 days' rest |
@@ -330,17 +333,17 @@ Healer treatments use *Treat Trauma* (Skill Mastery, Trade, [Healer Discipline](
 | 50 | **Left Arm Bruised to the Bone.** Penalty -1 on Strength and Physique trials that use your arms. | Minor | 3 days' rest |
 | 51 | **Right Arm Bruised to the Bone.** As left arm. | Minor | 3 days' rest |
 | 52–53 | **Close Call!** No Trauma. |  |  |
-| 54–56 | **Left Shoulder Dislocated.** You cannot hold anything with two hands, and you can hold only one object at a time. | Minor | Reset (Healer, T2) + 3 days' rest |
-| 57–59 | **Right Shoulder Dislocated.** As left shoulder. | Minor | Reset (Healer, T2) + 3 days' rest |
+| 54–56 | **Left Shoulder Dislocated.** You cannot hold anything with two hands, and you can hold only one object at a time. | Minor | Reset (Healer) + 3 days' rest |
+| 57–59 | **Right Shoulder Dislocated.** As left shoulder. | Minor | Reset (Healer) + 3 days' rest |
 | 60–61 | **Close Call!** No Trauma. |  |  |
 | 62–64 | **Broken Ribs.** Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | 10 days' rest |
-| 65–66 | **Festering Wound.** The wound turns. Advance [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier (interval 24 hours; Endurance DC equal to the inflicting creature's ability DC, Division + 1; for other sources, the GM sets it, default Tricky 6). While the wound remains, a successful trial holds the condition instead of reducing it. While you are Diseased, your maximum health drops by 1 every 24 hours; at 0, you die. | Severe | Tend daily (Healer, T3), 10 successes |
+| 65–66 | **Festering Wound.** The wound turns. Advance [Infected](conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier (interval 24 hours; Endurance DC equal to the inflicting creature's ability DC, Division + 1; for other sources, the GM sets it, default Tricky 5). While the wound remains, a successful trial holds the condition instead of reducing it. While you are Diseased, your maximum health drops by 1 every 24 hours; at 0, you die. | Severe | Tend daily (Healer), 10 successes |
 | 67–70 | **Close Call!** No Trauma. |  |  |
-| 71–73 | **Open Wound.** You lose 1 health every hour until the bleeding is stopped (Healer, T2, one exploration round). | Minor | Stop the bleeding (Healer, T2) |
-| 74–76 | **Internal Injury.** Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | Tend daily (Healer, T3), 10 successes |
+| 71–73 | **Open Wound.** You lose 1 health every hour until the bleeding is stopped (Healer, one exploration round). | Minor | Stop the bleeding (Healer) |
+| 74–76 | **Internal Injury.** Whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. | Severe | Tend daily (Healer), 10 successes |
 | 77–80 | **Close Call!** No Trauma. |  |  |
-| 81–82 | **Horrible Scar.** Penalty -2 on Charisma trials. Bonus +2 on Presence (Intimidation) trials. While Damage Age still reaches the wound, a successful Healer treatment (T3) reduces it to a Minor Scar. | Grievous | Healer, T3, same day only |
-| 83–85 | **Painful Scar.** In rain, sleet, hail, or snow, whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. While Damage Age still reaches the wound, a successful Healer treatment (T3) reduces it to a Minor Scar. | Grievous | Healer, T3, same day only |
+| 81–82 | **Horrible Scar.** Penalty -2 on Charisma trials. Bonus +2 on Presence (Intimidation) trials. While Damage Age still reaches the wound, a successful Healer treatment (T3) reduces it to a Minor Scar. | Grievous | Healer, same day only |
+| 83–85 | **Painful Scar.** In rain, sleet, hail, or snow, whenever you spend AP to attack or cast a spell, make an Endurance trial (Straightforward, 4); on failure, the AP is spent with no effect. While Damage Age still reaches the wound, a successful Healer treatment (T3) reduces it to a Minor Scar. | Grievous | Healer, same day only |
 | 86–99 | **Minor Scar.** No mechanical effect. |  |  |
 | 100 | **Broken Back.** You lose the use of your legs and cannot walk. | Grievous | None |
 

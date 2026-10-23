@@ -31,7 +31,7 @@ A bezoar is administered by shaving it into a drink. Each shaving drives back po
 | Type | None |
 | Workspace | None |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -58,7 +58,7 @@ Snowdrop is administered through ingestion. It ends one dose of a nightshade-fam
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -87,7 +87,7 @@ Viper wine is administered through ingestion, a draught at a time. It's sold to 
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -158,7 +158,7 @@ Ambergris is administered through ingestion, steeped in aqua vitae as a cordial.
 | Type | Sea |
 | Workspace | Laboratory |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Short |
 | Crash | None |
 | Properties | None |
@@ -203,7 +203,7 @@ A blood draught is administered through ingestion. Warm blood wakes the dying. H
 | Type | Primal |
 | Workspace | Field kit |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -236,7 +236,7 @@ Hippomanes is administered through ingestion. A creature that drinks it is charm
 | Type | Untyped |
 | Workspace | Laboratory |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Permanent, after the week |
 | Crash | None |
 | Properties | None |
@@ -267,7 +267,7 @@ Moly is administered through ingestion. A creature that takes it is [Warded](../
 | Type | Primal |
 | Workspace | Laboratory |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Short |
 | Crash | None |
 | Properties | None |
@@ -296,7 +296,7 @@ Mumia is administered through ingestion. It heals, clears Injuries, and mends th
 | Type | Profane |
 | Workspace | Laboratory |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
@@ -325,7 +325,7 @@ Stag's heart bone is administered through ingestion, grated into a cordial. A cr
 | Type | None |
 | Workspace | Laboratory |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Short |
 | Crash | None |
 | Properties | None |
@@ -360,7 +360,7 @@ Theriac is administered through ingestion. It ends poisoning, and the older it i
 | Type | None |
 | Workspace | Laboratory |
 | Delivery | Ingested |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous; its immunity lasts as its age gives |
 | Crash | None |
 | Properties | None |

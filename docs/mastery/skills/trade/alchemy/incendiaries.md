@@ -27,20 +27,20 @@ Thrown concoctions use the **Aiming Trial** (*[Combat](../../../core/combat.md)*
 
 *Saltpeter, sulfur, and charcoal.*
 
-Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 10 ft radius one phase after it's lit, dealing Fire damage and leaving everyone caught in it [Deafened](../../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") for a round. Its fuse gives targets a moment to react.
+Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 10 ft radius at the start of the next phase after it lands, dealing Fire damage and leaving everyone caught in it [Deafened](../../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") for a round. Its fuse gives targets a moment to react.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
 | Grenade | Fire damage in a 10 ft radius. [Deafened](../../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") for 1 round. Fuse\* | None | 1 sc |
 
-\* It bursts one phase after it's lit and thrown: Fast, then Moderate, then Slow, then the end of the round. Targets can react, and an ally holding for a trigger can kick it away.
+\* It bursts at the start of the next phase after it lands, before anyone acts in that phase: thrown in Moderate, it bursts at the start of Slow. Until then, any creature with AP left can react, such as with a Movement Reaction to get clear, and an ally holding for a trigger can kick it away.
 
 | | |
 |:---|:---|
 | Type | Fire |
 | Workspace | Laboratory |
 | Delivery | Contact. Thrown as a grenade (see [Throwing](#throwing)) or placed as a petard (see [Petards](#petards)) |
-| Use | Any time |
+| Use | Any time. 2 AP (light and throw). Moderate. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | Hazardous |
@@ -48,7 +48,7 @@ Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 1
 | Rarity | Imported |
 | Notes | None |
 
-\*\* **Concentrated:** quick match; it bursts in the same phase it's thrown. **Corrected:** corned powder; it ignores damp.
+\*\* **Concentrated:** quick match; it bursts when it lands. **Corrected:** corned powder; it ignores damp.
 
 **To make** (days for one dose, and the recipe's Social Class):
 
@@ -70,7 +70,7 @@ The larger the petard, the more skill it takes to make, and the bigger the gate 
 | Master | Large petard | 25 lbs | 13 / 125 lbs. | 11 | A great gate (Huge) | 11 sc | 5 gs |
 | Grand Master | Great petard | 45 lbs | 23 / 225 lbs. | 20 | A fortress gate (Colossal) | 20 sc | 9 gs |
 
-- **The blast:** a petard bursts one phase after it's lit. The maker's dice strike anyone within 5 ft in front of it, including whoever lit it, who resist with an Agility trial against the dose's DC. The person placing it must stand there to light it.
+- **The blast:** a petard bursts one round after it's lit, in the same phase. The maker's dice strike anyone within 5 ft in front of it, including whoever lit it, who resist with an Agility trial against the dose's DC. The person placing it must stand there to light it.
 - **Price:** the Serpentine doses at the grenade price (1 sc each), plus the bronze casing: about 4 lbs of bronze for every pound of powder, at 1 ss a pound. A recovered casing can be reused, and old bronze keeps its value as scrap.
 - **Weight is the practical limit.** A hand petard goes in a pack. A large or great petard takes a team, and a way to get it to the gate under the defenders' eyes.
 
@@ -92,7 +92,7 @@ Wildfire is thrown as a lit pot or soaked into Wrapped arrows or quarrels. A pot
 | Type | Fire |
 | Workspace | Field kit |
 | Delivery | Contact |
-| Use | Any time |
+| Use | Any time. Pot: 2 AP (light and throw), Moderate. Arrows and quarrels: the weapon's speed. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | Hazardous |
@@ -100,7 +100,7 @@ Wildfire is thrown as a lit pot or soaked into Wrapped arrows or quarrels. A pot
 | Rarity | Common near oil seeps; Uncommon elsewhere |
 | Notes | None |
 
-\*\* **Corrected:** a Serpentine-primed fuse instead of a rag. It lights from slow match and in wind or wet, but bursts one phase later. **Lingering:** one more instance of Burning.
+\*\* **Corrected:** a Serpentine-primed fuse instead of a rag. It lights from slow match and in wind or wet, but bursts at the start of the next phase after it lands, like a Serpentine grenade. **Lingering:** one more instance of Burning.
 
 **To make** (days for one dose, and the recipe's Social Class):
 

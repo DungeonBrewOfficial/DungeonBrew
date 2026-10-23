@@ -31,16 +31,16 @@ The study of animals. This skill represents your understanding of animals in all
 
 You can find food, healing herbs, or spell components while traveling. Hunting or foraging takes 8 hours of travel, and you can make one attempt per day.
 
-1. Choose what you are looking for: meals, Healing Supplies, or Spell Components. Healing Supplies require the Healer discipline of Trade. Spell Components require that you can cast spells.
+1. Choose what you are looking for: meals, healing herbs, or Spell Components. Healing herbs require the Healer discipline of Trade. Spell Components require that you can cast spells.
 2. Roll a Perception + Wilderness trial. The GM may give a penalty in desolate regions or a bonus in lush ones.
 3. Subtract 2 from the result. This is the number of points you have to spend.
 4. Spend the points on the Foraging table, up to the best your mastery allows.
 
-| Points | Mastery needed | Meal | Healing Supplies | Spell Component |
+| Points | Mastery needed | Meal | Healing Herbs | Spell Component |
 |:---:|:---|:---|:---|:---|
-| 1 | Untrained | Poor | Serf | Serf |
-| 2 | Skilled | Common | Peasant | Peasant |
-| 3 | Master | Good | Knight | Knight |
+| 1 | Untrained | Poor | Wound Kit | Serf |
+| 2 | Skilled | Common | Injury Kit | Peasant |
+| 3 | Master | Good | Physic Kit | Knight |
 
 Foraged meals spoil after 3 days. Raw meat and fish must be cooked before eating (see *[Cooking](../../core/exploration-and-travel.md#cooking)* in *[Camping Roles](../../core/exploration-and-travel.md#camping-roles)*). The GM decides how often a region can be foraged, by how lush it is.
 

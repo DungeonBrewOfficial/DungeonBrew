@@ -84,4 +84,4 @@ Trap supplies are purchased, single-use, and consumed when the trap is set. The 
 
 ### Use Scroll
 
-Attempt to use a spell scroll of any tradition by rolling the scroll's tradition attribute tier die + Thievery mastery die against the scroll's Use DC. You need no knowledge of its Form. On success, you identify the scroll and the spell casts normally. On failure, the spell fails and the scroll is ruined. You cannot coerce success.
+**2 AP. Slow. Declared.** Attempt to use a spell scroll of any tradition by rolling the scroll's tradition attribute tier die + Thievery mastery die against the scroll's Use DC. You need no knowledge of its Form. On success, you identify the scroll and the spell casts normally. On failure, the spell fails and the scroll is ruined. You cannot coerce success. Like any spell, it can be interrupted before it resolves; if it is, the scroll is lost.

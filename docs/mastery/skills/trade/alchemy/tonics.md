@@ -83,7 +83,7 @@ A vinegar sponge is held under the nose. It rouses someone from a stupor faster 
 | Type | None |
 | Workspace | Field kit |
 | Delivery | Inhaled |
-| Use | Any time |
+| Use | Any time. 1 AP. Fast. |
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | None |
