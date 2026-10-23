@@ -51,7 +51,7 @@ He is a knight. A human warrior that is bound by his oaths to a liege, abiding b
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. Your knight should use this title when talking with other characters. Instead of saying "I'm Marsham, a Second Level Knight," the character should say "I'm Marsham, the Squire."
+<span id="title"></span>**Title**. Your knight should use this title when talking with other characters. Instead of saying "I'm Amaury, a Second Level Knight," the character should say "I'm Amaury, the Squire."
 
 <span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 

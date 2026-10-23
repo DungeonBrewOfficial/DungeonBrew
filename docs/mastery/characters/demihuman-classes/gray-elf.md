@@ -51,7 +51,7 @@ She is a gray elf. An elf of knowledge and nobility. Her power comes from her gr
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Belrain, a Fifth Level Elf," you should say "I'm Belrain, the Adventurer."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Aarni, a Fifth Level Gray Elf," you should say "I'm Aarni, the Candidate (Kokelas)."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -112,7 +112,7 @@ You automatically advance in the *[Alertness](../../skills/alertness.md)* and *[
 
 *Level 1*
 
-You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 

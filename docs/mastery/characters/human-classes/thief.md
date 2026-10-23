@@ -51,7 +51,7 @@ He is a thief. A human master of stealth and skill. He is neither a warrior nor 
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Greegan, a Second Level Thief," you should say "I'm Rolf, the Footpad."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Kit, a Second Level Thief," you should say "I'm Kit, the Crank."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 

@@ -112,6 +112,18 @@ Each time you gain a level in your chosen class, you have a number of points equ
 
 <span id="beyond-level-30"></span>**Beyond Level 30.** Class tables end at level 30, but advancement continues. Each level beyond 30 requires 50 more experience than the level before it, grants 10 attribute points, and grants mastery points at your level 30 rate. Health continues on your class's schedule, and you keep your final title.
 
+### Tier Dice Pools
+
+Your health and your magan are pools of tier dice. Health follows your Endurance tier, and magan follows your casting attribute's tier. A pool holds one die for each tier up to your current tier: the Tier 1 die (d2), the Tier 2 die (d3), and so on. Record each die's result, so that you can reroll it later.
+
+<span id="building-a-pool"></span>**Building a pool.** At character creation, build each pool one tier at a time. Roll the Tier 1 die. At each tier after it, roll that tier's die and add it to the pool, and you can reroll any dice already in the pool.
+
+<span id="raising-a-pool"></span>**Raising a pool.** Each time the pool's attribute tier rises, roll the new tier die and add it to the pool. You can also reroll any dice already in the pool. A rerolled die keeps its new result, even if it is lower.
+
+<span id="companions"></span>**Companions.** Companion health pools follow the same rules. A Puca's or an Agathion's pool rises with its tier, and an animal companion's rises with its handler's Wilderness mastery. A familiar adds its tier dice to the pool you share. A new or replacement companion builds its pool as at character creation.
+
+<span id="variant-straight-rolls"></span>**Variant: Straight Rolls.** For a harder game, dice are never rerolled. At character creation, roll each die in the pool once.
+
 ## Personality
 
 Alignment isn't all there is to your personality. You should think about your mannerisms, the way you speak, the way you dress, how you spend money, what sort of people you like, how you like to spend your non-adventuring time, and so on. The more attention you invest in imagining who you are, with all your traits, virtues, and vices, the more interesting and "real" you will feel. Sure, it's useful for you to be the mightiest warrior in the world . . . but none of the other characters will care whether you live or die unless you have a personality.

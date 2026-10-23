@@ -51,7 +51,7 @@ He is a halfling. A demihuman who keeps to himself, mostly. The big folk are alw
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Touchberry, a Fifth Level Halfling," you should say "I'm Touchberry, the Homebody."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Hob, a Fifth Level Halfling," you should say "I'm Hob, the Tiller."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 

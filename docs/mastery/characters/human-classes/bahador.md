@@ -51,7 +51,7 @@ He is a Bahador. A human warrior that commands the Occult. He is a devoted stude
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Valamor, a Second Level Bahador," you should say "I'm Valamor, the Novice."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Farhad, a Second Level Bahador," you should say "I'm Farhad, the Novice (Nocheh)."
 
 <span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -90,7 +90,7 @@ You automatically advance in the *[Trade (Scribe)](../../skills/trade/index.md#s
 
 *Level 1*
 
-You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence Tier. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence Tier. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -110,7 +110,7 @@ You start with a grimoire containing two spells chosen by you or your GM. A star
 
 *Level 1*
 
-<span id="polestar"></span>**Polestar.** Your weapon serves as your spell Focus.
+<span id="polestar"></span>**Polestar.** You can bind a weapon as your focus (see *[Equipment](../../equipment/gear-and-services.md)*, [Foci](../../equipment/gear-and-services.md#foci)). Your bound Polestar weapon also reduces each spell's cost by 1, and counts as the spell's one material component. If you lose the weapon, you have no focus until you recover it or bind another.
 
 <span id="imbue"></span>**Imbue.** You can spend 1 AP to imbue your weapon with a damage type from a spell form in which you have at least Untrained mastery. While imbued, when your weapon deals damage to durability or health, it deals additional damage of the chosen type equal to your tier die. You either dedicate your concentration slot to maintain the imbuing or spend 1 AP per round. Cost: 1 magan per round.
 

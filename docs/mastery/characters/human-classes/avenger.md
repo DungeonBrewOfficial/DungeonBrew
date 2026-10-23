@@ -55,7 +55,7 @@ Avengers are devotees of powers greater than themselves, known as *numen*, but a
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next level of experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Graeve, a Fifth Level Avenger," you should say "I'm Graeve, the Credens."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Severinus, a Fifth Level Avenger," you should say "I'm Severinus, the Credens."
 
 <span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -117,7 +117,7 @@ Choose Asura or Daeva, then choose one Division; every creature of that Division
 
 <span id="turned-creatures"></span>**Turned creatures** are compelled to flee from you as fast as they are able for as long as you concentrate. If cornered, they cower and cannot attack, although intelligent creatures may use defensive powers to protect themselves. While turning, you must hold your Focus in hand and can take no actions other than defense and movement.
 
-<span id="targeted-creatures"></span>**Targeted creatures** that are not turned are immune to your turning for 24 hours.
+<span id="targeted-creatures"></span>**Targeted creatures** that are not affected are immune to your Turn, and all its outcomes, for 24 hours.
 
 #### Control Daeva
 
@@ -129,7 +129,7 @@ Choose Asura or Daeva, then choose one Division; every creature of that Division
 
 ### Theurgic Magic
 
-You can cast theurgic spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Charisma Tier. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast theurgic spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Charisma Tier. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -149,7 +149,7 @@ You start with a prayer book containing two prayers chosen by you or your GM. Ea
 
 *Level 1*
 
-<span id="polestar"></span>**Polestar.** Your weapon serves as your spell Focus.
+<span id="polestar"></span>**Polestar.** You can bind a weapon as your focus (see *[Equipment](../../equipment/gear-and-services.md)*, [Foci](../../equipment/gear-and-services.md#foci)). Your bound Polestar weapon also reduces each spell's cost by 1, and counts as the spell's one material component. If you lose the weapon, you have no focus until you recover it or bind another.
 
 <span id="imbue"></span>**Imbue.** You can spend 1 AP to imbue your weapon with a damage type from a spell form in which you have at least Untrained mastery. While imbued, when your weapon deals damage to durability or health, it deals additional damage of the chosen type equal to your tier die. You either dedicate your concentration slot to maintain the imbuing or spend 1 AP per round. Cost: 1 magan per round.
 

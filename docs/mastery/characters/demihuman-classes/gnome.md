@@ -51,7 +51,7 @@ She is a gnome. A demihuman thought to be myth by most, and not thought of at al
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Noldor, a Fifth Level Gnome," you should say "I'm Noldor, the Learner."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Theron, a Fifth Level Gnome," you should say "I'm Theron, the Walker (Peripatētēs)."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -91,7 +91,7 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 
 *Level 1*
 
-You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 

@@ -159,7 +159,7 @@ Your Strength score represents the maximum weight your character can carry unenc
 * Light items count as 1 weight
 * Moderate items count as 2 weight
 * Heavy items count as 4 weight
-* Insignificant items are weighed by stack
+* Insignificant items are weighed by stack: an entry such as L [10] means up to 10 of the item count as one Light item. The listed price and weight are for one item. In a quick-item container, each item takes its own slot.
 * Containers always equal their weight
 * Ignore weight of items in Containers
 * Armor has its own weight value (see *[Worn Armor](#worn-armor)* and *[Carried Armor](#carried-armor)*)

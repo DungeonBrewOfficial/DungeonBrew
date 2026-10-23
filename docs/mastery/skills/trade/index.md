@@ -92,7 +92,7 @@ The Healer discipline covers treating wounds, injuries, traumas, poison, and dis
 
 <span id="heal"></span>**Heal.** *1 Exploration Round. Wound Kit. Pocket Set.* The patient regains health equal to your roll. A patient can be Healed once per encounter in which they were wounded. Without a pocket set, the patient regains health equal to your Healer mastery level instead; it still counts as their Heal for the encounter.
 
-<span id="triage"></span>**Triage.** *2 AP. Wound Kit. No tools.* Only during combat. The patient regains health equal to your Healer mastery level. A downed patient can be triaged once per Injury. A conscious patient can be triaged once per encounter, and you and the patient both spend your whole turn on it, with no attacks, defense, or movement. Triage does not count as the patient's Heal.
+<span id="triage"></span>**Triage.** *2 AP. Wound Kit. No tools.* Only during combat. The patient regains health equal to your Healer mastery level. A patient can be triaged once per encounter, and again each time they drop to 0 health. If the patient is conscious, you and the patient both spend your whole turn on it, with no attacks, defense, or movement. Triage does not count as the patient's Heal.
 
 <span id="treat-injury"></span>**Treat Injury.** *1 Exploration Round. Injury Kit. Pocket Set.* Clears one Injury, with no roll. Without a pocket set, roll with Impotence against 4; on a failure, the kit is wasted.
 

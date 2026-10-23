@@ -539,26 +539,30 @@ If you can cast spells and have *Wilderness* (Hunting and Foraging), you can for
 
 ## Foci
 
-A focus is an object that channels a caster's power (see *[Components](../magic/index.md#components)* in *[Magic Mastery](../magic/index.md)*). Any caster can use any focus; it must be held in one hand to cast. Worn foci (pectorals, talismans) can be grasped and released freely without drawing or stowing them. Other foci are drawn and stowed like any item. A rod can be wielded as a Club and a staff as a Quarterstaff.
+A focus is an object that channels a caster's power (see *[Magic Mastery](../magic/index.md)*, [Components](../magic/index.md#components)). Any caster can use any focus, but you cast only through your bound focus, and you have one. Binding a different focus takes an exploration round spent concentrating on it, and that is your exploration role for the round. Your bound focus must be worn, wielded, or in your hand when you declare a spell. Foci come in three kinds, shown in the Kind column:
 
-| Focus | Enc / Weight | Price | Carry |
-|:---|:---:|:---:|:---|
-| Astrolabe | L / 3 lbs. | 2 gn | Belt, Hip |
-| Bezoar | NE / .2 lb. | 10 gs | Belt |
-| Calipers, Brass | L / 1 lb. | 1 ss | Belt, Hip |
-| Censer | L / 3 lbs. | 1 ss | Belt, Hip |
-| Fetish | NE / .5 lb. | 1 sp | Belt |
-| Knucklebones | NE / .2 lb. | 1 cf | Belt |
-| Mask, Ritual | L / 1 lb. | 6 sp | Belt, Hip |
-| Pectoral, Silver | NE / 1 lb. | 1 gn | Worn |
-| Pectoral, Wooden | NE / .5 lb. | 1 cf | Worn |
-| Relic | NE / .5 lb. | 1 gn | Belt |
-| Rod | L / 2 lbs. | 1 cf | Short |
-| Scourge | L / 1 lb. | 2 sp | Belt, Hip |
-| Sistrum | L / 2 lbs. | 2 ss | Belt, Hip |
-| Speculum | L / 1 lb. | 1 ss | Belt, Hip |
-| Staff | L / 3 lbs. | 1 cf | Long |
-| Talisman | NE / .2 lb. | 4 sp | Worn |
+- <span id="worn"></span>**Worn** foci work while worn and need no hand.
+- <span id="held"></span>**Held** foci must be in your hand when you declare the spell, and are drawn and stowed like any item. A held focus gives Dominance on the spell's miscast trials (see *[Magic Mastery](../magic/index.md)*, [Components](../magic/index.md#components)).
+- <span id="weapon"></span>**Weapon** foci work while wielded. A rod can be wielded as a Club, and a staff as a Quarterstaff.
+
+| Focus | Kind | Enc / Weight | Price | Carry |
+|:---|:---|:---:|:---:|:---|
+| Astrolabe | Held | L / 3 lbs. | 2 gn | Belt, Hip |
+| Bezoar | Held | NE / .2 lb. | 10 gs | Belt |
+| Calipers, Brass | Held | L / 1 lb. | 1 ss | Belt, Hip |
+| Censer | Held | L / 3 lbs. | 1 ss | Belt, Hip |
+| Fetish | Held | NE / .5 lb. | 1 sp | Belt |
+| Knucklebones | Held | NE / .2 lb. | 1 cf | Belt |
+| Mask, Ritual | Worn | L / 1 lb. | 6 sp | Worn |
+| Pectoral, Silver | Worn | NE / 1 lb. | 1 gn | Worn |
+| Pectoral, Wooden | Worn | NE / .5 lb. | 1 cf | Worn |
+| Relic | Held | NE / .5 lb. | 1 gn | Belt |
+| Rod | Weapon | L / 2 lbs. | 1 cf | Short |
+| Scourge | Held | L / 1 lb. | 2 sp | Belt, Hip |
+| Sistrum | Held | L / 2 lbs. | 2 ss | Belt, Hip |
+| Speculum | Held | L / 1 lb. | 1 ss | Belt, Hip |
+| Staff | Weapon | L / 3 lbs. | 1 cf | Long |
+| Talisman | Worn | NE / .2 lb. | 4 sp | Worn |
 
 <span id="astrolabe"></span>**Astrolabe**. A brass disc of engraved plates and a rotating sighting arm, used to reckon the hours and the positions of the stars.
 

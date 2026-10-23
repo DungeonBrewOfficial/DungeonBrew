@@ -55,7 +55,7 @@ Filis are versatile warriors, often tied to the druidic order. They are known fo
 
 <span id="experience"></span>**Experience**. When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Thom, a Fifth Level Fili," you should say "I'm Thom, the Son of Composition (Macfuirmid)."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Áed, a Fifth Level Fili," you should say "I'm Áed, the Son of Composition (Macfuirmid)."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -93,7 +93,7 @@ You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. Y
 
 *Level 1*
 
-You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Wisdom score (rounded down). For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Wisdom score (rounded down). For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 

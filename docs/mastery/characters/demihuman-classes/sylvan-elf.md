@@ -51,14 +51,14 @@ He is a sylvan elf. An elf of balance and natural order. His power comes from he
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Belrain, a Fifth Level Elf," you should say "I'm Belrain, the Adventurer."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Rhydian, a Fifth Level Sylvan Elf," you should say "I'm Rhydian, the Sprout (Eginyn)."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
 <span id="skills"></span>**Skills**. At first level, you begin with 1 Skill Mastery point, which must be spent immediately on a Skill. You may use this point to advance a Skill to Untrained mastery, but no further at this level.
 
 * As a Sylvan Elf, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, and *[Thievery](../../skills/thievery.md)* skills.
-* You learn *[Athletics](../../skills/athletics.md)* and *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Sylvan Nature](#sylvan-nature)* class ability for free.
+* You learn *[Athletics](../../skills/athletics.md)* and *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Sylvan Nature](#sylvan-nature)* class ability for free. This counts as your first Wilderness investment. You can invest Skill Mastery points in Wilderness a second time to gain the other animal slot.
 * You gain 1 Skill Mastery point per level. At level 21, this increases to 2 points per level.
 
 <span id="spell-mastery"></span>**Spell Mastery**. At first level, you begin with 3 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
@@ -102,7 +102,7 @@ You automatically advance in the *[Athletics](../../skills/athletics.md)* and*Wi
 
 *Level 1*
 
-You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 

@@ -161,6 +161,7 @@ Heavy armor is the best armor and protection available. It is time-consuming to 
 Shields can provide a minor bonus to a character's Defense and are required to defend against ranged attacks. When you take damage past your defense and resistance, you can choose to have your shield absorb it first, up to its current Durability. The rest passes to your armor, then to your Health.
 
 - Removing a strapped shield costs 1 AP. A held shield can be dropped freely (0 AP).
+- A strapped shield leaves its hand free to hold a focus or a material component, but not a weapon.
 
 <span id="heater-shield"></span>**Heater Shield**. A heater shield is a compact, flat shield favored by mounted knights and duelists. It has a bouche to steady a couched lance or spear during a mounted charge. The heater is a strapped shield. **(+2 to Charge Attack while mounted with a lance or spear)**
 

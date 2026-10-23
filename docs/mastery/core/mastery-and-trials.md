@@ -39,7 +39,7 @@ Dominance moves each die one step to the right. Impotence moves each die one ste
 
 ### Dice Mechanic Interactions
 
-- <span id="attack"></span>**Attack**, **damage** (including spell damage), and **defense** dice explode on a maximum roll, except a d2, which never explodes. **Trial** dice do not explode.
+- <span id="attack"></span>**Attack**, **damage** (including spell damage), and **defense** dice explode on a maximum roll, except a d2, which never explodes. A d2 that Dominance steps up to a d3 explodes as a d3. **Trial** dice do not explode.
 - <span id="dominance_1"></span>**Dominance** and **Impotence** cancel each other out.
 - <span id="superiority_1"></span>**Superiority** and **Inferiority** cancel each other out.
 - <span id="bonus_1"></span>**Bonus** and **Penalty** modifiers combine. Bonuses and Penalties from different sources add together, but the same ability does not add to itself: if a creature is affected by more than one instance of the same ability, only one applies. An ability that states it stacks is an exception.

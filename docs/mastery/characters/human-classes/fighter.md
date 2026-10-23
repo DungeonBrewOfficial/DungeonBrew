@@ -51,7 +51,7 @@ She is a fighter. A human tactician that understands the ways of battle better t
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Fleetwood, a Second Level Fighter," you should say "I'm Fleetwood, the Warrior."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Godwin, a Second Level Fighter," you should say "I'm Godwin, the Recruit."
 
 <span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
