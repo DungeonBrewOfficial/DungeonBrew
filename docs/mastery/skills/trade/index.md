@@ -171,7 +171,7 @@ The trial occurs at the midpoint of the crafting process (half the total days el
 
 *Commit:* Complete the full crafting time and expend all supplies. The scroll is ruined, but the Scribe gains +2 on their next attempt to create the exact same scroll (same spell, same magan cost). The +2 does not stack across multiple committed failures.
 
-<span id="reading-scrolls"></span>**Reading Scrolls.** 2 AP. Slow. Declared. Reading a scroll is casting a spell. It costs no magan, and if it is interrupted, the scroll is lost.
+<span id="reading-scrolls"></span>**Reading Scrolls.** 2 AP. Slow. Declared. Reading a scroll is casting a spell with verbal and somatic components: you read it aloud, with the scroll in hand. It costs no magan, and if it is interrupted, the scroll is lost (see *[Magic Mastery](../../magic/index.md)*, [Interrupted Casting](../../magic/index.md#interrupted-casting)).
 
 A scroll's tradition is plain to anyone with at least Untrained Scribe mastery. If the scroll is your own tradition and your Scribe mastery is at or above its tier, reading it needs no roll. Otherwise, you roll the scroll's tradition attribute tier die (Intelligence for Occult, Charisma for Theurgic, Perception for Priscan) + your Scribe mastery die against its Use DC. On a failure, the scroll is ruined. You can read a scroll of another tradition only if you have at least Untrained mastery in its Form.
 

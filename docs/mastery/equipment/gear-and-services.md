@@ -50,10 +50,10 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 | Container | Enc / Weight | Capacity | Price | Slots |
 |:---|:---:|:---:|:---:|:---|
 | Ammunition Pouch | L / .5 lb. | 1 sheaf | 1 sp | Belt, Hip |
-| Arm Sheath* | L / .5 lb. | 1 Dagger | 1 ss | Forearm |
+| Arm Sheath† | L / .5 lb. | 1 Dagger | 1 ss | Forearm |
 | Backpack, Canvas | L / 1 lb. | 8 | 3 sp | Back |
 | Backpack, Traveler's | L / 3 lbs. | 16 | 1 ss | Back |
-| Bandolier* | L / 3 lbs. | 6 quick | 2 ss | Shoulder |
+| Bandolier† | L / 3 lbs. | 6 quick | 2 ss | Shoulder |
 | Barrel, Large Oak | 11 / 110 lbs. | 96 | 1 ss | Not carried |
 | Barrel, Medium Oak | 8 / 78 lbs. | 48 | 6 sp | Not carried |
 | Barrel, Small Oak | 5 / 50 lbs. | 24 | 3 sp | Not carried |
@@ -61,9 +61,9 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 | Basket, Medium Hempen | L / 2 lbs. | 8 | 1 sp | Held |
 | Basket, Small Hempen | L / 1 lb. | 6 | 2 cf | Held |
 | Belt Pouch, Large | L / .5 lb. | 4  | 1 sp | Belt, Hip |
-| Belt Pouch, Small* | L / .2 lb. | 4 quick | 2 cf | Belt, Hip |
+| Belt Pouch, Small† | L / .2 lb. | 4 quick | 2 cf | Belt, Hip |
 | Bottle, Glass | L / 10 lbs. | 1 ga | 4 sp | Held, Back |
-| Bracer Pouch* | L / .5 lb. | 2 quick | 4 sp | Forearm |
+| Bracer Pouch† | L / .5 lb. | 2 quick | 4 sp | Forearm |
 | Bucket | L / 10 lbs. | 1 ga | 1 cf | Held |
 | Chest, Large Oak | 8 / 80 lbs. | 48  | 2 ss | Not carried |
 | Chest, Medium Oak | 5 / 50 lbs. | 24  | 10 sp | Not carried |
@@ -81,13 +81,13 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 | Saddle Bags, Small | L / 4 lbs. | 2 | 6 sp | Mount |
 | Scabbard, Leather | L / 1 lb. | 1 melee weapon | 1 ss | Hip, Shoulder, Back |
 | Scabbard, Ornate | L / 1 lb. | 1 melee weapon | 10 gs | Hip, Shoulder, Back |
-| Scroll Case* | L / 2 lbs. | 3 scrolls | 8 sp | Belt, Hip, Shoulder |
-| Shield Pouch* | L / 1 lb. | 2 quick | 4 sp | On a shield |
+| Scroll Case† | L / 2 lbs. | 3 scrolls | 8 sp | Belt, Hip, Shoulder |
+| Shield Pouch† | L / 1 lb. | 2 quick | 4 sp | On a shield |
 | Surgeon's Chest | M / 25 lbs. | 2 | 4 gs | Back, Shoulder |
-| Surgeon's Pocket Set* | L / 1 lb. | 2 quick | 1 sc | Belt, Hip |
+| Surgeon's Pocket Set† | L / 1 lb. | 2 quick | 1 sc | Belt, Hip |
 | Waterskin | L [2] / 5 lbs. | .5 ga | 2 cf | Belt, Hip |
 
-\* *Quick Item Container, see description*
+† *Quick Item Container, see description*
 
 <span id="basket-large-hempen"></span>**Basket, Large Hempen**. Open heavy woven basket that can hold about 8 ft.<sup>3</sup> or 90 lbs, but must be held in both hands when filled. Can hold 18 light objects, 9 medium objects, or 4 heavy objects.
 

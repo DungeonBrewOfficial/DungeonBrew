@@ -31,9 +31,9 @@ Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 1
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Grenade | Fire damage in a 10 ft radius. [Deafened](../../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") for 1 round. Fuse\* | None | 1 sc |
+| Grenade | Fire damage in a 10 ft radius. [Deafened](../../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") for 1 round. Fuse† | None | 1 sc |
 
-\* It bursts at the start of the next phase after it lands, before anyone acts in that phase: thrown in Moderate, it bursts at the start of Slow. Until then, any creature with AP left can react, such as with a Movement Reaction to get clear, and an ally holding for a trigger can kick it away.
+† It bursts at the start of the next phase after it lands, before anyone acts in that phase: thrown in Moderate, it bursts at the start of Slow. Until then, any creature with AP left can react, such as with a Movement Reaction to get clear, and an ally holding for a trigger can kick it away.
 
 | | |
 |:---|:---|
@@ -44,11 +44,11 @@ Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 1
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | Hazardous |
-| Modifications | Concentrated\*\*, Corrected\*\* |
+| Modifications | Concentrated‡, Corrected‡ |
 | Rarity | Imported |
 | Notes | None |
 
-\*\* **Concentrated:** quick match; it bursts when it lands. **Corrected:** corned powder; it ignores damp.
+‡ **Concentrated:** quick match; it bursts when it lands. **Corrected:** corned powder; it ignores damp.
 
 <span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
@@ -82,10 +82,10 @@ Wildfire is thrown as a lit pot or soaked into Wrapped arrows or quarrels. A pot
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Pot | Fire damage in the 5 ft square where it lands. [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning)\* | None | 1 ss |
-| Arrow or quarrel dose | Soaks six Wrapped arrows or quarrels. If the hit deals damage to Health or to durability, the target gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning)\* | None | 2 sp an arrow or quarrel |
+| Pot | Fire damage in the 5 ft square where it lands. [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning)† | None | 1 ss |
+| Arrow or quarrel dose | Soaks six Wrapped arrows or quarrels. If the hit deals damage to Health or to durability, the target gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning)† | None | 2 sp an arrow or quarrel |
 
-\* [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning) equals the maker's mastery level. Smothering or dousing it takes 1 AP, by the creature or an adjacent ally, and ends the pending instance. Thickened fire clings: only sand, vinegar, or urine put it out, for 1 AP, or the creature can roll on earth or sand, for 1 AP, and becomes [Prone](../../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
+† [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning) equals the maker's mastery level. Smothering or dousing it takes 1 AP, by the creature or an adjacent ally, and ends the pending instance. Thickened fire clings: only sand, vinegar, or urine put it out, for 1 AP, or the creature can roll on earth or sand, for 1 AP, and becomes [Prone](../../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
 
 | | |
 |:---|:---|
@@ -96,11 +96,11 @@ Wildfire is thrown as a lit pot or soaked into Wrapped arrows or quarrels. A pot
 | Duration | Instantaneous |
 | Crash | None |
 | Properties | Hazardous |
-| Modifications | Corrected\*\*, Lingering (Burning)\*\*, Thickened |
+| Modifications | Corrected‡, Lingering (Burning)‡, Thickened |
 | Rarity | Common near oil seeps; Uncommon elsewhere |
 | Notes | None |
 
-\*\* **Corrected:** a Serpentine-primed fuse instead of a rag. It lights from slow match and in wind or wet, but bursts at the start of the next phase after it lands, like a Serpentine grenade. **Lingering:** one more instance of Burning.
+‡ **Corrected:** a Serpentine-primed fuse instead of a rag. It lights from slow match and in wind or wet, but bursts at the start of the next phase after it lands, like a Serpentine grenade. **Lingering:** one more instance of Burning.
 
 <span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 

@@ -413,6 +413,8 @@ Weather wears on travelers. Each day falls in a **temperature band**, and it may
 
 <span id="frigid-water"></span>**Frigid Water.** When you enter frigid water, make an Endurance trial (Tricky, 5). On a failure, you are also *[Impaired](conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")* (Tier 1). At the end of each round you stay in the water, make the trial again: each combat round in combat, each exploration round otherwise. On a natural minimum, you go into shock and fall *[Unconscious](conditions.md#unconscious "Considered Helpless and Catatonic. Unaware of surroundings and events.")*.
 
+<span id="companions_1"></span>**Companions.** Spirit companions, such as a Puca or a familiar, make no weather trials. Mortal companions, such as an Agathion, an animal companion, or a mount, make them as any creature does. A beast counts as dressed for the climate it is native to.
+
 ### Weather Tables
 
 The GM rolls the day's weather on the season's table. On a 1 or a 20, roll on that season's Extreme table instead.
@@ -456,7 +458,7 @@ At −20°F, the Winter Extreme blizzard averages −30°F, and an ordinary Nort
 
 | Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
 |---|---|---|---|---|---|---|---|
-| 1–5 | Blizzard Conditions | [10d6-40] F | Extreme Cold (avg -5°F) | [2d20] mph | [2d4+6] inches | Low | [1d12] Hours |
+| 1–5 | Blizzard Conditions | [5d6-30] F | Extreme Cold (avg -12°F) | [2d10+33] mph | [2d4+6] inches | Low | [1d12] Hours |
 | 6–10 | Heavy Snowfall | [10d6-31] F | Extreme Cold (avg 4°F) | [2d20-2] mph | [2d4+4] inches | Low | [1d12] Hours |
 | 11–15 | Moderate Snowfall | [10d6-27] F | Extreme Cold (avg 8°F) | [2d20-2] mph | [1d4+4] inches | Low | [1d12] Hours |
 | 16–20 | Light Snowfall | [10d6-23] F | Cold (avg 12°F) | [2d20-2] mph | [1d4] inches | Low | [1d12] Hours |
@@ -533,7 +535,7 @@ At −20°F, the Winter Extreme blizzard averages −30°F, and an ordinary Nort
 
 | Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
 |---|---|---|---|---|---|---|---|
-| 1–5 | Early Blizzard | [10d6-35] F | Extreme Cold (avg 0°F) | [2d20] mph | [2d4+4] inches | Low | [1d12] Hours |
+| 1–5 | Early Blizzard | [5d6-25] F | Extreme Cold (avg -8°F) | [2d10+33] mph | [2d4+4] inches | Low | [1d12] Hours |
 | 6–10 | Heavy Snowfall | [10d6-27] F | Extreme Cold (avg 8°F) | [2d20-2] mph | [1d4+4] inches | Low | [1d12] Hours |
 | 11–15 | Light Snowfall | [10d6-23] F | Cold (avg 12°F) | [2d20-2] mph | [1d4] inches | Low | [1d12] Hours |
 | 16–25 | Hard Frost | [10d6-30] F | Extreme Cold (avg 5°F) | [1d20-1] mph | N/A | Good | [1d6] Days |
@@ -568,7 +570,7 @@ At −20°F, the Winter Extreme blizzard averages −30°F, and an ordinary Nort
 
 | Roll | Weather | Temperature | Usual band | Wind | Precipitation | Visibility | Duration |
 |---|---|---|---|---|---|---|---|
-| 1–15 | Blizzard Conditions | [10d6-45] F | Extreme Cold (avg -10°F) | [2d20+5] mph | [2d4+8] inches | Low | [2d12] Hours |
+| 1–15 | Blizzard Conditions | [5d6-35] F | Extreme Cold (avg -18°F) | [2d10+33] mph | [2d4+8] inches | Low | [2d12] Hours |
 | 16–25 | Heavy Snowfall | [10d6-35] F | Extreme Cold (avg 0°F) | [2d20-2] mph | [2d4+4] inches | Low | [1d12] Hours |
 | 26–30 | Moderate Snowfall | [10d6-30] F | Extreme Cold (avg 5°F) | [2d20-2] mph | [1d4+4] inches | Low | [1d12] Hours |
 | 31–50 | Extreme Cold | [10d6-50] F | Extreme Cold (avg -15°F) | [1d20-1] mph | N/A | Good | [1d10] Days |

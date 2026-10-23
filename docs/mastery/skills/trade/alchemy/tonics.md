@@ -23,13 +23,13 @@ Coffee is administered through ingestion. After one round, a creature that drink
 | Delivery | Ingested |
 | Use | Exploration, Travel |
 | Duration | Long |
-| Crash | When the dose ends, you become 1 tier more [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") than you were before drinking it, for as long as the dose lasted. Exhausted T1 becomes T2 for that time, then returns to T1\* |
+| Crash | When the dose ends, you become 1 tier more [Exhausted](../../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") than you were before drinking it, for as long as the dose lasted. Exhausted T1 becomes T2 for that time, then returns to T1† |
 | Properties | Delayed |
 | Modifications | None |
 | Rarity | Imported |
 | Notes | None |
 
-\* Drinking another cup before the dose ends postpones the crash.
+† Drinking another cup before the dose ends postpones the crash.
 
 <span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
@@ -45,9 +45,9 @@ Valerian is administered through ingestion. After one round, a creature that tak
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | +1 on Startle and [Demoralized](../../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") trials. Taken before resting, +1 health and +1 magan from that rest | Slow phase. Its smell draws beasts\* | 1 sp |
+| Single strength | +1 on Startle and [Demoralized](../../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") trials. Taken before resting, +1 health and +1 magan from that rest | Slow phase. Its smell draws beasts† | 1 sp |
 
-\* The smell raises the GM's encounter risk, as tallow candles do.
+† The smell raises the GM's encounter risk, as tallow candles do.
 
 | | |
 |:---|:---|
