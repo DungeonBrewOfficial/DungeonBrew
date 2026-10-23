@@ -132,7 +132,7 @@ You can only scribe scrolls from your own casting tradition (Theurgic, Occult, o
 - magan² units of Scribe Supplies (consumed, 1 ss per unit)
 - Time: 1 day per magan cost of the spell
 - Scribe mastery gate based on magan cost (see table below)
-- Trial required when magan cost exceeds the caster's Form DC (see Scroll Crafting Trial below)
+- Trial required when magan cost exceeds the caster's Form DC (see [Scroll Crafting Trial](#scroll-crafting-trial) below)
 
 <span id="scroll-cost-and-mastery-gates"></span>**Scroll Cost and Mastery Gates:**
 

@@ -110,7 +110,7 @@ A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A
 
 <span id="flanking"></span>**Flanking**: If you are on one side of a target who is also being threatened on the other side, both you and your ally gain +2 to the attack. The flanking bonus applies to a maximum of one attack per AP spent. If you make multiple attacks with a single AP (such as dual-wielding), only the first of those attacks gains the flanking bonus.
 
-<span id="engaged"></span>**Engaged**: If you attack a creature or take either *Durability* or *Health* damage from a creature, you are *Engaged* with it until the beginning of your next turn.
+<span id="engaged"></span>**Engaged**: If you attack a creature or take either *[Durability](#durability)* or *[Health](#health)* damage from a creature, you are *Engaged* with it until the beginning of your next turn.
 
 ### Damage Types
 
@@ -125,7 +125,7 @@ Damage is mundane or magical by its type. An enchanted weapon still deals its we
 
 ### Health Types
 
-<span id="durability"></span>**Durability.** Durability is the amount of integrity that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases when you take *Mundane* or *Material Magic* damage minus any resistances it has. Armor at 0 durability is broken and gives no resistance.
+<span id="durability"></span>**Durability.** Durability is the amount of integrity that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases when you take *[Mundane](#mundane)* or *Material Magic* damage minus any resistances it has. Armor at 0 durability is broken and gives no resistance.
 
 <span id="health"></span>**Health**: Health is your physical well-being. It comes from two sources:
 
@@ -143,7 +143,7 @@ Refers to a single unarmed or weapon attack.
 <span id="weapon-attack"></span>**Weapon attack:** an attack made with a manufactured weapon or a shield. Natural attacks (bites, claws, horns) and unarmed strikes are not weapon attacks.
 
 - <span id="melee"></span>**Melee**: attacks automatically hit, unless the target spends AP to defend.
-- <span id="ranged"></span>**Ranged**: attacks require an *Aiming Trial* to hit.
+- <span id="ranged"></span>**Ranged**: attacks require an *[Aiming Trial](#aiming-trial)* to hit.
     - <span id="aiming-trial"></span>**Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
 
 <span id="attack-formulas"></span>**Attack Formulas**:

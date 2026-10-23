@@ -148,7 +148,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 | Master | Harry | Choice |
 | GM | Coordinated Takedown | Choice|
 
-<span id="hunting-birds"></span>**Hunting birds** replace *Track* with *Sight Track* and *Scent Search* with *Aerial Search*. All other Hunting abilities apply as written.
+<span id="hunting-birds"></span>**Hunting birds** replace *[Track](#track)* with *[Sight Track](#sight-track)* and *[Scent Search](#scent-search)* with *[Aerial Search](#aerial-search)*. All other Hunting abilities apply as written.
 
 ### Mount (Mobility)
 

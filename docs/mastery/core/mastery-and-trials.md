@@ -174,7 +174,7 @@ From time to time you may attempt to recall information, perform a physical feat
 
 ### Important Trial Rules
 
-You do not get to decide which actions call for a trial. Events or actions that result in trials are up to the GM. You cannot determine what the difficulty of the trial will be. Difficulty is up to the GM to decide. Most often there are degrees of success and failure, although an *Effortless* task likely always succeeds, and any task that is rolled for, regardless of modifiers, will fail on a natural minimum: every die showing 1. A natural minimum is an automatic failure, regardless of modifiers, and some abilities add further effects when it occurs. You do not get to decide what success looks like for your trial; that is up to the GM.
+You do not get to decide which actions call for a trial. Events or actions that result in trials are up to the GM. You cannot determine what the difficulty of the trial will be. Difficulty is up to the GM to decide. Most often there are degrees of success and failure, although an *[Effortless](#effortless)* task likely always succeeds, and any task that is rolled for, regardless of modifiers, will fail on a natural minimum: every die showing 1. A natural minimum is an automatic failure, regardless of modifiers, and some abilities add further effects when it occurs. You do not get to decide what success looks like for your trial; that is up to the GM.
 
 ### Attribute Trials
 
@@ -200,7 +200,7 @@ Nuance is always an important factor. The same task is not always of equal diffi
 
 <span id="effortless"></span>**Effortless (2).** Any routine task, such as walking down the street or eating a meal. There is no need to roll for this task.
 
-<span id="easy"></span>**Easy (3).** Tasks that have a chance of failure if untrained or unfamiliar, but routine otherwise. This type of task would be apprentice-level tasks in most skilled professions. Similarly, a master blacksmith will not fail to heat the forge correctly and a tailor will not fail to take correct measurements for a garment. Take training or background into account. A character who has never held a smith's hammer or a pair of shears will likely treat these tasks as somewhere between *Difficult* and *Impossible*.
+<span id="easy"></span>**Easy (3).** Tasks that have a chance of failure if untrained or unfamiliar, but routine otherwise. This type of task would be apprentice-level tasks in most skilled professions. Similarly, a master blacksmith will not fail to heat the forge correctly and a tailor will not fail to take correct measurements for a garment. Take training or background into account. A character who has never held a smith's hammer or a pair of shears will likely treat these tasks as somewhere between *[Difficult](#difficult)* and *[Impossible](#impossible)*.
 
 <span id="straightforward"></span>**Straightforward (4).** A task that is not complicated, but sometimes requires effort to complete. Digging a latrine, hauling supplies, or other forms of physical labor mostly require effort on the part of the worker, and taking shortcuts or being inattentive can result in difficulty or failure to adequately complete the task.
 
@@ -240,7 +240,7 @@ Each row shows a character at the highest mastery their level allows, rolling wi
 | 21+ | Grand Master | Tier 7 | d12 + d12 | 24 | 13 | 16 | 20 |
 | Any | Unskilled | Tier 3 | d2 + d4 | 6 | 4 | 5 | 6 |
 
-A *Heroic* task (17) is out of reach for anyone below level 15. Untrained characters top out around 6, so tasks at *Difficult* (7) and above belong to those who have trained for them.
+A *[Heroic](#heroic)* task (17) is out of reach for anyone below level 15. Untrained characters top out around 6, so tasks at *[Difficult](#difficult)* (7) and above belong to those who have trained for them.
 
 ### Mastery DC
 

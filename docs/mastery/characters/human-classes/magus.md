@@ -176,7 +176,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 <span id="health_1"></span>**Health:** Shared with you. Each Tier adds its tier die to your shared health pool (compounding).
 
-<span id="attack"></span>**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see Classification). Its natural attacks are Fast if it is small and Moderate if it is average.
+<span id="attack"></span>**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see [Classification](#classification)). Its natural attacks are Fast if it is small and Moderate if it is average.
 
 <span id="defense"></span>**Defense:** Your Intelligence tier die + Familiar tier die + Resistance.
 
@@ -186,7 +186,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 <span id="familiar-dc"></span>**Familiar DC:** Familiar Tier + your Intelligence Tier.
 
-<span id="speed"></span>**Speed:** 3 + Familiar Tier + size modifier (½ square −1, 1 square +0) + locomotion (see Movement).
+<span id="speed"></span>**Speed:** 3 + Familiar Tier + size modifier (½ square −1, 1 square +0) + locomotion (see [Movement](#movement)).
 
 <span id="ap"></span>**AP:** 2.
 
@@ -232,9 +232,9 @@ Beings from different worlds or planes of existence.
 
 <span id="void-amplification"></span>**Void Amplification.** While your familiar is present (within 30 feet, not discorporated or phased), your Void spell damage increases by its Tier. When your familiar's natural attack deals damage to durability or health, the target also takes Void damage equal to its Tier (see *[Magic Damage on Weapons](../../bestiary/designing-creatures.md#magic-damage-on-weapons)*).
 
-<span id="void-reserve"></span>**Void Reserve.** Gain *Reserve* (Void conditions).
+<span id="void-reserve"></span>**Void Reserve.** Gain *[Reserve](#reserve)* (Void conditions).
 
-<span id="void-bolt"></span>**Void Bolt.** Gain *Bolt* (Void damage).
+<span id="void-bolt"></span>**Void Bolt.** Gain *[Bolt](#bolt)* (Void damage).
 
 #### Primordial Track
 
@@ -250,6 +250,6 @@ Beings connected to elements of nature, such as sea, sky, stone, and fire.
 
 <span id="primordial-connection"></span>**Primordial Connection.** Once per familiar life, when your shared health pool would reach 0, you may remain at 1 Health instead. If you do, your familiar dies. You are conscious but critically vulnerable. Your familiar must be resummoned (see *[Death](#death)*).
 
-<span id="elemental-reserve"></span>**Elemental Reserve.** Gain *Reserve* (conditions of its element).
+<span id="elemental-reserve"></span>**Elemental Reserve.** Gain *[Reserve](#reserve)* (conditions of its element).
 
-<span id="elemental-bolt"></span>**Elemental Bolt.** Gain *Bolt* (damage of its element).
+<span id="elemental-bolt"></span>**Elemental Bolt.** Gain *[Bolt](#bolt)* (damage of its element).

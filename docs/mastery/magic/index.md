@@ -8,7 +8,7 @@ The capacity to work magic is rare, and even in those in whom it manifests, diff
 
 ## Spells
 
-A spell is a specific combination of a *form* and a *command* that produces a magical outcome. The form is the sphere of influence (fire, stone, void) and the command is the direction given within that sphere (to destroy, to protect, to transform). Beyond form and command, a spell's power is shaped by its reach, scale, duration, and conditions, all of which determine its cost in *[magan](#magan)*. Extending a spell beyond what the caster has practiced invites a *[miscast](#miscast)* chance that can produce dangerous and unpredictable effects.
+A spell is a specific combination of a *[form](#forms)* and a *[command](#commands)* that produces a magical outcome. The form is the sphere of influence (fire, stone, void) and the command is the direction given within that sphere (to destroy, to protect, to transform). Beyond form and command, a spell's power is shaped by its reach, scale, duration, and conditions, all of which determine its cost in *[magan](#magan)*. Extending a spell beyond what the caster has practiced invites a *[miscast](#miscast)* chance that can produce dangerous and unpredictable effects.
 
 A spell in Mastery is a specific configuration of form, command, and parameters. Obliterate Fire at close range, single target, instantaneous is one spell. Obliterate Fire at distant range, large area, instantaneous is a different spell. Both use the same form and command, but they are distinct spells with different magan costs and different levels of familiarity.
 
@@ -116,7 +116,7 @@ All casters have access to the four elemental forms. Access to the entropic form
 
 #### Fire
 
-The form of fire encompasses the magic of flame, *destruction*, *transformation*, and *illumination*.
+The form of fire encompasses the magic of flame, *[destruction](#destruction)*, *[transformation](#transformation)*, and *[illumination](#illumination)*.
 
 <span id="destruction"></span>**Destruction.** Fire is the ultimate cleanser, capable of immolating any other type of matter. Spells in the fire form may be used to destroy physical objects.
 
@@ -126,7 +126,7 @@ The form of fire encompasses the magic of flame, *destruction*, *transformation*
 
 #### Sea
 
-The form of sea is an unpredictable form of magic, ultimately associated with the *three states of water*, *cleansing and corrosion*, and *changeability*.
+The form of sea is an unpredictable form of magic, ultimately associated with the *three states of water*, *[cleansing and corrosion](#cleansing-and-corrosion)*, and *[changeability](#changeability)*.
 
 <span id="three-states"></span>**Three States.** Sea is the magic of divergence, representing the three states of matter. Spells in the sea form may be used to create fog, rain, snow, ice, and flowing water, making its versatility remarkably effective.
 
@@ -136,7 +136,7 @@ The form of sea is an unpredictable form of magic, ultimately associated with th
 
 #### Sky
 
-The form of sky is a tumultuous form of magic that encompasses the spectrum of both the gentle breeze and the raging storm, a means of *wind*, *storm*, and *movement*.
+The form of sky is a tumultuous form of magic that encompasses the spectrum of both the gentle breeze and the raging storm, a means of *[wind](#wind)*, *[storm](#storm)*, and *[movement](#movement)*.
 
 <span id="wind"></span>**Wind.** Sky is both an element of cooling reprieve and raging destruction. Spells in the sky form may be used to eliminate threats or to relocate them, spreading a fire, allowing flight, pulling an enemy to the ground, or removing the air from their lungs.
 
@@ -146,7 +146,7 @@ The form of sky is a tumultuous form of magic that encompasses the spectrum of b
 
 #### Stone
 
-The form of stone is a passive and stable form of magic associated with confidence, endurance, and permanence, acting as a means of accessing *metal and mineral*, *structure*, and *solidity and granularity*.
+The form of stone is a passive and stable form of magic associated with confidence, endurance, and permanence, acting as a means of accessing *[metal and mineral](#metal-and-mineral)*, *[structure](#structure)*, and *[solidity and granularity](#solidity-and-granularity)*.
 
 <span id="metal-and-mineral"></span>**Metal and Mineral.** Stone is the magic of the world's core physicality in terms of metal and mineral. Spells in the stone form may be used to bolster or repair metalworks and stoneworks, and to transform unworked stone and metal into usable objects.
 
@@ -158,7 +158,7 @@ The form of stone is a passive and stable form of magic associated with confiden
 
 #### Primal
 
-The form of primal is the magic of living matter, connected to *living beings*, *organic growth*, and *the cycle of life*.
+The form of primal is the magic of living matter, connected to *[living beings](#living-beings)*, *[organic growth](#organic-growth)*, and *[the cycle of life](#the-cycle-of-life)*.
 
 <span id="living-beings"></span>**Living Beings.** Primal is the domain of animated organic substance, matter in which the sacred spark and profane fuel are unified and active. Spells in the primal form may be used to affect living beings by altering their physicality, calling them for aid, or taking on their form.
 
@@ -168,7 +168,7 @@ The form of primal is the magic of living matter, connected to *living beings*, 
 
 #### Profane
 
-The form of profane is the magic of dead matter, connected to *inert material*, *the threshold of death*, and *disease and decay*.
+The form of profane is the magic of dead matter, connected to *[inert material](#inert-material)*, *[the threshold of death](#the-threshold-of-death)*, and *[disease and decay](#disease-and-decay)*.
 
 <span id="inert-material"></span>**Inert Material.** Profane is the domain of organic material at rest: bone, ash, horn, shell, and all matter from which life has passed. Spells in the profane form may be used to create, shape, and manipulate dead material.
 
@@ -178,7 +178,7 @@ The form of profane is the magic of dead matter, connected to *inert material*, 
 
 #### Sacred
 
-The form of sacred is the magic of vital energy, connected to *the animating impulse*, *radiation*, and *cosmic force*.
+The form of sacred is the magic of vital energy, connected to *[the animating impulse](#the-animating-impulse)*, *[radiation](#radiation)*, and *[cosmic force](#cosmic-force)*.
 
 <span id="the-animating-impulse"></span>**The Animating Impulse.** Sacred is the energy that drives all living processes, the force that stirs matter into motion and sustains what already moves. Spells in the sacred form may be used to invigorate, sustain, accelerate, or overwhelm the vital processes of living creatures.
 
@@ -573,13 +573,13 @@ A formulated creation that can move and act on the battlefield. Where barriers a
 
 <span id="cost"></span>**Cost.** Dynamic constructs use the standard spell formula with a ×2 Effects multiplier: (Base + Reach + Scale) × Duration × 2.
 
-<span id="power-level"></span>**Power level.** The caster chooses the construct's power level when casting the spell. The power level cannot exceed the caster's mastery level in the form. The chosen level determines the construct's damage and durability (see Dynamic Construct Table below).
+<span id="power-level"></span>**Power level.** The caster chooses the construct's power level when casting the spell. The power level cannot exceed the caster's mastery level in the form. The chosen level determines the construct's damage and durability (see [Dynamic Construct Table](#dynamic-construct-table) below).
 
 <span id="action-economy"></span>**Action economy.** A dynamic construct requires concentration to maintain. Each command to the construct costs 1 AP: move to a location, or attack an adjacent target. Moving and attacking in the same turn costs 2 AP. The construct does not act independently; if the caster spends no AP directing it, it does nothing.
 
-<span id="damage_1"></span>**Damage.** The construct deals form damage determined by its power level (see Dynamic Construct Table). The construct must be adjacent to its target and the target may make an Agility Trial to avoid the damage. Energy construct damage bypasses armor. Material construct damage interacts with armor.
+<span id="damage_1"></span>**Damage.** The construct deals form damage determined by its power level (see [Dynamic Construct Table](#dynamic-construct-table)). The construct must be adjacent to its target and the target may make an Agility Trial to avoid the damage. Energy construct damage bypasses armor. Material construct damage interacts with armor.
 
-<span id="durability_1"></span>**Durability.** The construct's power level and scale determine its durability pool (see Dynamic Construct Table). Material constructs can be damaged by any source, including mundane weapons. Energy constructs can only be damaged by magic.
+<span id="durability_1"></span>**Durability.** The construct's power level and scale determine its durability pool (see [Dynamic Construct Table](#dynamic-construct-table)). Material constructs can be damaged by any source, including mundane weapons. Energy constructs can only be damaged by magic.
 
 <span id="dynamic-construct-table"></span>**Dynamic Construct Table**
 
@@ -655,7 +655,7 @@ Trickle damage is the Attrition condition: a recurring, flat damage effect. Each
 
 <span id="sustained-by-a-spell"></span>**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md#breaking-free)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
 
-<span id="retargeting"></span>**Retargeting.** A resisted or broken trickle spell can be applied again; see *Resisted or broken* above.
+<span id="retargeting"></span>**Retargeting.** A resisted or broken trickle spell can be applied again; see *[Resisted or broken](#resisted-or-broken)* above.
 
 ---
 

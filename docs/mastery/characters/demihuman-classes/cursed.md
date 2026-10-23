@@ -101,7 +101,7 @@ As a result, you may either choose one of the following curses or have one assig
 - Fire resistance equal to half level (rounded down).
 - Immune to your own fire aura.
 - Sacred magic damage against you has Superiority.
-- <span id="demon-trigger"></span>**Demon Trigger:** Each time you personally deal a killing blow (your Agathion's kills do not count), roll Wisdom tier die where a roll of a 1 is a failure. For each kill as a part of the same action, increase the chance of failure by 1 (e.g., kill 3 creatures with one spell, fail on 1-3). If you roll a failure, your possessed nature causes your *Fire Aura* to trigger.
+- <span id="demon-trigger"></span>**Demon Trigger:** Each time you personally deal a killing blow (your Agathion's kills do not count), roll Wisdom tier die where a roll of a 1 is a failure. For each kill as a part of the same action, increase the chance of failure by 1 (e.g., kill 3 creatures with one spell, fail on 1-3). If you roll a failure, your possessed nature causes your *[Fire Aura](#fire-aura)* to trigger.
 - <span id="fire-aura"></span>**Fire Aura:** All creatures within 10 feet take fire damage equal to Perception tier each round. Lasts a number of rounds equal to Wisdom tier. You retain full control of your actions.
 
 <span id="undead"></span>**Undead.** You are not dead, but not quite alive. You abhor the light, fresh air, and the cheerfulness of others. Your flesh is cold to the touch, and your breath smells like a rotting corpse.
