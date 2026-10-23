@@ -6,6 +6,8 @@ which adds three kinds of link:
   sections    a chapter followed by a section name, in italics or plain text,
               "*Magic Mastery*, Connected Form" or "see Combat, Trauma Table",
               links the section name straight to that section
+              The section can be a heading or a bold label inside one
+              ("Skill Mastery, Reading Scrolls"); every label gets an anchor.
   references  italicized names the source already uses as pointers:
               *Magic Mastery*, *Magic Mastery, Duels*, *Resting*,
               *Wilderness (Beast Lore)*, *Expert Mastery*, and plain
@@ -84,6 +86,8 @@ TABLE_RULE = re.compile(r"^\s*\|?\s*:?-{3,}")
 # table row, list item, or labelled entry ("***Feed*** ...", "**Codex.** ...")
 LOOKUP_LINE = re.compile(r"^\s*(?:\||[-*+]\s|\d+\.\s|(?:<span[^>]*></span>)?\*\*\S)")
 IDCOUNT = re.compile(r"^(.*)_([0-9]+)$")
+# A line that opens with a bold name: "**Codex**.", "***Feed***", "- **Weapon**:"
+LABEL = re.compile(r"^(\s*(?:[-*+]|\d+\.)\s+)?(\*{2,3})([^*|\n]{1,80}?)\2")
 LEAD_BOLD = re.compile(r"^(?:<span[^>]*></span>)?\*\*[^*]+\*\*")
 
 
@@ -137,6 +141,7 @@ class Site:
         self.headings = {}  # key -> [(line index, depth, text, id)]
         self.by_text = {}   # casefolded heading text -> [(key, id)]
         self.by_title = {}  # casefolded page title -> key
+        self.by_label = {}  # casefolded bold label -> [(key, anchor)]
         for key, page in pages.items():
             self.by_title.setdefault(page["title"].casefold(), key)
             short = re.sub(r"\s*\(.*\)$", "", page["title"])  # "Morphon (Eidos)"
@@ -169,6 +174,8 @@ class Site:
         return None
 
     def find(self, text, keys):
+        """A heading, page, or bold label named `text` within `keys`, in that
+        order of preference."""
         for key in keys:
             for k, anchor in self.by_text.get(text.casefold(), []):
                 if k == key:
@@ -176,7 +183,36 @@ class Site:
         for key in keys:
             if self.pages[key]["title"].casefold() == text.casefold():
                 return (key, None)
+        for key in keys:
+            for k, anchor in self.by_label.get(text.casefold(), []):
+                if k == key:
+                    return (key, anchor)
         return None
+
+    def anchor_labels(self):
+        """Give every bold-labelled line an anchor, so citations can point at
+        an entry inside a section. Lines that already have one keep it."""
+        for key, page in self.pages.items():
+            used = {anchor for _, _, _, anchor in self.headings[key]}
+            lines = page["text"].split("\n")
+            for i, line, ok in body_lines(page["text"]):
+                if not ok or HEADING.match(line):
+                    continue
+                own = re.match(r'(\s*(?:[-*+]|\d+\.)\s+)?<span id="([^"]+)"></span>', line)
+                if own:
+                    used.add(own.group(2))
+                    continue
+                m = LABEL.match(line)
+                if not m:
+                    continue
+                label = re.sub(r"\s*(\[[^\]]*\]|\([^)]*\))", "", m.group(3)).strip(" .:")
+                if not label or not slugify(label):
+                    continue
+                anchor = unique(slugify(label), used)
+                marker = m.group(1) or ""
+                lines[i] = f'{marker}<span id="{anchor}"></span>{line[len(marker):]}'
+                self.by_label.setdefault(label.casefold(), []).append((key, anchor))
+            page["text"] = "\n".join(lines)
 
     def resolve(self, text, cur):
         """Return (key, anchor), ("ambiguous", hits), or None."""
@@ -289,6 +325,7 @@ def link_pages(pages):
 
     site = Site(pages)
     conditions = condition_entries(site)
+    site.anchor_labels()
     names = "|".join(re.escape(c) for c in sorted(CHAPTERS, key=len, reverse=True))
     plain_names = "|".join(re.escape(c) for c in PLAIN_CHAPTERS)
     part = r"[A-Z][\w'’-]*(?:[ :]+[\w'’-]+){0,7}"
@@ -442,7 +479,7 @@ def link_pages(pages):
             if not ok or not line.strip() or TABLE_RULE.match(line) or line.startswith("!!!"):
                 continue
             current["line"] = line
-            own = re.match(r'<span id="([^"]+)"></span>', line)
+            own = re.match(r'(?:\s*(?:[-*+]|\d+\.)\s+)?<span id="([^"]+)"></span>', line)
             current["own"] = own and own.group(1)
             lookup = LOOKUP_LINE.match(line)
             if lookup:  # a row or item links on its own, apart from the prose

@@ -17,7 +17,7 @@ generated_by: tools/sync_mastery.py
 | **Speed** | 3 + AGI Tier + Size Modifier (+2 if 2sq) + 4 (quadruped) |
 | **AP** | Always 2 |
 
-**Health die is tied to the handler's mastery, not the animal's training tiers.** A bear recruited at Master immediately benefits from the full compounding health formula (2d2+2d3+2d4+2d6+2d8+2d10) because the handler's skill in caring for animals determines the creature's condition. Replacement animals also benefit immediately.
+<span id="health-die-is-tied-to-the-handlers-mastery-not-the-animals-training-tiers"></span>**Health die is tied to the handler's mastery, not the animal's training tiers.** A bear recruited at Master immediately benefits from the full compounding health formula (2d2+2d3+2d4+2d6+2d8+2d10) because the handler's skill in caring for animals determines the creature's condition. Replacement animals also benefit immediately.
 
 ### What Transfers from Species Stat Block
 
@@ -59,9 +59,9 @@ At each Wilderness mastery tier, the handler can recruit animals up to the corre
 
 Domestic animals (dogs, horses) are purchasable by anyone. Wild animals require Basic mastery or better.
 
-**Pre-trained dogs** are available for purchase at Guard, Hunting, and War (D4). These serve as ready-to-use companions for non-Wilderness players, shortcuts for Wilderness players, and GM encounter tools.
+<span id="pre-trained-dogs"></span>**Pre-trained dogs** are available for purchase at Guard, Hunting, and War (D4). These serve as ready-to-use companions for non-Wilderness players, shortcuts for Wilderness players, and GM encounter tools.
 
-**Pre-trained mounts** are available for purchase as Riding, Light War, Medium War, and Heavy War (D3, D4, D5, and D6). These serve as ready-to-use companions for non-Wilderness players, shortcuts for Wilderness players, and GM encounter tools.
+<span id="pre-trained-mounts"></span>**Pre-trained mounts** are available for purchase as Riding, Light War, Medium War, and Heavy War (D3, D4, D5, and D6). These serve as ready-to-use companions for non-Wilderness players, shortcuts for Wilderness players, and GM encounter tools.
 
 ---
 
@@ -75,8 +75,8 @@ When an animal is first recruited, the handler chooses a training archetype: **W
 
 At Untrained, the companion gains its archetype, barding access, and archetype commands but no stat advancement. Starting at Basic, the companion gains at each tier:
 
-- **+4 attribute tiers**, distributed by the handler (no attribute may exceed T7)
-- **Resistance** (+8 per tier, distributable across damage types, no single type exceeds 20). A species' native resistance is fixed; only trained resistance is distributed. A native value above 20 is kept but cannot be raised.
+- <span id="4-attribute-tiers"></span>**+4 attribute tiers**, distributed by the handler (no attribute may exceed T7)
+- <span id="resistance"></span>**Resistance** (+8 per tier, distributable across damage types, no single type exceeds 20). A species' native resistance is fixed; only trained resistance is distributed. A native value above 20 is kept but cannot be raised.
 
 | Tier | Resistance | Barding |
 |:---:|:---:|:---|
@@ -105,14 +105,14 @@ Training depth is inversely proportional to native Division. Higher Division ani
 
 ### Example: D2 Dog vs D6 Bear
 
-**D2 Kennel Dog (full training, heavy barding):**
+<span id="d2-kennel-dog"></span>**D2 Kennel Dog (full training, heavy barding):**
 
 - Trained attributes: ~12 + 20 (5 × 4) = 32
 - Trained resistance: 10 native + 24 distributable (3 × +8, 2 tiers spent on barding proficiency), plus heavy barding resistance
 - Full War track (6 primary abilities + 5 secondary choices across 6 tiers)
 - Access to Light, Medium, or Heavy barding
 
-**D6 Brown Bear (minimal training, light barding):**
+<span id="d6-brown-bear"></span>**D6 Brown Bear (minimal training, light barding):**
 
 - Trained attributes: ~28 + 4 (1 × 4) = 32
 - Trained resistance: ~60 native + 8 distributable (1 × +8), plus light barding resistance
@@ -148,7 +148,7 @@ The bear has higher total resistance. The dog has deeper training, more tactical
 | Master | Harry | Choice |
 | GM | Coordinated Takedown | Choice|
 
-**Hunting birds** replace *Track* with *Sight Track* and *Scent Search* with *Aerial Search*. All other Hunting abilities apply as written.
+<span id="hunting-birds"></span>**Hunting birds** replace *Track* with *Sight Track* and *Scent Search* with *Aerial Search*. All other Hunting abilities apply as written.
 
 ### Mount (Mobility)
 
@@ -188,45 +188,45 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 *One free command each round in combat - Automatically granted as part of progression*
 
-**Attack:** (Command) Engage designated target with natural weapon. Continue attacking until target is dead or given different command.
+<span id="attack"></span>**Attack:** (Command) Engage designated target with natural weapon. Continue attacking until target is dead or given different command.
 
-**Retrieve:** (Command) Fetch a designated object and return it to handler. This includes dropped or disarmed weapons, downed prey, or specific items within line of sight. The companion can retrieve items mid-combat as a 2 AP action. Birds can retrieve only what they can carry in flight: small objects and light game.
+<span id="retrieve"></span>**Retrieve:** (Command) Fetch a designated object and return it to handler. This includes dropped or disarmed weapons, downed prey, or specific items within line of sight. The companion can retrieve items mid-combat as a 2 AP action. Birds can retrieve only what they can carry in flight: small objects and light game.
 
-**Recall:** (Command) The companion returns to the handler's position. The companion must be able to hear or see the handler.
+<span id="recall"></span>**Recall:** (Command) The companion returns to the handler's position. The companion must be able to hear or see the handler.
 
 #### Passive Choice Option
 
 *Always active - Choose one per tier from Basic to Grand Master*
 
-**Alert:** (Passive) Dominance on Startle trials.
+<span id="alert"></span>**Alert:** (Passive) Dominance on Startle trials.
 
-**Avoid Death:** (Passive) When an attack or spell would reduce the companion to 0 health, roll Endurance tier die and restore that amount of health. Once per rest.
+<span id="avoid-death"></span>**Avoid Death:** (Passive) When an attack or spell would reduce the companion to 0 health, roll Endurance tier die and restore that amount of health. Once per rest.
 
-**Brave:** (Passive) Dominance on trials to resist [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") conditions.
+<span id="brave"></span>**Brave:** (Passive) Dominance on trials to resist [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") conditions.
 
-**Evasive:** (Passive) Dominance on Agility trials to avoid traps and spells.
+<span id="evasive"></span>**Evasive:** (Passive) Dominance on Agility trials to avoid traps and spells.
 
-**Healthy:** (Passive) Dominance on trials to resist [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") conditions.
+<span id="healthy"></span>**Healthy:** (Passive) Dominance on trials to resist [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") conditions.
 
-**Loyal:** (Passive) Dominance on trials to resist [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") condition.
+<span id="loyal"></span>**Loyal:** (Passive) Dominance on trials to resist [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") condition.
 
-**Stalwart:** (Passive) The companion gains an additional 2 health at each Mastery tier from this tier forward and retroactively through Basic mastery (Max 10 health at GM).
+<span id="stalwart"></span>**Stalwart:** (Passive) The companion gains an additional 2 health at each Mastery tier from this tier forward and retroactively through Basic mastery (Max 10 health at GM).
 
-**Swift:** (Passive) The companion's base movement speed increases by 10 feet per round.
+<span id="swift"></span>**Swift:** (Passive) The companion's base movement speed increases by 10 feet per round.
 
-**Tumble:** (Passive) When the companion drops, reduce the DC of its Falling trial by its Physique tier. When it falls, it has Dominance on its Falling trial. On landing, it can reposition to an adjacent space.
+<span id="tumble"></span>**Tumble:** (Passive) When the companion drops, reduce the DC of its Falling trial by its Physique tier. When it falls, it has Dominance on its Falling trial. On landing, it can reposition to an adjacent space.
 
-**Unfettered:** (Passive) Dominance on trials to resist [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") conditions.
+<span id="unfettered"></span>**Unfettered:** (Passive) Dominance on trials to resist [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") conditions.
 
-**Vault:** (Passive) The companion can leap over obstacles as part of movement without slowing. Jump distance up to movement speed.
+<span id="vault"></span>**Vault:** (Passive) The companion can leap over obstacles as part of movement without slowing. Jump distance up to movement speed.
 
-**Vigorous:** (Passive) After a rest, the companion regains additional health equal to Endurance tier. Always reduce [Exhausted](../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier when resting, regardless of rest quality or location.
+<span id="vigorous"></span>**Vigorous:** (Passive) After a rest, the companion regains additional health equal to Endurance tier. Always reduce [Exhausted](../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier when resting, regardless of rest quality or location.
 
 #### Stance Option
 
 *Must be stated at the start of the combat round - May be chosen in place of a Passive*
 
-**Brace:** (Stance) The companion fights defensively, gaining Dominance on defense, but Impotence on attacks. Persists until given different command.
+<span id="brace"></span>**Brace:** (Stance) The companion fights defensively, gaining Dominance on defense, but Impotence on attacks. Persists until given different command.
 
 ### Guard
 
@@ -234,25 +234,25 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 *One free command each round in combat*
 
-**Guard:** (Command) Hold designated position. Alert handler to creatures approaching within Perception range. Attack any non-friendly creature entering guarded area, OR focus on a designated creature and attack when a specified trigger condition is met
+<span id="guard_1"></span>**Guard:** (Command) Hold designated position. Alert handler to creatures approaching within Perception range. Attack any non-friendly creature entering guarded area, OR focus on a designated creature and attack when a specified trigger condition is met
 
-**Scent Alert:** (Command) Handler commands companion to watch for intruders (requires Guard command active). While guarding, companion rolls Perception trials with Dominance against DCs set by the GM.
+<span id="scent-alert"></span>**Scent Alert:** (Command) Handler commands companion to watch for intruders (requires Guard command active). While guarding, companion rolls Perception trials with Dominance against DCs set by the GM.
 
 #### Reactions
 
 *Must be declared before related action is rolled*
 
-**Counterattack:** (1 AP | Reaction) When the handler is hit by a melee attack while the companion is within 5 feet, the companion can spend 1 AP as a reaction to make an attack against the creature that hit its handler.
+<span id="counterattack"></span>**Counterattack:** (1 AP | Reaction) When the handler is hit by a melee attack while the companion is within 5 feet, the companion can spend 1 AP as a reaction to make an attack against the creature that hit its handler.
 
-**Intercept:** (1 AP | Reaction) The companion swaps positions with a willing ally within 5 feet to become the target of an incoming attack.
+<span id="intercept"></span>**Intercept:** (1 AP | Reaction) The companion swaps positions with a willing ally within 5 feet to become the target of an incoming attack.
 
-**Protector:** (1 AP | Reaction) When the companion is within 5 feet of its handler or the attacker, it can spend 1 AP to add the handler's Skill Mastery Die to the handler's defense roll against melee attacks.
+<span id="protector"></span>**Protector:** (1 AP | Reaction) When the companion is within 5 feet of its handler or the attacker, it can spend 1 AP to add the handler's Skill Mastery Die to the handler's defense roll against melee attacks.
 
 #### Stances
 
 *Must be stated at the start of the combat round*
 
-**Sentry:** (Stance) The companion holds position and makes a bite attack against any enemy that enters within 5 feet. The companion cannot move, use other commands, or defend while in Sentry. Persists until given a different command.
+<span id="sentry"></span>**Sentry:** (Stance) The companion holds position and makes a bite attack against any enemy that enters within 5 feet. The companion cannot move, use other commands, or defend while in Sentry. Persists until given a different command.
 
 ### Hunting
 
@@ -260,33 +260,33 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 *Must be declared before attack is rolled*
 
-**Lunge:** (1 AP | Attack) The companion extends its effective reach by 5 feet to strike a target, but has impotence on the attack.
+<span id="lunge"></span>**Lunge:** (1 AP | Attack) The companion extends its effective reach by 5 feet to strike a target, but has impotence on the attack.
 
 #### Commands
 
 *One free command each round in combat*
 
-**Scent Search:** (Command) Handler commands companion to search an area (1 exploration round, 10 minutes). Companion rolls Perception trial vs DC set by GM. Detects scent-based threats only — creatures, organic poisons, recently walked paths. Cannot detect mechanical traps, magical traps, or anything with no scent.
+<span id="scent-search"></span>**Scent Search:** (Command) Handler commands companion to search an area (1 exploration round, 10 minutes). Companion rolls Perception trial vs DC set by GM. Detects scent-based threats only — creatures, organic poisons, recently walked paths. Cannot detect mechanical traps, magical traps, or anything with no scent.
 
-**Track:** (Command) Follow a scent trail. Companion rolls Perception trial vs DC based on trail age, weather, and terrain as determined by GM.
+<span id="track"></span>**Track:** (Command) Follow a scent trail. Companion rolls Perception trial vs DC based on trail age, weather, and terrain as determined by GM.
 
-**Sight Track:** (Command; hunting birds, replaces Track) Follow quarry or a visible trail from the air. The bird rolls a Perception trial vs a DC based on the trail's age, weather, terrain, and cover, as determined by the GM. Dense forest canopy raises the DC; indoors or underground, the bird cannot track.
+<span id="sight-track"></span>**Sight Track:** (Command; hunting birds, replaces Track) Follow quarry or a visible trail from the air. The bird rolls a Perception trial vs a DC based on the trail's age, weather, terrain, and cover, as determined by the GM. Dense forest canopy raises the DC; indoors or underground, the bird cannot track.
 
-**Aerial Search:** (Command; hunting birds, replaces Scent Search) The handler sends the bird to quarter an area from above (1 exploration round, 10 minutes). The bird rolls a Perception trial vs a DC set by the GM. Detects creatures, movement, and disturbances visible from the air. Cannot detect anything hidden under dense cover, indoors, underground, or leaving no visible sign.
+<span id="aerial-search"></span>**Aerial Search:** (Command; hunting birds, replaces Scent Search) The handler sends the bird to quarter an area from above (1 exploration round, 10 minutes). The bird rolls a Perception trial vs a DC set by the GM. Detects creatures, movement, and disturbances visible from the air. Cannot detect anything hidden under dense cover, indoors, underground, or leaving no visible sign.
 
 #### Passives
 
 *Always active*
 
-**Coordinated Takedown:** (Passive) While flanking, the companion gains Dominance on attack rolls.
+<span id="coordinated-takedown"></span>**Coordinated Takedown:** (Passive) While flanking, the companion gains Dominance on attack rolls.
 
-**Pursuit:** (Passive) When the companion hits a creature that moved during this round, the target rolls a Strength trial vs Ability DC or gains [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") Tier 1.
+<span id="pursuit"></span>**Pursuit:** (Passive) When the companion hits a creature that moved during this round, the target rolls a Strength trial vs Ability DC or gains [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") Tier 1.
 
 #### Stances
 
 *Must be stated at the start of the combat round*
 
-**Harry:** (Stance) The companion moves freely without provoking Reprisal Attacks. As part of each movement, it can make one attack with Inferiority. The companion cannot use other commands while harrying. Persists until given a different command.
+<span id="harry"></span>**Harry:** (Stance) The companion moves freely without provoking Reprisal Attacks. As part of each movement, it can make one attack with Inferiority. The companion cannot use other commands while harrying. Persists until given a different command.
 
 ### War
 
@@ -294,27 +294,27 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 *Must be declared before attack is rolled*
 
-**Disarm:** (1 AP | Attack) The companion forgoes damage in favor of disarming the target of its weapon. The target must succeed on a Strength or Physique trial against the companion's Ability DC.
+<span id="disarm"></span>**Disarm:** (1 AP | Attack) The companion forgoes damage in favor of disarming the target of its weapon. The target must succeed on a Strength or Physique trial against the companion's Ability DC.
 
-**Kill:** (1 AP | Attack) The companion attacks a [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") creature. The attack deals full damage and ignores all armor resistance.
+<span id="kill"></span>**Kill:** (1 AP | Attack) The companion attacks a [Helpless](../../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") creature. The attack deals full damage and ignores all armor resistance.
 
 #### Commands
 
 *One free command each round in combat*
 
-**Intimidate:** (Command) Handler gains Dominance on Presence trials for intimidation while companion is visible and threatening.
+<span id="intimidate"></span>**Intimidate:** (Command) Handler gains Dominance on Presence trials for intimidation while companion is visible and threatening.
 
 #### Reactions
 
 *Must be declared before related action is rolled*
 
-**Battle Partner:** (1 AP | Reaction) When the companion is within 5 feet of its handler or the handler's melee target, it can spend 1 AP to add the handler's Skill Mastery Die to the handler's melee attack roll.
+<span id="battle-partner"></span>**Battle Partner:** (1 AP | Reaction) When the companion is within 5 feet of its handler or the handler's melee target, it can spend 1 AP to add the handler's Skill Mastery Die to the handler's melee attack roll.
 
 #### Stances
 
 *Must be stated at the start of the combat round*
 
-**Aggressive:** (Stance) The companion fights offensively, gaining Dominance on attacks, but Impotence on defense. Persists until given different command.
+<span id="aggressive"></span>**Aggressive:** (Stance) The companion fights offensively, gaining Dominance on attacks, but Impotence on defense. Persists until given different command.
 
 ### Mount
 
@@ -322,33 +322,33 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 *One free command each round in combat*
 
-**Recall:** (Command) The companion returns to the handler's position. The companion must be able to hear or see the handler.
+<span id="recall_1"></span>**Recall:** (Command) The companion returns to the handler's position. The companion must be able to hear or see the handler.
 
-**Calm:** (Command) Mount only. The mount takes no other action this round. Degrade the mount's [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") condition by 1 tier.
+<span id="calm"></span>**Calm:** (Command) Mount only. The mount takes no other action this round. Degrade the mount's [Demoralized](../../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") condition by 1 tier.
 
-**Attack:** (Command) Gained at Basic. Engage designated target with natural weapon. Continue attacking until target is dead or given different command.
+<span id="attack_1"></span>**Attack:** (Command) Gained at Basic. Engage designated target with natural weapon. Continue attacking until target is dead or given different command.
 
 #### Actions
 
 *Must be declared before action is rolled*
 
-**Wheel:** (1 AP, Movement) The mount changes facing. Creatures adjacent to the mount's rear arc must succeed on a Strength trial against the mount's Ability DC or be pushed back 5 feet.
+<span id="wheel"></span>**Wheel:** (1 AP, Movement) The mount changes facing. Creatures adjacent to the mount's rear arc must succeed on a Strength trial against the mount's Ability DC or be pushed back 5 feet.
 
-**Caracole:** (1 AP mount, 1 AP rider. Movement + Attack) The mount moves up to its full speed. At any point during the movement, the rider makes a single weapon attack against a target. Neither the mount nor the rider provokes a Reprisal Attack from that target as they pass. A second pass may be made in the same round at the same cost, consuming all remaining AP from both mount and rider. Countered by Set Spear vs Charge.
+<span id="caracole"></span>**Caracole:** (1 AP mount, 1 AP rider. Movement + Attack) The mount moves up to its full speed. At any point during the movement, the rider makes a single weapon attack against a target. Neither the mount nor the rider provokes a Reprisal Attack from that target as they pass. A second pass may be made in the same round at the same cost, consuming all remaining AP from both mount and rider. Countered by Set Spear vs Charge.
 
-**Overrun:** (2 AP, Movement) The mount moves through spaces occupied by creatures of equal or smaller size. Each creature in the path is pushed 5 feet to the side. Creatures that fail a Strength trial against the mount's Ability DC also gain [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Countered by Set Spear vs Charge.
+<span id="overrun"></span>**Overrun:** (2 AP, Movement) The mount moves through spaces occupied by creatures of equal or smaller size. Each creature in the path is pushed 5 feet to the side. Creatures that fail a Strength trial against the mount's Ability DC also gain [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Countered by Set Spear vs Charge.
 
 #### Stances
 
 *Must be stated at the start of the combat round*
 
-**Steady:** (Stance) While carrying a rider, the mount has Dominance and Superiority on defense rolls. The mount cannot attack while in Steady.
+<span id="steady"></span>**Steady:** (Stance) While carrying a rider, the mount has Dominance and Superiority on defense rolls. The mount cannot attack while in Steady.
 
 #### Passives
 
 *Always active*
 
-**War Dance:** (Passive) Once per round, while mounted, when your mount deals damage to a target, your next attack against that same target has Dominance.
+<span id="war-dance"></span>**War Dance:** (Passive) Once per round, while mounted, when your mount deals damage to a target, your next attack against that same target has Dominance.
 
 ---
 

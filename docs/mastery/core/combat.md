@@ -23,17 +23,17 @@ Combat passes in rounds:
 The flow of combat follows this structure:
 
 1. Determine if Startle or Ambush is appropriate and roll.
-2. **Declaration Phase.** At the start of each round, before initiative is rolled, all combatants make the following declarations. Players declare openly and may strategize. The GM commits privately for all enemies and NPCs.
-    - **Weapon**: Declare your equipped weapon and combat style. Combat style is how the weapon is being used: Shield, Single (1H), Two-Handed, or Dual Wield. If switching weapons or changing combat style this round, your phase is determined by the slowest weapon or style involved. Reactive weapon changes (dropping a broken shield, switching grip due to circumstances) can occur mid-round without declaration.
-    - **Declaration Maneuvers**: Declare any maneuver whose trigger is Declaration.
-    - **Spells**: Declare any spell you intend to cast. The spell's casting speed counts toward your phase (see *[Initiative Phases](#initiative-phases)*).
-    - **Guard**: Declare your guard, or a formation if you are trained in Tactics. A companion declares its stance.
-    - **Abilities**: Declare any ability you intend to use that has its own speed, or whose text says it must be declared. You cannot use such an ability in a round you did not declare it.
-    - **Items**: Declare any item you intend to use as your plan for the round. Its speed, given in its entry, counts toward your phase.
-    - **Held Actions**: Declare that you are holding your action. You must specify one of the following:
+2. <span id="declaration-phase"></span>**Declaration Phase.** At the start of each round, before initiative is rolled, all combatants make the following declarations. Players declare openly and may strategize. The GM commits privately for all enemies and NPCs.
+    - <span id="weapon"></span>**Weapon**: Declare your equipped weapon and combat style. Combat style is how the weapon is being used: Shield, Single (1H), Two-Handed, or Dual Wield. If switching weapons or changing combat style this round, your phase is determined by the slowest weapon or style involved. Reactive weapon changes (dropping a broken shield, switching grip due to circumstances) can occur mid-round without declaration.
+    - <span id="declaration-maneuvers"></span>**Declaration Maneuvers**: Declare any maneuver whose trigger is Declaration.
+    - <span id="spells"></span>**Spells**: Declare any spell you intend to cast. The spell's casting speed counts toward your phase (see *[Initiative Phases](#initiative-phases)*).
+    - <span id="guard"></span>**Guard**: Declare your guard, or a formation if you are trained in Tactics. A companion declares its stance.
+    - <span id="abilities"></span>**Abilities**: Declare any ability you intend to use that has its own speed, or whose text says it must be declared. You cannot use such an ability in a round you did not declare it.
+    - <span id="items"></span>**Items**: Declare any item you intend to use as your plan for the round. Its speed, given in its entry, counts toward your phase.
+    - <span id="held-actions"></span>**Held Actions**: Declare that you are holding your action. You must specify one of the following:
         - *Hold to Phase*: Name a phase later than your declared phase. You act in that phase instead. You cannot hold to an earlier phase.
         - *Hold for Trigger*: Name a specific condition (e.g., "the archer breaks cover," "a creature enters this doorway"). Commit AP to the held action. If the trigger occurs during or after your natural phase, you act immediately. If the trigger occurs before your natural phase, you cannot react — your weapon is too slow. If the trigger never occurs, the committed AP are lost.
-    - **Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it or it is a quick item (see *[Interaction](#interaction)*).
+    - <span id="everything-else"></span>**Everything else**, such as attacks, defenses, movement, and reactions, needs no declaration. If you abandon something you declared, you cannot replace it with something you did not declare, unless an ability allows it or it is a quick item (see *[Interaction](#interaction)*).
 3. Roll 1d6 to determine which side goes first (1-3 = PCs, 4-6 = Enemies).
 4. Resolve Fast phase (winning side, then losing side).
 5. Resolve Moderate phase (winning side, then losing side).
@@ -48,18 +48,18 @@ All combatants have **2 Action Points (AP)** per round. These can be spent proac
 
 All basic actions cost **1 AP**:
 
-- **Movement**: Move up to your movement speed
-- **Attack**: Make one melee or ranged attack
-- **Defense**: Defend against one incoming attack
-- **Interaction**: Use an item, open a door, etc.
-- **Casting**: Cast a spell (may cost 1 or 2 AP depending on spell)
+- <span id="movement_1"></span>**Movement**: Move up to your movement speed
+- <span id="attack_1"></span>**Attack**: Make one melee or ranged attack
+- <span id="defense_1"></span>**Defense**: Defend against one incoming attack
+- <span id="interaction_1"></span>**Interaction**: Use an item, open a door, etc.
+- <span id="casting_1"></span>**Casting**: Cast a spell (may cost 1 or 2 AP depending on spell)
 
 ### Use It or Lose It
 
 Unspent AP do not carry over to the next round. AP can be spent:
 
-- **Proactively** on your turn in your initiative phase
-- **Reactively** in response to enemy actions (defending, counterattacking, reprisal attacks)
+- <span id="proactively"></span>**Proactively** on your turn in your initiative phase
+- <span id="reactively"></span>**Reactively** in response to enemy actions (defending, counterattacking, reprisal attacks)
 
 If you end a round with unspent AP and no reactive triggers occurred, those AP are lost.
 
@@ -67,21 +67,21 @@ If you end a round with unspent AP and no reactive triggers occurred, those AP a
 
 Initiative is determined by weapon speed rather than random rolls. All weapons fall into three categories:
 
-- **Fast**: Light weapons (daggers, shortbows, unarmed, etc.)
-- **Moderate**: Standard weapons (swords, maces, spears, etc.)
-- **Slow**: Heavy weapons (mauls, greataxes, heavy crossbows, etc.)
+- <span id="fast"></span>**Fast**: Light weapons (daggers, shortbows, unarmed, etc.)
+- <span id="moderate"></span>**Moderate**: Standard weapons (swords, maces, spears, etc.)
+- <span id="slow"></span>**Slow**: Heavy weapons (mauls, greataxes, heavy crossbows, etc.)
 
 Your phase is set by what you declare this round, not by what you hold. If you declare more than one thing with a speed, such as a weapon attack, a spell, an ability, or an item, you act in the slowest of their phases. A weapon you hold but do not declare an attack with does not count toward your phase. If you declare nothing else, your weapon sets your phase, whether or not you attack with it; with nothing in hand, you are Fast.
 
-**Acting Faster Than Your Weapon**: If your phase is faster than the weapon you hold, you cannot attack with it on your turn. You can still defend and make reprisal attacks with it.
+<span id="acting-faster-than-your-weapon"></span>**Acting Faster Than Your Weapon**: If your phase is faster than the weapon you hold, you cannot attack with it on your turn. You can still defend and make reprisal attacks with it.
 
-**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), [Spell Speed](../magic/index.md#spell-speed).
+<span id="spell-casting"></span>**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), [Spell Speed](../magic/index.md#spell-speed).
 
-**Weapon Switching**: Stowing a weapon costs 1 AP. Drawing a weapon costs 1 AP. A full weapon swap (stow old, draw new) costs 2 AP. Dropping a weapon is free, so dropping your current weapon and drawing a new one costs 1 AP, but your old weapon is on the ground. Phase determination for weapon switches is handled in the Declaration Phase (see [Combat Flow](#combat-flow), step 2).
+<span id="weapon-switching"></span>**Weapon Switching**: Stowing a weapon costs 1 AP. Drawing a weapon costs 1 AP. A full weapon swap (stow old, draw new) costs 2 AP. Dropping a weapon is free, so dropping your current weapon and drawing a new one costs 1 AP, but your old weapon is on the ground. Phase determination for weapon switches is handled in the Declaration Phase (see [Combat Flow](#combat-flow), step 2).
 
-**Shield Removal**: Removing a strapped shield (Heater, Kite) costs 1 AP. A Targe is held, not strapped, and can be dropped freely like any held item. Once a shield is removed on your turn, you are in your new combat style for the remainder of the round.
+<span id="shield-removal"></span>**Shield Removal**: Removing a strapped shield (Heater, Kite) costs 1 AP. A Targe is held, not strapped, and can be dropped freely like any held item. Once a shield is removed on your turn, you are in your new combat style for the remainder of the round.
 
-**Unarmed**: Unarmed combatants are considered Fast unless otherwise specified.
+<span id="unarmed"></span>**Unarmed**: Unarmed combatants are considered Fast unless otherwise specified.
 
 ## Startle and Ambush
 
@@ -106,31 +106,31 @@ A character with Alertness (Danger Sense) may sense an ambush as it is sprung. A
 
 ## Additional Combat Rules
 
-**Allies**: An **ally** is a creature on your side other than yourself. Effects that include you say "you and your allies."
+<span id="allies"></span>**Allies**: An **ally** is a creature on your side other than yourself. Effects that include you say "you and your allies."
 
-**Flanking**: If you are on one side of a target who is also being threatened on the other side, both you and your ally gain +2 to the attack. The flanking bonus applies to a maximum of one attack per AP spent. If you make multiple attacks with a single AP (such as dual-wielding), only the first of those attacks gains the flanking bonus.
+<span id="flanking"></span>**Flanking**: If you are on one side of a target who is also being threatened on the other side, both you and your ally gain +2 to the attack. The flanking bonus applies to a maximum of one attack per AP spent. If you make multiple attacks with a single AP (such as dual-wielding), only the first of those attacks gains the flanking bonus.
 
-**Engaged**: If you attack a creature or take either *Durability* or *Health* damage from a creature, you are *Engaged* with it until the beginning of your next turn.
+<span id="engaged"></span>**Engaged**: If you attack a creature or take either *Durability* or *Health* damage from a creature, you are *Engaged* with it until the beginning of your next turn.
 
 ### Damage Types
 
-**Mundane**: Cutting, Cleaving, Crushing, Piercing, and Puncturing damage.
+<span id="mundane"></span>**Mundane**: Cutting, Cleaving, Crushing, Piercing, and Puncturing damage.
 
-**Magical**: Fire, Sea, Sky, Stone, Primal, Profane, Sacred, and Void.
+<span id="magical"></span>**Magical**: Fire, Sea, Sky, Stone, Primal, Profane, Sacred, and Void.
 
-- **Energy**: Fire, Sky, Sacred, Void
-- **Material**: Sea, Stone, Primal, Profane. Mundane damage is also material.
+- <span id="energy"></span>**Energy**: Fire, Sky, Sacred, Void
+- <span id="material"></span>**Material**: Sea, Stone, Primal, Profane. Mundane damage is also material.
 
 Damage is mundane or magical by its type. An enchanted weapon still deals its weapon's mundane damage; anything magic adds to a hit, such as Imbue or an enchantment, is a separate portion of the hit with its own type. Spells, and effects created by spells or magical abilities, are magical.
 
 ### Health Types
 
-**Durability.** Durability is the amount of integrity that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases when you take *Mundane* or *Material Magic* damage minus any resistances it has. Armor at 0 durability is broken and gives no resistance.
+<span id="durability"></span>**Durability.** Durability is the amount of integrity that your armor has. The more that you are hit, the more quickly your armor deteriorates. Durability decreases when you take *Mundane* or *Material Magic* damage minus any resistances it has. Armor at 0 durability is broken and gives no resistance.
 
-**Health**: Health is your physical well-being. It comes from two sources:
+<span id="health"></span>**Health**: Health is your physical well-being. It comes from two sources:
 
-- **Endurance.** For each Endurance tier up to your current tier, roll the corresponding tier die and add the result. Each time your Endurance tier increases, roll the new tier die and add it to your health. A character who starts at Endurance Tier 3 has 1d2 + 1d3 + 1d4.
-- **Class.** Every 3 levels, add the amount shown in your class table's Health column.
+- <span id="endurance"></span>**Endurance.** For each Endurance tier up to your current tier, roll the corresponding tier die and add the result. Each time your Endurance tier increases, roll the new tier die and add it to your health. A character who starts at Endurance Tier 3 has 1d2 + 1d3 + 1d4.
+- <span id="class"></span>**Class.** Every 3 levels, add the amount shown in your class table's Health column.
 
 ## Actions and Reactions
 
@@ -140,19 +140,19 @@ Your 2 AP can be spent as either **actions** (proactive) or **reactions** (react
 
 Refers to a single unarmed or weapon attack.
 
-**Weapon attack:** an attack made with a manufactured weapon or a shield. Natural attacks (bites, claws, horns) and unarmed strikes are not weapon attacks.
+<span id="weapon-attack"></span>**Weapon attack:** an attack made with a manufactured weapon or a shield. Natural attacks (bites, claws, horns) and unarmed strikes are not weapon attacks.
 
-- **Melee**: attacks automatically hit, unless the target spends AP to defend.
-- **Ranged**: attacks require an *Aiming Trial* to hit.
-    - **Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
+- <span id="melee"></span>**Melee**: attacks automatically hit, unless the target spends AP to defend.
+- <span id="ranged"></span>**Ranged**: attacks require an *Aiming Trial* to hit.
+    - <span id="aiming-trial"></span>**Aiming Trial**: Roll your Perception tier die against DC 2. The DC increases by 1 for Moderate range, by 3 for Far range, and by 1 for each ally adjacent to the target, and [Cover](conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") and some maneuvers raise it further. A roll of 1 always misses, and a max roll on your tier die always hits.
 
-**Attack Formulas**:
+<span id="attack-formulas"></span>**Attack Formulas**:
 
 - *Melee/Thrown Attack*: STR or PHY Tier Die + WEA + Modifiers
 - *Bow Attack*: PHY Tier Die + WEA + Modifiers
 - *Crossbow Attack*: PER Tier Die + Fixed Weapon Dice + Modifiers
 
-**Attack Rules**:
+<span id="attack-rules"></span>**Attack Rules**:
 
 - Attack dice explode on a max roll.
 - Attacks always hit unless target chooses to defend.
@@ -173,9 +173,9 @@ A **reaction** to defend against an incoming attack. Costs 1 AP.
 - You cannot make a ranged attack with a projectile weapon or sling while a hostile creature is within 5 feet of you. A crossbow that is already spanned is the exception: you can fire it, but you cannot span it again while a hostile creature is within 5 feet.
 - If in the middle of casting a spell, you must interrupt the spell to defend.
 
-**Defense Formula**: STR or PHY Tier Die + Armor Resistance + Shield + Modifiers
+<span id="defense-formula"></span>**Defense Formula**: STR or PHY Tier Die + Armor Resistance + Shield + Modifiers
 
-**Defense Rules**:
+<span id="defense-rules"></span>**Defense Rules**:
 
 - Defense dice explode on a max roll.
 - If defense roll is equal to or greater than incoming attack roll, defense succeeds.
@@ -183,21 +183,21 @@ A **reaction** to defend against an incoming attack. Costs 1 AP.
 - Must be wielding a shield to defend against ranged attacks, unless an ability allows it.
 - Armor Resistance is the static resistance value of your equipped armor.
 
-**Passive Defense**: If you choose not to defend or have no AP remaining, incoming attack damage is applied directly against your Armor Resistance. Any damage that exceeds your armor resistance is applied to your armor's durability first, then to your health once durability is depleted.
+<span id="passive-defense"></span>**Passive Defense**: If you choose not to defend or have no AP remaining, incoming attack damage is applied directly against your Armor Resistance. Any damage that exceeds your armor resistance is applied to your armor's durability first, then to your health once durability is depleted.
 
 ### Triggered Reactions (All cost 1 AP)
 
-**Counterattack**: If you successfully defend against an attack, you can spend 1 AP as a reaction to make a counterattack against your attacker.
+<span id="counterattack"></span>**Counterattack**: If you successfully defend against an attack, you can spend 1 AP as a reaction to make a counterattack against your attacker.
 
-**Reprisal Attack**: If a creature moves out of your melee attack range, you can spend 1 AP as a reaction to make an attack against that creature.
+<span id="reprisal-attack"></span>**Reprisal Attack**: If a creature moves out of your melee attack range, you can spend 1 AP as a reaction to make an attack against that creature.
 
-**Movement Reaction**: You can spend 1 AP as a reaction to reposition on the battlefield or turn to face an approaching enemy. If you leave a creature's attack range, they can choose to make a reprisal attack against you.
+<span id="movement-reaction"></span>**Movement Reaction**: You can spend 1 AP as a reaction to reposition on the battlefield or turn to face an approaching enemy. If you leave a creature's attack range, they can choose to make a reprisal attack against you.
 
 Skills, abilities, and spells can grant other reactions, such as Bolster, Pretermit, or a counter (see *[Magic Mastery](../magic/index.md), [Duels](../magic/index.md#duels)*).
 
 ### Movement
 
-**Speed.** Your speed is 3 + your Agility tier, minus 1 if you are Small. Each point of speed is one 5-foot square of movement for each AP you spend moving. Creatures add bonuses for size and for running, flying, or swimming (see *[Monster Manual](../bestiary/creature-rules.md)*, *[Speed](../bestiary/creature-rules.md#speed)*).
+<span id="speed"></span>**Speed.** Your speed is 3 + your Agility tier, minus 1 if you are Small. Each point of speed is one 5-foot square of movement for each AP you spend moving. Creatures add bonuses for size and for running, flying, or swimming (see *[Monster Manual](../bestiary/creature-rules.md)*, *[Speed](../bestiary/creature-rules.md#speed)*).
 
 A single movement up to the creature's movement speed. Costs 1 AP.
 
@@ -208,21 +208,21 @@ A single movement up to the creature's movement speed. Costs 1 AP.
 
 ### Terrain
 
-- **Rugged Terrain**: Mud, deep snow, sand, dense undergrowth, rubble, shallow water, thick brush.
+- <span id="rugged-terrain"></span>**Rugged Terrain**: Mud, deep snow, sand, dense undergrowth, rubble, shallow water, thick brush.
     - Moving through Rugged terrain costs double movement.
-- **Unstable Terrain**: Ice, slick stone, mossy surfaces, wet ship decks, loose scree, rain-slicked slopes.
+- <span id="unstable-terrain"></span>**Unstable Terrain**: Ice, slick stone, mossy surfaces, wet ship decks, loose scree, rain-slicked slopes.
     - A creature moving through Unstable terrain must succeed on an Agility trial, as determined by the GM, or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
-- **Hazardous Terrain**: Fire, acid pools, caltrops, thorn thickets, boiling mud.
+- <span id="hazardous-terrain"></span>**Hazardous Terrain**: Fire, acid pools, caltrops, thorn thickets, boiling mud.
     - A creature in Hazardous terrain takes 1 damage of the appropriate type. The damage may be triggered by entering or ending a turn in the terrain (e.g., fire) or movement (e.g., caltrops). Specific hazards may impose additional effects at the GM's discretion.
-- **Elevation**: A creature with elevation over its target gains Dominance on attack and defense rolls against that target. A creature attacking a target with elevation has Impotence on attack and defense rolls against that target.
+- <span id="elevation"></span>**Elevation**: A creature with elevation over its target gains Dominance on attack and defense rolls against that target. A creature attacking a target with elevation has Impotence on attack and defense rolls against that target.
 
 ### Interaction
 
 An interaction is any use of an item or retrieval of an object. Getting an item into your hand costs AP based on where it is; using it then costs whatever that item requires (drinking a potion is 1 AP; a scroll is 2 AP).
 
-- **Quick Items** cost nothing to retrieve, so a quick item costs only its use (therefore, taking a vial of alum from your small pouch and using it to stop bleeding requires 1 AP). You can use a quick item you did not declare, even in place of something you did declare, as long as the item is no slower than your phase. A scroll is the exception: it is a spell, and it must be declared (see *[Skill Mastery, Reading Scrolls](../skills/index.md)*).
-- **Items on your body** (a weapon in its sheath, or gear on a body slot or lashed outside a pack) cost 1 AP to draw.
-- **Items in a container** (a backpack, sack, chest, or saddlebag) cost 2 AP to retrieve. One retrieval gets everything you need from that container (therefore, to light a torch from your pack, you retrieve the torch and tinderbox for 2 AP, then light it with the tinderbox for 6 AP, requiring 8 AP total, about four rounds. This is why travelers keep a fire, a lantern, or slow match burning).
+- <span id="quick-items"></span>**Quick Items** cost nothing to retrieve, so a quick item costs only its use (therefore, taking a vial of alum from your small pouch and using it to stop bleeding requires 1 AP). You can use a quick item you did not declare, even in place of something you did declare, as long as the item is no slower than your phase. A scroll is the exception: it is a spell, and it must be declared (see *Skill Mastery, [Reading Scrolls](../skills/trade/index.md#reading-scrolls)*).
+- <span id="items-on-your-body"></span>**Items on your body** (a weapon in its sheath, or gear on a body slot or lashed outside a pack) cost 1 AP to draw.
+- <span id="items-in-a-container"></span>**Items in a container** (a backpack, sack, chest, or saddlebag) cost 2 AP to retrieve. One retrieval gets everything you need from that container (therefore, to light a torch from your pack, you retrieve the torch and tinderbox for 2 AP, then light it with the tinderbox for 6 AP, requiring 8 AP total, about four rounds. This is why travelers keep a fire, a lantern, or slow match burning).
 - Stowing an item requires 1 AP (therefore, stowing your backsword and drawing a rungu requires 2 AP).
 
 ### Casting
@@ -278,19 +278,19 @@ Traumas are severe physical consequences: broken bones, collapsed lungs, interna
 
 #### Trauma Table
 
-**Trauma settings (optional).** The GM chooses how often Traumas occur. Each setting includes those above it.
+<span id="trauma-settings"></span>**Trauma settings (optional).** The GM chooses how often Traumas occur. Each setting includes those above it.
 
-- **Realistic:** a Trauma occurs when a character takes health damage while at 0 health and fighting on (see *[Fighting On](#fighting-on)*). This is the default rule.
-- **Brutal:** as Realistic, and a character also suffers a Trauma on reaching 0 health (in addition to the Injury), and on rolling a natural minimum on a trial to resist damage.
-- **Deadly:** as Brutal, and whenever a character takes health damage from a hit whose dice explode, they make an Endurance trial (Straightforward, 4) or suffer a Trauma.
+- <span id="realistic"></span>**Realistic:** a Trauma occurs when a character takes health damage while at 0 health and fighting on (see *[Fighting On](#fighting-on)*). This is the default rule.
+- <span id="brutal"></span>**Brutal:** as Realistic, and a character also suffers a Trauma on reaching 0 health (in addition to the Injury), and on rolling a natural minimum on a trial to resist damage.
+- <span id="deadly"></span>**Deadly:** as Brutal, and whenever a character takes health damage from a hit whose dice explode, they make an Endurance trial (Straightforward, 4) or suffer a Trauma.
 
 The Trauma and Insanity settings are chosen separately; a table can run Brutal Traumas with Realistic Insanity, or any other combination.
 
 Roll 1d100 for each Trauma. Each Trauma has a tier:
 
-- **Minor:** heals within days, with rest or a single treatment.
-- **Severe:** heals only over weeks of rest or repeated tending; some must be treated first (set, reset, or tended).
-- **Grievous:** heals only with magic, while Damage Age still reaches it ([Magic Mastery](../magic/index.md), [Restoring Traumas](../magic/index.md#restoring-traumas)). After that, it is permanent.
+- <span id="minor"></span>**Minor:** heals within days, with rest or a single treatment.
+- <span id="severe"></span>**Severe:** heals only over weeks of rest or repeated tending; some must be treated first (set, reset, or tended).
+- <span id="grievous"></span>**Grievous:** heals only with magic, while Damage Age still reaches it ([Magic Mastery](../magic/index.md), [Restoring Traumas](../magic/index.md#restoring-traumas)). After that, it is permanent.
 
 Days' rest means full days of downtime with no travel, combat, or work.
 

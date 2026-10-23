@@ -49,21 +49,21 @@ She is a fighter. A human tactician that understands the ways of battle better t
 
 ## Fighter Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Fleetwood, a Second Level Fighter," you should say "I'm Fleetwood, the Warrior."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Fleetwood, a Second Level Fighter," you should say "I'm Fleetwood, the Warrior."
 
-**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Fighter, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Tactics](../../skills/tactics.md)* as part of the *[Art of War](#art-of-war)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
-**Spell Mastery**. This class does not have access to magic.
+<span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.
 
-**Weapon Mastery**. At first level, you begin with 4 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 4 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.
@@ -81,10 +81,10 @@ As a Mortal being, you have no innate damage immunity or vulnerability. You are 
 
 *Level 1*
 
-**Tactician:** You automatically advance in the *[Tactics](../../skills/tactics.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
+<span id="tactician"></span>**Tactician:** You automatically advance in the *[Tactics](../../skills/tactics.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
-**Quick Draw:** When you make an attack or defense action, you can draw one weapon or stow one weapon as part of that action without spending additional AP. You cannot both draw and stow as part of the same action. Attacks made with a weapon drawn this round have Inferiority.
+<span id="quick-draw"></span>**Quick Draw:** When you make an attack or defense action, you can draw one weapon or stow one weapon as part of that action without spending additional AP. You cannot both draw and stow as part of the same action. Attacks made with a weapon drawn this round have Inferiority.
 
-**Veteran's Instinct:** After engaging an enemy for 1 full round, you gain a cumulative +1 per round to either attack OR defense rolls (chosen at the start of each round) against that specific enemy, capping at your Perception tier. Switching targets resets the bonus to zero.
+<span id="veterans-instinct"></span>**Veteran's Instinct:** After engaging an enemy for 1 full round, you gain a cumulative +1 per round to either attack OR defense rolls (chosen at the start of each round) against that specific enemy, capping at your Perception tier. Switching targets resets the bonus to zero.
 
-**Weapon Versatility:** Each time you achieve Expert or higher mastery in a Weapon Type or Combat Style, you can choose one Maneuver from another Type or Style of your mastery level or lower that you can use with that weapon or style. The chosen maneuver must be physically executable with your weapon and style. GM must approve the connection.
+<span id="weapon-versatility"></span>**Weapon Versatility:** Each time you achieve Expert or higher mastery in a Weapon Type or Combat Style, you can choose one Maneuver from another Type or Style of your mastery level or lower that you can use with that weapon or style. The chosen maneuver must be physically executable with your weapon and style. GM must approve the connection.

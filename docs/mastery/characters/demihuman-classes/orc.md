@@ -49,20 +49,20 @@ He is an orc. A barbaric warrior of rage and instinct. *Civilized* people scoff 
 
 ## Orc Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Relg, a Fifth Level Orc," you should say "I'm Relg, the Scout."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Relg, a Fifth Level Orc," you should say "I'm Relg, the Scout."
 
-**Health**. You gain 4 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 4 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 3 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As an Orc, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You gain 1 Skill Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 
-**Spell Mastery**. This class does not have access to magic.
+<span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.
 
-**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
@@ -78,10 +78,10 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 
 ### Orc Nature
 
-**Scotopic Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
+<span id="scotopic-sight"></span>**Scotopic Sight.** Within 200 feet, creatures in ambient light are not [Concealed](../../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") from you. Within 20 feet, creatures in absolute darkness are not Concealed from you, though you see them only in grayscale. While you are in light, you lose the benefit in absolute darkness.
 
-**Aberrant Appeal.** You have Impotence on all Presence trials with all non-chaotic demi-humans and humanoids. You have Dominance on all Presence trials with chaotic demi-humans and humanoids.
+<span id="aberrant-appeal"></span>**Aberrant Appeal.** You have Impotence on all Presence trials with all non-chaotic demi-humans and humanoids. You have Dominance on all Presence trials with chaotic demi-humans and humanoids.
 
-**Hearty.** Add your Endurance score to your health pool.
+<span id="hearty"></span>**Hearty.** Add your Endurance score to your health pool.
 
-**Frenzy.** Declared. Once per combat. You enter a frenzied state from the start of the round you declare it, for rounds equal to your Endurance tier. While frenzied, add your Strength tier to attack rolls. You cannot take non-combat actions (e.g., lighting a torch, picking a lock) as determined by the GM. At the end of your frenzy, you gain [Exhausted](../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") 1 for 1 Exploration round per use of Frenzy today. If you are already Exhausted from Frenzy, advance Exhausted by 1 tier instead.
+<span id="frenzy"></span>**Frenzy.** Declared. Once per combat. You enter a frenzied state from the start of the round you declare it, for rounds equal to your Endurance tier. While frenzied, add your Strength tier to attack rolls. You cannot take non-combat actions (e.g., lighting a torch, picking a lock) as determined by the GM. At the end of your frenzy, you gain [Exhausted](../../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") 1 for 1 Exploration round per use of Frenzy today. If you are already Exhausted from Frenzy, advance Exhausted by 1 tier instead.

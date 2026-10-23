@@ -31,7 +31,7 @@ Coffee is administered through ingestion. After one round, a creature that drink
 
 \* Drinking another cup before the dose ends postpones the crash.
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -62,7 +62,7 @@ Valerian is administered through ingestion. After one round, a creature that tak
 | Rarity | Common |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -91,7 +91,7 @@ A vinegar sponge is held under the nose. It rouses someone from a stupor faster 
 | Rarity | Common |
 | Notes | One sponge serves several times |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_2"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|

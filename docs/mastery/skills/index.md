@@ -42,7 +42,7 @@ Unless explicitly stated, a skill attack ability cannot be used as part of the s
 
 Each skill mastery unlocks abilities at mastery levels and provides disciplines — trained areas of knowledge and skill.
 
-**Mastery Levels (1-7):**
+<span id="mastery-levels"></span>**Mastery Levels (1-7):**
 
 - Level 1 — Unskilled (1d2): Default. Every character starts here with no mastery investment.
 - Level 2 — Untrained (1d3): 1st unlock
@@ -52,9 +52,9 @@ Each skill mastery unlocks abilities at mastery levels and provides disciplines 
 - Level 6 — Master (1d10): 5th unlock
 - Level 7 — Grand Master (1d12): 6th unlock
 
-**Skill Access:** Most skills are open to all classes. A small number of restrictions are binary: you either have access to a skill or you do not. If you have access, you can advance as high as your mastery points allow, up to and including Grand Master.
+<span id="skill-access"></span>**Skill Access:** Most skills are open to all classes. A small number of restrictions are binary: you either have access to a skill or you do not. If you have access, you can advance as high as your mastery points allow, up to and including Grand Master.
 
-**Class Hallmarks:** Certain abilities remain class-exclusive regardless of skill access (e.g., Backstab for Thief, Fili Song for Fili, Turn for Theurgic classes, Arcane Familiar for Magus).
+<span id="class-hallmarks"></span>**Class Hallmarks:** Certain abilities remain class-exclusive regardless of skill access (e.g., Backstab for Thief, Fili Song for Fili, Turn for Theurgic classes, Arcane Familiar for Magus).
 
 ### Skill Access by Class
 
@@ -81,25 +81,25 @@ Each skill mastery unlocks abilities at mastery levels and provides disciplines 
 | Sylvan Elf | ✓ | **Free** | ✓ ABH | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | **Free** | S (1 start, +1/lvl, 2@21) |
 | Thief | ✓ | ✓ | ✓ ABH | ✓ | ✓ | — | **Free** | ✓ | **Free** | ✓ | GM (4 start, +1/lvl, 2@6, 3@16, 4@26) |
 
-**Trade discipline key:** A = Alchemist, B = Blacksmith, H = Healer, S = Scribe. "All" = all four disciplines.
+<span id="trade-discipline-key"></span>**Trade discipline key:** A = Alchemist, B = Blacksmith, H = Healer, S = Scribe. "All" = all four disciplines.
 
-**Notable restrictions:**
+<span id="notable-restrictions"></span>**Notable restrictions:**
 
-- **Spellcraft** is barred for all non-casters: Dwarf, Fighter, Halfling, Knight, Orc, Ranger, Thief.
-- **Stealth and Thievery** are barred for Knight and Paladin.
-- **Trade (Scribe)** is restricted to casters. Bahador and Magus get it free via Student. Druid, Fili, and Sylvan Elf have no access. Non-casters cannot learn it.
+- <span id="spellcraft"></span>**Spellcraft** is barred for all non-casters: Dwarf, Fighter, Halfling, Knight, Orc, Ranger, Thief.
+- <span id="stealth-and-thievery"></span>**Stealth and Thievery** are barred for Knight and Paladin.
+- <span id="trade"></span>**Trade (Scribe)** is restricted to casters. Bahador and Magus get it free via Student. Druid, Fili, and Sylvan Elf have no access. Non-casters cannot learn it.
 
 ---
 
 ## 10 Core Skill Masteries
 
-- **Alertness:** Danger Sense, Discernment, Secret Doors, Stalking, Treasure Sense
-- **Athletics:** Balance, Climbing, Jumping, Lifting, Running, Swimming
-- **Lore:** Creature Lores (Asura, Daeva, Dragon, Fae, Morphon, Primordial) and Knowledge Lores (Ancient, Artifact, Cultural, Curse, Heterodox, Stone)
-- **Presence:** Bartering, Deceit, Etiquette, Interrogation, Intimidation, Rhetoric, Stoic
-- **Spellcraft:** Tradition disciplines (Occult, Priscan, Telluric, Theurgic)
-- **Stealth:** Disguise, Sneaking
-- **Tactics:** Poliorcetics, Tactics
-- **Thievery:** Breaching, Cryptography, Demimonde, Escamotage, Forgery, Savvy
-- **Trade:** Alchemist, Blacksmith, Healer, Scribe
-- **Wilderness:** Beast Lore, Hunting and Foraging, Orienteering, Riding, Weather Sense
+- <span id="alertness"></span>**Alertness:** Danger Sense, Discernment, Secret Doors, Stalking, Treasure Sense
+- <span id="athletics"></span>**Athletics:** Balance, Climbing, Jumping, Lifting, Running, Swimming
+- <span id="lore"></span>**Lore:** Creature Lores (Asura, Daeva, Dragon, Fae, Morphon, Primordial) and Knowledge Lores (Ancient, Artifact, Cultural, Curse, Heterodox, Stone)
+- <span id="presence"></span>**Presence:** Bartering, Deceit, Etiquette, Interrogation, Intimidation, Rhetoric, Stoic
+- <span id="spellcraft_1"></span>**Spellcraft:** Tradition disciplines (Occult, Priscan, Telluric, Theurgic)
+- <span id="stealth"></span>**Stealth:** Disguise, Sneaking
+- <span id="tactics"></span>**Tactics:** Poliorcetics, Tactics
+- <span id="thievery"></span>**Thievery:** Breaching, Cryptography, Demimonde, Escamotage, Forgery, Savvy
+- <span id="trade_1"></span>**Trade:** Alchemist, Blacksmith, Healer, Scribe
+- <span id="wilderness"></span>**Wilderness:** Beast Lore, Hunting and Foraging, Orienteering, Riding, Weather Sense

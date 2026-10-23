@@ -6,7 +6,7 @@ generated_by: tools/sync_mastery.py
 
 Each poison below can be made with its condition at T1, T2, or T3 unless noted. The dose's DC and damage dice come from the maker.
 
-**Vermin bait** (arsenic or aconite) is sold by the pennyworth for rats and wolves: **1 sp**, too small a portion to poison a person.
+<span id="vermin-bait"></span>**Vermin bait** (arsenic or aconite) is sold by the pennyworth for rats and wolves: **1 sp**, too small a portion to poison a person.
 
 ## Aconite (wolfsbane, monkshood)
 
@@ -33,7 +33,7 @@ Aconite is administered through ingestion or a wound. A creature affected by aco
 | Rarity | Common in upland and mountain country; Uncommon elsewhere |
 | Notes | Legal to own as wolf or vermin bait |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -64,7 +64,7 @@ Aqua fortis is administered by contact, splashed by hand or thrown in its glass 
 | Rarity | Uncommon: assayers, mints, and goldsmiths keep it |
 | Notes | Kept only in glass |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications |
 |:---|:---:|:---:|:---:|
@@ -97,7 +97,7 @@ Arsenic is administered through ingestion. After one round, a creature affected 
 | Rarity | Uncommon: apothecaries sell it "for rats." Common where ore is roasted |
 | Notes | Recognizing it as poison takes an Identification trial or a Healer trial against the dose's DC. Often licensed. It keeps indefinitely |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_2"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -130,7 +130,7 @@ Belladonna is administered through ingestion, or by contact as a Thickened ointm
 | Rarity | Common in hedgerows and at woodland edges |
 | Notes | One Intelligence trial per tier resists both conditions. Each failure advances [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered."), and [Tainted](../../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") one tier behind it |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_3"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -167,7 +167,7 @@ Cantharides is administered through ingestion or contact. Swallowed, it deals im
 
 \*\* Lingering adds [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Withering): the blistering keeps working.
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_4"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -202,7 +202,7 @@ White hellebore is administered through a wound or ingestion. A creature affecte
 | Rarity | Common in mountain country; Uncommon elsewhere |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_5"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -235,7 +235,7 @@ Hemlock is administered through ingestion, or through a wound as a Thickened bla
 | Rarity | Common everywhere |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_6"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -268,7 +268,7 @@ Henbane is administered through ingestion, as smoke, or by contact as a Thickene
 | Rarity | Common on waste ground |
 | Notes | One Intelligence trial resists the whole dose: on a failure, the creature takes both conditions. A willing user takes them without a trial. Burned as smoke, it affects the user too |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_7"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -299,7 +299,7 @@ Oil of vitriol is administered by contact, splashed by hand or thrown in its gla
 | Rarity | Uncommon in cities with alchemists' laboratories; Imported elsewhere |
 | Notes | Kept only in glass |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_8"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications |
 |:---|:---:|:---:|:---:|
@@ -332,7 +332,7 @@ Quicklime is thrown in a pot that bursts into a blinding cloud. Creatures caught
 
 \*\* Prolonged: the cloud hangs for the encounter, and anyone inside at the end of their turn makes the trial. The GM moves or clears it as the wind dictates.
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_9"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications |
 |:---|:---:|:---:|:---:|
@@ -363,7 +363,7 @@ Sublimate is administered through ingestion, or by contact as a Thickened skin c
 | Rarity | Uncommon: apothecaries |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_10"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -398,7 +398,7 @@ Verdigris is administered through ingestion or by contact on a wound. After one 
 | Rarity | Common anywhere with copper and vinegar |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_11"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|
@@ -431,7 +431,7 @@ Yew is administered through ingestion, or through a wound as a Thickened coating
 | Rarity | Common in churchyards and old woods |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_12"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|

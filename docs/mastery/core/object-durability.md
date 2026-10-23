@@ -8,7 +8,7 @@ Objects have a durability pool determined by two factors: **size** (physical dim
 
 These rules apply to any object that doesn't have its own durability and resistances. Armor, shields, and other items with listed values use those instead.
 
-**Durability = Size × Hardness × 2**
+<span id="durability-size-hardness-2"></span>**Durability = Size × Hardness × 2**
 
 ## Size
 
@@ -70,9 +70,9 @@ Hardness scales more aggressively than size: the gap between each level increase
 
 What an object is made of decides what can harm it. Each hit against an object is one of three kinds:
 
-- **Weapons:** Cutting, Cleaving, Crushing, Piercing, and Puncturing.
-- **Material magic:** Sea, Stone, Primal, and Profane.
-- **Energy magic:** Fire, Sky, Sacred, and Void.
+- <span id="weapons"></span>**Weapons:** Cutting, Cleaving, Crushing, Piercing, and Puncturing.
+- <span id="material-magic"></span>**Material magic:** Sea, Stone, Primal, and Profane.
+- <span id="energy-magic"></span>**Energy magic:** Fire, Sky, Sacred, and Void.
 
 Against each kind, a material is **immune** (the hit does nothing), takes **full** damage, or **resists**. **Resistance is half the object's hardness value** (rounded down), subtracted from each hit.
 
@@ -89,9 +89,9 @@ Against each kind, a material is **immune** (the hit does nothing), takes **full
 | Stone, masonry | Solid to Fortified | Immune to Cutting, Piercing, and Puncturing; resists the rest | Resists | Resists |
 | Wood | Soft / Firm | Immune to Piercing and Puncturing; full from Cleaving; resists the rest | Resists | Full from Fire; resists the rest |
 
-**Acid** ignores the resistance of the material it eats (see *[Alchemy](../skills/trade/alchemy/index.md)*).
+<span id="acid"></span>**Acid** ignores the resistance of the material it eats (see *[Alchemy](../skills/trade/alchemy/index.md)*).
 
-**Unusual cases are the GM's call:** heating stone with fire and then dousing it with water to crack it, extreme cold making iron brittle, or a spell whose effect plainly suits the material.
+<span id="unusual-cases-are-the-gms-call"></span>**Unusual cases are the GM's call:** heating stone with fire and then dousing it with water to crack it, extreme cold making iron brittle, or a spell whose effect plainly suits the material.
 
 *Example: a steel lock (durability 22, hardness 11) resists 5 from each blow of a maul, ignores arrows entirely, and takes full damage from aqua fortis.*
 

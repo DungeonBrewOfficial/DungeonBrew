@@ -49,21 +49,21 @@ She is a ranger. A human warrior that is more at home in the wilds than she is a
 
 ## Ranger Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Corvin, a Second Level Ranger," you should say "I'm Corvin, the Hunter."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Corvin, a Second Level Ranger," you should say "I'm Corvin, the Hunter."
 
-**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Ranger, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, and *[Thievery](../../skills/thievery.md)* skills.
 * You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Pathfinder](#pathfinder)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
-**Spell Mastery**. This class does not have access to magic.
+<span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.
 
-**Weapon Mastery**. At first level, you begin with 4 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 4 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.
@@ -87,8 +87,8 @@ You automatically advance in the *[Wilderness](../../skills/wilderness/index.md)
 
 *Level 1*
 
-**Ranging.** You do not provoke Reprisal Attacks when you move.
+<span id="ranging"></span>**Ranging.** You do not provoke Reprisal Attacks when you move.
 
-**Vigilance.** You are immune to [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") Tier 3 (Paralyzed) from a Startle or Ambush trial. When a Startle trial would impose Tier 3, you receive Tier 2 instead. When affected by Impaired from a Startle trial, you may still take one Fast action.
+<span id="vigilance"></span>**Vigilance.** You are immune to [Impaired](../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") Tier 3 (Paralyzed) from a Startle or Ambush trial. When a Startle trial would impose Tier 3, you receive Tier 2 instead. When affected by Impaired from a Startle trial, you may still take one Fast action.
 
-**First Strike.** On the first round of combat, your attacks gain Dominance.
+<span id="first-strike"></span>**First Strike.** On the first round of combat, your attacks gain Dominance.

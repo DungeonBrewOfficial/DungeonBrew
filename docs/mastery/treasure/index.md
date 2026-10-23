@@ -10,9 +10,9 @@ Treasure is more than coin. This chapter covers the goods a party can find, sell
 
 Treasure is carried in one of three ways:
 
-- **Fits.** It goes in a container like any other item.
-- **Lashed.** It's too big for a container, but can be lashed to a pack.
-- **Bulky.** It can't go in a container or be lashed to one. Carry it in both hands, carry it on your back in place of a pack, or load it on a mount or vehicle.
+- <span id="fits"></span>**Fits.** It goes in a container like any other item.
+- <span id="lashed"></span>**Lashed.** It's too big for a container, but can be lashed to a pack.
+- <span id="bulky"></span>**Bulky.** It can't go in a container or be lashed to one. Carry it in both hands, carry it on your back in place of a pack, or load it on a mount or vehicle.
 
 As a rule of thumb, anything up to about 2 lb fits, anything up to about 20 lb can be lashed, and anything heavier is Bulky. Cloth that can be rolled is lashed up to about 6 square yards; larger pieces are Bulky. Panels and stained glass can't be rolled.
 

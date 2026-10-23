@@ -11,15 +11,15 @@ Furs and hides come from the animals a party hunts, and turn up in trappers' cac
 
 Pelts come in three qualities: Poor, Average, and Pristine. Poor pelts are usually taken out of season or damaged, while Pristine pelts are almost always taken in winter, when the coat is thickest. Average is by far the most common and makes up most pelts on the market.
 
-**Found Pelts.** When pelts are found rather than taken, roll 1d10 for each: 1–3 Poor, 4–9 Average, 10 Pristine.
+<span id="found-pelts"></span>**Found Pelts.** When pelts are found rather than taken, roll 1d10 for each: 1–3 Poor, 4–9 Average, 10 Pristine.
 
 ## How to Use
 
-**For Loot.** Generate more varied treasure. Finding a "pristine sable pelt" is more memorable than its equivalent value in coin.
+<span id="for-loot"></span>**For Loot.** Generate more varied treasure. Finding a "pristine sable pelt" is more memorable than its equivalent value in coin.
 
-**For Economy.** Create a market for PCs and NPCs who are trappers, crafters, or merchants.
+<span id="for-economy"></span>**For Economy.** Create a market for PCs and NPCs who are trappers, crafters, or merchants.
 
-**For World-Building.** Use the different types of furs and their values to show social status or reflect the local wildlife of a region.
+<span id="for-world-building"></span>**For World-Building.** Use the different types of furs and their values to show social status or reflect the local wildlife of a region.
 
 ---
 
@@ -27,11 +27,11 @@ Pelts come in three qualities: Poor, Average, and Pristine. Poor pelts are usual
 
 A large, heavy hide with thick, shaggy fur, valued more for its imposing size and insulating properties than for fine texture.
 
-**Black.** A dense, medium-length pelt of coarse, uniformly black fur, sometimes with a brown muzzle or a small white chest patch.
+<span id="black"></span>**Black.** A dense, medium-length pelt of coarse, uniformly black fur, sometimes with a brown muzzle or a small white chest patch.
 
-**Brown.** A large, heavy hide with long, shaggy fur. Color varies widely from blonde to dark brown, often with distinctive silver-tipped guard hairs on the shoulders and back.
+<span id="brown"></span>**Brown.** A large, heavy hide with long, shaggy fur. Color varies widely from blonde to dark brown, often with distinctive silver-tipped guard hairs on the shoulders and back.
 
-**White.** A dense, heavy pelt of white to yellowish-white fur, comprised of a thick undercoat and long, oily, water-repellent guard hairs.
+<span id="white"></span>**White.** A dense, heavy pelt of white to yellowish-white fur, comprised of a thick undercoat and long, oily, water-repellent guard hairs.
 
 | Fur/Hide | Poor (0.5x) | Average (1x) | Pristine (3x) |
 |:---|:---:|:---:|:---:|
@@ -43,20 +43,20 @@ A large, heavy hide with thick, shaggy fur, valued more for its imposing size an
 
 ## Canine
 
-**Coyote / Jackal.** A pelt of long, coarse guard hairs over a softer undercoat, typically in grizzled shades of grey, yellow, and reddish-brown.
+<span id="coyote-jackal"></span>**Coyote / Jackal.** A pelt of long, coarse guard hairs over a softer undercoat, typically in grizzled shades of grey, yellow, and reddish-brown.
 
-**Dhole.** A dense pelt of short, coarse, reddish fur, typically uniform in color with a paler underside.
+<span id="dhole"></span>**Dhole.** A dense pelt of short, coarse, reddish fur, typically uniform in color with a paler underside.
 
-**Dog.** A highly variable, utilitarian hide. Fur is typically short and coarse, with common colors being mottled brown, black, or tan.
+<span id="dog"></span>**Dog.** A highly variable, utilitarian hide. Fur is typically short and coarse, with common colors being mottled brown, black, or tan.
 
-**Fox.** A soft, lustrous pelt with a dense undercoat, long guard hairs, and a characteristically bushy tail. The value is highly dependent on the color variant.
+<span id="fox"></span>**Fox.** A soft, lustrous pelt with a dense undercoat, long guard hairs, and a characteristically bushy tail. The value is highly dependent on the color variant.
 
-- **Arctic.** The winter coat is thick and uniformly pure white. The less common "blue" phase is a smoky, bluish-grey.
-- **Cross.** A color variant of the red fox, featuring a prominent dark stripe running down its back and across its shoulders, forming a "cross" pattern.
-- **Red.** A classic pelt of reddish-orange fur with a white underside, black fur on the lower legs, and often a white-tipped tail.
-- **Silver.** A black color variant of the red fox, prized for its glossy black fur interspersed with white-tipped guard hairs that give it a silvered appearance.
+- <span id="arctic"></span>**Arctic.** The winter coat is thick and uniformly pure white. The less common "blue" phase is a smoky, bluish-grey.
+- <span id="cross"></span>**Cross.** A color variant of the red fox, featuring a prominent dark stripe running down its back and across its shoulders, forming a "cross" pattern.
+- <span id="red"></span>**Red.** A classic pelt of reddish-orange fur with a white underside, black fur on the lower legs, and often a white-tipped tail.
+- <span id="silver"></span>**Silver.** A black color variant of the red fox, prized for its glossy black fur interspersed with white-tipped guard hairs that give it a silvered appearance.
 
-**Wolf.** A large, durable pelt with long, coarse guard hairs over a dense, wooly undercoat. Color is typically a grizzled grey, but can range from pure white to solid black.
+<span id="wolf"></span>**Wolf.** A large, durable pelt with long, coarse guard hairs over a dense, wooly undercoat. Color is typically a grizzled grey, but can range from pure white to solid black.
 
 | Fur/Hide | Poor (0.5x) | Average (1x) | Pristine (3x) |
 |:---|:---:|:---:|:---:|
@@ -73,28 +73,28 @@ A large, heavy hide with thick, shaggy fur, valued more for its imposing size an
 
 ## Feline
 
-**Bobcat / Wildcat.** A short, dense, soft pelt with a greyish or reddish-brown coat marked with dark spots and bars.
+<span id="bobcat-wildcat"></span>**Bobcat / Wildcat.** A short, dense, soft pelt with a greyish or reddish-brown coat marked with dark spots and bars.
 
-**Cheetah.** A coarse, relatively thin pelt with a tawny coat covered in solid black spots. Often identified by the black "tear stripe" markings on the face.
+<span id="cheetah"></span>**Cheetah.** A coarse, relatively thin pelt with a tawny coat covered in solid black spots. Often identified by the black "tear stripe" markings on the face.
 
-**Cougar.** A pelt with a uniform, unmarked coat of short, coarse fur, typically in tawny-beige or greyish-brown.
+<span id="cougar"></span>**Cougar.** A pelt with a uniform, unmarked coat of short, coarse fur, typically in tawny-beige or greyish-brown.
 
-**Jaguar.** A large pelt with a golden-yellow coat marked with prominent dark rosettes, which often contain a small, central dot.
+<span id="jaguar"></span>**Jaguar.** A large pelt with a golden-yellow coat marked with prominent dark rosettes, which often contain a small, central dot.
 
-**Leopard.** A sleek, soft pelt prized for its pattern. The value and appearance vary by the specific type.
+<span id="leopard"></span>**Leopard.** A sleek, soft pelt prized for its pattern. The value and appearance vary by the specific type.
 
-- **Common Leopard.** A pale yellow to golden coat marked with small, densely packed dark rosettes that lack a central dot.
-- **Snow Leopard.** A long, dense, and woolly pelt with a smoky-grey coat marked with large, open, dark-grey rosettes.
+- <span id="common-leopard"></span>**Common Leopard.** A pale yellow to golden coat marked with small, densely packed dark rosettes that lack a central dot.
+- <span id="snow-leopard"></span>**Snow Leopard.** A long, dense, and woolly pelt with a smoky-grey coat marked with large, open, dark-grey rosettes.
 
-**Lion.** A large, short-haired pelt of uniform tawny-gold. The male is distinguished by its mane of long, coarse hair ranging from blonde to black.
+<span id="lion"></span>**Lion.** A large, short-haired pelt of uniform tawny-gold. The male is distinguished by its mane of long, coarse hair ranging from blonde to black.
 
-**Lynx.** A thick, silky pelt of frosted grey or pale brown fur, often faintly spotted. Known for its long ear tufts and facial ruff.
+<span id="lynx"></span>**Lynx.** A thick, silky pelt of frosted grey or pale brown fur, often faintly spotted. Known for its long ear tufts and facial ruff.
 
-**Ocelot.** A sleek, smooth pelt with a creamy or tawny coat marked with chain-like rings, spots, and stripes.
+<span id="ocelot"></span>**Ocelot.** A sleek, smooth pelt with a creamy or tawny coat marked with chain-like rings, spots, and stripes.
 
-**Panther.** The rare, melanistic (all black) pelt of a jaguar or leopard. The coat is a uniform, glossy black, though the underlying rosette pattern is often faintly visible in certain light.
+<span id="panther"></span>**Panther.** The rare, melanistic (all black) pelt of a jaguar or leopard. The coat is a uniform, glossy black, though the underlying rosette pattern is often faintly visible in certain light.
 
-**Tiger.** A large pelt of short, dense fur with a reddish-orange to ochre coat marked with vertical black stripes.
+<span id="tiger"></span>**Tiger.** A large pelt of short, dense fur with a reddish-orange to ochre coat marked with vertical black stripes.
 
 | Fur/Hide | Poor (0.5x) | Average (1x) | Pristine (3x) |
 |:---|:---:|:---:|:---:|
@@ -114,25 +114,25 @@ A large, heavy hide with thick, shaggy fur, valued more for its imposing size an
 
 ## Hoofed Animals
 
-**Antelope / Gazelle.** A hide with very short, fine hair on a supple skin. The coat is typically a shade of tan or grey, often with white markings on the belly and face.
+<span id="antelope-gazelle"></span>**Antelope / Gazelle.** A hide with very short, fine hair on a supple skin. The coat is typically a shade of tan or grey, often with white markings on the belly and face.
 
-**Bison.** A thick hide with long, shaggy, dark brown fur around the head and shoulders that shortens towards the rear.
+<span id="bison"></span>**Bison.** A thick hide with long, shaggy, dark brown fur around the head and shoulders that shortens towards the rear.
 
-**Boar / Pig.** A tough, thick hide covered in stiff, coarse bristles, known for producing durable leather.
+<span id="boar-pig"></span>**Boar / Pig.** A tough, thick hide covered in stiff, coarse bristles, known for producing durable leather.
 
-**Chamois.** A hide with a short, dense coat, known for producing a uniquely soft, supple, and absorbent leather.
+<span id="chamois"></span>**Chamois.** A hide with a short, dense coat, known for producing a uniquely soft, supple, and absorbent leather.
 
-**Deer.** A pliable hide with a coat of short, often hollow, hair. Colors range from grey to reddish-brown, and it is commonly used to produce soft buckskin.
+<span id="deer"></span>**Deer.** A pliable hide with a coat of short, often hollow, hair. Colors range from grey to reddish-brown, and it is commonly used to produce soft buckskin.
 
-**Goat.** A flexible hide with a coat of straight, coarse hair, used for producing pliable leather and parchment.
+<span id="goat"></span>**Goat.** A flexible hide with a coat of straight, coarse hair, used for producing pliable leather and parchment.
 
-**Horse / Cow.** A large, heavy hide with a coat of short, sleek hair. Its primary value is in producing large, smooth sheets of strong leather.
+<span id="horse-cow"></span>**Horse / Cow.** A large, heavy hide with a coat of short, sleek hair. Its primary value is in producing large, smooth sheets of strong leather.
 
-**Moose / Elk.** A large and heavy hide with a thick, coarse coat of dark brown or grey hair. Produces thick, durable leather.
+<span id="moose-elk"></span>**Moose / Elk.** A large and heavy hide with a thick, coarse coat of dark brown or grey hair. Produces thick, durable leather.
 
-**Reindeer / Caribou.** A hide with a dense undercoat and long, hollow guard hairs that trap air, providing superior insulation. The coat is typically brown and grey with a white neck.
+<span id="reindeer-caribou"></span>**Reindeer / Caribou.** A hide with a dense undercoat and long, hollow guard hairs that trap air, providing superior insulation. The coat is typically brown and grey with a white neck.
 
-**Sheep.** A hide with thick, woolly fleece known for its insulation.
+<span id="sheep"></span>**Sheep.** A hide with thick, woolly fleece known for its insulation.
 
 | Hides/Leathers | Poor (0.5x) | Average (1x) | Pristine (3x) |
 |:---|:---:|:---:|:---:|
@@ -151,23 +151,23 @@ A large, heavy hide with thick, shaggy fur, valued more for its imposing size an
 
 ## Rodent
 
-**Beaver.** A pelt prized for its dense, soft, and waterproof underfur, which is covered by longer, glossy brown guard hairs.
+<span id="beaver"></span>**Beaver.** A pelt prized for its dense, soft, and waterproof underfur, which is covered by longer, glossy brown guard hairs.
 
-**Chinchilla.** A pelt of dense and soft fur with a velvety texture. The coat is typically a silvery or bluish-grey, fading to a white belly.
+<span id="chinchilla"></span>**Chinchilla.** A pelt of dense and soft fur with a velvety texture. The coat is typically a silvery or bluish-grey, fading to a white belly.
 
-**Dormouse.** A very small and delicate pelt with soft, fine fur, typically grey or tawny-brown in color.
+<span id="dormouse"></span>**Dormouse.** A very small and delicate pelt with soft, fine fur, typically grey or tawny-brown in color.
 
-**Marmot.** A thick, durable pelt of dense, somewhat coarse fur, typically yellowish-brown or grey in color.
+<span id="marmot"></span>**Marmot.** A thick, durable pelt of dense, somewhat coarse fur, typically yellowish-brown or grey in color.
 
-**Muskrat / Nutria.** A waterproof pelt with coarse, dark brown guard hairs protecting a dense, soft undercoat. Used as a less expensive alternative to beaver or otter.
+<span id="muskrat-nutria"></span>**Muskrat / Nutria.** A waterproof pelt with coarse, dark brown guard hairs protecting a dense, soft undercoat. Used as a less expensive alternative to beaver or otter.
 
-**Rabbit (Coney) / Hare.** A soft pelt, though not very durable. Colors are typically mottled shades of brown, grey, or white.
+<span id="rabbit-hare"></span>**Rabbit (Coney) / Hare.** A soft pelt, though not very durable. Colors are typically mottled shades of brown, grey, or white.
 
-**Squirrel.** A small, thin pelt whose appearance and value are highly dependent on the season and color.
+<span id="squirrel"></span>**Squirrel.** A small, thin pelt whose appearance and value are highly dependent on the season and color.
 
-- **Gris (Winter Grey).** The grey back fur of the squirrel in its prime winter coat, used as a standard lining material.
-- **Red (Summer).** The reddish-brown fur of the squirrel's less dense summer coat, considered lower in quality than the winter pelt.
-- **Vair (Patterned).** A decorative pattern, not a natural pelt, assembled by sewing the grey back fur (gris) and white belly fur into alternating checkerboard or wavy panels.
+- <span id="gris"></span>**Gris (Winter Grey).** The grey back fur of the squirrel in its prime winter coat, used as a standard lining material.
+- <span id="red_1"></span>**Red (Summer).** The reddish-brown fur of the squirrel's less dense summer coat, considered lower in quality than the winter pelt.
+- <span id="vair"></span>**Vair (Patterned).** A decorative pattern, not a natural pelt, assembled by sewing the grey back fur (gris) and white belly fur into alternating checkerboard or wavy panels.
 
 | Fur/Hide | Poor (0.5x) | Average (1x) | Pristine (3x) |
 |:---|:---:|:---:|:---:|
@@ -185,33 +185,33 @@ A large, heavy hide with thick, shaggy fur, valued more for its imposing size an
 
 ## Weasel
 
-**Badger.** A durable pelt with long, coarse, silver-tipped guard hairs over a paler undercoat, creating a grizzled grey-and-black appearance.
+<span id="badger"></span>**Badger.** A durable pelt with long, coarse, silver-tipped guard hairs over a paler undercoat, creating a grizzled grey-and-black appearance.
 
-**Fisher.** A pelt of long, dense, dark brown to black fur, often with a frosted, grizzled appearance on the head and shoulders.
+<span id="fisher"></span>**Fisher.** A pelt of long, dense, dark brown to black fur, often with a frosted, grizzled appearance on the head and shoulders.
 
-**Marten.** A group of related animals prized for their soft, dense pelts of rich brown fur, representing a significant tier in the luxury fur trade.
+<span id="marten"></span>**Marten.** A group of related animals prized for their soft, dense pelts of rich brown fur, representing a significant tier in the luxury fur trade.
 
-- **Beech (Foynes).** A high-quality brown pelt with a distinctive white throat patch, often slightly coarser than Pine Marten fur.
-- **Pine.** A soft, dense pelt of rich brown fur that lightens to a pale, yellowish patch on the throat.
+- <span id="beech"></span>**Beech (Foynes).** A high-quality brown pelt with a distinctive white throat patch, often slightly coarser than Pine Marten fur.
+- <span id="pine"></span>**Pine.** A soft, dense pelt of rich brown fur that lightens to a pale, yellowish patch on the throat.
 
-**Mink.** A soft, sleek, and glossy pelt. The fur is short, dense, and typically a uniform, deep chocolate-brown.
+<span id="mink"></span>**Mink.** A soft, sleek, and glossy pelt. The fur is short, dense, and typically a uniform, deep chocolate-brown.
 
-**Otter.** A pelt with extremely dense, waterproof underfur and sleek, glossy guard hairs.
+<span id="otter"></span>**Otter.** A pelt with extremely dense, waterproof underfur and sleek, glossy guard hairs.
 
-- **River.** A rich, dark brown pelt, durable and water-repellent.
-- **Sea.** The densest fur of any animal, dark brown to black and often frosted with silver about the head.
+- <span id="river"></span>**River.** A rich, dark brown pelt, durable and water-repellent.
+- <span id="sea"></span>**Sea.** The densest fur of any animal, dark brown to black and often frosted with silver about the head.
 
-**Polecat (Fitch).** A pelt with long, dark guard hairs over a yellowish or creamy undercoat, creating a distinct two-toned appearance.
+<span id="polecat"></span>**Polecat (Fitch).** A pelt with long, dark guard hairs over a yellowish or creamy undercoat, creating a distinct two-toned appearance.
 
-**Sable.** The most luxurious fur, with fine, silky, and dense fur of a uniform, deep brown or black.
+<span id="sable"></span>**Sable.** The most luxurious fur, with fine, silky, and dense fur of a uniform, deep brown or black.
 
-**Weasel.** The smallest members of the family, with thin pelts whose value is highly dependent on the season and species, ranging from common brown fur to white.
+<span id="weasel_1"></span>**Weasel.** The smallest members of the family, with thin pelts whose value is highly dependent on the season and species, ranging from common brown fur to white.
 
-- **Common.** A very small, thin pelt with short fur, typically reddish-brown in its summer coat.
-- **Ermine.** The pure white winter coat of the stoat, the most valuable of the weasel furs, distinguished by its softness and the signature black tip of the tail.
-- **Lettice (White).** The white winter coat of a common weasel, used as a lower-quality alternative to Ermine as it lacks the black tail tip.
+- <span id="common"></span>**Common.** A very small, thin pelt with short fur, typically reddish-brown in its summer coat.
+- <span id="ermine"></span>**Ermine.** The pure white winter coat of the stoat, the most valuable of the weasel furs, distinguished by its softness and the signature black tip of the tail.
+- <span id="lettice"></span>**Lettice (White).** The white winter coat of a common weasel, used as a lower-quality alternative to Ermine as it lacks the black tail tip.
 
-**Wolverine.** A long, coarse, and durable pelt, typically dark brown with distinctive pale stripes running along its sides.
+<span id="wolverine"></span>**Wolverine.** A long, coarse, and durable pelt, typically dark brown with distinctive pale stripes running along its sides.
 
 | Fur/Hide | Poor (0.5x) | Average (1x) | Pristine (3x) |
 |:---|:---:|:---:|:---:|

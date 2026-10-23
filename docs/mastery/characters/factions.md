@@ -12,9 +12,9 @@ The rules below apply to all factions unless a specific faction states otherwise
 
 Your faction expects contributions in return for membership, and those contributions fall into three areas: financial, service, and conduct.
 
-- **Financial Obligations.** You may be required to pay dues, tithes, or taxes to your faction. A thief's guild may take a percentage of earnings from guild-related activities. A paladin's brotherhood may require substantial tithes as a display of devotion. A knight beholden to their lord may be lawfully required to pay taxes for their fiefdom.
-- **Service Obligations.** Oftentimes, your faction may require you to answer when they call. A dwarven clan expects its people to defend its holds. A faith expects its members to march when a crusade is called. A monarch expects its nobility to obey when summoned to court.
-- **Conduct Obligations.** Your faction always includes a code of conduct, however, whether that code is moral, behavioral, professional, or otherwise. A fighter in a mercenary company might have a behavioral code, forbidding them from brawling with their fellow soldiers. A magus in a circle of magi might have a professional guideline, requiring them to share all magical discoveries with the head of their order. A cleric in a faith might be held to moral standards, forbidding them from drinking alcohol.
+- <span id="financial-obligations"></span>**Financial Obligations.** You may be required to pay dues, tithes, or taxes to your faction. A thief's guild may take a percentage of earnings from guild-related activities. A paladin's brotherhood may require substantial tithes as a display of devotion. A knight beholden to their lord may be lawfully required to pay taxes for their fiefdom.
+- <span id="service-obligations"></span>**Service Obligations.** Oftentimes, your faction may require you to answer when they call. A dwarven clan expects its people to defend its holds. A faith expects its members to march when a crusade is called. A monarch expects its nobility to obey when summoned to court.
+- <span id="conduct-obligations"></span>**Conduct Obligations.** Your faction always includes a code of conduct, however, whether that code is moral, behavioral, professional, or otherwise. A fighter in a mercenary company might have a behavioral code, forbidding them from brawling with their fellow soldiers. A magus in a circle of magi might have a professional guideline, requiring them to share all magical discoveries with the head of their order. A cleric in a faith might be held to moral standards, forbidding them from drinking alcohol.
 
 The specific degree of obligation is explored through the various faction examples provided in this chapter. The depth of your dedication to your faction shapes what you receive in return. Generally, the more a faction requires from you in terms of wealth, service, and conduct, the more the faction provides.
 
@@ -30,19 +30,19 @@ At a minimum, you must enter and depart in peace. If you attack, threaten, or st
 
 Beyond your own faction and its allies, sanctuary depends on what the host stands to gain or lose by sheltering you. If there is nothing to gain and something to risk, you may be turned away regardless of your station.
 
-- **Obligated Sanctuary.** If you are visiting a stronghold that is a part of your faction, the host is generally obligated to grant you sanctuary but may refuse under certain circumstances. For example, if you are traveling with disreputable company, the host may be permitted to deny you sanctuary or offer Discretionary Sanctuary. However, a host denying a knight visiting a castle within their liege's domain might result in political scandal and the host of a temple denying a cleric or paladin in good standing with the faith might betray their faction's code of conduct.
-- **Discretionary Sanctuary.** If you are visiting a stronghold of a different faction that is either allied or affiliated with your faction, the host is expected to grant you sanctuary, usually with conditions, but is not required to do so. A cleric of a sacred deity might expect other temples of other sacred deities to provide sanctuary. A magus generally expects other magi from disparate orders to provide sanctuary. An orc traveling through the lands of distant kin expects to be hosted so long as there is no bad blood.
-- **Reticent Sanctuary.** If you are attempting to gain access to a rival faction's stronghold, the host is unlikely to grant you sanctuary, however, may do so with the expectation that you surrender your arms, the promise of peace talks, or feats to prove your good intentions. A fighter may be required to slay a nearby bogle to show the host of a stronghold that they want the betterment of the lands. A knight might arrive with a flag of truce to sue for peace with a rival lord. A magus may be required to surrender their staff to show they have no intent to enchant their host.
+- <span id="obligated-sanctuary"></span>**Obligated Sanctuary.** If you are visiting a stronghold that is a part of your faction, the host is generally obligated to grant you sanctuary but may refuse under certain circumstances. For example, if you are traveling with disreputable company, the host may be permitted to deny you sanctuary or offer Discretionary Sanctuary. However, a host denying a knight visiting a castle within their liege's domain might result in political scandal and the host of a temple denying a cleric or paladin in good standing with the faith might betray their faction's code of conduct.
+- <span id="discretionary-sanctuary"></span>**Discretionary Sanctuary.** If you are visiting a stronghold of a different faction that is either allied or affiliated with your faction, the host is expected to grant you sanctuary, usually with conditions, but is not required to do so. A cleric of a sacred deity might expect other temples of other sacred deities to provide sanctuary. A magus generally expects other magi from disparate orders to provide sanctuary. An orc traveling through the lands of distant kin expects to be hosted so long as there is no bad blood.
+- <span id="reticent-sanctuary"></span>**Reticent Sanctuary.** If you are attempting to gain access to a rival faction's stronghold, the host is unlikely to grant you sanctuary, however, may do so with the expectation that you surrender your arms, the promise of peace talks, or feats to prove your good intentions. A fighter may be required to slay a nearby bogle to show the host of a stronghold that they want the betterment of the lands. A knight might arrive with a flag of truce to sue for peace with a rival lord. A magus may be required to surrender their staff to show they have no intent to enchant their host.
 
 ## Entitlements
 
 Your entitlements are proportional to the dedication required by your obligations. Generally, this is determined by your faction rather than your own personal commitment. A holy order might require that you forsake all wealth, dedicate your life to service, and obey their strict moral code, however, in return, you will find that you are provided for in every way, including the provision of your own stronghold. In contrast, some factions have very few obligations and as a result provide very few entitlements or resources and, indeed, might require you pay for any resources or support.
 
-- **Compensation.** You may be provided compensation when your faction calls you to service, usually a gift or payment appropriate to the value of your service. The form and generosity vary by faction: some offer freely, some offer only when asked, and some expect their junior members to serve before they have earned the right to demand payment.
-- **Follower.** You may be assigned a follower, which is almost always a 1st through 3rd level NPC of your own class or an adjacent class (e.g. a paladin might be assigned a cleric or a fighter or a paladin). You are required to train your assigned follower the ways of your faction or discipline. They are required to follow you or do as you say until they are released back to the faction to join its ranks in their own right. Depending on your skill with their training, you may be rewarded, usually with an item of power, and your follower may request to continue traveling with you. The death or failure of your follower reflects poorly on you and may damage your standing.
-- **Faction Resources.** You may be permitted access to resources not available to outsiders, such as libraries, laboratories, forges, training grounds, markets, or information networks. The extent of access depends on your standing and the resources available at that holding.
-- **Stronghold.** Your faction may support you in establishing or maintaining a stronghold. The degree of support is proportional to your dedication and obligations. Factions that have received the greater share of your wealth and service bear the greater share of construction, maintenance, and military support, while retaining control over how the stronghold is used. Alternatively, if you establish and maintain your own stronghold, you may answer to no one but also have none to call upon in your time of need.
-- **Leadership.** You may become a candidate to lead your faction or to found your own chapter. The specific title and requirements depend on the faction. Your new holding extends the influence of your faction into new territory and requires that you remain in good standing with the parent body.
+- <span id="compensation"></span>**Compensation.** You may be provided compensation when your faction calls you to service, usually a gift or payment appropriate to the value of your service. The form and generosity vary by faction: some offer freely, some offer only when asked, and some expect their junior members to serve before they have earned the right to demand payment.
+- <span id="follower"></span>**Follower.** You may be assigned a follower, which is almost always a 1st through 3rd level NPC of your own class or an adjacent class (e.g. a paladin might be assigned a cleric or a fighter or a paladin). You are required to train your assigned follower the ways of your faction or discipline. They are required to follow you or do as you say until they are released back to the faction to join its ranks in their own right. Depending on your skill with their training, you may be rewarded, usually with an item of power, and your follower may request to continue traveling with you. The death or failure of your follower reflects poorly on you and may damage your standing.
+- <span id="faction-resources"></span>**Faction Resources.** You may be permitted access to resources not available to outsiders, such as libraries, laboratories, forges, training grounds, markets, or information networks. The extent of access depends on your standing and the resources available at that holding.
+- <span id="stronghold"></span>**Stronghold.** Your faction may support you in establishing or maintaining a stronghold. The degree of support is proportional to your dedication and obligations. Factions that have received the greater share of your wealth and service bear the greater share of construction, maintenance, and military support, while retaining control over how the stronghold is used. Alternatively, if you establish and maintain your own stronghold, you may answer to no one but also have none to call upon in your time of need.
+- <span id="leadership"></span>**Leadership.** You may become a candidate to lead your faction or to found your own chapter. The specific title and requirements depend on the faction. Your new holding extends the influence of your faction into new territory and requires that you remain in good standing with the parent body.
 
 ## Betrayal
 
@@ -78,12 +78,12 @@ The obligations of the faith are rooted in doctrine or custom. Every faith expec
 
 As an initiate, you study under the guidance of a senior member of the faith who provides instruction in doctrine, practice, and the craft of your calling. This relationship persists until you achieve full ordination, at which point your primary obligation shifts from your mentor to the institution itself.
 
-* **Sacerdotal.** You are expected to tithe a portion of your earnings to the faith throughout your service. In return, the faith sustains you: housing, vestments, and access to the resources of the institution. As you advance in station, the faith entrusts you with greater access to its resources for purposes related to your ministry. A senior priest may draw upon the institution's funds without detailed accounting, though these resources remain the property of the faith.
-* **Militant.** You surrender your personal wealth to the order upon entry or shortly after your initiation. The order provides your equipment, housing, and sustenance in return. Your obligation is martial service where the order directs. Individual members hold little or no personal wealth; the order holds everything and distributes as needed.
-* **Monastic.** You surrender personal property to the community upon entry. Your labor, your daily routine, and your time are governed by the rule of the order. The community provides everything you need: sustenance, tools, workspace, and access to its library and scriptorium. In return, everything you produce belongs to the community.
-* **Mendicant.** You take a vow of poverty. You own nothing and sustain yourself through begging, charity, and the hospitality of others. Your obligation is itinerant service to the faithful wherever you travel. The order provides no material support; your sustenance comes from the communities you serve.
-* **Esoteric.** You bear the costs of each initiation as you advance, which may take the form of coin, service, or ordeal. Between initiations, the demands placed on you are lighter, though you are expected to contribute to the order's work when called upon.
-* **Hieratic.** You study under a master for years or decades, committing the tradition's sacred knowledge to memory. You receive no institutional salary and take no vow of poverty. The communities you serve are obligated to provide for you in proportion to your rank and the services you render. When the elders of your tradition summon you, you come. When a community calls upon you to fulfill your function, you answer.
+* <span id="sacerdotal"></span>**Sacerdotal.** You are expected to tithe a portion of your earnings to the faith throughout your service. In return, the faith sustains you: housing, vestments, and access to the resources of the institution. As you advance in station, the faith entrusts you with greater access to its resources for purposes related to your ministry. A senior priest may draw upon the institution's funds without detailed accounting, though these resources remain the property of the faith.
+* <span id="militant"></span>**Militant.** You surrender your personal wealth to the order upon entry or shortly after your initiation. The order provides your equipment, housing, and sustenance in return. Your obligation is martial service where the order directs. Individual members hold little or no personal wealth; the order holds everything and distributes as needed.
+* <span id="monastic"></span>**Monastic.** You surrender personal property to the community upon entry. Your labor, your daily routine, and your time are governed by the rule of the order. The community provides everything you need: sustenance, tools, workspace, and access to its library and scriptorium. In return, everything you produce belongs to the community.
+* <span id="mendicant"></span>**Mendicant.** You take a vow of poverty. You own nothing and sustain yourself through begging, charity, and the hospitality of others. Your obligation is itinerant service to the faithful wherever you travel. The order provides no material support; your sustenance comes from the communities you serve.
+* <span id="esoteric"></span>**Esoteric.** You bear the costs of each initiation as you advance, which may take the form of coin, service, or ordeal. Between initiations, the demands placed on you are lighter, though you are expected to contribute to the order's work when called upon.
+* <span id="hieratic"></span>**Hieratic.** You study under a master for years or decades, committing the tradition's sacred knowledge to memory. You receive no institutional salary and take no vow of poverty. The communities you serve are obligated to provide for you in proportion to your rank and the services you render. When the elders of your tradition summon you, you come. When a community calls upon you to fulfill your function, you answer.
 
 You uphold the doctrine or customs of your faith publicly. You serve the interests of your faith and its members. You honor its sacred sites and objects.
 
@@ -101,49 +101,49 @@ Sacred sites belonging to your faith constitute Obligated Sanctuary, regardless 
 
 The terms of entry are determined by the host.
 
-* **Sacerdotal.** A sacerdotal host may require observance of local rites or oaths of peace before granting access.
-* **Militant.** A militant host may require proof of purpose or a contribution of service.
-* **Monastic.** A monastic host may require that you observe the community's rule during your stay.
-* **Mendicant.** Mendicant orders maintain no permanent sanctuary of their own until a patron establishes one. Mendicants rely on the hospitality of other institutions within the faith, and few religious hosts turn away a mendicant. Even secular communities often receive them freely.
-* **Esoteric.** An esoteric order may require proof of initiation before granting access. The location of the order's sanctum may itself be a secret shared only among its members.
-* **Hieratic.** A hieratic host may require proof of your standing within the tradition before granting access. Beyond the tradition's own sacred sites, your consecrated status entitles you to hospitality from any community that recognizes the tradition's authority. This hospitality is an obligation the community bears, not a courtesy it extends.
+* <span id="sacerdotal_1"></span>**Sacerdotal.** A sacerdotal host may require observance of local rites or oaths of peace before granting access.
+* <span id="militant_1"></span>**Militant.** A militant host may require proof of purpose or a contribution of service.
+* <span id="monastic_1"></span>**Monastic.** A monastic host may require that you observe the community's rule during your stay.
+* <span id="mendicant_1"></span>**Mendicant.** Mendicant orders maintain no permanent sanctuary of their own until a patron establishes one. Mendicants rely on the hospitality of other institutions within the faith, and few religious hosts turn away a mendicant. Even secular communities often receive them freely.
+* <span id="esoteric_1"></span>**Esoteric.** An esoteric order may require proof of initiation before granting access. The location of the order's sanctum may itself be a secret shared only among its members.
+* <span id="hieratic_1"></span>**Hieratic.** A hieratic host may require proof of your standing within the tradition before granting access. Beyond the tradition's own sacred sites, your consecrated status entitles you to hospitality from any community that recognizes the tradition's authority. This hospitality is an obligation the community bears, not a courtesy it extends.
 
 When you are granted sanctuary, you may make use of the host's facilities within reason, including access to the site's library, relics, or instruments of worship.
 
 #### Entitlements
 
-**Sign of Faith.** Upon achieving full ordination or consecration, your faith presents you with an enchanted object that marks you as a recognized practitioner of the tradition. This might take the form of a holy symbol, blessed weapon, sacred vestment, or similar token. It signifies the end of your initiation and the conclusion of your formal obligation to your mentor.
+<span id="sign-of-faith"></span>**Sign of Faith.** Upon achieving full ordination or consecration, your faith presents you with an enchanted object that marks you as a recognized practitioner of the tradition. This might take the form of a holy symbol, blessed weapon, sacred vestment, or similar token. It signifies the end of your initiation and the conclusion of your formal obligation to your mentor.
 
 How members are provided for varies by form.
 
-* **Sacerdotal.** The faith provides sustenance, housing, and access to its resources. As you advance in station, the faith entrusts you with institutional funds for your ministry. These funds are the faith's property, but their use is left to your judgment.
-* **Militant.** The order provides weapons, armor, mounts, and housing directly. As you advance, the quality of your equipment improves. Senior members may command significant resources in the order's name.
-* **Monastic.** The community provides sustenance, tools, workspace, and library access from the day you enter. Members contribute labor and scholarship in return. At senior levels, the authority to direct the community's considerable resources rests with its leadership.
-* **Mendicant.** The order provides no material support. Your sustenance comes from the communities you serve, and what you receive, you share. As your reputation grows, the moral authority of your order attracts the attention of secular and ecclesiastical patrons who seek the legitimacy your presence confers.
-* **Esoteric.** Knowledge is the primary return on your investment. Each tier of initiation grants access to deeper secrets of the faith, which may include magical knowledge at reduced cost or knowledge unavailable to those outside the order. The early stages of initiation yield little for what they cost. The deeper you progress, the more the balance shifts.
-* **Hieratic.** The communities you serve provide your sustenance in exchange for your function: healing, judgment, sacred rites, and the preservation of lore. Your rank within the tradition determines what you are owed, and as you advance, that obligation increases. At senior levels, your authority within the tradition may rival that of secular leaders in the communities you serve.
+* <span id="sacerdotal_2"></span>**Sacerdotal.** The faith provides sustenance, housing, and access to its resources. As you advance in station, the faith entrusts you with institutional funds for your ministry. These funds are the faith's property, but their use is left to your judgment.
+* <span id="militant_2"></span>**Militant.** The order provides weapons, armor, mounts, and housing directly. As you advance, the quality of your equipment improves. Senior members may command significant resources in the order's name.
+* <span id="monastic_2"></span>**Monastic.** The community provides sustenance, tools, workspace, and library access from the day you enter. Members contribute labor and scholarship in return. At senior levels, the authority to direct the community's considerable resources rests with its leadership.
+* <span id="mendicant_2"></span>**Mendicant.** The order provides no material support. Your sustenance comes from the communities you serve, and what you receive, you share. As your reputation grows, the moral authority of your order attracts the attention of secular and ecclesiastical patrons who seek the legitimacy your presence confers.
+* <span id="esoteric_2"></span>**Esoteric.** Knowledge is the primary return on your investment. Each tier of initiation grants access to deeper secrets of the faith, which may include magical knowledge at reduced cost or knowledge unavailable to those outside the order. The early stages of initiation yield little for what they cost. The deeper you progress, the more the balance shifts.
+* <span id="hieratic_2"></span>**Hieratic.** The communities you serve provide your sustenance in exchange for your function: healing, judgment, sacred rites, and the preservation of lore. Your rank within the tradition determines what you are owed, and as you advance, that obligation increases. At senior levels, your authority within the tradition may rival that of secular leaders in the communities you serve.
 
-**Follower.** When you have proven yourself capable of guiding others in the faith, you may be assigned an initiate to train. This is a 1st through 3rd level member of an associated class who studies under your guidance. You are responsible for their instruction in the faith and their conduct within the tradition.
+<span id="follower_1"></span>**Follower.** When you have proven yourself capable of guiding others in the faith, you may be assigned an initiate to train. This is a 1st through 3rd level member of an associated class who studies under your guidance. You are responsible for their instruction in the faith and their conduct within the tradition.
 
-**Stronghold.** The form of your stronghold depends on your institutional form.
+<span id="stronghold_1"></span>**Stronghold.** The form of your stronghold depends on your institutional form.
 
-* **Sacerdotal.** You may be entrusted with authority over a temple, parish, or shrine. The site and its resources belong to the faith, but you govern its affairs and direct its ministry.
-* **Militant.** You may be granted command of a commandery, fortress-chapel, or chapter house. The order owns the site; you hold it in the order's name and direct its operations.
-* **Monastic.** You may be entrusted with leading a monastery, abbey, or chapter house. The community is self-sustaining; your role is to guide it according to the rule.
-* **Mendicant.** A patron may establish a priory, hospice, or mission house for your order. The site is gifted to the order, and you govern it as a center of the order's ministry. The order's presence in the region serves the patron's interests as much as the faith's.
-* **Esoteric.** You may establish or inherit a sanctum where the mysteries are practiced. The sanctum's location may be known only to members of the order.
-* **Hieratic.** A community you serve may consecrate or provide a sacred site for the tradition's use: a grove, a standing stone, a place of natural power. The site belongs to the tradition, not to you, though you govern its affairs and determine who studies and worships there. Alternatively, you may be entrusted with stewardship of an existing sacred site whose previous keeper has died or departed.
+* <span id="sacerdotal_3"></span>**Sacerdotal.** You may be entrusted with authority over a temple, parish, or shrine. The site and its resources belong to the faith, but you govern its affairs and direct its ministry.
+* <span id="militant_3"></span>**Militant.** You may be granted command of a commandery, fortress-chapel, or chapter house. The order owns the site; you hold it in the order's name and direct its operations.
+* <span id="monastic_3"></span>**Monastic.** You may be entrusted with leading a monastery, abbey, or chapter house. The community is self-sustaining; your role is to guide it according to the rule.
+* <span id="mendicant_3"></span>**Mendicant.** A patron may establish a priory, hospice, or mission house for your order. The site is gifted to the order, and you govern it as a center of the order's ministry. The order's presence in the region serves the patron's interests as much as the faith's.
+* <span id="esoteric_3"></span>**Esoteric.** You may establish or inherit a sanctum where the mysteries are practiced. The sanctum's location may be known only to members of the order.
+* <span id="hieratic_3"></span>**Hieratic.** A community you serve may consecrate or provide a sacred site for the tradition's use: a grove, a standing stone, a place of natural power. The site belongs to the tradition, not to you, though you govern its affairs and determine who studies and worships there. Alternatively, you may be entrusted with stewardship of an existing sacred site whose previous keeper has died or departed.
 
 #### Release
 
 Most members who wish to leave do so by withdrawing from active participation, though the weight of this withdrawal varies by form and by station.
 
-* **Sacerdotal.** A sacerdotal priest who withdraws abandons the parish, the resources, and the institutional authority entrusted to them. At lower stations, this is the loss of a community. At higher stations, it is the loss of a career built entirely within the faith's structure.
-* **Militant.** Departure from a militant order carries the weight of desertion. The order provided everything; departure means leaving with nothing but what you came in with, which was nothing.
-* **Monastic.** A monastic who leaves walks away with nothing, because they owned nothing. They surrendered personal property upon entry and have accumulated none since. What they leave behind is the community itself.
-* **Mendicant.** A mendicant who departs bears the lightest material burden, having never possessed material wealth. What they leave behind is the order's fellowship and the moral authority their vow carried. At senior levels, they abandon a stronghold they never owned but were entrusted with through patronage.
-* **Esoteric.** A member who withdraws retains the knowledge they have gained but loses access to further initiation and the community of initiates. Revealing the mysteries to outsiders is the most fundamental betrayal this form recognizes.
-* **Hieratic.** A member of a hieratic tradition who departs retains the knowledge they have learned but loses the consecrated status that guaranteed their compensation and hospitality. Without the tradition's recognition, your judgments carry no binding force, your rites carry no consecrated authority, and the communities that once sustained you owe you nothing.
+* <span id="sacerdotal_4"></span>**Sacerdotal.** A sacerdotal priest who withdraws abandons the parish, the resources, and the institutional authority entrusted to them. At lower stations, this is the loss of a community. At higher stations, it is the loss of a career built entirely within the faith's structure.
+* <span id="militant_4"></span>**Militant.** Departure from a militant order carries the weight of desertion. The order provided everything; departure means leaving with nothing but what you came in with, which was nothing.
+* <span id="monastic_4"></span>**Monastic.** A monastic who leaves walks away with nothing, because they owned nothing. They surrendered personal property upon entry and have accumulated none since. What they leave behind is the community itself.
+* <span id="mendicant_4"></span>**Mendicant.** A mendicant who departs bears the lightest material burden, having never possessed material wealth. What they leave behind is the order's fellowship and the moral authority their vow carried. At senior levels, they abandon a stronghold they never owned but were entrusted with through patronage.
+* <span id="esoteric_4"></span>**Esoteric.** A member who withdraws retains the knowledge they have gained but loses access to further initiation and the community of initiates. Revealing the mysteries to outsiders is the most fundamental betrayal this form recognizes.
+* <span id="hieratic_4"></span>**Hieratic.** A member of a hieratic tradition who departs retains the knowledge they have learned but loses the consecrated status that guaranteed their compensation and hospitality. Without the tradition's recognition, your judgments carry no binding force, your rites carry no consecrated authority, and the communities that once sustained you owe you nothing.
 
 If you wish to move between institutional forms within the same faith, you must be accepted by the form you wish to join. A sacerdotal priest who wishes to join a militant order must be accepted as a militant; a militant who wishes to withdraw to monastic life must be accepted into the community. Moving between forms is uncommon but not unheard of.
 
@@ -171,11 +171,11 @@ Any class may join a compact. The compact's type and purpose determine what skil
 
 How tightly your compact holds you depends on your commitment. A compact operating under Full Support demands total commitment: your efforts and earnings serve the compact, and the compact provides for you in return. Under Partial Support, you and your compact share obligations. Under contract, your engagement is defined and finite.
 
-**Full Support.** You surrender your earnings to the compact. In return, the compact equips, houses, and sustains you. Your activities are directed by the compact's leadership. In a company, this means you fight where the captain sends you and your share of all spoils goes to the common fund. In a cabal, this means you go where you are sent and dedicate your skills to the objective. In a sodality, this means you answer every call and put the brotherhood's needs before your own.
+<span id="full-support"></span>**Full Support.** You surrender your earnings to the compact. In return, the compact equips, houses, and sustains you. Your activities are directed by the compact's leadership. In a company, this means you fight where the captain sends you and your share of all spoils goes to the common fund. In a cabal, this means you go where you are sent and dedicate your skills to the objective. In a sodality, this means you answer every call and put the brotherhood's needs before your own.
 
-**Partial Support.** You contribute a portion of your earnings or resources to the compact and answer when called upon, but you maintain your own affairs between engagements. In a company, spoils are divided into shares; you receive yours minus the company's cut. You take assigned contracts but may seek independent work between them. In a cabal, you contribute resources and service when called but are not expected to abandon your own life for the objective. In a sodality, you pay dues and contribute service when the brotherhood calls. The brotherhood provides aid when you need it.
+<span id="partial-support"></span>**Partial Support.** You contribute a portion of your earnings or resources to the compact and answer when called upon, but you maintain your own affairs between engagements. In a company, spoils are divided into shares; you receive yours minus the company's cut. You take assigned contracts but may seek independent work between them. In a cabal, you contribute resources and service when called but are not expected to abandon your own life for the objective. In a sodality, you pay dues and contribute service when the brotherhood calls. The brotherhood provides aid when you need it.
 
-**Contract.** You are engaged for a defined purpose. In a company, you negotiate a fee for a specific engagement and bring your own equipment. In a cabal, you are hired for an operation and compensated for your expertise. In a sodality, you have access to the network's services and resources on a transactional basis without the obligations of sworn membership. In all cases, when the engagement or transaction is complete, so is your obligation.
+<span id="contract"></span>**Contract.** You are engaged for a defined purpose. In a company, you negotiate a fee for a specific engagement and bring your own equipment. In a cabal, you are hired for an operation and compensated for your expertise. In a sodality, you have access to the network's services and resources on a transactional basis without the obligations of sworn membership. In all cases, when the engagement or transaction is complete, so is your obligation.
 
 You follow the rules of your compact and the authority of its leadership. In a company, the captain's word is final in the field. In a cabal, the directives of the leadership are followed even when the reasoning is not shared with you. In a sodality, the oaths you swore to your brothers are honored, and disputes are settled within the brotherhood before they are taken outside it.
 
@@ -195,21 +195,21 @@ Allied compacts or organizations sympathetic to your cause may offer Discretiona
 
 #### Entitlements
 
-**Sign of Compact.** Members of a compact recognize one another through signs, phrases, or tokens specific to their organization. A company may use a banner, badge, or war cry. A cabal may use coded language, hand signs, or symbols known only to members. A sodality may use ritual greetings, tokens, or secret words exchanged between brothers. These signs identify you to your fellows and may grant you access to resources, shelter, or aid.
+<span id="sign-of-compact"></span>**Sign of Compact.** Members of a compact recognize one another through signs, phrases, or tokens specific to their organization. A company may use a banner, badge, or war cry. A cabal may use coded language, hand signs, or symbols known only to members. A sodality may use ritual greetings, tokens, or secret words exchanged between brothers. These signs identify you to your fellows and may grant you access to resources, shelter, or aid.
 
-**Provision.**
+<span id="provision"></span>**Provision.**
 
-* **Company.** Under Full Support, the company provides your arms, armor, and sustenance. Under Partial Support, the company provides access to its armory and resources at reduced cost. Under contract, you bring your own equipment and the company provides nothing beyond your contracted fee.
-* **Cabal.** Under Full Support, the cabal provides resources necessary for operations and sustains you from its collective assets. Under Partial Support, the cabal provides operational support when you are acting on its behalf. Under contract, you are compensated for the specific operation and nothing more.
-* **Sodality.** Under Full Support, the brotherhood provides for you from the common fund and you have full access to the network's resources. Under Partial Support, the brotherhood provides aid when you call upon it and access to the network's resources at member rates. Under contract, you may purchase access to specific services or introductions on a transactional basis.
+* <span id="company"></span>**Company.** Under Full Support, the company provides your arms, armor, and sustenance. Under Partial Support, the company provides access to its armory and resources at reduced cost. Under contract, you bring your own equipment and the company provides nothing beyond your contracted fee.
+* <span id="cabal"></span>**Cabal.** Under Full Support, the cabal provides resources necessary for operations and sustains you from its collective assets. Under Partial Support, the cabal provides operational support when you are acting on its behalf. Under contract, you are compensated for the specific operation and nothing more.
+* <span id="sodality"></span>**Sodality.** Under Full Support, the brotherhood provides for you from the common fund and you have full access to the network's resources. Under Partial Support, the brotherhood provides aid when you call upon it and access to the network's resources at member rates. Under contract, you may purchase access to specific services or introductions on a transactional basis.
 
-**Follower.** Your compact may assign or attract a follower appropriate to its type. A company may assign you a recruit to train. A cabal may provide you an operative or agent to direct. A sodality may place a pledge or initiate under your guidance. You are responsible for their conduct within the compact.
+<span id="follower_2"></span>**Follower.** Your compact may assign or attract a follower appropriate to its type. A company may assign you a recruit to train. A cabal may provide you an operative or agent to direct. A sodality may place a pledge or initiate under your guidance. You are responsible for their conduct within the compact.
 
-**Stronghold.**
+<span id="stronghold_2"></span>**Stronghold.**
 
-* **Company.** Under Full Support, the company provides a fortress, garrison, or fortified camp. The stronghold belongs to the company; you command it at the captain's discretion. Under Partial Support, the company co-invests in a stronghold that serves both your interests and the company's. Under contract, the company has no stake in your stronghold.
-* **Cabal.** Under Full Support, the cabal provides a headquarters, estate, or seat of operations. The stronghold belongs to the cabal; you administer it at the leadership's direction. Under Partial Support, the cabal co-invests in a stronghold that serves as both your residence and a base of operations for the cabal. Under contract, the cabal has no stake in your stronghold.
-* **Sodality.** Under Full Support, the brotherhood provides a lodge, chapter house, or hall. The stronghold belongs to the brotherhood; you serve as its keeper. Under Partial Support, the brotherhood co-invests in a stronghold that serves as both your residence and a meeting place for the local chapter. Under contract, the brotherhood has no stake in your stronghold.
+* <span id="company_1"></span>**Company.** Under Full Support, the company provides a fortress, garrison, or fortified camp. The stronghold belongs to the company; you command it at the captain's discretion. Under Partial Support, the company co-invests in a stronghold that serves both your interests and the company's. Under contract, the company has no stake in your stronghold.
+* <span id="cabal_1"></span>**Cabal.** Under Full Support, the cabal provides a headquarters, estate, or seat of operations. The stronghold belongs to the cabal; you administer it at the leadership's direction. Under Partial Support, the cabal co-invests in a stronghold that serves as both your residence and a base of operations for the cabal. Under contract, the cabal has no stake in your stronghold.
+* <span id="sodality_1"></span>**Sodality.** Under Full Support, the brotherhood provides a lodge, chapter house, or hall. The stronghold belongs to the brotherhood; you serve as its keeper. Under Partial Support, the brotherhood co-invests in a stronghold that serves as both your residence and a meeting place for the local chapter. Under contract, the brotherhood has no stake in your stronghold.
 
 #### Release
 
@@ -265,15 +265,15 @@ The Knight is vassalage's preferred class. Any class may swear oaths to a lord a
 
 Your oaths to your liege define your service and conduct obligations. Some, all, or similar oaths may be required by your liege. Not all rulers are equal in their demands of their vassals.
 
-**Oath of Fealty.** I swear that I will be faithful to my liege, never cause them harm, and will observe my homage to them completely against all persons in good faith and without deceit.
+<span id="oath-of-fealty"></span>**Oath of Fealty.** I swear that I will be faithful to my liege, never cause them harm, and will observe my homage to them completely against all persons in good faith and without deceit.
 
-**Oath of Loyalty.** I swear that I will never traffic with traitors, betrayers, or enemies of my liege.
+<span id="oath-of-loyalty"></span>**Oath of Loyalty.** I swear that I will never traffic with traitors, betrayers, or enemies of my liege.
 
-**Oath of Honesty.** I swear that I will never give evil counsel or offer falsehood to my liege.
+<span id="oath-of-honesty"></span>**Oath of Honesty.** I swear that I will never give evil counsel or offer falsehood to my liege.
 
-**Oath of Action.** I swear that I will uphold the will and law of my liege in their lands.
+<span id="oath-of-action"></span>**Oath of Action.** I swear that I will uphold the will and law of my liege in their lands.
 
-**Call to Arms.** I swear that if the call to arms is sounded by my liege or the liege of my liege, I will respond. I will travel by the fastest route without delay and fight as ordered.
+<span id="call-to-arms"></span>**Call to Arms.** I swear that if the call to arms is sounded by my liege or the liege of my liege, I will respond. I will travel by the fastest route without delay and fight as ordered.
 
 If you hold a fiefdom, you owe your liege taxes from the income of your lands.
 
@@ -291,23 +291,23 @@ Each time you advance in title, your liege may recognize your service with a gif
 
 It is traditional for a vassal to receive arms or a mount early in their service, and finer equipment as they prove themselves. As you advance further, gifts may grow in value and significance. Once you hold lands of your own, your liege may invest in your holdings directly, providing resources for construction, fortification, or military support.
 
-**Follower.** When your service warrants it, your liege may assign a follower to serve under you. This is a level 1 character who swears oaths to you until they are released from service. Your follower assists you in the duties of your station. You are responsible for their protection and conduct. Should your follower fall in combat, you are responsible for returning the body and compensating their family for the death. The death of a follower under your care is considered a failure on your part and your liege may punish you accordingly.
+<span id="follower_3"></span>**Follower.** When your service warrants it, your liege may assign a follower to serve under you. This is a level 1 character who swears oaths to you until they are released from service. Your follower assists you in the duties of your station. You are responsible for their protection and conduct. Should your follower fall in combat, you are responsible for returning the body and compensating their family for the death. The death of a follower under your care is considered a failure on your part and your liege may punish you accordingly.
 
-**Lands and Title.** When your standing and service warrant it, your liege may gift you lands and possibly a stronghold in their domain. Your liege might grant you undeveloped land on the border and expect you to build it up, hand you a run-down holding to restore, or task you with conquering a rival's territory with the promise that the parcel is yours once taken. You are expected to develop, maintain, and protect these lands or they will be taken from you.
+<span id="lands-and-title"></span>**Lands and Title.** When your standing and service warrant it, your liege may gift you lands and possibly a stronghold in their domain. Your liege might grant you undeveloped land on the border and expect you to build it up, hand you a run-down holding to restore, or task you with conquering a rival's territory with the promise that the parcel is yours once taken. You are expected to develop, maintain, and protect these lands or they will be taken from you.
 
 #### Release
 
 There are several instances in which a vassal may be released from their oaths and responsibility. Generally, you are expected to hold your oaths until death, but there are instances in which this does not occur.
 
-**Temporary Leave.** You may petition your liege for temporary leave to travel beyond their lands for other tasks. Depending on the state of your liege's domain, they may deny you. Such leave usually comes with stipulations that you will return if called to arms and that you will conduct yourself in a way that honors your liege.
+<span id="temporary-leave"></span>**Temporary Leave.** You may petition your liege for temporary leave to travel beyond their lands for other tasks. Depending on the state of your liege's domain, they may deny you. Such leave usually comes with stipulations that you will return if called to arms and that you will conduct yourself in a way that honors your liege.
 
-**Betrayal.** If you betray your liege, whether by refusing to obey, swearing fealty to another, or otherwise breaking your oaths, you lose your standing, your entitlements, and your lands. Your previous liege may order you slain for your treachery, and your reputation as an oathbreaker may follow you, making it difficult to find sanctuary or acceptance elsewhere.
+<span id="betrayal_1"></span>**Betrayal.** If you betray your liege, whether by refusing to obey, swearing fealty to another, or otherwise breaking your oaths, you lose your standing, your entitlements, and your lands. Your previous liege may order you slain for your treachery, and your reputation as an oathbreaker may follow you, making it difficult to find sanctuary or acceptance elsewhere.
 
 This betrayal can haunt you even if your liege ordered you to perform evil actions and you refused. Your oath is generally seen as the measure of your honor and worth, rather than any measure of your moral rectitude. The path to restoration requires swearing oaths to a new liege, but an oathbreaker may find few lords willing to take that risk.
 
-**Liege Death.** If your liege dies, you are free to choose another. Additional benefits, including lands and wealth, may be awarded if you swear oaths to the successor of a liege who dies. Some successors may strip you of your possessions if you refuse to swear oaths, considering them a part of their inheritance.
+<span id="liege-death"></span>**Liege Death.** If your liege dies, you are free to choose another. Additional benefits, including lands and wealth, may be awarded if you swear oaths to the successor of a liege who dies. Some successors may strip you of your possessions if you refuse to swear oaths, considering them a part of their inheritance.
 
-**Absolving Oaths.** You may petition your liege for a peaceful end to your oath; however, these are rarely granted. At the least, you will likely be banished and could be stripped of all possessions as well.
+<span id="absolving-oaths"></span>**Absolving Oaths.** You may petition your liege for a peaceful end to your oath; however, these are rarely granted. At the least, you will likely be banished and could be stripped of all possessions as well.
 
 ### Circle of Magi
 
@@ -331,9 +331,9 @@ As an apprentice, you owe your master the customary payment of 1 sc for each spe
 
 Beyond the apprenticeship, your obligations to the order are a matter of social currency. When senior members or the head of your order request your assistance, there is an expectation that you will respond. This expectation grows with your station. A master of a tower may be expected to hold regular council with the head of the order, and in return may receive support from other masters. A lower-ranking member may be left largely to their own devices.
 
-* **Raedist.** Mutual obligation is a defining principle of the order. You are expected to answer calls for assistance with consistency.
-* **Sinist.** You are given wide latitude to pursue your own research. Long absences are not unusual and draw little attention.
-* **Balthist.** Self-interest is understood. The demands placed on individual members are lighter, and your obligations are largely what you choose to accept.
+* <span id="raedist"></span>**Raedist.** Mutual obligation is a defining principle of the order. You are expected to answer calls for assistance with consistency.
+* <span id="sinist"></span>**Sinist.** You are given wide latitude to pursue your own research. Long absences are not unusual and draw little attention.
+* <span id="balthist"></span>**Balthist.** Self-interest is understood. The demands placed on individual members are lighter, and your obligations are largely what you choose to accept.
 
 Certain customs are observed across all three orders. A magus's grimoire is deeply personal. You do not read or copy from the grimoire of a living magus without their explicit consent. Grimoires are often warded for this reason. The grimoire of a dead magus is considered fair game. You do not cast spells against members of your own order. You do not steal another magus's research. When you are a guest in another magus's tower, you abide by the rules set by the master of that tower; failing to do so is a serious offense on par with violating any other custom of the Circle.
 
@@ -349,29 +349,29 @@ Towers, libraries, schools, and laboratories within your own order constitute Ob
 
 The terms of entry are set by the master of the tower.
 
-* **Raedist.** A Raedist host typically requires oaths of peace before granting access.
-* **Sinist.** A Sinist host typically requires a trade of knowledge before granting access.
-* **Balthist.** A Balthist host may demand payment or deeds before granting access.
+* <span id="raedist_1"></span>**Raedist.** A Raedist host typically requires oaths of peace before granting access.
+* <span id="sinist_1"></span>**Sinist.** A Sinist host typically requires a trade of knowledge before granting access.
+* <span id="balthist_1"></span>**Balthist.** A Balthist host may demand payment or deeds before granting access.
 
 When you are granted sanctuary, you may also make use of the host's library and laboratory within reason. Trade of magic between orders is common and is one of the principal reasons that cross-order sanctuary is honored, even between Raedists and Balthists.
 
 #### Entitlements
 
-**The Sign.** Upon achieving the rank of Maven, your master or the head of your order presents you with an enchanted object, such as a ring, robe, or staff, that marks you as a full practitioner. This signifies the end of your apprenticeship and your formal obligation to your master.
+<span id="the-sign"></span>**The Sign.** Upon achieving the rank of Maven, your master or the head of your order presents you with an enchanted object, such as a ring, robe, or staff, that marks you as a full practitioner. This signifies the end of your apprenticeship and your formal obligation to your master.
 
 How members compensate one another for assistance varies by order.
 
-* **Raedist.** It is considered inappropriate to request payment for aid. Compensation should be offered freely, and a token of gratitude is customary.
-* **Sinist.** Payment is often made in knowledge rather than coin, and it is not uncommon to have to request it.
-* **Balthist.** Less experienced members are expected to serve their seniors. Experienced members may demand payment or favors for their assistance.
+* <span id="raedist_2"></span>**Raedist.** It is considered inappropriate to request payment for aid. Compensation should be offered freely, and a token of gratitude is customary.
+* <span id="sinist_2"></span>**Sinist.** Payment is often made in knowledge rather than coin, and it is not uncommon to have to request it.
+* <span id="balthist_2"></span>**Balthist.** Less experienced members are expected to serve their seniors. Experienced members may demand payment or favors for their assistance.
 
-**Apprentice.** Beginning at the rank of Master, you may take on an apprentice, a level 1 magus or bahador who studies under your guidance. You are responsible for providing them access to your library and guiding them in the craft of their magic. You are responsible for their conduct within the order.
+<span id="apprentice"></span>**Apprentice.** Beginning at the rank of Master, you may take on an apprentice, a level 1 magus or bahador who studies under your guidance. You are responsible for providing them access to your library and guiding them in the craft of their magic. You are responsible for their conduct within the order.
 
-* **Raedist.** The death of an apprentice under your care is considered a serious failure of your responsibility.
-* **Sinist.** The death of an apprentice under your care is greatly frowned upon.
-* **Balthist.** The death of an apprentice draws less scrutiny, though it may still reflect poorly on your judgment.
+* <span id="raedist_3"></span>**Raedist.** The death of an apprentice under your care is considered a serious failure of your responsibility.
+* <span id="sinist_3"></span>**Sinist.** The death of an apprentice under your care is greatly frowned upon.
+* <span id="balthist_3"></span>**Balthist.** The death of an apprentice draws less scrutiny, though it may still reflect poorly on your judgment.
 
-**Tower.** Beginning at the rank of Maven, you may establish or claim a tower of your own. If you build within the lands of a temporal ruler, you need their permission. If you claim an abandoned tower that belonged to a member of your order, the head of your order may direct you to take control of it, or you may need the permission of the local ruler, or both, so that neither takes offense. Your tower is your personal domain, and you set the rules for those who enter it. Having a tower does not grant you authority over other members of your order.
+<span id="tower"></span>**Tower.** Beginning at the rank of Maven, you may establish or claim a tower of your own. If you build within the lands of a temporal ruler, you need their permission. If you claim an abandoned tower that belonged to a member of your order, the head of your order may direct you to take control of it, or you may need the permission of the local ruler, or both, so that neither takes offense. Your tower is your personal domain, and you set the rules for those who enter it. Having a tower does not grant you authority over other members of your order.
 
 At the rank of Magister or higher, you are eligible to lead your order, though the head of an order is almost always of significantly higher rank.
 
@@ -379,9 +379,9 @@ At the rank of Magister or higher, you are eligible to lead your order, though t
 
 Most magi who wish to leave their order simply stop participating. There is no formal process requiring dissolution, and the obligations of the Circle are social enough that departure is more often a gradual withdrawal than a single dramatic act.
 
-* **Raedist.** Withdrawal is conspicuous. Mutual obligation is central to the order's identity, and a member who stops answering calls is likely to be noticed and questioned.
-* **Sinist.** A Sinist who retreats into solitary research may not be heard from for years without anyone taking particular notice.
-* **Balthist.** A Balthist who stops appearing at council is behaving as Balthists often do.
+* <span id="raedist_4"></span>**Raedist.** Withdrawal is conspicuous. Mutual obligation is central to the order's identity, and a member who stops answering calls is likely to be noticed and questioned.
+* <span id="sinist_4"></span>**Sinist.** A Sinist who retreats into solitary research may not be heard from for years without anyone taking particular notice.
+* <span id="balthist_4"></span>**Balthist.** A Balthist who stops appearing at council is behaving as Balthists often do.
 
 Formal dissolution is rare and offers no advantage. Declaring yourself no longer a member of an order gains you nothing and flags you as an outsider.
 
@@ -415,11 +415,11 @@ The Thief is the guild's preferred class. Any class that has invested in the Ste
 
 The baseline obligation of every guild is dues, paid as a percentage of your earnings from activities associated with the guild's trade.
 
-**Full Support.** You surrender your earnings to the guild. In return, the guild provides your equipment, housing, and sustenance. The guild assigns your work and directs your activities. You do not maintain personal wealth; the guild holds everything and distributes as needed. What you are permitted to use is determined by your rank and by your superiors.
+<span id="full-support_1"></span>**Full Support.** You surrender your earnings to the guild. In return, the guild provides your equipment, housing, and sustenance. The guild assigns your work and directs your activities. You do not maintain personal wealth; the guild holds everything and distributes as needed. What you are permitted to use is determined by your rank and by your superiors.
 
-**Partial Support.** You pay dues of 10% of your earnings from guild activities. You keep the remainder. The guild assigns some work and you may also seek work independently. The guild provides access to its resources and some material support, but you are expected to equip yourself from your own earnings.
+<span id="partial-support_1"></span>**Partial Support.** You pay dues of 10% of your earnings from guild activities. You keep the remainder. The guild assigns some work and you may also seek work independently. The guild provides access to its resources and some material support, but you are expected to equip yourself from your own earnings.
 
-**Self-Funded.** You pay dues of 5% of your earnings from guild activities. No work is assigned to you. You find your own jobs, keep your own earnings, and equip yourself entirely. The guild provides access to its network at member rates.
+<span id="self-funded"></span>**Self-Funded.** You pay dues of 5% of your earnings from guild activities. No work is assigned to you. You find your own jobs, keep your own earnings, and equip yourself entirely. The guild provides access to its network at member rates.
 
 If you operate in another guild's territory, you are expected to offer the local guildmaster between 20-50% of your earnings as recompense, regardless of your own guild's structure. Securing permission before you begin goes a long way toward avoiding repercussions.
 
@@ -443,35 +443,35 @@ Guild halls, safe houses, and chapter houses belonging to your guild constitute 
 
 The terms of entry are determined by the host.
 
-- **Assassin's Guild.** A host may require proof of current contract or a contribution of intelligence before granting access.
-- **Black Market.** A host may require a trade of goods or a cut of merchandise before granting access.
-- **Explorer's Society.** A host may require a trade of information regarding sites, ruins, or artifacts before granting access.
-- **Spy Ring.** A host may require proof of identity and purpose. Spy rings prefer their own safe houses and are cautious about granting access to outsiders.
-- **Thieves' Guild.** A host may require payment or a contribution of labor before granting access.
-- **Trading Company.** A host may require proof of legitimate business or a referral from a known member before granting access.
+- <span id="assassins-guild"></span>**Assassin's Guild.** A host may require proof of current contract or a contribution of intelligence before granting access.
+- <span id="black-market"></span>**Black Market.** A host may require a trade of goods or a cut of merchandise before granting access.
+- <span id="explorers-society"></span>**Explorer's Society.** A host may require a trade of information regarding sites, ruins, or artifacts before granting access.
+- <span id="spy-ring"></span>**Spy Ring.** A host may require proof of identity and purpose. Spy rings prefer their own safe houses and are cautious about granting access to outsiders.
+- <span id="thieves-guild"></span>**Thieves' Guild.** A host may require payment or a contribution of labor before granting access.
+- <span id="trading-company"></span>**Trading Company.** A host may require proof of legitimate business or a referral from a known member before granting access.
 
 When you are granted sanctuary, you and your retinue may stay for up to three days with food and drink. You may make use of the guild's facilities within reason, and you are expected to compensate the host fairly for your stay. You enter and depart in peace. If you violate the peace of your host, your sanctuary ends and your reputation suffers across allied guilds.
 
 #### Entitlements
 
-**Thieves' Cant.** Upon joining, your guild teaches you its specific words, phrases, and signs that identify you as a member and allow covert communication. Each guild's cant is unique. Guilds that are allied or share a parent organization may share elements of their cant; otherwise, a rival guild's cant is as foreign as any other language.
+<span id="thieves-cant"></span>**Thieves' Cant.** Upon joining, your guild teaches you its specific words, phrases, and signs that identify you as a member and allow covert communication. Each guild's cant is unique. Guilds that are allied or share a parent organization may share elements of their cant; otherwise, a rival guild's cant is as foreign as any other language.
 
 What your guild provides access to depends on its type.
 
-- **Assassin's Guild.** Contracts for assassination, poison at cost, and intelligence networks built around identifying and locating targets.
-- **Black Market.** Illegal goods at a discount, fencing operations for stolen merchandise, and supplier networks across regions.
-- **Explorer's Society.** Maps, ruin locations, expedition guides, and a market for recovered artifacts and magical items through the society's buyers and contacts.
-- **Spy Ring.** Safe houses in foreign cities, intelligence on local affairs and leadership, and resources for creating and maintaining cover identities.
-- **Thieves' Guild.** Fencing for stolen goods, territorial protection within the guild's domain, and the broadest general criminal infrastructure of any guild type.
-- **Trading Company.** Legitimate trade fronts, market intelligence on the movement and value of goods, and legal cover for activities that might otherwise draw scrutiny.
+- <span id="assassins-guild_1"></span>**Assassin's Guild.** Contracts for assassination, poison at cost, and intelligence networks built around identifying and locating targets.
+- <span id="black-market_1"></span>**Black Market.** Illegal goods at a discount, fencing operations for stolen merchandise, and supplier networks across regions.
+- <span id="explorers-society_1"></span>**Explorer's Society.** Maps, ruin locations, expedition guides, and a market for recovered artifacts and magical items through the society's buyers and contacts.
+- <span id="spy-ring_1"></span>**Spy Ring.** Safe houses in foreign cities, intelligence on local affairs and leadership, and resources for creating and maintaining cover identities.
+- <span id="thieves-guild_1"></span>**Thieves' Guild.** Fencing for stolen goods, territorial protection within the guild's domain, and the broadest general criminal infrastructure of any guild type.
+- <span id="trading-company_1"></span>**Trading Company.** Legitimate trade fronts, market intelligence on the movement and value of goods, and legal cover for activities that might otherwise draw scrutiny.
 
 How you access these resources depends on your guild's structure. Under Full Support, the guild provides what you need at no personal cost, but your rank and your superiors determine what you are permitted to use. Under Partial Support, your dues grant you baseline access; anything beyond that, you negotiate or pay for. Under Self-Funded, everything is a transaction at member rates.
 
-**Jobs.** Your guild assigns or makes available work that aligns with its type. Jobs vary in difficulty, risk, and pay, with more prestigious and profitable assignments going to senior members. Under Full Support, work is assigned and refusal carries consequences. Under Partial Support, some work is assigned and some is offered. Under Self-Funded, jobs are posted and members take what interests them.
+<span id="jobs"></span>**Jobs.** Your guild assigns or makes available work that aligns with its type. Jobs vary in difficulty, risk, and pay, with more prestigious and profitable assignments going to senior members. Under Full Support, work is assigned and refusal carries consequences. Under Partial Support, some work is assigned and some is offered. Under Self-Funded, jobs are posted and members take what interests them.
 
-**Follower.** When you have earned the trust of the guild, you may be assigned an apprentice to train. This is a 1st through 3rd level thief who studies under your guidance. You are responsible for their instruction in the trade and their conduct within the guild. The death or arrest of your apprentice reflects poorly on you and may damage your standing.
+<span id="follower_4"></span>**Follower.** When you have earned the trust of the guild, you may be assigned an apprentice to train. This is a 1st through 3rd level thief who studies under your guidance. You are responsible for their instruction in the trade and their conduct within the guild. The death or arrest of your apprentice reflects poorly on you and may damage your standing.
 
-**Stronghold.** How you acquire a stronghold depends on your guild's structure.
+<span id="stronghold_3"></span>**Stronghold.** How you acquire a stronghold depends on your guild's structure.
 
 Under Full Support, the guild bears the full cost of establishing your chapter. The guildmaster may send you to a new city to set up operations, funding the acquisition of a building and providing initial personnel. Or the guildmaster may appoint you to take over an existing chapter whose previous leader was removed. The chapter belongs to the guild; you are its steward. You owe dues to the parent guild and are responsible for maintaining the operation, defending it, and reporting to the guildmaster. If you break faith, the guild revokes it.
 

@@ -43,27 +43,27 @@ It is useful to understand the value of coins to the poor and to the wealthy whe
 
 Even for a knight, who has considerably more wealth than even the most well-to-do craftsmen, the purchase of a warhorse would take a year or more in earnings. It is a cost not undertaken lightly, and only after much hemming and hawing. It is not until the wealthiest merchants, nobles, and royalty enter the picture that gold nobles (gn), gold marks (gm), and gold sovereigns (gs) enter into common dealings. It is from this wealth that court officers and wealthy burghers amass as much wealth as a non-noble could hope to dream.
 
-**Serf**. Serfs are the lowest class of citizen. They are bound to the land they work, similar to renting, in which they owe dues to the landowner in exchange for living and working the land. While not slaves per se, they also cannot leave the land they are working without permission. Serfs comprise about 70% of the population.
+<span id="serf"></span>**Serf**. Serfs are the lowest class of citizen. They are bound to the land they work, similar to renting, in which they owe dues to the landowner in exchange for living and working the land. While not slaves per se, they also cannot leave the land they are working without permission. Serfs comprise about 70% of the population.
 
-**Laborer**. Laborers are generally unskilled peasants who do not own land to make a living through farming. They spend their lives performing hard labor and are free men, able to move from town to town, but rarely amass the means to do so. Laborers comprise about 15% of the population.
+<span id="laborer"></span>**Laborer**. Laborers are generally unskilled peasants who do not own land to make a living through farming. They spend their lives performing hard labor and are free men, able to move from town to town, but rarely amass the means to do so. Laborers comprise about 15% of the population.
 
-**Peasant**. Peasants either own enough land to support themselves and their family or work as skilled labor in trade crafts. Their skills are usually limited, such that only other peasants would generally be interested in their skills or goods. Peasants comprise about 10% of the population.
+<span id="peasant"></span>**Peasant**. Peasants either own enough land to support themselves and their family or work as skilled labor in trade crafts. Their skills are usually limited, such that only other peasants would generally be interested in their skills or goods. Peasants comprise about 10% of the population.
 
-**Expert**. Experts are usually tradesmen or merchants who make a comfortable income. Masons, carpenters, weavers, and other necessary craftsmen who ply their trade. The value of their work varies such that the average craftsman might make a peasant's wage in a rural village while a skilled one in a royal city might make many times as much. Experts comprise about 4% of the population.
+<span id="expert"></span>**Expert**. Experts are usually tradesmen or merchants who make a comfortable income. Masons, carpenters, weavers, and other necessary craftsmen who ply their trade. The value of their work varies such that the average craftsman might make a peasant's wage in a rural village while a skilled one in a royal city might make many times as much. Experts comprise about 4% of the population.
 
-**Knight**. Knights earn much of their income from the serfs who work their land or the natural resources thereupon. They are generally beholden to a noble or royalty and called upon in times of war. They live comfortable lives, but cannot afford to be free with their wealth in the same way that nobles are. They almost never hold a place in the court of the monarch and are expected to provide dues to the noble they owe fealty to. Knights comprise about .4% of the population.
+<span id="knight"></span>**Knight**. Knights earn much of their income from the serfs who work their land or the natural resources thereupon. They are generally beholden to a noble or royalty and called upon in times of war. They live comfortable lives, but cannot afford to be free with their wealth in the same way that nobles are. They almost never hold a place in the court of the monarch and are expected to provide dues to the noble they owe fealty to. Knights comprise about .4% of the population.
 
-**Burgher**. Burghers are among the wealthiest free men who are not nobles. They tend to be prolific merchants who have usually amassed their wealth by trading to nobles in the form of spices, silks, and furs. Depending on their prowess, the most successful may amass more wealth than many lesser noble houses. Burghers comprise about .31% of the population.
+<span id="burgher"></span>**Burgher**. Burghers are among the wealthiest free men who are not nobles. They tend to be prolific merchants who have usually amassed their wealth by trading to nobles in the form of spices, silks, and furs. Depending on their prowess, the most successful may amass more wealth than many lesser noble houses. Burghers comprise about .31% of the population.
 
-**Lesser Noble**. Lesser nobles, like knights, earn much of their income from the serfs that work their lands or the natural resources thereupon. They simply have more of it, or have a wealthier class of citizen that pays more in taxes. They rarely hold a place in the court of the monarch, but are expected to provide dues to the crown from their holdings. Lesser Nobles comprise about .2% of the population.
+<span id="lesser-noble"></span>**Lesser Noble**. Lesser nobles, like knights, earn much of their income from the serfs that work their lands or the natural resources thereupon. They simply have more of it, or have a wealthier class of citizen that pays more in taxes. They rarely hold a place in the court of the monarch, but are expected to provide dues to the crown from their holdings. Lesser Nobles comprise about .2% of the population.
 
-**Magnate / Officer**. Magnates or Officers of the Court are free-men who spend their lives in service to nobles or to the crown. For instance, a royal cook would be well-rewarded for fine cuisine and highly trusted to make meals for the royal family. Such a lofty position is usually one that is inherited by their children and ensures both prestige and comfort in later years. Magnates / Officers comprise about .074% of the population.
+<span id="magnate-officer"></span>**Magnate / Officer**. Magnates or Officers of the Court are free-men who spend their lives in service to nobles or to the crown. For instance, a royal cook would be well-rewarded for fine cuisine and highly trusted to make meals for the royal family. Such a lofty position is usually one that is inherited by their children and ensures both prestige and comfort in later years. Magnates / Officers comprise about .074% of the population.
 
-**Noble**. Nobles are generally of the rank of Baron, who enjoy a life of notable wealth and ease. Like their lessers, they generate wealth from their populace. They hold a place in the court of the monarch and are expected to provide dues to the crown from their holdings. Nobles comprise about .01% of the population.
+<span id="noble"></span>**Noble**. Nobles are generally of the rank of Baron, who enjoy a life of notable wealth and ease. Like their lessers, they generate wealth from their populace. They hold a place in the court of the monarch and are expected to provide dues to the crown from their holdings. Nobles comprise about .01% of the population.
 
-**Wealthy Noble**. Wealthy nobles are generally of the rank of Earl. They can amass a huge amount of wealth from their holdings and have a vast freedom to rule their lands as they see fit, depending on the laws of the monarch. They hold an honorable place in the court of the monarch and are expected to provide dues to the crown from their holdings. Wealthy Nobles comprise about .0055% of the population.
+<span id="wealthy-noble"></span>**Wealthy Noble**. Wealthy nobles are generally of the rank of Earl. They can amass a huge amount of wealth from their holdings and have a vast freedom to rule their lands as they see fit, depending on the laws of the monarch. They hold an honorable place in the court of the monarch and are expected to provide dues to the crown from their holdings. Wealthy Nobles comprise about .0055% of the population.
 
-**Royalty**. Royalty can refer to the King, Queen, Emperor, Empress, or similar titles. Depending on the system of government, they can have an almost limitless authority to run their country as they choose and derive almost all of their wealth from their nobility. During times of peace, this can be a significant quantity, but during times of war when trade routes are in danger or closed off, it can drop precipitously. There is usually only one royal family, which could be as small as 1 or 2 people, or as large as 50 or so depending on extended family.
+<span id="royalty"></span>**Royalty**. Royalty can refer to the King, Queen, Emperor, Empress, or similar titles. Depending on the system of government, they can have an almost limitless authority to run their country as they choose and derive almost all of their wealth from their nobility. During times of peace, this can be a significant quantity, but during times of war when trade routes are in danger or closed off, it can drop precipitously. There is usually only one royal family, which could be as small as 1 or 2 people, or as large as 50 or so depending on extended family.
 
 #### Wages by Social Class
 
@@ -166,9 +166,9 @@ Your Strength score represents the maximum weight your character can carry unenc
 * Worn clothing does not add to your weight
 * Coins are carried in containers. One Light object of space holds 3,200 copper farthings, 3,200 sp of silver coins, 3,200 electrum pennies, or 160 gs of gold coins. Work out each metal's share, add them, and round up once. *Example: 4,800 sp in silver, 1,600 farthings, and 80 gs in gold is 1½ + ½ + ½ = 2½, which rounds up to 3 Light objects.* A handful of coins, up to 1 lb (about 320 sp, or 16 gold sovereigns), takes no space.
 
-**Worn Armor.** Worn armor is less encumbering than carried armor. Every 15 lbs. of armor weight increases encumbrance by 1, rounded up.
+<span id="worn-armor"></span>**Worn Armor.** Worn armor is less encumbering than carried armor. Every 15 lbs. of armor weight increases encumbrance by 1, rounded up.
 
-**Carried Armor.** Carried armor is more encumbering than worn armor. Every 10 lbs. of armor weight increases encumbrance by 1, rounded up.
+<span id="carried-armor"></span>**Carried Armor.** Carried armor is more encumbering than worn armor. Every 10 lbs. of armor weight increases encumbrance by 1, rounded up.
 
 | Points | Encumbrance | Movement | Defense |
 |:---:|:---:|:---:|:---:|
@@ -205,24 +205,24 @@ A container takes one slot and counts as its own weight. Items inside it add no 
 
 Long weapons and shields don't fit inside a container. If something doesn't fit, lash it to a pack or carry it.
 
-**Outside Slots.** A backpack has outside slots for gear lashed to it: a Traveler's Backpack has 2, and a Canvas Backpack has 1. Lashed gear is outside the pack, so it counts its own weight. It is drawn like a sheathed weapon.
+<span id="outside-slots"></span>**Outside Slots.** A backpack has outside slots for gear lashed to it: a Traveler's Backpack has 2, and a Canvas Backpack has 1. Lashed gear is outside the pack, so it counts its own weight. It is drawn like a sheathed weapon.
 
-**Quick Items.** Quick-item containers hold consumables: potions, material components, healer's kits, and scrolls. Each uses 1 quick slot; a scroll uses 2. A quick item can be found and used for 1 AP (see *[Combat](../core/combat.md)*, [Interaction](../core/combat.md#interaction)). The Arm Sheath is the one quick container for a weapon: its kunai or ear dagger is drawn as part of the attack. Quick-item containers are the Bandolier (6), Small Belt Pouch (4), Bracer Pouch (2), Shield Pouch (2), Surgeon's Pocket Set (2), Scroll Case (3 scrolls), and Arm Sheath (1 kunai or ear dagger).
+<span id="quick-items"></span>**Quick Items.** Quick-item containers hold consumables: potions, material components, healer's kits, and scrolls. Each uses 1 quick slot; a scroll uses 2. A quick item can be found and used for 1 AP (see *[Combat](../core/combat.md)*, [Interaction](../core/combat.md#interaction)). The Arm Sheath is the one quick container for a weapon: its kunai or ear dagger is drawn as part of the attack. Quick-item containers are the Bandolier (6), Small Belt Pouch (4), Bracer Pouch (2), Shield Pouch (2), Surgeon's Pocket Set (2), Scroll Case (3 scrolls), and Arm Sheath (1 kunai or ear dagger).
 
-**Held Containers.** A filled sack, basket, or bucket is carried in your hands and takes no slot, but the hand holding it is in use. Chests and barrels need both hands, a mount, or a vehicle.
+<span id="held-containers"></span>**Held Containers.** A filled sack, basket, or bucket is carried in your hands and takes no slot, but the hand holding it is in use. Chests and barrels need both hands, a mount, or a vehicle.
 
 ### Creature Carrying Capacity
 
 A creature's carrying capacity equals its Strength score multiplied by its footprint in squares. A creature uses its carrying capacity in place of STR when determining encumbrance thresholds.
 
-**Mount Encumbrance.** A mount's total load is the sum of its rider weight, barding, and cargo.
+<span id="mount-encumbrance"></span>**Mount Encumbrance.** A mount's total load is the sum of its rider weight, barding, and cargo.
 
-**Rider Weight.** A rider weighs their body (Small 3, Average 6) plus their current encumbrance points. The rider still tracks their own encumbrance against their own Strength score. *Example: an Average knight carrying 12 points of armor and gear weighs 18 to his mount.*
+<span id="rider-weight"></span>**Rider Weight.** A rider weighs their body (Small 3, Average 6) plus their current encumbrance points. The rider still tracks their own encumbrance against their own Strength score. *Example: an Average knight carrying 12 points of armor and gear weighs 18 to his mount.*
 
-**Tack.** Worn tack (saddle, bridle, saddle blanket, halter) does not count against a mount's capacity. Saddle bags and panniers count as containers: their own weight, with contents ignored.
+<span id="tack"></span>**Tack.** Worn tack (saddle, bridle, saddle blanket, halter) does not count against a mount's capacity. Saddle bags and panniers count as containers: their own weight, with contents ignored.
 
-**Barding.** Barding is armor worn by the mount. It counts its Worn encumbrance value against the mount's carrying capacity.
+<span id="barding"></span>**Barding.** Barding is armor worn by the mount. It counts its Worn encumbrance value against the mount's carrying capacity.
 
-**Dragging.** A creature can drag up to three times its carrying capacity along the ground. Dragging at full capacity halves the creature's speed.
+<span id="dragging"></span>**Dragging.** A creature can drag up to three times its carrying capacity along the ground. Dragging at full capacity halves the creature's speed.
 
-**Pulling.** A creature harnessed to a wheeled vehicle can pull up to ten times its carrying capacity over normal terrain. Pulling at full capacity halves the creature's speed.
+<span id="pulling"></span>**Pulling.** A creature harnessed to a wheeled vehicle can pull up to ten times its carrying capacity over normal terrain. Pulling at full capacity halves the creature's speed.

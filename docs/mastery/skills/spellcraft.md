@@ -29,10 +29,10 @@ When you make a trial in a duel, add your Spellcraft mastery die to the roll.
 
 Choose a tradition other than your own. You can draw new spells from that tradition's sources as well as your own (see *[Magic Mastery](../magic/index.md)*, *[Discovery](../magic/index.md#discovery)*). At a foreign source, perform your own tradition's practice and roll your Spellcraft mastery die + your mastery die in the source's form. A spell you learn this way belongs to your own tradition.
 
-- **Occult Spellcraft:** occult writings and teachings, such as grimoires, treatises, and the instruction of other practitioners. Reading and writing scrolls remains part of Trade (Scribe). If your own tradition is Telluric, you can draw from a written source only by giving it voice: it is read aloud, by you or another, and recomposed into memory.
-- **Priscan Spellcraft:** fonts of priscan magic, where wild magic wells up through wind, earth, and water.
-- **Telluric Spellcraft:** natural sacred sites, such as ley lines, faerie circles, and sacred groves.
-- **Theurgic Spellcraft:** holy sites, such as shrines, temples, and sacred grounds.
+- <span id="occult-spellcraft"></span>**Occult Spellcraft:** occult writings and teachings, such as grimoires, treatises, and the instruction of other practitioners. Reading and writing scrolls remains part of Trade (Scribe). If your own tradition is Telluric, you can draw from a written source only by giving it voice: it is read aloud, by you or another, and recomposed into memory.
+- <span id="priscan-spellcraft"></span>**Priscan Spellcraft:** fonts of priscan magic, where wild magic wells up through wind, earth, and water.
+- <span id="telluric-spellcraft"></span>**Telluric Spellcraft:** natural sacred sites, such as ley lines, faerie circles, and sacred groves.
+- <span id="theurgic-spellcraft"></span>**Theurgic Spellcraft:** holy sites, such as shrines, temples, and sacred grounds.
 
 ## Spellcraft Abilities
 
@@ -42,11 +42,11 @@ At each mastery level, choose one ability you have not already chosen.
 
 These are three ways to meet magic aimed at you. You can choose only one of them.
 
-**Bolster:** Before you make a trial to resist a magical attack or effect, you may spend 1 AP and 1 magan to add your Spellcraft mastery die to the roll.
+<span id="bolster"></span>**Bolster:** Before you make a trial to resist a magical attack or effect, you may spend 1 AP and 1 magan to add your Spellcraft mastery die to the roll.
 
-**Magical Absorption:** Before you make a trial to resist a magical attack or effect, you may spend 1 AP to make it a Spellcraft mastery trial instead, using the attribute tier die the trial normally uses + your Spellcraft mastery die. If you succeed, you resist the effect and regain magan by the rank of its source: 1 for a Minion, 2 for an Adept, 3 for a Leader, 4 for a Champion, 5 for a Master, 6 for an Epic, and 7 for a Legendary creature, up to your maximum. A source with no rank gives 1, or as the GM decides.
+<span id="magical-absorption"></span>**Magical Absorption:** Before you make a trial to resist a magical attack or effect, you may spend 1 AP to make it a Spellcraft mastery trial instead, using the attribute tier die the trial normally uses + your Spellcraft mastery die. If you succeed, you resist the effect and regain magan by the rank of its source: 1 for a Minion, 2 for an Adept, 3 for a Leader, 4 for a Champion, 5 for a Master, 6 for an Epic, and 7 for a Legendary creature, up to your maximum. A source with no rank gives 1, or as the GM decides.
 
-**Magical Reflection:** Before you make a trial to resist a magical attack or effect that targets only you, you may spend 1 AP to make it a Spellcraft mastery trial instead, using the attribute tier die the trial normally uses + your Spellcraft mastery die. If you succeed, you resist the effect and may pay magan by the rank of its source to turn it back on that source: 1 for a Minion, 2 for an Adept, 3 for a Leader, 4 for a Champion, 5 for a Master, 6 for an Epic, and 7 for a Legendary creature. A source with no rank costs 1, or as the GM decides. The effect keeps its own DC and dice. A reflected effect that cannot affect its source fails.
+<span id="magical-reflection"></span>**Magical Reflection:** Before you make a trial to resist a magical attack or effect that targets only you, you may spend 1 AP to make it a Spellcraft mastery trial instead, using the attribute tier die the trial normally uses + your Spellcraft mastery die. If you succeed, you resist the effect and may pay magan by the rank of its source to turn it back on that source: 1 for a Minion, 2 for an Adept, 3 for a Leader, 4 for a Champion, 5 for a Master, 6 for an Epic, and 7 for a Legendary creature. A source with no rank costs 1, or as the GM decides. The effect keeps its own DC and dice. A reflected effect that cannot affect its source fails.
 
 ### Diacope
 

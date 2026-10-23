@@ -10,13 +10,13 @@ Incendiaries deal Fire damage, from the maker's dice.
 
 Thrown concoctions use the **Aiming Trial** (*[Combat](../../../core/combat.md)*) at range 15/30/45. Targets resist with an **Agility** trial against the maker's Mastery DC.
 
-- **Bursts.** Serpentine grenades, wildfire pots, and quicklime pots burst wherever they land. On a miss, it lands 5 ft away for each point you missed by, in a direction set by 1d8: 1 is straight past the target, counting clockwise, and 5 is straight back toward the thrower. Everyone inside the area resists.
-- **Splashes.** Aqua fortis and oil of vitriol are thrown at one creature or object. On a miss, the vial breaks harmlessly.
+- <span id="bursts"></span>**Bursts.** Serpentine grenades, wildfire pots, and quicklime pots burst wherever they land. On a miss, it lands 5 ft away for each point you missed by, in a direction set by 1d8: 1 is straight past the target, counting clockwise, and 5 is straight back toward the thrower. Everyone inside the area resists.
+- <span id="splashes"></span>**Splashes.** Aqua fortis and oil of vitriol are thrown at one creature or object. On a miss, the vial breaks harmlessly.
 
 ## Lighting
 
 - A rag wick needs an **open flame within reach**: a torch, a lantern, a brazier, or a light held by an ally. Lighting it takes 1 AP.
-- **Slow match** lights fuses: Serpentine, and Corrected wildfire. Lighting one takes 1 AP.
+- <span id="slow-match"></span>**Slow match** lights fuses: Serpentine, and Corrected wildfire. Lighting one takes 1 AP.
 
 ## Carrying
 
@@ -50,7 +50,7 @@ Serpentine is thrown as a grenade or placed as a petard. A grenade bursts in a 1
 
 \*\* **Concentrated:** quick match; it bursts when it lands. **Corrected:** corned powder; it ignores damp.
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications |
 |:---|:---:|:---:|:---:|
@@ -70,9 +70,9 @@ The larger the petard, the more skill it takes to make, and the bigger the gate 
 | Master | Large petard | 25 lbs | 13 / 125 lbs. | 11 | A great gate (Huge) | 11 sc | 5 gs |
 | Grand Master | Great petard | 45 lbs | 23 / 225 lbs. | 20 | A fortress gate (Colossal) | 20 sc | 9 gs |
 
-- **The blast:** a petard bursts one round after it's lit, in the same phase. The maker's dice strike anyone within 5 ft in front of it, including whoever lit it, who resist with an Agility trial against the dose's DC. The person placing it must stand there to light it.
-- **Price:** the Serpentine doses at the grenade price (1 sc each), plus the bronze casing: about 4 lbs of bronze for every pound of powder, at 1 ss a pound. A recovered casing can be reused, and old bronze keeps its value as scrap.
-- **Weight is the practical limit.** A hand petard goes in a pack. A large or great petard takes a team, and a way to get it to the gate under the defenders' eyes.
+- <span id="the-blast"></span>**The blast:** a petard bursts one round after it's lit, in the same phase. The maker's dice strike anyone within 5 ft in front of it, including whoever lit it, who resist with an Agility trial against the dose's DC. The person placing it must stand there to light it.
+- <span id="price"></span>**Price:** the Serpentine doses at the grenade price (1 sc each), plus the bronze casing: about 4 lbs of bronze for every pound of powder, at 1 ss a pound. A recovered casing can be reused, and old bronze keeps its value as scrap.
+- <span id="weight-is-the-practical-limit"></span>**Weight is the practical limit.** A hand petard goes in a pack. A large or great petard takes a team, and a way to get it to the gate under the defenders' eyes.
 
 ## Wildfire
 
@@ -102,7 +102,7 @@ Wildfire is thrown as a lit pot or soaked into Wrapped arrows or quarrels. A pot
 
 \*\* **Corrected:** a Serpentine-primed fuse instead of a rag. It lights from slow match and in wind or wet, but bursts at the start of the next phase after it lands, like a Serpentine grenade. **Lingering:** one more instance of Burning.
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification | 2 modifications | 3 modifications |
 |:---|:---:|:---:|:---:|:---:|

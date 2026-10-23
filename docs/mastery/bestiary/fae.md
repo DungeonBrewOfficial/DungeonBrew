@@ -8,7 +8,7 @@ Fae creatures are sustained by Primal magic — the magic of growth, decay, and 
 
 All creatures in this file are **Fae (Primal)** unless otherwise noted.
 
-**Builder notes:** Fae are diverse — elves, orcs, goblins, dryads, and spirits are all equally Fae. The common thread is Primal magic. Casters need Primal Form to charm, bind, summon, or banish these creatures. Mind magic does not work for non-damage interaction (unlike Mortal creatures).
+<span id="builder-notes"></span>**Builder notes:** Fae are diverse — elves, orcs, goblins, dryads, and spirits are all equally Fae. The common thread is Primal magic. Casters need Primal Form to charm, bind, summon, or banish these creatures. Mind magic does not work for non-damage interaction (unlike Mortal creatures).
 
 ---
 
@@ -24,13 +24,13 @@ Goblins in Mastery are not the disposable D&D green-skins. They are Fae beings �
 
 A malevolent, murderous goblin found in ruined castles and places of old violence. Short and thickset, with long prominent teeth, eagle-like talons, fiery red eyes, and iron boots. It soaks its cap in the blood of its victims. Unaffected by human strength — it must be driven off by sacred words or objects.
 
-**Attributes:**
+<span id="attributes"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 13 (T3, d4) | 8 (T2, d3) | 9 (T2, d3) | 9 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 9 (T2, d3) |
 
-**Tier Budget:** 3+2+2+2+2+2+1+2 = 16. Budget for T2 Adept = 18. Close (-2). ✓
+<span id="tier-budget"></span>**Tier Budget:** 3+2+2+2+2+2+1+2 = 16. Budget for T2 Adept = 18. Close (-2). ✓
 
 | Stat | Value |
 |:---|:---|
@@ -46,13 +46,13 @@ A malevolent, murderous goblin found in ruined castles and places of old violenc
 | Footprint | ½ sq |
 | Reach | 10 ft (pike) / 5 ft (rock) |
 
-**Senses:** Crepuscular sight.
+<span id="senses"></span>**Senses:** Crepuscular sight.
 
-**Passive:**
+<span id="passive"></span>**Passive:**
 
-***Unnatural Strength.*** *(Ability slot 1.)* The Redcap cannot be grappled by creatures with STR lower than its own STR score (13). Attempts to physically restrain it automatically fail.
+<span id="unnatural-strength"></span>***Unnatural Strength.*** *(Ability slot 1.)* The Redcap cannot be grappled by creatures with STR lower than its own STR score (13). Attempts to physically restrain it automatically fail.
 
-***Iron-Shod.*** *(Ability slot 2.)* The Redcap's heavy iron boots grant it +2 to trials against [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") and [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). It cannot be knocked down by effects that would topple a creature of its size.
+<span id="iron-shod"></span>***Iron-Shod.*** *(Ability slot 2.)* The Redcap's heavy iron boots grant it +2 to trials against [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") and [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). It cannot be knocked down by effects that would topple a creature of its size.
 
 > **Note:** The Redcap uses 2 ability slots (T2 Adept maximum) on passive features. It has no active combat abilities — it fights with pike and rock. The Redcap's threat is raw damage output, reach, and the fact that it can't be restrained or knocked down. It is a simple, relentless brute.
 
@@ -64,13 +64,13 @@ A malevolent, murderous goblin found in ruined castles and places of old violenc
 
 A subterranean goblin that only surfaces during the darkest weeks of the year, around the winter solstice. Motivated by destruction, but terrified of fire and light. Short, ugly, and vicious in packs.
 
-**Attributes:**
+<span id="attributes_1"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 6 (T2, d3) | 11 (T3, d4) | 6 (T2, d3) | 4 (T1, d2) | 4 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 8 (T2, d3) |
 
-**Tier Budget:** 2+3+2+1+1+1+1+2 = 13. Budget for T1 Adept = 12. Over (+1). ✓
+<span id="tier-budget_1"></span>**Tier Budget:** 2+3+2+1+1+1+1+2 = 13. Budget for T1 Adept = 12. Over (+1). ✓
 
 | Stat | Value |
 |:---|:---|
@@ -85,19 +85,19 @@ A subterranean goblin that only surfaces during the darkest weeks of the year, a
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-**Senses:** Scotopic sight (20 ft dark / 200 ft ambient).
+<span id="senses_1"></span>**Senses:** Scotopic sight (20 ft dark / 200 ft ambient).
 
-**Passive:**
+<span id="passive_1"></span>**Passive:**
 
-***Fear of Fire and Light*** *(Passive, no slot).* The Kallikantzaros must succeed on a WIS trial [3] to willingly approach within 10 feet of open flame or light. If it takes Fire damage, it advances [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier, treating the source of fire as the source of its fear.
+<span id="fear-of-fire-and-light"></span>***Fear of Fire and Light*** *(Passive, no slot).* The Kallikantzaros must succeed on a WIS trial [3] to willingly approach within 10 feet of open flame or light. If it takes Fire damage, it advances [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier, treating the source of fire as the source of its fear.
 
-***Solstice Bound*** *(Passive, no slot).* The Kallikantzaros can only surface during the darkest weeks of the year (roughly 2-3 weeks around the winter solstice). Outside this window, it remains underground.
+<span id="solstice-bound"></span>***Solstice Bound*** *(Passive, no slot).* The Kallikantzaros can only surface during the darkest weeks of the year (roughly 2-3 weeks around the winter solstice). Outside this window, it remains underground.
 
-**Abilities:**
+<span id="abilities"></span>**Abilities:**
 
-***Rend*** *(1 AP, Attack. Ability slot 1).* On a hit with a claw attack, with Impotence, if damage is dealt the target must succeed on an END trial [3] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
+<span id="rend"></span>***Rend*** *(1 AP, Attack. Ability slot 1).* On a hit with a claw attack, with Impotence, if damage is dealt the target must succeed on an END trial [3] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
 
-***Swarm Frenzy*** *(1 AP, Reaction. Ability slot 2).* When an allied Kallikantzaros within 5 feet hits a creature, this Kallikantzaros can make a claw attack against the same target.
+<span id="swarm-frenzy"></span>***Swarm Frenzy*** *(1 AP, Reaction. Ability slot 2).* When an allied Kallikantzaros within 5 feet hits a creature, this Kallikantzaros can make a claw attack against the same target.
 
 > **Note:** Swarm Frenzy is the goblin version of Pack — coordinated attacks when allies connect. Combined with their Fear of Fire, the tactical picture is clear: bring torches. Without fire, they swarm and tear. With fire, they scatter.
 
@@ -111,15 +111,15 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 
 *Division 3, Tier 2, Adept. 1×1 Fae Tuatha (Primal).*
 
-**Attributes:**
+<span id="attributes_2"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 14 (T3, d4) | 9 (T2, d3) | 13 (T3, d4) | 12 (T3, d4) | 6 (T2, d3) | 4 (T1, d2) | 6 (T2, d3) | 8 (T2, d3) |
 
-**Tier Budget:** 3+2+3+3+2+1+2+2 = 18. Budget for T2 Adept = 18. ✓
+<span id="tier-budget_2"></span>**Tier Budget:** 3+2+3+3+2+1+2+2 = 18. Budget for T2 Adept = 18. ✓
 
-**Armor:** Hide Armor (Cut 1, Crush 4, Cleave 2, Pierce 7, Puncture 6 = 20 total)
+<span id="armor"></span>**Armor:** Hide Armor (Cut 1, Crush 4, Cleave 2, Pierce 7, Puncture 6 = 20 total)
 
 | Stat | Value |
 |:---|:---|
@@ -139,11 +139,11 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** Scotopic sight (20 ft dark / 200 ft ambient).
+<span id="senses_2"></span>**Senses:** Scotopic sight (20 ft dark / 200 ft ambient).
 
-**Abilities:**
+<span id="abilities_1"></span>**Abilities:**
 
-***Hook*** *(1 AP, Attack. Ability slot 1).* On a hit with an axe attack, with Impotence, the target must succeed on a PHY trial [4] or swap positions with the orc.
+<span id="hook"></span>***Hook*** *(1 AP, Attack. Ability slot 1).* On a hit with an axe attack, with Impotence, the target must succeed on a PHY trial [4] or swap positions with the orc.
 
 > **Note:** Hook is directly from the Bearded Axe weapon property and the Axe maneuvers. It's a positioning ability — the orc pulls a defender out of line and gets behind them. Tactical play: orc raiders hook the shield-bearer out of formation, exposing the caster behind.
 
@@ -153,15 +153,15 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 
 *Division 6, Tier 2, Master. 1×1 Fae Tuatha (Primal).*
 
-**Attributes:**
+<span id="attributes_3"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 16 (T4, d6) | 9 (T2, d3) | 14 (T3, d4) | 16 (T4, d6) | 8 (T2, d3) | 6 (T2, d3) | 12 (T3, d4) | 11 (T3, d4) |
 
-**Tier Budget:** 4+2+3+4+2+2+3+3 = 23. Budget for T2 Master = 24. Under (-1). ✓
+<span id="tier-budget_3"></span>**Tier Budget:** 4+2+3+4+2+2+3+3 = 23. Budget for T2 Master = 24. Under (-1). ✓
 
-**Armor:** Scale Mail (Cut 12, Crush 6, Cleave 6, Pierce 6, Puncture 8 = 38 total)
+<span id="armor_1"></span>**Armor:** Scale Mail (Cut 12, Crush 6, Cleave 6, Pierce 6, Puncture 8 = 38 total)
 
 | Stat | Value |
 |:---|:---|
@@ -180,19 +180,19 @@ Orcs are Fae. Their violence is not corruption — it is simply what Primal natu
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-**Senses:** Scotopic sight (20 ft dark / 200 ft ambient).
+<span id="senses_3"></span>**Senses:** Scotopic sight (20 ft dark / 200 ft ambient).
 
-**Passive:**
+<span id="passive_2"></span>**Passive:**
 
-***Grief Fury*** *(Ability slot 1).* When an allied orc within 30 feet is killed, the orc advances [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier (max Tier 3). Degrades by 1 tier per round if not re-triggered. The orc has Dominance on trials to resist conditions that would counter Grief Fury.
+<span id="grief-fury"></span>***Grief Fury*** *(Ability slot 1).* When an allied orc within 30 feet is killed, the orc advances [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier (max Tier 3). Degrades by 1 tier per round if not re-triggered. The orc has Dominance on trials to resist conditions that would counter Grief Fury.
 
-***Breaker*** *(Ability slot 2).* When the orc makes an attack where at least one damage die explodes, it can add its STR score (16) to the damage total. Immediately advances [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 3 tiers, which degrades by 1 tier per round.
+<span id="breaker"></span>***Breaker*** *(Ability slot 2).* When the orc makes an attack where at least one damage die explodes, it can add its STR score (16) to the damage total. Immediately advances [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 3 tiers, which degrades by 1 tier per round.
 
-**Abilities:**
+<span id="abilities_2"></span>**Abilities:**
 
-***Charge*** *(2 AP, Movement + Attack. Ability slot 3).* The orc moves at least 15 feet in a straight line and makes a labrys attack with Dominance. Countered by Set Spear vs Charge.
+<span id="charge"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 3).* The orc moves at least 15 feet in a straight line and makes a labrys attack with Dominance. Countered by Set Spear vs Charge.
 
-***Double Damage*** *(1 AP, Reaction. Ability slot 4).* Before an enemy's melee attack roll targeting the orc, the orc allows the attack to automatically hit with Superiority. After taking damage, the orc immediately makes a labrys attack with Superiority and Dominance.
+<span id="double-damage"></span>***Double Damage*** *(1 AP, Reaction. Ability slot 4).* Before an enemy's melee attack roll targeting the orc, the orc allows the attack to automatically hit with Superiority. After taking damage, the orc immediately makes a labrys attack with Superiority and Dominance.
 
 > **Note:** Weapon-specific properties ("+2 to Hook Attacks", "+2 to Damage", "+1 to Riposte") do not apply to monster stat blocks. These are tied to PC mastery levels. Monsters balance on Tier/Rank, not weapon properties. Exception possible for Epic/Legendary creatures.
 
@@ -208,15 +208,15 @@ Sídhe are Fae spirits tied to a specific place or living thing. A dryad IS her 
 
 An ancient tree awakened. The Treow moves with glacial patience, its roots pulling free from the earth with the sound of tearing stone. Bark like iron, branches like siege arms, and roots that grip so deeply the ground shudders when it walks. Treow do not seek conflict — they are guardians, not hunters. But the forest remembers every axe.
 
-**Attributes:**
+<span id="attributes_4"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 21 (T5, d8) | 3 (T1, d2) | 8 (T2, d3) | 21 (T5, d8) | 3 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 11 (T3, d4) |
 
-**Tier Budget:** 5+1+2+5+1+3+2+3 = 22. Budget for T2 Champion = 22. ✓
+<span id="tier-budget_4"></span>**Tier Budget:** 5+1+2+5+1+3+2+3 = 22. Budget for T2 Champion = 22. ✓
 
-**Classification Package:** Immune Primal. Vulnerable Void (Impotence vs Void damage trials). Connected Form: Primal.
+<span id="classification-package"></span>**Classification Package:** Immune Primal. Vulnerable Void (Impotence vs Void damage trials). Connected Form: Primal.
 
 | Stat | Value |
 |:---|:---|
@@ -230,17 +230,17 @@ An ancient tree awakened. The Treow moves with glacial patience, its roots pulli
 | Footprint | 2×2 (4 sq) |
 | Reach | 10 ft |
 
-**Senses:** Perceives creatures in contact with the ground within 60 ft through its root network, regardless of visibility.
+<span id="senses_4"></span>**Senses:** Perceives creatures in contact with the ground within 60 ft through its root network, regardless of visibility.
 
-**Passive:**
+<span id="passive_3"></span>**Passive:**
 
-***Deep Roots.*** *(Ability slot 1.)* The Treow has Superiority on all trials to resist being moved or displaced.
+<span id="deep-roots"></span>***Deep Roots.*** *(Ability slot 1.)* The Treow has Superiority on all trials to resist being moved or displaced.
 
-**Abilities:**
+<span id="abilities_3"></span>**Abilities:**
 
-***Root Snare*** *(1 AP, Action. Ability slot 2.)* The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Advances on repeated application. No damage. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it. While a target is Pinned by Root Snare, the Treow's attacks against it have Superiority.
+<span id="root-snare"></span>***Root Snare*** *(1 AP, Action. Ability slot 2.)* The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Advances on repeated application. No damage. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it. While a target is Pinned by Root Snare, the Treow's attacks against it have Superiority.
 
-***Timber*** *(2 AP, Attack. Ability slot 3.)* The Treow makes a branch slam attack targeting all creatures in a 10-foot line. Roll one attack and apply to all targets. On a hit, targets must succeed on a STR trial [6] or be pushed 10 feet.
+<span id="timber"></span>***Timber*** *(2 AP, Attack. Ability slot 3.)* The Treow makes a branch slam attack targeting all creatures in a 10-foot line. Roll one attack and apply to all targets. On a hit, targets must succeed on a STR trial [6] or be pushed 10 feet.
 
 ---
 
@@ -250,17 +250,17 @@ An ancient tree awakened. The Treow moves with glacial patience, its roots pulli
 
 A spirit of an ancient tree, bound to a grove extending roughly a mile from her bonded tree. Within this territory, roots obey her, branches reach for intruders, and the forest watches through her eyes. She appears as a humanoid figure woven from bark, leaves, and living wood. Destroying the Dryad in combat disperses her spirit; she reforms at her tree within days. To end her permanently, the bonded tree must be destroyed, an undertaking measured in hours or days, not combat rounds.
 
-**Attributes:**
+<span id="attributes_5"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 9 (T2, d3) | 11 (T3, d4) | 12 (T3, d4) | 16 (T4, d6) | 11 (T3, d4) | 14 (T3, d4) | 16 (T4, d6) | 22 (T5, d8) |
 
-**Tier Budget:** 2+3+3+4+3+3+4+5 = 27. Budget for T2 Epic = 28. Under (-1). ✓
+<span id="tier-budget_5"></span>**Tier Budget:** 2+3+3+4+3+3+4+5 = 27. Budget for T2 Epic = 28. Under (-1). ✓
 
-**Classification Package:** Immune Primal. Vulnerable Void. Connected Form: Primal.
+<span id="classification-package_1"></span>**Classification Package:** Immune Primal. Vulnerable Void. Connected Form: Primal.
 
-**Spellcasting:** Mastery Level 6 (Rank). ATD d8 (PER). Spell DC 8.
+<span id="spellcasting"></span>**Spellcasting:** Mastery Level 6 (Rank). ATD d8 (PER). Spell DC 8.
 
 | Stat | Value |
 |:---|:---|
@@ -274,45 +274,45 @@ A spirit of an ancient tree, bound to a grove extending roughly a mile from her 
 | Footprint | 1×1 |
 | Reach | 5 ft |
 
-**Senses:** Perceives creatures in contact with the ground within her grove through the root network.
+<span id="senses_5"></span>**Senses:** Perceives creatures in contact with the ground within her grove through the root network.
 
-**The Bonded Tree**
+<span id="the-bonded-tree"></span>**The Bonded Tree**
 
 The Dryad's bonded tree is a massive ancient tree (2×2 footprint, 15 ft reach). It cannot defend; attacks against it hit automatically. Damage is reduced by resistance only.
 
-**Tree Resistance:** 14 (2×Division) to all types. Exceptions: Cleaving 7, Fire 7, Void 7. Immune Primal.
+<span id="tree-resistance"></span>**Tree Resistance:** 14 (2×Division) to all types. Exceptions: Cleaving 7, Fire 7, Void 7. Immune Primal.
 
-**Threshold Effects** *(checked at the start of the Dryad's turn; based on total damage dealt to the tree since her last turn. Thresholds stack. Reset if the tree takes less than the threshold next round.)*
+<span id="threshold-effects"></span>**Threshold Effects** *(checked at the start of the Dryad's turn; based on total damage dealt to the tree since her last turn. Thresholds stack. Reset if the tree takes less than the threshold next round.)*
 
-**Threshold 1 (7+ damage, 1×Division):** Regen suppressed. The Dryad's spells gain Dominance.
+<span id="threshold-1"></span>**Threshold 1 (7+ damage, 1×Division):** Regen suppressed. The Dryad's spells gain Dominance.
 
-**Threshold 2 (14+ damage, 2×Division):** Woodland Meld unavailable. The bonded tree attacks during the Slow phase: 2 AP, Branch Slam: d12 (DTD) + d8 (PER) Crushing, 15 ft reach from the tree's position.
+<span id="threshold-2"></span>**Threshold 2 (14+ damage, 2×Division):** Woodland Meld unavailable. The bonded tree attacks during the Slow phase: 2 AP, Branch Slam: d12 (DTD) + d8 (PER) Crushing, 15 ft reach from the tree's position.
 
-**Grove Terrain:** Within the grove, line of sight beyond 60 ft is blocked by canopy and undergrowth.
+<span id="grove-terrain"></span>**Grove Terrain:** Within the grove, line of sight beyond 60 ft is blocked by canopy and undergrowth.
 
-**Passive:**
+<span id="passive_4"></span>**Passive:**
 
-***Tree-Bound.*** *(Ability slot 1.)* The Dryad regenerates 1d6 health at the start of each turn while within her grove. If reduced to 0 health, her spirit disperses and reforms at her bonded tree within days.
+<span id="tree-bound"></span>***Tree-Bound.*** *(Ability slot 1.)* The Dryad regenerates 1d6 health at the start of each turn while within her grove. If reduced to 0 health, her spirit disperses and reforms at her bonded tree within days.
 
-**Abilities:**
+<span id="abilities_4"></span>**Abilities:**
 
-***Woodland Meld*** *(1 AP, Action. Ability slot 2).* The Dryad melds into natural terrain and emerges from another point within 120 ft. Her next start-of-turn regen becomes 2d6. Cannot use while [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).").
+<span id="woodland-meld"></span>***Woodland Meld*** *(1 AP, Action. Ability slot 2).* The Dryad melds into natural terrain and emerges from another point within 120 ft. Her next start-of-turn regen becomes 2d6. Cannot use while [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).").
 
-***Thorn Bolt*** *(1 AP, Action [Moderate]. Ability slot 3. Range 60 ft).* The target must succeed on an AGI trial [8] or take d12 + d8 primal damage.
+<span id="thorn-bolt"></span>***Thorn Bolt*** *(1 AP, Action [Moderate]. Ability slot 3. Range 60 ft).* The target must succeed on an AGI trial [8] or take d12 + d8 primal damage.
 
-***Ensnare*** *(1 AP, Action [Moderate]. Ability slot 4. Range 60 ft).* Roots seize a creature. The target must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [8] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+<span id="ensnare"></span>***Ensnare*** *(1 AP, Action [Moderate]. Ability slot 4. Range 60 ft).* Roots seize a creature. The target must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [8] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
-***Thornwall*** *(1 AP, Action [Slow]. 1/encounter. Ability slot 5. Range 60 ft).* The Dryad raises a wall of thorny growth up to 20 feet long and 5 feet tall. The wall has 90 durability. Creatures forcing through take 6 primal damage and must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+<span id="thornwall"></span>***Thornwall*** *(1 AP, Action [Slow]. 1/encounter. Ability slot 5. Range 60 ft).* The Dryad raises a wall of thorny growth up to 20 feet long and 5 feet tall. The wall has 90 durability. Creatures forcing through take 6 primal damage and must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
-**Phase Reference** *(each phase includes all abilities from earlier phases):*
+<span id="phase-reference"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
 
-- **Moderate:** Strike, Thorn Bolt, Ensnare, Woodland Meld
-- **Slow:** all above + Thornwall
+- <span id="moderate"></span>**Moderate:** Strike, Thorn Bolt, Ensnare, Woodland Meld
+- <span id="slow"></span>**Slow:** all above + Thornwall
 
-**Encounter Modes:**
+<span id="encounter-modes"></span>**Encounter Modes:**
 
-**Default:** Guerrilla. She teleports, regens d6/turn (2d6 after Meld), harasses from range. The party chases her through dense forest.
+<span id="default"></span>**Default:** Guerrilla. She teleports, regens d6/turn (2d6 after Meld), harasses from range. The party chases her through dense forest.
 
-**Threshold 1:** Aggressive caster. Regen stops but spells gain Dominance (Thorn Bolt damage steps to 2d6 + d10). More lethal, no sustain, still mobile.
+<span id="threshold-1_1"></span>**Threshold 1:** Aggressive caster. Regen stops but spells gain Dominance (Thorn Bolt damage steps to 2d6 + d10). More lethal, no sustain, still mobile.
 
-**Threshold 2:** Cornered predator. Cannot Meld. Tree attacks in Slow phase (2 AP, Branch Slam at 15 ft reach). The chase becomes a siege.
+<span id="threshold-2_1"></span>**Threshold 2:** Cornered predator. Cannot Meld. Tree attacks in Slow phase (2 AP, Branch Slam at 15 ft reach). The chase becomes a siege.

@@ -49,24 +49,24 @@ He is a paladin. A human warrior of law and life. His power comes from his numen
 
 ## Paladin Experience Table
 
-**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
+<span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-**Title**. You should use this title when talking with other characters. Instead of saying "I'm Ilmore, a Second Level Paladin," you should say "I'm Ilmore, the Postulant."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Ilmore, a Second Level Paladin," you should say "I'm Ilmore, the Postulant."
 
-**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
+<span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
-**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
+<span id="skills"></span>**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a paladin, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (All)](../../skills/trade/index.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Tactics](../../skills/tactics.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
 * You learn *[Lore](../../skills/lore.md)* as part of the *[Theurgic Lore](#theurgic-lore)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
-**Spell Mastery**. At first level, you begin with 2 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
+<span id="spell-mastery"></span>**Spell Mastery**. At first level, you begin with 2 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
 
 * As a paladin, you can learn the 5 following forms: *[Fire](../../magic/index.md#fire)*, *[Sea](../../magic/index.md#sea)*, *[Sky](../../magic/index.md#sky)*, *[Stone](../../magic/index.md#stone)*, and *[Sacred](../../magic/index.md#sacred)* magic.
 * You gain 1 Spell Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
-**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
+<span id="weapon-mastery"></span>**Weapon Mastery**. At first level, you begin with 3 Weapon Mastery points, which must be spent immediately on Weapon Types or Combat Styles. You may use these points to advance Weapon Types and Combat Styles to Untrained mastery, but no further at this level.
 
 * You gain 1 Weapon Mastery point per level. At level 11, this increases to 2 points per level. At level 21, this increases to 3 points per level.
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
@@ -103,25 +103,25 @@ Your Theurgic Lore replaces your access to other Creature Lores. You cannot inve
 
 #### Turn
 
-**1 AP. Fast. Declared. Once per encounter.**
+<span id="1-ap-fast-declared-once-per-encounter"></span>**1 AP. Fast. Declared. Once per encounter.**
 
 Choose Asura or Daeva, then choose one Division; every creature of that Division you can see is targeted. On your turn, roll your Charisma tier die + Lore skill die.
 
-**DC:** Division × 2. If your roll meets or exceeds the DC, you succeed.
+<span id="dc"></span>**DC:** Division × 2. If your roll meets or exceeds the DC, you succeed.
 
-**Quantity Turned:** Roll ÷ Division (rounded down) = number of targeted creatures turned. If your roll turns fewer creatures than you targeted, you choose which are turned.
+<span id="quantity-turned"></span>**Quantity Turned:** Roll ÷ Division (rounded down) = number of targeted creatures turned. If your roll turns fewer creatures than you targeted, you choose which are turned.
 
-**Turned creatures** are compelled to flee from you as fast as they are able for as long as you concentrate. If cornered, they cower and cannot attack, although intelligent creatures may use defensive powers to protect themselves. While turning, you must hold your Focus in hand and can take no actions other than defense and movement.
+<span id="turned-creatures"></span>**Turned creatures** are compelled to flee from you as fast as they are able for as long as you concentrate. If cornered, they cower and cannot attack, although intelligent creatures may use defensive powers to protect themselves. While turning, you must hold your Focus in hand and can take no actions other than defense and movement.
 
-**Targeted creatures** that are not turned are immune to your turning for 24 hours.
+<span id="targeted-creatures"></span>**Targeted creatures** that are not turned are immune to your turning for 24 hours.
 
 #### Destroy Daeva
 
-**1 AP. Slow. Declared.** You can choose to destroy Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
+<span id="1-ap-slow-declared"></span>**1 AP. Slow. Declared.** You can choose to destroy Daeva rather than turn them. Roll ÷ DC (Division × 2) = number of creatures destroyed. Destroyed corporeal creatures dissolve to their expected decomposed state. Destroyed incorporeal creatures fade into nothingness. Destroyed creatures can never be raised again.
 
 #### Charm Asura
 
-**1 AP. Slow. Declared.** You can choose to inflict [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") Tier 3 on Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Charmed. Charmed is permanent. You can Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Charmed creatures to free up capacity. Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Charmed Asura to act, you must use your concentration slot or expend 1 AP per round. Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
+<span id="1-ap-slow-declared_1"></span>**1 AP. Slow. Declared.** You can choose to inflict [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") Tier 3 on Asura rather than turn them. Roll ÷ DC (Division × 2) = number of creatures Charmed. Charmed is permanent. You can Charm a total number of Divisions equal to your Charisma score. You can voluntarily release Charmed creatures to free up capacity. Charmed creatures remain stationary and inactive without concentration, defending themselves if attacked. To command Charmed Asura to act, you must use your concentration slot or expend 1 AP per round. Charmed creatures can be turned by a competing theurgic caster or have their control wrested away through a competing Charisma trial.
 
 ### Theurgic Magic
 
@@ -131,25 +131,25 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 
 * The DC of your spells is equal to your Mastery Level + your Charisma Tier (maximum 14).
 
-**Ordination.** You are ordained by a senior theurgic practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor records two prayers into a prayer book you have purchased (see *Codex* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your mentor records an additional prayer. When you first reach Skilled mastery in any form, your mentor records a final prayer. The first two prayers are a blessing; it is customary to tithe 1 sc for each prayer after that.
+<span id="ordination"></span>**Ordination.** You are ordained by a senior theurgic practitioner of at least Expert mastery or higher. At level one, when you select your Untrained forms, your mentor records two prayers into a prayer book you have purchased (see *[Codex](../../equipment/gear-and-services.md#codex)* in *[Equipment](../../equipment/gear-and-services.md)*). When you first reach Basic mastery in any form, your mentor records an additional prayer. When you first reach Skilled mastery in any form, your mentor records a final prayer. The first two prayers are a blessing; it is customary to tithe 1 sc for each prayer after that.
 
-**Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
+<span id="theurgic-revelation"></span>**Theurgic Revelation.** You can also discover new spells through pilgrimage to holy sites (shrines, temples, sacred grounds). Recording a prayer in your prayer book requires a tithe of magan² ss at a holy site and takes 1 day per magan. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 #### Prayer Book
 
 You start with a prayer book containing two prayers chosen by you or your GM. Each prayer occupies 1-2 pages.
 
-**Lost Book.** If your prayer book is lost, you cannot cast your recorded prayers and must recover the book or seek new revelations through pilgrimage and prayer.
+<span id="lost-book"></span>**Lost Book.** If your prayer book is lost, you cannot cast your recorded prayers and must recover the book or seek new revelations through pilgrimage and prayer.
 
 ### Chantment
 
-**Polestar.** Your weapon serves as your spell Focus.
+<span id="polestar"></span>**Polestar.** Your weapon serves as your spell Focus.
 
-**Imbue.** You can spend 1 AP to imbue your weapon with a damage type from a spell form in which you have at least Untrained mastery. While imbued, when your weapon deals damage to durability or health, it deals additional damage of the chosen type equal to your tier die. You either dedicate your concentration slot to maintain the imbuing or spend 1 AP per round. Cost: 1 magan per round.
+<span id="imbue"></span>**Imbue.** You can spend 1 AP to imbue your weapon with a damage type from a spell form in which you have at least Untrained mastery. While imbued, when your weapon deals damage to durability or health, it deals additional damage of the chosen type equal to your tier die. You either dedicate your concentration slot to maintain the imbuing or spend 1 AP per round. Cost: 1 magan per round.
 
 At Tier 1, you can spend 1 AP on your turn to change your imbued damage type. At Tier 4, you can change your imbued damage type on your turn without expending AP.
 
-**Chantment DC:** your Chantment tier + your casting attribute tier (Charisma for Avengers and Paladins, Intelligence for Bahadors).
+<span id="chantment-dc"></span>**Chantment DC:** your Chantment tier + your casting attribute tier (Charisma for Avengers and Paladins, Intelligence for Bahadors).
 
 | Level | Tier | Tier Die |
 |:---:|:---:|:---:|
@@ -163,14 +163,14 @@ At Tier 1, you can spend 1 AP on your turn to change your imbued damage type. At
 
 At each tier from 2-7, choose one effect from your class list.
 
-**Oath of Protection:** Swear an oath to protect a specific ally. When that ally is directly targeted by an attack or spell while within 30 feet of you, you can spend 1 AP to magically intercede before any rolls are made. You become the target instead and can defend or resist as normal.
+<span id="oath-of-protection"></span>**Oath of Protection:** Swear an oath to protect a specific ally. When that ally is directly targeted by an attack or spell while within 30 feet of you, you can spend 1 AP to magically intercede before any rolls are made. You become the target instead and can defend or resist as normal.
 
-**Holy Fortitude:** Spend 1 Magan to replace one of your trial's attribute dice with your Chantment tier die on a single trial to resist a spell or magical effect.
+<span id="holy-fortitude"></span>**Holy Fortitude:** Spend 1 Magan to replace one of your trial's attribute dice with your Chantment tier die on a single trial to resist a spell or magical effect.
 
-**Lay to Rest:** Daeva killed with your imbued weapon cannot be resurrected.
+<span id="lay-to-rest"></span>**Lay to Rest:** Daeva killed with your imbued weapon cannot be resurrected.
 
-**Condemn:** When you deal damage with your imbued weapon, spend 1 magan. Target has Inferiority on attacks against anyone other than you until the end of their next turn.
+<span id="condemn"></span>**Condemn:** When you deal damage with your imbued weapon, spend 1 magan. Target has Inferiority on attacks against anyone other than you until the end of their next turn.
 
-**Steadfast:** While imbuing, you have Dominance against the [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") condition.
+<span id="steadfast"></span>**Steadfast:** While imbuing, you have Dominance against the [Restricted](../../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") condition.
 
-**Martyr's Resolve:** When you are at half health or below, your imbued weapon attacks gain Dominance.
+<span id="martyrs-resolve"></span>**Martyr's Resolve:** When you are at half health or below, your imbued weapon attacks gain Dominance.

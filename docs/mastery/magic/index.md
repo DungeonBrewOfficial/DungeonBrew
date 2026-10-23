@@ -56,7 +56,7 @@ If the variation's magan exceeds your Form DC, make a trial at the midpoint of t
 
 Occult magic is the magic of understanding, the practice of uncovering the hidden structure of reality in order to manipulate its facets and produce desired outcomes. Occult magic is derivative by nature, studying and systematizing the principles that underlie all other sources of magic. Occult casters pursue magic through study and intellectual rigor.
 
-A practitioner of occult magic uses the Intelligence attribute to cast spells. To discover new spells, the caster studies occult writings and teachings: tomes, runic inscriptions, carved tablets, found grimoires, or the instruction of other practitioners. These teach principles rather than finished spells. The GM names the forms they cover, and each form is studied as its own source (see *[Discovery](#discovery)*). Scrolls are the exception: a scroll holds one fixed spell and is learned by casting it, which consumes the scroll (see *Skill Mastery, [Scribe: Reading Scrolls](../skills/trade/index.md#scribe-discipline)*). The caster transcribes each spell into their grimoire using the Scribe discipline. See *Codex* in the Equipment chapter for grimoire specifications.
+A practitioner of occult magic uses the Intelligence attribute to cast spells. To discover new spells, the caster studies occult writings and teachings: tomes, runic inscriptions, carved tablets, found grimoires, or the instruction of other practitioners. These teach principles rather than finished spells. The GM names the forms they cover, and each form is studied as its own source (see *[Discovery](#discovery)*). Scrolls are the exception: a scroll holds one fixed spell and is learned by casting it, which consumes the scroll (see *Skill Mastery, [Scribe: Reading Scrolls](../skills/trade/index.md#reading-scrolls)*). The caster transcribes each spell into their grimoire using the Scribe discipline. See *Codex* in the Equipment chapter for grimoire specifications.
 
 ### Priscan Magic
 
@@ -118,41 +118,41 @@ All casters have access to the four elemental forms. Access to the entropic form
 
 The form of fire encompasses the magic of flame, *destruction*, *transformation*, and *illumination*.
 
-**Destruction.** Fire is the ultimate cleanser, capable of immolating any other type of matter. Spells in the fire form may be used to destroy physical objects.
+<span id="destruction"></span>**Destruction.** Fire is the ultimate cleanser, capable of immolating any other type of matter. Spells in the fire form may be used to destroy physical objects.
 
-**Transformation.** Fire is the philosophical and alchemical agent of metamorphosis. Spells in the fire form may be used to drive change through heat: melting, boiling, scorching, and burning living matter to ash.
+<span id="transformation"></span>**Transformation.** Fire is the philosophical and alchemical agent of metamorphosis. Spells in the fire form may be used to drive change through heat: melting, boiling, scorching, and burning living matter to ash.
 
-**Illumination.** Fire is a source of light. Spells in the fire form are required to produce any type of illumination.
+<span id="illumination"></span>**Illumination.** Fire is a source of light. Spells in the fire form are required to produce any type of illumination.
 
 #### Sea
 
 The form of sea is an unpredictable form of magic, ultimately associated with the *three states of water*, *cleansing and corrosion*, and *changeability*.
 
-**Three States.** Sea is the magic of divergence, representing the three states of matter. Spells in the sea form may be used to create fog, rain, snow, ice, and flowing water, making its versatility remarkably effective.
+<span id="three-states"></span>**Three States.** Sea is the magic of divergence, representing the three states of matter. Spells in the sea form may be used to create fog, rain, snow, ice, and flowing water, making its versatility remarkably effective.
 
-**Cleansing and Corrosion.** Sea is the magic of solubility, breaking down materials into their most basic forms. Spells in the sea form may be used to clean but also to erode, and as such are used for purification as much as for corrosiveness.
+<span id="cleansing-and-corrosion"></span>**Cleansing and Corrosion.** Sea is the magic of solubility, breaking down materials into their most basic forms. Spells in the sea form may be used to clean but also to erode, and as such are used for purification as much as for corrosiveness.
 
-**Changeability.** Sea is the philosophical notion of natural or unintended change. Spells in the sea form may create change, as water itself is necessary for change, shaping land, dousing fire, and feeding storms.
+<span id="changeability"></span>**Changeability.** Sea is the philosophical notion of natural or unintended change. Spells in the sea form may create change, as water itself is necessary for change, shaping land, dousing fire, and feeding storms.
 
 #### Sky
 
 The form of sky is a tumultuous form of magic that encompasses the spectrum of both the gentle breeze and the raging storm, a means of *wind*, *storm*, and *movement*.
 
-**Wind.** Sky is both an element of cooling reprieve and raging destruction. Spells in the sky form may be used to eliminate threats or to relocate them, spreading a fire, allowing flight, pulling an enemy to the ground, or removing the air from their lungs.
+<span id="wind"></span>**Wind.** Sky is both an element of cooling reprieve and raging destruction. Spells in the sky form may be used to eliminate threats or to relocate them, spreading a fire, allowing flight, pulling an enemy to the ground, or removing the air from their lungs.
 
-**Storm.** Sky is the destructive aspect of sky magic, the threat of thunder, lightning, and chaos. Spells in the sky form may be used to create deafening thunder, fire devastating bolts of lightning, or combine these elements with whipping winds to create utter chaos.
+<span id="storm"></span>**Storm.** Sky is the destructive aspect of sky magic, the threat of thunder, lightning, and chaos. Spells in the sky form may be used to create deafening thunder, fire devastating bolts of lightning, or combine these elements with whipping winds to create utter chaos.
 
-**Movement.** Sky is the philosophical notion of movement. Spells in the sky form may be used to increase or decrease mobility, allowing the air around creatures to aid or hinder them.
+<span id="movement"></span>**Movement.** Sky is the philosophical notion of movement. Spells in the sky form may be used to increase or decrease mobility, allowing the air around creatures to aid or hinder them.
 
 #### Stone
 
 The form of stone is a passive and stable form of magic associated with confidence, endurance, and permanence, acting as a means of accessing *metal and mineral*, *structure*, and *solidity and granularity*.
 
-**Metal and Mineral.** Stone is the magic of the world's core physicality in terms of metal and mineral. Spells in the stone form may be used to bolster or repair metalworks and stoneworks, and to transform unworked stone and metal into usable objects.
+<span id="metal-and-mineral"></span>**Metal and Mineral.** Stone is the magic of the world's core physicality in terms of metal and mineral. Spells in the stone form may be used to bolster or repair metalworks and stoneworks, and to transform unworked stone and metal into usable objects.
 
-**Structure.** Stone is the physical foundation of material existence. Spells in the stone form may be used to reinforce physical integrity, fortifying walls, mending broken bones through the minerals that comprise them, or restoring the structural soundness of objects and creatures alike.
+<span id="structure"></span>**Structure.** Stone is the physical foundation of material existence. Spells in the stone form may be used to reinforce physical integrity, fortifying walls, mending broken bones through the minerals that comprise them, or restoring the structural soundness of objects and creatures alike.
 
-**Solidity and Granularity.** Stone is the philosophical notion of solidity and granularity. Spells in the stone form may be used to alter the state of an object in ways that represent its natural range, turning stone walls to sand or fusing metal links into a solid whole.
+<span id="solidity-and-granularity"></span>**Solidity and Granularity.** Stone is the philosophical notion of solidity and granularity. Spells in the stone form may be used to alter the state of an object in ways that represent its natural range, turning stone walls to sand or fusing metal links into a solid whole.
 
 ### Entropic Forms
 
@@ -160,41 +160,41 @@ The form of stone is a passive and stable form of magic associated with confiden
 
 The form of primal is the magic of living matter, connected to *living beings*, *organic growth*, and *the cycle of life*.
 
-**Living Beings.** Primal is the domain of animated organic substance, matter in which the sacred spark and profane fuel are unified and active. Spells in the primal form may be used to affect living beings by altering their physicality, calling them for aid, or taking on their form.
+<span id="living-beings"></span>**Living Beings.** Primal is the domain of animated organic substance, matter in which the sacred spark and profane fuel are unified and active. Spells in the primal form may be used to affect living beings by altering their physicality, calling them for aid, or taking on their form.
 
-**Organic Growth.** Primal is the relentless push of life to expand, take root, and endure. Spells in the primal form may be used to cultivate plant life as barriers, poisons, raw materials, or sustenance.
+<span id="organic-growth"></span>**Organic Growth.** Primal is the relentless push of life to expand, take root, and endure. Spells in the primal form may be used to cultivate plant life as barriers, poisons, raw materials, or sustenance.
 
-**The Cycle of Life.** Primal is the full arc from growth to decline, the understanding that both are necessary and neither is corruption. Spells in the primal form may be used to heal wounds, restore corrupted cycles, allow rot to continue from profane undeath, or encourage life in desolated barrens.
+<span id="the-cycle-of-life"></span>**The Cycle of Life.** Primal is the full arc from growth to decline, the understanding that both are necessary and neither is corruption. Spells in the primal form may be used to heal wounds, restore corrupted cycles, allow rot to continue from profane undeath, or encourage life in desolated barrens.
 
 #### Profane
 
 The form of profane is the magic of dead matter, connected to *inert material*, *the threshold of death*, and *disease and decay*.
 
-**Inert Material.** Profane is the domain of organic material at rest: bone, ash, horn, shell, and all matter from which life has passed. Spells in the profane form may be used to create, shape, and manipulate dead material.
+<span id="inert-material"></span>**Inert Material.** Profane is the domain of organic material at rest: bone, ash, horn, shell, and all matter from which life has passed. Spells in the profane form may be used to create, shape, and manipulate dead material.
 
-**The Threshold of Death.** Profane is the boundary where life ends and the cycle continues. Spells in the profane form may be used to animate the dead, hasten a living creature toward death, or manipulate the forces that govern the passage from life to stillness.
+<span id="the-threshold-of-death"></span>**The Threshold of Death.** Profane is the boundary where life ends and the cycle continues. Spells in the profane form may be used to animate the dead, hasten a living creature toward death, or manipulate the forces that govern the passage from life to stillness.
 
-**Disease and Decay.** Profane is the return of all living things to the earth, the slow unwinding of what was once whole. Spells in the profane form may be used to inflict disease, accelerate decomposition, or weaken a creature's physical resilience.
+<span id="disease-and-decay"></span>**Disease and Decay.** Profane is the return of all living things to the earth, the slow unwinding of what was once whole. Spells in the profane form may be used to inflict disease, accelerate decomposition, or weaken a creature's physical resilience.
 
 #### Sacred
 
 The form of sacred is the magic of vital energy, connected to *the animating impulse*, *radiation*, and *cosmic force*.
 
-**The Animating Impulse.** Sacred is the energy that drives all living processes, the force that stirs matter into motion and sustains what already moves. Spells in the sacred form may be used to invigorate, sustain, accelerate, or overwhelm the vital processes of living creatures.
+<span id="the-animating-impulse"></span>**The Animating Impulse.** Sacred is the energy that drives all living processes, the force that stirs matter into motion and sustains what already moves. Spells in the sacred form may be used to invigorate, sustain, accelerate, or overwhelm the vital processes of living creatures.
 
-**Radiation.** Sacred is energy that emanates outward, radiant force that acts on everything it touches. Spells in the sacred form may be used to project force, create barriers of radiant energy, or bathe an area in sacred power, whether to nurture or to scour.
+<span id="radiation"></span>**Radiation.** Sacred is energy that emanates outward, radiant force that acts on everything it touches. Spells in the sacred form may be used to project force, create barriers of radiant energy, or bathe an area in sacred power, whether to nurture or to scour.
 
-**Cosmic Force.** Sacred is the raw power of stellar transformation: the energy released when matter changes state. Spells in the sacred form may be used to channel this force as creation or destruction, healing or harm, depending on the caster's intent and control.
+<span id="cosmic-force"></span>**Cosmic Force.** Sacred is the raw power of stellar transformation: the energy released when matter changes state. Spells in the sacred form may be used to channel this force as creation or destruction, healing or harm, depending on the caster's intent and control.
 
 #### Void
 
 The form of void is the magic of the space between what *is* and what is *perceived* or *experienced*. Void operates on consciousness, sensation, and the relationship between ideal form and physical reality, making it simultaneously the most subtle and the most reality-defying of all forms.
 
-**Consciousness.** Void is the magic of the mind and the self. Spells in the void form may be used to alter a creature's sense of self, manipulate emotions, inject or suppress thoughts, or enchant another's will. Charms, emotional manipulation, and control effects are expressions of void reaching into the space where consciousness and will intersect.
+<span id="consciousness"></span>**Consciousness.** Void is the magic of the mind and the self. Spells in the void form may be used to alter a creature's sense of self, manipulate emotions, inject or suppress thoughts, or enchant another's will. Charms, emotional manipulation, and control effects are expressions of void reaching into the space where consciousness and will intersect.
 
-**Perception.** Void is the magic of sensory experience and its manipulation. Spells in the void form may be used to create illusions, alter what a creature sees, hears, feels, smells, or tastes, or impose a false reality so convincing that it becomes nearly impossible to distinguish from the real. An illusion is void asserting a false form over reality.
+<span id="perception"></span>**Perception.** Void is the magic of sensory experience and its manipulation. Spells in the void form may be used to create illusions, alter what a creature sees, hears, feels, smells, or tastes, or impose a false reality so convincing that it becomes nearly impossible to distinguish from the real. An illusion is void asserting a false form over reality.
 
-**Form.** Void is the magic of the relationship between ideal form and physical reality. Spells in the void form may be used to give shape to the practitioner's will: an arrow, a wall, a blade, or whatever form the caster envisions to make their will present and tangible within the world.
+<span id="form"></span>**Form.** Void is the magic of the relationship between ideal form and physical reality. Spells in the void form may be used to give shape to the practitioner's will: an arrow, a wall, a blade, or whatever form the caster envisions to make their will present and tangible within the world.
 
 ### Material and Energy Forms
 
@@ -289,7 +289,7 @@ A practitioner might use *transmute* with *[sacred](#sacred)* to mend wounded fl
 
 Every spell has a magan cost determined by four axes. The base cost of any spell is 1 magan. Reach and scale add to this base. Duration, condition tier, and effects multiply the result.
 
-**Magan Cost = (Base + Reach + Scale) × Duration × Condition Tier × Effects**
+<span id="magan-cost-duration-condition-tier-effects"></span>**Magan Cost = (Base + Reach + Scale) × Duration × Condition Tier × Effects**
 
 A spell cast at a target it cannot affect fails, and its magan is spent. The GM adjudicates whether a target qualifies.
 
@@ -362,7 +362,7 @@ An effect is a damage roll, a healing or repair roll, or a condition application
 
 When a spell imposes multiple conditions, all conditions must be the same tier. The condition tier multiplier applies once.
 
-**Combining commands.** Enchant is the only command that can be combined with another command in a single spell. The Effects multiplier prices the combination. Each condition imposed on an unwilling target is resolved with its own independent attribute trial (see [Resisting Spells](#resisting-spells)). [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") applied as a rider to a damage roll is the exception: if the damage lands, the Attrition applies with it, with no separate trial. Positive conditions on willing targets require no trial.
+<span id="combining-commands"></span>**Combining commands.** Enchant is the only command that can be combined with another command in a single spell. The Effects multiplier prices the combination. Each condition imposed on an unwilling target is resolved with its own independent attribute trial (see [Resisting Spells](#resisting-spells)). [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") applied as a rider to a damage roll is the exception: if the damage lands, the Attrition applies with it, with no separate trial. Positive conditions on willing targets require no trial.
 
 ### Components
 
@@ -374,11 +374,11 @@ Every spell assumes you are using a focus, speaking verbal components, and perfo
 | Verbal | Included (+0) | +1 magan |
 | Somatic | Included (+0) | +1 magan |
 
-**Focus.** An item that channels your power: a pectoral, a staff, a sprig of holly, a shrunken head. Requires one hand.
+<span id="focus"></span>**Focus.** An item that channels your power: a pectoral, a staff, a sprig of holly, a shrunken head. Requires one hand.
 
-**Verbal.** Words spoken to give the spell substance. A gagged or silenced caster pays the +1 cost.
+<span id="verbal"></span>**Verbal.** Words spoken to give the spell substance. A gagged or silenced caster pays the +1 cost.
 
-**Somatic.** Physical movements required to cast. Requires that the only items in your hands are your focus and/or material components. A restrained caster pays the +1 cost.
+<span id="somatic"></span>**Somatic.** Physical movements required to cast. Requires that the only items in your hands are your focus and/or material components. A restrained caster pays the +1 cost.
 
 *Example: A close-range, instantaneous charm normally costs (1 + 1) × 1 × 1 = 2 magan. Casting it subtly, with no verbal or somatic components, costs (1 + 1 + 1 + 1) × 1 × 1 = 4 magan.*
 
@@ -413,29 +413,29 @@ Spell speed is determined by the spell's magan cost before material component re
 
 You have 2 AP per round, which can be spent on any combination of casting, attacking, defending, or moving. Cheap spells act early in the round. Expensive spells act late, giving enemies and allies time to act first. Spells costing 12 or more magan consume your full round: 2 AP, both spent during the Slow phase.
 
-**Reaction Casting.** Fast spells can be cast as reactions. A reaction spell is triggered by circumstances rather than declared at the start of the round: a Preservate ward in response to an incoming arrow, a Flame Dart as a magical counterattack after a successful defense. Reaction spells cost 1 AP and follow the same trigger framework as other combat reactions. Apart from counters, only Fast spells (1-3 magan) qualify; Moderate and Slow spells require too much preparation to cast reactively. A counter can always be cast as a reaction (see *[Duels](#duels)*).
+<span id="reaction-casting"></span>**Reaction Casting.** Fast spells can be cast as reactions. A reaction spell is triggered by circumstances rather than declared at the start of the round: a Preservate ward in response to an incoming arrow, a Flame Dart as a magical counterattack after a successful defense. Reaction spells cost 1 AP and follow the same trigger framework as other combat reactions. Apart from counters, only Fast spells (1-3 magan) qualify; Moderate and Slow spells require too much preparation to cast reactively. A counter can always be cast as a reaction (see *[Duels](#duels)*).
 
 ### Example Costs
 
-**Fire bolt** (instantaneous damage, close range, one target): (1 + 1 + 0) × 1 × 1 = **2 magan** (Fast)
+<span id="fire-bolt"></span>**Fire bolt** (instantaneous damage, close range, one target): (1 + 1 + 0) × 1 × 1 = **2 magan** (Fast)
 
-**Fireball** (instantaneous damage, distant range, large area): (1 + 2 + 2) × 1 × 1 = **5 magan** (Moderate)
+<span id="fireball"></span>**Fireball** (instantaneous damage, distant range, large area): (1 + 2 + 2) × 1 × 1 = **5 magan** (Moderate)
 
-**Encounter charm (T1)** (close range, one target, short duration): (1 + 1 + 0) × 3 × 1 = **6 magan** (Moderate)
+<span id="encounter-charm"></span>**Encounter charm (T1)** (close range, one target, short duration): (1 + 1 + 0) × 3 × 1 = **6 magan** (Moderate)
 
-**Encounter control (T2)** (close range, one target, short duration): (1 + 1 + 0) × 3 × 3 = **18 magan** (Slow, 2 AP)
+<span id="encounter-control"></span>**Encounter control (T2)** (close range, one target, short duration): (1 + 1 + 0) × 3 × 3 = **18 magan** (Slow, 2 AP)
 
-**One-round control (T2)** (close range, one target, instantaneous): (1 + 1 + 0) × 1 × 3 = **6 magan** (Moderate)
+<span id="one-round-control"></span>**One-round control (T2)** (close range, one target, instantaneous): (1 + 1 + 0) × 1 × 3 = **6 magan** (Moderate)
 
-**Day-long stone bridge** (touch range, huge scale, extended): (1 + 0 + 3) × 8 × 1 = **32 magan** (Slow, 2 AP)
+<span id="day-long-stone-bridge"></span>**Day-long stone bridge** (touch range, huge scale, extended): (1 + 0 + 3) × 8 × 1 = **32 magan** (Slow, 2 AP)
 
-**Flame aura on self** (self range, small area, short duration): (1 + 0 + 1) × 3 × 1 = **6 magan** (Moderate)
+<span id="flame-aura-on-self"></span>**Flame aura on self** (self range, small area, short duration): (1 + 0 + 1) × 3 × 1 = **6 magan** (Moderate)
 
-**Fire bolt + burning rider** (instantaneous damage + Enchant trickle, close range, one target, 2 effects): (1 + 1 + 0) × 1 × 1 × 2 = **4 magan** (Moderate)
+<span id="fire-bolt-burning-rider"></span>**Fire bolt + burning rider** (instantaneous damage + Enchant trickle, close range, one target, 2 effects): (1 + 1 + 0) × 1 × 1 × 2 = **4 magan** (Moderate)
 
-**Double healing touch** (2× healing output, touch range, one target, 2 effects): (1 + 0 + 0) × 1 × 1 × 2 = **2 magan** (Fast)
+<span id="double-healing-touch"></span>**Double healing touch** (2× healing output, touch range, one target, 2 effects): (1 + 0 + 0) × 1 × 1 × 2 = **2 magan** (Fast)
 
-**Sustained damage + T1 condition** (close range, one target, short duration, 2 effects): (1 + 1 + 0) × 3 × 1 × 2 = **12 magan** (Slow, 2 AP)
+<span id="sustained-damage-t1-condition"></span>**Sustained damage + T1 condition** (close range, one target, short duration, 2 effects): (1 + 1 + 0) × 3 × 1 × 2 = **12 magan** (Slow, 2 AP)
 
 ---
 
@@ -478,7 +478,7 @@ The Trauma's tier takes the place of the condition tier in the cost formula:
 | Severe | ×3 |
 | Grievous | ×6 |
 
-**Magan Cost = (Base + Reach + Scale) × Damage Age × Trauma Tier**
+<span id="magan-cost-damage-age-trauma-tier"></span>**Magan Cost = (Base + Reach + Scale) × Damage Age × Trauma Tier**
 
 Each effect restores one Trauma. Restoring health in the same casting adds an effect. Restoration is permanent. Damage Age limits its reach: once a Trauma is older than the current adventuring day, magic can no longer restore it.
 
@@ -492,7 +492,7 @@ Mundane treatment does not change the cost; the time it takes does. A Trauma tre
 
 Insanity (see *[Conditions, Insanity](../core/conditions.md#insanity)*) is restored with Transmute in a form connected to the target (see *[Connected Form](exorcism-enchantment-shapeshifting.md#connected-form)*). Magic can undo only insanity gained during the current adventuring day: the insanity returns to the step it held at the start of the day, and if it began today, it is removed entirely. Steps reached on earlier days are beyond magic; the insanity runs its course from its original start. Dependence that an insanity added today (Insanity table, 37–42) is removed with it. Whether dependence gained from using a substance can be affected by magic is determined by the GM.
 
-**Magan Cost = (Base + Reach + Scale) × Damage Age × Insanity Step**
+<span id="magan-cost-damage-age-insanity-step"></span>**Magan Cost = (Base + Reach + Scale) × Damage Age × Insanity Step**
 
 Damage Age counts from the first instance today. The step is the highest reached today:
 
@@ -510,7 +510,7 @@ Each Preservate spell protects against one damage type, fixed when the spell is 
 
 The mode of protection depends on the classification of the casting form and the targeted damage type. Mundane damage is material for purposes of classification. When both share a classification (both material or both energy), the spell produces a durability pool. When they differ, the spell produces flat resistance.
 
-**Durability pool.** Your *form mastery level* × 5 × *duration multiplier*. The pool absorbs incoming damage of the targeted type before it reaches physical armor or health. When the pool is depleted, the spell ends.
+<span id="durability-pool"></span>**Durability pool.** Your *form mastery level* × 5 × *duration multiplier*. The pool absorbs incoming damage of the targeted type before it reaches physical armor or health. When the pool is depleted, the spell ends.
 
 | Mastery | Base (×5) | Instantaneous (×1) | Short (×3) | Long (×5) | Extended (×8) |
 |:---|:---:|:---:|:---:|:---:|:---:|
@@ -522,7 +522,7 @@ The mode of protection depends on the classification of the casting form and the
 | Master (6) | 30 | 30 | 90 | 150 | 240 |
 | Grand Master (7) | 35 | 35 | 105 | 175 | 280 |
 
-**Flat resistance.** Your *form mastery level* × 2. Reduces each qualifying hit of the targeted type by the resistance value for the spell's duration. Range: 2 (Unskilled) to 14 (Grand Master).
+<span id="flat-resistance"></span>**Flat resistance.** Your *form mastery level* × 2. Reduces each qualifying hit of the targeted type by the resistance value for the spell's duration. Range: 2 (Unskilled) to 14 (Grand Master).
 
 Magical protection applies before armor. Any damage remaining after protection follows the normal rules for the spell's form.
 
@@ -536,7 +536,7 @@ Formulate and Transmute barriers are temporary. Formulated creations revert to n
 
 Material form barriers (Stone, Sea, Primal, Profane) create physical structures that block passage. A material barrier physically stops weapons, projectiles, and creatures, and provides the [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") condition to creatures behind it.
 
-**Durability.** Pool = form mastery level × 5 × (1 + Scale modifier). Scale determines toughness because a larger barrier has more material to break through. Duration determines how long the barrier exists, not how tough it is.
+<span id="durability"></span>**Durability.** Pool = form mastery level × 5 × (1 + Scale modifier). Scale determines toughness because a larger barrier has more material to break through. Duration determines how long the barrier exists, not how tough it is.
 
 | Mastery | Base (×5) | Personal (×1) | Small (×2) | Large (×3) | Huge (×4) | Epic (×5) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -548,15 +548,15 @@ Material form barriers (Stone, Sea, Primal, Profane) create physical structures 
 | Master (6) | 30 | 30 | 60 | 90 | 120 | 150 |
 | Grand Master (7) | 35 | 35 | 70 | 105 | 140 | 175 |
 
-**[Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.").** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Personal-scale barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
+<span id="cover"></span>**[Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.").** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Personal-scale barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
 
 #### Energy Barriers
 
 Energy form barriers (Fire, Sky, Sacred, Void) create force that resists passage. A creature beyond an energy barrier is [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") (Tier 1), and the barrier works the same in both directions. The caster can make the barrier transparent at no cost, or raise it to Tier 2 or Tier 3 using the condition tier multiplier (see *[Condition Tier](#condition-tier)*). A Tier 3 barrier blocks sight at any distance, including within 5 feet. A Void barrier can take any appearance, such as a brick wall.
 
-**Resistance.** Form mastery level × 2. Range: 2 (Unskilled) to 14 (Grand Master). Attacks and projectiles directed through the barrier have their damage reduced by the resistance value. Scale determines the barrier's area, not its resistance.
+<span id="resistance"></span>**Resistance.** Form mastery level × 2. Range: 2 (Unskilled) to 14 (Grand Master). Attacks and projectiles directed through the barrier have their damage reduced by the resistance value. Scale determines the barrier's area, not its resistance.
 
-**Passage.** A creature attempting to move through an energy barrier must succeed on a Strength trial against the spell DC. On success, the creature pushes through and takes damage equal to the resistance value. On failure, the creature's movement stops at the barrier's edge.
+<span id="passage"></span>**Passage.** A creature attempting to move through an energy barrier must succeed on a Strength trial against the spell DC. On success, the creature pushes through and takes damage equal to the resistance value. On failure, the creature's movement stops at the barrier's edge.
 
 #### Dispersal
 
@@ -571,17 +571,17 @@ Paths to remove a barrier:
 
 A formulated creation that can move and act on the battlefield. Where barriers are static terrain, dynamic constructs are directed by the caster as battlefield pieces. The caster shapes magan into a form with agency: a wolf of fire, a bear of stone, an eagle of sacred light, or any shape within the form's domain.
 
-**Cost.** Dynamic constructs use the standard spell formula with a ×2 Effects multiplier: (Base + Reach + Scale) × Duration × 2.
+<span id="cost"></span>**Cost.** Dynamic constructs use the standard spell formula with a ×2 Effects multiplier: (Base + Reach + Scale) × Duration × 2.
 
-**Power level.** The caster chooses the construct's power level when casting the spell. The power level cannot exceed the caster's mastery level in the form. The chosen level determines the construct's damage and durability (see Dynamic Construct Table below).
+<span id="power-level"></span>**Power level.** The caster chooses the construct's power level when casting the spell. The power level cannot exceed the caster's mastery level in the form. The chosen level determines the construct's damage and durability (see Dynamic Construct Table below).
 
-**Action economy.** A dynamic construct requires concentration to maintain. Each command to the construct costs 1 AP: move to a location, or attack an adjacent target. Moving and attacking in the same turn costs 2 AP. The construct does not act independently; if the caster spends no AP directing it, it does nothing.
+<span id="action-economy"></span>**Action economy.** A dynamic construct requires concentration to maintain. Each command to the construct costs 1 AP: move to a location, or attack an adjacent target. Moving and attacking in the same turn costs 2 AP. The construct does not act independently; if the caster spends no AP directing it, it does nothing.
 
-**Damage.** The construct deals form damage determined by its power level (see Dynamic Construct Table). The construct must be adjacent to its target and the target may make an Agility Trial to avoid the damage. Energy construct damage bypasses armor. Material construct damage interacts with armor.
+<span id="damage_1"></span>**Damage.** The construct deals form damage determined by its power level (see Dynamic Construct Table). The construct must be adjacent to its target and the target may make an Agility Trial to avoid the damage. Energy construct damage bypasses armor. Material construct damage interacts with armor.
 
-**Durability.** The construct's power level and scale determine its durability pool (see Dynamic Construct Table). Material constructs can be damaged by any source, including mundane weapons. Energy constructs can only be damaged by magic.
+<span id="durability_1"></span>**Durability.** The construct's power level and scale determine its durability pool (see Dynamic Construct Table). Material constructs can be damaged by any source, including mundane weapons. Energy constructs can only be damaged by magic.
 
-**Dynamic Construct Table**
+<span id="dynamic-construct-table"></span>**Dynamic Construct Table**
 
 | Power | Damage | Personal (E / M) | Small (E / M) | Large (E / M) | Huge (E / M) | Epic (E / M) |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -595,7 +595,7 @@ A formulated creation that can move and act on the battlefield. Where barriers a
 
 E = Energy (magic only). M = Material (any source).
 
-**Dispersal.** Dynamic constructs follow the same dispersal rules as barriers. Material constructs can be destroyed by physical force (deplete the durability pool) or magical destruction (Obliterate duel). Energy constructs can only be destroyed by magical destruction.
+<span id="dispersal_1"></span>**Dispersal.** Dynamic constructs follow the same dispersal rules as barriers. Material constructs can be destroyed by physical force (deplete the durability pool) or magical destruction (Obliterate duel). Energy constructs can only be destroyed by magical destruction.
 
 ### Conditions
 
@@ -603,13 +603,13 @@ Instantaneous condition spells impose the condition, which deteriorates normally
 
 When a spell sustaining a condition ends (duration expires, concentration dropped or broken), the condition begins standard deterioration at 1 tier per round.
 
-**Resisted or broken.** When a target resists a sustained condition spell or breaks free of it, the spell stays in your concentration slot for its duration. On your turn, you can spend 1 AP to apply it again to the same target or to a new one within the spell's reach. The target makes a fresh trial to resist.
+<span id="resisted-or-broken"></span>**Resisted or broken.** When a target resists a sustained condition spell or breaks free of it, the spell stays in your concentration slot for its duration. On your turn, you can spend 1 AP to apply it again to the same target or to a new one within the spell's reach. The target makes a fresh trial to resist.
 
 #### Form and Condition Access
 
 Each form can deliver specific conditions through the Enchant command. The form determines which conditions a caster can impose; a caster without access to a form that delivers a given condition cannot impose that condition through Enchant.
 
-**Elemental Forms**
+<span id="elemental-forms_1"></span>**Elemental Forms**
 
 | Form | Conditions |
 |:---|:---|
@@ -618,7 +618,7 @@ Each form can deliver specific conditions through the Enchant command. The form 
 | Sky | [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), [Hastened](../core/conditions.md#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP."), [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."), [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."), [Unbound](../core/conditions.md#unbound "Movement enhancement T1 — Fleet: +2 movement speed. You can jump as part of movement. You must begin and end movement on a surface with each AP. T2 — Suspended: Three-dimensional movement at half speed. One axis per AP (horizontal or vertical, not both). Water walking included. Requires concentration to maintain and move. T3 — Soaring: Three-dimensional movement at full speed in any direction. Immune to Prone. Requires concentration to maintain and move.") |
 | Stone | [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") |
 
-**Entropic Forms**
+<span id="entropic-forms_1"></span>**Entropic Forms**
 
 | Form | Conditions |
 |:---|:---|
@@ -635,27 +635,27 @@ Every form can impose [Attrition](../core/conditions.md#attrition "Persistent da
 
 Boons are beneficial effects that the target automatically receives.
 
-**Condition boons** impose positive conditions ([Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), [Hastened](../core/conditions.md#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.")) using the standard condition tier multiplier. See the conditions document for specific effects at each tier.
+<span id="condition-boons"></span>**Condition boons** impose positive conditions ([Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), [Hastened](../core/conditions.md#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.")) using the standard condition tier multiplier. See the conditions document for specific effects at each tier.
 
-**Protection boons** create durability pools or flat resistance using the formulas above.
+<span id="protection-boons"></span>**Protection boons** create durability pools or flat resistance using the formulas above.
 
 ### Auras
 
 Auras are concentration spells that deal flat damage equal to your *form mastery level* (1-7). You can center an aura on yourself, on a willing ally, or on an object; the bearer takes no damage from its own aura. The spell's Scale determines the kind of aura.
 
-**Contact auras** (Personal scale) wreathe the bearer. A creature that hits the bearer with a melee attack takes the aura's damage.
+<span id="contact-auras"></span>**Contact auras** (Personal scale) wreathe the bearer. A creature that hits the bearer with a melee attack takes the aura's damage.
 
-**Area auras** (Small scale or larger) fill the radius. A creature within the radius at the end of its turn takes the aura's damage; a creature that moves out during its turn takes none. Area auras damage allies as well as enemies.
+<span id="area-auras"></span>**Area auras** (Small scale or larger) fill the radius. A creature within the radius at the end of its turn takes the aura's damage; a creature that moves out during its turn takes none. Area auras damage allies as well as enemies.
 
 ### Trickle Damage
 
 Trickle damage is the Attrition condition: a recurring, flat damage effect. Each form and mundane source has its own label or labels (Attrition (Burning), Attrition (Freezing), Attrition (Bleeding), etc.). The damage value equals the source's relevant *attribute tier* (flat, 1-7). Trickle damage ticks at the end of the afflicted creature's turn. Resistance of the corresponding damage type applies; Attrition (Bleeding) is untyped and no resistance applies. See *[Conditions, Attrition](../core/conditions.md#attrition)* for the full label table.
 
-**Applied by a hit.** When applied as a rider on an instantaneous spell or creature ability, it ticks once at the end of the target's turn, then expires. To reapply, the source must hit the target again.
+<span id="applied-by-a-hit"></span>**Applied by a hit.** When applied as a rider on an instantaneous spell or creature ability, it ticks once at the end of the target's turn, then expires. To reapply, the source must hit the target again.
 
-**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
+<span id="sustained-by-a-spell"></span>**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md#breaking-free)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
 
-**Retargeting.** A resisted or broken trickle spell can be applied again; see [Conditions](../core/conditions.md), Resisted or broken.
+<span id="retargeting"></span>**Retargeting.** A resisted or broken trickle spell can be applied again; see [Conditions](../core/conditions.md), Resisted or broken.
 
 ---
 
@@ -683,7 +683,7 @@ When you cast a new concentration spell, the AP cost to cast it includes establi
 
 Your free concentration slot can be reassigned at the start of each round. When a spell leaves your free slot, it becomes passive unless you pay to maintain it actively.
 
-**Scrolls.** A spell released from a scroll is concentrated on by the reader, as if they had cast it (see *Skill Mastery, [Scribe: Reading Scrolls](../skills/trade/index.md#scribe-discipline)*).
+<span id="scrolls"></span>**Scrolls.** A spell released from a scroll is concentrated on by the reader, as if they had cast it (see *Skill Mastery, [Scribe: Reading Scrolls](../skills/trade/index.md#reading-scrolls)*).
 
 ### Interrupted Casting
 
@@ -765,11 +765,11 @@ If you fail a miscast trial, the spell fails and its magan is spent. You can cho
 
 A practitioner can push past the limits of their skill or their magan, at a cost to body and mind.
 
-**Coerced success.** When you fail a miscast trial, you can choose to succeed anyway. Advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier.
+<span id="coerced-success"></span>**Coerced success.** When you fail a miscast trial, you can choose to succeed anyway. Advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier.
 
-**Overcasting.** When your magan pool cannot cover a spell's cost, you can cast it anyway: your pool drops to 0 and you advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier. This applies whether the pool is empty or merely short (2 magan left for a 3-magan spell). The spell is still subject to a miscast trial if applicable.
+<span id="overcasting"></span>**Overcasting.** When your magan pool cannot cover a spell's cost, you can cast it anyway: your pool drops to 0 and you advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier. This applies whether the pool is empty or merely short (2 magan left for a 3-magan spell). The spell is still subject to a miscast trial if applicable.
 
-**Recovery.** When the encounter ends, [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") gained from pushing magic remains for 1 Exploration round per time you pushed magic today, then deteriorates normally.
+<span id="recovery"></span>**Recovery.** When the encounter ends, [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") gained from pushing magic remains for 1 Exploration round per time you pushed magic today, then deteriorates normally.
 
 ---
 
@@ -783,17 +783,17 @@ Tables that want wild magic and lasting consequences can add vitiation: pushing 
 
 When one practitioner actively counters a spell cast by another, a duel takes place.
 
-**Countering.** To counter a spell, cast Obliterate in the same form as the spell, with Scale matching the target spell's Scale, the Reach needed to reach its caster, and Instantaneous duration. You pay its magan cost normally. A counter is always a reaction and costs 1 AP, whatever its magan cost. If you have at least Untrained mastery in a spell's form, you recognize that form when you see it cast.
+<span id="countering"></span>**Countering.** To counter a spell, cast Obliterate in the same form as the spell, with Scale matching the target spell's Scale, the Reach needed to reach its caster, and Instantaneous duration. You pay its magan cost normally. A counter is always a reaction and costs 1 AP, whatever its magan cost. If you have at least Untrained mastery in a spell's form, you recognize that form when you see it cast.
 
 You can counter a spell from the moment its casting can be seen until it resolves. A spell cast without verbal and somatic components cannot be seen until it resolves; if its duration is Instantaneous, it cannot be countered, and if it has a duration, it can only be dispelled. A countered spell's magan is spent.
 
-**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *Skill Mastery, [Spellcraft](../skills/spellcraft.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
+<span id="resolution"></span>**Resolution.** Both practitioners make a mastery trial: *casting attribute tier die* + *form mastery die* in the form of the original spell. Duelist adds the Spellcraft mastery die (see *Skill Mastery, [Spellcraft](../skills/spellcraft.md)*). On a tie, the spell is suspended. Both practitioners remain locked until there is a victor; each must spend 1 AP per round to sustain the duel. A practitioner who cannot or does not sustain the duel loses it.
 
 Both practitioners are casting until the duel ends, and *[Interrupted Casting](#interrupted-casting)* applies to each. A practitioner whose casting is interrupted loses the duel.
 
 The loser may advance [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") by 1 tier to force a tie; the duel continues. Pushing cannot turn a loss into a win.
 
-**Victory.** The victor chooses one outcome:
+<span id="victory"></span>**Victory.** The victor chooses one outcome:
 
 - Dissipate the spell.
 - Redirect the spell, unaltered, to a target or location of their choice.
@@ -801,9 +801,9 @@ The loser may advance [Exhausted](../core/conditions.md#exhausted "Endurance tri
 
 ### Dispelling
 
-**Active caster.** To dispel a spell maintained by a present caster, use the duel system. You must cast using the same form. Contested roll; standard duel resolution.
+<span id="active-caster"></span>**Active caster.** To dispel a spell maintained by a present caster, use the duel system. You must cast using the same form. Contested roll; standard duel resolution.
 
-**Abandoned spell.** To suppress an enchanted ward, trap, or other unattended magical effect, cast against the spell's native DC. Success suppresses the effect for the duration of your dispelling cast (instantaneous = 1 round, short = the scene, etc.). Permanent removal requires the enchanting system.
+<span id="abandoned-spell"></span>**Abandoned spell.** To suppress an enchanted ward, trap, or other unattended magical effect, cast against the spell's native DC. Success suppresses the effect for the duration of your dispelling cast (instantaneous = 1 round, short = the scene, etc.). Permanent removal requires the enchanting system.
 
 ---
 

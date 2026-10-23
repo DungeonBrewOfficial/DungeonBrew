@@ -29,7 +29,7 @@ A comfrey poultice is administered by contact, bound over a deep bruise. It spee
 | Rarity | Common |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -58,7 +58,7 @@ A honey dressing is administered by contact, bound over a wound and kept there. 
 | Rarity | Common |
 | Notes | Works together with the wine or vinegar wash |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_1"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -87,7 +87,7 @@ Leech's eyesalve is administered by contact, spread on an infected wound. It dri
 | Rarity | Common |
 | Notes | Anyone can apply it, without a trial |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_2"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -116,7 +116,7 @@ Willow bark is administered through ingestion. It dulls mild pain without the sl
 | Rarity | Common |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_3"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications | 1 modification |
 |:---|:---:|:---:|
@@ -145,7 +145,7 @@ A wash is administered by contact, poured into a wound when it's first cleaned. 
 | Rarity | Common |
 | Notes | Used once, when the wound is first cleaned. Works together with the honey dressing |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_4"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -178,7 +178,7 @@ Alum is administered by contact, packed into a bleeding wound on yourself or an 
 | Rarity | Uncommon |
 | Notes | Bleeding from a Swallowtail head stops only when the head is removed |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_5"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -207,7 +207,7 @@ Chalk-water is administered by contact, poured over acid-burned skin on yourself
 | Rarity | Common |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_6"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -236,7 +236,7 @@ Embalmer's salt is administered by contact, rubbed into flesh that is decaying, 
 | Rarity | Uncommon |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_7"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -265,7 +265,7 @@ Vinegar is administered by contact, splashed over skin burned by lime or lye, on
 | Rarity | Common |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_8"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
@@ -294,7 +294,7 @@ A warming cordial is administered through ingestion, given to yourself or an all
 | Rarity | Uncommon |
 | Notes | None |
 
-**To make** (days for one dose, and the recipe's Social Class):
+<span id="to-make_9"></span>**To make** (days for one dose, and the recipe's Social Class):
 
 | Makes | No modifications |
 |:---|:---:|
