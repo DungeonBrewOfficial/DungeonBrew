@@ -129,7 +129,7 @@ Damage is mundane or magical by its type. An enchanted weapon still deals its we
 
 <span id="health"></span>**Health**: Health is your physical well-being. It comes from two sources:
 
-- <span id="endurance"></span>**Endurance.** For each Endurance tier up to your current tier, roll the corresponding tier die and add the result. Each time your Endurance tier increases, roll the new tier die and add it to your health. A character who starts at Endurance Tier 3 has 1d2 + 1d3 + 1d4.
+- <span id="endurance"></span>**Endurance.** For each Endurance tier up to your current tier, roll the corresponding tier die and add the result. Each time your Endurance tier increases, roll the new tier die and add it to your health, and you can reroll the others (see *[Tier Dice Pools](../characters/creating-a-character.md#tier-dice-pools)*). A character who starts at Endurance Tier 3 has 1d2 + 1d3 + 1d4.
 - <span id="class"></span>**Class.** Every 3 levels, add the amount shown in your class table's Health column.
 
 ## Actions and Reactions
@@ -214,7 +214,7 @@ A single movement up to the creature's movement speed. Costs 1 AP.
     - A creature moving through Unstable terrain must succeed on an Agility trial, as determined by the GM, or fall [Prone](conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
 - <span id="hazardous-terrain"></span>**Hazardous Terrain**: Fire, acid pools, caltrops, thorn thickets, boiling mud.
     - A creature in Hazardous terrain takes 1 damage of the appropriate type. The damage may be triggered by entering or ending a turn in the terrain (e.g., fire) or movement (e.g., caltrops). Specific hazards may impose additional effects at the GM's discretion.
-- <span id="elevation"></span>**Elevation**: A creature with elevation over its target gains Dominance on attack and defense rolls against that target. A creature attacking a target with elevation has Impotence on attack and defense rolls against that target.
+- <span id="elevation"></span>**Elevation**: A creature with elevation over its target, as determined by the GM, gains Dominance on attack and defense rolls against that target. A creature attacking a target with elevation has Impotence on attack and defense rolls against that target.
 
 ### Interaction
 

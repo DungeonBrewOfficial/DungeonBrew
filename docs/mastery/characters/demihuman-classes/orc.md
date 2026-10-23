@@ -51,7 +51,7 @@ He is an orc. A barbaric warrior of rage and instinct. *Civilized* people scoff 
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Relg, a Fifth Level Orc," you should say "I'm Relg, the Scout."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Eneko, a Fifth Level Orc," you should say "I'm Eneko, the Boy (Mutil)."
 
 <span id="health"></span>**Health**. You gain 4 health per 3 levels of experience in addition to any health gained from your endurance.
 

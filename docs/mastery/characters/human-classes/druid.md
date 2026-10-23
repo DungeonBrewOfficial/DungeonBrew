@@ -55,14 +55,14 @@ Druids are a priestly order devoted to nature and generally seen as leaders with
 
 <span id="experience"></span>**Experience**. When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Marthan, a Fifth Level Druid," you should say "I'm Marthan, the Wild One."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Fiachra, a Fifth Level Druid," you should say "I'm Fiachra, the Wild One (Geilt)."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
 <span id="skills"></span>**Skills**. At first level, you begin with 2 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Druid, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Spellcraft](../../skills/spellcraft.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, and *[Thievery](../../skills/thievery.md)* skills.
-* You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Wildling](#wildling)* class ability for free.
+* You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Wildling](#wildling)* class ability for free. This counts as your first Wilderness investment. You can invest Skill Mastery points in Wilderness a second time to gain the other animal slot.
 * You gain 1 Skill Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 
 <span id="spell-mastery"></span>**Spell Mastery**. At first level, you begin with 4 Spell Mastery points, which must be spent immediately on up to 5 Spell Forms. You may use these points to advance Spell Forms to Untrained mastery, but no further at this level.
@@ -87,7 +87,7 @@ As a Mortal being, you have no innate damage immunity or vulnerability. You are 
 
 *Level 1*
 
-You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Wisdom score. For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Wisdom score. For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -109,7 +109,7 @@ You automatically advance in the *[Wilderness](../../skills/wilderness/index.md)
 
 You bond with a Puca, a Fae spirit that has chosen to companion you. Your Puca is intelligent, communicates freely, and shapeshifts between animal forms at your direction or its own judgment. It is a genuine partner — not a tool, not a servant. The Puca is independent of your Wilderness animal companion; you can have both.
 
-Your Puca is a Fae creature (immune Primal, vulnerable Void) with its own health pool.
+Your Puca is a Fae creature with its own health pool. It is immune to Primal damage and has Impotence on trials to resist Void damage. It is connected to the Primal magic form (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)).
 
 #### Progression
 
@@ -125,7 +125,7 @@ Your Puca is a Fae creature (immune Primal, vulnerable Void) with its own health
 
 #### Puca Stats
 
-<span id="health_1"></span>**Health:** Your Wisdom score, plus two of each tier die up to the Puca's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on).
+<span id="health_1"></span>**Health:** Your Wisdom score, plus two of each tier die up to the Puca's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on). See *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*.
 
 <span id="rest"></span>**Rest:** As a character, using its tier die for the Endurance tier die and your level for class level. It treats a safe Wilderness Rest as a Good Night's Rest.
 

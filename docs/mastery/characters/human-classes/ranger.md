@@ -51,14 +51,14 @@ She is a ranger. A human warrior that is more at home in the wilds than she is a
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Corvin, a Second Level Ranger," you should say "I'm Corvin, the Hunter."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Eadric, a Second Level Ranger," you should say "I'm Eadric, the Way-goer (Weggenga)."
 
 <span id="health"></span>**Health**. You gain 3 health per 3 levels of experience in addition to any health gained from your endurance.
 
 <span id="skills"></span>**Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Ranger, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Stealth](../../skills/stealth.md)*, *[Tactics](../../skills/tactics.md)*, and *[Thievery](../../skills/thievery.md)* skills.
-* You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Pathfinder](#pathfinder)* class ability for free.
+* You learn *[Wilderness](../../skills/wilderness/index.md)* as part of the *[Pathfinder](#pathfinder)* class ability for free. This counts as your first Wilderness investment. You can invest Skill Mastery points in Wilderness a second time to gain the other animal slot.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 <span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.

@@ -51,7 +51,7 @@ She is cursed. A creature born of chaos and devilry. Her powers are in the deep 
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Weraleogan, a Fifth Level Cursed," you should say "I'm Weraleogan, the Wretch."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Weraleogan, a Fifth Level Cursed," you should say "I'm Weraleogan, the Wretch (Wrecca)."
 
 <span id="health"></span>**Health**. You gain 1 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -130,7 +130,7 @@ After 1 week without rest, roll your Endurance tier die each day - on a 1, you f
 
 ### Priscan Magic
 
-You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -165,7 +165,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 - Cannot equip weapons or armor
 - Telepathic communication only, within 60 feet
 - Gains 6 resistance to each mundane damage type at T1. Starting at T2, gain +1 resistance to all damage types per tier.
-- Health: Cursed Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on)
+- Health: Cursed Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on); see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*
 - Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0) + locomotion (+4 on the mode the creature qualifies for: four-legged runners on land, fliers, swimmers). Climbing is a capability without a speed bonus; burrowing is half land speed.
 
 <span id="humanoid-form"></span>**Humanoid Form:**
@@ -174,7 +174,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 - Can wear armor (adds durability)
 - Can speak, interact with objects, blend into crowds
 - No special movement
-- Health: two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on)
+- Health: two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on); see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*
 - Takes the shape of a human (1 square) or a halfling (½ square). The normal size modifiers apply.
 - Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0), no locomotion bonus
 
@@ -222,9 +222,9 @@ The tier die does not represent the Agathion getting stronger. The spirit was al
 | 20 | 6 | 1d10 |
 | 24 | 7 | 1d12 |
 
-<span id="health_1"></span>**Health (Beast):** Your Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on).
+<span id="health_1"></span>**Health (Beast):** Your Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on). See *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*.
 
-<span id="health_2"></span>**Health (Humanoid):** Two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on).
+<span id="health_2"></span>**Health (Humanoid):** Two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on). See *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*.
 
 <span id="rest"></span>**Rest:** As a character, using its tier die for the Endurance tier die and your level for class level. A Fae Agathion treats a safe Wilderness Rest as a Good Night's Rest.
 
@@ -315,7 +315,7 @@ At each tier from 2-7, choose one passive ability. Three are specific to your sp
 
 #### Universal Passives
 
-<span id="spell-conduit"></span>**Spell Conduit.** The Cursed can channel a spell through the Agathion, casting from the Agathion's position. If the spell requires concentration, the Agathion maintains it. A control trial applies - on failure, the spirit picks the target or drops concentration at the worst moment.
+<span id="spell-conduit"></span>**Spell Conduit.** The Cursed can channel a spell through the Agathion, casting from the Agathion's position, provided the Agathion is within 30 feet. The spell's range is measured from the Agathion, and touch spells can be delivered through it. If the spell requires concentration, the Agathion maintains it, even beyond 30 feet. A control trial applies - on failure, the spirit picks the target or drops concentration at the worst moment.
 
 <span id="reborn"></span>**Reborn.** Resummon cost and ritual time are halved.
 

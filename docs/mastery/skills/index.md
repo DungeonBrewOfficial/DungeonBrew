@@ -58,7 +58,7 @@ Each skill mastery unlocks abilities at mastery levels and provides disciplines 
 
 ### Skill Access by Class
 
-✓ = learnable (costs mastery points). **Free** = granted by class ability (no cost). — = no access.
+✓ = learnable (costs mastery points). **Free** = granted by class ability (no cost). **Free**+✓ = granted free, and can still be invested in (Wilderness: the second animal slot). — = no access.
 
 | Class | Alert | Athl | Trade | Lore | Pres | Spell | Stlth | Tact | Thiev | Wild | Progression |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
@@ -66,7 +66,7 @@ Each skill mastery unlocks abilities at mastery levels and provides disciplines 
 | Bahador | ✓ | ✓ | ✓ ABH+**Free** S | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | E (2 start, +1/lvl, 2@16, 3@26) |
 | Cleric | ✓ | ✓ | ✓ All | **Free** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | E (2 start, +1/lvl, 2@16, 3@26) |
 | Cursed | ✓ | ✓ | ✓ All | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | E (2 start, +1/lvl, 2@16, 3@26) |
-| Druid | ✓ | ✓ | ✓ AH | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | **Free** | E (2 start, +1/lvl, 2@16, 3@26) |
+| Druid | ✓ | ✓ | ✓ AH | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | **Free**+✓ | E (2 start, +1/lvl, 2@16, 3@26) |
 | Dwarf | ✓ | ✓ | ✓ AH+**Free** B | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ | M (3 start, +1/lvl, 2@11, 3@21) |
 | Fighter | ✓ | ✓ | ✓ ABH | ✓ | ✓ | — | ✓ | **Free** | ✓ | ✓ | M (3 start, +1/lvl, 2@11, 3@21) |
 | Fili | ✓ | ✓ | ✓ ABH | **Free** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | GM (4 start, +1/lvl, 2@6, 3@16, 4@26) |
@@ -77,8 +77,8 @@ Each skill mastery unlocks abilities at mastery levels and provides disciplines 
 | Magus | ✓ | ✓ | ✓ ABH+**Free** S | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | E (2 start, +1/lvl, 2@16, 3@26) |
 | Orc | ✓ | ✓ | ✓ ABH | ✓ | ✓ | — | ✓ | ✓ | ✓ | ✓ | M (3 start, +1/lvl, 2@11, 3@21) |
 | Paladin | ✓ | ✓ | ✓ All | **Free** | ✓ | ✓ | — | ✓ | — | ✓ | E (2 start, +1/lvl, 2@16, 3@26) |
-| Ranger | ✓ | ✓ | ✓ ABH | ✓ | ✓ | — | ✓ | ✓ | ✓ | **Free** | GM (4 start, +1/lvl, 2@6, 3@16, 4@26) |
-| Sylvan Elf | ✓ | **Free** | ✓ ABH | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | **Free** | S (1 start, +1/lvl, 2@21) |
+| Ranger | ✓ | ✓ | ✓ ABH | ✓ | ✓ | — | ✓ | ✓ | ✓ | **Free**+✓ | GM (4 start, +1/lvl, 2@6, 3@16, 4@26) |
+| Sylvan Elf | ✓ | **Free** | ✓ ABH | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | **Free**+✓ | S (1 start, +1/lvl, 2@21) |
 | Thief | ✓ | ✓ | ✓ ABH | ✓ | ✓ | — | **Free** | ✓ | **Free** | ✓ | GM (4 start, +1/lvl, 2@6, 3@16, 4@26) |
 
 <span id="trade-discipline-key"></span>**Trade discipline key:** A = Alchemist, B = Blacksmith, H = Healer, S = Scribe. "All" = all four disciplines.

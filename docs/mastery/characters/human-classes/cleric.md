@@ -55,7 +55,7 @@ Clerics are devotees of powers greater than themselves, known as *numen*, but al
 
 <span id="experience"></span>**Experience**. When this number of Experience Points have been earned, you automatically move up to the next Level of Experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Aleena, a Fifth Level Cleric," you should say "I'm Aleena, the Acolyte."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Agnes, a Fifth Level Cleric," you should say "I'm Agnes, the Acolyte."
 
 <span id="health"></span>**Health**. You gain 2 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -116,7 +116,7 @@ Choose one of your two kinds of being, then choose one Division; every creature 
 
 <span id="turned-creatures"></span>**Turned creatures** are compelled to flee from you as fast as they are able for as long as you concentrate. If cornered, they cower and cannot attack, although intelligent creatures may use defensive powers to protect themselves. While turning, you must hold your Focus in hand and can take no actions other than defense and movement.
 
-<span id="targeted-creatures"></span>**Targeted creatures** that are not turned are immune to your turning for 24 hours.
+<span id="targeted-creatures"></span>**Targeted creatures** that are not affected are immune to your Turn, and all its outcomes, for 24 hours.
 
 #### Alignment
 
@@ -132,7 +132,7 @@ Choose one of your two kinds of being, then choose one Division; every creature 
 
 ### Theurgic Magic
 
-You can cast theurgic spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Charisma score. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan. You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
+You can cast theurgic spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Charisma score. For each Charisma Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Charisma Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 

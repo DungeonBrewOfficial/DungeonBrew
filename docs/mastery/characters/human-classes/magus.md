@@ -51,7 +51,7 @@ She is a magus. A human practitioner of the Occult, studied in the ways of magic
 
 <span id="experience"></span>**Experience.** When this number of Experience Points have been earned, you automatically move up to the next level of experience.
 
-<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Felonius, a Second Level Magus," you should say "I'm Felonius, the Apprentice."
+<span id="title"></span>**Title**. You should use this title when talking with other characters. Instead of saying "I'm Ambrose, a Second Level Magus," you should say "I'm Ambrose, the Apprentice."
 
 <span id="health"></span>**Health**. You gain 1 health per 3 levels of experience in addition to any health gained from your endurance.
 
@@ -83,7 +83,7 @@ As a Mortal being, you have no innate damage immunity or vulnerability. You are 
 
 *Level 1*
 
-You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence score. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan. Your magan are regained through rest and food, as described in the *Exploration* chapter.
+You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence score. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). Your magan are regained through rest and food, as described in the *Exploration* chapter.
 
 Each spell you cast reduces your available magan by the spell's magan cost.
 
@@ -132,7 +132,7 @@ You attract a familiar to your side, a *[Morphon](../../bestiary/morphon.md)* or
 
 <span id="classification"></span>**Classification.** Your familiar carries the classification package of its kind.
 
-| Kind | Immune | Vulnerable (Impotence on trials vs) | Connected | Natural Attack |
+| Kind | Damage Immunity | Vulnerable (Impotence on trials vs damage) | Connected | Natural Attack |
 |:---|:---|:---|:---|:---|
 | Primordial (Fire) | Fire | Sea | Fire | Cleaving |
 | Primordial (Sea) | Sea | Fire | Sea | Puncturing |
@@ -174,7 +174,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 #### Familiar Stats
 
-<span id="health_1"></span>**Health:** Shared with you. Each Tier adds its tier die to your shared health pool (compounding).
+<span id="health_1"></span>**Health:** Shared with you. Each Tier adds its tier die to your shared health pool (compounding). See *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*.
 
 <span id="attack"></span>**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see [Classification](#classification)). Its natural attacks are Fast if it is small and Moderate if it is average.
 

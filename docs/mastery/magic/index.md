@@ -90,7 +90,7 @@ A practitioner of theurgic magic uses the Charisma attribute to cast spells. To 
 
 ### Magan Pools
 
-A practitioner's magan pool is determined by their class's spell progression (see *[Mastery System](../core/mastery-and-trials.md), [Mastery Point Progression](../core/mastery-and-trials.md#mastery-point-progression)*). Each time a practitioner increases their casting attribute tier, they roll their casting attribute tier die and add the result to their total magan permanently.
+A practitioner's magan pool is determined by their class's spell progression (see *[Mastery System](../core/mastery-and-trials.md), [Mastery Point Progression](../core/mastery-and-trials.md#mastery-point-progression)*). Each time a practitioner increases their casting attribute tier, they roll the new tier die and add it to their magan, and they can reroll the dice already in the pool (see *Creating a Character, Tier Dice Pools*).
 
 | Spell Progression | Base Magan | Classes |
 |:---|:---|:---|
@@ -304,6 +304,8 @@ How far away is the target or the point of effect?
 | Distant | Within 100 feet | +2 |
 | Far | Line of sight | +4 |
 
+A Touch/Self spell can target you or a creature you touch. Spell descriptions written for the caster apply equally to a touched creature.
+
 Line of sight is the hard ceiling on spell range. You must be able to see your target.
 
 ### Scale
@@ -374,11 +376,11 @@ Every spell assumes you are using a focus, speaking verbal components, and perfo
 | Verbal | Included (+0) | +1 magan |
 | Somatic | Included (+0) | +1 magan |
 
-<span id="focus"></span>**Focus.** An item that channels your power: a pectoral, a staff, a sprig of holly, a shrunken head. Requires one hand.
+<span id="focus"></span>**Focus.** An item that channels your power: a pectoral, a staff, a sprig of holly, a shrunken head. You cast through your bound focus, which must be worn, wielded, or in your hand when you declare the spell. Binding a different focus takes an exploration round spent concentrating on it. A held focus, one that is neither worn nor a weapon, gives Dominance on the spell's miscast trials. See *[Equipment, Foci](../equipment/gear-and-services.md#foci)*.
 
 <span id="verbal"></span>**Verbal.** Words spoken to give the spell substance. A gagged or silenced caster pays the +1 cost.
 
-<span id="somatic"></span>**Somatic.** Physical movements required to cast. Requires that the only items in your hands are your focus and/or material components. A restrained caster pays the +1 cost.
+<span id="somatic"></span>**Somatic.** Physical movements required to cast. You can make them with your hands empty or holding weapons, a shield, or your focus. Attacking or defending while you gesture costs you the spell (see *[Interrupted Casting](#interrupted-casting)*). A restrained caster pays the +1 cost.
 
 *Example: A close-range, instantaneous charm normally costs (1 + 1) × 1 × 1 = 2 magan. Casting it subtly, with no verbal or somatic components, costs (1 + 1 + 1 + 1) × 1 × 1 = 4 magan.*
 
@@ -460,7 +462,7 @@ Healing and repair are permanent, but older damage is harder to restore. The cos
 | This half of the adventuring day | ×5 |
 | The previous half of the adventuring day | ×8 |
 
-The damage age multiplier replaces the duration multiplier in the cost formula. A touch, personal heal for a wound taken this round costs 1 magan. The same heal for a wound taken earlier in the encounter costs 3.
+The damage age multiplier replaces the duration multiplier in the cost formula. A touch, personal heal for a wound taken this round costs 1 magan. The same heal for a wound taken earlier in the encounter costs 3. Damage age counts as a parameter of the spell, like duration: healing older damage than a familiar spell was recorded for is a modified casting (see *[Modified Familiar Casting](#modified-familiar-casting)*).
 
 Damage age follows the current timescale: in combat, count combat rounds; while exploring, a wound healed within the same exploration round counts as *this round*. Outside combat, the GM determines damage age.
 
@@ -700,7 +702,7 @@ You lose the spell and its magan if, before it resolves, you:
 - are knocked [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") and fail a Miscast trial against the DC of the effect that knocked you down, unless the spell has no somatic components; or
 - are left unable to finish it by a condition, such as one that prevents casting or takes your AP.
 
-A condition that affects only a component you are not using does not affect the spell; a spell without verbal components ignores [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."). If a condition takes away a component you declared, such as a gag or restraints, the spell is lost.
+A condition that affects only a component you are not using does not affect the spell; a spell without verbal components ignores [Deafened](../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial."). If a condition or an attack takes away a component you declared, such as a gag, restraints, or a disarmed focus, the spell is lost.
 
 Chained and simple conditions otherwise apply to a spell being cast as written. A condition that makes you act in a later phase, such as [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), delays the spell until that phase.
 
