@@ -54,6 +54,10 @@ CHAPTERS = {
 BARE_CHAPTERS = ["Monster Manual Rules (Revised)", "Monster Manual", "Mastery Core Classes",
                  "Mastery System", "General Rules", "Magic Mastery"]
 PLAIN_CHAPTERS = BARE_CHAPTERS + ["Skill Mastery", "Weapon Mastery"]
+# Core terms whose section is named in the plural: *form* is the Forms section,
+# not the Void form's "Form." theme entry.
+TERMS = {"form": ("magic/index", "Forms"), "forms": ("magic/index", "Forms"),
+         "command": ("magic/index", "Commands"), "commands": ("magic/index", "Commands")}
 FORMS = {"fire", "sea", "sky", "stone", "primal", "profane", "sacred", "void"}
 TRADITIONS = {"occult", "priscan", "telluric", "theurgic"}
 # Mechanic nouns that head sections in several unrelated places. These link
@@ -231,6 +235,8 @@ class Site:
             return self.find(f"{text} Magic", ["magic/index"])
         if norm in FORMS:
             return self.find(text, ["magic/index"])
+        if norm in TERMS:
+            return self.find(TERMS[norm][1], [TERMS[norm][0]])
 
         # "Wilderness", "Wilderness (Beast Lore)", "Trade Healer"
         m = re.fullmatch(r"(\w+)(?:\s*\((.+)\)|\s+(\w[\w ]*))?", text)
@@ -252,6 +258,10 @@ class Site:
         local = [h for h in hits if h[0] == cur]
         if len(local) == 1:
             return local[0]
+        # a bold label on this page: "see *Resisted or broken* above"
+        here = [h for h in self.by_label.get(norm, []) if h[0] == cur]
+        if len(here) == 1:
+            return here[0]
         if norm in self.by_title:
             return (self.by_title[norm], None)
         if norm in GENERIC:

@@ -162,7 +162,7 @@ Your Strength score represents the maximum weight your character can carry unenc
 * Insignificant items are weighed by stack
 * Containers always equal their weight
 * Ignore weight of items in Containers
-* Armor has its own weight value (see *Worn Armor* and *Carried Armor*)
+* Armor has its own weight value (see *[Worn Armor](#worn-armor)* and *[Carried Armor](#carried-armor)*)
 * Worn clothing does not add to your weight
 * Coins are carried in containers. One Light object of space holds 3,200 copper farthings, 3,200 sp of silver coins, 3,200 electrum pennies, or 160 gs of gold coins. Work out each metal's share, add them, and round up once. *Example: 4,800 sp in silver, 1,600 farthings, and 80 gs in gold is 1½ + ½ + ½ = 2½, which rounds up to 3 Light objects.* A handful of coins, up to 1 lb (about 320 sp, or 16 gold sovereigns), takes no space.
 

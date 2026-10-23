@@ -18,7 +18,7 @@ Access to an armor category includes every lighter category; a class with Medium
 
 ## Piecemeal
 
-Armor consists of several parts, each of which offers unique protections and benefits. It is possible that you can have multiple pieces of armor that offer different types of protection that cumulatively create a unique set of armor. Every set of armor must have an *Aketon* or arming jacket. It is used to secure your armor in place and prevent chafing. Light armor is 25 lbs. or less. Medium armor is 26 to 45 lbs. Heavy armor is 46 lbs. or more. A full set of medium or heavy armor includes its Aketon at no cost.
+Armor consists of several parts, each of which offers unique protections and benefits. It is possible that you can have multiple pieces of armor that offer different types of protection that cumulatively create a unique set of armor. Every set of armor must have an *[Aketon](#aketon)* or arming jacket. It is used to secure your armor in place and prevent chafing. Light armor is 25 lbs. or less. Medium armor is 26 to 45 lbs. Heavy armor is 46 lbs. or more. A full set of medium or heavy armor includes its Aketon at no cost.
 
 ### Light Armor Table
 

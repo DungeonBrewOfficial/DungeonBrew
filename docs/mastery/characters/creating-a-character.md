@@ -25,7 +25,7 @@ You have 36 points to spend on sets, one set for each attribute, such as:
 * 3d3, 3d3, 3d3, 3d3, 3d12, 3d12, 3d12, and 3d12
 * 3d6, 3d6, 3d6, 3d6, 3d8, 3d8, 3d8, and 3d8
 
-Take your time in reviewing the suggested rolls below, especially in regard to skills and abilities that you might be interested in utilizing with a given class. If you want to play a fighter, but want to have a war dog companion, you might consider having a better *Intelligence*, which Wilderness uses to train animals.
+Take your time in reviewing the suggested rolls below, especially in regard to skills and abilities that you might be interested in utilizing with a given class. If you want to play a fighter, but want to have a war dog companion, you might consider having a better *[Intelligence](#intelligence)*, which Wilderness uses to train animals.
 
 * You can assign any set to any attribute, so long as you roll a minimum of 3dx per attribute.
 * The suggested rolls below are not required, as you may consider Physique more important for your character than Intelligence, and swap the two rolls or similarly based on how you want your character to be built.

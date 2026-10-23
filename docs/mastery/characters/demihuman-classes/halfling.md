@@ -58,7 +58,7 @@ He is a halfling. A demihuman who keeps to himself, mostly. The big folk are alw
 <span id="skills"></span>**Skills**. At first level, you begin with 4 Skill Mastery points, which must be spent immediately on Skills. You may use these points to advance Skills to Untrained mastery, but no further at this level.
 
 * As a Halfling, you can learn the following skills: *[Alertness](../../skills/alertness.md)*, *[Athletics](../../skills/athletics.md)*, *[Trade (Alchemist, Blacksmith, Healer)](../../skills/trade/index.md)*, *[Lore](../../skills/lore.md)*, *[Presence](../../skills/presence.md)*, *[Tactics](../../skills/tactics.md)*, *[Thievery](../../skills/thievery.md)*, and *[Wilderness](../../skills/wilderness/index.md)* skills.
-* You learn *[Stealth](../../skills/stealth.md)* as part of the *Unobtrusive* class ability for free.
+* You learn *[Stealth](../../skills/stealth.md)* as part of the *[Unobtrusive](#unobtrusive)* class ability for free.
 * You gain 1 Skill Mastery point per level. At level 6, this increases to 2 points per level. At level 16, this increases to 3 points per level. At level 26, this increases to 4 points per level.
 
 <span id="spell-mastery"></span>**Spell Mastery**. This class does not have access to magic.
