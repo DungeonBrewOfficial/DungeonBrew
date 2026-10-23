@@ -42,7 +42,7 @@ ___
 
 ### Weapon Mastery Attack Dice
 
-| **Mastery Level (Tier)** | I | II | III | IV | V | VI |
+| **Mastery Level** | I | II | III | IV | V | VI |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Unskilled (1) | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 |
 | Untrained (2) | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 1d10 |
@@ -70,7 +70,7 @@ There is a difference between knowing how to fight with a weapon and specializin
 
 <span id="single-weapon-style"></span>**Single Weapon Style**. The single weapon style requires that you wield only one Light One-Handed, Heavy One-Handed, or Versatile One-Handed in a single hand and nothing in your off-hand.
 
-* You increase the damage done with single weapons by 1 for current Tier of mastery in this style.
+* You add your mastery level in this style (Unskilled 1 … Grand Master 7) to damage with single weapons.
 
 Maneuvers gained from mastery in this style are only usable while wielding a weapon as described.
 
@@ -196,7 +196,7 @@ You use your weapon to turn aside an incoming weapon attack.
 
 <span id="trigger_3"></span>**Trigger**: Defense, when a creature no more than one size larger than you attacks you with a weapon (once per round)
 
-<span id="effect_3"></span>**Effect**: Defend and add your Weapon Mastery Tier to your defense roll.
+<span id="effect_3"></span>**Effect**: Defend and add your mastery level in the weapon's type to your defense roll.
 
 ---
 

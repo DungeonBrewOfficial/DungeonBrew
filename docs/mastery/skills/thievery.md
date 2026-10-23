@@ -56,7 +56,7 @@ At Basic, Expert, and Grand Master, choose one ability you have not already chos
 
 ### Luck Pool
 
-A number of times per day equal to your Thievery mastery tier, you can declare before a trial that its dice explode. Your uses return at dawn.
+A number of times per day equal to your Thievery mastery level, you can declare before a trial that its dice explode. Your uses return at dawn.
 
 ### Set Trap
 

@@ -12,7 +12,7 @@ generated_by: tools/sync_mastery.py
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD profane |
+| **Components** | F, S, V | **Damage** | ATD + MD profane |
 | **Resistance** | Agility | | |
 
 <span id="cost"></span>**Cost:** (1 + 1 + 0) x 1 = 2.
@@ -29,7 +29,7 @@ You hurl a spray of bone fragments at a creature within 30 feet. The target make
 |:---|:---|:---|:---|
 | **Reach** | Distant | **Scale** | Large |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD profane |
+| **Components** | F, S, V | **Damage** | ATD + MD profane |
 | **Resistance** | Agility | | |
 
 <span id="cost_1"></span>**Cost:** (1 + 2 + 2) x 1 = 5.
@@ -46,7 +46,7 @@ You unleash a burst of choking ash and corpse dust at a point within 100 feet, e
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD profane |
+| **Components** | F, S, V | **Damage** | ATD + MD profane |
 | **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
 
 <span id="cost_2"></span>**Cost:** (1 + 1 + 0) x 1 x 1 x 2 = 4.
@@ -153,7 +153,7 @@ You reshape existing dead organic material within 30 feet: warp a bone into a sp
 
 <span id="cost_8"></span>**Cost:** (1 + 0 + 0) x 1 = 1.
 
-You touch a damaged object of bone, horn, wood, leather, or other dead organic material and restore it toward its native state. The object recovers integrity equal to your ATD + MTD. The repair is permanent. As an instantaneous spell, Mend Husk repairs damage taken this round.
+You touch a damaged object of bone, horn, wood, leather, or other dead organic material and restore it toward its native state. The object recovers integrity equal to your ATD + MD. The repair is permanent. As an instantaneous spell, Mend Husk repairs damage taken this round.
 
 ---
 

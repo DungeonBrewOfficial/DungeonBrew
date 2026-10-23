@@ -78,13 +78,13 @@ Enchant puts magic into an object. In combat, the most common application is tem
 
 ### Temporary Weapon Enchantment
 
-Casting enchant on a weapon adds your *form mastery tier die* as typed damage on a successful hit. The damage type matches the form (enchant fire = fire damage, enchant sacred = sacred damage). The typed damage is a separate damage event from the physical attack. The attack itself remains mundane; only the added typed damage is magical. The typed damage bypasses armor and applies directly to health, subject to the target's resistance to that damage type.
+Casting enchant on a weapon adds your *mastery die* in that form as typed damage on a successful hit. The damage type matches the form (enchant fire = fire damage, enchant sacred = sacred damage). The typed damage is a separate damage event from the physical attack. The attack itself remains mundane; only the added typed damage is magical. The typed damage bypasses armor and applies directly to health, subject to the target's resistance to that damage type.
 
 <span id="magan-cost_2"></span>**Magan cost.** Standard spell cost model. A typical combat enchantment at touch range, single target, short duration: (1 + 0 + 0) × 3 = 3 magan for the encounter.
 
 <span id="concentration-required"></span>**Concentration required.** The enchantment occupies a concentration slot for its duration.
 
-<span id="damage-scaling"></span>**Damage scaling.** Form mastery tier die (Unskilled d2, Untrained d3, Basic d4, Skilled d6, Expert d8, Master d10, Grand Master d12).
+<span id="damage-scaling"></span>**Damage scaling.** Your mastery die in the form (Unskilled d2, Untrained d3, Basic d4, Skilled d6, Expert d8, Master d10, Grand Master d12).
 
 <span id="locked-type-per-cast"></span>**Locked type per cast.** The damage type is set when you cast the spell. Changing types requires dropping the spell and recasting: new AP, new magan, new casting time.
 

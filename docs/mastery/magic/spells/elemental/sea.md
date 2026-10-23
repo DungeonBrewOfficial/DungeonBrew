@@ -12,7 +12,7 @@ generated_by: tools/sync_mastery.py
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sea |
+| **Components** | F, S, V | **Damage** | ATD + MD sea |
 | **Resistance** | Agility | | |
 
 <span id="cost"></span>**Cost:** (1 + 1 + 0) × 1 = 2.
@@ -29,7 +29,7 @@ You hurl a jagged shard of ice at a creature within line of sight, 30 feet. The 
 |:---|:---|:---|:---|
 | **Reach** | Distant | **Scale** | Large |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sea |
+| **Components** | F, S, V | **Damage** | ATD + MD sea |
 | **Resistance** | Agility | | |
 
 <span id="cost_1"></span>**Cost:** (1 + 2 + 2) × 1 = 5.
@@ -46,7 +46,7 @@ You crash a wave of conjured water down on a point within line of sight, 100 fee
 |:---|:---|:---|:---|
 | **Reach** | Touch | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sea |
+| **Components** | F, S, V | **Damage** | ATD + MD sea |
 | **Resistance** | Endurance (creature) | | |
 
 <span id="cost_2"></span>**Cost:** (1 + 0 + 0) × 1 = 1.
@@ -63,7 +63,7 @@ You touch an object and dissolve it. The material corrodes, pits, and falls apar
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD sea |
+| **Components** | F, S, V | **Damage** | ATD + MD sea |
 | **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
 
 <span id="cost_3"></span>**Cost:** (1 + 1 + 0) × 1 × 1 × 2 = 4.

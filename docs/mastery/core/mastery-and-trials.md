@@ -37,6 +37,23 @@ Dominance moves each die one step to the right. Impotence moves each die one ste
 - <span id="replacing"></span>**Replacing.** An effect that replaces a die replaces one whole pool, and only a pool lower on the chart than the replacement. Properties tied to the replaced pool, such as a two-handed weapon's extra die, apply to the new pool.
 - <span id="adding"></span>**Adding.** An effect that adds a die adds one die of the pool's own type. A two-handed weapon with a 2d6 pool rolls 3d6 and drops the lowest.
 
+### Tiers and Levels
+
+| Term | Scale | What sets it |
+|:---|:---|:---|
+| **Attribute tier** | 1–7, with a tier die from d2 to d12 | The attribute's score (Tier 2 at score 5 … Tier 7 at score 30) |
+| **Mastery level** | 1–7: Unskilled 1, Untrained 2, Basic 3, Skilled 4, Expert 5, Master 6, Grand Master 7. Its mastery die runs from d2 to d12 | Mastery points invested |
+| **Character level** | 1–30 and beyond | Experience |
+| **Condition tier** | 1–3 | The condition's source |
+| **Creature tier** and **Division** | Tier 1–7; Division = tier + rank offset | The creature's stat block |
+| **Ability tier** (Chantment, Dominion, Puca, Agathion, familiar) | 1–7, with its own tier die | Character level, shown in the ability's table |
+| **Trauma tier** | Minor, Severe, Grievous | The Trauma Table |
+| **Item tier** (components, scrolls, crafted goods) | Serf (1) to Royal (7) | The item |
+
+A rule that says "tier" names which one, unless the ability it belongs to makes it clear.
+
+*Abbreviations:* TD, tier die; ATD, attribute tier die; MD, mastery die; DTD, Division tier die.
+
 ### Dice Mechanic Interactions
 
 - <span id="attack"></span>**Attack**, **damage** (including spell damage), and **defense** dice explode on a maximum roll, except a d2, which never explodes. A d2 that Dominance steps up to a d3 explodes as a d3. **Trial** dice do not explode.
@@ -248,7 +265,7 @@ When you use a spell, weapon maneuver, or skill ability that forces a target to 
 
 <span id="mastery-dc-your-mastery-level-your-attribute-tier"></span>**Mastery DC = Your Mastery Level + Your Attribute Tier**
 
-Your mastery level in the relevant discipline (the form you are casting, the weapon type you are wielding, or the skill you are using) is numbered 1 through 7, matching the mastery tiers (Unskilled is 1, Grand Master is 7). Add your relevant attribute tier to determine the DC.
+Your mastery level in the relevant discipline (the form you are casting, the weapon type you are wielding, or the skill you are using) is numbered 1 through 7 (Unskilled is 1, Grand Master is 7; see *[Tiers and Levels](#tiers-and-levels)*). Add your relevant attribute tier to determine the DC.
 
 <span id="hallmark-dcs"></span>**Hallmark DCs.** Class abilities with their own DC (Song, Chantment, Puca, Agathion, Familiar, and similar) use their hallmark tier + an attribute tier, and so top out at 14 on their own. They are not Mastery DCs: effects that modify Mastery DC ([Clarity](conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), guards) do not apply to them.
 

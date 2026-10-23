@@ -193,7 +193,7 @@ A creature's weapon mastery level equals its rank, using the same mapping as spe
 | Epic | Master (6) |
 | Legendary | Grand Master (7) |
 
-Creatures can use any PC maneuver they have the mastery level to access. If the creature uses a named PC maneuver, it follows that maneuver's rules exactly (trigger, cost, effect). Bonuses that reference mastery tier use the creature's rank-derived mastery tier (e.g., Riposte bonus = Sword Mastery Tier = mastery level number). DCs use Division + 1 (same as ability DCs), standing in for Mastery DC.
+Creatures can use any PC maneuver they have the mastery level to access. If the creature uses a named PC maneuver, it follows that maneuver's rules exactly (trigger, cost, effect). Bonuses that reference mastery level use the creature's mastery level from this table (e.g., a Champion's Riposte bonus is 4). DCs use Division + 1 (same as ability DCs), standing in for Mastery DC.
 
 If a creature ability resembles a PC maneuver but differs mechanically, it gets a different name. The naming rule is absolute: same name means same rules.
 

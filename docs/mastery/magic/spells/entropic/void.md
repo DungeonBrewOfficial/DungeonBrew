@@ -12,7 +12,7 @@ generated_by: tools/sync_mastery.py
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD void |
+| **Components** | F, S, V | **Damage** | ATD + MD void |
 | **Resistance** | Agility | | |
 
 <span id="cost"></span>**Cost:** (1 + 1 + 0) x 1 = 2.
@@ -29,7 +29,7 @@ You manifest a projectile and hurl it at a creature within 30 feet. The target m
 |:---|:---|:---|:---|
 | **Reach** | Distant | **Scale** | Large |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD void |
+| **Components** | F, S, V | **Damage** | ATD + MD void |
 | **Resistance** | Agility | | |
 
 <span id="cost_1"></span>**Cost:** (1 + 2 + 2) x 1 = 5.
@@ -46,7 +46,7 @@ You manifest a burst of void energy at a point within 100 feet, engulfing a larg
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Damage** | ATD + MTD void |
+| **Components** | F, S, V | **Damage** | ATD + MD void |
 | **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
 
 <span id="cost_2"></span>**Cost:** (1 + 1 + 0) x 1 x 1 x 2 = 4.

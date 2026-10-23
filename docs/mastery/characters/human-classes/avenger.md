@@ -92,9 +92,9 @@ You gain the ability to project the will of your numen to drive away or control 
 
 #### Theurgic Lore
 
-You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery tier, choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
+You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery, specializing exclusively in Asura and Daeva Lore. You gain one Lore pick per mastery level you reach (Untrained through Grand Master), choosing either Asura or Daeva and selecting Slayer, Warder, or Defier for that creature type. You gain 3 picks for each creature type by Grand Master. This progression does not count against your Skill Mastery points, but you cannot invest points in Lore Mastery.
 
-Your Theurgic Lore replaces your access to other Creature Lores. You cannot invest in Creature Lores outside of Asura and Daeva. However, each time you achieve a new mastery tier in Theurgic Lore, you unlock the option to spend 1 Skill Mastery point to gain a Knowledge Lore of your choice. This point can be spent at any time after the tier is achieved, not necessarily at the same level. Knowledge Lores use your Theurgic Lore skill die.
+Your Theurgic Lore replaces your access to other Creature Lores. You cannot invest in Creature Lores outside of Asura and Daeva. However, each time you achieve a new mastery level in Theurgic Lore, you unlock the option to spend 1 Skill Mastery point to gain a Knowledge Lore of your choice. This point can be spent at any time after the tier is achieved, not necessarily at the same level. Knowledge Lores use your Theurgic Lore skill die.
 
 | Level | Mastery | Lore Skill Die | Picks |
 |:---:|:---:|:---:|:---:|

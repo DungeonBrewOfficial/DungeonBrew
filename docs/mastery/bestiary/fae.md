@@ -216,7 +216,7 @@ An ancient tree awakened. The Treow moves with glacial patience, its roots pulli
 
 <span id="tier-budget_4"></span>**Tier Budget:** 5+1+2+5+1+3+2+3 = 22. Budget for T2 Champion = 22. ✓
 
-<span id="classification-package"></span>**Classification Package:** Immune Primal. Vulnerable Void (Impotence vs Void damage trials). Connected Form: Primal.
+<span id="classification-package"></span>**Classification Package:** Immune to Primal damage. Impotence on trials vs Void damage. Connected to Primal magic.
 
 | Stat | Value |
 |:---|:---|
@@ -258,7 +258,7 @@ A spirit of an ancient tree, bound to a grove extending roughly a mile from her 
 
 <span id="tier-budget_5"></span>**Tier Budget:** 2+3+3+4+3+3+4+5 = 27. Budget for T2 Epic = 28. Under (-1). ✓
 
-<span id="classification-package_1"></span>**Classification Package:** Immune Primal. Vulnerable Void. Connected Form: Primal.
+<span id="classification-package_1"></span>**Classification Package:** Immune to Primal damage. Impotence on trials vs Void damage. Connected to Primal magic.
 
 <span id="spellcasting"></span>**Spellcasting:** Mastery Level 6 (Rank). ATD d8 (PER). Spell DC 8.
 
@@ -280,7 +280,7 @@ A spirit of an ancient tree, bound to a grove extending roughly a mile from her 
 
 The Dryad's bonded tree is a massive ancient tree (2×2 footprint, 15 ft reach). It cannot defend; attacks against it hit automatically. Damage is reduced by resistance only.
 
-<span id="tree-resistance"></span>**Tree Resistance:** 14 (2×Division) to all types. Exceptions: Cleaving 7, Fire 7, Void 7. Immune Primal.
+<span id="tree-resistance"></span>**Tree Resistance:** 14 (2×Division) to all types. Exceptions: Cleaving 7, Fire 7, Void 7. Immune to Primal damage.
 
 <span id="threshold-effects"></span>**Threshold Effects** *(checked at the start of the Dryad's turn; based on total damage dealt to the tree since her last turn. Thresholds stack. Reset if the tree takes less than the threshold next round.)*
 
