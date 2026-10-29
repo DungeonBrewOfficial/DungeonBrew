@@ -223,13 +223,13 @@ A blood draught is administered through ingestion. Warm blood wakes the dying. H
 
 *A fleshy lump from a newborn foal, sold everywhere for love philtres.*
 
-Hippomanes is administered through ingestion. A creature that drinks it is charmed by the first creature it sees, and if the charm survives a week, it's permanent. The common kind does nothing. It must come from the foal of a Fae deer or White Stag, taken before the mother eats it, and be steeped in an Undine's tears.
+Hippomanes is administered through ingestion. A creature that drinks it is charmed by the first creature it sees, and if the charm survives a week, it's permanent. The common kind does nothing. It must come from the foal of a White Hart, taken before the mother eats it, and be steeped in an Undine's tears.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|
-| Single strength | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") toward the first creature the drinker sees, T1 to T3† | None | Not sold |
+| Single strength | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") toward the first creature the drinker sees, T1 to T3† | None | Not sold |
 
-† A Wisdom trial against the maker's Mastery DC. A failure gives [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") T1, failing by 5 gives T2, and a natural minimum gives T3. Then one Wisdom trial a day for seven days: a success lowers the tier by 1, ending it at 0; a natural minimum raises it by 1; an ordinary failure changes nothing. Whatever tier remains after the week is permanent.
+† A Wisdom trial against the maker's Mastery DC. A failure gives [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") T1, failing by 5 gives T2, and a natural minimum gives T3. Then one Wisdom trial a day for seven days: a success lowers the tier by 1, ending it at 0; a natural minimum raises it by 1; an ordinary failure changes nothing. Whatever tier remains after the week is permanent.
 
 | | |
 |:---|:---|
@@ -248,7 +248,7 @@ Hippomanes is administered through ingestion. A creature that drinks it is charm
 
 | Makes | Learned at | Source | Time | Yield |
 |:---|:---|:---|:---|:---|
-| **Hippomanes** | Expert, Master, or Grand Master, by choice | The foal of a Fae deer or White Stag, found in time, and an Undine's tears | One full moon | One dose |
+| **Hippomanes** | Expert, Master, or Grand Master, by choice | The foal of a White Hart, found in time, and an Undine's tears | One full moon | One dose |
 
 *GM note: "first seen" can make a player character permanently charmed by accident, horses included. Tables may want to agree in advance how they handle mind control of player characters.*
 
@@ -314,7 +314,7 @@ Mumia is administered through ingestion. It heals, clears Injuries, and mends th
 
 *Cartilage near an old deer's heart that turns to bone, grated into cordials.*
 
-Stag's heart bone is administered through ingestion, grated into a cordial. A creature that drinks it is [Inspired](../../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") T3 for the encounter. Ordinary deer heart bone is sold to comfort the heart and cure fainting, and does nothing. It must come from an old white hart, the White Stag, and the hunt is the hard part.
+Stag's heart bone is administered through ingestion, grated into a cordial. A creature that drinks it is [Inspired](../../../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") T3 for the encounter. Ordinary deer heart bone is sold to comfort the heart and cure fainting, and does nothing. It must come from an old White Stag, and the hunt is the hard part.
 
 | Strength | Effect | Side effect | Price |
 |:---|:---|:---|:---:|

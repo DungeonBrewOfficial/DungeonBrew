@@ -42,7 +42,7 @@ At each mastery level, choose one Athletics ability from any attribute category.
 
 ### ENDURANCE ABILITIES
 
-<span id="avoid-death"></span>**Avoid Death:** When an attack or spell would reduce you to 0 health, as a reaction you can roll your Endurance tier die and restore that amount of health. You cannot use this again until you complete a rest.
+<span id="avoid-death"></span>**Avoid Death:** When an attack or spell would reduce you to 0 health, you can roll your Endurance tier die and restore that amount of health. This costs no AP. You cannot use this again until you complete a rest.
 
 <span id="elemental-resistance"></span>**Elemental Resistance:** Choose one element (Sea, Sky, Stone, or Fire). You resist that damage type by an amount equal to your Endurance tier.
 

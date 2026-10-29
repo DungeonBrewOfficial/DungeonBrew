@@ -90,15 +90,15 @@ A working animal requires 1/2 bushel of oats per day, 3 loaves of horse bread, 1
 
 A working draft horse requires 1 bushel of oats per day, 5 loaves of horse bread, 30 lbs of hay, or costs around 3 sp to stable per day.
 
-<span id="horse-heavy-war"></span>**Horse, Heavy War**. Heavy war horses, also known as destriers, are most often stallions due to their natural aggression. Chargers are bred to carry the heavy weight of rider, armor, and barding. Heavy war horses are expensive, the least expensive around 60 gs, while powerful, well-trained animals can cost upwards of 200 gs. *Stat block: Destrier — Heavy War Horse. A horse of any breed trained for this role uses it.*
+<span id="horse-heavy-war"></span>**Horse, Heavy War**. Heavy war horses, also known as destriers, are most often stallions due to their natural aggression. Chargers are bred to carry the heavy weight of rider, armor, and barding. Heavy war horses are expensive, the least expensive around 60 gs, while powerful, well-trained animals can cost upwards of 200 gs. *Stat block: Destrier, Heavy War Horse. A horse of any breed trained for this role uses it.*
 
 A working war horse requires 1 bushel of oats per day, 5 loaves of horse bread, 30 lbs of hay, or costs around 3 sp to stable per day.
 
-<span id="horse-light-war"></span>**Horse, Light War**. Light war horses are generally well-trained rounceys, though smaller coursers serve as well. They are quick and are primarily used as light cavalry or for horse archers. Their mobility makes them effective so long as they are not weighed down, but encumbrance from heavy riders, armor, or barding can render them useless. Training and quality can result in these animals costing between 10 gs and 50 gs. *Stat block: Rouncey — Light War Horse. A horse of any breed trained for this role uses it.*
+<span id="horse-light-war"></span>**Horse, Light War**. Light war horses are generally well-trained rounceys, though smaller coursers serve as well. They are quick and are primarily used as light cavalry or for horse archers. Their mobility makes them effective so long as they are not weighed down, but encumbrance from heavy riders, armor, or barding can render them useless. Training and quality can result in these animals costing between 10 gs and 50 gs. *Stat block: Rouncey, Light War Horse. A horse of any breed trained for this role uses it.*
 
 A working war horse requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of hay, or costs around 2 sp to stable per day.
 
-<span id="horse-medium-war"></span>**Horse, Medium War**. Medium war horses are generally well-trained coursers, though larger rounceys serve as well. They can bear most riders and barding and are effective animals for a good balance of speed and durability. Their mobility makes them effective so long as they are not weighed down, but encumbrance from heavy riders, armor, or barding can render them ineffective. Training and quality can result in these animals costing between 30 gs and 100 gs. *Stat block: Courser — Medium War Horse. A horse of any breed trained for this role uses it.*
+<span id="horse-medium-war"></span>**Horse, Medium War**. Medium war horses are generally well-trained coursers, though larger rounceys serve as well. They can bear most riders and barding and are effective animals for a good balance of speed and durability. Their mobility makes them effective so long as they are not weighed down, but encumbrance from heavy riders, armor, or barding can render them ineffective. Training and quality can result in these animals costing between 30 gs and 100 gs. *Stat block: Courser, Medium War Horse. A horse of any breed trained for this role uses it.*
 
 A working war horse requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of hay, or costs around 2 sp to stable per day.
 
@@ -106,7 +106,7 @@ A working war horse requires 1/2 bushel of oats per day, 3 loaves of horse bread
 
 A pony requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of hay, or costs around 2 sp to stable per day.
 
-<span id="horse-riding"></span>**Horse, Riding**. Riding horses are generally palfreys, prized for their smooth gait, though rounceys and coursers are often ridden. They are effective animals for a good balance of speed and durability. Their mobility makes them effective so long as they are not weighed down, but encumbrance from heavy riders or supplies can slow them down. These horses are popular among hunters, especially among nobility. Riding horses are not trained for war and can spook if subjected to battle conditions. *Stat block: Palfrey — Riding Horse. A horse of any breed trained for this role uses it.*
+<span id="horse-riding"></span>**Horse, Riding**. Riding horses are generally palfreys, prized for their smooth gait, though rounceys and coursers are often ridden. They are effective animals for a good balance of speed and durability. Their mobility makes them effective so long as they are not weighed down, but encumbrance from heavy riders or supplies can slow them down. These horses are popular among hunters, especially among nobility. Riding horses are not trained for war and can spook if subjected to battle conditions. *Stat block: Palfrey, Riding Horse. A horse of any breed trained for this role uses it.*
 
 A riding horse requires 1/2 bushel of oats per day, 3 loaves of horse bread, 15 lbs of hay, or costs around 2 sp to stable per day.
 

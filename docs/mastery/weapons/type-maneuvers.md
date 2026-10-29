@@ -500,7 +500,7 @@ You extend your blade into the path of an incoming attacker, forcing them to imp
 
 <span id="trigger_32"></span>**Trigger**: Defense, when an enemy makes a melee attack against you
 
-<span id="effect_32"></span>**Effect**: Both you and your target roll attacks simultaneously. Only the higher attack deals damage. If the enemy's attack is higher, they gain Bonus equal to their melee attack tier to damage.
+<span id="effect_32"></span>**Effect**: Both you and your target roll attacks simultaneously. Only the higher attack deals damage. If the enemy's attack is higher, they gain Bonus equal to their mastery level in their weapon's type to damage.
 
 ---
 

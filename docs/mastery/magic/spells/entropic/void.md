@@ -17,7 +17,7 @@ generated_by: tools/sync_mastery.py
 
 <span id="cost"></span>**Cost:** (1 + 1 + 0) x 1 = 2.
 
-You manifest a projectile and hurl it at a creature within 30 feet. The target makes an Agility trial; on failure, it takes full void damage.
+You manifest a projectile and hurl it at a creature within 30 feet. The target makes an Agility trial; on failure, it takes void damage equal to your ATD + MD.
 
 ---
 
@@ -34,7 +34,7 @@ You manifest a projectile and hurl it at a creature within 30 feet. The target m
 
 <span id="cost_1"></span>**Cost:** (1 + 2 + 2) x 1 = 5.
 
-You manifest a burst of void energy at a point within 100 feet, engulfing a large area (up to 15 x 15 ft). Each creature in the area makes an Agility trial; on failure, it takes full void damage.
+You manifest a burst of void energy at a point within 100 feet, engulfing a large area (up to 15 x 15 ft). Each creature in the area makes an Agility trial; on failure, it takes void damage equal to your ATD + MD.
 
 ---
 
@@ -51,7 +51,7 @@ You manifest a burst of void energy at a point within 100 feet, engulfing a larg
 
 <span id="cost_2"></span>**Cost:** (1 + 1 + 0) x 1 x 1 x 2 = 4.
 
-You strike a creature within 30 feet with a manifested projectile that destabilizes its form on impact. The target makes an Agility trial; on failure, it takes full void damage and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Unraveling); its physical form begins losing cohesion. The Attrition instance deals damage equal to the caster's attribute tier at the end of the target's next turn, then expires.
+You strike a creature within 30 feet with a manifested projectile that destabilizes its form on impact. The target makes an Agility trial; on failure, it takes void damage equal to your ATD + MD and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Unraveling); its physical form begins losing cohesion. The Attrition instance deals damage equal to your attribute tier at the end of the target's next turn, then expires.
 
 ---
 
@@ -199,12 +199,12 @@ You attune your senses to Morphon creatures for the encounter. You perceive the 
 |:---|:---|:---|:---|
 | **Reach** | Close | **Scale** | Personal |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Condition** | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") T1 |
+| **Components** | F, S, V | **Condition** | [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") T1 |
 | **Resistance** | Wisdom | | |
 
 <span id="cost_11"></span>**Cost:** (1 + 1 + 0) x 3 x 1 = 6.
 
-You reach into a Morphon creature's consciousness within 30 feet and bend its will for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
+You reach into a Morphon creature's consciousness within 30 feet and bend its will for the encounter. The target makes a Wisdom trial; on failure, it advances [Charmed](../../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") by 1 tier.
 
 ---
 
@@ -276,17 +276,204 @@ You transform into a Morphon creature of a known subtype within your Division ca
 
 ---
 
-## Settle Mind
+## Settle Mind, 8 Hours
 
-*Variable Magan: Transmute Void | Variable*
+*1 Magan: Transmute Void | Fast*
 
 | | | | |
 |:---|:---|:---|:---|
 | **Reach** | Touch | **Scale** | Personal |
 | **Duration** | Instantaneous | **Concentration** | No |
-| **Components** | F, S, V | **Effect** | Restore Insanity |
+| **Components** | F, S, V | **Effect** | Restore Insanity (8 hours) |
 | **Resistance** | N/A (ally) | | |
 
-<span id="cost_16"></span>**Cost:** (1 + 0 + 0) × Damage Age × Insanity Step. See *[Magic Mastery](../../index.md), [Restoring the Mind](../../index.md#restoring-the-mind)*.
+<span id="cost_16"></span>**Cost:** (1 + 0 + 0) × 1 × 1 = 1. See *[Magic Mastery](../../index.md), [Restoring the Mind](../../index.md#restoring-the-mind)*.
 
-You touch a Void-connected creature and draw its mind back toward what it was this morning. Insanity gained today is undone, returning to the step it held at the start of the day. The restoration is permanent.
+You touch a Void-connected creature and draw its mind back toward what it was this morning. Insanity the creature gained this round is undone, if it gained none earlier today and its insanity now stands at the 8-hour step. The insanity returns to the step it held at the start of the day, or is removed if it began today. The restoration is permanent.
+
+---
+
+## Settle Mind, 1 Day
+
+*3 Magan: Transmute Void | Fast*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Touch | **Scale** | Personal |
+| **Duration** | Instantaneous | **Concentration** | No |
+| **Components** | F, S, V | **Effect** | Restore Insanity (1 day) |
+| **Resistance** | N/A (ally) | | |
+
+<span id="cost_17"></span>**Cost:** (1 + 0 + 0) × 1 × 3 = 3. See *[Magic Mastery](../../index.md), [Restoring the Mind](../../index.md#restoring-the-mind)*.
+
+You touch a Void-connected creature and draw its mind back toward what it was this morning. Insanity the creature gained this round is undone, if it gained none earlier today and its insanity now stands at the 1-day step. The insanity returns to the step it held at the start of the day, or is removed if it began today. The restoration is permanent.
+
+---
+
+## Settle Mind, 1 Week
+
+*6 Magan: Transmute Void | Moderate*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Touch | **Scale** | Personal |
+| **Duration** | Instantaneous | **Concentration** | No |
+| **Components** | F, S, V | **Effect** | Restore Insanity (1 week or permanent) |
+| **Resistance** | N/A (ally) | | |
+
+<span id="cost_18"></span>**Cost:** (1 + 0 + 0) × 1 × 6 = 6. See *[Magic Mastery](../../index.md), [Restoring the Mind](../../index.md#restoring-the-mind)*.
+
+You touch a Void-connected creature and draw its mind back toward what it was this morning. Insanity the creature gained this round is undone, if it gained none earlier today and its insanity now stands at the 1-week or permanent step. The insanity returns to the step it held at the start of the day, or is removed if it began today. The restoration is permanent.
+
+---
+
+## Void Wall
+
+*9 Magan: Formulate Void | Slow*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Close | **Scale** | Small |
+| **Duration** | Short | **Concentration** | Yes |
+| **Components** | F, S, V | **Effect** | Barrier (void) |
+| **Resistance** | Strength (passage) | | |
+
+<span id="cost_19"></span>**Cost:** (1 + 1 + 1) × 3 = 9.
+
+You raise a wall of void at a point within 30 feet, filling a small area (up to 10 × 10 ft). The wall persists for the encounter and takes any appearance you choose. It is an energy barrier (see *[Magic Mastery](../../index.md), [Energy Barriers](../../index.md#energy-barriers)*); a creature that pushes through takes void damage.
+
+---
+
+## Thousand Blades
+
+*9 Magan: Obliterate Void | Slow*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Far | **Scale** | Epic |
+| **Duration** | Instantaneous | **Concentration** | No |
+| **Components** | F, S, V | **Damage** | ATD + MD void |
+| **Resistance** | Agility | | |
+
+<span id="cost_20"></span>**Cost:** (1 + 4 + 4) × 1 = 9.
+
+You manifest a storm of blades over a point within line of sight, cutting through an epic area (up to 25 × 25 ft). Each creature in the area makes an Agility trial; on failure, it takes void damage equal to your ATD + MD.
+
+---
+
+## Unmaking
+
+*12 Magan: Obliterate Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Distant | **Scale** | Huge |
+| **Duration** | Instantaneous | **Concentration** | No |
+| **Components** | F, S, V | **Damage** | ATD + MD void |
+| **Resistance** | Agility | **Effects** | 2 (damage + [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).")) |
+
+<span id="cost_21"></span>**Cost:** (1 + 2 + 3) × 1 × 1 × 2 = 12.
+
+You loosen the hold of form on a huge area at a point within line of sight, 100 feet (up to 20 × 20 ft). Each creature in the area makes an Agility trial; on failure, it takes void damage equal to your ATD + MD and gains [Attrition](../../../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Unraveling). The Attrition instance deals damage equal to your attribute tier at the end of the target's next turn, then expires.
+
+---
+
+## Unmoor
+
+*12 Magan: Enchant Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Close | **Scale** | Personal |
+| **Duration** | Instantaneous | **Concentration** | No |
+| **Components** | F, S, V | **Condition** | [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") T3 |
+| **Resistance** | Intelligence | | |
+
+<span id="cost_22"></span>**Cost:** (1 + 1 + 0) × 1 × 6 = 12.
+
+You cut a creature's mind loose from its surroundings within 30 feet. The target makes an Intelligence trial; on failure, it advances [Disoriented](../../../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") by 3 tiers until the end of the round.
+
+---
+
+## Waking Dream
+
+*15 Magan: Enchant Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Distant | **Scale** | Large |
+| **Duration** | Short | **Concentration** | Yes |
+| **Components** | F, S, V | **Condition** | [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") T1 |
+| **Resistance** | Perception | | |
+
+<span id="cost_23"></span>**Cost:** (1 + 2 + 2) × 3 × 1 = 15.
+
+You draw a dreaming haze over the senses of everything in a large area at a point within line of sight, 100 feet (up to 15 × 15 ft), for the encounter. Each creature in the area makes a Perception trial; on failure, it advances [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
+
+---
+
+## Inviolate
+
+*18 Magan: Enchant Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Touch | **Scale** | Personal |
+| **Duration** | Short | **Concentration** | Yes |
+| **Components** | F, S, V | **Condition** | [Warded](../../../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") T3 |
+| **Resistance** | N/A (ally) | | |
+
+<span id="cost_24"></span>**Cost:** (1 + 0 + 0) × 3 × 6 = 18.
+
+You touch a creature and close its mind and self against all influence for the encounter. The target advances [Warded](../../../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") by 3 tiers.
+
+---
+
+## Glamour
+
+*20 Magan: Transmute Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Close | **Scale** | Large |
+| **Duration** | Long | **Concentration** | Yes |
+| **Components** | F, S, V | **Effect** | Alter perceived appearance of creatures and objects |
+| **Resistance** | Perception (to disbelieve) | | |
+
+<span id="cost_25"></span>**Cost:** (1 + 1 + 2) × 5 = 20.
+
+You lay a false appearance over everything in a large area within 30 feet (up to 15 × 15 ft) for half the adventuring day. Each creature and object in the area takes on an appearance you choose: a band of soldiers becomes a band of pilgrims, a cart of arms becomes a cart of turnips. The appearance travels with each creature or object. A creature that studies one closely makes a Perception trial to see through it.
+
+---
+
+## Bastion of Will
+
+*25 Magan: Formulate Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Close | **Scale** | Huge |
+| **Duration** | Long | **Concentration** | Yes |
+| **Components** | F, S, V | **Effect** | Barrier (void) |
+| **Resistance** | Strength (passage) | | |
+
+<span id="cost_26"></span>**Cost:** (1 + 1 + 3) × 5 = 25.
+
+You raise a wall of void at a point within 30 feet, up to 16 squares in any shape, such as a line or a ring. The wall persists for half the adventuring day and takes any appearance you choose. It is an energy barrier (see *[Magic Mastery](../../index.md), [Energy Barriers](../../index.md#energy-barriers)*); a creature that pushes through takes void damage.
+
+---
+
+## Mindbreak
+
+*30 Magan: Obliterate Void | Slow (2 AP)*
+
+| | | | |
+|:---|:---|:---|:---|
+| **Reach** | Distant | **Scale** | Large |
+| **Duration** | Instantaneous | **Concentration** | No |
+| **Components** | F, S, V | **Damage** | ATD + MD void |
+| **Resistance** | Agility; Perception | **Effects** | 2 (damage + [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.")) |
+
+<span id="cost_27"></span>**Cost:** (1 + 2 + 2) × 1 × 3 × 2 = 30.
+
+You drive the void through the minds of everything in a large area at a point within line of sight, 100 feet (up to 15 × 15 ft). Each creature in the area makes an Agility trial; on failure, it takes void damage equal to your ATD + MD and makes a Perception trial; on failure, it advances [Impaired](../../../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 2 tiers until the end of the round.

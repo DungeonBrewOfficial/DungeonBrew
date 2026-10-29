@@ -4,255 +4,296 @@ generated_by: tools/sync_mastery.py
 
 # Mortal Beasts
 
-All creatures in this file are **Mortal Beast (Primal)**.
+Mortal Beasts are the animals of the world: wolves and bears, horses and hounds, rats in the walls and raptors overhead. They do not think or speak as people do, and they share no nature that sets them apart from the world. Their lives belong to the living cycle, which is why magic reaches them through Primal.
+
+They want what animals want: food, territory, safety, their young kept alive. Most will not fight a party that leaves them a way out. The dangerous ones are dangerous because hunger, a cornered den or a handler has given them a reason.
+
+<span id="classification-package"></span>**Classification package:** Mortal Beasts have no innate immunity or vulnerability. Connected to Primal magic.
+
+<span id="kingdoms"></span>**Kingdoms.** Beasts are one of the two mortal kingdoms. Folk think and speak, and are connected to Void. Beasts do not, and are connected to Primal.
+
+<span id="at-a-glance"></span>**At a glance** (by Tier and Rank):
+
+| Creature | Family | Tier | Rank | Division | Mastery |
+|:---|:---|:---:|:---|:---:|:---|
+| Death-Watch | Beetles | 1 | Minion | 1 | Unskilled (1) |
+| Jackdaw | Corvids | 1 | Minion | 1 | Unskilled (1) |
+| Rat Swarm | Rats | 1 | Minion | 1 | Unskilled (1) |
+| Spider Swarm | Spiders | 1 | Minion | 1 | Unskilled (1) |
+| Small Raptor | Birds of Prey | 1 | Adept | 2 | Untrained (2) |
+| Middling Raptor | Birds of Prey | 1 | Adept | 2 | Untrained (2) |
+| Viper | Snakes | 1 | Adept | 2 | Untrained (2) |
+| Wolf Spider | Spiders | 1 | Adept | 2 | Untrained (2) |
+| Large Raptor | Birds of Prey | 1 | Adept | 2 | Untrained (2) |
+| Deer | Deer | 1 | Adept | 2 | Untrained (2) |
+| Medium Dog | Dogs | 1 | Adept | 2 | Untrained (2) |
+| Pony / Donkey | Horses | 1 | Adept | 2 | Untrained (2) |
+| Wild Dog | Dogs | 1 | Adept | 2 | Untrained (2) |
+| Large Dog | Dogs | 1 | Adept | 2 | Untrained (2) |
+| Giant Dog | Dogs | 1 | Adept | 2 | Untrained (2) |
+| Giant Rat | Rats | 1 | Adept | 2 | Untrained (2) |
+| Courser | Horses | 1 | Adept | 2 | Untrained (2) |
+| Destrier | Horses | 1 | Adept | 2 | Untrained (2) |
+| Palfrey | Horses | 1 | Adept | 2 | Untrained (2) |
+| Rouncey | Horses | 1 | Adept | 2 | Untrained (2) |
+| Small Hunting Bird | Birds of Prey | 1 | Champion | 4 | Untrained (2) |
+| Middling Hunting Bird | Birds of Prey | 1 | Champion | 4 | Untrained (2) |
+| Large Hunting Bird | Birds of Prey | 1 | Champion | 4 | Untrained (2) |
+| Medium Guard Dog | Dogs, Guard | 1 | Champion | 4 | Untrained (2) |
+| Giant Guard Dog | Dogs, Guard | 1 | Champion | 4 | Untrained (2) |
+| Medium Hunting Dog | Dogs, Hunting | 1 | Champion | 4 | Untrained (2) |
+| Large Hunting Dog | Dogs, Hunting | 1 | Champion | 4 | Untrained (2) |
+| Heavy War Dog | Dogs, War | 1 | Champion | 4 | Untrained (2) |
+| Giant War Dog | Dogs, War | 1 | Champion | 4 | Untrained (2) |
+| Rouncey, Light War Horse | Horses | 1 | Champion | 4 | Untrained (2) |
+| Yearling | Wolves | 2 | Minion | 2 | Untrained (2) |
+| Boar | Boars | 2 | Adept | 3 | Basic (3) |
+| Eagle | Birds of Prey | 2 | Adept | 3 | Basic (3) |
+| Mountain Lion | Big Cats | 2 | Adept | 3 | Basic (3) |
+| Wolf | Wolves | 2 | Adept | 3 | Basic (3) |
+| Draft Horse | Horses | 2 | Adept | 3 | Basic (3) |
+| Elk | Deer | 2 | Adept | 3 | Basic (3) |
+| Ox | Cattle | 2 | Adept | 3 | Basic (3) |
+| Palfrey, Riding Horse | Horses | 2 | Adept | 3 | Basic (3) |
+| Firstborn | Wolves | 2 | Leader | 4 | Basic (3) |
+| Hunting Eagle | Birds of Prey | 2 | Champion | 5 | Basic (3) |
+| Dog-Wolf | Wolves | 2 | Champion | 5 | Basic (3) |
+| Monstrous Widow | Spiders | 2 | Champion | 5 | Basic (3) |
+| War Boar | Boars | 2 | Champion | 5 | Basic (3) |
+| Constrictor | Snakes | 2 | Champion | 5 | Basic (3) |
+| Courser, Medium War Horse | Horses | 2 | Champion | 5 | Basic (3) |
+| She-Wolf | Wolves | 2 | Master | 6 | Skilled (4) |
+| Dire Wolf | Wolves | 2 | Epic | 7 | Skilled (4) |
+| Amarok | Wolves | 2 | Legendary | 8 | Skilled (4) |
+| Black Bear | Bears | 3 | Adept | 4 | Basic (3) |
+| Aurochs | Cattle | 3 | Adept | 4 | Basic (3) |
+| Crocodile | Crocodilians | 3 | Adept | 4 | Basic (3) |
+| Lion | Big Cats | 3 | Leader | 5 | Skilled (4) |
+| Brown Bear | Bears | 3 | Champion | 6 | Skilled (4) |
+| Tiger | Big Cats | 3 | Champion | 6 | Skilled (4) |
+| Destrier, Heavy War Horse | Horses | 3 | Champion | 6 | Skilled (4) |
+| Cave Bear | Bears | 3 | Epic | 8 | Expert (5) |
+| Erymanthian Boar | Boars | 3 | Legendary | 9 | Expert (5) |
+| Giant Short-Faced Bear | Bears | 4 | Epic | 9 | Master (6) |
+| Otso | Bears | 4 | Legendary | 10 | Master (6) |
 
 ---
 
-## Rats (Tier 1)
+## Bears
 
-### Rat Swarm (Tier 1 Minion)
+A bear fights to end a threat. It rises, bluffs, charges, and if the threat keeps coming, it pulls the threat down and holds it. Give a bear room and it goes about its business. Corner it, come between a sow and her cubs, or take its kill, and the fight lasts until nothing near it is standing or moving. Bears are met alone, or as a sow with cubs who do not fight. The great bears bend the pattern: the cave bear does not stop once it engages, and the short-faced bear runs its quarry down instead of waiting for it.
 
-*Division 1, Tier 1, Minion. ½ Mortal Beast (Primal).*
+### Black Bear (Tier 3 Adept)
 
-| Stat | Value |
-|:---|:---|
-| Attack | 1d2 (Bite, Fast) |
-| Health | 1 |
-| Resistance | 1 (all mundane) |
-| Physical / Mental | d2 / d2 |
-| Trials | 1d2 + 1d2 |
-| Defense | 1d2 + 1 + 1 (½sq) |
-| AP | 2 |
-| Speed | 7 (35 ft) |
-| Footprint | ½ sq |
-| Reach | 5 ft |
-
-| Group | Heads | Health | Attack | Defense | Mob DC |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | None |
-| Brood | 12 | 12 | 12d2 | 12d2 + 2 | None |
-| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | None |
-
-<span id="mob"></span>**Mob:**
-
-<span id="gnawing"></span>***Gnawing*** *(Mob, no slot).* When the swarm deals damage, the target suffers [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 1.
-
-<span id="senses"></span>**Senses:** Scent, crepuscular sight.
-
----
-
-### Giant Rat (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+*Division 4, Tier 3, Adept. 1×1 Mortal Beast (Primal).*
 
 <span id="attributes"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 8 (T2, d3) | 6 (T2, d3) | 6 (T2, d3) | 2 (T1, d2) | 3 (T1, d2) | 1 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget"></span>**Tier Budget:** 1+2+2+2+1+1+1+2 = 12. Budget for T1 Adept = 12. ✓
+| 21 (T5, d8) | 8 (T2, d3) | 16 (T4, d6) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 6 (T2, d3) | 16 (T4, d6) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 6 + 2d3 + d3 (DTD) = 6 + 3d3 (~12) |
-| Resistance | Budget 10: Cut 2, Cleave 1, Crush 3, Pierce 2, Puncture 2 |
+| Attack (Bite, Fast) | d6 (DTD) + d8 (STR) Piercing. Exploding. (Attribute: STR) |
+| Attack (Claw, Moderate) | d6 (DTD) + d8 (STR) Cutting. Exploding. (Attribute: STR) |
+| Health | 16 + 4d6 + d6 = 16 + 5d6 (~34) |
+| Resistance | Budget 30: Cut 4, Cleave 4, Crush 8, Pierce 4, Puncture 3, Primal 4, Sea 3 |
 | Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
+| Mastery | Basic (3) |
+| Defense | d6 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 (Fast or Moderate) |
 | Speed | 9 (45 ft) |
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-<span id="senses_1"></span>**Senses:** Scent, crepuscular sight.
+<span id="senses"></span>**Senses:** Scent.
 
 <span id="abilities"></span>**Abilities:**
 
-<span id="diseased-bite"></span>***Diseased Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if health damage is dealt, the target must succeed on an END trial [3] or advance [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier.
+<span id="charge"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="grab"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [5] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
 ---
 
-## Snakes (Tier 1)
+### Brown Bear (Tier 3 Champion)
 
-### Viper (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. ½ Mortal Beast (Primal).*
+*Division 6, Tier 3, Champion. 2×1 Mortal Beast (Primal).*
 
 <span id="attributes_1"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 2 (T1, d2) | 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 1 (T1, d2) | 3 (T1, d2) | 1 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_1"></span>**Tier Budget:** 1+3+1+1+1+1+1+2 = 11. Budget for T1 Adept = 12. Close (-1). ✓
+| 26 (T6, d10) | 8 (T2, d3) | 21 (T5, d8) | 21 (T5, d8) | 3 (T1, d2) | 11 (T3, d4) | 8 (T2, d3) | 16 (T4, d6) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d2 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 4 + 2d2 + d3 (DTD) = 4 + 2d2 + d3 (~8) |
-| Resistance | Budget 10: Cut 1, Cleave 1, Crush 1, Pierce 3, Puncture 1, Primal 3 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 5 (25 ft) |
-| Footprint | ½ sq |
+| Attack (Bite, Fast) | d10 (DTD) + d10 (STR) + 2 (2sq) Piercing. Exploding. (Attribute: STR) |
+| Attack (Claw, Moderate) | d10 (DTD) + d10 (STR) + 2 (2sq) Cutting. Exploding. (Attribute: STR) |
+| Health | 21 + 6d8 + d10 + 2d8 = 21 + 8d8 + d10 (~60) |
+| Resistance | Budget 60: Cut 6, Cleave 8, Crush 15, Pierce 8, Puncture 5, Primal 6, Sea 6, Stone 6 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Skilled (4) |
+| Defense | d10 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 3 (max 2 attacks; Fast or Moderate) |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
 | Reach | 5 ft |
 
-<span id="senses_2"></span>**Senses:** Seismic sense 15 ft.
+<span id="senses_1"></span>**Senses:** Scent.
 
 <span id="abilities_1"></span>**Abilities:**
 
-<span id="venomous-bite"></span>***Venomous Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts 1 Primal damage (END Tier). The target must succeed on an END trial [3] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier.
+<span id="charge_1"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="grab_1"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [7] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [7] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+
+<span id="maul"></span>***Maul*** *(Passive. Ability slot 3).* The bear's attacks have Superiority against a creature that damaged it since the bear's last turn. It does not attack a [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") creature that neither attacked nor moved on its last turn.
+
+<span id="behavior"></span>**Behavior:** The bear fights to end a threat. It goes after whoever hurts it, ignores those who lie still, and leaves only when nothing near it is standing, moving, or fighting back.
 
 ---
 
-### Constrictor (Tier 2 Champion)
+### Cave Bear (Tier 3 Epic)
 
-*Division 5, Tier 2, Champion. 2×1 Mortal Beast (Primal).*
+*Division 8, Tier 3, Epic. 2×2 Mortal Beast (Primal).*
+
+*An apex predator from an older age of the world, larger than any other bear. Once it engages, it does not stop.*
 
 <span id="attributes_2"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 26 (T6, d10) | 8 (T2, d3) | 16 (T4, d6) | 13 (T3, d4) | 1 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_2"></span>**Tier Budget:** 6+2+4+3+1+1+1+2 = 20. Budget for T2 Champion = 22. (-2) ✓
+| 31 (T7, d12) | 11 (T3, d4) | 26 (T6, d10) | 26 (T6, d10) | 3 (T1, d2) | 11 (T3, d4) | 11 (T3, d4) | 21 (T5, d8) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Bite, Fast) | d8 (DTD) + d6 (PHY) + 2 (2sq) Piercing. Exploding. (Attribute: PHY) |
-| Health | 13 + 5d4 + 2d4 (2sq) + d8 = 13 + 7d4 + d8 (~35) |
-| Resistance | Budget 40: Cut 4, Cleave 4, Crush 8, Pierce 6, Puncture 6, Primal 6, Void 6 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 3 (max 2 attacks) |
-| Speed | 7 (35 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
+| Attack (Bite, Fast) | 2d6 (DTD) + d12 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
+| Attack (Claw, Moderate) | 2d6 (DTD) + d12 (STR) + 4 (4sq) Cutting. Exploding. (Attribute: STR) |
+| Health | 26 + 8d10 + 2d6 + 4d10 = 26 + 12d10 + 2d6 (~99) |
+| Resistance | Budget 90: Cut 8, Cleave 10, Crush 20, Pierce 12, Puncture 8, Primal 10, Sea 8, Stone 8, Void 6 |
+| Trials | 1d10 + Attribute TD |
+| Mastery | Expert (5) |
+| Defense | 2d6 (DTD) + d10 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2/phase, active in Fast + Moderate (4 total, max 2 attacks/phase) |
+| Speed | 14 (70 ft) |
+| Footprint | 2×2 (4 sq) |
+| Reach | 10 ft |
+
+<span id="senses_2"></span>**Senses:** Scent, crepuscular sight.
 
 <span id="abilities_2"></span>**Abilities:**
 
-<span id="constrict"></span>***Constrict*** *(Ability slot 1).* The constrictor has three options, each costing 1 AP:
+<span id="charge_2"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
 
-- <span id="constrict_1"></span>**Constrict** *(1 AP, Action).* The constrictor attempts to wrap around a target within reach. The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
-- <span id="squeeze"></span>**Squeeze** *(1 AP, Attack).* Only usable on a target the constrictor has [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."). d8 (DTD) + d10 (STR) + 2 (2sq) Crushing. (Attribute: STR)
-- <span id="bite"></span>**Bite** *(1 AP, Attack).* Standard bite attack. d8 (DTD) + d6 (PHY) + 2 (2sq) Piercing. (Attribute: PHY)
+<span id="grab_2"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [9] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [9] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
----
+<span id="swipe"></span>***Swipe*** *(1 AP, Attack. Ability slot 3).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
 
-## Spiders (Tier 1-2)
+<span id="phase-reference"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
 
-### Spider Swarm (Tier 1 Minion)
-
-*Division 1, Tier 1, Minion. ½ Mortal Beast (Primal).*
-
-| Stat | Value |
-|:---|:---|
-| Attack | 1d2 (Bite, Fast) |
-| Health | 1 |
-| Resistance | 1 (all mundane) |
-| Physical / Mental | d2 / d2 |
-| Trials | 1d2 + 1d2 |
-| Defense | 1d2 + 1 + 1 (½sq) |
-| AP | 2 |
-| Speed | 7 (35 ft) land, Climb |
-| Footprint | ½ sq |
-| Reach | 5 ft |
-
-| Group | Heads | Health | Attack | Defense | Mob DC |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | 3 |
-| Brood | 12 | 12 | 12d2 | 12d2 + 2 | 5 |
-| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | 7 |
-
-<span id="mob_1"></span>**Mob:**
-
-<span id="venomous-swarm"></span>***Venomous Swarm*** *(Mob, no slot).* When the swarm deals damage, the target must succeed on an END trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier (max Tier 1).
-
-<span id="senses_3"></span>**Senses:** Seismic sense 30 ft.
+- <span id="fast"></span>**Fast:** Bite, Charge (with Bite)
+- <span id="moderate"></span>**Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
 
 ---
 
-### Wolf Spider (Tier 1 Adept)
+### Giant Short-Faced Bear (Tier 4 Epic)
 
-*Division 2, Tier 1, Adept. ½ Mortal Beast (Primal).*
+*Division 9, Tier 4, Epic. 2×2 Mortal Beast (Primal).*
+
+*The largest of all bears. Long-legged and predatory, the short-faced bear is built for pursuit rather than ambush, unlike every other bear in the world. When it runs, the ground shakes. When it catches you, you don't get back up.*
 
 <span id="attributes_3"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 3 (T1, d2) | 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 1 (T1, d2) | 1 (T1, d2) | 1 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_3"></span>**Tier Budget:** 1+3+1+1+1+1+1+2 = 11. Budget for T1 Adept = 12. Close (-1). ✓
+| 36 (T8, 2d6) | 18 (T4, d6) | 31 (T7, d12) | 36 (T8, 2d6) | 3 (T1, d2) | 22 (T5, d8) | 14 (T3, d4) | 26 (T6, d10) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d2 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 4 + 2d2 + d3 (DTD) = 4 + 2d2 + d3 (~8) |
-| Resistance | Budget 10: Cut 1, Cleave 1, Crush 1, Pierce 3, Puncture 1, Primal 3 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 9 (45 ft) land, Climb |
-| Footprint | ½ sq |
-| Reach | 5 ft |
+| Attack (Bite, Fast) | 2d8 (DTD) + 2d6 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
+| Attack (Claw, Moderate) | 2d8 (DTD) + 2d6 (STR) + 4 (4sq) Cutting. Exploding. (Attribute: STR) |
+| Health | 36 + 9(2d6) + 2d8 + 4(2d6) = 36 + 26d6 + 2d8 (~136) |
+| Resistance | Budget 120: Cut 10, Cleave 12, Crush 28, Pierce 15, Puncture 10, Primal 15, Sea 10, Fire 8, Stone 8, Sky 4 |
+| Trials | 1d10 + Attribute TD |
+| Mastery | Master (6) |
+| Defense | 2d8 (DTD) + d12 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2/phase, active in Fast + Moderate (4 total, max 2 attacks/phase) |
+| Speed | 15 (75 ft) |
+| Footprint | 2×2 (4 sq) |
+| Reach | 10 ft |
 
-<span id="senses_4"></span>**Senses:** Seismic sense 15 ft.
-
-<span id="passive"></span>**Passive:**
-
-<span id="ambusher"></span>***Ambusher*** *(Passive, no slot).* In its element, the spider is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [3]. A creature with Alertness (Danger Sense) first rolls a PER trial [3] as the ambush is sprung; on a success, it makes no Startle trial.
+<span id="senses_3"></span>**Senses:** Scent.
 
 <span id="abilities_3"></span>**Abilities:**
 
-<span id="venomous-bite_1"></span>***Venomous Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts 1 Primal damage (END Tier). The target must succeed on a PER trial [3] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
+<span id="charge_3"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="grab_3"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [10] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [10] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+
+<span id="mangle"></span>***Mangle*** *(1 AP, Attack. Ability slot 3).* The bear makes a bite attack with Dominance against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target.
+
+<span id="swipe_1"></span>***Swipe*** *(1 AP, Attack. Ability slot 4).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
+
+<span id="phase-reference_1"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
+
+- <span id="fast_1"></span>**Fast:** Bite, Charge (with Bite), Mangle
+- <span id="moderate_1"></span>**Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
 
 ---
 
-### Monstrous Widow (Tier 2 Champion)
+### Otso (Tier 4 Legendary)
 
-*Division 5, Tier 2, Champion. 1×1 Mortal Beast (Primal).*
+*Division 10, Tier 4, Legendary. 2×2 Mortal Beast (Primal).*
+
+*The oldest and greatest of bears, the lord of its forest. The folk who live beside its woods never speak its true name, only kennings such as "the honey-paw," "the apple of the forest," "the pride of the woodlands." They invite it rather than hunt it, and its death is a ritual of apology. Every beast of its forest gives way to it.*
 
 <span id="attributes_4"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 11 (T3, d4) | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 16 (T4, d6) |
-
-<span id="tier-budget_4"></span>**Tier Budget:** 3+4+3+4+1+2+1+4 = 22. Budget for T2 Champion = 22. ✓
+| 36 (T8, 2d6) | 18 (T4, d6) | 31 (T7, d12) | 36 (T8, 2d6) | 8 (T2, d3) | 31 (T7, d12) | 22 (T5, d8) | 31 (T7, d12) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Bite, Fast) | d8 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 16 + 5d6 + d8 (DTD) = 16 + 5d6 + d8 (~37) |
-| Resistance | Budget 40: Cut 3, Cleave 5, Crush 4, Pierce 8, Puncture 3, Primal 10, Sea 4, Fire 3 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d8 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 11 (55 ft) land, Climb |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
+| Attack (Bite, Fast) | 2d10 (DTD) + 2d6 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
+| Attack (Claw, Moderate) | 2d10 (DTD) + 2d6 (STR) + 4 (4sq) Cutting. Exploding. (Attribute: STR) |
+| Health | 36 + 10(2d6) + 2d10 + 4(2d6) = 36 + 28d6 + 2d10 (~145) |
+| Resistance | Budget 140: Cut 12, Cleave 14, Crush 30, Pierce 18, Puncture 12, Primal 18, Sea 10, Fire 10, Stone 8, Sky 8 |
+| Trials | 1d12 + Attribute TD |
+| Mastery | Master (6) |
+| Defense | 2d10 (DTD) + d12 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2/phase, active in all 3 phases (6 total, max 2 attacks/phase) |
+| Speed | 15 (75 ft) |
+| Footprint | 2×2 (4 sq) |
+| Reach | 10 ft |
 
-<span id="senses_5"></span>**Senses:** Seismic sense 60 ft.
-
-<span id="passive_1"></span>**Passive:**
-
-<span id="ambusher_1"></span>***Ambusher*** *(Passive, no slot).* In its element, the spider is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [6]. A creature with Alertness (Danger Sense) first rolls a PER trial [6] as the ambush is sprung; on a success, it makes no Startle trial.
-
-<span id="web-walker"></span>***Web Walker*** *(Passive. Ability slot 4).* The widow ignores movement restrictions caused by webs.
+<span id="senses_4"></span>**Senses:** Scent. The Otso is aware of every living creature within 120 ft regardless of concealment.
 
 <span id="abilities_4"></span>**Abilities:**
 
-<span id="venomous-bite_2"></span>***Venomous Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts 4 Primal damage (END Tier). The target must succeed on an END trial [6] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier.
+<span id="charge_4"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
 
-<span id="web"></span>***Web*** *(1 AP, Action. Ability slot 2).* The spider shoots a web at a target within 30 feet. The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+<span id="grab_4"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [11] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [11] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
-<span id="feed"></span>***Feed*** *(1 AP, Action. Ability slot 3).* Only usable on a [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") target. d8 (DTD) + d6 (END) Primal damage. The target must succeed on an END trial [6] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier.
+<span id="mangle_1"></span>***Mangle*** *(1 AP, Attack. Ability slot 3).* The bear makes a bite attack with Dominance against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target.
+
+<span id="roar-of-the-king"></span>***Roar of the King*** *(2 AP, Action. Ability slot 4).* All creatures within 50 ft must succeed on a WIS trial [11] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier; a creature that fails by 5 or more advances 2 tiers instead.
+
+<span id="swipe_2"></span>***Swipe*** *(1 AP, Attack. Ability slot 5).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
+
+<span id="phase-reference_2"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
+
+- <span id="fast_2"></span>**Fast:** Bite, Charge (with Bite), Mangle, Roar of the King
+- <span id="moderate_2"></span>**Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
+- <span id="slow"></span>**Slow:** all above
 
 ---
 
-## Beetles (Tier 1)
+## Beetles
+
+The death-watch beetle lives in old timber and ticks in the walls at night, and folk say the sound counts down to a death in the house. A swarm does no harm a boot can't answer, but its ticking frays the nerves of anyone who hears it. A party meets them in old houses and timber halls, usually alongside whatever else makes the place frightening.
 
 ### Death-Watch (Tier 1 Minion)
 
@@ -265,6 +306,7 @@ All creatures in this file are **Mortal Beast (Primal)**.
 | Resistance | 1 (all mundane) |
 | Physical / Mental | d2 / d2 |
 | Trials | 1d2 + 1d2 |
+| Mastery | Unskilled (1) |
 | Defense | 1d2 + 1 + 1 (½sq) |
 | AP | 2 |
 | Speed | 7 (35 ft) land, Climb |
@@ -277,1361 +319,17 @@ All creatures in this file are **Mortal Beast (Primal)**.
 | Brood | 12 | 12 | 12d2 | 12d2 + 2 | 5 |
 | Swarm | 16 | 16 | 16d2 | 16d2 + 2 | 7 |
 
-<span id="senses_6"></span>**Senses:** Seismic sense 15 ft.
+<span id="senses_5"></span>**Senses:** Seismic sense 15 ft.
 
-<span id="mob_2"></span>**Mob:**
+<span id="mob"></span>**Mob:**
 
 <span id="death-tick"></span>***Death Tick*** *(Mob, no slot).* A creature that starts its turn within 30 feet of the swarm and can hear it must succeed on a WIS trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier (max Tier 1).
 
 ---
 
-## Boars (Tier 2)
+## Big Cats
 
-### Boar (Tier 2 Adept)
-
-*Division 3, Tier 2, Adept. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_5"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 13 (T3, d4) | 8 (T2, d3) | 14 (T3, d4) | 13 (T3, d4) | 3 (T1, d2) | 4 (T1, d2) | 2 (T1, d2) | 9 (T2, d3) |
-
-<span id="tier-budget_5"></span>**Tier Budget:** 3+2+3+3+1+1+1+2 = 16. Budget for T2 Adept = 18. Close (-2). ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Tusk, Moderate) | d4 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 13 + 3d4 + d4 = 13 + 4d4 (~23) |
-| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 9 (45 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="abilities_5"></span>**Abilities:**
-
-<span id="charge"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The boar moves at least 15 feet in a straight line and makes a tusk attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="gore"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* On a hit with a tusk attack, with Impotence, if damage is dealt the target must succeed on an END trial [4] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
-
----
-
-### War Boar (Tier 2 Champion)
-
-*Division 5, Tier 2, Champion. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_6"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 16 (T4, d6) | 8 (T2, d3) | 16 (T4, d6) | 14 (T3, d4) | 4 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 12 (T3, d4) |
-
-<span id="tier-budget_6"></span>**Tier Budget:** 4+2+4+3+1+2+1+3 = 20. Budget for T2 Champion = 22. Close (-2). ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Tusk, Moderate) | d8 (DTD) + d6 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 14 + 5d4 + d8 = 14 + 5d4 + d8 (~31) |
-| Resistance | Budget 40: Cut 5, Cleave 6, Crush 9, Pierce 7, Puncture 5, Sea 4, Primal 4 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 3 (max 2 attacks) |
-| Speed | 9 (45 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="abilities_6"></span>**Abilities:**
-
-<span id="charge_1"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The boar moves at least 15 feet in a straight line and makes a tusk attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="gore_1"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* On a hit with a tusk attack, with Impotence, if damage is dealt the target must succeed on an END trial [6] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
-
-<span id="trample"></span>***Trample*** *(2 AP, Movement + Attack. Ability slot 3).* The boar moves in a straight line up to full speed and makes a tusk attack with Inferiority against up to 2 targets in its path.
-
----
-
-### Erymanthian Boar (Tier 3 Legendary)
-
-*Division 9, Tier 3, Legendary. 2×2 Mortal Beast (Primal).*
-
-*A mythical boar of vast weight and foaming jaws — the tameless beast whose capture was the fourth labor of Heracles. It does not flee, it does not hesitate, and it does not stop.*
-
-<span id="attributes_7"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 36 (T8, 2d6) | 12 (T3, d4) | 26 (T6, d10) | 36 (T8, 2d6) | 3 (T1, d2) | 18 (T4, d6) | 14 (T3, d4) | 22 (T5, d8) |
-
-<span id="tier-budget_7"></span>**Tier Budget:** 8+3+6+8+1+4+3+5 = 38. Budget for T3 Legendary = 40. (-2) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Tusk, Moderate) | 2d8 (DTD) + 2d6 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
-| Health | 36 + 9(2d6) + 2d8 + 4(2d6) = 36 + 26d6 + 2d8 (~136) |
-| Resistance | Budget 105: Cut 12, Cleave 12, Crush 25, Pierce 15, Puncture 12, Primal 10, Sea 5, Fire 5, Stone 5, Sky 4 |
-| Trials | 1d12 + Attribute TD |
-| Defense | 2d8 (DTD) + d10 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2/phase, active in all 3 phases (6 total, max 2 attacks/phase) |
-| Speed | 14 (70 ft) |
-| Footprint | 2×2 (4 sq) |
-| Reach | 10 ft |
-
-<span id="senses_7"></span>**Senses:** Scent.
-
-<span id="passive_2"></span>**Passive:**
-
-<span id="abilities_7"></span>**Abilities:**
-
-<span id="charge_2"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The boar moves at least 15 feet in a straight line and makes a tusk attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="gore_2"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* The boar makes a tusk attack with Impotence. If damage is dealt, the target must succeed on an END trial [10] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
-
-<span id="trample_1"></span>***Trample*** *(2 AP, Movement + Attack. Ability slot 3).* The boar moves in a straight line up to full speed and makes a tusk attack with Inferiority against up to 2 creatures in its path.
-
-<span id="quake"></span>***Quake*** *(2 AP, Action. Ability slot 4).* The boar slams its full weight into the ground. All creatures within 15 ft must succeed on an AGI trial [10] or be knocked prone.
-
-<span id="bellow"></span>***Bellow*** *(1 AP, Action. Ability slot 5).* All creatures within 30 ft must succeed on a WIS trial [10] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
-
-<span id="phase-reference"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
-
-- <span id="fast"></span>**Fast:** Bellow, Quake
-- <span id="moderate"></span>**Moderate:** all above + Tusk, Charge, Gore, Trample
-- <span id="slow"></span>**Slow:** all above
-
----
-
-## Bears (Tier 3)
-
-### Black Bear (Tier 3 Adept)
-
-*Division 4, Tier 3, Adept. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_8"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 21 (T5, d8) | 8 (T2, d3) | 16 (T4, d6) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 6 (T2, d3) | 16 (T4, d6) |
-
-<span id="tier-budget_8"></span>**Tier Budget:** 5+2+4+4+1+2+2+4 = 24. Budget for T3 Adept = 24. ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d8 (STR) Piercing. Exploding. (Attribute: STR) |
-| Attack (Claw, Moderate) | d6 (DTD) + d8 (STR) Cutting. Exploding. (Attribute: STR) |
-| Health | 16 + 4d6 + d6 = 16 + 5d6 (~34) |
-| Resistance | Budget 30: Cut 4, Cleave 4, Crush 8, Pierce 4, Puncture 3, Primal 4, Sea 3 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d6 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 (Fast or Moderate) |
-| Speed | 9 (45 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_8"></span>**Senses:** Scent.
-
-<span id="abilities_8"></span>**Abilities:**
-
-<span id="charge_3"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="grab"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [5] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
-
----
-
-### Brown Bear (Tier 3 Champion)
-
-*Division 6, Tier 3, Champion. 2×1 Mortal Beast (Primal).*
-
-<span id="attributes_9"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 26 (T6, d10) | 8 (T2, d3) | 21 (T5, d8) | 21 (T5, d8) | 3 (T1, d2) | 11 (T3, d4) | 8 (T2, d3) | 16 (T4, d6) |
-
-<span id="tier-budget_9"></span>**Tier Budget:** 6+2+5+5+1+3+2+4 = 28. Budget for T3 Champion = 28. ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d10 (DTD) + d10 (STR) + 2 (2sq) Piercing. Exploding. (Attribute: STR) |
-| Attack (Claw, Moderate) | d10 (DTD) + d10 (STR) + 2 (2sq) Cutting. Exploding. (Attribute: STR) |
-| Health | 21 + 6d8 + d10 + 2d8 = 21 + 8d8 + d10 (~60) |
-| Resistance | Budget 60: Cut 6, Cleave 8, Crush 15, Pierce 8, Puncture 5, Primal 6, Sea 6, Stone 6 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d10 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 3 (max 2 attacks; Fast or Moderate) |
-| Speed | 11 (55 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_9"></span>**Senses:** Scent.
-
-<span id="abilities_9"></span>**Abilities:**
-
-<span id="charge_4"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="grab_1"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [7] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [7] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
-
-<span id="territorial-roar"></span>***Territorial Roar*** *(2 AP, Action. Ability slot 3).* The bear roars. All allied beasts within 30 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Can be reapplied to stack tiers.
-
----
-
-### Cave Bear (Tier 3 Epic)
-
-*Division 8, Tier 3, Epic. 2×2 Mortal Beast (Primal).*
-
-*Prehistoric apex predator. Larger than any modern bear, the cave bear is a relic of an age when megafauna ruled. It acts in two combat phases per round — once it engages, it does not stop.*
-
-<span id="attributes_10"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 31 (T7, d12) | 11 (T3, d4) | 26 (T6, d10) | 26 (T6, d10) | 3 (T1, d2) | 11 (T3, d4) | 11 (T3, d4) | 21 (T5, d8) |
-
-<span id="tier-budget_10"></span>**Tier Budget:** 7+3+6+6+1+3+3+5 = 34. Budget for T3 Epic = 36. (-2) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | 2d6 (DTD) + d12 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
-| Attack (Claw, Moderate) | 2d6 (DTD) + d12 (STR) + 4 (4sq) Cutting. Exploding. (Attribute: STR) |
-| Health | 26 + 8d10 + 2d6 + 4d10 = 26 + 12d10 + 2d6 (~99) |
-| Resistance | Budget 90: Cut 8, Cleave 10, Crush 20, Pierce 12, Puncture 8, Primal 10, Sea 8, Stone 8, Void 6 |
-| Trials | 1d10 + Attribute TD |
-| Defense | 2d6 (DTD) + d10 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2/phase, active in Fast + Moderate (4 total, max 2 attacks/phase) |
-| Speed | 14 (70 ft) |
-| Footprint | 2×2 (4 sq) |
-| Reach | 10 ft |
-
-<span id="senses_10"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_10"></span>**Abilities:**
-
-<span id="charge_5"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="grab_2"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [9] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [9] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
-
-<span id="swipe"></span>***Swipe*** *(1 AP, Attack. Ability slot 3).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
-
-<span id="phase-reference_1"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
-
-- <span id="fast_1"></span>**Fast:** Bite, Charge (with Bite)
-- <span id="moderate_1"></span>**Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
-
----
-
-### Giant Short-Faced Bear (Tier 4 Epic)
-
-*Division 9, Tier 4, Epic. 2×2 Mortal Beast (Primal).*
-
-*The largest bear that ever lived. Long-legged and predatory, the short-faced bear is built for pursuit rather than ambush — a departure from every other bear in the world. When it runs, the ground shakes. When it catches you, you don't get back up.*
-
-<span id="attributes_11"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 36 (T8, 2d6) | 18 (T4, d6) | 31 (T7, d12) | 36 (T8, 2d6) | 3 (T1, d2) | 22 (T5, d8) | 14 (T3, d4) | 26 (T6, d10) |
-
-<span id="tier-budget_11"></span>**Tier Budget:** 8+4+7+8+1+5+3+6 = 42. Budget for T4 Epic = 44. (-2) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | 2d8 (DTD) + 2d6 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
-| Attack (Claw, Moderate) | 2d8 (DTD) + 2d6 (STR) + 4 (4sq) Cutting. Exploding. (Attribute: STR) |
-| Health | 36 + 9(2d6) + 2d8 + 4(2d6) = 36 + 26d6 + 2d8 (~136) |
-| Resistance | Budget 120: Cut 10, Cleave 12, Crush 28, Pierce 15, Puncture 10, Primal 15, Sea 10, Fire 8, Stone 8, Sky 4 |
-| Trials | 1d10 + Attribute TD |
-| Defense | 2d8 (DTD) + d12 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2/phase, active in Fast + Moderate (4 total, max 2 attacks/phase) |
-| Speed | 15 (75 ft) |
-| Footprint | 2×2 (4 sq) |
-| Reach | 10 ft |
-
-<span id="senses_11"></span>**Senses:** Scent.
-
-<span id="abilities_11"></span>**Abilities:**
-
-<span id="charge_6"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="grab_3"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [10] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [10] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
-
-<span id="maul"></span>***Maul*** *(1 AP, Attack. Ability slot 3).* The bear makes a bite attack with Dominance against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target.
-
-<span id="swipe_1"></span>***Swipe*** *(1 AP, Attack. Ability slot 4).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
-
-<span id="phase-reference_2"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
-
-- <span id="fast_2"></span>**Fast:** Bite, Charge (with Bite), Maul
-- <span id="moderate_2"></span>**Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
-
----
-
-### Otso (Tier 4 Legendary)
-
-*Division 10, Tier 4, Legendary. 2×2 Mortal Beast (Primal).*
-
-*The king of all animals and lord of the forest. In Finnish tradition, the Otso was sacred — a being so revered that its true name was never spoken aloud, referred to only by kennings: "the honey-paw," "the apple of the forest," "the pride of the woodlands." It was not hunted but invited, and its death was a ritual of apology. Every bear is an echo of the Otso. The Otso is what they echo.*
-
-<span id="attributes_12"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 36 (T8, 2d6) | 18 (T4, d6) | 31 (T7, d12) | 36 (T8, 2d6) | 8 (T2, d3) | 31 (T7, d12) | 22 (T5, d8) | 31 (T7, d12) |
-
-<span id="tier-budget_12"></span>**Tier Budget:** 8+4+7+8+2+7+5+7 = 48. Budget for T4 Legendary = 48. ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | 2d10 (DTD) + 2d6 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
-| Attack (Claw, Moderate) | 2d10 (DTD) + 2d6 (STR) + 4 (4sq) Cutting. Exploding. (Attribute: STR) |
-| Health | 36 + 10(2d6) + 2d10 + 4(2d6) = 36 + 28d6 + 2d10 (~145) |
-| Resistance | Budget 140: Cut 12, Cleave 14, Crush 30, Pierce 18, Puncture 12, Primal 18, Sea 10, Fire 10, Stone 8, Sky 8 |
-| Trials | 1d12 + Attribute TD |
-| Defense | 2d10 (DTD) + d12 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2/phase, active in all 3 phases (6 total, max 2 attacks/phase) |
-| Speed | 15 (75 ft) |
-| Footprint | 2×2 (4 sq) |
-| Reach | 10 ft |
-
-<span id="senses_12"></span>**Senses:** Scent. The Otso is aware of every living creature within 120 ft regardless of concealment.
-
-<span id="passive_3"></span>**Passive:**
-
-<span id="abilities_12"></span>**Abilities:**
-
-<span id="charge_7"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The bear moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="grab_4"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The bear makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [11] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [11] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
-
-<span id="maul_1"></span>***Maul*** *(1 AP, Attack. Ability slot 3).* The bear makes a bite attack with Dominance against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target.
-
-<span id="roar-of-the-king"></span>***Roar of the King*** *(2 AP, Action. Ability slot 4).* All creatures within 50 ft must succeed on a WIS trial [11] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. Creatures that fail by 5 or more advance Demoralized by 2 tiers instead. Beasts and animals that fail flee immediately and cannot willingly approach the Otso for 1 minute.
-
-<span id="swipe_2"></span>***Swipe*** *(1 AP, Attack. Ability slot 5).* The bear makes a claw attack targeting up to 2 creatures within reach. Roll one attack with Inferiority and apply to both targets. Cutting.
-
-<span id="phase-reference_3"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
-
-- <span id="fast_3"></span>**Fast:** Bite, Charge (with Bite), Maul, Roar of the King
-- <span id="moderate_3"></span>**Moderate:** all above + Claw, Charge (with Claw), Grab, Swipe
-- <span id="slow_1"></span>**Slow:** all above
-
----
-
-## Horses (Tier 1-3)
-
-> **Skittish.** At the start of each round in combat, the creature's rider must succeed on a Wilderness mastery trial (DC 2) or the creature advances [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. If the creature has no mounted rider, the advancement is automatic. All horses have this trait unless they have Battle Trained.
-
-### Rouncey (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
-
-*Versatile general-purpose horses. Common mounts for soldiers, merchants, and travelers. Balanced build suited to many tasks.*
-
-<span id="attributes_13"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_13"></span>**Tier Budget:** 2+2+2+2+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d3 (DTD) + d3 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
-| Health | 8 + 2d3 + 2d3 (2 sq) + d3 (DTD) = 8 + 5d3 (~18) |
-| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
-| Defense | d3 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 11 (55 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_13"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_13"></span>**Abilities:**
-
-<span id="hardy"></span>***Hardy*** *(Passive. Ability slot 1).* The horse has Dominance on trials to resist [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") and [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
-
----
-
-### Palfrey (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
-
-*Smooth-gaited horses bred for comfort and endurance. Favored by nobility and long-distance travelers. Exceptional coordination and stamina.*
-
-<span id="attributes_14"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 8 (T2, d3) | 11 (T3, d4) | 11 (T3, d4) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_14"></span>**Tier Budget:** 1+2+3+3+1+1+1+2 = 14. Budget for T1 Adept = 12. (+2) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d3 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
-| Health | 11 + 2d4 + 2d4 (2 sq) + d3 (DTD) = 11 + 4d4 + d3 (~23) |
-| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
-| Defense | d3 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 11 (55 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_14"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_14"></span>**Abilities:** None.
-
----
-
-### Courser (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
-
-*Light, swift horses bred for speed and agility. Prized by scouts, messengers, and hunters. Fast but fragile.*
-
-<span id="attributes_15"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 11 (T3, d4) | 11 (T3, d4) | 4 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_15"></span>**Tier Budget:** 1+3+3+1+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d3 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
-| Health | 4 + 2d2 + 2d2 (2 sq) + d3 (DTD) = 4 + 4d2 + d3 (~12) |
-| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
-| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 12 (60 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_15"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_15"></span>**Abilities:**
-
-<span id="leap"></span>***Leap*** *(2 AP, Movement + Attack. Ability slot 1).* The horse moves up to its speed and leaps over one creature of equal or smaller size in its path, making a kick attack against that creature. The horse lands in an unoccupied space on the opposite side. This movement does not provoke a Reprisal Attack from the target.
-
----
-
-### Destrier (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
-
-*Heavy, powerful horses bred for strength and durability. The raw stock for war horse training. Slow but formidable.*
-
-<span id="attributes_16"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 11 (T3, d4) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_16"></span>**Tier Budget:** 3+1+1+3+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d3 (DTD) + d4 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
-| Health | 11 + 2d4 + 2d4 (2 sq) + d3 (DTD) = 11 + 4d4 + d3 (~23) |
-| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
-| Defense | d3 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_16"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_16"></span>**Abilities:**
-
-<span id="stagger"></span>***Stagger*** *(1 AP, Attack. Ability slot 1).* The horse makes a kick attack with Impotence. On a hit, the target must succeed on a PER trial [3] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
-
----
-
-### Palfrey — Riding Horse (Tier 2 Adept)
-
-*Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
-
-*A trained palfrey, the finest riding horse available. Bred and conditioned for long-distance travel at sustained pace.*
-
-<span id="attributes_17"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (T2, d3) | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_17"></span>**Tier Budget:** 2+4+3+4+1+2+1+3 = 20. Budget for T2 Adept = 18. (+2) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d4 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
-| Health | 16 + 3d6 + 2d6 (2 sq) + d4 (DTD) = 16 + 5d6 + d4 (~36) |
-| Resistance | Budget 20: Cut 2, Crush 6, Cleave 4, Pierce 4, Puncture 4 |
-| Defense | d4 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 13 (65 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_17"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_17"></span>**Abilities:**
-
-<span id="enduring-pace"></span>***Enduring Pace*** *(Passive. Ability slot 1).* The horse can travel at Fast pace (×1.5) without advancing [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.").
-
----
-
-### Draft Horse (Tier 2 Adept)
-
-*Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
-
-*Massive, broad-backed horses bred for hauling and heavy labor. Common on farms, in mines, and pulling wagons along trade roads. Slow but immensely powerful.*
-
-<span id="attributes_18"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 24 (T5, d8) | 4 (T1, d2) | 8 (T2, d3) | 24 (T5, d8) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_18"></span>**Tier Budget:** 5+1+2+5+1+1+1+2 = 18. Budget for T2 Adept = 18. (±0) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d4 (DTD) + d8 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
-| Health | 24 + 3d8 + 2d8 (2 sq) + d4 (DTD) = 24 + 5d8 + d4 (~49) |
-| Resistance | Budget 20: Cut 2, Crush 6, Cleave 4, Pierce 4, Puncture 4 |
-| Defense | d4 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_18"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_18"></span>**Abilities:**
-
-<span id="heavy-pull"></span>***Heavy Pull*** *(1 AP, Movement. Ability slot 1). Once per encounter.* The horse pulls up to double its normal pulling capacity for a distance up to its speed.
-
-<span id="sure-footed"></span>***Sure-Footed*** *(Passive. Ability slot 2).* The horse may use STR in place of AGI for trials to traverse Unstable terrain and to resist [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
-
----
-
-### Rouncey — Light War Horse (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 2×1 Mortal Beast (Primal).*
-
-*A trained rouncey, the workhorse of mounted soldiers. Hardy and dependable in battle, though lacking the speed or power of more expensive war mounts.*
-
-<span id="attributes_19"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 11 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_19"></span>**Tier Budget:** 3+2+2+3+1+2+1+2 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-<span id="armor"></span>**Armor:** Boiled Leather Barding (no crupper)
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d6 (DTD) + d4 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
-| Attack (Bite, Fast) | d6 (DTD) + d4 (STR) + 2 (2 sq) Piercing. Exploding. (Attribute: STR) |
-| Health | 6d4 + 1 (~16) |
-| Durability | 27 |
-| Resistance | Budget 20: Cut 5, Crush 5, Cleave 3, Pierce 5, Puncture 2 (boiled leather barding without crupper + natural hide) |
-| Defense | d6 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 11 (55 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_19"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_19"></span>**Abilities:**
-
-<span id="hardy_1"></span>***Hardy*** *(Passive. Ability slot 1).* The horse has Dominance on trials to resist [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") and [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
-
-<span id="battle-trained"></span>***Battle Trained*** *(Passive. Ability slot 2).* The horse is trained for combat and is not affected by the Skittish trait.
-
-<span id="levade"></span>***Levade*** *(1 AP, Attack. Ability slot 3).* The horse rears and strikes with both front hooves, making two kick attacks with Inferiority. Each attack may target the same or different creatures within reach.
-
----
-
-### Courser — Medium War Horse (Tier 2 Champion)
-
-*Division 5, Tier 2, Champion. 2×1 Mortal Beast (Primal).*
-
-*A trained courser, the preferred mount of knights who favor speed and maneuverability. Fast and agile in combat, capable of outflanking heavier opponents.*
-
-<span id="attributes_20"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 12 (T3, d4) | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_20"></span>**Tier Budget:** 3+4+3+4+1+2+1+3 = 21. Budget for T2 Champion = 22. (-1) ✓
-
-<span id="armor_1"></span>**Armor:** Chain Barding
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d8 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
-| Attack (Bite, Fast) | d8 (DTD) + d4 (PHY) + 2 (2 sq) Piercing. Exploding. (Attribute: PHY) |
-| Health | 7d6 + 2 (~27) |
-| Durability | 37 |
-| Resistance | Budget 40: Cut 13, Crush 6, Cleave 6, Pierce 6, Puncture 9 (chain barding + natural hide) |
-| Defense | d8 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 13 (65 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_20"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_20"></span>**Abilities:**
-
-<span id="leap_1"></span>***Leap*** *(2 AP, Movement + Attack. Ability slot 1).* The horse moves up to its speed and leaps over one creature of equal or smaller size in its path, making a kick attack against that creature. The horse lands in an unoccupied space on the opposite side. This movement does not provoke a Reprisal Attack from the target.
-
-<span id="battle-trained_1"></span>***Battle Trained*** *(Passive. Ability slot 2).* The horse is trained for combat and is not affected by the Skittish trait.
-
-<span id="capriole"></span>***Capriole*** *(1 AP, Attack. Ability slot 3).* The horse leaps and kicks backward with both hind hooves, making one kick attack with Inferiority against each creature directly behind the horse within reach.
-
----
-
-### Destrier — Heavy War Horse (Tier 3 Champion)
-
-*Division 6, Tier 3, Champion. 2×1 Mortal Beast (Primal).*
-
-*A trained destrier, the pinnacle of mounted warfare. Massive, fearless, and devastating in combat. The ultimate status symbol among warriors and nobility.*
-
-<span id="attributes_21"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 22 (T5, d8) | 11 (T3, d4) | 21 (T5, d8) | 26 (T6, d10) | 3 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 11 (T3, d4) |
-
-<span id="tier-budget_21"></span>**Tier Budget:** 5+3+5+6+1+3+2+3 = 28. Budget for T3 Champion = 28. (±0) ✓
-
-<span id="armor_2"></span>**Armor:** Plate and Mail Barding
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d10 (DTD) + d8 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
-| Attack (Bite, Fast) | d10 (DTD) + d8 (STR) + 2 (2 sq) Piercing. Exploding. (Attribute: STR) |
-| Health | 8d10 + 3 (~47) |
-| Durability | 57 |
-| Resistance | Budget 60: Cut 13, Crush 12, Cleave 11, Pierce 12, Puncture 12 (plate and mail barding + natural hide) |
-| Defense | d10 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 3 (max 2 attacks) |
-| Speed | 12 (60 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_21"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_21"></span>**Abilities:**
-
-<span id="stagger_1"></span>***Stagger*** *(1 AP, Attack. Ability slot 1).* The horse makes a kick attack with Impotence. On a hit, the target must succeed on a PER trial [7] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
-
-<span id="battle-trained_2"></span>***Battle Trained*** *(Passive. Ability slot 2).* The horse is trained for combat and is not affected by the Skittish trait.
-
-<span id="levade_1"></span>***Levade*** *(1 AP, Attack. Ability slot 3).* The horse rears and strikes with both front hooves, making two kick attacks with Inferiority. Each attack may target the same or different creatures within reach.
-
-<span id="capriole_1"></span>***Capriole*** *(1 AP, Attack. Ability slot 4).* The horse leaps and kicks backward with both hind hooves, making one kick attack with Inferiority against each creature directly behind the horse within reach.
-
----
-
-### Pony / Donkey (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
-
-*Small, hardy animals used as pack mounts and trail companions. Sure-footed on terrain that would lame a horse and famously resistant to persuasion.*
-
-<span id="attributes_22"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (T2, d3) | 4 (T1, d2) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 7 (T2, d3) | 2 (T1, d2) |
-
-<span id="tier-budget_22"></span>**Tier Budget:** 2+1+2+2+1+1+2+1 = 12. Budget for T1 Adept = 12. (±0) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d3 (DTD) + d3 (PHY) + 0 (1 sq) Crushing. Exploding. (Attribute: PHY) |
-| Health | 8 + 2d3 + d3 (DTD) = 8 + 3d3 (~14) |
-| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
-| Defense | d3 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 8 (40 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_22"></span>**Senses:** Crepuscular sight.
-
-<span id="abilities_22"></span>**Abilities:**
-
-<span id="sure-footed_1"></span>***Sure-Footed*** *(Passive. Ability slot 1).* The creature treats Rugged terrain as normal terrain.
-
-<span id="stubborn"></span>***Stubborn*** *(Passive. Ability slot 2).* The creature has Dominance on trials to resist the [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") condition.
-
----
-
-## Dogs (Tier 1)
-
-### Wild Dog (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_23"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_23"></span>**Tier Budget:** 1+3+2+2+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 8 + 2d3 + d3 (DTD) = 8 + 3d3 (~14) |
-| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_23"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_23"></span>**Abilities:**
-
-<span id="pack"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
----
-
-Kennel dogs are purpose-bred domesticated canines. Breed determines the physical baseline; training is handled through the companion advancement system. War Dogs are built independently at a higher Division.
-
-### Medium Dog (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
-
-*Shepherds, sheepdogs, alaunts, spaniels. Fast, coordinated, and precise.*
-
-<span id="attributes_24"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 12 (T3, d4) | 11 (T3, d4) | 4 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_24"></span>**Tier Budget:** 1+3+3+1+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 4 + 2d2 + d3 (DTD) (~9) |
-| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_24"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_24"></span>**Abilities:**
-
-<span id="nimble"></span>***Nimble*** *(Passive. Ability slot 1).* The dog can move through spaces occupied by allied creatures.
-
-<span id="pack_1"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
----
-
-### Large Dog (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
-
-*Rottweilers, bulldogs, retrievers, hounds. Balanced and versatile.*
-
-<span id="attributes_25"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_25"></span>**Tier Budget:** 2+2+2+2+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 8 + 2d3 + d3 (DTD) = 8 + 3d3 (~14) |
-| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 9 (45 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_25"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_25"></span>**Abilities:**
-
-<span id="pack_2"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
-<span id="steadfast"></span>***Steadfast*** *(Passive. Ability slot 2).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
-
----
-
-### Giant Dog (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
-
-*Mastiffs, Great Danes, wolfhounds. Powerful and durable, but slow and clumsy.*
-
-<span id="attributes_26"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 11 (T3, d4) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_26"></span>**Tier Budget:** 3+1+1+3+1+1+1+2 = 13. Budget for T1 Adept = 12. (+1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d3 (DTD) + d4 (STR) Piercing. Exploding. (Attribute: STR) |
-| Health | 11 + 2d4 + d3 (DTD) (~18) |
-| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 8 (40 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_26"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_26"></span>**Abilities:**
-
-<span id="knockdown"></span>***Knockdown*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [3] or be knocked prone.
-
----
-
-### Heavy War Dog (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
-
-*Large breed (rottweilers, bulldogs). War-trained for frontline combat.*
-
-<span id="attributes_27"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_27"></span>**Tier Budget:** 3+2+2+3+1+2+1+2 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-<span id="armor_3"></span>**Armor:** Boiled Leather Barding (no crupper)
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d4 (STR) Piercing. Exploding. (Attribute: STR) |
-| Health | 4d4 + 1 (~11) |
-| Durability | 29 |
-| Resistance | Budget 20: Cut 5, Crush 4, Cleave 2, Pierce 4, Puncture 1, Primal 2, Sea 2 (boiled leather barding without crupper + natural hide) |
-| Trials | 1d6 + Attribute TD |
-| Defense | d6 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 9 (45 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_27"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_27"></span>**Abilities:**
-
-<span id="pack_3"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
-<span id="steadfast_1"></span>***Steadfast*** *(Passive. Ability slot 2).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
-
-<span id="charge_8"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 3).* The dog moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
-
----
-
-### Giant War Dog (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
-
-*Giant breed (mastiffs, wolfhounds). War-trained for shock assault.*
-
-<span id="attributes_28"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 16 (T4, d6) | 4 (T1, d2) | 4 (T1, d2) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 7 (T2, d3) |
-
-<span id="tier-budget_28"></span>**Tier Budget:** 4+1+1+4+1+2+1+2 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-<span id="armor_4"></span>**Armor:** Boiled Leather Barding (no crupper)
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d6 (STR) Piercing. Exploding. (Attribute: STR) |
-| Health | 4d6 + 1 (~15) |
-| Durability | 37 |
-| Resistance | Budget 20: Cut 5, Crush 4, Cleave 2, Pierce 4, Puncture 1, Primal 2, Sea 2 (boiled leather barding without crupper + natural hide) |
-| Trials | 1d6 + Attribute TD |
-| Defense | d6 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 8 (40 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_28"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_28"></span>**Abilities:**
-
-<span id="knockdown_1"></span>***Knockdown*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or be knocked prone.
-
-<span id="charge_9"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 2).* The dog moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="rend"></span>***Rend*** *(1 AP, Attack. Ability slot 3).* On a hit with a bite attack, with Impotence, if damage is dealt the target must succeed on an END trial [5] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
-
----
-
-### Medium Guard Dog (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
-
-*Medium breed (shepherds, alaunts). Guard-trained for sentry duty.*
-
-<span id="attributes_29"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 12 (T3, d4) | 11 (T3, d4) | 8 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_29"></span>**Tier Budget:** 1+3+3+2+1+2+1+3 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-<span id="armor_5"></span>**Armor:** Gambeson Barding (no crupper)
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 4d3 + 1 (~9) |
-| Durability | 21 |
-| Resistance | Budget 20: Cut 2, Crush 6, Cleave 2, Pierce 5, Puncture 1, Primal 2, Sea 2 (gambeson barding without crupper + natural hide) |
-| Trials | 1d6 + Attribute TD |
-| Defense | d6 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_29"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_29"></span>**Abilities:**
-
-<span id="nimble_1"></span>***Nimble*** *(Passive. Ability slot 1).* The dog can move through spaces occupied by allied creatures.
-
-<span id="pack_4"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
-<span id="deter"></span>***Deter*** *(1 AP, Reaction. Ability slot 3).* When a hostile creature moves within 5 feet of the dog, the creature must succeed on a WIS trial [5] or end its movement.
-
----
-
-### Giant Guard Dog (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
-
-*Giant breed (mastiffs, wolfhounds). Guard-trained for territorial defense.*
-
-<span id="attributes_30"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 16 (T4, d6) | 4 (T1, d2) | 4 (T1, d2) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_30"></span>**Tier Budget:** 4+1+1+3+1+2+1+3 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-<span id="armor_6"></span>**Armor:** Gambeson Barding (no crupper)
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d6 (STR) Piercing. Exploding. (Attribute: STR) |
-| Health | 4d4 + 1 (~11) |
-| Durability | 29 |
-| Resistance | Budget 20: Cut 2, Crush 6, Cleave 2, Pierce 5, Puncture 1, Primal 2, Sea 2 (gambeson barding without crupper + natural hide) |
-| Trials | 1d6 + Attribute TD |
-| Defense | d6 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 8 (40 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_30"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_30"></span>**Abilities:**
-
-<span id="knockdown_2"></span>***Knockdown*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or be knocked prone.
-
-<span id="deter_1"></span>***Deter*** *(1 AP, Reaction. Ability slot 2).* When a hostile creature moves within 5 feet of the dog, the creature must succeed on a WIS trial [5] or end its movement.
-
-<span id="steadfast_2"></span>***Steadfast*** *(Passive. Ability slot 3).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
-
----
-
-### Medium Hunting Dog (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
-
-*Medium breed (spaniels, alaunts). Hunting-trained for pursuit and catch.*
-
-<span id="attributes_31"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 16 (T4, d6) | 11 (T3, d4) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_31"></span>**Tier Budget:** 1+4+3+2+1+1+1+3 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 8 + 4d3 + d6 (DTD) (~20) |
-| Resistance | Budget 20: Cut 2, Crush 4, Cleave 2, Pierce 2, Puncture 2, Primal 4, Sea 4 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d6 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 11 (55 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_31"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_31"></span>**Abilities:**
-
-<span id="nimble_2"></span>***Nimble*** *(Passive. Ability slot 1).* The dog can move through spaces occupied by allied creatures.
-
-<span id="pack_5"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
-<span id="clamp"></span>***Clamp*** *(1 AP, Attack. Ability slot 3).* On a hit with a bite attack, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
----
-
-### Large Hunting Dog (Tier 1 Champion)
-
-*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
-
-*Large breed (retrievers, hounds). Hunting-trained for tracking and takedown.*
-
-<span id="attributes_32"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (T2, d3) | 12 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_32"></span>**Tier Budget:** 2+3+2+2+1+2+1+3 = 16. Budget for T1 Champion = 16. (±0) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 8 + 4d3 + d6 (DTD) (~20) |
-| Resistance | Budget 20: Cut 2, Crush 4, Cleave 2, Pierce 2, Puncture 2, Primal 4, Sea 4 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d6 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 3 (max 2 attacks) |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_32"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_32"></span>**Abilities:**
-
-<span id="pack_6"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
-
-<span id="steadfast_3"></span>***Steadfast*** *(Passive. Ability slot 2).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
-
-<span id="clamp_1"></span>***Clamp*** *(1 AP, Attack. Ability slot 3).* On a hit with a bite attack, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
----
-
-## Wolves (Tier 1-2)
-
-All pack wolves (Runt through Alpha) share the same base attributes — they are the same species. Differentiation comes from Division scaling (DTD, health die count, resistance budget) and rank-specific abilities. The Dire Wolf and Amarok are separate creatures with higher physical attributes.
-
-<span id="wolf-attributes"></span>**Wolf Attributes (Pack):**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 9 (T2, d3) | 12 (T3, d4) | 14 (T3, d4) | 13 (T3, d4) | 8 (T2, d3) | 6 (T2, d3) | 4 (T1, d2) | 16 (T4, d6) |
-
-### Wolf, Runt (Tier 2 Minion)
-
-*Division 2, Tier 2, Minion. 1×1 Mortal Beast (Primal).*
-
-| Stat | Value |
-|:---|:---|
-| Attack | 1d2 (Bite, Fast) |
-| Health | 1 |
-| Resistance | 2 (all mundane) |
-| Physical / Mental | d2 / d2 |
-| Trials | 1d2 + 1d3 |
-| Defense | 1d2 + 2 |
-| AP | 2 |
-| Speed | 9 (45 ft), four-legged |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_33"></span>**Senses:** Scent, crepuscular sight.
-
-| Group | Heads | Health | Attack | Defense | Mob DC |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | None |
-| Brood | 12 | 12 | 12d2 | 12d2 + 2 | None |
-| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | None |
-
-<span id="mob_3"></span>**Mob:**
-
-<span id="harry"></span>***Harry*** *(Mob, no slot).* When the pack deals damage, the target suffers [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 2.
-
----
-
-### Wolf, Gamma (Tier 2 Adept)
-
-*Division 3, Tier 2, Adept. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_33"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 8 (T2, d3) | 13 (T3, d4) | 12 (T3, d4) | 13 (T3, d4) | 3 (T1, d2) | 4 (T1, d2) | 3 (T1, d2) | 12 (T3, d4) |
-
-<span id="tier-budget_33"></span>**Tier Budget:** 2+3+3+3+1+1+1+3 = 17. Budget for T2 Adept = 18. (-1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d4 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 13 + 3d4 + d4 (DTD) = 13 + 4d4 (~23) |
-| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_34"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_33"></span>**Abilities:**
-
-<span id="hamstring"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [4] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
-<span id="pack_7"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
-
----
-
-### Wolf, Beta (Tier 2 Leader)
-
-*Division 4, Tier 2, Leader. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_34"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 9 (T2, d3) | 13 (T3, d4) | 13 (T3, d4) | 13 (T3, d4) | 4 (T1, d2) | 9 (T2, d3) | 6 (T2, d3) | 14 (T3, d4) |
-
-<span id="tier-budget_34"></span>**Tier Budget:** 2+3+3+3+1+2+2+3 = 19. Budget for T2 Leader = 20. (-1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d6 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 13 + 4d4 + d6 (DTD) (~26) |
-| Resistance | Budget 30: Cut 4, Cleave 5, Crush 7, Pierce 6, Puncture 4, Sea 4 |
-| Trials | 1d4 + Attribute TD |
-| Defense | d6 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_35"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_34"></span>**Abilities:**
-
-<span id="hamstring_1"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
-<span id="pack_8"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
-
-<span id="rally-howl"></span>***Rally Howl*** *(2 AP, Action. Ability slot 3).* The wolf howls. All allied wolves within 30 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Can be reapplied to stack tiers.
-
----
-
-### Wolf, Sigma (Tier 2 Champion)
-
-*Division 5, Tier 2, Champion. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_35"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 11 (T3, d4) | 13 (T3, d4) | 16 (T4, d6) | 14 (T3, d4) | 4 (T1, d2) | 8 (T2, d3) | 4 (T1, d2) | 14 (T3, d4) |
-
-<span id="tier-budget_35"></span>**Tier Budget:** 3+3+4+3+1+2+1+3 = 20. Budget for T2 Champion = 22. (-2) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d8 (DTD) + d6 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 14 + 5d4 + d8 (DTD) (~31) |
-| Resistance | Budget 40: Cut 5, Cleave 7, Crush 9, Pierce 8, Puncture 5, Sea 6 |
-| Trials | 1d6 + Attribute TD |
-| Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 3 (max 2 attacks) |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_36"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_35"></span>**Abilities:**
-
-<span id="hamstring_2"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
-<span id="pack_9"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
-
-<span id="roar"></span>***Roar*** *(2 AP, Action. Ability slot 3).* All creatures within 20 feet must succeed on a WIS trial [6] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
-
----
-
-### Wolf, Alpha (Tier 2 Master)
-
-*Division 6, Tier 2, Master. 1×1 Mortal Beast (Primal).*
-
-<span id="attributes_36"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 12 (T3, d4) | 13 (T3, d4) | 16 (T4, d6) | 16 (T4, d6) | 4 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 16 (T4, d6) |
-
-<span id="tier-budget_36"></span>**Tier Budget:** 3+3+4+4+1+3+2+4 = 24. Budget for T2 Master = 24. ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d10 (DTD) + d6 (PHY) Piercing. Exploding. (Attribute: PHY) |
-| Health | 16 + 6d6 + d10 (DTD) (~43) |
-| Resistance | Budget 50: Cut 7, Cleave 8, Crush 10, Pierce 9, Puncture 6, Sea 5, Primal 5 |
-| Trials | 1d8 + Attribute TD |
-| Defense | d10 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 3 (max 2 attacks) |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_37"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="passive_4"></span>**Passive:**
-
-<span id="abilities_36"></span>**Abilities:**
-
-<span id="hamstring_3"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [7] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
-<span id="pack_10"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
-
-<span id="rally-howl_1"></span>***Rally Howl*** *(2 AP, Action. 1/encounter. Ability slot 3).* The wolf howls. All allied wolves within 30 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 3 tiers. Degrades by 1 tier per round.
-
-<span id="roar_1"></span>***Roar*** *(2 AP, Action. Ability slot 4).* All creatures within 30 feet must succeed on a WIS trial [7] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
-
----
-
-### Wolf, Dire (Tier 2 Epic)
-
-*Division 7, Tier 2, Epic. 2×1 Mortal Beast (Primal).*
-
-<span id="attributes_37"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 21 (T5, d8) | 12 (T3, d4) | 21 (T5, d8) | 21 (T5, d8) | 8 (T2, d3) | 6 (T2, d3) | 4 (T1, d2) | 21 (T5, d8) |
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | d12 (DTD) + d8 (PHY) + 2 (2sq) Piercing. Exploding. (Attribute: PHY) |
-| Health | 21 + 9d8 + d12 (DTD) (~68) |
-| Resistance | Budget 60: Cut 6, Cleave 9, Crush 14, Pierce 10, Puncture 7, Sea 8, Primal 6 |
-| Trials | 1d10 + Attribute TD |
-| Defense | d12 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2/phase, active in Fast + Moderate (4 total, max 2 attacks/phase) |
-| Speed | 12 (60 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 10 ft |
-
-<span id="senses_38"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_37"></span>**Abilities:**
-
-<span id="hamstring_4"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
-<span id="charge_10"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 2).* The wolf moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="shed"></span>***Shed*** *(1 AP, Reaction. Ability slot 3).* When an enemy targets the wolf with a melee attack and the wolf successfully defends, it can move the attacker 5 feet to an unoccupied space within range. Cannot use against creatures larger than it.
-
-<span id="vicious-bite"></span>***Vicious Bite*** *(2 AP, Attack. Ability slot 4).* The wolf makes a bite attack: d12 + 2d8 + 2 Piercing, exploding.
-
-<span id="phase-reference_4"></span>**Phase Reference:** All abilities use Bite (Fast) and are available in all active phases.
-
----
-
-### Wolf, Amarok (Tier 2 Legendary)
-
-*Division 8, Tier 2, Legendary. 2×2 Mortal Beast (Primal).*
-
-<span id="attributes_38"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 22 (T5, d8) | 9 (T2, d3) | 24 (T5, d8) | 28 (T6, d10) | 12 (T3, d4) | 14 (T3, d4) | 9 (T2, d3) | 22 (T5, d8) |
-
-| Stat | Value |
-|:---|:---|
-| Attack (Bite, Fast) | 2d6 (DTD) + d8 (PHY) + 4 (4sq) Piercing. Exploding. (Attribute: PHY) |
-| Health | 28 + 12d10 + 2d6 (DTD) (~101) |
-| Resistance | Budget 70: Cut 7, Cleave 10, Crush 16, Pierce 12, Puncture 7, Sea 10, Primal 8 |
-| Trials | 1d12 + Attribute TD |
-| Defense | 2d6 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2/phase, active in all 3 phases (6 total, max 2 attacks/phase) |
-| Speed | 13 (65 ft) |
-| Footprint | 2×2 (4 sq) |
-| Reach | 10 ft |
-
-<span id="senses_39"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="passive_5"></span>**Passive:**
-
-<span id="abilities_38"></span>**Abilities:**
-
-<span id="hamstring_5"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [9] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
-
-<span id="charge_11"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 2).* The wolf moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="disarm"></span>***Disarm*** *(1 AP, Attack. Ability slot 3).* On a hit with a bite attack, in lieu of damage, the target must succeed on a STR or PHY trial [9]. On failure, the target's weapon falls behind them out of reach.
-
-<span id="shed_1"></span>***Shed*** *(1 AP, Reaction. Ability slot 4).* When an enemy targets the wolf with a melee attack and the wolf successfully defends, it can move the attacker 5 feet to an unoccupied space within range. Cannot use against creatures larger than it.
-
-<span id="rend_1"></span>***Rend*** *(1 AP, Attack. Ability slot 5).* On a hit with a bite attack, with Impotence, if damage is dealt the target must succeed on an END trial [9] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
-
-<span id="roar_2"></span>***Roar*** *(2 AP, Action. Ability slot 6).* All creatures within 50 feet must succeed on a WIS trial [9] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. Creatures that fail by 5 or more advance Demoralized by 2 tiers instead.
-
-<span id="phase-reference_5"></span>**Phase Reference:** All abilities use Bite (Fast) and are available in all active phases. Roar is not weapon-tied and is also available in all active phases.
-
----
-
-## Big Cats (Tier 2-3)
+Big cats are ambush hunters. A cat picks one quarry, waits for it to stray, and strikes from cover; the first sign of it is usually the attack. If the strike fails and the quarry fights back, a lone cat often breaks off rather than risk an injury. Lions hunt differently: a pride works together, the lionesses closing in while the male holds the pride's ground. A party meets a lone cat stalking a straggler or the watch at night, or a pride when it crosses the pride's ground.
 
 ### Mountain Lion (Tier 2 Adept)
 
@@ -1639,13 +337,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Solitary ambush predator of hills and forests. Known variously as cougar, panther, catamount, or puma, the mountain lion avoids confrontation when possible but is a lethal opportunist when cornered or hungry.*
 
-<span id="attributes_39"></span>**Attributes:**
+<span id="attributes_5"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 13 (T3, d4) | 13 (T3, d4) | 12 (T3, d4) | 9 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 12 (T3, d4) |
-
-<span id="tier-budget_37"></span>**Tier Budget:** 3+3+3+2+1+2+1+3 = 18. Budget for T2 Adept = 18. (±0) ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1654,21 +350,22 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 9 + 3d3 + d4 (DTD) (~18) |
 | Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Primal 2 |
 | Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
 | Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
 | AP | 2 (Fast or Moderate) |
 | Speed | 10 (50 ft) |
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-<span id="senses_40"></span>**Senses:** Scent, crepuscular sight.
+<span id="senses_6"></span>**Senses:** Scent, crepuscular sight.
 
-<span id="passive_6"></span>**Passive:**
+<span id="passive"></span>**Passive:**
 
-<span id="ambusher_2"></span>***Ambusher*** *(Passive, no slot).* In its element, the cat is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [4]. A creature with Alertness (Danger Sense) first rolls a PER trial [4] as the ambush is sprung; on a success, it makes no Startle trial.
+<span id="ambusher"></span>***Ambusher*** *(Passive, no slot).* In its element, the cat is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [4]. A creature with Alertness (Danger Sense) first rolls a PER trial [4] as the ambush is sprung; on a success, it makes no Startle trial.
 
-<span id="abilities_39"></span>**Abilities:**
+<span id="abilities_5"></span>**Abilities:**
 
-<span id="charge_12"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The cat moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
+<span id="charge_5"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The cat moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
 
 <span id="grab_5"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The cat makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [4] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [4] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
@@ -1680,13 +377,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *The apex social predator. Lions hunt in coordinated prides, with lionesses doing most of the work and males defending territory. A charging lion is among the most terrifying sights on the savanna.*
 
-<span id="attributes_40"></span>**Attributes:**
+<span id="attributes_6"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 22 (T5, d8) | 12 (T3, d4) | 16 (T4, d6) | 16 (T4, d6) | 3 (T1, d2) | 8 (T2, d3) | 12 (T3, d4) | 16 (T4, d6) |
-
-<span id="tier-budget_38"></span>**Tier Budget:** 5+3+4+4+1+2+3+4 = 26. Budget for T3 Leader = 26. (±0) ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1695,17 +390,18 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 16 + 5d6 + d8 (DTD) + 2d6 (2sq) = 16 + 7d6 + d8 (~45) |
 | Resistance | Budget 45: Cut 6, Cleave 6, Crush 10, Pierce 8, Puncture 5, Sea 5, Primal 5 |
 | Trials | 1d4 + Attribute TD |
+| Mastery | Skilled (4) |
 | Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
 | AP | 2 (Fast or Moderate) |
 | Speed | 12 (60 ft) |
 | Footprint | 2×1 (2 sq) |
 | Reach | 5 ft |
 
-<span id="senses_41"></span>**Senses:** Scent, crepuscular sight.
+<span id="senses_7"></span>**Senses:** Scent, crepuscular sight.
 
-<span id="abilities_40"></span>**Abilities:**
+<span id="abilities_6"></span>**Abilities:**
 
-<span id="charge_13"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The cat moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
+<span id="charge_6"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The cat moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
 
 <span id="pride-roar"></span>***Pride Roar*** *(2 AP, Action. Ability slot 2).* All allied beasts within 30 ft advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Can be reapplied to stack tiers.
 
@@ -1719,13 +415,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *The apex solitary predator. The largest and most powerful of all cats, the tiger is a patient ambush hunter that strikes from concealment with overwhelming force. What it lacks in social coordination it makes up for in raw, devastating power.*
 
-<span id="attributes_41"></span>**Attributes:**
+<span id="attributes_7"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 26 (T6, d10) | 12 (T3, d4) | 18 (T4, d6) | 16 (T4, d6) | 3 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 21 (T5, d8) |
-
-<span id="tier-budget_39"></span>**Tier Budget:** 6+3+4+4+1+3+2+5 = 28. Budget for T3 Champion = 28. (±0) ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1734,102 +428,32 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 16 + 6d6 + d10 (DTD) + 2d6 (2sq) = 16 + 8d6 + d10 (~50) |
 | Resistance | Budget 60: Cut 7, Cleave 8, Crush 14, Pierce 10, Puncture 7, Sea 8, Primal 6 |
 | Trials | 1d6 + Attribute TD |
+| Mastery | Skilled (4) |
 | Defense | d10 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
 | AP | 3 (max 2 attacks; Fast or Moderate) |
 | Speed | 12 (60 ft) |
 | Footprint | 2×1 (2 sq) |
 | Reach | 5 ft |
 
-<span id="senses_42"></span>**Senses:** Scent, crepuscular sight.
+<span id="senses_8"></span>**Senses:** Scent, crepuscular sight.
 
-<span id="passive_7"></span>**Passive:**
+<span id="passive_1"></span>**Passive:**
 
-<span id="ambusher_3"></span>***Ambusher*** *(Passive, no slot).* In its element, the cat is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [7]. A creature with Alertness (Danger Sense) first rolls a PER trial [7] as the ambush is sprung; on a success, it makes no Startle trial.
+<span id="ambusher_1"></span>***Ambusher*** *(Passive, no slot).* In its element, the cat is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [7]. A creature with Alertness (Danger Sense) first rolls a PER trial [7] as the ambush is sprung; on a success, it makes no Startle trial.
 
-<span id="abilities_41"></span>**Abilities:**
+<span id="abilities_7"></span>**Abilities:**
 
-<span id="charge_14"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The cat moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
+<span id="charge_7"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The cat moves at least 15 feet in a straight line and makes a bite or claw attack with Dominance. Countered by Set Spear vs Charge.
 
 <span id="grab_7"></span>***Grab*** *(1 AP, Action. Ability slot 2).* The cat makes a claw attack. In lieu of an attack roll, the target must succeed on a STR trial [7] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [7] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
-<span id="kill"></span>***Kill*** *(2 AP, Attack. Ability slot 3).* The cat makes a bite attack with Superiority against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target. On a hit that deals health damage, the target must succeed on an END trial [7] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
+<span id="kill"></span>***Kill*** *(2 AP, Attack. Ability slot 3).* The cat makes a bite attack with Superiority against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target. On a hit that deals health damage, the target must succeed on an END trial [7] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 4 (END Tier).
 
 ---
 
-## Deer (Tier 1-2)
+## Birds of Prey
 
-### Deer (Tier 1 Adept)
-
-*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
-
-*Common deer — white-tailed, roe, fallow. Prey animals built for flight rather than fight. Fast, alert, and nervous, a deer's best defense is not being caught.*
-
-<span id="attributes_42"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 (T1, d2) | 13 (T3, d4) | 4 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_40"></span>**Tier Budget:** 1+3+1+2+1+1+1+2 = 12. Budget for T1 Adept = 12. (±0) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Kick, Moderate) | d3 (DTD) + d2 (STR) Crushing. Exploding. (Attribute: STR) |
-| Health | 6 + 2d3 + d3 (DTD) = 6 + 3d3 (~12) |
-| Resistance | Budget 10: Cut 2, Cleave 2, Crush 2, Pierce 2, Puncture 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
-| AP | 2 |
-| Speed | 10 (50 ft) |
-| Footprint | 1×1 (1 sq) |
-| Reach | 5 ft |
-
-<span id="senses_43"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_42"></span>**Abilities:**
-
-<span id="flight-response"></span>***Flight Response*** *(1 AP, Reaction. Ability slot 1).* When the deer takes health damage, it can immediately move up to its speed. This movement does not provoke reactions.
-
----
-
-### Elk (Tier 2 Adept)
-
-*Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
-
-*Large cervid of northern forests and highlands. Bull elk grow enormous antlers and actively defend their herds. During the rut, a bull elk is genuinely dangerous — territorial, aggressive, and armed.*
-
-<span id="attributes_43"></span>**Attributes:**
-
-| STR | AGI | PHY | END | INT | WIS | CHA | PER |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 13 (T3, d4) | 8 (T2, d3) | 12 (T3, d4) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 9 (T2, d3) |
-
-<span id="tier-budget_41"></span>**Tier Budget:** 3+2+3+3+1+2+1+2 = 17. Budget for T2 Adept = 18. (-1) ✓
-
-| Stat | Value |
-|:---|:---|
-| Attack (Antler, Moderate) | d4 (DTD) + d4 (PHY) + 2 (2sq) Piercing. Exploding. (Attribute: PHY) |
-| Attack (Kick, Moderate) | d4 (DTD) + d4 (STR) + 2 (2sq) Crushing. Exploding. (Attribute: STR) |
-| Health | 12 + 3d4 + d4 (DTD) + 2d4 (2sq) = 12 + 6d4 (~27) |
-| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Primal 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 11 (55 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
-
-<span id="senses_44"></span>**Senses:** Scent, crepuscular sight.
-
-<span id="abilities_43"></span>**Abilities:**
-
-<span id="charge_15"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The elk moves at least 15 feet in a straight line and makes an antler attack with Dominance. Countered by Set Spear vs Charge.
-
-<span id="gore_3"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* On a hit with an antler attack, with Impotence, if damage is dealt the target must succeed on an END trial [4] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
-
----
-
-## Birds of Prey (Tier 1-2)
+Wild raptors hunt small quarry and have no reason to fight a party, unless a nest is threatened or the party is carrying the quarry. Trained hunting birds are another matter. Flown from a falconer's glove, they mark quarry from above and stoop on it, and the larger ones bind and hold it. A hunting bird answers to its falconer; without one, it is a wild bird again and flies off. A party meets hunting birds with the hunters who fly them: the bird finds the party, and the hunters follow.
 
 ### Small Raptor (Tier 1 Adept)
 
@@ -1837,13 +461,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Small raptor: merlins, hobbies, sparrowhawks. Built for speed and precision, small falcons and hawks strike from above with stoops that belie their size.*
 
-<span id="attributes_44"></span>**Attributes:**
+<span id="attributes_8"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3 (T1, d2) | 13 (T3, d4) | 4 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_42"></span>**Tier Budget:** 1+3+1+1+1+1+1+3 = 12. Budget for T1 Adept = 12. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1851,15 +473,16 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 3 + 2d2 + d3 (DTD) (~8) |
 | Resistance | Budget 10: Cut 2, Cleave 1, Crush 1, Pierce 2, Puncture 2, Sky 2 |
 | Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
 | Defense | d3 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 2 |
 | Speed | 9 (45 ft) Fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-<span id="senses_45"></span>**Senses:** Keen Sight.
+<span id="senses_9"></span>**Senses:** Keen Sight.
 
-<span id="abilities_44"></span>**Abilities:**
+<span id="abilities_8"></span>**Abilities:**
 
 <span id="stoop"></span>***Stoop*** *(2 AP, Movement + Attack. Ability slot 1).* The raptor moves up to full speed in a straight line from above and makes a talon attack with Dominance. Must start at least 15 ft above the target.
 
@@ -1873,13 +496,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Middling falcon: peregrines, lanners. The fastest things in the sky. They kill with the speed of the stoop, striking prey in midair.*
 
-<span id="attributes_45"></span>**Attributes:**
+<span id="attributes_9"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3 (T1, d2) | 15 (T4, d6) | 4 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 12 (T3, d4) |
-
-<span id="tier-budget_43"></span>**Tier Budget:** 1+4+1+1+1+1+1+3 = 13. Budget for T1 Adept = 12. Close (+1). ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1887,15 +508,16 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 3 + 2d2 + d3 (DTD) (~8) |
 | Resistance | Budget 10: Cut 2, Cleave 1, Crush 1, Pierce 2, Puncture 2, Sky 2 |
 | Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
 | Defense | d3 (DTD) + d6 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 2 |
 | Speed | 10 (50 ft) Fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-<span id="senses_46"></span>**Senses:** Keen Sight.
+<span id="senses_10"></span>**Senses:** Keen Sight.
 
-<span id="abilities_45"></span>**Abilities:**
+<span id="abilities_9"></span>**Abilities:**
 
 <span id="stoop_1"></span>***Stoop*** *(2 AP, Movement + Attack. Ability slot 1).* The raptor moves up to full speed in a straight line from above and makes a talon attack with Dominance. Must start at least 15 ft above the target.
 
@@ -1909,13 +531,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Large falcons and hawks: gyrfalcons, sakers, goshawks. Heavier and stronger than the swift falcons, they take larger birds and small mammals and hold them.*
 
-<span id="attributes_46"></span>**Attributes:**
+<span id="attributes_10"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 4 (T1, d2) | 12 (T3, d4) | 8 (T2, d3) | 6 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_44"></span>**Tier Budget:** 1+3+2+2+1+1+1+3 = 14. Budget for T1 Adept = 12. Over (+2). ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1923,15 +543,16 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 6 + 2d3 + d3 (DTD) (~12) |
 | Resistance | Budget 10: Cut 2, Cleave 1, Crush 1, Pierce 2, Puncture 2, Sky 2 |
 | Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
 | Defense | d3 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 2 |
 | Speed | 9 (45 ft) Fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-<span id="senses_47"></span>**Senses:** Keen Sight.
+<span id="senses_11"></span>**Senses:** Keen Sight.
 
-<span id="abilities_46"></span>**Abilities:**
+<span id="abilities_10"></span>**Abilities:**
 
 <span id="stoop_2"></span>***Stoop*** *(2 AP, Movement + Attack. Ability slot 1).* The raptor moves up to full speed in a straight line from above and makes a talon attack with Dominance. Must start at least 15 ft above the target.
 
@@ -1945,13 +566,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Large raptor: golden eagles. Powerful enough to take foxes and fawns, patient enough to wait for the perfect moment. Their eyesight is legendary.*
 
-<span id="attributes_47"></span>**Attributes:**
+<span id="attributes_11"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 10 (T3, d4) | 12 (T3, d4) | 9 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 16 (T4, d6) |
-
-<span id="tier-budget_45"></span>**Tier Budget:** 3+3+2+2+1+2+1+4 = 18. Budget for T2 Adept = 18. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1959,17 +578,18 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 8 + 3d3 + d4 (DTD) (~16) |
 | Resistance | Budget 20: Cut 3, Cleave 2, Crush 2, Pierce 5, Puncture 4, Primal 2, Sky 2 |
 | Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
 | Defense | d4 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
 | AP | 2 |
 | Speed | 10 (50 ft) Fly |
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-<span id="senses_48"></span>**Senses:** Keen Sight.
+<span id="senses_12"></span>**Senses:** Keen Sight.
 
-<span id="abilities_47"></span>**Abilities:**
+<span id="abilities_11"></span>**Abilities:**
 
-<span id="dive"></span>***Dive*** *(2 AP, Movement + Attack. Ability slot 1).* The eagle swoops through a target's space, making a talon attack during movement. Does not provoke attacks of opportunity.
+<span id="dive"></span>***Dive*** *(2 AP, Movement + Attack. Ability slot 1).* The eagle swoops through a target's space, making a talon attack during movement. Does not provoke Reprisal Attacks.
 
 <span id="aerial-evasion_3"></span>***Aerial Evasion*** *(Passive. Ability slot 2).* While the eagle is flying, ranged attacks against it add the eagle's Agility tier to the Aiming Trial DC.
 
@@ -1981,13 +601,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Trained small raptor: merlins, hobbies, sparrowhawks. Flown at small game birds; quick to return to the glove.*
 
-<span id="attributes_48"></span>**Attributes:**
+<span id="attributes_12"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3 (T1, d2) | 15 (T4, d6) | 4 (T1, d2) | 5 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 15 (T4, d6) |
-
-<span id="tier-budget_46"></span>**Tier Budget:** 1+4+1+2+1+2+1+4 = 16. Budget for T1 Champion = 16. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -1995,15 +613,16 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 5 + 4d3 + d6 (DTD) (~16) |
 | Resistance | Budget 20: Cut 4, Cleave 2, Crush 2, Pierce 4, Puncture 4, Sky 4 |
 | Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
 | Defense | d6 (DTD) + d6 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 3 (max 2 attacks) |
 | Speed | 10 (50 ft) Fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-<span id="senses_49"></span>**Senses:** Keen Sight.
+<span id="senses_13"></span>**Senses:** Keen Sight.
 
-<span id="abilities_48"></span>**Abilities:**
+<span id="abilities_12"></span>**Abilities:**
 
 <span id="stoop_3"></span>***Stoop*** *(2 AP, Movement + Attack. Ability slot 1).* The bird moves up to full speed in a straight line from above and makes a talon attack with Dominance. Must start at least 15 ft above the target.
 
@@ -2019,13 +638,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Trained middling falcon: peregrines, lanners. The classic falconer's bird, flown high and stooped onto quarry.*
 
-<span id="attributes_49"></span>**Attributes:**
+<span id="attributes_13"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3 (T1, d2) | 20 (T5, d8) | 4 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 15 (T4, d6) |
-
-<span id="tier-budget_47"></span>**Tier Budget:** 1+5+1+1+1+2+1+4 = 16. Budget for T1 Champion = 16. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -2033,15 +650,16 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 3 + 4d2 + d6 (DTD) (~12) |
 | Resistance | Budget 20: Cut 4, Cleave 2, Crush 2, Pierce 4, Puncture 4, Sky 4 |
 | Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
 | Defense | d6 (DTD) + d8 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 3 (max 2 attacks) |
 | Speed | 11 (55 ft) Fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-<span id="senses_50"></span>**Senses:** Keen Sight.
+<span id="senses_14"></span>**Senses:** Keen Sight.
 
-<span id="abilities_49"></span>**Abilities:**
+<span id="abilities_13"></span>**Abilities:**
 
 <span id="stoop_4"></span>***Stoop*** *(2 AP, Movement + Attack. Ability slot 1).* The bird moves up to full speed in a straight line from above and makes a talon attack with Dominance. Must start at least 15 ft above the target.
 
@@ -2057,13 +675,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Trained large falcon or hawk: gyrfalcons, sakers, goshawks. Flown at hares, geese, and other heavy quarry, which it binds and holds.*
 
-<span id="attributes_50"></span>**Attributes:**
+<span id="attributes_14"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 4 (T1, d2) | 12 (T3, d4) | 8 (T2, d3) | 6 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 15 (T4, d6) |
-
-<span id="tier-budget_48"></span>**Tier Budget:** 1+3+2+2+1+2+1+4 = 16. Budget for T1 Champion = 16. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -2071,15 +687,16 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 6 + 4d3 + d6 (DTD) (~17) |
 | Resistance | Budget 20: Cut 4, Cleave 2, Crush 2, Pierce 4, Puncture 4, Sky 4 |
 | Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
 | Defense | d6 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 3 (max 2 attacks) |
 | Speed | 9 (45 ft) Fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
-<span id="senses_51"></span>**Senses:** Keen Sight.
+<span id="senses_15"></span>**Senses:** Keen Sight.
 
-<span id="abilities_50"></span>**Abilities:**
+<span id="abilities_14"></span>**Abilities:**
 
 <span id="stoop_5"></span>***Stoop*** *(2 AP, Movement + Attack. Ability slot 1).* The bird moves up to full speed in a straight line from above and makes a talon attack with Dominance. Must start at least 15 ft above the target.
 
@@ -2097,13 +714,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Trained golden eagle. The most prized hunting bird, flown at foxes and wolves in open country.*
 
-<span id="attributes_51"></span>**Attributes:**
+<span id="attributes_15"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 10 (T3, d4) | 15 (T4, d6) | 9 (T2, d3) | 10 (T3, d4) | 3 (T1, d2) | 10 (T3, d4) | 3 (T1, d2) | 20 (T5, d8) |
-
-<span id="tier-budget_49"></span>**Tier Budget:** 3+4+2+3+1+3+1+5 = 22. Budget for T2 Champion = 22. ✓
 
 | Stat | Value |
 |:---|:---|
@@ -2111,17 +726,18 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 10 + 5d4 + d8 (DTD) (~27) |
 | Resistance | Budget 40: Cut 6, Cleave 4, Crush 4, Pierce 10, Puncture 8, Primal 4, Sky 4 |
 | Trials | 1d6 + Attribute TD |
+| Mastery | Basic (3) |
 | Defense | d8 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
 | AP | 3 (max 2 attacks) |
 | Speed | 11 (55 ft) Fly |
 | Footprint | 1×1 (1 sq) |
 | Reach | 5 ft |
 
-<span id="senses_52"></span>**Senses:** Keen Sight.
+<span id="senses_16"></span>**Senses:** Keen Sight.
 
-<span id="abilities_51"></span>**Abilities:**
+<span id="abilities_15"></span>**Abilities:**
 
-<span id="dive_1"></span>***Dive*** *(2 AP, Movement + Attack. Ability slot 1).* The eagle swoops through a target's space, making a talon attack during movement. Does not provoke attacks of opportunity.
+<span id="dive_1"></span>***Dive*** *(2 AP, Movement + Attack. Ability slot 1).* The eagle swoops through a target's space, making a talon attack during movement. Does not provoke Reprisal Attacks.
 
 <span id="mark_3"></span>***Mark*** *(1 AP, Action. Ability slot 2).* The eagle circles above one creature it can see within 120 ft. Until the end of the eagle's next turn, that creature gains no benefit from [Concealed](../core/conditions.md#concealed "Perception trial to detect. Concealed measures how well others know where a creature is. It comes from two kinds of source: Tiers: Obscured, Shrouded, Hidden.") against the eagle's allies, and those allies have Dominance on PER trials to locate it. The eagle can spend 1 AP on later turns to keep circling.
 
@@ -2131,7 +747,196 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 ---
 
-## Corvids (Tier 1)
+## Boars
+
+A boar charges what threatens it and keeps charging. Wounded, it fights harder; it does not bolt the way a deer does, and a sow guards her young as fiercely as any bear. War boars are boars bred and trained to be driven at a line, and like any trained beast they answer to their handler. The Erymanthian Boar is the tameless boar of the old stories: it does not flee, it does not hesitate, and nothing has ever stopped it. A party meets boars at close range in thick wood and brush, usually after someone has startled one.
+
+### Boar (Tier 2 Adept)
+
+*Division 3, Tier 2, Adept. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_16"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 13 (T3, d4) | 8 (T2, d3) | 14 (T3, d4) | 13 (T3, d4) | 3 (T1, d2) | 4 (T1, d2) | 2 (T1, d2) | 9 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Tusk, Moderate) | d4 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 13 + 3d4 + d4 = 13 + 4d4 (~23) |
+| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 9 (45 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="abilities_16"></span>**Abilities:**
+
+<span id="charge_8"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The boar moves at least 15 feet in a straight line and makes a tusk attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="gore"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* The boar makes a tusk attack with Impotence. If damage is dealt, the target must succeed on an END trial [4] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 3 (END Tier).
+
+---
+
+### War Boar (Tier 2 Champion)
+
+*Division 5, Tier 2, Champion. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_17"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16 (T4, d6) | 8 (T2, d3) | 16 (T4, d6) | 14 (T3, d4) | 4 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 12 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Tusk, Moderate) | d8 (DTD) + d6 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 14 + 5d4 + d8 = 14 + 5d4 + d8 (~31) |
+| Resistance | Budget 40: Cut 5, Cleave 6, Crush 9, Pierce 7, Puncture 5, Sea 4, Primal 4 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 3 (max 2 attacks) |
+| Speed | 9 (45 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="abilities_17"></span>**Abilities:**
+
+<span id="charge_9"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The boar moves at least 15 feet in a straight line and makes a tusk attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="gore_1"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* The war boar makes a tusk attack with Impotence. If damage is dealt, the target must succeed on an END trial [6] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 3 (END Tier).
+
+<span id="trample"></span>***Trample*** *(2 AP, Movement + Attack. Ability slot 3).* The boar moves in a straight line up to full speed and makes a tusk attack with Inferiority against up to 2 targets in its path.
+
+---
+
+### Erymanthian Boar (Tier 3 Legendary)
+
+*Division 9, Tier 3, Legendary. 2×2 Mortal Beast (Primal).*
+
+*A boar of vast weight and foaming jaws, the tameless beast of the old stories that no hunter has ever taken alive. It does not flee, it does not hesitate, and it does not stop.*
+
+<span id="attributes_18"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 36 (T8, 2d6) | 12 (T3, d4) | 26 (T6, d10) | 36 (T8, 2d6) | 3 (T1, d2) | 18 (T4, d6) | 14 (T3, d4) | 22 (T5, d8) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Tusk, Moderate) | 2d8 (DTD) + 2d6 (STR) + 4 (4sq) Piercing. Exploding. (Attribute: STR) |
+| Health | 36 + 9(2d6) + 2d8 + 4(2d6) = 36 + 26d6 + 2d8 (~136) |
+| Resistance | Budget 105: Cut 12, Cleave 12, Crush 25, Pierce 15, Puncture 12, Primal 10, Sea 5, Fire 5, Stone 5, Sky 4 |
+| Trials | 1d12 + Attribute TD |
+| Mastery | Expert (5) |
+| Defense | 2d8 (DTD) + d10 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2/phase, active in all 3 phases (6 total, max 2 attacks/phase) |
+| Speed | 14 (70 ft) |
+| Footprint | 2×2 (4 sq) |
+| Reach | 10 ft |
+
+<span id="senses_17"></span>**Senses:** Scent.
+
+<span id="abilities_18"></span>**Abilities:**
+
+<span id="charge_10"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The boar moves at least 15 feet in a straight line and makes a tusk attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="gore_2"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* The boar makes a tusk attack with Impotence. If damage is dealt, the target must succeed on an END trial [10] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 8 (END Tier).
+
+<span id="trample_1"></span>***Trample*** *(2 AP, Movement + Attack. Ability slot 3).* The boar moves in a straight line up to full speed and makes a tusk attack with Inferiority against up to 2 creatures in its path.
+
+<span id="quake"></span>***Quake*** *(2 AP, Action. Ability slot 4).* The boar slams its full weight into the ground. All creatures within 15 ft must succeed on an AGI trial [10] or be knocked prone.
+
+<span id="bellow"></span>***Bellow*** *(2 AP, Action. Ability slot 5).* All creatures within 50 ft must succeed on a WIS trial [10] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
+
+<span id="phase-reference_3"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
+
+- <span id="fast_3"></span>**Fast:** Bellow, Quake
+- <span id="moderate_3"></span>**Moderate:** all above + Tusk, Charge, Gore, Trample
+- <span id="slow_1"></span>**Slow:** all above
+
+---
+
+## Cattle
+
+Cattle are herd animals, slow to anger. A herd moves together, and a frightened herd moves through whatever stands in its way. A bull defends his herd and charges whatever threatens it, and an ox pushed too far does the same. The aurochs is the wild kind: larger, faster and quicker to fight. A party meets cattle in a farmer's field or on a drover's road, where the danger is a stampede or a bull, and meets the aurochs in wild country, where the danger is the aurochs.
+
+### Ox (Tier 2 Adept)
+
+*Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
+
+*Domesticated cattle. Slow, powerful, and usually docile — but dangerous when provoked. An angry bull or a frightened ox can trample the unwary.*
+
+<span id="attributes_19"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16 (T4, d6) | 6 (T2, d3) | 9 (T2, d3) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Horns, Moderate) | d4 (DTD) + d6 (STR) + 2 (2sq) Piercing. Exploding. (Attribute: STR) |
+| Health | 12 + 3d4 + d4 (DTD) + 2d4 (2sq) = 12 + 6d4 (~27) |
+| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d4 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_18"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_19"></span>**Abilities:**
+
+<span id="charge_11"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The ox moves at least 15 feet in a straight line and makes a horn attack with Dominance. Countered by Set Spear vs Charge.
+
+---
+
+### Aurochs (Tier 3 Adept)
+
+*Division 4, Tier 3, Adept. 2×1 Mortal Beast (Primal).*
+
+*Wild ancestor of domestic cattle. Larger, faster, and far more aggressive than any domesticated breed.*
+
+<span id="attributes_20"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 22 (T5, d8) | 8 (T2, d3) | 16 (T4, d6) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 4 (T1, d2) | 12 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Horns, Moderate) | d6 (DTD) + d8 (STR) + 2 (2sq) Piercing. Exploding. (Attribute: STR) |
+| Health | 16 + 4d6 + d6 (DTD) + 2d6 (2sq) = 16 + 7d6 (~41) |
+| Resistance | Budget 30: Cut 4, Cleave 4, Crush 8, Pierce 6, Puncture 4, Sea 4 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d6 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_19"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_20"></span>**Abilities:**
+
+<span id="charge_12"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The aurochs moves at least 15 feet in a straight line and makes a horn attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="gore_3"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* The aurochs makes a horn attack with Impotence. If damage is dealt, the target must succeed on an END trial [5] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 4 (END Tier).
+
+---
+
+## Corvids
+
+Jackdaws travel in noisy flocks and copy what they hear: voices, cries, a name called from the trees. The flock's pecks are nothing; the danger is its racket, a confusion of false voices that makes it hard to think. Corvids are clever, bold, and drawn to bright things. A party meets them wherever people have been, and sometimes where something has sent them.
 
 ### Jackdaw (Tier 1 Minion)
 
@@ -2144,6 +949,7 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Resistance | 1 (all mundane) |
 | Physical / Mental | d2 / d2 |
 | Trials | 1d2 + 1d2 |
+| Mastery | Unskilled (1) |
 | Defense | 1d2 + 1 + 1 (½sq) |
 | AP | 2 |
 | Speed | 7 (35 ft) fly |
@@ -2156,13 +962,15 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Brood | 12 | 12 | 12d2 | 12d2 + 2 | 5 |
 | Swarm | 16 | 16 | 16d2 | 16d2 + 2 | 7 |
 
-<span id="mob_4"></span>**Mob:**
+<span id="mob_1"></span>**Mob:**
 
 <span id="mimicry"></span>***Mimicry*** *(Mob, no slot).* A creature that starts its turn within 30 feet of the flock and can hear it must succeed on an INT trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") by 1 tier (max Tier 1).
 
 ---
 
-## Crocodilians (Tier 3)
+## Crocodilians
+
+A crocodile waits. It lies submerged at the water's edge, sometimes for hours, until something comes to drink or to cross, then takes it, drags it under, and rolls. It does not chase far on land. A party meets crocodiles at fords, marshes and riverbanks, and the encounter begins the moment someone steps into the water.
 
 ### Crocodile (Tier 3 Adept)
 
@@ -2170,13 +978,11 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 
 *Ambush predator of rivers and estuaries. A crocodile can wait motionless for hours, submerged to the eyes, before exploding into violence. Its bite is among the most powerful in nature.*
 
-<span id="attributes_52"></span>**Attributes:**
+<span id="attributes_21"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 22 (T5, d8) | 6 (T2, d3) | 16 (T4, d6) | 16 (T4, d6) | 1 (T1, d2) | 6 (T2, d3) | 1 (T1, d2) | 11 (T3, d4) |
-
-<span id="tier-budget_50"></span>**Tier Budget:** 5+2+4+4+1+2+1+3 = 22. Budget for T3 Adept = 24. (-2) ✓
 
 | Stat | Value |
 |:---|:---|
@@ -2184,92 +990,1347 @@ All pack wolves (Runt through Alpha) share the same base attributes — they are
 | Health | 16 + 4d6 + d6 (DTD) + 2d6 (2sq) = 16 + 7d6 (~41) |
 | Resistance | Budget 30: Cut 3, Cleave 4, Crush 8, Pierce 6, Puncture 3, Sea 6 |
 | Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
 | Defense | d6 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
 | AP | 2 |
 | Speed | 11 (55 ft) Swim; 7 (35 ft) land |
 | Footprint | 2×1 (2 sq) |
 | Reach | 5 ft |
 
-<span id="senses_53"></span>**Senses:** Scent.
+<span id="senses_20"></span>**Senses:** Scent.
 
-<span id="passive_8"></span>**Passive:**
+<span id="passive_2"></span>**Passive:**
 
-<span id="ambusher_4"></span>***Ambusher*** *(Passive, no slot).* When submerged or partially submerged, the crocodile is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [5]. A creature with Alertness (Danger Sense) first rolls a PER trial [5] as the ambush is sprung; on a success, it makes no Startle trial.
+<span id="ambusher_2"></span>***Ambusher*** *(Passive, no slot).* When submerged or partially submerged, the crocodile is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [5]. A creature with Alertness (Danger Sense) first rolls a PER trial [5] as the ambush is sprung; on a success, it makes no Startle trial.
 
-<span id="abilities_52"></span>**Abilities:**
+<span id="abilities_21"></span>**Abilities:**
 
 <span id="grab_8"></span>***Grab*** *(1 AP, Action. Ability slot 1).* The crocodile makes a bite attack. In lieu of an attack roll, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [5] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
-<span id="death-roll"></span>***Death Roll*** *(1 AP, Attack. Ability slot 2).* The crocodile makes a bite attack with Superiority against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target. d6 (DTD) + d8 (STR) + 2 (2sq) Crushing. On a hit that deals health damage, the target must succeed on an END trial [5] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
+<span id="death-roll"></span>***Death Roll*** *(1 AP, Attack. Ability slot 2).* The crocodile makes a bite attack with Superiority against a [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") target. d6 (DTD) + d8 (STR) + 2 (2sq) Crushing. On a hit that deals health damage, the target must succeed on an END trial [5] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 4 (END Tier).
 
 ---
 
-## Cattle (Tier 2-3)
+## Deer
 
-### Ox (Tier 2 Adept)
+Deer are prey. They notice a party long before it notices them, and they answer a threat with distance: a struck deer bolts. They fight only when cornered, or when a bull defends his herd during the rut. An elk in the rut stands his ground and charges whoever comes too close. A party meets deer as quarry, as a herd that scatters and gives the party's position away, or as a bull who will not leave the path.
+
+### Deer (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+*Common deer — white-tailed, roe, fallow. Prey animals built for flight rather than fight. Fast, alert, and nervous, a deer's best defense is not being caught.*
+
+<span id="attributes_22"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 13 (T3, d4) | 4 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d3 (DTD) + d2 (STR) Crushing. Exploding. (Attribute: STR) |
+| Health | 6 + 2d3 + d3 (DTD) = 6 + 3d3 (~12) |
+| Resistance | Budget 10: Cut 2, Cleave 2, Crush 2, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_21"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_22"></span>**Abilities:**
+
+<span id="flight-response"></span>***Flight Response*** *(1 AP, Reaction. Ability slot 1).* When the deer takes health damage, it can immediately move up to its speed. This movement does not provoke Reprisal Attacks.
+
+---
+
+### Elk (Tier 2 Adept)
 
 *Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
 
-*Domesticated cattle. Slow, powerful, and usually docile — but dangerous when provoked. An angry bull or a frightened ox can trample the unwary.*
+*Large cervid of northern forests and highlands. Bull elk grow enormous antlers and actively defend their herds. During the rut, a bull elk is genuinely dangerous — territorial, aggressive, and armed.*
+
+<span id="attributes_23"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 13 (T3, d4) | 8 (T2, d3) | 12 (T3, d4) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 9 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Antler, Moderate) | d4 (DTD) + d4 (PHY) + 2 (2sq) Piercing. Exploding. (Attribute: PHY) |
+| Attack (Kick, Moderate) | d4 (DTD) + d4 (STR) + 2 (2sq) Crushing. Exploding. (Attribute: STR) |
+| Health | 12 + 3d4 + d4 (DTD) + 2d4 (2sq) = 12 + 6d4 (~27) |
+| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Primal 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_22"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_23"></span>**Abilities:**
+
+<span id="charge_13"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The elk moves at least 15 feet in a straight line and makes an antler attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="gore_4"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* The elk makes an antler attack with Impotence. If damage is dealt, the target must succeed on an END trial [4] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 3 (END Tier).
+
+---
+
+## Dogs
+
+Dogs live with people and take their cue from them. A farm dog barks, holds the gate, and backs off when it's shouted at; it fights hardest beside its own people. Wild dogs hunt in packs and test a party the way wolves do, circling for the straggler and breaking off from anything that fights back hard. A party meets dogs at every farm and village, running loose in the streets, or as a feral pack in the hills.
+
+### Medium Dog (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+*Shepherds, sheepdogs, alaunts, spaniels. Fast, coordinated, and precise.*
+
+<span id="attributes_24"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 12 (T3, d4) | 11 (T3, d4) | 4 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 4 + 2d2 + d3 (DTD) (~9) |
+| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_23"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_24"></span>**Abilities:**
+
+<span id="nimble"></span>***Nimble*** *(Passive. Ability slot 1).* The dog can move through spaces occupied by allied creatures.
+
+<span id="pack"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+---
+
+### Wild Dog (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_25"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 8 + 2d3 + d3 (DTD) = 8 + 3d3 (~14) |
+| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_24"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_25"></span>**Abilities:**
+
+<span id="pack_1"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+---
+
+### Large Dog (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+*Rottweilers, bulldogs, retrievers, hounds. Balanced and versatile.*
+
+<span id="attributes_26"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 8 + 2d3 + d3 (DTD) = 8 + 3d3 (~14) |
+| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 9 (45 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_25"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_26"></span>**Abilities:**
+
+<span id="pack_2"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+<span id="steadfast"></span>***Steadfast*** *(Passive. Ability slot 2).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
+
+---
+
+### Giant Dog (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+*Mastiffs, Great Danes, wolfhounds. Powerful and durable, but slow and clumsy.*
+
+<span id="attributes_27"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 11 (T3, d4) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d4 (STR) Piercing. Exploding. (Attribute: STR) |
+| Health | 11 + 2d4 + d3 (DTD) (~18) |
+| Resistance | Budget 10: Cut 1, Crush 2, Cleave 1, Pierce 1, Puncture 1, Primal 2, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 8 (40 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_26"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_27"></span>**Abilities:**
+
+<span id="knockdown"></span>***Knockdown*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [3] or be knocked prone.
+
+---
+
+## Dogs, Guard
+
+Guard dogs hold ground. They bark first, stand across a door or gate, and turn back anyone who comes close; whoever keeps coming gets bitten. They answer to their handler, and without one they hold the place they were set to guard. A party meets guard dogs at a manor gate, a warehouse, or the edge of a camp at night, where the barking is as much the danger as the bite.
+
+### Medium Guard Dog (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
+
+*Medium breed (shepherds, alaunts). Guard-trained for sentry duty.*
+
+<span id="attributes_28"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 12 (T3, d4) | 11 (T3, d4) | 8 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
+
+<span id="armor"></span>**Armor:** Gambeson Barding (no crupper)
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 4d3 + 1 (~9) |
+| Durability | 21 |
+| Resistance | Budget 20: Cut 2, Crush 6, Cleave 2, Pierce 5, Puncture 1, Primal 2, Sea 2 (gambeson barding without crupper + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_27"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_28"></span>**Abilities:**
+
+<span id="nimble_1"></span>***Nimble*** *(Passive. Ability slot 1).* The dog can move through spaces occupied by allied creatures.
+
+<span id="pack_3"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+<span id="deter"></span>***Deter*** *(1 AP, Reaction. Ability slot 3).* When a hostile creature moves within 5 feet of the dog, the creature must succeed on a WIS trial [5] or end its movement.
+
+---
+
+### Giant Guard Dog (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
+
+*Giant breed (mastiffs, wolfhounds). Guard-trained for territorial defense.*
+
+<span id="attributes_29"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16 (T4, d6) | 4 (T1, d2) | 4 (T1, d2) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
+
+<span id="armor_1"></span>**Armor:** Gambeson Barding (no crupper)
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d6 (STR) Piercing. Exploding. (Attribute: STR) |
+| Health | 4d4 + 1 (~11) |
+| Durability | 29 |
+| Resistance | Budget 20: Cut 2, Crush 6, Cleave 2, Pierce 5, Puncture 1, Primal 2, Sea 2 (gambeson barding without crupper + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 8 (40 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_28"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_29"></span>**Abilities:**
+
+<span id="knockdown_1"></span>***Knockdown*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or be knocked prone.
+
+<span id="deter_1"></span>***Deter*** *(1 AP, Reaction. Ability slot 2).* When a hostile creature moves within 5 feet of the dog, the creature must succeed on a WIS trial [5] or end its movement.
+
+<span id="steadfast_1"></span>***Steadfast*** *(Passive. Ability slot 3).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
+
+---
+
+## Dogs, Hunting
+
+Hunting dogs run quarry down. They track by scent, work as a pack, and when they catch up they seize and hold until the hunters arrive. Their handler calls them on and calls them off; without one, they keep after whatever they were set on. A party meets hunting dogs ahead of hunters, or worse, ahead of someone hunting the party.
+
+### Medium Hunting Dog (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
+
+*Medium breed (spaniels, alaunts). Hunting-trained for pursuit and catch.*
+
+<span id="attributes_30"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 16 (T4, d6) | 11 (T3, d4) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 11 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 8 + 4d3 + d6 (DTD) (~20) |
+| Resistance | Budget 20: Cut 2, Crush 4, Cleave 2, Pierce 2, Puncture 2, Primal 4, Sea 4 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 11 (55 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_29"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_30"></span>**Abilities:**
+
+<span id="nimble_2"></span>***Nimble*** *(Passive. Ability slot 1).* The dog can move through spaces occupied by allied creatures.
+
+<span id="pack_4"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+<span id="clamp"></span>***Clamp*** *(1 AP, Attack. Ability slot 3).* On a hit with a bite attack, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+---
+
+### Large Hunting Dog (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
+
+*Large breed (retrievers, hounds). Hunting-trained for tracking and takedown.*
+
+<span id="attributes_31"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8 (T2, d3) | 12 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 8 + 4d3 + d6 (DTD) (~20) |
+| Resistance | Budget 20: Cut 2, Crush 4, Cleave 2, Pierce 2, Puncture 2, Primal 4, Sea 4 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_30"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_31"></span>**Abilities:**
+
+<span id="pack_5"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+<span id="steadfast_2"></span>***Steadfast*** *(Passive. Ability slot 2).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
+
+<span id="clamp_1"></span>***Clamp*** *(1 AP, Attack. Ability slot 3).* On a hit with a bite attack, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+---
+
+## Dogs, War
+
+War dogs are trained to go in first: to break a line, drag a rider down, and hold whatever they bite. Their handler holds the leash in every sense. With the handler present they go where they are sent and break off when called; without one, they take the nearest enemy and do not let go. A party meets war dogs ahead of the soldiers who loosed them, or as a pack run wild after its handlers fell.
+
+### Heavy War Dog (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
+
+*Large breed (rottweilers, bulldogs). War-trained for frontline combat.*
+
+<span id="attributes_32"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 8 (T2, d3) |
+
+<span id="armor_2"></span>**Armor:** Boiled Leather Barding (no crupper)
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d4 (STR) Piercing. Exploding. (Attribute: STR) |
+| Health | 4d4 + 1 (~11) |
+| Durability | 29 |
+| Resistance | Budget 20: Cut 5, Crush 4, Cleave 2, Pierce 4, Puncture 1, Primal 2, Sea 2 (boiled leather barding without crupper + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 9 (45 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_31"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_32"></span>**Abilities:**
+
+<span id="pack_6"></span>***Pack*** *(1 AP, Reaction. Ability slot 1).* When an allied dog hits a creature within 5 feet, this dog can make a bite attack against the same target.
+
+<span id="steadfast_3"></span>***Steadfast*** *(Passive. Ability slot 2).* While adjacent to an allied creature, Dominance on trials to resist forced movement.
+
+<span id="charge_14"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 3).* The dog moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
+
+---
+
+### Giant War Dog (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 1×1 Mortal Beast (Primal).*
+
+*Giant breed (mastiffs, wolfhounds). War-trained for shock assault.*
+
+<span id="attributes_33"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 16 (T4, d6) | 4 (T1, d2) | 4 (T1, d2) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 7 (T2, d3) |
+
+<span id="armor_3"></span>**Armor:** Boiled Leather Barding (no crupper)
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d6 (STR) Piercing. Exploding. (Attribute: STR) |
+| Health | 4d6 + 1 (~15) |
+| Durability | 37 |
+| Resistance | Budget 20: Cut 5, Crush 4, Cleave 2, Pierce 4, Puncture 1, Primal 2, Sea 2 (boiled leather barding without crupper + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 8 (40 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_32"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_33"></span>**Abilities:**
+
+<span id="knockdown_2"></span>***Knockdown*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or be knocked prone.
+
+<span id="charge_15"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 2).* The dog moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="rend"></span>***Rend*** *(1 AP, Attack. Ability slot 3).* The dog makes a bite attack with Impotence. If damage is dealt, the target must succeed on an END trial [5] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 4 (END Tier).
+
+---
+
+## Horses
+
+Horses are prey animals, and most are afraid in a fight: an untrained horse panics unless its rider keeps it steady, and a loose horse bolts. War horses are trained out of that fear. They fight under the rider, rearing and kicking at whoever comes close, and without a rider they still fight whatever threatens them. A party meets horses mostly as mounts, its own and its enemies', where a panicking horse can matter as much as the rider on it.
+
+> **Skittish.** At the start of each round in combat, the creature's rider must succeed on a Wilderness mastery trial (DC 2) or the creature advances [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. If the creature has no mounted rider, the advancement is automatic. All horses have this trait unless they have Battle Trained.
+
+### Pony / Donkey (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+*Small, hardy animals used as pack mounts and trail companions. Sure-footed on terrain that would lame a horse and famously resistant to persuasion.*
+
+<span id="attributes_34"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8 (T2, d3) | 4 (T1, d2) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 7 (T2, d3) | 2 (T1, d2) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d3 (DTD) + d3 (PHY) + 0 (1 sq) Crushing. Exploding. (Attribute: PHY) |
+| Health | 8 + 2d3 + d3 (DTD) = 8 + 3d3 (~14) |
+| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 8 (40 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_33"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_34"></span>**Abilities:**
+
+<span id="sure-footed"></span>***Sure-Footed*** *(Passive. Ability slot 1).* The creature treats Rugged terrain as normal terrain.
+
+<span id="stubborn"></span>***Stubborn*** *(Passive. Ability slot 2).* The creature has Dominance on trials to resist the [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") condition.
+
+---
+
+### Courser (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
+
+*Light, swift horses bred for speed and agility. Prized by scouts, messengers, and hunters. Fast but fragile.*
+
+<span id="attributes_35"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 11 (T3, d4) | 11 (T3, d4) | 4 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d3 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
+| Health | 4 + 2d2 + 2d2 (2 sq) + d3 (DTD) = 4 + 4d2 + d3 (~12) |
+| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 12 (60 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_34"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_35"></span>**Abilities:**
+
+<span id="leap"></span>***Leap*** *(2 AP, Movement + Attack. Ability slot 1).* The horse moves up to its speed and leaps over one creature of equal or smaller size in its path, making a kick attack against that creature. The horse lands in an unoccupied space on the opposite side. This movement does not provoke a Reprisal Attack from the target.
+
+---
+
+### Destrier (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
+
+*Heavy, powerful horses bred for strength and durability. The raw stock for war horse training. Slow but formidable.*
+
+<span id="attributes_36"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 11 (T3, d4) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d3 (DTD) + d4 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
+| Health | 11 + 2d4 + 2d4 (2 sq) + d3 (DTD) = 11 + 4d4 + d3 (~23) |
+| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d2 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_35"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_36"></span>**Abilities:**
+
+<span id="stagger"></span>***Stagger*** *(1 AP, Attack. Ability slot 1).* The horse makes a kick attack with Impotence. On a hit, the target must succeed on a PER trial [3] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
+
+---
+
+### Palfrey (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
+
+*Smooth-gaited horses bred for comfort and endurance. Favored by nobility and long-distance travelers. Exceptional coordination and stamina.*
+
+<span id="attributes_37"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 8 (T2, d3) | 11 (T3, d4) | 11 (T3, d4) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d3 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
+| Health | 11 + 2d4 + 2d4 (2 sq) + d3 (DTD) = 11 + 4d4 + d3 (~23) |
+| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_36"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_37"></span>**Abilities:** None.
+
+---
+
+### Rouncey (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 2×1 Mortal Beast (Primal).*
+
+*Versatile general-purpose horses. Common mounts for soldiers, merchants, and travelers. Balanced build suited to many tasks.*
+
+<span id="attributes_38"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 8 (T2, d3) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d3 (DTD) + d3 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
+| Health | 8 + 2d3 + 2d3 (2 sq) + d3 (DTD) = 8 + 5d3 (~18) |
+| Resistance | Budget 10: Cut 1, Crush 3, Cleave 2, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_37"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_38"></span>**Abilities:**
+
+<span id="hardy"></span>***Hardy*** *(Passive. Ability slot 1).* The horse has Dominance on trials to resist [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") and [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
+
+---
+
+### Draft Horse (Tier 2 Adept)
+
+*Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
+
+*Massive, broad-backed horses bred for hauling and heavy labor. Common on farms, in mines, and pulling wagons along trade roads. Slow but immensely powerful.*
+
+<span id="attributes_39"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 24 (T5, d8) | 4 (T1, d2) | 8 (T2, d3) | 24 (T5, d8) | 3 (T1, d2) | 3 (T1, d2) | 2 (T1, d2) | 7 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d4 (DTD) + d8 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
+| Health | 24 + 3d8 + 2d8 (2 sq) + d4 (DTD) = 24 + 5d8 + d4 (~49) |
+| Resistance | Budget 20: Cut 2, Crush 6, Cleave 4, Pierce 4, Puncture 4 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d4 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_38"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_39"></span>**Abilities:**
+
+<span id="heavy-pull"></span>***Heavy Pull*** *(1 AP, Movement. Ability slot 1). Once per encounter.* The horse pulls up to double its normal pulling capacity for a distance up to its speed.
+
+<span id="implacable"></span>***Implacable*** *(Passive. Ability slot 2).* The horse may use STR in place of AGI for trials to traverse Unstable terrain and to resist [Prone](../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.").
+
+---
+
+### Palfrey, Riding Horse (Tier 2 Adept)
+
+*Division 3, Tier 2, Adept. 2×1 Mortal Beast (Primal).*
+
+*A trained palfrey, the finest riding horse available. Bred and conditioned for long-distance travel at sustained pace.*
+
+<span id="attributes_40"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8 (T2, d3) | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d4 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
+| Health | 16 + 3d6 + 2d6 (2 sq) + d4 (DTD) = 16 + 5d6 + d4 (~36) |
+| Resistance | Budget 20: Cut 2, Crush 6, Cleave 4, Pierce 4, Puncture 4 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d4 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 13 (65 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_39"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_40"></span>**Abilities:**
+
+<span id="enduring-pace"></span>***Enduring Pace*** *(Passive. Ability slot 1).* The horse can travel at Fast pace (×1.5) without advancing [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.").
+
+---
+
+### Rouncey, Light War Horse (Tier 1 Champion)
+
+*Division 4, Tier 1, Champion. 2×1 Mortal Beast (Primal).*
+
+*A trained rouncey, the workhorse of mounted soldiers. Hardy and dependable in battle, though lacking the speed or power of more expensive war mounts.*
+
+<span id="attributes_41"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (T3, d4) | 8 (T2, d3) | 8 (T2, d3) | 11 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 7 (T2, d3) |
+
+<span id="armor_4"></span>**Armor:** Boiled Leather Barding (no crupper)
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d6 (DTD) + d4 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
+| Attack (Bite, Fast) | d6 (DTD) + d4 (STR) + 2 (2 sq) Piercing. Exploding. (Attribute: STR) |
+| Health | 6d4 + 1 (~16) |
+| Durability | 27 |
+| Resistance | Budget 20: Cut 5, Crush 5, Cleave 3, Pierce 5, Puncture 2 (boiled leather barding without crupper + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d6 (DTD) + d3 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 11 (55 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_40"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_41"></span>**Abilities:**
+
+<span id="hardy_1"></span>***Hardy*** *(Passive. Ability slot 1).* The horse has Dominance on trials to resist [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.") and [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") conditions.
+
+<span id="battle-trained"></span>***Battle Trained*** *(Passive. Ability slot 2).* The horse is trained for combat and is not affected by the Skittish trait.
+
+<span id="levade"></span>***Levade*** *(1 AP, Attack. Ability slot 3).* The horse rears and strikes with both front hooves, making two kick attacks with Inferiority. Each attack may target the same or different creatures within reach.
+
+---
+
+### Courser, Medium War Horse (Tier 2 Champion)
+
+*Division 5, Tier 2, Champion. 2×1 Mortal Beast (Primal).*
+
+*A trained courser, the preferred mount of knights who favor speed and maneuverability. Fast and agile in combat, capable of outflanking heavier opponents.*
+
+<span id="attributes_42"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (T3, d4) | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 11 (T3, d4) |
+
+<span id="armor_5"></span>**Armor:** Chain Barding
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d8 (DTD) + d4 (PHY) + 2 (2 sq) Crushing. Exploding. (Attribute: PHY) |
+| Attack (Bite, Fast) | d8 (DTD) + d4 (PHY) + 2 (2 sq) Piercing. Exploding. (Attribute: PHY) |
+| Health | 7d6 + 2 (~27) |
+| Durability | 37 |
+| Resistance | Budget 40: Cut 13, Crush 6, Cleave 6, Pierce 6, Puncture 9 (chain barding + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d8 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 13 (65 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_41"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_42"></span>**Abilities:**
+
+<span id="leap_1"></span>***Leap*** *(2 AP, Movement + Attack. Ability slot 1).* The horse moves up to its speed and leaps over one creature of equal or smaller size in its path, making a kick attack against that creature. The horse lands in an unoccupied space on the opposite side. This movement does not provoke a Reprisal Attack from the target.
+
+<span id="battle-trained_1"></span>***Battle Trained*** *(Passive. Ability slot 2).* The horse is trained for combat and is not affected by the Skittish trait.
+
+<span id="capriole"></span>***Capriole*** *(1 AP, Attack. Ability slot 3).* The horse leaps and kicks backward with both hind hooves, making one kick attack with Inferiority against each creature directly behind the horse within reach.
+
+---
+
+### Destrier, Heavy War Horse (Tier 3 Champion)
+
+*Division 6, Tier 3, Champion. 2×1 Mortal Beast (Primal).*
+
+*A trained destrier, the pinnacle of mounted warfare. Massive, fearless, and devastating in combat. The ultimate status symbol among warriors and nobility.*
+
+<span id="attributes_43"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 22 (T5, d8) | 11 (T3, d4) | 21 (T5, d8) | 26 (T6, d10) | 3 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 11 (T3, d4) |
+
+<span id="armor_6"></span>**Armor:** Plate and Mail Barding
+
+| Stat | Value |
+|:---|:---|
+| Attack (Kick, Moderate) | d10 (DTD) + d8 (STR) + 2 (2 sq) Crushing. Exploding. (Attribute: STR) |
+| Attack (Bite, Fast) | d10 (DTD) + d8 (STR) + 2 (2 sq) Piercing. Exploding. (Attribute: STR) |
+| Health | 8d10 + 3 (~47) |
+| Durability | 57 |
+| Resistance | Budget 60: Cut 13, Crush 12, Cleave 11, Pierce 12, Puncture 12 (plate and mail barding + natural hide) |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Skilled (4) |
+| Defense | d10 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 3 (max 2 attacks) |
+| Speed | 12 (60 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="senses_42"></span>**Senses:** Crepuscular sight.
+
+<span id="abilities_43"></span>**Abilities:**
+
+<span id="stagger_1"></span>***Stagger*** *(1 AP, Attack. Ability slot 1).* The horse makes a kick attack with Impotence. On a hit, the target must succeed on a PER trial [7] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
+
+<span id="battle-trained_2"></span>***Battle Trained*** *(Passive. Ability slot 2).* The horse is trained for combat and is not affected by the Skittish trait.
+
+<span id="levade_1"></span>***Levade*** *(1 AP, Attack. Ability slot 3).* The horse rears and strikes with both front hooves, making two kick attacks with Inferiority. Each attack may target the same or different creatures within reach.
+
+<span id="capriole_1"></span>***Capriole*** *(1 AP, Attack. Ability slot 4).* The horse leaps and kicks backward with both hind hooves, making one kick attack with Inferiority against each creature directly behind the horse within reach.
+
+---
+
+## Rats
+
+Rats live wherever people store food and leave waste: cellars, granaries, sewers, the holds of ships. One rat flees. A swarm, driven by hunger or cornered in the dark, pours over whatever is in its way and leaves bites that bleed, and a giant rat's bite carries sickness. A party meets rats underground and in neglected places, usually in the dark, and usually more of them than expected.
+
+### Rat Swarm (Tier 1 Minion)
+
+*Division 1, Tier 1, Minion. ½ Mortal Beast (Primal).*
+
+| Stat | Value |
+|:---|:---|
+| Attack | 1d2 (Bite, Fast) |
+| Health | 1 |
+| Resistance | 1 (all mundane) |
+| Physical / Mental | d2 / d2 |
+| Trials | 1d2 + 1d2 |
+| Mastery | Unskilled (1) |
+| Defense | 1d2 + 1 + 1 (½sq) |
+| AP | 2 |
+| Speed | 7 (35 ft) |
+| Footprint | ½ sq |
+| Reach | 5 ft |
+
+| Group | Heads | Health | Attack | Defense | Mob DC |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | None |
+| Brood | 12 | 12 | 12d2 | 12d2 + 2 | None |
+| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | None |
+
+<span id="mob_2"></span>**Mob:**
+
+<span id="gnawing"></span>***Gnawing*** *(Mob, no slot).* When the swarm deals damage, the target suffers [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 1.
+
+<span id="senses_43"></span>**Senses:** Scent, crepuscular sight.
+
+---
+
+### Giant Rat (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_44"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 (T1, d2) | 8 (T2, d3) | 6 (T2, d3) | 6 (T2, d3) | 2 (T1, d2) | 3 (T1, d2) | 1 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d3 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 6 + 2d3 + d3 (DTD) = 6 + 3d3 (~12) |
+| Resistance | Budget 10: Cut 2, Cleave 1, Crush 3, Pierce 2, Puncture 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 9 (45 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_44"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_44"></span>**Abilities:**
+
+<span id="diseased-bite"></span>***Diseased Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if health damage is dealt, the target must succeed on an END trial [3] or advance [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") by 1 tier.
+
+---
+
+## Snakes
+
+A snake wants to be left alone. Most bite only when stepped on, cornered or grabbed, and the danger is in what the bite carries: a viper's venom poisons. A constrictor hunts. It waits in branches or water for something its size, then seizes it, wraps it and squeezes. A party meets vipers underfoot in rocks and long grass, and constrictors in warm, wet country, where the first sign is the coil closing.
+
+### Viper (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. ½ Mortal Beast (Primal).*
+
+<span id="attributes_45"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2 (T1, d2) | 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 1 (T1, d2) | 3 (T1, d2) | 1 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d2 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 4 + 2d2 + d3 (DTD) = 4 + 2d2 + d3 (~8) |
+| Resistance | Budget 10: Cut 1, Cleave 1, Crush 1, Pierce 3, Puncture 1, Primal 3 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 5 (25 ft) |
+| Footprint | ½ sq |
+| Reach | 5 ft |
+
+<span id="senses_45"></span>**Senses:** Seismic sense 15 ft.
+
+<span id="abilities_45"></span>**Abilities:**
+
+<span id="venomous-bite"></span>***Venomous Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts 1 Primal damage (END Tier). The target must succeed on an END trial [3] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier.
+
+---
+
+### Constrictor (Tier 2 Champion)
+
+*Division 5, Tier 2, Champion. 2×1 Mortal Beast (Primal).*
+
+<span id="attributes_46"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 26 (T6, d10) | 8 (T2, d3) | 16 (T4, d6) | 13 (T3, d4) | 1 (T1, d2) | 3 (T1, d2) | 3 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d8 (DTD) + d6 (PHY) + 2 (2sq) Piercing. Exploding. (Attribute: PHY) |
+| Health | 13 + 5d4 + 2d4 (2sq) + d8 = 13 + 7d4 + d8 (~35) |
+| Resistance | Budget 40: Cut 4, Cleave 4, Crush 8, Pierce 6, Puncture 6, Primal 6, Void 6 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 3 (max 2 attacks) |
+| Speed | 7 (35 ft) |
+| Footprint | 2×1 (2 sq) |
+| Reach | 5 ft |
+
+<span id="abilities_46"></span>**Abilities:**
+
+<span id="constrict"></span>***Constrict*** *(Ability slot 1).* The constrictor has three options, each costing 1 AP:
+
+- <span id="constrict_1"></span>**Constrict** *(1 AP, Action).* The constrictor attempts to wrap around a target within reach. The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+- <span id="squeeze"></span>**Squeeze** *(1 AP, Attack).* Only usable on a target the constrictor has [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."). d8 (DTD) + d10 (STR) + 2 (2sq) Crushing. (Attribute: STR)
+- <span id="bite"></span>**Bite** *(1 AP, Attack).* Standard bite attack. d8 (DTD) + d6 (PHY) + 2 (2sq) Piercing. (Attribute: PHY)
+
+---
+
+## Spiders
+
+Spiders wait. A wolf spider lies hidden and pounces on whatever passes. A monstrous widow builds its web where quarry will blunder in, binds what it catches, and feeds once its prey can no longer fight. A swarm of small spiders pours out of a disturbed nest and bites with venom. A party meets spiders in dark, undisturbed places: caves, cellars, old ruins, and thick forest where webs hang between the trees.
+
+### Spider Swarm (Tier 1 Minion)
+
+*Division 1, Tier 1, Minion. ½ Mortal Beast (Primal).*
+
+| Stat | Value |
+|:---|:---|
+| Attack | 1d2 (Bite, Fast) |
+| Health | 1 |
+| Resistance | 1 (all mundane) |
+| Physical / Mental | d2 / d2 |
+| Trials | 1d2 + 1d2 |
+| Mastery | Unskilled (1) |
+| Defense | 1d2 + 1 + 1 (½sq) |
+| AP | 2 |
+| Speed | 7 (35 ft) land, Climb |
+| Footprint | ½ sq |
+| Reach | 5 ft |
+
+| Group | Heads | Health | Attack | Defense | Mob DC |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | 3 |
+| Brood | 12 | 12 | 12d2 | 12d2 + 2 | 5 |
+| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | 7 |
+
+<span id="mob_3"></span>**Mob:**
+
+<span id="venomous-swarm"></span>***Venomous Swarm*** *(Mob, no slot).* When the swarm deals damage, the target must succeed on an END trial [Cluster 3 / Brood 5 / Swarm 7] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier (max Tier 1).
+
+<span id="senses_46"></span>**Senses:** Seismic sense 30 ft.
+
+---
+
+### Wolf Spider (Tier 1 Adept)
+
+*Division 2, Tier 1, Adept. ½ Mortal Beast (Primal).*
+
+<span id="attributes_47"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 3 (T1, d2) | 11 (T3, d4) | 4 (T1, d2) | 4 (T1, d2) | 1 (T1, d2) | 1 (T1, d2) | 1 (T1, d2) | 8 (T2, d3) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d3 (DTD) + d2 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 4 + 2d2 + d3 (DTD) = 4 + 2d2 + d3 (~8) |
+| Resistance | Budget 10: Cut 1, Cleave 1, Crush 1, Pierce 3, Puncture 1, Primal 3 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Untrained (2) |
+| Defense | d3 (DTD) + d4 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
+| AP | 2 |
+| Speed | 9 (45 ft) land, Climb |
+| Footprint | ½ sq |
+| Reach | 5 ft |
+
+<span id="senses_47"></span>**Senses:** Seismic sense 15 ft.
+
+<span id="passive_3"></span>**Passive:**
+
+<span id="ambusher_3"></span>***Ambusher*** *(Passive, no slot).* In its element, the spider is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [3]. A creature with Alertness (Danger Sense) first rolls a PER trial [3] as the ambush is sprung; on a success, it makes no Startle trial.
+
+<span id="abilities_47"></span>**Abilities:**
+
+<span id="venomous-bite_1"></span>***Venomous Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts 1 Primal damage (END Tier). The target must succeed on a PER trial [3] or advance [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond.") by 1 tier.
+
+---
+
+### Monstrous Widow (Tier 2 Champion)
+
+*Division 5, Tier 2, Champion. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_48"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (T3, d4) | 16 (T4, d6) | 12 (T3, d4) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 2 (T1, d2) | 16 (T4, d6) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d8 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 16 + 5d6 + d8 (DTD) = 16 + 5d6 + d8 (~37) |
+| Resistance | Budget 40: Cut 3, Cleave 5, Crush 4, Pierce 8, Puncture 3, Primal 10, Sea 4, Fire 3 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d8 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
+| AP | 3 (max 2 attacks) |
+| Speed | 11 (55 ft) land, Climb |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_48"></span>**Senses:** Seismic sense 60 ft.
+
+<span id="passive_4"></span>**Passive:**
+
+<span id="ambusher_4"></span>***Ambusher*** *(Passive, no slot).* In its element, the spider is always ready to ambush prior to the beginning of a combat encounter unless otherwise determined by the GM. When it attacks a creature that has not noticed it, that creature makes a Startle trial [6]. A creature with Alertness (Danger Sense) first rolls a PER trial [6] as the ambush is sprung; on a success, it makes no Startle trial.
+
+<span id="web-walker"></span>***Web Walker*** *(Passive. Ability slot 4).* The widow ignores movement restrictions caused by webs.
+
+<span id="abilities_48"></span>**Abilities:**
+
+<span id="venomous-bite_2"></span>***Venomous Bite*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack, with Impotence, if damage is dealt, the venom inflicts 4 Primal damage (END Tier). The target must succeed on an END trial [6] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier.
+
+<span id="web"></span>***Web*** *(1 AP, Action. Ability slot 2).* The spider shoots a web at a target within 30 feet. The target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [6] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
+
+<span id="feed"></span>***Feed*** *(1 AP, Action. Ability slot 3).* Only usable on a [Helpless](../core/conditions.md#helpless "Cannot make defense rolls. Lose Agility contribution to armor resistance. Ranged attacks auto-hit. Auto-fail Agility and Physique trials. A creature that is also Catatonic auto-fails Strength trials.") target. d8 (DTD) + d6 (END) Primal damage. The target must succeed on an END trial [6] or advance [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") by 1 tier.
+
+---
+
+## Wolves
+
+A wolf pack is a family. The she-wolf holds the den and the pack around it; her mate, the dog-wolf, leads the hunt. Their firstborn keep the younger wolves in line, and the yearlings learn by running with them. A party may meet the hunting party (the dog-wolf, firstborn and wolves), the den (the she-wolf with firstborn and wolves), the whole pack, or a firstborn caught away from the den with yearlings and wolves. Kill the dog-wolf and the she-wolf comes looking; threaten the den and the dog-wolf comes home.
+
+### Yearling (Tier 2 Minion)
+
+*Division 2, Tier 2, Minion. 1×1 Mortal Beast (Primal).*
+
+| Stat | Value |
+|:---|:---|
+| Attack | 1d2 (Bite, Fast) |
+| Health | 1 |
+| Resistance | 2 (all mundane) |
+| Physical / Mental | d2 / d2 |
+| Trials | 1d2 + 1d3 |
+| Mastery | Untrained (2) |
+| Defense | 1d2 + 2 |
+| AP | 2 |
+| Speed | 9 (45 ft), four-legged |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_49"></span>**Senses:** Scent, crepuscular sight.
+
+| Group | Heads | Health | Attack | Defense | Mob DC |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | None |
+| Brood | 12 | 12 | 12d2 | 12d2 + 2 | None |
+| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | None |
+
+<span id="mob_4"></span>**Mob:**
+
+<span id="harry"></span>***Harry*** *(Mob, no slot).* When the pack deals damage, the target suffers [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 2.
+
+---
+
+### Wolf (Tier 2 Adept)
+
+*Division 3, Tier 2, Adept. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_49"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 8 (T2, d3) | 13 (T3, d4) | 12 (T3, d4) | 13 (T3, d4) | 3 (T1, d2) | 4 (T1, d2) | 3 (T1, d2) | 12 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d4 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 13 + 3d4 + d4 (DTD) = 13 + 4d4 (~23) |
+| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Sea 2 |
+| Trials | 1d3 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d4 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_50"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_49"></span>**Abilities:**
+
+<span id="hamstring"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [4] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+<span id="pack_7"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
+
+---
+
+### Firstborn (Tier 2 Leader)
+
+*Division 4, Tier 2, Leader. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_50"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 9 (T2, d3) | 13 (T3, d4) | 13 (T3, d4) | 13 (T3, d4) | 4 (T1, d2) | 9 (T2, d3) | 6 (T2, d3) | 14 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d6 (DTD) + d4 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 13 + 4d4 + d6 (DTD) (~26) |
+| Resistance | Budget 30: Cut 4, Cleave 5, Crush 7, Pierce 6, Puncture 4, Sea 4 |
+| Trials | 1d4 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d6 (DTD) + d4 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2 |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_51"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_50"></span>**Abilities:**
+
+<span id="hamstring_1"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+<span id="pack_8"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
+
+<span id="gathering-howl"></span>***Gathering Howl*** *(2 AP, Action. Ability slot 3).* The wolf howls. All allied wolves within 30 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier. Can be reapplied to stack tiers.
+
+---
+
+### Dog-Wolf (Tier 2 Champion)
+
+*Division 5, Tier 2, Champion. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_51"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 11 (T3, d4) | 13 (T3, d4) | 16 (T4, d6) | 14 (T3, d4) | 4 (T1, d2) | 8 (T2, d3) | 4 (T1, d2) | 14 (T3, d4) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d8 (DTD) + d6 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 14 + 5d4 + d8 (DTD) (~31) |
+| Resistance | Budget 40: Cut 5, Cleave 7, Crush 9, Pierce 8, Puncture 5, Sea 6 |
+| Trials | 1d6 + Attribute TD |
+| Mastery | Basic (3) |
+| Defense | d8 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 3 (max 2 attacks) |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_52"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_51"></span>**Abilities:**
+
+<span id="hamstring_2"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [6] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+<span id="pack_9"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
+
+<span id="snarl"></span>***Snarl*** *(2 AP, Action. Ability slot 3).* All creatures within 20 feet must succeed on a WIS trial [6] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
+
+---
+
+### She-Wolf (Tier 2 Master)
+
+*Division 6, Tier 2, Master. 1×1 Mortal Beast (Primal).*
+
+<span id="attributes_52"></span>**Attributes:**
+
+| STR | AGI | PHY | END | INT | WIS | CHA | PER |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 12 (T3, d4) | 13 (T3, d4) | 16 (T4, d6) | 16 (T4, d6) | 4 (T1, d2) | 11 (T3, d4) | 6 (T2, d3) | 16 (T4, d6) |
+
+| Stat | Value |
+|:---|:---|
+| Attack (Bite, Fast) | d10 (DTD) + d6 (PHY) Piercing. Exploding. (Attribute: PHY) |
+| Health | 16 + 6d6 + d10 (DTD) (~43) |
+| Resistance | Budget 50: Cut 7, Cleave 8, Crush 10, Pierce 9, Puncture 6, Sea 5, Primal 5 |
+| Trials | 1d8 + Attribute TD |
+| Mastery | Skilled (4) |
+| Defense | d10 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 3 (max 2 attacks) |
+| Speed | 10 (50 ft) |
+| Footprint | 1×1 (1 sq) |
+| Reach | 5 ft |
+
+<span id="senses_53"></span>**Senses:** Scent, crepuscular sight.
+
+<span id="abilities_52"></span>**Abilities:**
+
+<span id="hamstring_3"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [7] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+<span id="pack_10"></span>***Pack*** *(1 AP, Reaction. Ability slot 2).* When an allied wolf hits a creature within 5 feet, this wolf can make a bite attack against the same target.
+
+<span id="chorus"></span>***Chorus*** *(2 AP, Action. 1/encounter. Ability slot 3).* The she-wolf howls and the pack answers. All allied wolves within 30 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 3 tiers. Degrades by 1 tier per round.
+
+<span id="snarl_1"></span>***Snarl*** *(2 AP, Action. Ability slot 4).* All creatures within 30 feet must succeed on a WIS trial [7] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
+
+---
+
+### Dire Wolf (Tier 2 Epic)
+
+*Division 7, Tier 2, Epic. 2×1 Mortal Beast (Primal).*
 
 <span id="attributes_53"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 16 (T4, d6) | 6 (T2, d3) | 9 (T2, d3) | 12 (T3, d4) | 3 (T1, d2) | 6 (T2, d3) | 3 (T1, d2) | 8 (T2, d3) |
-
-<span id="tier-budget_51"></span>**Tier Budget:** 4+2+2+3+1+2+1+2 = 17. Budget for T2 Adept = 18. (-1) ✓
+| 21 (T5, d8) | 12 (T3, d4) | 21 (T5, d8) | 21 (T5, d8) | 8 (T2, d3) | 6 (T2, d3) | 4 (T1, d2) | 21 (T5, d8) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Horns, Moderate) | d4 (DTD) + d6 (STR) + 2 (2sq) Piercing. Exploding. (Attribute: STR) |
-| Health | 12 + 3d4 + d4 (DTD) + 2d4 (2sq) = 12 + 6d4 (~27) |
-| Resistance | Budget 20: Cut 3, Cleave 3, Crush 5, Pierce 4, Puncture 3, Sea 2 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d4 (DTD) + d3 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 11 (55 ft) |
+| Attack (Bite, Fast) | d12 (DTD) + d8 (PHY) + 2 (2sq) Piercing. Exploding. (Attribute: PHY) |
+| Health | 21 + 9d8 + d12 (DTD) (~68) |
+| Resistance | Budget 60: Cut 6, Cleave 9, Crush 14, Pierce 10, Puncture 7, Sea 8, Primal 6 |
+| Trials | 1d10 + Attribute TD |
+| Mastery | Skilled (4) |
+| Defense | d12 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2/phase, active in Fast + Moderate (4 total, max 2 attacks/phase) |
+| Speed | 12 (60 ft) |
 | Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
+| Reach | 10 ft |
 
 <span id="senses_54"></span>**Senses:** Scent, crepuscular sight.
 
 <span id="abilities_53"></span>**Abilities:**
 
-<span id="charge_16"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The ox moves at least 15 feet in a straight line and makes a horn attack with Dominance. Countered by Set Spear vs Charge.
+<span id="hamstring_4"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
+
+<span id="charge_16"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 2).* The wolf moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="shed"></span>***Shed*** *(1 AP, Reaction. Ability slot 3).* When an enemy targets the wolf with a melee attack and the wolf successfully defends, it can move the attacker 5 feet to an unoccupied space within range. Cannot use against creatures larger than it.
+
+<span id="vicious-bite"></span>***Vicious Bite*** *(2 AP, Attack. Ability slot 4).* The wolf makes a bite attack: d12 + 2d8 + 2 Piercing, exploding.
+
+<span id="phase-reference_4"></span>**Phase Reference:** All abilities use Bite (Fast) and are available in all active phases.
 
 ---
 
-### Aurochs (Tier 3 Adept)
+### Amarok (Tier 2 Legendary)
 
-*Division 4, Tier 3, Adept. 2×1 Mortal Beast (Primal).*
-
-*Wild ancestor of domestic cattle. Larger, faster, and far more aggressive than any domesticated breed. Hunted to extinction in the real world, alive and thriving in fantasy.*
+*Division 8, Tier 2, Legendary. 2×2 Mortal Beast (Primal).*
 
 <span id="attributes_54"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 22 (T5, d8) | 8 (T2, d3) | 16 (T4, d6) | 16 (T4, d6) | 3 (T1, d2) | 6 (T2, d3) | 4 (T1, d2) | 12 (T3, d4) |
-
-<span id="tier-budget_52"></span>**Tier Budget:** 5+2+4+4+1+2+1+3 = 22. Budget for T3 Adept = 24. (-2) ✓
+| 22 (T5, d8) | 9 (T2, d3) | 24 (T5, d8) | 28 (T6, d10) | 12 (T3, d4) | 14 (T3, d4) | 9 (T2, d3) | 22 (T5, d8) |
 
 | Stat | Value |
 |:---|:---|
-| Attack (Horns, Moderate) | d6 (DTD) + d8 (STR) + 2 (2sq) Piercing. Exploding. (Attribute: STR) |
-| Health | 16 + 4d6 + d6 (DTD) + 2d6 (2sq) = 16 + 7d6 (~41) |
-| Resistance | Budget 30: Cut 4, Cleave 4, Crush 8, Pierce 6, Puncture 4, Sea 4 |
-| Trials | 1d3 + Attribute TD |
-| Defense | d6 (DTD) + d6 (PHY) + applicable resistance. (Attribute: PHY) |
-| AP | 2 |
-| Speed | 11 (55 ft) |
-| Footprint | 2×1 (2 sq) |
-| Reach | 5 ft |
+| Attack (Bite, Fast) | 2d6 (DTD) + d8 (PHY) + 4 (4sq) Piercing. Exploding. (Attribute: PHY) |
+| Health | 28 + 12d10 + 2d6 (DTD) (~101) |
+| Resistance | Budget 70: Cut 7, Cleave 10, Crush 16, Pierce 12, Puncture 7, Sea 10, Primal 8 |
+| Trials | 1d12 + Attribute TD |
+| Mastery | Skilled (4) |
+| Defense | 2d6 (DTD) + d8 (PHY) + applicable resistance. (Attribute: PHY) |
+| AP | 2/phase, active in all 3 phases (6 total, max 2 attacks/phase) |
+| Speed | 13 (65 ft) |
+| Footprint | 2×2 (4 sq) |
+| Reach | 10 ft |
 
 <span id="senses_55"></span>**Senses:** Scent, crepuscular sight.
 
 <span id="abilities_54"></span>**Abilities:**
 
-<span id="charge_17"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 1).* The aurochs moves at least 15 feet in a straight line and makes a horn attack with Dominance. Countered by Set Spear vs Charge.
+<span id="hamstring_5"></span>***Hamstring*** *(1 AP, Attack. Ability slot 1).* On a hit with a bite attack from behind or flanking, forfeiting the flanking bonus, the target must succeed on a STR trial [9] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier.
 
-<span id="gore_4"></span>***Gore*** *(1 AP, Attack. Ability slot 2).* On a hit with a horn attack, with Impotence, if damage is dealt the target must succeed on an END trial [5] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding).
+<span id="charge_17"></span>***Charge*** *(2 AP, Movement + Attack. Ability slot 2).* The wolf moves at least 15 feet in a straight line and makes a bite attack with Dominance. Countered by Set Spear vs Charge.
+
+<span id="disarm"></span>***Disarm*** *(1 AP, Attack. Ability slot 3).* Targets an Average or Small creature wielding a weapon. On a hit with a bite attack, instead of dealing damage, the target must succeed on a STR or PHY trial [9] (its choice). On failure, its weapon falls behind it out of reach, and it must use movement to retrieve it or switch to another weapon.
+
+<span id="shed_1"></span>***Shed*** *(1 AP, Reaction. Ability slot 4).* When an enemy targets the wolf with a melee attack and the wolf successfully defends, it can move the attacker 5 feet to an unoccupied space within range. Cannot use against creatures larger than it.
+
+<span id="rend_1"></span>***Rend*** *(1 AP, Attack. Ability slot 5).* The wolf makes a bite attack with Impotence. If damage is dealt, the target must succeed on an END trial [9] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 6 (END Tier).
+
+<span id="snarl_2"></span>***Snarl*** *(2 AP, Action. Ability slot 6).* All creatures within 50 feet must succeed on a WIS trial [9] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier. Creatures that fail by 5 or more advance Demoralized by 2 tiers instead.
+
+<span id="phase-reference_5"></span>**Phase Reference:** All abilities use Bite (Fast) and are available in all active phases. Snarl is not weapon-tied and is also available in all active phases.

@@ -64,7 +64,7 @@ ELEMENTAL = ["Fire", "Sea", "Sky", "Stone"]
 ENTROPIC = ["Primal", "Profane", "Sacred", "Void"]
 CREATURES = [("Mortal Beasts", "Mortal Beasts"), ("Mortal Folk", "Mortal Folk"),
              ("Fae", "Fae"), ("Daeva", "Daeva"), ("Asura", "Asura"),
-             ("Morphon", "Morphon (Eidos)"), ("Primordial", "Primordial")]
+             ("Morphon", "Morphon"), ("Primordial", "Primordial")]
 
 
 def slug(text):
@@ -277,10 +277,7 @@ SOURCES = [
         *[(f"## {h}", "bestiary/design") for h in [
             "Ability Design", "Creature Spellcasting", "Weapon Styles"]],
     ]},
-    *[whole(f"Creatures - {src}.md", f"creatures/{src}") for src, _ in CREATURES[:4]],
-    whole("Creatures - Asura.md", "creatures/Asura", extra=[
-        ("## Ability Pool (Unassigned — For Future Asura Creatures)", DROP)]),
-    *[whole(f"Creatures - {src}.md", f"creatures/{src}") for src, _ in CREATURES[5:]],
+    *[whole(f"Creatures - {src}.md", f"creatures/{src}") for src, _ in CREATURES],
 ]
 
 # Order matters: sources are read in SOURCES order, which fixes the order of
