@@ -70,4 +70,4 @@ When you stop casting a declared spell, you may begin casting a Fast spell you d
 
 ### Wale
 
-When you cast a spell with an area, you may exclude up to your Spellcraft mastery level in 5-foot squares from it, paying 1 magan per square on top of the spell's cost. This magan does not count toward the spell's cost for its speed or miscast trial. Creatures in an excluded square take no damage and no conditions from the spell, though anything the spell creates still forms around them.
+When you cast a spell with an area, you may exclude up to your Spellcraft mastery level in 5-foot squares from it, paying 1 magan per square on top of the spell's cost. This magan does not count toward the spell's cost for its speed or miscast trial. Creatures in an excluded square are excluded from the effects of the spell, though anything the spell creates still forms around them.

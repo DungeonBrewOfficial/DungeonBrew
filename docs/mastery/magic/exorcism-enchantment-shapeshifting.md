@@ -28,7 +28,7 @@ A *gestalt* is a creature that has been transformed into a classification it did
 
 You open a gate. A creature crosses through. The creature is real; it existed somewhere in the world and was compelled to appear.
 
-The summoned creature is independent and acts on its own will. Control requires a separate *[enchant](#enchant)* spell using the same connected form to impose [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") or [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."): a second cast, a second magan cost, and a concentration slot.
+The summoned creature is independent and acts on its own will. Control requires a separate *[enchant](#enchant)* spell using the same connected form to impose [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") or [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."): a second cast, a second magan cost, and a concentration slot.
 
 <span id="magan-cost"></span>**Magan cost:** (1 + Reach) × Tier. Minimum reach is close.
 

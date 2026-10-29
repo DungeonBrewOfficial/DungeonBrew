@@ -54,10 +54,12 @@ CHAPTERS = {
 BARE_CHAPTERS = ["Monster Manual Rules (Revised)", "Monster Manual", "Mastery Core Classes",
                  "Mastery System", "General Rules", "Magic Mastery"]
 PLAIN_CHAPTERS = BARE_CHAPTERS + ["Skill Mastery", "Weapon Mastery"]
-# Core terms whose section is named in the plural: *form* is the Forms section,
-# not the Void form's "Form." theme entry.
+# Core terms with one fixed home: *form* is the Forms section, not the Void
+# form's "Form." theme entry; *magan* is Magic Mastery's, not the creature one.
 TERMS = {"form": ("magic/index", "Forms"), "forms": ("magic/index", "Forms"),
-         "command": ("magic/index", "Commands"), "commands": ("magic/index", "Commands")}
+         "command": ("magic/index", "Commands"), "commands": ("magic/index", "Commands"),
+         # Designing Creatures also has a Magan section, for creature casters
+         "magan": ("magic/index", "Magan")}
 FORMS = {"fire", "sea", "sky", "stone", "primal", "profane", "sacred", "void"}
 TRADITIONS = {"occult", "priscan", "telluric", "theurgic"}
 # Mechanic nouns that head sections in several unrelated places. These link
@@ -269,6 +271,11 @@ class Site:
         if len(hits) == 1:
             return hits[0]
         if len(hits) > 1:
+            # "see Wildfire" in Medicine: the Alchemy entry, not the Fire spell
+            home = [h for h in hits
+                    if any(cur in keys and h[0] in keys for keys in CHAPTERS.values())]
+            if len(home) == 1:
+                return home[0]
             return ("ambiguous", hits)
         return None
 

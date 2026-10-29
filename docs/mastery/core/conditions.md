@@ -6,7 +6,7 @@ generated_by: tools/sync_mastery.py
 
 Conditions are positive or negative status effects that can be applied to creatures. They fall into two categories: **Chained Conditions** (progressive effects with three tiers of escalating severity) and **Simple Conditions** (standalone effects with no tiers).
 
-Unless stated otherwise, conditions deteriorate at a rate of 1 tier per round at the end of the turn of the creature or effect that inflicted them. This deterioration is automatic and does not require a trial.
+Unless stated otherwise, conditions deteriorate 1 tier per round, at the end of each turn of the creature or effect that inflicted them, starting with its next turn. This deterioration is automatic and does not require a trial.
 
 A round is a round in every timescale. Effects at the end of a creature's turn or the end of a round in combat also happen at the end of each exploration round or travel round. End-of-turn or end-of-round trials precede associated damage or effects.
 
@@ -32,7 +32,7 @@ Multiple sources of the same condition stack additively. A Knight's rallying cry
 
 <span id="lasting-sources"></span>**Lasting sources.** A lasting source holds the tiers it applied for as long as it lasts. Lasting sources are a spell under concentration, a creature holding a grab, an aura the target remains within, and any effect with a duration longer than one round.
 
-- Tiers that no source holds deteriorate 1 tier per round, at the end of the turn of the creature or effect that last advanced the condition, down to the tiers still held.
+- Tiers that no source holds deteriorate 1 tier per round, at the end of each turn of the creature or effect that last advanced the condition, starting with its next turn, down to the tiers still held.
 - When a lasting source's duration ends, all the tiers it holds end with it at once.
 - When a lasting source ends early, such as a caster losing concentration, the tiers it held deteriorate normally, unless the source says otherwise.
 - Several lasting sources on the same condition each hold their own tiers.
@@ -57,7 +57,7 @@ Some positive conditions are paired against two negative conditions (dual-pairin
 | [Clarity](#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC.") | [Disoriented](#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.") | 1:1 |
 | [Hastened](#hastened "Counters Impaired and Restricted (dual-paired). Sharpened reflexes, enhanced reaction speed, physical quickness. Too fast to pin down, too quick to stun. T1 — Quickened: Bonus +1 to physical rolls. Treat Agility tier as 1 higher. T2 — Alert: Bonus +2 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. T3 — Hasted: Bonus +3 to physical rolls. Treat Agility tier as 1 higher. Act one phase earlier. +1 AP.") | [Impaired](#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), [Restricted](#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") | 2:1 |
 | [Fortified](#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") | [Tainted](#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn."), [Infected](#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") | 2:1 |
-| [Warded](#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") | [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled."), [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") | 2:1 |
+| [Warded](#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") | [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled."), [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") | 2:1 |
 
 ---
 
@@ -167,7 +167,7 @@ Illness, disease, or supernatural contamination. Infected does not deteriorate n
 
 *Wisdom trial to resist*
 
-Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered.
+Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies.
 
 <span id="tier-1-lured"></span>**Tier 1 — Lured:** The creature regards the source as a trusted ally and cannot willingly harm the source. The creature complies with requests that do not conflict with its deeply held beliefs, personality, or values, and that do not involve harming others, betraying companions, or endangering itself. Requests that cross those lines require a Wisdom trial.
 
@@ -181,7 +181,7 @@ Magical or supernatural influence over disposition. Social condition. The creatu
 
 *Charisma trial to resist*
 
-Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies.
+Loss of bodily autonomy through magical domination or possession. Standard deterioration applies.
 
 <span id="tier-1-compelled"></span>**Tier 1 — Compelled:** The controller directs 1 of the target's AP, issuing a simple command (one sentence). Limited to mundane actions: attack, move, defend, interact. The target retains 1 AP under their own control.
 
@@ -265,7 +265,7 @@ Bodily resilience, constitutional hardening. The body is toughened against physi
 
 #### Warded
 
-*Counters [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") (dual-paired)*
+*Counters [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") (dual-paired)*
 
 Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm.
 
@@ -316,9 +316,9 @@ Movement enhancement
 
 <span id="tier-1-fleet"></span>**Tier 1 — Fleet:** +2 movement speed. You can jump as part of movement. You must begin and end movement on a surface with each AP.
 
-<span id="tier-2-suspended"></span>**Tier 2 — Suspended:** Three-dimensional movement at half speed. One axis per AP (horizontal or vertical, not both). Water walking included. Requires concentration to maintain and move.
+<span id="tier-2-suspended"></span>**Tier 2 — Suspended:** Three-dimensional movement at half speed. One axis per AP (horizontal or vertical, not both). Water walking included. Requires concentration to maintain and move (see *[Magic Mastery](../magic/index.md)*, [Concentration](../magic/index.md#concentration)).
 
-<span id="tier-3-soaring"></span>**Tier 3 — Soaring:** Three-dimensional movement at full speed in any direction. Immune to [Prone](#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Requires concentration to maintain and move.
+<span id="tier-3-soaring"></span>**Tier 3 — Soaring:** Three-dimensional movement at full speed in any direction. Immune to [Prone](#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers."). Requires concentration to maintain and move (see *[Magic Mastery](../magic/index.md)*, [Concentration](../magic/index.md#concentration)).
 
 ---
 
@@ -368,7 +368,7 @@ The parenthetical label identifies the damage type and narrative source:
 <span id="insanity-is-an-optional-rule"></span>**Insanity is an optional rule.** The GM chooses a setting:
 
 - <span id="realistic"></span>**Realistic:** a character gains an insanity on reaching 0 health, or on reaching Tier 3 of a mental condition (Panicked, Enthralled, Dominated, or Bewildered).
-- <span id="brutal"></span>**Brutal:** as Realistic, and also on a natural minimum on a trial against a mental condition ([Demoralized](#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled."), [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Combat-timeframe condition. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."), or [Disoriented](#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.")), or on suffering a Trauma.
+- <span id="brutal"></span>**Brutal:** as Realistic, and also on a natural minimum on a trial against a mental condition ([Demoralized](#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Charmed](#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled."), [Controlled](#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated."), or [Disoriented](#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered.")), or on suffering a Trauma.
 - <span id="deadly"></span>**Deadly:** as Brutal, and also on taking health damage from a hit whose dice explode.
 
 The Trauma and Insanity settings are chosen separately; a table can run Brutal Traumas with Realistic Insanity, or any other combination.

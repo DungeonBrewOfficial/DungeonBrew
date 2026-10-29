@@ -10,6 +10,8 @@ generated_by: tools/sync_mastery.py
 
 Tier represents the **game stage** — what level range of PCs the creature is appropriate for. Tier determines the base Tier Die (TD) used across the system.
 
+<span id="tier-die-by-tier"></span>**Tier Die by Tier**
+
 | Tier | TD |
 |:---:|:---:|
 | 1 | d2 |
@@ -24,6 +26,8 @@ Tier represents the **game stage** — what level range of PCs the creature is a
 
 Rank represents the creature's **role and capability** — its place in an organizational hierarchy or its narrative function in an encounter.
 
+<span id="rank-roles-and-trial-base-die"></span>**Rank Roles and Trial Base Die**
+
 | Rank | Role | Trial Base Die |
 |:---|:---|:---:|
 | Minion | Disposable fodder. Dangerous in groups. | d2 |
@@ -32,7 +36,7 @@ Rank represents the creature's **role and capability** — its place in an organ
 | Champion | Right hand of the Master. Sent when the Leader fails. | d6 |
 | Master | The actual boss. Most powerful in a hierarchy. | d8 |
 | Epic | Solo monster. Dangerous and deadly in its own right. | d10 |
-| Legendary | Force of nature. Smaug. The Kraken. | d12 |
+| Legendary | Force of nature. The Otso, the Amarok, the Erymanthian Boar. | d12 |
 
 <span id="trials"></span>**Trials.** Adept and above roll the Trial Base Die + the tier die of the attribute the trial calls for (a STR trial adds the STR tier die, a WIS trial adds the WIS tier die). The rank die works like a PC's skill die; the attribute die gives each creature its own strengths and weak points. Minions have no attribute array, so they roll the Trial Base Die (d2) + the creature's Tier die for every trial. Startle trials follow their own rule (AGI and PER tier dice, per Combat, Startle and Ambush).
 
@@ -51,7 +55,9 @@ Motivation decides behavior: when the creature fights, flees, talks, or bargains
 
 ### Division
 
-Division = Tier + Rank offset. Division is used for calculating challenge, XP, health die count, and the Division Tier Die (DTD) bonus applied to attacks, defense, and health for Adept and above.
+Division = Tier + Rank offset (see **Division Offset by Rank**). Division is used for calculating challenge, XP, health die count, and the Division Tier Die (DTD) bonus applied to attacks, defense, and health for Adept and above.
+
+<span id="division-offset-by-rank"></span>**Division Offset by Rank**
 
 | Rank | Offset |
 |:---|:---:|
@@ -67,6 +73,8 @@ Division = Tier + Rank offset. Division is used for calculating challenge, XP, h
 
 Minions always use d2. For Adept and above, the DTD follows the die progression and doubles dice count when exceeding d12. DTD applies to attack, defense, and health.
 
+<span id="division-tier-die-by-tier-and-rank"></span>**Division Tier Die by Tier and Rank**
+
 | | Minion | Adept | Leader | Champion | Master | Epic | Legendary |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Tier 1 | d2 | d3 | d4 | d6 | d8 | d10 | d12 |
@@ -79,11 +87,49 @@ Minions always use d2. For Adept and above, the DTD follows the die progression 
 
 Beyond d12, dice double in count and reset: 2d6 → 2d8 → 2d10 → 2d12 → 4d6 → 4d8. More dice = higher floor, more explosion chances, more consistent output.
 
+### Creature Mastery
+
+A creature has one mastery level, set by its Tier and rank on the Creature Mastery Level by Tier and Rank table below. It uses the same scale as a character's mastery, from Unskilled (1) to Grand Master (7), and it stands in for a character's weapon mastery, skill mastery, and form mastery wherever a rule reads the mastery *level*: as a bonus, a multiplier, a cap, or a comparison. A creature does not roll mastery dice. Where a character would roll a mastery die, a creature rolls its own dice: DTD for attacks and defense, its rank die for trials, and its casting die + DTD for spells. Its DCs are Division + 1.
+
+When an effect refers to mastery, a creature's *[mastery trials](../core/mastery-and-trials.md#mastery-trials)* are the trials it makes to act (skill tasks, ambushes, miscast and duel rolls), not those it makes to resist. Its *[Mastery DC](../core/mastery-and-trials.md#mastery-dc)* is the DC of its abilities and spells (Division + 1).
+
+<span id="creature-mastery-level-by-tier-and-rank"></span>**Creature Mastery Level by Tier and Rank**
+
+| Tier | Minion | Adept | Leader | Champion | Master | Epic | Legendary |
+|:---:|:---|:---|:---|:---|:---|:---|:---|
+| 1 | Unskilled (1) | Untrained (2) | Untrained (2) | Untrained (2) | Basic (3) | Basic (3) | Basic (3) |
+| 2 | Untrained (2) | Basic (3) | Basic (3) | Basic (3) | Skilled (4) | Skilled (4) | Skilled (4) |
+| 3 | Basic (3) | Basic (3) | Skilled (4) | Skilled (4) | Expert (5) | Expert (5) | Expert (5) |
+| 4 | Basic (3) | Skilled (4) | Expert (5) | Expert (5) | Expert (5) | Master (6) | Master (6) |
+| 5 | Skilled (4) | Expert (5) | Master (6) | Master (6) | Master (6) | Master (6) | Master (6) |
+| 6 | Skilled (4) | Expert (5) | Master (6) | Grand Master (7) | Grand Master (7) | Grand Master (7) | Grand Master (7) |
+| 7 | Skilled (4) | Expert (5) | Master (6) | Grand Master (7) | Grand Master (7) | Grand Master (7) | Grand Master (7) |
+
+#### Weapon Mastery
+
+A creature's role grants its maneuvers and guards, the way a class hallmark grants a character abilities beyond their mastery: a thug ripostes because he is a thug. A maneuver bonus that reads mastery level uses the creature's mastery level: a Tier 2 Champion's Riposte bonus is +3.
+
+#### Skill Mastery
+
+Some disciplines counter a skill: *Alertness (Danger Sense) counters Sneaking.* When a PC resists a creature's skill with the discipline that counters it, compare the PC's mastery in that discipline to the creature's mastery level. If the PC's is equal or higher, the PC has Dominance on the trial. A creature never gains Dominance this way; its perception comes from its attributes and its Senses.
+
+#### Form Mastery
+
+A creature's mastery level is its form mastery level for every spell it casts. It sets:
+
+- a ward's durability pool (form mastery level × 5 × duration multiplier) and flat resistance (× 2)
+- a material barrier's durability (× 5 × (1 + Scale modifier)) and an energy barrier's resistance (× 2)
+- an aura's damage (equal to the level)
+- the highest power level of a dynamic construct
+- the highest tier it can summon
+
 ### Attributes
 
 Attributes are **independent of Tier and Rank**. They are intrinsic to the creature. A wolf has high Physique, Agility, and Perception regardless of its Tier. A goblin has low everything.
 
 Every 5 points of an attribute score = 1 attribute Tier. You reach the next Tier when your Score reaches its threshold (a Score of 5 is Tier 2, a Score of 30 is Tier 7) — the same rule player characters use.
+
+<span id="attribute-tier-by-score"></span>**Attribute Tier by Score**
 
 | Attribute Tier | Score Range | Die | Notes |
 |:---:|:---:|:---:|:---|
@@ -123,6 +169,8 @@ Example: *1×1 Mortal Beast (Primal)* or *3×2 Primordial Behemoth (Stone)* or *
 
 ### Classifications
 
+<span id="classifications-and-primary-forms"></span>**Classifications and Primary Forms**
+
 | Classification | Category | Primary Form |
 |:---|:---|:---|
 | Asura | Entropic | Sacred |
@@ -133,13 +181,15 @@ Example: *1×1 Mortal Beast (Primal)* or *3×2 Primordial Behemoth (Stone)* or *
 
 ### What Classification Does
 
-Classification determines which **magic Forms** interact with the creature beyond dealing damage. Any caster can throw fire at anything for damage. But to charm, summon, bind, banish, or otherwise magically interact with a creature, the caster must know the correct Form and pair it with the appropriate command.
+Classification determines which **magic Form** connects to the creature. Any caster can throw fire at anything for damage, and most magic works on any creature regardless of its nature. Charming, controlling, summoning, banishing, shapeshifting into the creature, or restoring its mind requires the correct Form paired with the appropriate command (see *[Magic Mastery](../magic/index.md)*, [Connected Form](../magic/exorcism-enchantment-shapeshifting.md#connected-form)).
 
 The **Forms listed in parentheses** on the stat block are the Forms that connect to the creature. Most creatures have one Form (their classification's primary). Some have two: a fire demon (Daeva Druj) is connected to both Profane and Fire. Mortal Beasts are the one kingdom whose connected form differs from their classification's: Primal instead of Void.
 
 ### Kingdoms
 
 Each classification has kingdoms that provide further specificity. The kingdom is part of the stat block tag and may carry creature-specific or kingdom-specific features (condition immunities, special traits, etc.). These are noted in the creature's stat block, not as blanket classification rules.
+
+<span id="kingdoms-by-classification"></span>**Kingdoms by Classification**
 
 | Classification | Kingdoms |
 |:---|:---|
@@ -158,6 +208,8 @@ Every classification carries one innate benefit and one innate cost. These are f
 
 The vulnerability is strictly about resisting damage, not resisting control effects. A zombie has Impotence on trials against Sacred damage — not against Sacred Enthrallment. A Cherub has Impotence on trials against Profane damage — not against Profane domination.
 
+<span id="classification-packages"></span>**Classification Packages**
+
 | Classification | Damage Immunity | Vulnerability (Impotence vs damage) | Connected Form |
 |:---|:---|:---|:---|
 | Daeva | Profane | Sacred | Profane |
@@ -171,7 +223,7 @@ The vulnerability is strictly about resisting damage, not resisting control effe
 | Eidos (Mortal Folk) | None | None | Void |
 | Eidos (Mortal Beast) | None | None | Primal |
 
-A creature's Connected Form is the magic Form required to Charm, Control, summon, or banish it, or to restore its mind (see [Magic Mastery](../magic/index.md), [Connected Form](../magic/exorcism-enchantment-shapeshifting.md#connected-form)). To summon an Asura requires Sacred magic. To charm Mortal Folk requires Void magic. Damage and all other magic of any Form work normally against any creature.
+A creature's Connected Form is the magic Form required to Charm, Control, summon, banish, or shapeshift into it, or to restore its mind (see [Magic Mastery](../magic/index.md), [Connected Form](../magic/exorcism-enchantment-shapeshifting.md#connected-form)). To summon an Asura requires Sacred magic. To charm Mortal Folk requires Void magic. Damage and all other magic of any Form work normally against any creature.
 
 The classification package is the sole system for elemental and magical immunity/vulnerability. Do not add redundant passives (Elemental Body, Water Body, half-damage, etc.) that duplicate what the package already handles. Resistance budget handles mundane damage normally.
 
@@ -185,14 +237,21 @@ This creates meaningful tradeoffs. An undead Adept [Tainted](../core/conditions.
 
 Passive features that occupy ability slots include: condition immunities, elemental healing (e.g., Absorb Flame), special resistances (e.g., Incorporeal: Inferiority on attacks that deal mundane damage), creature healing (e.g., Mend), and magic damage on weapons (e.g., Flaming Blade). These are creature-specific or kingdom-specific, not classification-wide. If it goes beyond the free classification package, it costs a slot.
 
+<span id="slot-counts-are-guardrails"></span>**Slot counts are guardrails.** The counts in Rank Rules keep creatures consistent, and they loosen as rank rises. A creature can exceed its count when it needs to; its design notes record which guardrail it breaks and why.
+
 <span id="free-traits"></span>**Free traits.** Senses and detection traits (e.g., Ambusher) do not occupy ability slots. Tag them `(no slot)`.
+
+<span id="banes"></span>**Banes.** A weakness from a creature's lore (a ward it cannot cross, a substance that harms it, a rite that binds it) does not occupy an ability slot, at any rank including Minion. Tag it `(Bane, no slot)`.
 
 ### Cross-Domain Conditions
 
 These are not kingdoms. They are statuses that can apply to any creature regardless of classification.
 
 - <span id="numen"></span>**Numen** — patron status. Powerful enough to grant magic to devotees.
-- <span id="gestalt"></span>**Gestalt** — transformed into a domain the creature did not originate from. Undead = Daeva Gestalt. Lycanthrope = Fae Gestalt. Features specific to the Gestalt type are noted on the stat block.
+- <span id="gestalt"></span>**Gestalt** — transformed into a domain the creature did not originate from. Features specific to the Gestalt type are noted on the stat block.
+    - <span id="undead"></span>**Undead (Daeva Gestalt):** a mortal whose natural life cycle has been overwritten by Profane magic.
+    - <span id="lycanthrope"></span>**Lycanthrope (Fae Gestalt):** a mortal whose nature has turned Primal, giving it the shape of a beast.
+    - <span id="bogle"></span>**Bogle (Morphon Gestalt):** a Morphon spirit in something else, such as an object, a beast, or a body.
 - <span id="dragon"></span>**Dragon** — cross-domain form. Individual dragons belong to different classifications based on nature.
 
 ---
@@ -202,6 +261,8 @@ These are not kingdoms. They are statuses that can apply to any creature regardl
 ### Resistance Budget
 
 Every creature has a resistance budget determined by **Tier × Rank × 5**, where Minion = 1, Adept = 2, Leader = 3, Champion = 4, Master = 5, Epic = 6, Legendary = 7.
+
+<span id="resistance-budget-by-tier-and-rank"></span>**Resistance Budget by Tier and Rank**
 
 | | Minion | Adept | Leader | Champion | Master | Epic | Legendary |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -234,6 +295,8 @@ Resistance points are distributed across damage types during creature building. 
 ## Tier Budget
 
 The tier budget is a guideline for total attribute tiers across all 8 attributes. It helps place creatures at the right rank and prevents over- or under-building. Creatures should fall within ~2 of the budget. The budget is a diagnostic, not a constraint — build the creature that feels right, then check where it lands.
+
+<span id="tier-budget-by-tier-and-rank"></span>**Tier Budget by Tier and Rank**
 
 | | Minion | Adept | Leader | Champion | Master | Epic | Legendary |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -293,7 +356,7 @@ This is twice the gap between the creature's unarmored and armored Health. The D
 
 <span id="attack-dtd-attribute-td-size-bonus"></span>**Attack = DTD + Attribute TD + Size Bonus**
 
-Wielded weapons use their category's attribute and speed from the Weapon Mastery table (Light weapons and bows PHY; Versatile, Heavy One-Handed, Two-Handed and Heavy Thrown STR; crossbows PER). Natural weapons use the higher of STR or PHY. Ranged attacks still require an Aiming Trial. Size bonus is determined by total squares occupied: ½sq = 0, 1sq = 0, 2sq = +2, 4sq = +4, 6sq = +6, 9+ = +8. Small creatures (½sq) receive no size penalty — their attributes already reflect their physical capability. Apply weapon style step (see Weapon Styles) during building, then write final dice into stat block. Attack dice explode on max roll (d2s never explode).
+Wielded weapons use their category's attribute and speed from the Weapon Mastery table (Light weapons and bows PHY; Versatile, Heavy One-Handed, Two-Handed and Heavy Thrown STR; crossbows PER). Natural weapons use the higher of STR or PHY. Ranged attacks still require an Aiming Trial. Size bonus is determined by total squares occupied: ½sq = 0, 1sq = 0, 2sq = +2, 4sq = +4, 6sq = +6, 9+ = +8. Small creatures (½sq) receive no size penalty — their attributes already reflect their physical capability. Apply weapon style step (see [Weapon Styles](designing-creatures.md#weapon-styles)) during building, then write final dice into stat block. Attack dice explode on max roll (d2s never explode).
 
 Phase is determined by the weapon and listed on the attack line. Abilities inherit phase from their triggering weapon.
 
@@ -303,7 +366,7 @@ Phase is determined by the weapon and listed on the attack line. Abilities inher
 
 <span id="defense-dtd-attribute-td-applicable-resistance"></span>**Defense = DTD + Attribute TD (per weapon type) + applicable Resistance**
 
-With a wielded weapon, defense uses that weapon's attribute. With natural weapons, defense uses the higher of AGI or PHY. A creature whose natural weapons serve different functions (the Constrictor's precision bite and power squeeze) may use the attribute that fits each; flag it in the stat block. Must have a melee weapon equipped (unarmed counts if proficient). Apply weapon style step (see Weapon Styles) during building, then write final dice into stat block. Defense dice explode on max roll (d2s never explode). Must spend 1 AP to defend. If not defended, damage applies to armor durability first, then health.
+With a wielded weapon, defense uses that weapon's attribute. With natural weapons, defense uses the higher of AGI or PHY. A creature whose natural weapons serve different functions (the Constrictor's precision bite and power squeeze) may use the attribute that fits each; flag it in the stat block. Must have a melee weapon equipped (unarmed counts if proficient). Apply weapon style step (see [Weapon Styles](designing-creatures.md#weapon-styles)) during building, then write final dice into stat block. Defense dice explode on max roll (d2s never explode). Must spend 1 AP to defend. If not defended, damage applies to armor durability first, then health.
 
 ---
 
@@ -312,6 +375,8 @@ With a wielded weapon, defense uses that weapon's attribute. With natural weapon
 ### Minions
 
 Minions are d2 creatures. Everything they roll is d2, regardless of Tier, and d2s never explode.
+
+<span id="minion-stats"></span>**Minion Stats**
 
 | Stat | Value |
 |:---|:---|
@@ -329,6 +394,8 @@ Minions are d2 creatures. Everything they roll is d2, regardless of Tier, and d2
 <span id="groups"></span>**Groups.** A group of minions is one creature: one token, one set of 2 AP, one trial against any effect.
 
 <span id="size_1"></span>**Size.** A group's footprint is its heads' footprints combined. The footprint sets the space the group occupies and its size for effects that check size. The group's size modifiers come from a single head: apply that creature's attack, defense and speed modifiers once to each roll or move. Minions never gain size Health dice; each head has 1 Health.
+
+<span id="minion-group-bands"></span>**Minion Group Bands**
 
 | Group | Heads | Band Bonus | Encounter Role |
 |:---|:---:|:---:|:---|
@@ -367,6 +434,8 @@ The band is read at the group's current heads: a Swarm cut to 15 heads is a Broo
 
 The Adept is the first creature that functions as an individual. It has full attributes, differentiated resistance, a signature ability, and real health.
 
+<span id="adept-stats"></span>**Adept Stats**
+
 | Stat | Value |
 |:---|:---|
 | Attack | DTD + Attribute TD (by weapon category; see [Attack](#attack)). Exploding. Phase from weapon speed (Fast/Moderate/Slow). |
@@ -383,6 +452,8 @@ The Adept is the first creature that functions as an individual. It has full att
 
 Same stat formulas as Adepts, except:
 
+<span id="leader-stats"></span>**Leader Stats**
+
 | Stat | Value |
 |:---|:---|
 | Trials | 1d4 + Attribute TD |
@@ -393,18 +464,24 @@ Same stat formulas as Adepts, except:
 
 ### Champions
 
+The Master's right hand, the hired gun called in for the hard job. Deadly one-on-one, but no match for a whole party. Its Master holds its leash. A Leader can call a Champion in but cannot command it: it chooses its own targets and its own fight, and may walk away or turn on its employer when the job stops suiting it. A Champion with no Master goes its own way; it may want nothing from the party at all and become a problem only when the party steps wrong. Killing a Champion's Master does not tame it; it unleashes it.
+
 Same stat formulas as Adepts, except:
+
+<span id="champion-stats"></span>**Champion Stats**
 
 | Stat | Value |
 |:---|:---|
 | Trials | 1d6 + Attribute TD |
 | AP | 3 (max 2 attacks) |
-| Abilities | 3+. Personal lethality — advanced maneuvers up to Skilled mastery. |
+| Abilities | 3+. Personal lethality, including advanced maneuvers. |
 | Attributes | At least 2-3 attributes at T3+ regardless of creature Tier. |
 
 ### Masters
 
 Same stat formulas as Adepts, except:
+
+<span id="master-stats"></span>**Master Stats**
 
 | Stat | Value |
 |:---|:---|
@@ -412,7 +489,7 @@ Same stat formulas as Adepts, except:
 | AP | 3 (max 2 attacks) |
 | Abilities | 4. Personal combat + buff ability + signature ability. |
 
-<span id="master-1encounter-ability"></span>**Master 1/Encounter Ability (2 AP, Action):** Masters get ONE ability that exceeds standard duration limits, usable once per encounter. Two variants:
+<span id="master-signature"></span>**Master signature (2 AP, Action):** Every Master has one ability that ties it to its people, strengthening them, drawing on them or acting through them, and that exceeds one standard limit by one step (the whole encounter at Tier 1 or Tier 3 deteriorating; two tiers at once; every eligible creature instead of one; or one size larger). It is used once per encounter, or limited by something the fight rations on its own. Buffs are the most common form, not the only one:
 
 - <span id="deteriorating"></span>**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Front-loaded burst that fades.
 - <span id="persistent"></span>**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering buff.
@@ -422,6 +499,8 @@ Standard Leader-style buffs (2 AP, 1-round duration, stackable) are also availab
 ### Epic
 
 Same stat formulas as Adepts, except:
+
+<span id="epic-stats"></span>**Epic Stats**
 
 | Stat | Value |
 |:---|:---|
@@ -434,6 +513,8 @@ Same stat formulas as Adepts, except:
 ### Legendary
 
 Same stat formulas as Adepts, except:
+
+<span id="legendary-stats"></span>**Legendary Stats**
 
 | Stat | Value |
 |:---|:---|
@@ -450,7 +531,7 @@ Same stat formulas as Adepts, except:
 | Adept | 2 | 2 | 1 | Individual threat, real stats |
 | Leader | 2 | 2 | 1 | Buffs allies (1 round duration, 2 AP) |
 | Champion | 3 | 2 | 1 | Personal lethality, advanced maneuvers |
-| Master | 3 | 2 | 1 | Power + command, 1/encounter ability |
+| Master | 3 | 2 | 1 | Power + command, signature ability |
 | Epic | 4 (2/phase) | 2/phase | 2 of 3 | Solo viable, creature-specific abilities |
 | Legendary | 6 (2/phase) | 2/phase | All 3 | Hand-crafted, degree-of-failure mechanics |
 
@@ -468,6 +549,8 @@ Size is defined by two independent values on the stat block:
 
 Total squares determine mechanical bonuses:
 
+<span id="size-by-footprint"></span>**Size by Footprint**
+
 | Size | Squares | Health Bonus Dice | Attack Bonus | Defense Bonus | Speed Modifier | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---|
 | Small | ½ | — | — | +1 | -1 | Rats, snakes, redcaps; gnomes and halflings |
@@ -479,7 +562,7 @@ Total squares determine mechanical bonuses:
 
 Small creatures (½sq) have no penalty to attack or health — their attributes already reflect their physical capability. The -1 speed is offset by +1 defense (small = harder to hit). Size attack bonus for larger creatures is flat (no extra dice, no explosion cascade). Size benefits (more health, more damage, more speed) are offset by tactical costs — larger footprints expose more sides for enemies to engage, stretching AP thin on defense. Larger creatures also have difficulty navigating tight spaces.
 
-<span id="size-names"></span>**Size names.** Each row's name is used wherever a rule refers to size. "One size larger" means one row up the table.
+<span id="size-names"></span>**Size names.** Each row's name is used wherever a rule refers to size. "One size larger" means one row up the Size by Footprint table.
 
 <span id="pcs"></span>**PCs.** Every PC occupies 1 square. Gnomes and halflings are Small; all other PCs are Average. PCs use their size for size checks (maneuver size limits, effects that name a size); the table's modifiers are for creatures, and PCs take their size effects from their own traits.
 
@@ -503,6 +586,8 @@ Each point of speed = 1 square = 5 feet per AP spent on movement. Consecutive mo
 Creatures with multiple qualifying modes calculate each separately. A dragon with functional running legs AND wings gets +4 to both land and fly speed. A crocodile gets +4 to swim but 0 to land.
 
 When a creature has meaningfully different speeds, list both: `Speed | 11 (55 ft) Swim; 7 (35 ft) land`.
+
+<span id="speed-examples"></span>**Speed Examples**
 
 | Creature Example | Base | AGI | Size | Loco | Speed | Feet |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|

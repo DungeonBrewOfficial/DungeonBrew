@@ -208,7 +208,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 <span id="healthy"></span>**Healthy:** (Passive) Dominance on trials to resist [Tainted](../../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") conditions.
 
-<span id="loyal"></span>**Loyal:** (Passive) Dominance on trials to resist [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. Social condition. The creature retains agency but its attitude toward the source is magically altered. Tiers: Lured, Beguiled, Enthralled.") condition.
+<span id="loyal"></span>**Loyal:** (Passive) Dominance on trials to resist [Charmed](../../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") condition.
 
 <span id="stalwart"></span>**Stalwart:** (Passive) The companion gains an additional 2 health at each mastery level from this level forward and retroactively through Basic mastery (Max 10 health at GM).
 

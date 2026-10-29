@@ -17,7 +17,7 @@ Speed tags in the ability header are optional. When present, they indicate the w
 Abilities fall into three categories for combat phase timing:
 
 1. *Weapon-tied:* The ability references a specific weapon (Swipe uses Claw, Bash uses Club). It inherits that weapon's speed. Tag the speed in the ability header if helpful for GM reference.
-2. *Non-weapon:* The ability is not tied to any attack (Roar, Thornwall, Rally Howl, spellcasting). Available in any phase the creature is active in. No speed tag.
+2. *Non-weapon:* The ability is not tied to any attack (Roar, Rally Howl, spellcasting). Available in any phase the creature is active in. No speed tag.
 3. *Multi-weapon:* The ability can be performed with different weapons (Charge with Bite or Claw). The speed is determined by the weapon chosen at the time of use. The ability description names the eligible weapons; the Phase Reference block shows which phases each option opens up.
 
 Speed is a floor, not a lock. A Fast ability works in a Fast, Moderate, or Slow phase. A Moderate ability works in Moderate or Slow. A Slow ability only works in Slow.
@@ -83,6 +83,8 @@ Ability descriptions are mechanical text for GM use during play. Clarity and spe
 
 Every ability has a cost proportional to its effect. The cost is expressed through modifiers applied to the triggering attack roll:
 
+<span id="ability-cost-modifiers"></span>**Ability Cost Modifiers**
+
 | Cost | When to Apply |
 |:---|:---|
 | Impotence | Single target + single condition (standard), OR AoE + no condition |
@@ -97,9 +99,9 @@ Every ability has a cost proportional to its effect. The cost is expressed throu
 Conditions are defined in Conditions. The stat block does not restate condition mechanics — it provides only the application method and relevant values.
 
 <span id="attrition"></span>**[Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (damage-over-time conditions):**
-Format: `...the target must succeed on an END trial [DC] or gain Attrition (Bleeding).`
+Format: `The [creature] makes a [weapon] attack with Impotence. If damage is dealt, the target must succeed on an END trial [DC] or gain Attrition (Bleeding) N ([Attribute] Tier).`
 
-- Each instance deals damage equal to the source's relevant attribute tier at end of the afflicted creature's turn, then expires.
+- Each instance deals damage equal to the source's relevant attribute tier at end of the afflicted creature's turn, then expires. Write the amount and the attribute it comes from on the stat block (wounds a creature deals with its own body use END), so the GM never has to work it out.
 - Bleeding uses END trial to resist. Burning uses AGI trial to resist.
 - See [Conditions](../core/conditions.md), [Attrition](../core/conditions.md#attrition), for damage type labels and applicable resistances.
 
@@ -157,7 +159,7 @@ Creatures can use the Charge maneuver (2 AP, Move 15+ ft straight line, first me
 
 Standardized creature language: "The [creature] moves at least 15 feet in a straight line and makes a [weapon(s)] attack with Dominance. Countered by Set Spear vs Charge." When the creature can Charge with multiple weapons, list the options: "a bite or claw attack."
 
-<span id="trample-variant"></span>**Trample variant:** Same as Charge (2 AP, Move+Attack) but trades Dominance for a STR trial; be knocked prone on hit. Used by large creatures (horses, bulls) whose mass applies the condition naturally. Countered by Set Spear.
+<span id="overrun-variant"></span>**Overrun variant:** Same as Charge (2 AP, Move+Attack) but trades Dominance for a STR trial; be knocked prone on hit. Used by large creatures (horses, bulls) whose mass applies the condition naturally. Countered by Set Spear.
 
 ### Roar/Fear (AoE Condition)
 
@@ -181,53 +183,33 @@ Auras are passive supernatural effects that cost an ability slot. Three rules go
 
 ### Creature Maneuvers
 
-A creature's weapon mastery level equals its rank, using the same mapping as spellcasting mastery.
-
-| Rank | Mastery Level |
-|:---|:---|
-| Minion | Unskilled (1) |
-| Adept | Untrained (2) |
-| Leader | Basic (3) |
-| Champion | Skilled (4) |
-| Master | Expert (5) |
-| Epic | Master (6) |
-| Legendary | Grand Master (7) |
-
-Creatures can use any PC maneuver they have the mastery level to access. If the creature uses a named PC maneuver, it follows that maneuver's rules exactly (trigger, cost, effect). Bonuses that reference mastery level use the creature's mastery level from this table (e.g., a Champion's Riposte bonus is 4). DCs use Division + 1 (same as ability DCs), standing in for Mastery DC.
+If a creature uses a named PC maneuver, it follows that maneuver's rules exactly (trigger, cost, effect), using its mastery level from *[Creature Mastery](creature-rules.md#creature-mastery)*. DCs use Division + 1 (same as ability DCs), standing in for Mastery DC.
 
 If a creature ability resembles a PC maneuver but differs mechanically, it gets a different name. The naming rule is absolute: same name means same rules.
 
 <span id="barred-maneuvers"></span>**Barred maneuvers:** Cleave (mostly useless on stat blocks).
 
-<span id="modified-maneuvers"></span>**Modified maneuvers:** Empty Fade is reworked for NPCs to preserve PC agency (PER trial to see through the feint). Set Spear follows the PC version: Reprisal when a creature moves into reach; Superiority applies specifically vs Charge.
+<span id="modified-maneuvers"></span>**Modified maneuvers:** Set Spear follows the PC version: Reprisal when a creature moves into reach; Superiority applies specifically vs Charge.
 
 <span id="maneuver-sourced-abilities-cost-an-ability-slot"></span>**Maneuver-sourced abilities cost an ability slot** when written onto a stat block. Using a maneuver ad-hoc (like any creature Charging) does not cost a slot.
 
-<span id="guards"></span>**Guards.** A creature that fights with a wielded melee weapon lists its guards in a **Guards** row. It can have any guard its weapon mastery level (its rank) allows; most need only the three Untrained guards. Minions have none. Like a character, it declares one guard at the start of each round.
+<span id="guards"></span>**Guards.** A creature that fights with a wielded melee weapon lists its guards in a **Guards** row. It can have any guard its role calls for; most need only the three Untrained guards. Minions have none. Like a character, it declares one guard at the start of each round.
 
 ### Creature Skills and Ambushes
 
-<span id="creature-skills"></span>**Creature skills.** Creatures don't track skills. A creature can attempt anything its nature plausibly allows: a bear climbs and a wolf does not, a thief lies and a zombie does not. Its Speed, Senses, and traits settle the edge cases. It rolls its trial dice: its rank die plus the tier die of the attribute the task calls for. When a PC resists it or sees through it, the DC is Division + 1. For skill counters, a creature counts as having mastery equal to its Division, up to Grand Master at Division 7 and above. A PC's counter discipline applies against a creature at that level; a creature never gains Dominance from a counter discipline, since its perception comes from its attributes and its Senses.
-
-| Division | Counts as |
-|:---:|:---|
-| 1 | Unskilled |
-| 2 | Untrained |
-| 3 | Basic |
-| 4 | Skilled |
-| 5 | Expert |
-| 6 | Master |
-| 7–13 | Grand Master |
+<span id="creature-skills"></span>**Creature skills.** Creatures don't track skills. A creature can attempt anything its nature plausibly allows: a bear climbs and a wolf does not, a thief lies and a zombie does not. Its Speed, Senses, and traits settle the edge cases. It rolls its trial dice: its rank die plus the tier die of the attribute the task calls for. When a PC resists it or sees through it, the DC is Division + 1. A PC whose discipline counters the creature's skill may gain Dominance (see *[Creature Mastery](creature-rules.md#creature-mastery)*).
 
 <span id="ambushes"></span>**Ambushes.** Any creature can set an ambush given time, cover, and a plan; its DC is Division + 1. For a group, use the Division of the creature leading the ambush. A creature with Ambusher needs none of that: in its element, it is always ready.
 
 ### 1/Encounter Abilities
 
-Master rank and above can have ONE ability that exceeds standard duration, usable once per encounter.
+Master rank and above have a signature: ONE ability that ties the creature to its people and exceeds one standard limit by one step (see [Rank Rules](creature-rules.md#rank-rules), Masters). Examples:
 
-<span id="deteriorating"></span>**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Creates a burst window — front-loaded power that fades. Example: Alpha Rally Howl (T3 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), degrades 1/round).
+<span id="deteriorating"></span>**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Creates a burst window: front-loaded power that fades. Example: the She-Wolf's Chorus (T3 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), degrades 1/round).
 
-<span id="persistent"></span>**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering. Example: Command Shout (T1 [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") for encounter).
+<span id="persistent"></span>**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering. Example: the Warlord's Command Shout (T1 [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") for the encounter).
+
+<span id="beyond-buffs"></span>**Beyond buffs:** the Magpie's Every Name at Once (every name it holds instead of one); the Black Goat's The Price (two tiers at once, to devotees and debtors); the Orc War Chief's Grief Fury (feeds on his people's deaths instead of strengthening them, rationed by the fight).
 
 These parallel Epic (4 AP budget) and Legendary (6 AP budget) power scaling.
 
@@ -253,68 +235,84 @@ Active ability costing an ability slot. Tied to the creature's thematic attribut
 
 ## Creature Spellcasting
 
-Natural magical creatures do not track magan. Their magic is innate, expressed as ability slots and costed in AP like any other creature ability. The AP economy is the resource gate. A creature with 3 AP and four abilities chooses what to do each round; the spell system's magan costs are irrelevant to the creature's own usage.
+Some creatures cast spells: spells from the spell files, which can be countered, dispelled and interrupted like any other spell. Other creatures have innate magical abilities instead, such as auras, curses and the gifts of their nature. Those are abilities, not spells, and cannot be countered or dispelled. A stat block marks each spell as a spell.
 
-### Mastery Level
+### Channelers
 
-A creature's mastery level equals its rank.
+A creature that draws its magic from a source it is bound to, such as its place, its patron, or its own kind, is a channeler. A channeler's spells are spells: they can be countered, dispelled and interrupted. A channeler pays no magan for them. Instead, each spell occupies an ability slot and costs the AP its speed requires, and its larger effects are limited by frequency (1/encounter, or a number of uses per day). A channeler casts only the spells on its stat block, at their listed parameters, and cannot change them or cast others. A channeler's spell header reads *Channeler* in place of a magan cost.
 
-| Rank | ML |
-|:---|:---:|
-| Minion | 1 |
-| Adept | 2 |
-| Leader | 3 |
-| Champion | 4 |
-| Master | 5 |
-| Epic | 6 |
-| Legendary | 7 |
+### Spellcasting
+
+A creature that casts spells has the **Spellcasting** ability. It occupies one or more ability slots, and the share of the creature's slots it takes sets the creature's **weight**:
+
+<span id="spellcasting-weight"></span>**Spellcasting Weight**
+
+| Weight | Slots on Spellcasting | Martial ability and armor |
+|:---|:---|:---|
+| Expert | One slot among martial abilities | Hits very hard with weapons, supported by magic. Medium or heavy armor. |
+| Master | About half its slots | Hits hard with weapons and with magic. Light or medium armor. |
+| Grand Master | All or nearly all of its slots | Moderate martial ability at best. Hits very hard with magic. Light armor or none. |
+
+Weight measures how much of a creature is magic, not how skilled it is. A Grand Master-weight Adept is entirely a caster, and a weak one.
 
 ### Casting Attribute
 
-Creature casting attributes are determined by the creature's relationship to magic, not by mortal traditions.
+<span id="numen"></span>**Numen** cast with Charisma. **Non-numen creatures** cast with Perception. **Mortal practitioners** follow a tradition and use its attribute and forms: Occult (INT), Priscan (PER), Telluric (WIS), Theurgic (CHA).
 
-<span id="numen"></span>**Numen (CHA).** Numen are sources of magic. Their power is self-referential — they tap into their own nature. Casting attribute is Charisma: force of self, metaphysical presence.
+### Magan
 
-<span id="non-numen-creatures"></span>**Non-numen creatures (PER).** Non-numen magical creatures are sustained by the cycle but are not its source. They perceive magic in the world around them and shape it. Casting attribute is Perception: attunement to the magical world.
+A caster's magan comes from the armor it gives up. Its Health uses the armored formula (see *Health*). Its full magan pool is 2 × (casting attribute score + average DTD − Creature Tier), and it keeps a share of that pool by weight, wearing armor for the rest:
 
-<span id="mortal-npc-casters_1"></span>**Mortal NPC casters** use their tradition's attribute: Occult (INT), Priscan (PER), Telluric (WIS), Theurgic (CHA). Priscan and Theurgic are the mortal traditions closest to how creatures naturally access magic — Priscan mirrors non-numen perception, Theurgic mirrors numen presence. Occult and Telluric are uniquely mortal approaches with no creature equivalent.
+<span id="magan-and-armor-by-weight"></span>**Magan and Armor by Weight**
 
-### Spell Variables
+| Weight | Magan | Armor |
+|:---|:---|:---|
+| Expert | ¼ of the pool | ¾ of its armor Durability |
+| Master | ½ of the pool | ½ of its armor Durability |
+| Grand Master | All of the pool | None |
 
-| Variable | Derivation |
-|:---|:---|
-| ATD (Attribute Tier Die) | Casting attribute's tier die |
-| Damage / Healing | DTD + ATD |
-| Spell DC | Division + 1 (same as ability DCs) |
-| Aura damage | Flat ML |
-| Barrier durability | ML × 5 × duration multiplier |
-| Ward resistance | ML × 2 |
+<span id="non-mortal-practitioners"></span>**Non-mortal practitioners.** A practitioner that is not Mortal Folk and wears no armor uses the unarmored Health formula, and its natural resistance takes the place of armor: it keeps ¾ of its resistance budget at Expert weight, ½ at Master and none at Grand Master. Its magan pool and share are figured as above.
 
-### Spells as Abilities
+### Spell Numbers
 
-Spells occupy ability slots and follow the same budget as non-magical abilities. Each spell costs 1 AP. Trial-based spells are Actions, not Attacks — they do not count against the max attacks per round limit. Power is balanced through the cost axis (Impotence, Inferiority, etc.), not through AP inflation.
+A creature casts each spell on its stat block at the listed cost, speed, reach, scale and duration, with no miscast trial. A GM can also have a creature modify one of its spells, or cast a spell it does not know, as a PC can (*[Magic Mastery](../magic/index.md)*, [Known and Spontaneous Spells](../magic/index.md#known-and-spontaneous-spells)). The creature then makes the miscast trial, rolling its casting attribute tier die + DTD.
+
+- <span id="damage-and-healing"></span>**Damage and healing:** casting attribute tier die + DTD.
+- <span id="duels-and-miscast-trials"></span>**Duels and Miscast trials** (for example, from Interrupted Casting): casting attribute tier die + DTD.
+- <span id="spell-dc"></span>**Spell DC:** Division + 1.
+- <span id="wards-barriers-auras-constructs-and-summons"></span>**Wards, barriers, auras, constructs and summons:** the creature's mastery level is its form mastery level (see *[Creature Mastery](creature-rules.md#creature-mastery)*).
+
+Creature casters follow the rules for Concentration, Interrupted Casting and Duels (*Magic Mastery*) as written.
+
+### Protection
+
+Mortal Folk have resistance only from what they wear and the spells they cast. A caster that expects a fight casts its protective spells before it begins, paying the magan from its pool; a caster taken by surprise has not.
+
+- <span id="adepts"></span>**Adepts** are unprepared if caught off guard, and protected if they knew the fight was coming.
+- <span id="leaders"></span>**Leaders** always have allies present and usually have their defenses in place.
+- <span id="champions-and-above"></span>**Champions and above** always have armor, a companion or servant, or another source of protection on their stat block.
+
+A Grand Master-weight caster of any rank needs a full defensive ability, such as a ward spell or a servant that takes blows for it. A spell that only punishes attackers is not a defense.
 
 ### Stat Block Format
 
-Creatures with magic include a Spellcasting line below their classification package:
+The Spellcasting ability lists the casting attribute and its tier die, the spell dice, the Spell DC and the forms. The creature's Magan appears in its stat table. Each spell follows:
 
-`Spellcasting: Mastery Level [X] (Rank). ATD [die] ([attribute]). Spell DC [Y].`
+`***Name*** *(Spell: [Command] [Form]. [Cost] magan. [Speed]. [Concentration]).* [Reach], [Duration]. [Effect, with the creature's numbers filled in].`
 
 ### Magical vs Non-Magical Abilities
 
 Spells are magical. Damage is mundane or magical by its type (magical types: Fire, Sea, Sky, Stone, Void, Profane, Sacred, Primal). An enchanted weapon still deals its weapon's mundane damage; anything magic adds to a hit, such as Imbue or an enchantment, is a separate portion of the hit with its own type. This is the test for effects that distinguish the two (e.g., Incorporeal gives Inferiority to mundane attacks; Unyielding Advance ignores non-magical means). A creature's natural attack is mundane unless it deals a magical damage type; an on-hit form rider (e.g., Living Flame, Flaming Blade) makes that portion of the hit magical.
 
-Creature abilities carry no separate magic tag. A shapeshifted caster uses the creature's stat block as written (see *[Magic Mastery](../magic/index.md)*, [Shapeshifting](../magic/exorcism-enchantment-shapeshifting.md#shapeshifting)).
-
-### Mortal NPC Casters
-
-Mortal enemies who learned magic (a bandit mage, a cultist priest) use simplified magan pools listed in their stat block. Their spells are still ability slots, but the pool limits total casting per encounter. Format and formula TBD.
+Spells are marked "Spell" in their header; other creature abilities carry no magic tag. A shapeshifted caster uses the creature's stat block as written (see *[Magic Mastery](../magic/index.md)*, [Shapeshifting](../magic/exorcism-enchantment-shapeshifting.md#shapeshifting)).
 
 ---
 
 ## Weapon Styles
 
 Weapon style modifiers are baked into the stat block during creature building. The GM sees final numbers, not style rules.
+
+<span id="weapon-style-modifiers"></span>**Weapon Style Modifiers**
 
 | Style | Attack | Defense | Special |
 |:---|:---|:---|:---|
@@ -335,6 +333,8 @@ When building a creature, apply the style step to the relevant dice in the attac
 <span id="the-shields-1-step-applies-to-all-attacks"></span>**The Shield's −1 step applies to all attacks** while the shield is equipped, including thrown weapons. A creature wielding a shield and throwing a weapon still has the −1 step on the throw.
 
 <span id="shields"></span>**Shields (NPCs).** A shield's listed Durability is its maximum. Its starting Durability is Tier × 25% of that maximum (rounded down), full from Tier 4. When a hit gets past defense and resistance, the damage passes through layers in order: shield, armor, then Health. Each layer absorbs damage up to its current Durability and passes the rest to the next. The GM decides whether the shield takes the hit; if not, the damage starts at the armor. A creature without armor still uses its shield, and damage passes from the shield straight to Health. When the shield's Durability reaches 0, it breaks: the NPC loses the Shield style's +1 step on defense and can no longer defend against ranged attacks. A held shield can be dropped freely, and the NPC can then use a different grip or pick up another shield. A strapped shield costs 1 AP to remove; until it is removed, the NPC stays in the shield grip with a broken shield and keeps the Shield style's −1 step on attack. A looted shield repairs to its maximum like armor.
+
+<span id="starting-shield-durability-by-tier"></span>**Starting Shield Durability by Tier**
 
 | Tier | Kite (max 24) | Heater (max 18) | Targe (max 12) |
 |:---:|:---:|:---:|:---:|
