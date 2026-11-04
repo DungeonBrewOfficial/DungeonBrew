@@ -294,13 +294,23 @@ There is a variety of items that are useful to adventurers and travelers of all 
 | Injury Kit | L [5] / 2 lbs. | 1 ss |
 | Ink, Black (Vial) | L [20] / .5 lb. | 2 sp |
 | Ink, Colored (Vial) | L [20] / .5 lb. | 1 ss |
-| Instrument, Bagpipe | L / 8 lbs. | 2 ss |
-| Instrument, Chalumeau | L / 1 lb. | 6 sp |
-| Instrument, Dulcimer | L / 4 lbs. | 1 gn |
-| Instrument, Flute | L / 1 lb. | 2 ss |
-| Instrument, Gemshorn | L / 1 lb. | 6 sp |
-| Instrument, Harp | L / 4 lbs. | 1 gs |
-| Instrument, Zither | L / 10 lbs. | 2 gn |
+| Instrument, Bagpipe | L / 3 lbs. | 1 gn |
+| Instrument, Cittern | L / 2 lbs. | 1 gn |
+| Instrument, Fiddle | L / 2 lbs. | 1 sc |
+| Instrument, Flute | NE / .5 lb. | 2 ss |
+| Instrument, Harp | L / 5 lbs. | 1 sc |
+| Instrument, Harp, Fine | L / 5 lbs. | 2 sc |
+| Instrument, Horn, Hunting | L / 2 lbs. | 20 sp |
+| Instrument, Lute | L / 2 lbs. | 1 gn |
+| Instrument, Lute, Fine | L / 2 lbs. | 1 gs |
+| Instrument, Lyre | L / 2 lbs. | 4 ss |
+| Instrument, Pipe and Tabor | L / 3 lbs. | 54 sp |
+| Instrument, Psaltery | L / 3 lbs. | 1 sc |
+| Instrument, Recorder | NE / .5 lb. | 40 sp |
+| Instrument, Shawm | L / 2 lbs. | 1 gs |
+| Instrument, Tabor | L / 3 lbs. | 4 ss |
+| Instrument, Trumpet | L / 3 lbs. | 2 gn |
+| Instrument, Viol | L / 4 lbs. | 2 gn |
 | Iron Hand | NE / 3 lbs. | 2 gs |
 | Iron Pot | L / 5 lbs. | 2 sp |
 | Iron Spike | L [10] / 1 lb. | 2 sp |
@@ -415,19 +425,35 @@ The listed price reflects an empty starter codex. The value increases by 2 sc fo
 
 <span id="ink-colored"></span>**Ink, Colored (Vial)**. Colored inks are made from a variety of sources, including cinnabar, lapis lazuli, verdigris, ochre, saffron, or combinations thereof. One vial of ink is enough to write about 500 words or one side of a page.
 
-<span id="instrument-bagpipe"></span>**Instrument, Bagpipe**. A set of bagpipes minimally consists of an air supply, a bag, a chanter, and usually at least one drone.
+<span id="instrument-bagpipe"></span>**Instrument, Bagpipe**. A leather bag, filled by mouth, that feeds a chanter and one or more drones.
 
-<span id="instrument-chalumeau"></span>**Instrument, Chalumeau**. A simple rustic reed-pipe with 6 to 8 finger-holes.
+<span id="instrument-cittern"></span>**Instrument, Cittern**. A flat-backed, wire-strung instrument plucked with a quill, cheaper and hardier than a lute.
 
-<span id="instrument-dulcimer"></span>**Instrument, Dulcimer**. A shallow closed box over which are stretched wires to be struck with 2 wooden hammers held in the player's hands.
+<span id="instrument-fiddle"></span>**Instrument, Fiddle**. A waisted, bowed string instrument played at the shoulder or the knee. The crwth and the pear-shaped rebec are close kin.
 
-<span id="instrument-flute"></span>**Instrument, Flute**. A wind instrument made of wood. Either side-blown or end-blown.
+<span id="instrument-flute"></span>**Instrument, Flute**. A wooden pipe blown across a hole in its side.
 
-<span id="instrument-gemshorn"></span>**Instrument, Gemshorn**. A type of flute made from the horn of a chamois or ox. Softer sound than other flutes.
+<span id="instrument-harp"></span>**Instrument, Harp**. A wooden frame strung with gut or wire and plucked with the fingers. A fine harp is carved and richly strung, the instrument of a chief poet.
 
-<span id="instrument-harp"></span>**Instrument, Harp**. An open frame over which is stretched a graduated series of strings, which are vibrated by plucking with the fingers.
+<span id="instrument-horn-hunting"></span>**Instrument, Horn, Hunting**. A curved horn of ox horn or brass, blown to call hounds and to signal across a field.
 
-<span id="instrument-zither"></span>**Instrument, Zither**. A flat wooden soundbox over which are stretched four or five melody strings, and up to thirty-seven accompanying strings. The melody strings are plucked by a plectrum on the right thumb. The accompanying strings are plucked by fingers of either hand.
+<span id="instrument-lute"></span>**Instrument, Lute**. A round-backed instrument with paired strings, plucked with a quill or the fingers. A fine lute comes from a master's workshop.
+
+<span id="instrument-lyre"></span>**Instrument, Lyre**. A flat soundbox with a wooden yoke and a few strings, plucked or strummed. The timpán is its bowed or plucked cousin.
+
+<span id="instrument-pipe-and-tabor"></span>**Instrument, Pipe and Tabor**. A three-holed pipe played with one hand while the other beats a small drum slung from the arm. One player covers both.
+
+<span id="instrument-psaltery"></span>**Instrument, Psaltery**. A flat soundbox strung with wire and plucked with the fingers or quills. The dulcimer, its kin, is struck with small hammers.
+
+<span id="instrument-recorder"></span>**Instrument, Recorder**. An end-blown wooden pipe with a whistle mouthpiece and finger holes.
+
+<span id="instrument-shawm"></span>**Instrument, Shawm**. A loud double-reed pipe with a flaring bell, played by town waits and at outdoor festivities.
+
+<span id="instrument-tabor"></span>**Instrument, Tabor**. A small, double-headed drum with a snare, beaten with a single stick.
+
+<span id="instrument-trumpet"></span>**Instrument, Trumpet**. A long, straight brass trumpet used for signals, ceremony and war.
+
+<span id="instrument-viol"></span>**Instrument, Viol**. A fretted, bowed instrument held upright on or between the knees.
 
 <span id="iron-hand"></span>**Iron Hand**. A mechanised hand of sheet iron, built by a locksmith and an armourer. The fingers move in pairs and are set into position with the other hand. Lets a character who has lost a hand grip a weapon or shield, restoring two-handed grips. Penalty −2 on trials using fine tools with that hand.
 
@@ -544,6 +570,8 @@ A focus is an object that channels a caster's power (see *[Magic Mastery](../mag
 - <span id="worn"></span>**Worn** foci work while worn and need no hand.
 - <span id="held"></span>**Held** foci must be in your hand when you declare the spell, and are drawn and stowed like any item. A held focus gives Dominance on the spell's miscast trials (see *[Magic Mastery](../magic/index.md)*, [Components](../magic/index.md#components)).
 - <span id="weapon"></span>**Weapon** foci work while wielded. A rod can be wielded as a Club, and a staff as a Quarterstaff.
+
+Musical instruments (see *[Adventuring Gear](#adventuring-gear)*) are Held foci.
 
 | Focus | Kind | Enc / Weight | Price | Carry |
 |:---|:---|:---:|:---:|:---|

@@ -131,6 +131,11 @@ You can weave magic through music and oral tradition. When you sing, you can eit
 
 <span id="maintaining-a-song"></span>**Maintaining a Song:** Not declared. You maintain it on your turn, in whatever phase you act.
 
+<span id="playing"></span>**Playing.** You can play your bound instrument as you sing (see *[Equipment](../../equipment/gear-and-services.md)*, [Foci](../../equipment/gear-and-services.md#foci)). Playing costs no AP. While you play, you cannot attack or defend, and you can still cast spells: playing counts as using your focus and as your spell's gestures. While you play:
+
+- Creatures held by your Satire have Impotence on trials to resist your spells.
+- While you maintain a Praise song, you can target any ally within its 30 feet with a spell as if the ally were within the spell's range, including touch.
+
 <span id="advancing-tiers"></span>**Advancing Tiers:** A song always begins at Tier 1. Each round you maintain a song, you can choose to maintain the current tier or advance to the next tier at increased cost. You can also reduce the tier voluntarily by any number of tiers. When you advance a Satire to the next tier, each target rolls its trial again; only those who fail advance. Those who succeed remain at their current tier and remain affected.
 
 <span id="maintained-tiers"></span>**Maintained Tiers:** A Praise song is a lasting source: while you maintain it, it holds its tier on each ally within 30 feet (see *[Conditions](../../core/conditions.md)*, [Lasting sources](../../core/conditions.md#lasting-sources)). At the start of each of your turns, the song restores any of its tiers an ally has lost. Restored tiers counter an opposing condition first, as normal. Satire songs do not restore; a target whose condition is cancelled is no longer affected by the song.

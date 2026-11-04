@@ -53,6 +53,10 @@ Every creature wants something. Before building its numbers, decide what drives 
 
 Motivation decides behavior: when the creature fights, flees, talks, or bargains, and what would make it stop. Violence follows from motivation; it is not the default. A predator fights because hunting is what it is. A collector fights to keep what it has collected. Many creatures want something a party can give, refuse, or make not worth pursuing, and the fight comes when someone decides that killing it is simpler than understanding it.
 
+### Lore
+
+Many stat blocks include **What the stories say**: what a character can learn about a creature with a Lore trial, by how well the trial succeeds. These are stories, not facts. The GM decides which are true of the creature the party meets, and can change, cut, or add to them for their game. Where an ability depends on a story, the stat block says so, and the GM settles that story before play.
+
 ### Division
 
 Division = Tier + Rank offset (see **Division Offset by Rank**). Division is used for calculating challenge, XP, health die count, and the Division Tier Die (DTD) bonus applied to attacks, defense, and health for Adept and above.
@@ -147,17 +151,9 @@ Every 5 points of an attribute score = 1 attribute Tier. You reach the next Tier
 | 12 | 55-59 | 4d6 | Inhuman |
 | 13 | 60+ | 4d8 | Inhuman |
 
-Tiers 1-7 are mortal range. Tier 8+ is for creatures that exceed mortal limits — giants, dragons, legendary beasts, and similar inhuman entities. The die progression follows the same pattern as the DTD table.
+Tiers 1-7 are mortal range. Tier 8+ is for creatures that exceed mortal limits: giants, dragons, legendary beasts, and similar inhuman entities. Their dice continue up the Die Progression Chart ([Mastery System](../core/mastery-and-trials.md)), as the DTD does.
 
 Eight attributes: Strength, Agility, Physique, Endurance, Intelligence, Wisdom, Charisma, Perception.
-
-### Die Progression Chart
-
-0 → 1 → 1d2 → 1d3 → 1d4 → 1d6 → 1d8 → 1d10 → 1d12 → 2d6 → 2d8 → 2d10 → 2d12
-
-### Exploding Dice
-
-Attack and defense dice explode on a max roll. **d2s never explode** — this is universal, not just for minions. In any roll containing a d2, only the non-d2 dice can explode.
 
 ---
 
@@ -492,7 +488,7 @@ Same stat formulas as Adepts, except:
 <span id="master-signature"></span>**Master signature (2 AP, Action):** Every Master has one ability that ties it to its people, strengthening them, drawing on them or acting through them, and that exceeds one standard limit by one step (the whole encounter at Tier 1 or Tier 3 deteriorating; two tiers at once; every eligible creature instead of one; or one size larger). It is used once per encounter, or limited by something the fight rations on its own. Buffs are the most common form, not the only one:
 
 - <span id="deteriorating"></span>**Deteriorating:** Starts at T3 of a buff condition, degrades by 1 tier per round. Front-loaded burst that fades.
-- <span id="persistent"></span>**Persistent:** Applies at T1, lasts until end of encounter. Steady, unwavering buff.
+- <span id="persistent"></span>**Persistent:** Applies at T1, lasts until the end of the encounter, or until the Master dies, goes [Catatonic](../core/conditions.md#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."), or is no longer part of the encounter. Steady, unwavering buff.
 
 Standard Leader-style buffs (2 AP, 1-round duration, stackable) are also available — the 1/encounter ability is in addition to, not instead of.
 
