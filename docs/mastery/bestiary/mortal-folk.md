@@ -225,7 +225,7 @@ A military compact is a body of soldiers bound by contract: sanctioned (a crown'
 
 <span id="empty-fade"></span>***Empty Fade*** *(1 AP, Reaction. Ability slot 2).* When an enemy approaches to make a melee attack, the Captain feints retreat. The attacker must succeed on a PER trial [7] or attack with Impotence while the Captain defends normally. If the attack misses, the Captain makes a Counterattack against the attacker with a Bonus of +4. If the attack hits, the attacker gains a bonus equal to their attack attribute tier to damage.
 
-<span id="command-shout"></span>***Command Shout*** *(2 AP, Action. 1/encounter. Ability slot 3).* The Captain shouts orders. All allied soldiers within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Persists until end of encounter.
+<span id="command-shout"></span>***Command Shout*** *(2 AP, Action. 1/encounter. Ability slot 3).* The Captain shouts orders. All allied soldiers within 30 feet advance [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls.") by 1 tier. Persists until the end of the encounter, or until the Captain dies, goes [Catatonic](../core/conditions.md#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."), or is no longer part of the encounter.
 
 <span id="deflect"></span>***Deflect*** *(2 AP, declared at the start of the round. Ability slot 4).* The Captain cannot attack this round. Deflect's cost covers up to 3 defenses this round. Any other AP it has can be spent normally, except on attacks.
 
@@ -376,13 +376,15 @@ Priscan casters hold the power of the numen in something they carry: spells boun
 
 *Division 6, Tier 3, Champion. 1×1 Mortal Folk (Void).*
 
-A Priscan practitioner who has given a lifetime to the threshold of death. Bone answers it. It wears its own in plates when it's threatened, and it never goes anywhere without one of the dead it has bound walking a step ahead.
+A Priscan practitioner who has given a lifetime to the threshold of death. Bone answers it. It wears its own in plates when it's threatened, and it never goes anywhere without one of the dead it has bound walking a step ahead. Binding another takes time and effort, but it can be done.
 
 <span id="attributes_7"></span>**Attributes:**
 
 | STR | AGI | PHY | END | INT | WIS | CHA | PER |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 6 (T2, d3) | 12 (T3, d4) | 10 (T3, d4) | 15 (T4, d6) | 14 (T3, d4) | 16 (T4, d6) | 10 (T3, d4) | 20 (T5, d8) |
+
+<span id="attendant"></span>**Attendant:** Ro Langs (Daeva)
 
 | Stat | Value |
 |:---|:---|
@@ -408,11 +410,9 @@ A Priscan practitioner who has given a lifetime to the threshold of death. Bone 
 - <span id="pall-strike"></span>***Pall Strike*** *(Spell: Obliterate Profane. 4 magan. Moderate).* 30 ft, Instantaneous. AGI trial [7] or d8 + d10 Profane damage and [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Decaying) 5.
 - <span id="dread"></span>***Dread*** *(Spell: Enchant Profane. 6 magan. Moderate. Concentration).* 30 ft, Short. WIS trial [7] or advance [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") by 1 tier.
 
-<span id="bound-dead"></span>***Bound Dead*** *(Ability slot 4).* The Bone-Speaker is attended by one bound dead (below). It acts on its own AP. If the Bone-Speaker dies, the bound dead collapses. A destroyed bound dead can be replaced over an exploration round.
+<span id="bound-dead"></span>***Bound Dead*** *(Ability slot 4).* The Bone-Speaker is attended by one ro langs (Daeva), a corpse with a spirit bound into it. It acts on its own AP. The binding ends only when the Bone-Speaker dies; the ro langs then remains, free to do what its spirit wants.
 
-> **Bound Dead** *(Tier 3 Adept, Division 4. 1×1 Daeva Gestalt, Undead (Profane).)*
-> Attack (Rusted Blade, Moderate) d6 (DTD) + d4 (STR) Cutting. Health 12 + 4d4 + d6 (~25). Resistance Cut 6, Cleave 6, Crush 3, Pierce 8, Puncture 7. Defense d6 + d4. AP 2. Speed 5 (25 ft). Does not breathe, eat, or sleep; immune to Profane damage; Impotence on trials vs Sacred damage.
-> ***Intercept*** *(1 AP, Reaction).* When an enemy within its reach attacks the Bone-Speaker, before the attack is rolled, the bound dead moves between them, swapping places with the Bone-Speaker if both are willing. It becomes the target of the attack and gains Dominance on its defense roll.
+- <span id="stand-between"></span>***Stand Between*** *(1 AP, Reaction).* When an enemy within the ro langs's reach attacks the Bone-Speaker, before the attack is rolled, the Bone-Speaker commands the ro langs between them: the two swap places, the ro langs becomes the target of the attack, and it gains Dominance on its defense roll.
 
 <span id="behavior"></span>**Behavior:** The Bone-Speaker never enters a fight unprepared if it can help it: Boneskin is up, and its bound dead stands in front of it. It works from behind the servant with spray and pall, and turns Dread on whoever pushes through.
 
@@ -624,7 +624,7 @@ Militia are peasants with spears, the most basic armed force a lord can muster.
 
 <span id="pinning-shot_1"></span>***Pinning Shot*** *(1 AP, Attack. Ability slot 1).* On a hit with a bow attack, with Inferiority, if damage is dealt, the target must succeed on a STR trial [5] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Multiple successful Pinning Shots stack the condition.
 
-<span id="mark-quarry"></span>***Mark Quarry*** *(2 AP, Action. Ability slot 2).* The ranger captain designates a target within line of sight. All allied hunters and beasts within 60 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier against that target only. Can be reapplied to stack tiers.
+<span id="mark-quarry"></span>***Mark Quarry*** *(2 AP, Action. Ability slot 2).* The ranger captain designates a target within line of sight. All allies within 60 feet advance [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") by 1 tier against that target only. Lasts 1 round. Can be reapplied each round to stack tiers, up to Tier 3.
 
 ---
 
@@ -761,6 +761,6 @@ A minor lord holds several manors and the people on them: a baron, a thane, what
 
 <span id="driving-blow"></span>***Driving Blow*** *(2 AP, Attack. Ability slot 3).* The minor lord makes a mace attack. If it deals damage, the target must succeed on a STR trial [7] or be knocked back 10 feet; on failure by 5 or more, it is also knocked prone. A target more than one size larger is not knocked back, but is still knocked prone on failure by 5 or more.
 
-<span id="stand-fast"></span>***Stand Fast*** *(2 AP, Action. 1/encounter. Ability slot 4).* The minor lord calls on their household. Every creature sworn to them within 60 feet advances [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") by 1 tier. It persists until the end of the encounter, or until the minor lord falls.
+<span id="stand-fast"></span>***Stand Fast*** *(2 AP, Action. 1/encounter. Ability slot 4).* The minor lord calls on their household. Every creature sworn to them within 60 feet advances [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn.") by 1 tier. It persists until the end of the encounter, or until the minor lord dies, goes [Catatonic](../core/conditions.md#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."), or is no longer part of the encounter.
 
 <span id="behavior_5"></span>**Behavior:** Mounted, the minor lord opens with a Charge and uses Driving Blow to break the line in front of them; unhorsed, they fight from behind their shield. A foe worth a ransom may be offered quarter rather than killed.
