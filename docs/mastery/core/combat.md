@@ -75,7 +75,7 @@ Your phase is set by what you declare this round, not by what you hold. If you d
 
 <span id="acting-faster-than-your-weapon"></span>**Acting Faster Than Your Weapon**: If your phase is faster than the weapon you hold, you cannot attack with it on your turn. You can still defend and make reprisal attacks with it.
 
-<span id="spell-casting"></span>**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance over a large area, is Moderate). See [Magic Mastery](../magic/index.md), [Spell Speed](../magic/index.md#spell-speed).
+<span id="spell-casting"></span>**Spell Casting**: Spells also have speeds, set by their magan cost (Flame Dart is Fast; Thunderclap, cast at distance at Scale 3, is Moderate). See [Magic Mastery](../magic/index.md), [Spell Speed](../magic/index.md#spell-speed).
 
 <span id="weapon-switching"></span>**Weapon Switching**: Stowing a weapon costs 1 AP. Drawing a weapon costs 1 AP. A full weapon swap (stow old, draw new) costs 2 AP. Dropping a weapon is free, so dropping your current weapon and drawing a new one costs 1 AP, but your old weapon is on the ground. Phase determination for weapon switches is handled in the Declaration Phase (see [Combat Flow](#combat-flow), step 2).
 
@@ -266,7 +266,7 @@ Refers to casting a spell. Costs vary by spell (typically 1 or 2 AP).
 
 ### Wounds
 
-A wound is reflected by a decrease in your health pool. When you take damage to your health, you have suffered a wound. Wounds can be healed with rest, food, a healer's Wound Kit, or magic.
+A wound is reflected by a decrease in your health pool. When you take damage to your health, you have suffered a wound. Wounds can be healed with rest, food, a healer's Wound Kit, or magic. Healing other than magic mends the oldest damage first. Magic heals only damage within the damage age it was cast for (see *[Magic Mastery](../magic/index.md)*, [Healing and Repair](../magic/index.md#healing-and-repair)).
 
 ### Injuries
 

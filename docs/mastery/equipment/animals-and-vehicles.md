@@ -11,35 +11,35 @@ generated_by: tools/sync_mastery.py
 
 While there are a variety of animals that can be purchased for trade or consumption, the animals listed below are most often chosen by adventurers looking for useful or loyal companions. Animals with a stat block in *Creatures – Mortal Beasts* use that block; the entry below tells you which. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*.
 
-<span id="bird-trained-hunting"></span>**Bird, Trained Hunting**. Trained hunting birds are birds of prey caught in the wild and then trained and sold. They hunt for their handler, bringing back 1, 2, or 3 meals of raw game on a successful hunt depending on size (an eagle, 4). While capable of taking some larger prey, they can rarely carry it back and instead circle to mark the kill. They also scout, circling above nearby creatures, and circle over their handler and cry when they see creatures approaching. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Small, Middling, or Large Hunting Bird, or Hunting Eagle, by species.*
+<span id="bird-trained-hunting"></span>**Bird, Trained Hunting**. Trained hunting birds are birds of prey caught in the wild and then trained and sold. They hunt for their handler, bringing back meals of raw game on a successful hunt: 1 for a merlin, hobby, or sparrowhawk; 2 for a peregrine or lanner; 3 for a saker, gyrfalcon, or goshawk; 4 for an eagle. While capable of taking some larger prey, they can rarely carry it back and instead circle to mark the kill. They also scout, circling above nearby creatures, and circle over their handler and cry when they see creatures approaching. Commands and further training follow *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: the bird's Hunting Bird block (such as Merlin / Hobby, Hunting Bird), or Hunting Eagle.*
 
-There are premiums for the type of bird, the color, and the quality. The lowest end of the spectrum is around 1 gs for an untrained, poor-quality bird (*stat block: the matching Raptor or Eagle*). There is practically no upper limit to a high-quality, well-trained bird, especially for the right color and the right buyer. However, a reasonable value for a trained hunting bird generally falls between 5 gs and 50 gs.
+There are premiums for the type of bird, the color, and the quality. The lowest end of the spectrum is around 1 gs for an untrained, poor-quality bird (*stat block: the bird's wild block, such as Merlin / Hobby, or Eagle*). There is practically no upper limit to a high-quality, well-trained bird, especially for the right color and the right buyer. However, a reasonable value for a trained hunting bird generally falls between 5 gs and 50 gs.
 
 * <span id="golden-eagle"></span>**Golden Eagle** (Eagle) - Largest available hunting bird, which is capable of hunting most other birds and small mammals up to the size of fawns.
-* <span id="goshawk"></span>**Goshawk** (Large hawk) - Medium to large hawk that is a proficient hunter in woodlands, usually targeting medium to large birds and small mammals.
-* <span id="gyrfalcon"></span>**Gyrfalcon** (Large falcon) - Large falcon that hunts other raptors and birds up to the size of geese and small mammals up to 24 lbs.
-* <span id="hobby"></span>**Hobby** (Small falcon) - Small falcon that hunts small birds.
-* <span id="lanner-falcon"></span>**Lanner Falcon** (Middling falcon) - Middling falcon that hunts other raptors and birds.
-* <span id="merlin"></span>**Merlin** (Small falcon) - Small falcon that excels at hunting, particularly game birds such as quail.
-* <span id="peregrine-falcon"></span>**Peregrine Falcon** (Middling falcon) - Middling falcon that hunts other raptors and birds, up to the size of a duck. Females are larger.
-* <span id="saker-falcon"></span>**Saker Falcon** (Large falcon) - Large falcon that hunts small mammals and medium to large birds.
-* <span id="sparrowhawk"></span>**Sparrowhawk** (Small hawk) - Small hawk that hunts small birds and is generally hunted by many other raptors.
+* <span id="goshawk"></span>**Goshawk** (Goshawk) - Medium to large hawk that is a proficient hunter in woodlands, usually targeting medium to large birds and small mammals.
+* <span id="gyrfalcon"></span>**Gyrfalcon** (Saker / Gyrfalcon) - Large falcon that hunts other raptors and birds up to the size of geese and small mammals up to 24 lbs.
+* <span id="hobby"></span>**Hobby** (Merlin / Hobby) - Small falcon that hunts small birds.
+* <span id="lanner-falcon"></span>**Lanner Falcon** (Peregrine / Lanner) - Medium falcon that hunts other raptors and birds.
+* <span id="merlin"></span>**Merlin** (Merlin / Hobby) - Small falcon that excels at hunting, particularly game birds such as quail.
+* <span id="peregrine-falcon"></span>**Peregrine Falcon** (Peregrine / Lanner) - Medium falcon that hunts other raptors and birds, up to the size of a duck. Females are larger.
+* <span id="saker-falcon"></span>**Saker Falcon** (Saker / Gyrfalcon) - Large falcon that hunts small mammals and medium to large birds.
+* <span id="sparrowhawk"></span>**Sparrowhawk** (Sparrowhawk) - Small hawk that hunts small birds and is generally hunted by many other raptors.
 
-<span id="dog-guard"></span>**Dog, Guard**. A guard dog is a medium or giant breed, such as a shepherd or mastiff, trained to keep watch. They are trained to wear light barding and come with gambeson barding. They often need to sleep during the day. When traveling, they tend to ride on the wagon so that they can stay awake during the night. A guard dog will naturally approach intruders and alert its master of an impending threat, going so far as to attack if they persist into a guarded area. *Stat block: Medium Guard Dog or Giant Guard Dog.*
+<span id="dog-guard"></span>**Dog, Guard**. A guard dog is a standard or giant breed, such as a shepherd or mastiff, trained to keep watch. They are trained to wear light barding and come with gambeson barding. They often need to sleep during the day. When traveling, they tend to ride on the wagon so that they can stay awake during the night. A guard dog will naturally approach intruders and alert its master of an impending threat, going so far as to attack if they persist into a guarded area. *Stat block: Standard Guard Dog or Giant Guard Dog.*
 
 A working guard dog requires 1 sp in rations per day and requires 6 cf per day to kennel.
 
-<span id="dog-hunting"></span>**Dog, Hunting**. A hunting dog is a medium or large breed, such as a spaniel or hound, trained to track and retrieve hunted quarry. They will naturally survey an area for strange smells and alert their master. *Stat block: Medium Hunting Dog or Large Hunting Dog.*
+<span id="dog-hunting"></span>**Dog, Hunting**. A hunting dog is a standard or heavy breed, such as a spaniel or hound, trained to track and retrieve hunted quarry. They will naturally survey an area for strange smells and alert their master. *Stat block: Standard Hunting Dog or Heavy Hunting Dog.*
 
 A working hunting dog requires 1 sp in rations per day and requires 6 cf per day to kennel.
 
-<span id="dog-untrained"></span>**Dog, Untrained**. A dog of working stock that has not been trained for war, guard, or hunting work. It follows its owner and can be trained through *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Medium Dog, Large Dog, or Giant Dog.*
+<span id="dog-untrained"></span>**Dog, Untrained**. A dog of working stock that has not been trained for war, guard, or hunting work. It follows its owner and can be trained through *[Animal Companion Advancement](../skills/wilderness/animal-companions.md)*. *Stat block: Standard Dog, Heavy Dog, or Giant Dog.*
 
 | Animal | Quantity | Price |
 |:---|:---:|:---:|
-| Bird, Hunting (Large) | per | 5 gs
-| Bird, Hunting (Middling) | per | 2 gs
-| Bird, Hunting (Small) | per | 1 gs
+| Bird, Hunting (Merlin, Hobby, Sparrowhawk) | per | 1 gs
+| Bird, Hunting (Peregrine, Lanner) | per | 2 gs
+| Bird, Hunting (Saker, Gyrfalcon, Goshawk) | per | 5 gs
 | Bird, Hunting Eagle | per | 20 gs
 | Boar | per |	12 ss
 | Bull | per |	12 ss
@@ -78,7 +78,7 @@ A working hunting dog requires 1 sp in rations per day and requires 6 cf per day
 | Songbird | per |	2 ss
 | Swan | per |	4 ss
 
-<span id="dog-war"></span>**Dog, War**. A war dog is a large or giant breed, such as a rottweiler or mastiff, trained for war. They are trained to wear light barding and come with boiled leather barding. They naturally gravitate toward simple tactics, such as flanking enemies. *Stat block: Heavy War Dog or Giant War Dog.*
+<span id="dog-war"></span>**Dog, War**. A war dog is a heavy or giant breed, such as a rottweiler or mastiff, trained for war. They are trained to wear light barding and come with boiled leather barding. They naturally gravitate toward simple tactics, such as flanking enemies. *Stat block: Heavy War Dog or Giant War Dog.*
 
 A working war dog requires 1 sp in rations per day and requires 6 cf per day to kennel.
 

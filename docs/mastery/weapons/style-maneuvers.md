@@ -352,7 +352,7 @@ You aim for the target's weapon hand or weapon to knock it from their grip at ra
 
 <span id="cost_20"></span>**Cost**: 1 AP
 
-<span id="trigger_20"></span>**Trigger**: Attack, targeting an Average or smaller creature wielding a weapon
+<span id="trigger_20"></span>**Trigger**: Attack, targeting a Middling or smaller creature wielding a weapon
 
 <span id="effect_20"></span>**Effect**: Make a ranged attack with Inferiority. On hit, instead of dealing damage, the target makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, their weapon is knocked from their grip and lands 10 feet away. They must use movement to retrieve it or switch to another weapon.
 

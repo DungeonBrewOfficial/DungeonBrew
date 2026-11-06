@@ -129,7 +129,7 @@ Your Puca is a Fae creature with its own health pool. It is immune to Primal dam
 
 <span id="rest"></span>**Rest:** As a character, using its tier die for the Endurance tier die and your level for class level. It treats a safe Wilderness Rest as a Good Night's Rest.
 
-<span id="attack"></span>**Attack:** Your Wisdom tier die + Puca tier die. Natural weapon. Damage type determined by form. Its natural attacks act by its current size: Fast at ½ square, Moderate at 1 square, Slow at 2 squares or more.
+<span id="attack"></span>**Attack:** Your Wisdom tier die + Puca tier die. Natural weapon. Damage type determined by form. Its natural attacks act by its current size: Fast at ¼ or ½ square, Moderate at 1 square, Slow at 2 squares or more.
 
 <span id="defense"></span>**Defense:** Your Wisdom tier die + Puca tier die + Resistance.
 
@@ -139,7 +139,7 @@ Your Puca is a Fae creature with its own health pool. It is immune to Primal dam
 
 <span id="puca-dc"></span>**Puca DC:** Puca tier + your Wisdom tier.
 
-<span id="speed"></span>**Speed:** 3 + Puca tier + size modifier + locomotion (+4 on the movement mode the form qualifies for: four-legged runners on land, fliers in the air). Size modifier: ½ square −1, 1 square +0, 2 squares +2. Speed changes with form.
+<span id="speed"></span>**Speed:** 3 + Puca tier + size modifier + locomotion (+4 on the movement mode the form qualifies for: four-legged runners on land, fliers in the air). Size modifier: ¼ square −2, ½ square −1, 1 square +0, 2 squares +2. Speed changes with form.
 
 One health pool across all forms. Health represents the spirit's vitality, not the body's mass. Shapeshifting does not change Health.
 
@@ -179,16 +179,16 @@ At Tiers 1, 3, 5, and 7, choose one:
 
 - *Combat forms:* Size increases to 2 squares (size bonuses apply: +2 attack, +2 speed). You can ride the Puca while in combat form.
 - *Mount:* +2 speed. Your mounted charge gains Superiority on the damage roll on top of Dominance.
-- *Small Scout:* Environmental Specialization (Wilderness) on stealth trials. Vanish — the Puca can attempt to hide while observed in low light, obscured conditions, or during a distraction (1 AP). Stealth trials use Puca tier die + your Wisdom tier die.
+- *Tiny Scout:* Environmental Specialization (Wilderness) on stealth trials. Vanish — the Puca can attempt to hide while observed in low light, obscured conditions, or during a distraction (1 AP). Stealth trials use Puca tier die + your Wisdom tier die.
 - *Aerial Scout:* Shared Senses range extends to 5 miles while in this form.
 
 #### Forms
 
 <span id="utility-archetypes"></span>**Utility Archetypes** — simple capability packages. No tier progression. Available from Tier 1.
 
-<span id="small-scout"></span>**Small Scout** (Piercing; mouse, rat, weasel, ferret, cat): ½ square footprint. Can squeeze through small gaps. Speed: +4 land. Not a combat form.
+<span id="tiny-scout"></span>**Tiny Scout** (Piercing; mouse, rat, weasel, ferret, cat): ¼ square. Can squeeze through small gaps. Speed: +4 land. Not a combat form.
 
-<span id="aerial-scout"></span>**Aerial Scout** (Piercing; hawk, owl, falcon, raven): ½ square footprint. Flight. Speed: +4 fly. Not a combat form.
+<span id="aerial-scout"></span>**Aerial Scout** (Piercing; hawk, owl, falcon, raven): ¼ or ½ square, by the size of the bird. Flight. Speed: +4 fly. Not a combat form.
 
 <span id="mount"></span>**Mount** (Crushing; stag, horse, elk, caribou): 2 square footprint, large enough to ride. Speed: +4 land. Not a combat form.
 

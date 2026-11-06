@@ -152,7 +152,7 @@ Each time you gain a level, you can choose to re-bind your spells to different o
 
 ### Agathion
 
-You create or inherit a familiar bound to you that is known as an *agathion*. This creature can be an animal as small as a sparrow to an average creature or humanoid. Although an agathion appears and moves like these creatures, that is where their similarities end, possessing strange powers and subsisting on exotic fare, such as the light from a new moon, the dreams of children, or elf blood as determined by the GM.
+You create or inherit a familiar bound to you that is known as an *agathion*. This creature can be an animal as small as a sparrow to a Middling creature or humanoid. Although an agathion appears and moves like these creatures, that is where their similarities end, possessing strange powers and subsisting on exotic fare, such as the light from a new moon, the dreams of children, or elf blood as determined by the GM.
 
 An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevolent Fae. Its body is always mortal: a beast, a human, or a halfling. Only the spirit within it is Daeva, Morphon, or Fae. It possesses its own personality and will, often one reflecting its spirit, which is violent and chaotic. However, its existence is entirely under your control. Your agathion can become unruly if given too much freedom or if it no longer respects or fears you. Your control over your agathion allows you to change its appearance (such as skin, fur, or hair color), its ability to speak, and even imprison it within its own mind as a means of punishing and controlling it to bend it to your will.
 
@@ -166,7 +166,7 @@ An agathion is a creature that harbors the spirit of a Daeva, Morphon, or malevo
 - Telepathic communication only, within 60 feet
 - Gains 6 resistance to each mundane damage type at T1. Starting at T2, gain +1 resistance to all damage types per tier.
 - Health: Cursed Perception score, plus two of each tier die up to the Agathion's tier (2d2 at Tier 1, plus 2d3 at Tier 2, and so on); see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*
-- Speed: 3 + Agathion tier + size modifier (½ square −1, 1 square +0) + locomotion (+4 on the mode the creature qualifies for: four-legged runners on land, fliers, swimmers). Climbing is a capability without a speed bonus; burrowing is half land speed.
+- Speed: 3 + Agathion tier + size modifier (¼ square −2, ½ square −1, 1 square +0) + locomotion (+4 on the mode the creature qualifies for: four-legged runners on land, fliers, swimmers). Climbing is a capability without a speed bonus; burrowing is half land speed.
 
 <span id="humanoid-form"></span>**Humanoid Form:**
 
@@ -202,7 +202,7 @@ The Agathion has its own independent health pool.
 
 #### Agathion Attack and Defense
 
-<span id="attack-roll"></span>**Attack Roll:** Cursed's Perception tier die + Agathion tier die. In Beast Form, its natural attacks are Fast if it occupies ½ square and Moderate if it occupies 1 square. In Humanoid Form, it acts at the speed of its weapon, like any character.
+<span id="attack-roll"></span>**Attack Roll:** Cursed's Perception tier die + Agathion tier die. In Beast Form, its natural attacks are Fast if it occupies ¼ or ½ square and Moderate if it occupies 1 square. In Humanoid Form, it acts at the speed of its weapon, like any character.
 
 <span id="defense-roll"></span>**Defense Roll:** Cursed's Perception tier die + Agathion tier die + Resistance
 

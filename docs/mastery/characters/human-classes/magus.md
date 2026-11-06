@@ -128,7 +128,7 @@ You automatically advance in the *[Trade (Scribe)](../../skills/trade/index.md#s
 
 *Level 1*
 
-You attract a familiar to your side, a *[Morphon](../../bestiary/morphon.md)* or *[Primordial](../../bestiary/primordial.md)* spirit of small or average size. A small familiar occupies ½ square (+1 defense, −1 speed). An average familiar occupies 1 square. Its Tier increases with your level on the table below.
+You attract a familiar to your side, a *[Morphon](../../bestiary/morphon.md)* or *[Primordial](../../bestiary/primordial.md)* spirit of Tiny, Small, or Middling size. A Tiny familiar occupies ¼ square (+2 defense, −2 speed), a Small familiar ½ square (+1 defense, −1 speed), and a Middling familiar 1 square. Its Tier increases with your level on the table below.
 
 <span id="classification"></span>**Classification.** Your familiar carries the classification package of its kind.
 
@@ -152,7 +152,7 @@ You attract a familiar to your side, a *[Morphon](../../bestiary/morphon.md)* or
 | Fire | Climbs at its land speed |
 | Morphon | Runs (+4 land) |
 
-<span id="shoulder-riding"></span>**Shoulder Riding.** A small familiar can ride on you. While riding, it moves with you and remains present for its abilities.
+<span id="shoulder-riding"></span>**Shoulder Riding.** A Small or Tiny familiar can ride on you, and a Tiny familiar can also ride in a pack or pouch. While riding, it moves with you and remains present for its abilities. A familiar in a pack or pouch cannot be targeted and cannot act.
 
 #### Progression
 
@@ -176,7 +176,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 <span id="health_1"></span>**Health:** Shared with you. Each Tier adds its tier die to your shared health pool (compounding). See *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*.
 
-<span id="attack"></span>**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see [Classification](#classification)). Its natural attacks are Fast if it is small and Moderate if it is average.
+<span id="attack"></span>**Attack:** Your Intelligence tier die + Familiar tier die. Melee natural attack, 5 ft reach. Damage type by kind (see [Classification](#classification)). Its natural attacks are Fast if it is Tiny or Small and Moderate if it is Middling.
 
 <span id="defense"></span>**Defense:** Your Intelligence tier die + Familiar tier die + Resistance.
 
@@ -186,7 +186,7 @@ At Tiers 3 through 7, choose one ability per tier from your track (Morphon or Pr
 
 <span id="familiar-dc"></span>**Familiar DC:** Familiar Tier + your Intelligence Tier.
 
-<span id="speed"></span>**Speed:** 3 + Familiar Tier + size modifier (½ square −1, 1 square +0) + locomotion (see [Movement](#movement)).
+<span id="speed"></span>**Speed:** 3 + Familiar Tier + size modifier (¼ square −2, ½ square −1, 1 square +0) + locomotion (see [Movement](#movement)).
 
 <span id="ap"></span>**AP:** 2.
 
@@ -216,7 +216,7 @@ Your familiar dies only through Primordial Connection or if you die. A dead fami
 - Simple conditions imposed by Reserve end after 1 round. [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") ends when the creature stands.
 - Simple condition trials: [Prone](../../core/conditions.md#prone "Creature is on the ground. Standing costs 1 AP. Inferiority on attack and defense rolls. Enemies have Superiority on melee attacks against the prone creature. Enemies have Inferiority on ranged attacks against the prone creature. Movement reduced to 1 per AP. Cannot use weapon maneuvers.") uses Agility for a Stone familiar (the ground heaves) and Strength for a Sea or Sky familiar (a surge of water, a gust of wind). [Blinded](../../core/conditions.md#blinded "Cannot see. The creature treats all other creatures as Concealed (Tier 3). The creature may spend 1 AP and attempt a Perception trial (DC equal to the source of blindness) to make a single attack or defense roll with Impotence and Inferiority.") and [Deafened](../../core/conditions.md#deafened "Cannot hear. Auto-fail Perception trials related to hearing. Spells with verbal components require a Miscast trial.") use Perception (see *[Magic Mastery](../../magic/index.md)*, [Resisting Spells](../../magic/index.md#resisting-spells)).
 
-<span id="bolt"></span>**Bolt.** 1 AP. Fast if your familiar is small, Moderate if average. Once per round. Your familiar strikes one creature it can see within 30 feet with its form (its element, or Void for a Morphon). The target makes an Agility trial against the Familiar DC. On a failure, it takes damage equal to the Familiar tier die. Energy forms (Fire, Sky, Void) bypass armor and apply to health. Material forms (Sea, Stone) apply to armor durability, ignoring mundane armor resistance. Resistance to the form reduces the damage.
+<span id="bolt"></span>**Bolt.** 1 AP. Fast if your familiar is Tiny or Small, Moderate if Middling. Once per round. Your familiar strikes one creature it can see within 30 feet with its form (its element, or Void for a Morphon). The target makes an Agility trial against the Familiar DC. On a failure, it takes damage equal to the Familiar tier die. Energy forms (Fire, Sky, Void) bypass armor and apply to health. Material forms (Sea, Stone) apply to armor durability, ignoring mundane armor resistance. Resistance to the form reduces the damage.
 
 #### Morphon Track
 

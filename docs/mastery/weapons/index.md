@@ -208,7 +208,7 @@ You target your opponent's weapon hand or the weapon itself to knock it from the
 
 <span id="cost_4"></span>**Cost**: 1 AP
 
-<span id="trigger_4"></span>**Trigger**: Attack, Counterattack, Reprisal, targeting an Average or Small creature wielding a weapon
+<span id="trigger_4"></span>**Trigger**: Attack, Counterattack, Reprisal, targeting a Middling or Small creature wielding a weapon
 
 <span id="effect_4"></span>**Effect**: On a hit, instead of dealing damage, target makes a Strength or Physique Trial (their choice) against your Mastery DC. On failure, their weapon falls behind them out of reach. They must use movement to retrieve it or switch to another weapon.
 

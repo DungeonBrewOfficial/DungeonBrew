@@ -94,7 +94,7 @@ Casting enchant on a weapon adds your *mastery die* in that form as typed damage
 
 ## Shapeshifting
 
-Shapeshifting is a Transmute spell that transforms the target into a creature. The caster must know the connected form for the target creature's classification (see [Connected Form](#connected-form) table under Exorcise). Each form's Transmute governs its own classification.
+Shapeshifting is a Transmute spell that transforms the target into a creature. The caster must know the connected form for the target creature's classification (see *[Connected Form](#connected-form)*). Each form's Transmute governs its own classification.
 
 Shapeshifting spells are learned by creature subtype. Shapeshift (Beasts) and Shapeshift (Plants) are separate spells. The spell produces a generic member of the creature type, not a specific individual. A caster who knows Shapeshift (Beasts) can become a wolf, but not a particular wolf they encountered last week. Attempting to replicate a specific individual is an improvised casting. Duration modifications follow the standard familiar and modified familiar casting rules. The creature's Division is chosen at casting, up to the Division cap, and is not a recorded parameter; casting a known shapeshift into a creature of a different Division needs no miscast trial.
 
