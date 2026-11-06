@@ -160,6 +160,7 @@ Your Strength score represents the maximum weight your character can carry unenc
 * Moderate items count as 2 weight
 * Heavy items count as 4 weight
 * Insignificant items are weighed by stack: an entry such as L [10] means up to 10 of the item count as one Light item. The listed price and weight are for one item. In a quick-item container, each item takes its own slot.
+* A size word in an item's name, such as Sack, Large, compares it with others of its kind. The item's size is its own.
 * Containers always equal their weight
 * Ignore weight of items in Containers
 * Armor has its own weight value (see *[Worn Armor](#worn-armor)* and *[Carried Armor](#carried-armor)*)
@@ -217,7 +218,7 @@ A creature's carrying capacity equals its Strength score multiplied by its footp
 
 <span id="mount-encumbrance"></span>**Mount Encumbrance.** A mount's total load is the sum of its rider weight, barding, and cargo.
 
-<span id="rider-weight"></span>**Rider Weight.** A rider weighs their body (Small 3, Average 6) plus their current encumbrance points. The rider still tracks their own encumbrance against their own Strength score. *Example: an Average knight carrying 12 points of armor and gear weighs 18 to his mount.*
+<span id="rider-weight"></span>**Rider Weight.** A rider weighs their body (Small 3, Middling 6) plus their current encumbrance points. The rider still tracks their own encumbrance against their own Strength score. *Example: a Middling knight carrying 12 points of armor and gear weighs 18 to his mount.*
 
 <span id="tack"></span>**Tack.** Worn tack (saddle, bridle, saddle blanket, halter) does not count against a mount's capacity. Saddle bags and panniers count as containers: their own weight, with contents ignored.
 

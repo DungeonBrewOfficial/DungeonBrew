@@ -65,10 +65,10 @@ The larger the petard, the more skill it takes to make, and the bigger the gate 
 | Maker's mastery | Petard | Powder | Enc / Weight | Serpentine doses | Breaches | Powder price | Casing price |
 |:---|:---|:---:|:---:|:---:|:---|:---:|:---:|
 | Untrained, Basic | Hand petard | 2 lbs | L / 10 lbs. | 1 | A shutter or grate (Small) | 1 sc | 8 ss |
-| Skilled | Small petard | 5 lbs | H / 30 lbs. | 3 | A door (Medium) | 3 sc | 1 gs |
+| Skilled | Small petard | 5 lbs | H / 30 lbs. | 3 | A door (Middling) | 3 sc | 1 gs |
 | Expert | Medium petard | 15 lbs | 8 / 75 lbs. | 7 | A gate (Large) | 7 sc | 3 gs |
-| Master | Large petard | 25 lbs | 13 / 125 lbs. | 11 | A great gate (Huge) | 11 sc | 5 gs |
-| Grand Master | Great petard | 45 lbs | 23 / 225 lbs. | 20 | A fortress gate (Colossal) | 20 sc | 9 gs |
+| Master | Large petard | 25 lbs | 13 / 125 lbs. | 11 | A great gate (Massive) | 11 sc | 5 gs |
+| Grand Master | Great petard | 45 lbs | 23 / 225 lbs. | 20 | A fortress gate (Immense) | 20 sc | 9 gs |
 
 - <span id="the-blast"></span>**The blast:** a petard bursts one round after it's lit, in the same phase. The maker's dice strike anyone within 5 ft in front of it, including whoever lit it, who resist with an Agility trial against the dose's DC. The person placing it must stand there to light it.
 - <span id="price"></span>**Price:** the Serpentine doses at the grenade price (1 sc each), plus the bronze casing: about 4 lbs of bronze for every pound of powder, at 1 ss a pound. A recovered casing can be reused, and old bronze keeps its value as scrap.

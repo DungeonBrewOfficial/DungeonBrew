@@ -531,7 +531,7 @@ Same stat formulas as Adepts, except:
 | Epic | 4 (2/phase) | 2/phase | 2 of 3 | Solo viable, creature-specific abilities |
 | Legendary | 6 (2/phase) | 2/phase | All 3 | Hand-crafted, degree-of-failure mechanics |
 
-<span id="phase-ap"></span>**Phase AP (Epic and Legendary):** Rather than a single pool of AP per round, Epic and Legendary creatures get 2 AP per combat phase they are active in. This spreads their actions across the round, preventing alpha-strikes while giving them the total AP needed to compete with a full party. The party gets to act between phases, creating back-and-forth interplay.
+<span id="phase-ap"></span>**Phase AP (Epic and Legendary):** Epic and Legendary creatures have 2 AP for each combat phase they are active in, as one pool for the round (4 for an Epic, 6 for a Legendary). On its turn in each active phase, the creature can spend at most 2 AP on actions and make at most 2 attacks. Reactions, such as defending, can spend any AP left in the pool at any time in the round. Unspent AP is lost at the end of the round. This spreads the creature's actions across the round, preventing alpha-strikes while giving it the total AP needed to compete with a full party. The party gets to act between phases, creating back-and-forth interplay.
 
 ---
 
@@ -549,18 +549,19 @@ Total squares determine mechanical bonuses:
 
 | Size | Squares | Health Bonus Dice | Attack Bonus | Defense Bonus | Speed Modifier | Examples |
 |:---|:---:|:---:|:---:|:---:|:---:|:---|
-| Small | ½ | — | — | +1 | -1 | Rats, snakes, redcaps; gnomes and halflings |
-| Average | 1 | baseline | — | — | 0 | Humans, dwarves, wolves |
+| Tiny | ¼ | — | — | +2 | -2 | Songbirds, beetles, small vermin |
+| Small | ½ | — | — | +1 | -1 | Redcaps, foxes, falcons; gnomes and halflings |
+| Middling | 1 | baseline | — | — | 0 | Humans, dwarves, wolves |
 | Large | 2 | +2 | +2 | — | +2 | Horses (2×1), ogres (2×1), bears |
 | Massive | 4 | +4 | +4 | — | +4 | Ettins (2×2), dire wolves (2×2) |
 | Enormous | 6 | +6 | +6 | — | +6 | Bergrisar (3×2), young dragons |
 | Immense | 9+ | +8 | +8 | — | +8 | Ancient dragons, krakens |
 
-Small creatures (½sq) have no penalty to attack or health — their attributes already reflect their physical capability. The -1 speed is offset by +1 defense (small = harder to hit). Size attack bonus for larger creatures is flat (no extra dice, no explosion cascade). Size benefits (more health, more damage, more speed) are offset by tactical costs — larger footprints expose more sides for enemies to engage, stretching AP thin on defense. Larger creatures also have difficulty navigating tight spaces.
+Small (½ sq) and Tiny (¼ sq) creatures have no penalty to attack or health; their attributes already reflect their physical capability. Their speed penalty is offset by a defense bonus (the smaller, the harder to hit). Up to four Tiny creatures can share a square. Size attack bonus for larger creatures is flat (no extra dice, no explosion cascade). Size benefits (more health, more damage, more speed) are offset by tactical costs — larger footprints expose more sides for enemies to engage, stretching AP thin on defense. Larger creatures also have difficulty navigating tight spaces.
 
-<span id="size-names"></span>**Size names.** Each row's name is used wherever a rule refers to size. "One size larger" means one row up the Size by Footprint table.
+<span id="size-names"></span>**Size names.** Each row's name is used wherever a rule refers to size. "One size larger" means one row up the Size by Footprint table. A creature's size comes from its footprint; height and weight are description, not a stat. Breed names such as Standard Dog or Giant Dog describe a creature against others of its kind and are not sizes.
 
-<span id="pcs"></span>**PCs.** Every PC occupies 1 square. Gnomes and halflings are Small; all other PCs are Average. PCs use their size for size checks (maneuver size limits, effects that name a size); the table's modifiers are for creatures, and PCs take their size effects from their own traits.
+<span id="pcs"></span>**PCs.** Every PC occupies 1 square. Gnomes and halflings are Small; all other PCs are Middling. PCs use their size for size checks (maneuver size limits, effects that name a size); the table's modifiers are for creatures, and PCs take their size effects from their own traits.
 
 ---
 

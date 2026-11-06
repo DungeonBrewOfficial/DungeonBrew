@@ -14,6 +14,6 @@ Treasure is carried in one of three ways:
 - <span id="lashed"></span>**Lashed.** It's too big for a container, but can be lashed to a pack.
 - <span id="bulky"></span>**Bulky.** It can't go in a container or be lashed to one. Carry it in both hands, carry it on your back in place of a pack, or load it on a mount or vehicle.
 
-As a rule of thumb, anything up to about 2 lb fits, anything up to about 20 lb can be lashed, and anything heavier is Bulky. Cloth that can be rolled is lashed up to about 6 square yards; larger pieces are Bulky. Panels and stained glass can't be rolled.
+As a rule of thumb, anything up to about 10 lb fits, anything up to about 20 lb can be lashed, and anything heavier is Bulky. Cloth that can be rolled is lashed up to about 6 square yards; larger pieces are Bulky. Panels and stained glass can't be rolled.
 
 Gems, and most jewelry, add no weight. A piece of jewelry weighing over 1 lb is a Light item; this is mostly crowns, and torcs and coronets of gold or platinum. Plate and objects are Light items, except a nef, which is Moderate.

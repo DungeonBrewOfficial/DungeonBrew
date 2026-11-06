@@ -14,13 +14,13 @@ These rules apply to any object that doesn't have its own durability and resista
 
 | Category | Value | Examples |
 |:---|:---:|:---|
-| Tiny | 1 | Paper, vial, coin, lock, small pouch |
-| Small | 2 | Weapon, shield, chair, lantern |
-| Medium | 4 | Suit of armor, door, chest, barrel |
+| Tiny | 1 | Paper, vial, coin, lock, small pouch, dagger, lantern |
+| Small | 2 | Weapon, shield, chair |
+| Middling | 4 | Suit of armor, door, chest, barrel |
 | Large | 8 | Gate, wagon, wall section (10 ft) |
-| Huge | 16 | Building wall, bridge section |
-| Massive | 32 | Tower, ship hull |
-| Colossal | 64 | Castle wall, fortress gate |
+| Massive | 16 | Building wall, bridge section |
+| Enormous | 32 | Tower, ship hull |
+| Immense | 64 | Castle wall, fortress gate |
 
 Each size category roughly doubles the previous.
 
@@ -44,11 +44,11 @@ Hardness scales more aggressively than size: the gap between each level increase
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Tiny (1)** | 2 | 4 | 8 | 14 | 22 | 32 | 44 |
 | **Small (2)** | 4 | 8 | 16 | 28 | 44 | 64 | 88 |
-| **Medium (4)** | 8 | 16 | 32 | 56 | 88 | 128 | 176 |
+| **Middling (4)** | 8 | 16 | 32 | 56 | 88 | 128 | 176 |
 | **Large (8)** | 16 | 32 | 64 | 112 | 176 | 256 | 352 |
-| **Huge (16)** | 32 | 64 | 128 | 224 | 352 | 512 | 704 |
-| **Massive (32)** | 64 | 128 | 256 | 448 | 704 | 1024 | 1408 |
-| **Colossal (64)** | 128 | 256 | 512 | 896 | 1408 | 2048 | 2816 |
+| **Massive (16)** | 32 | 64 | 128 | 224 | 352 | 512 | 704 |
+| **Enormous (32)** | 64 | 128 | 256 | 448 | 704 | 1024 | 1408 |
+| **Immense (64)** | 128 | 256 | 512 | 896 | 1408 | 2048 | 2816 |
 
 ## Reference Points
 
@@ -57,14 +57,14 @@ Hardness scales more aggressively than size: the gap between each level increase
 | Sheet of paper | Tiny | Fragile | 2 |
 | Glass window | Small | Fragile | 4 |
 | Steel lock | Tiny | Hard | 22 |
-| Wooden door | Medium | Soft | 16 |
-| Reinforced door | Medium | Firm | 32 |
+| Wooden door | Middling | Soft | 16 |
+| Reinforced door | Middling | Firm | 32 |
 | Steel sword | Small | Hard | 44 |
-| Plate armor | Medium | Hard | 88 |
+| Plate armor | Middling | Hard | 88 |
 | Iron gate | Large | Hard | 176 |
 | Stone wall (section) | Large | Solid | 112 |
-| Ship hull | Massive | Firm | 256 |
-| Castle wall | Colossal | Fortified | 2816 |
+| Ship hull | Enormous | Firm | 256 |
+| Castle wall | Immense | Fortified | 2816 |
 
 ## Materials and Resistance
 
@@ -97,4 +97,14 @@ Against each kind, a material is **immune** (the hit does nothing), takes **full
 
 ## Scale Interaction
 
-When a spell or effect targets an object, the spell's Scale determines how large a section is affected. A Personal-Scale Obliterate targeting a castle wall affects a single point; a Large-Scale Obliterate affects a 10 ft section. The durability values in the table assume the attacker's Scale matches the object's size. Mismatched Scale (small spell against large object) may reduce effectiveness at GM discretion.
+When a spell or effect targets an object, the spell's Scale determines how large a section is affected. A Scale 1 Obliterate targeting a castle wall affects a single point; a Scale 2 Obliterate affects a 10 ft section. The durability values in the table assume the spell's Scale matches the object's size:
+
+| Scale | Matches |
+|:---:|:---|
+| 1 | Tiny, Small, Middling |
+| 2 | Large |
+| 3 | Massive |
+| 4 | Enormous |
+| 5 | Immense |
+
+A spell whose Scale is below the object's match may be less effective, at the GM's discretion.

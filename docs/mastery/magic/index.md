@@ -10,7 +10,7 @@ The capacity to work magic is rare, and even in those in whom it manifests, diff
 
 A spell is a specific combination of a *[form](#forms)* and a *[command](#commands)* that produces a magical outcome. The form is the sphere of influence (fire, stone, void) and the command is the direction given within that sphere (to destroy, to protect, to transform). Beyond form and command, a spell's power is shaped by its reach, scale, duration, and conditions, all of which determine its cost in *[magan](#magan)*. Extending a spell beyond what the caster has practiced invites a *[miscast](#miscast)* chance that can produce dangerous and unpredictable effects.
 
-A spell in Mastery is a specific configuration of form, command, and parameters. Obliterate Fire at close range, single target, instantaneous is one spell. Obliterate Fire at distant range, large area, instantaneous is a different spell. Both use the same form and command, but they are distinct spells with different magan costs and different levels of familiarity.
+A spell in Mastery is a specific configuration of form, command, and parameters. Obliterate Fire at close range, single target, instantaneous is one spell. Obliterate Fire at distant range, Scale 3, instantaneous is a different spell. Both use the same form and command, but they are distinct spells with different magan costs and different levels of familiarity.
 
 Cantrips are spells. An ability that spends magan without being cast from a form and a command, such as Imbue or a Spellcraft ability, is a magical ability, and it is a spell only if its text says so. Magical abilities count as magic for damage and resistance, but they cannot be countered or dispelled.
 
@@ -122,15 +122,15 @@ The form of fire encompasses the magic of flame, *[destruction](#destruction)*, 
 
 <span id="transformation"></span>**Transformation.** Fire is the philosophical and alchemical agent of metamorphosis. Spells in the fire form may be used to drive change through heat: melting, boiling, scorching, and burning living matter to ash.
 
-<span id="illumination"></span>**Illumination.** Fire is a source of light. Spells in the fire form are required to produce any type of illumination. All magical fire sheds light by its Scale, as the table below shows. A formulated fire uses the Scale of the spell. Fire wreathing or burning a creature, burning on a weapon, or kindled in an enchanted object counts as Personal. A fire that lasts only an instant, such as a bolt or a burst, lights its area for that instant. Mundane fire sheds light as its equipment entry describes (see *[Equipment](../equipment/gear-and-services.md)*).
+<span id="illumination"></span>**Illumination.** Fire is a source of light. Spells in the fire form are required to produce any type of illumination. All magical fire sheds light by its Scale, as the table below shows. A formulated fire uses the Scale of the spell. Fire wreathing or burning a creature, burning on a weapon, or kindled in an enchanted object counts as Scale 1. A fire that lasts only an instant, such as a bolt or a burst, lights its area for that instant. Mundane fire sheds light as its equipment entry describes (see *[Equipment](../equipment/gear-and-services.md)*).
 
 | Scale | Light | Ambient light beyond |
 |:---|:---:|:---:|
-| Personal | 10 ft | 20 ft |
-| Small | 20 ft | 40 ft |
-| Large | 30 ft | 60 ft |
-| Huge | 40 ft | 80 ft |
-| Epic | 50 ft | 100 ft |
+| 1 | 10 ft | 20 ft |
+| 2 | 20 ft | 40 ft |
+| 3 | 30 ft | 60 ft |
+| 4 | 40 ft | 80 ft |
+| 5 | 50 ft | 100 ft |
 
 #### Sea
 
@@ -251,7 +251,7 @@ A practitioner might divine the location of a hidden creature, identify the natu
 
 To enchant is to fix a spell upon a target. When you cast an enchant spell, you are binding a magical effect to a creature, object, or area. An enchantment and a curse are the same magical operation, differing only in intent.
 
-Enchantment encompasses the full spectrum of imposed conditions. A fire enchantment may ignite a creature, a stone enchantment may burden or petrify, and a void enchantment may alter emotions, befriend, terrify, or subjugate. Conditions that act on a creature's body or faculties, such as [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning), [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered."), or [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), can be applied to any creature regardless of its nature. [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") reach through the form to the target's will, requiring a connection between the form and the creature's classification (see *Exorcise: Connected Form*). Charmed alters the creature's attitude toward the caster but leaves its agency intact; the creature still acts on its own abilities and judgment. Controlled suppresses the creature's agency entirely, making it a puppet the caster directs. Enchantment also governs the binding of permanent magical effects to objects and the temporary enchantment of weapons in combat. See *Enchant* below for item enchantment mechanics.
+Enchantment encompasses the full spectrum of imposed conditions. A fire enchantment may ignite a creature, a stone enchantment may burden or petrify, and a void enchantment may alter emotions, befriend, terrify, or subjugate. Conditions that act on a creature's body or faculties, such as [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Burning), [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered."), or [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), can be applied to any creature regardless of its nature. [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") reach through the form to the target's will, requiring a connection between the form and the creature's classification (see *[Connected Form](exorcism-enchantment-shapeshifting.md#connected-form)*). Charmed alters the creature's attitude toward the caster but leaves its agency intact; the creature still acts on its own abilities and judgment. Controlled suppresses the creature's agency entirely, making it a puppet the caster directs. Enchantment also governs the binding of permanent magical effects to objects and the temporary enchantment of weapons in combat. See *Enchant* below for item enchantment mechanics.
 
 #### Evoke
 
@@ -263,7 +263,7 @@ The form determines what you can summon. A fire practitioner draws heat and flam
 
 To exorcise is to compel a being across a boundary, to invoke or to banish. Exorcism targets creatures with will, compelling them from one state or location to another. Beings with will can resist the compulsion.
 
-A practitioner may invoke a spirit, calling it forth from beyond a boundary, or banish one, driving it away. The form determines which beings the practitioner can compel, following the same connections that govern [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") (see *Exorcise: Connected Form*). See *Exorcise* below for full mechanics.
+A practitioner may invoke a spirit, calling it forth from beyond a boundary, or banish one, driving it away. The form determines which beings the practitioner can compel, following the same connections that govern [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") (see *[Connected Form](exorcism-enchantment-shapeshifting.md#connected-form)*). See *Exorcise* below for full mechanics.
 
 #### Formulate
 
@@ -318,15 +318,27 @@ Line of sight is the hard ceiling on spell range. You must be able to see your t
 
 ### Scale
 
-How large is the effect's footprint? Measured in squares (5 ft × 5 ft). Arrange your squares however makes sense for the fiction: line, sphere, cone, wall, or any other shape. The GM adjudicates edge cases.
+How large is the effect? Count its squares. A square is 5 ft on every side, so it covers height as well as ground. A spell of Scale N covers up to N × N squares.
 
-| Category | Description | Modifier |
-|:---|:---|:---:|
-| Personal | 1 target or 1 square | +0 |
-| Small | 2-4 squares (up to 2×2, roughly 10×10 ft) | +1 |
-| Large | 5-9 squares (up to 3×3, roughly 15×15 ft) | +2 |
-| Huge | 10-16 squares (up to 4×4, roughly 20×20 ft) | +3 |
-| Epic | 17-25 squares (up to 5×5, roughly 25×25 ft) | +4 |
+| Scale | Squares | Modifier |
+|:---:|:---|:---:|
+| 1 | 1 target or 1 square | +0 |
+| 2 | 2-4 | +1 |
+| 3 | 5-9 | +2 |
+| 4 | 10-16 | +3 |
+| 5 | 17-25 | +4 |
+
+Most spells fill a single layer of squares. A spell can extend into further layers, and every square it fills counts toward its Scale. A burst 3 squares by 3 squares is 5 ft tall and is Scale 3. A burst 2 squares by 2 squares and 2 squares tall fills 8 squares and is also Scale 3.
+
+Every spell has a shape, and the shape is part of the spell. When you cast, you choose where the shape lands and which way it faces: flat, upright, or at an angle. A spell that acts on a surface, such as the ground or a stone wall, lies along that surface. Changing the shape or its dimensions is a modification (see *[Modified Familiar Casting](#modified-familiar-casting)*). To leave squares out of a spell's area, see *Skill Mastery, Spellcraft, [Wale](../skills/spellcraft.md#wale)*.
+
+| Shape | How it fills its squares |
+|:---|:---|
+| Block | A rectangle of squares one layer thick, such as 3 × 3. Lying flat, it covers the ground; standing upright, it forms a wall. |
+| Cone | Starts at 1 square and widens by 1 square on each side with each row: rows of 1, 3, 5, and so on. A cone of 3 rows fills 9 squares. |
+| Line | Squares laid end to end, 1 square wide. Standing upright, it forms a column; at an angle, a ramp or a stair. |
+
+A caster can design a spell with a new shape, such as a ring, with the GM's approval. Its shape is then fixed like any other.
 
 ### Duration
 
@@ -334,7 +346,7 @@ How long does the effect last? All spells lasting beyond the current round requi
 
 | Category | Description | Multiplier |
 |:---|:---|:---:|
-| Instantaneous | This round | ×1 |
+| Instantaneous | One round from when it takes effect | ×1 |
 | Short | This encounter or scene | ×3 |
 | Long | Half the adventuring day | ×5 |
 | Extended | The adventuring day | ×8 |
@@ -429,7 +441,7 @@ You have 2 AP per round, which can be spent on any combination of casting, attac
 
 <span id="fire-bolt"></span>**Fire bolt** (instantaneous damage, close range, one target): (1 + 1 + 0) × 1 × 1 = **2 magan** (Fast)
 
-<span id="fireball"></span>**Fireball** (instantaneous damage, distant range, large area): (1 + 2 + 2) × 1 × 1 = **5 magan** (Moderate)
+<span id="fireball"></span>**Fireball** (instantaneous damage, distant range, Scale 3): (1 + 2 + 2) × 1 × 1 = **5 magan** (Moderate)
 
 <span id="encounter-charm"></span>**Encounter charm (T1)** (close range, one target, short duration): (1 + 1 + 0) × 3 × 1 = **6 magan** (Moderate)
 
@@ -437,9 +449,9 @@ You have 2 AP per round, which can be spent on any combination of casting, attac
 
 <span id="one-round-control"></span>**One-round control (T2)** (close range, one target, instantaneous): (1 + 1 + 0) × 1 × 3 = **6 magan** (Moderate)
 
-<span id="day-long-stone-bridge"></span>**Day-long stone bridge** (touch range, huge scale, extended): (1 + 0 + 3) × 8 × 1 = **32 magan** (Slow, 2 AP)
+<span id="day-long-stone-bridge"></span>**Day-long stone bridge** (touch range, Scale 4, extended): (1 + 0 + 3) × 8 × 1 = **32 magan** (Slow, 2 AP)
 
-<span id="flame-aura-on-self"></span>**Flame aura on self** (self range, small area, short duration): (1 + 0 + 1) × 3 × 1 = **6 magan** (Moderate)
+<span id="flame-aura-on-self"></span>**Flame aura on self** (self range, Scale 2, short duration): (1 + 0 + 1) × 3 × 1 = **6 magan** (Moderate)
 
 <span id="fire-bolt-burning-rider"></span>**Fire bolt + burning rider** (instantaneous damage + Enchant trickle, close range, one target, 2 effects): (1 + 1 + 0) × 1 × 1 × 2 = **4 magan** (Moderate)
 
@@ -459,22 +471,26 @@ Damage from energy forms bypasses armor and applies directly to health. Damage f
 
 ### Healing and Repair
 
-To heal a creature, cast Transmute Sacred or Transmute Primal on it. To repair an object, cast Transmute Stone (metal) or Transmute Profane (dead organic material such as wood, leather, or bone). The target recovers health or integrity equal to your ATD + MD. Healing cannot exceed the target's maximum health.
+To heal a creature, cast Transmute Sacred or Transmute Primal on it. To repair an object, cast Transmute Stone (metal) or Transmute Profane (dead organic material such as wood, leather, or bone). The target recovers health or durability equal to your ATD + MD. Healing cannot exceed the target's maximum health.
 
-Healing and repair are permanent, but older damage is harder to restore. The cost increases with how long the damage has existed.
+Healing and repair are permanent, and they reach only damage of the damage age the spell was cast for, or newer. Older damage costs more to reach.
 
 | Damage Age | Multiplier |
 |:---|:---:|
-| This round | ×1 |
+| Within the last round | ×1 |
 | This encounter | ×3 |
 | This half of the adventuring day | ×5 |
 | The previous half of the adventuring day | ×8 |
 
-The damage age multiplier replaces the duration multiplier in the cost formula. A touch, personal heal for a wound taken this round costs 1 magan. The same heal for a wound taken earlier in the encounter costs 3. Damage age counts as a parameter of the spell, like duration: healing older damage than a familiar spell was recorded for is a modified casting (see *[Modified Familiar Casting](#modified-familiar-casting)*).
+The damage age multiplier replaces the duration multiplier in the cost formula. A touch, Scale 1 heal for a wound taken within the last round costs 1 magan. The same heal for a wound taken earlier in the encounter costs 3. Damage age counts as a parameter of the spell, like duration: healing older damage than a familiar spell was recorded for is a modified casting (see *[Modified Familiar Casting](#modified-familiar-casting)*).
 
-Damage age follows the current timescale: in combat, count combat rounds; while exploring, a wound healed within the same exploration round counts as *this round*. Outside combat, the GM determines damage age.
+*Example:* A fighter has taken 10 damage, 5 of it within the last round. A heal cast for *within the last round* restores at most 5. Restoring the other 5 takes a heal cast for their age.
 
-Damage older than the current adventuring day cannot be restored through magic. Out-of-combat recovery comes from supplies, medicine, rest, and repair kits.
+A spell that heals or repairs several creatures or objects reaches each one's damage separately.
+
+Damage age follows the current timescale: in combat, count combat rounds; while exploring, a wound healed within one exploration round counts as *within the last round*. Outside combat, the GM determines damage age.
+
+Damage older than the current adventuring day cannot be restored through magic, whether health, durability, or a Trauma. Out-of-combat recovery comes from supplies, medicine, rest, and repair kits.
 
 #### Restoring Traumas
 
@@ -496,7 +512,7 @@ A lost part that has been recovered (a finger, hand, ear, nose, or tooth) is res
 
 Mundane treatment does not change the cost; the time it takes does. A Trauma treated by a Healer ages like any other.
 
-*Example: A Cleric touches a fighter whose eye was lost this round: (1 + 0 + 0) × 1 × 6 = 6 magan (Moderate). After the fight, later in the same half of the day: (1 + 0 + 0) × 5 × 6 = 30 magan (Slow, 2 AP).*
+*Example: A Cleric touches a fighter whose eye was lost within the last round: (1 + 0 + 0) × 1 × 6 = 6 magan (Moderate). After the fight, later in the same half of the day: (1 + 0 + 0) × 5 × 6 = 30 magan (Slow, 2 AP).*
 
 #### Restoring the Mind
 
@@ -548,7 +564,7 @@ Material form barriers (Stone, Sea, Primal, Profane) create physical structures 
 
 <span id="durability"></span>**Durability.** Pool = form mastery level × 5 × (1 + Scale modifier). Scale determines toughness because a larger barrier has more material to break through. Duration determines how long the barrier exists, not how tough it is.
 
-| Mastery | Base (×5) | Personal (×1) | Small (×2) | Large (×3) | Huge (×4) | Epic (×5) |
+| Mastery | Base (×5) | Scale 1 (×1) | Scale 2 (×2) | Scale 3 (×3) | Scale 4 (×4) | Scale 5 (×5) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
 | Unskilled (1) | 5 | 5 | 10 | 15 | 20 | 25 |
 | Untrained (2) | 10 | 10 | 20 | 30 | 40 | 50 |
@@ -558,7 +574,7 @@ Material form barriers (Stone, Sea, Primal, Profane) create physical structures 
 | Master (6) | 30 | 30 | 60 | 90 | 120 | 150 |
 | Grand Master (7) | 35 | 35 | 70 | 105 | 140 | 175 |
 
-<span id="cover"></span>**[Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.").** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Personal-scale barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
+<span id="cover"></span>**[Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.").** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Scale 1 barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
 
 #### Energy Barriers
 
@@ -573,7 +589,7 @@ Energy form barriers (Fire, Sky, Sacred, Void) create force that resists passage
 Paths to remove a barrier:
 
 - *Magical destruction (Obliterate):* A Duel between the caster destroying the barrier and the caster who created it. The destroying caster's Scale should match the barrier's Scale to contest the whole structure.
-- *Magical reshaping (Transmute):* A Duel to reshape a section of the barrier (e.g., opening a doorway). Cheaper than full destruction because only a portion is contested; a doorway is Personal Scale regardless of the wall's size. Material barriers only.
+- *Magical reshaping (Transmute):* A Duel to reshape a section of the barrier (e.g., opening a doorway). Cheaper than full destruction because only a portion is contested; a doorway is Scale 1 regardless of the wall's size. Material barriers only.
 - *Physical force:* Attack the barrier with weapons or tools. Deplete the durability pool. When the pool reaches 0, the barrier is breached. Material barriers only.
 - *Environmental:* Fog disperses in wind, ice melts in heat. GM-adjudicated based on the fiction.
 
@@ -593,7 +609,7 @@ A formulated creation that can move and act on the battlefield. Where barriers a
 
 <span id="dynamic-construct-table"></span>**Dynamic Construct Table**
 
-| Power | Damage | Personal (E / M) | Small (E / M) | Large (E / M) | Huge (E / M) | Epic (E / M) |
+| Power | Damage | Scale 1 (E / M) | Scale 2 (E / M) | Scale 3 (E / M) | Scale 4 (E / M) | Scale 5 (E / M) |
 |:---|:---|:---|:---|:---|:---|:---|
 | 1 | 2d2 | 5 / 10 | 10 / 20 | 15 / 30 | 20 / 40 | 25 / 50 |
 | 2 | 2d3 | 10 / 20 | 20 / 40 | 30 / 60 | 40 / 80 | 50 / 100 |
@@ -637,7 +653,7 @@ Each form can deliver specific conditions through the Enchant command. The form 
 | Sacred | [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls."), [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), [Fortified](../core/conditions.md#fortified "Counters Tainted and Infected (dual-paired). Bodily resilience, constitutional hardening. The body is toughened against physical harm and resistant to contamination. T1 — Girded: +1 mundane and primal resistance. T2 — Hardened: +2 mundane and primal resistance. Recover 1 health at end of turn. T3 — Robust: +3 mundane and primal resistance. Recover 1 health at end of turn."), [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage."), [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked.") |
 | Void | [Demoralized](../core/conditions.md#demoralized "Wisdom trial to resist. Fear directed at a specific source. While that source is in sight, the fear persists. While the source is out of sight, the creature makes the break-free trial at the end of each of its turns without spending AP. Tiers compound. Tiers: Shaken, Frightened, Panicked."), [Inspired](../core/conditions.md#inspired "Counters Demoralized (1:1). Courage, conviction, mental resolve. Sharpened focus translates mental resolve into physical execution and explosive combat potential. T1 — Rallied: Dominance on mental rolls. T2 — Emboldened: Dominance on mental rolls. Bonus +1 to attribute and mastery trials. T3 — Fearless: Dominance on mental rolls. Bonus +2 to attribute and mastery trials. Superiority on attack, defense, and spell damage rolls."), [Impaired](../core/conditions.md#impaired "Perception trial to resist. Stunning, disorientation, or delayed reflexes. Impaired from a failed Startle trial feeds into this chain. Tiers compound from T1 to T2; T3 transforms to total shutdown. T1 — Dazed: Penalty -1 to all rolls. Must act in Slow phase. T2 — Stunned: Penalty -2 to all rolls. Inferiority on attack rolls, defense rolls, and spell damage rolls. Must act in Slow phase. T3 — Paralyzed: Cannot take any actions. Considered Helpless and Catatonic. The creature is aware of its surroundings but unable to act or respond."), [Disoriented](../core/conditions.md#disoriented "Intelligence trial to resist. Confusion, mental fog, or inability to process surroundings and act coherently. No dice modifiers at any tier. Loss of control is the punishment. Tiers: Befuddled, Confused, Bewildered."), [Clarity](../core/conditions.md#clarity "Counters Disoriented (1:1). Mental clarity, cognitive sharpness. Techniques are refined, harder to counter, and executed with greater skill. T1 — Focused: Bonus +1 to mastery trials. T2 — Lucid: Bonus +1 to mastery trials. +1 Mastery DC. T3 — Transcendent: Bonus +1 to mastery trials. +2 Mastery DC."), [Warded](../core/conditions.md#warded "Counters Charmed and Controlled (dual-paired). Mental fortitude, magical resilience. The mind is shielded against influence and the body armored against magical harm. T1 — Buffered: Dominance on attribute trials. +1 resistance to magic damage. T2 — Shielded: Dominance on attribute trials. +2 resistance to magic damage. T3 — Impervious: Dominance on attribute trials. +3 resistance to magic damage.") |
 
-[Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") use connected-form targeting. Each form can impose these conditions on creatures connected to that form (see [Exorcise](#exorcise): Connected Form). The form determines the target, not the condition itself.
+[Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") use connected-form targeting. Each form can impose these conditions on creatures connected to that form (see *[Connected Form](exorcism-enchantment-shapeshifting.md#connected-form)*). The form determines the target, not the condition itself.
 
 Every form can impose [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") of its own damage type as trickle damage (Attrition (Burning) for Fire, Attrition (Freezing) or Attrition (Corroding) for Sea, and so on; see *[Trickle Damage](#trickle-damage)*).
 
@@ -653,9 +669,9 @@ Boons are beneficial effects that the target automatically receives.
 
 Auras are concentration spells that deal flat damage equal to your *form mastery level* (1-7). You can center an aura on yourself, on a willing ally, or on an object; the bearer takes no damage from its own aura. The spell's Scale determines the kind of aura.
 
-<span id="contact-auras"></span>**Contact auras** (Personal scale) wreathe the bearer. A creature that hits the bearer with a melee attack takes the aura's damage.
+<span id="contact-auras"></span>**Contact auras** (Scale 1) wreathe the bearer. A creature that hits the bearer with a melee attack takes the aura's damage.
 
-<span id="area-auras"></span>**Area auras** (Small scale or larger) fill the radius. A creature within the radius at the end of its turn takes the aura's damage; a creature that moves out during its turn takes none. Area auras damage allies as well as enemies.
+<span id="area-auras"></span>**Area auras** (Scale 2 or larger) fill the radius. A creature within the radius at the end of its turn takes the aura's damage; a creature that moves out during its turn takes none. Area auras damage allies as well as enemies.
 
 ### Trickle Damage
 
@@ -753,13 +769,13 @@ A spell you have formally recorded or bound through your tradition's encoding pr
 
 You can modify a familiar spell by changing its parameters: more range, bigger area, longer duration. The same form and command, scaled up or down. You make a miscast trial, rolling your *casting attribute tier die* + *mastery die* against a DC equal to the change in magan cost between the base spell and the modified version, measured before material components (minimum DC 2). A change that leaves the cost the same, such as warding against a different damage type, is still a modification: DC 2.
 
-*Example: You know Obliterate Fire as a close, personal, instantaneous bolt (2 magan). You want to scale it to a close, large, instantaneous burst (4 magan). The delta is 2, so you roll against DC 2.*
+*Example: You know Obliterate Fire as a close, Scale 1, instantaneous bolt (2 magan). You want to scale it to a close, Scale 3, instantaneous burst (4 magan). The delta is 2, so you roll against DC 2.*
 
 ### New Casting
 
 A form + command combination you have never practiced is a *new casting*. Even if you know Obliterate Fire and Enchant Void separately, Enchant Fire is a new combination. You make a miscast trial against the full pre-component magan cost of the spell.
 
-*Example: You know Obliterate Fire and attempt Enchant Fire for the first time as a close, personal, short-duration spell (6 magan). You roll against DC 6.*
+*Example: You know Obliterate Fire and attempt Enchant Fire for the first time as a close, Scale 1, short-duration spell (6 magan). You roll against DC 6.*
 
 ### Improvised Casting
 

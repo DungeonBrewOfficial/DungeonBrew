@@ -134,11 +134,13 @@ The demon of carrion, the fly that settles on the dying. The moment a body loses
 
 <span id="druj_1"></span>***Druj (Profane)*** *(Classification, no slot).* Immune to Profane damage. Impotence on trials vs Sacred damage. Connected to Profane magic.
 
-<span id="many-bodies"></span>***Many Bodies*** *(Passive).* Nasu has no body of her own. She is in every pack of Risen Dead in her field at once, and in each phase she acts, she acts through one of them. At the start of each round, the GM secretly decides which pack she acts through in each phase, the same pack or different ones. A pack she acts through in a round loses its own AP that round. While she acts through a pack:
+<span id="many-bodies"></span>***Many Bodies*** *(Passive).* Nasu has no body of her own. She is in every pack of Risen Dead in her field at once, and in each phase she acts, she acts through one of them. At the start of each round, the GM secretly decides which pack she acts through in each phase, the same pack or different ones. A pack she acts through in a round loses its own AP that round. During a phase in which she acts through a pack:
 
 - its attacks, defenses and trials are hers, using her dice and attributes;
 - when an attack against it deals damage, heads die as normal, and Nasu also takes that damage, reduced by her resistance;
 - if the pack is destroyed, she acts through another next phase.
+
+In any other phase, that pack is an ordinary pack of Risen Dead, though it still has no AP of its own that round.
 
 A pack she has been held in, by whatever the true story says holds her, is the only pack she can act through until it is destroyed.
 
@@ -160,7 +162,7 @@ A pack she has been held in, by whatever the true story says holds her, is the o
 - <span id="wasting"></span>**Wasting** *(Moderate):* [Exhausted](../core/conditions.md#exhausted "Endurance trial to resist. Fatigue from lack of rest, overexertion, or environmental strain. Affects body and mind equally. Tiers compound. T1 — Weary: Impotence on all rolls. T2 — Fatigued: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. T3 — Depleted: Impotence on all rolls. Inferiority on attack and defense rolls. All spells require miscast trials. Movement halved. 1 AP per round.").
 - <span id="possession"></span>**Possession** *(Slow):* [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.").
 
-The condition can't rise above the creature's [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") tier; if its Infected drops, the condition drops to match. A condition from Nasu can rise only 1 tier per creature per round. Its tiers hold only while she maintains them: if she doesn't spend 2 AP on that creature and that condition on her next turn, they deteriorate normally. Once per turn, the creature can spend 1 AP on the same trial to drive her down; on success, the condition drops by 1 tier. These conditions end early if Nasu is driven away or ended.
+The condition can't rise above the creature's [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") tier; if its Infected drops, the condition drops to match. A condition from Nasu can rise only 1 tier per creature per round. Its tiers hold only while she maintains them: each round, she must spend 2 AP on that creature and that condition, from a phase in which she can use that manifestation (Moderate or Slow for Fever and Wasting, Slow for Possession), or its tiers deteriorate normally. Once per turn, the creature can spend 1 AP on the same trial to drive her down; on success, the condition drops by 1 tier. These conditions end early if Nasu is driven away or ended.
 
 <span id="corpse-smoke"></span>***Corpse-Smoke*** *(1 AP, Reaction).* When fire damage reaches the pack she acts through, the burning dead give off a cloud of rot. Every creature within 10 feet of that pack must succeed on an END trial [12] or take 2d12 (DTD) Profane damage. Exploding.
 
@@ -231,9 +233,9 @@ Death spirits of the battlefield: dark, winged, clawed, and many. They have no n
 | Physical / Mental | d2 / d2 |
 | Trials | 1d2 + 1d8 |
 | Mastery | Skilled (4) |
-| Defense | 1d2 + 5 |
+| Defense | 1d2 + 5 + 1 (½sq) |
 | AP | 2 |
-| Speed | 13 (65 ft) fly |
+| Speed | 11 (55 ft) fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
@@ -243,9 +245,9 @@ Death spirits of the battlefield: dark, winged, clawed, and many. They have no n
 
 | Group | Heads | Health | Attack | Defense | Mob DC |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| Cluster | 6 | 6 | 6d2 | 6d2 + 5 | 7 |
-| Brood | 12 | 12 | 12d2 | 12d2 + 5 | 9 |
-| Swarm | 16 | 16 | 16d2 | 16d2 + 5 | 11 |
+| Cluster | 6 | 6 | 6d2 | 6d2 + 6 | 7 |
+| Brood | 12 | 12 | 12d2 | 12d2 + 6 | 9 |
+| Swarm | 16 | 16 | 16d2 | 16d2 + 6 | 11 |
 
 <span id="mob"></span>**Mob:**
 
@@ -275,9 +277,9 @@ A night-bird with a woman's cry. Strixes come through an open window, many at on
 | Physical / Mental | d2 / d2 |
 | Trials | 1d2 + 1d3 |
 | Mastery | Untrained (2) |
-| Defense | 1d2 + 2 |
+| Defense | 1d2 + 2 + 1 (½sq) |
 | AP | 2 |
-| Speed | 10 (50 ft) fly |
+| Speed | 8 (40 ft) fly |
 | Footprint | ½ sq |
 | Reach | 5 ft |
 
@@ -289,9 +291,9 @@ A night-bird with a woman's cry. Strixes come through an open window, many at on
 
 | Group | Heads | Health | Attack | Defense | Mob DC |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| Cluster | 6 | 6 | 6d2 | 6d2 + 2 | None |
-| Brood | 12 | 12 | 12d2 | 12d2 + 2 | None |
-| Swarm | 16 | 16 | 16d2 | 16d2 + 2 | None |
+| Cluster | 6 | 6 | 6d2 | 6d2 + 3 | None |
+| Brood | 12 | 12 | 12d2 | 12d2 + 3 | None |
+| Swarm | 16 | 16 | 16d2 | 16d2 + 3 | None |
 
 <span id="mob_1"></span>**Mob:**
 
@@ -319,7 +321,7 @@ The witch who became the first of her flock. By day she may still keep a house a
 | Resistance | Natural, ½ of budget 30 (Master weight): Cut 3, Cleave 3, Crush 3, Pierce 3, Puncture 3 |
 | Trials | 1d4 + Attribute TD |
 | Mastery | Basic (3) |
-| Defense | d6 (DTD) + d6 (AGI) + applicable resistance. (Attribute: AGI) |
+| Defense | d6 (DTD) + d6 (AGI) + 1 (½sq) + applicable resistance. (Attribute: AGI) |
 | AP | 2 |
 | Speed | 10 (50 ft) fly |
 | Footprint | ½ sq |

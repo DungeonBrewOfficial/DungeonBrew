@@ -177,7 +177,7 @@ At Tier 7, your Fixed radius increases to 20 feet.
 
 You channel your numen's authority to consecrate ground, creating a zone infused with the sacred principles of Life, Purity, and Restoration. You can only maintain one consecration at a time.
 
-<span id="preservation"></span>**Preservation:** When a creature within the zone is reduced to 0 health, you can spend magan equal to your Dominion tier to instead reduce it to health equal to your Dominion tier die. This costs no AP. Each creature can be preserved only once per encounter.
+<span id="preservation"></span>**Preservation:** When a creature within the zone is reduced to 0 health, you can spend 3 magan to instead reduce it to health equal to your Dominion tier die. This costs no AP. Each creature can be preserved only once per encounter.
 
 <span id="sacred-ground"></span>**Sacred Ground:** Daeva treat the zone as difficult terrain.
 
@@ -197,7 +197,7 @@ You channel your numen's authority to consecrate ground, creating a zone infused
 
 You channel your numen's authority to interdict ground, creating a zone of enforced balance that rejects spiritual extremes and answers aggression with reciprocity. You can only maintain one interdiction at a time.
 
-<span id="retribution"></span>**Retribution:** When you or an ally within the zone takes damage from an attack, you can spend magan equal to your Dominion tier. The attacker takes damage equal to your Dominion tier die, of the same type it dealt. This costs no AP.
+<span id="retribution"></span>**Retribution:** Once per round, when an enemy makes a non-spell attack against you or an ally within the zone, you can spend 3 magan before any rolls are made to redirect the attack to another enemy within the zone. The attack is made against the new target, which defends normally. On a hit, the attack deals additional damage equal to your Dominion tier die, of the attack's type. This costs no AP.
 
 <span id="self-reliance"></span>**Self-Reliance:** While within your own zone, once per round you can substitute your Dominion tier die for any single die in a roll you make.
 
@@ -217,7 +217,7 @@ You channel your numen's authority to interdict ground, creating a zone of enfor
 
 You channel your numen's authority to desecrate ground, creating a zone infused with the profane principles of Death, Undeath, and Pestilence. You can only maintain one desecration at a time.
 
-<span id="malediction"></span>**Malediction:** When an enemy is reduced to 0 health within the zone, you can spend magan equal to your Dominion tier. You or one ally within the zone regains health equal to your Dominion tier die. This costs no AP.
+<span id="malediction"></span>**Malediction:** When an enemy is reduced to 0 health within the zone, you can spend 3 magan. You or one ally within the zone regains health equal to your Dominion tier die, up to the damage they have taken this encounter. This costs no AP.
 
 <span id="profane-ground"></span>**Profane Ground:** Asura treat the zone as difficult terrain.
 

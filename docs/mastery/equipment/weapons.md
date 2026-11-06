@@ -140,7 +140,7 @@ Bludgeons are weapons that are particularly effective against heavier armors. Th
 | Mace, Flanged | 1 sc | Mod | Heavy One-Handed (II) | Puncturing | L / 3 lbs. | Standard | +1 to Sunder DC |
 | Mace, Knobbed | 2 ss | Mod | Heavy One-Handed (II) | Puncturing | L / 3 lbs. | Standard | +1 to Bash DC |
 | Mace, Morning Star | 2 ss | Slow \ Mod | Versatile (II/IV) | Puncturing | L / 4 lbs. | Standard | +1 to Attack |
-| Maul | 1 ss | Slow | Two-Handed (V) | Crushing | M / 10 lbs. | Long | +2 to Attack |
+| Maul | 1 ss | Slow | Two-Handed (V) | Crushing | L / 10 lbs. | Long | +2 to Attack |
 | Pick, Horseman's | 2 ss | Mod | Heavy One-Handed (II) | Crushing <br> Puncturing | L / 4 lbs. | Standard | Hook |
 | Planson | 2 ss | Slow | Two-Handed (V) | Crushing <br> Puncturing | L / 8 lbs. | Long | +2 to Sunder Attack |
 | Quarterstaff | 1 cf | Slow | Two-Handed (V) | Crushing | L / 3 lbs. | Long | Trip |
@@ -258,7 +258,7 @@ Pole weapons are perhaps the most prolific type of weapon available because on t
 | Guisarme | 1 sc | Slow | Two-Handed (V) | Puncturing | L / 7 lbs. | Long | Reach (10 ft.), Hook |
 | Javelin | 6 sp | Fast | Light One-Handed (I) <br> Light Thrown (I) | Piercing | L [5] / 2 lbs. | Long | Thrown (30/60/90) |
 | Lance | 1 ss | Slow | Heavy One-Handed (II) | Puncturing | L / 6 lbs. | Long | Reach (10 ft.), Only usable while Mounted with the Charge maneuver. Your Charge gains both Dominance and Superiority. |
-| Pike | 1 ss | Slow | Two-Handed (V) | Puncturing | M / 10 lbs. | Long | Reach (15 ft.) |
+| Pike | 1 ss | Slow | Two-Handed (V) | Puncturing | L / 10 lbs. | Long | Reach (15 ft.) |
 | Ranseur | 2 ss | Slow | Two-Handed (V) | Puncturing | L / 6 lbs. | Long | Reach (10 ft.), +1 to Rebuff DC, +1 to Disarm DC |
 | Spear | 4 sp | Slow \ Mod | Versatile (II/IV) <br> Heavy Thrown (II) | Piercing | L / 3 lbs. | Long | Thrown (20/40/60) |
 | Spetum | 1 sc | Slow | Two-Handed (V) | Piercing | L / 6 lbs. | Long | Reach (10 ft.), +1 to Trip DC |

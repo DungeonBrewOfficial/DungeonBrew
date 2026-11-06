@@ -14,7 +14,7 @@ generated_by: tools/sync_mastery.py
 | **Defense** | Skill Mastery Die + AGI die + applicable resistance |
 | **Trials** | Skill Mastery Die + Attribute Die |
 | **Ability DC** | Higher of STR or PHY Tier + handler's Wilderness mastery level |
-| **Speed** | 3 + AGI Tier + Size Modifier (+2 if 2sq) + 4 (quadruped) |
+| **Speed** | 3 + AGI Tier + Size Modifier (see Size by Footprint) + 4 (quadruped) |
 | **AP** | Always 2 |
 
 <span id="health-die-is-tied-to-the-handlers-mastery-not-the-animals-training-tiers"></span>**Health die is tied to the handler's mastery, not the animal's training tiers.** A bear recruited at Master immediately benefits from the full compounding health formula (2d2+2d3+2d4+2d6+2d8+2d10) because the handler's skill in caring for animals determines the creature's condition. Replacement animals also benefit immediately.
@@ -190,7 +190,7 @@ Barding requires a body that can wear it. Birds cannot wear barding; a bird comp
 
 <span id="attack"></span>**Attack:** (Command) Engage designated target with natural weapon. Continue attacking until target is dead or given different command.
 
-<span id="retrieve"></span>**Retrieve:** (Command) Fetch a designated object and return it to handler. This includes dropped or disarmed weapons, downed prey, or specific items within line of sight. The companion can retrieve items mid-combat as a 2 AP action. Birds can retrieve only what they can carry in flight: small objects and light game.
+<span id="retrieve"></span>**Retrieve:** (Command) Fetch a designated object and return it to handler. This includes dropped or disarmed weapons, downed prey, or specific items within line of sight. The companion can retrieve items mid-combat as a 2 AP action. Birds can retrieve only what they can carry in flight: Tiny objects and light game.
 
 <span id="recall"></span>**Recall:** (Command) The companion returns to the handler's position. The companion must be able to hear or see the handler.
 
@@ -372,6 +372,453 @@ One free trick per trained tier (Untrained through GM, limited by the animal's t
 | **Bow** | Kneels for mounting when prompted. |
 | **Lie Down** | Drops for cover/concealment when commanded, up to 1 minute. |
 | **Trick Riding** | Rider gains bonus on mounted stunt trials. |
+
+---
+
+## Dogs
+
+Roll up a dog that is bought, found, or bred: its breed, its age, and its coat. Its breed sets its build, and its build sets its stat block: the Standard, Heavy, or Giant Dog (see *Creatures – Mortal Beasts*, Dogs). Any dog can be trained on any track. The breed tables list the dogs commonly kept for each kind of work.
+
+<span id="builds"></span>**Builds.**
+
+- <span id="standard"></span>**Standard:** small-to-medium dogs prized for agility, keen senses, and versatility. Quicker than larger dogs, and better in tight spaces. Spaniels, terriers, and smaller hounds.
+- <span id="heavy"></span>**Heavy:** sturdy medium-to-large dogs that balance strength and agility, with good endurance. Shepherds, retrievers, and many working dogs.
+- <span id="giant"></span>**Giant:** the largest and most powerful dogs, kept for strength, intimidation, or resilience. Mastiffs, wolfhounds, and mountain dogs.
+
+### Breed
+
+Roll 1d10 on the table for the work the dog is commonly kept for.
+
+| d10 | Guard | Build | Hunting | Build | War | Build |
+|:---:|:---|:---|:---|:---|:---|:---|
+| 1 | Boxer | Heavy | Beagle | Standard | Alaunt | Heavy |
+| 2 | Bullmastiff | Giant | Bloodhound | Heavy | Butcher's Dog | Heavy |
+| 3 | Collie | Heavy | Cairn Terrier | Standard | Deerhound | Giant |
+| 4 | Giant Schnauzer | Heavy | Fox Terrier | Standard | Great Shepherd | Heavy |
+| 5 | Hovawart | Heavy | Foxhound | Heavy | Lion Dog | Giant |
+| 6 | Mountain Dog | Giant | Pointer | Heavy | Mastiff | Giant |
+| 7 | Red-Stocking | Heavy | Setter | Heavy | Molossus | Heavy |
+| 8 | Sheepdog | Heavy | Spaniel | Standard | Mountain Dog | Giant |
+| 9 | Shepherd | Standard | Springer Spaniel | Standard | Sheepdog | Heavy |
+| 10 | Wooly Mastiff | Giant | Water Spaniel | Heavy | Wolfhound | Giant |
+
+### Age
+
+Roll 1d8 on the table for the dog's build.
+
+| d8 | Age | Standard | Heavy | Giant |
+|:---:|:---|:---:|:---:|:---:|
+| 1–2 | Puppy | 2d6 months | 2d8 months | 2d12 months |
+| 3–6 | Adult | 1d10 years | 1d6+1 years | 2d3 years |
+| 7 | Senior | 1d4+8 years | 1d6+6 years | 1d4+5 years |
+| 8 | Geriatric | 1d4+12 years | 1d4+11 years | 1d4+8 years |
+
+### Coat
+
+A dog's coat combines a base color, genetic modifiers such as dilution, and patterns or markings. Roll 2d8 for the coloring type, then roll on its table.
+
+| 2d8 | Coloring Type | Next Table |
+|:---:|:---|:---|
+| 2–3 | Wild Pattern | Wild Pattern |
+| 4–5 | Markings | Markings |
+| 6–7 | Brindle | Brindle |
+| 8–10 | Solid | Solid |
+| 11–12 | Body Markings (Bi/Tricolor) | Body Markings |
+| 13–14 | Tick and Roan | Tick and Roan |
+| 15–16 | Merle | Merle |
+
+<span id="wild-pattern"></span>**Wild Pattern.** Coats like those of wild canids, often with banded hairs or regional patterns such as saddles or countershading. These often give natural camouflage. Roll 1d4, then roll the base color on Solid.
+
+| d4 | Pattern | Description |
+|:---:|:---|:---|
+| 1 | Agouti | Individual hairs show bands of alternating light and dark pigment, giving a grizzled or ticked look across the coat. |
+| 2 | Jackal | Darker hairs along the back fade into lighter shades on the underside, muzzle, and legs, without distinct patches or spots. |
+| 3 | Backed | A solid patch of darker color forms a distinct saddle or cape over the back, contrasting with lighter colors elsewhere. |
+| 4 | Side-Striped | Vertical stripes of contrasting color run along the flanks. |
+
+<span id="markings"></span>**Markings.** Distinct areas of color, often white or tan points, over the base coat on the face, chest, or legs, or as larger patches. Roll 1d12, then roll the base color on Solid.
+
+| d12 | Marking | Description |
+|:---:|:---|:---|
+| 1 | Countershaded | The top of the dog (back, top of head and tail) is darker; the underside (belly, chest, throat, under the tail) is much lighter. |
+| 2 | Urajiro | A form of countershading with pale reddish or whitish markings on the sides of the muzzle, cheeks, throat, chest, belly, and inside of the legs. |
+| 3 | Nonself | White markings where the base color would normally be, often on the chest, toes, or tail tip. |
+| 4 | Dark Mask | Dark pigment, usually black or liver, over the muzzle, sometimes reaching up around the eyes. |
+| 5 | Saddle | A large patch of darker color (black, liver, or blue) over the back, distinct from the lighter base color. |
+| 6 | Minimal White | Small, often irregular patches of white on the chest, toes, or tail tip. |
+| 7 | Extreme White | Large areas of white over most of the body, leaving small patches of base color, often on the head or near the tail. |
+| 8 | Mealy | Pale, mealy markings (off-white, pale tan, or greyish) around the muzzle, eyes, belly, and lower legs, often on brown or red coats. |
+| 9 | Piebald | Irregular, often large patches of white on a colored background, the colored patches clearly defined. |
+| 10 | Extreme Piebald | Like piebald, but white covers most of the body, leaving small isolated patches of color, sometimes only on the ears or head. |
+| 11 | Spotted | Distinct, usually rounded spots of color on a white base coat, varying in size and spread. |
+| 12 | Watermark | Subtle, wavy patterns within the coat, slightly lighter or darker than the fur around them, sometimes visible only in certain light. |
+
+<span id="brindle"></span>**Brindle.** Subtle or bold "tiger stripes" of a darker color over a lighter base coat, or the reverse. Roll 1d12.
+
+| d12 | Brindle | Description |
+|:---:|:---|:---|
+| 1 | Black Brindle (Reverse) | A dark base coat, often black or near-black, with lighter stripes such as fawn, red, or silver. |
+| 2 | Red Brindle | Distinct black stripes over a reddish base coat. |
+| 3 | Light Brindle | A pale base coat (cream or light fawn) with darker stripes, for a low-contrast brindle. |
+| 4–5 | Brindle | The standard pattern: distinct black stripes over a fawn or brownish base coat. |
+| 6–7 | Fawn Brindle | Distinct black stripes over a fawn (light yellowish-tan) base coat. |
+| 8 | Dark Brindle | A dark base coat (deep red or mahogany) with black stripes, often very dark overall. |
+| 9 | Silver Brindle | Distinct black stripes over a silvery-grey base coat. |
+| 10 | Liver Brindle | Liver (brown) stripes over a lighter base coat, often fawn or cream. |
+| 11 | Brindle and White | Any brindle combined with distinct patches of white, usually on the chest, feet, or face. |
+| 12 | Gold Brindle | Distinct black stripes over a rich golden or yellow base coat. |
+
+<span id="tick-and-roan"></span>**Tick and Roan.** Small spots of color (ticking) on white areas, or a fine mix of white and colored hairs (roaning), giving a mottled look. Roll 1d12.
+
+| d12 | Tick or Roan | Description |
+|:---:|:---|:---|
+| 1–2 | Bluetick | Black ticking throughout a white coat, often giving an overall blueish look. |
+| 3 | Diluted Bluetick | Like bluetick, but the ticking is diluted black (grey or blue) on white. |
+| 4–5 | Redtick | Red or orange ticking throughout a white coat. |
+| 6 | Diluted Redtick | Like redtick, but the ticking is diluted red (fawn or cream) on white. |
+| 7–8 | Black and Tan Tick | A black and tan pattern whose white areas are ticked. |
+| 9–10 | Blue Roan | A fine, close mix of black and white hairs, giving a blue-grey or steel coat. |
+| 11 | Red Roan | A fine, close mix of red and white hairs, giving a pinkish or reddish-grey coat. |
+| 12 | Liver Roan | A fine, close mix of liver and white hairs, giving a brownish-grey coat. |
+
+<span id="body-markings"></span>**Body Markings (Bi/Tricolor).** Patches of two (bicolor) or three (tricolor) colors, often in specific, recognizable patterns. Roll 1d12.
+
+| d12 | Body Markings | Description |
+|:---:|:---|:---|
+| 1 | Sable Tricolor | A sable coat (light hairs tipped with black) with distinct white markings and tan points. |
+| 2 | Red/Sable Tricolor | A red or sable coat with distinct white markings and tan points. |
+| 3 | Spotted Tricolor | A mostly white coat with separate spots of two other colors, commonly black and tan. Roll the spot colors on Solid. |
+| 4 | Liver Tricolor | A liver (brown) coat with distinct white markings and tan points. |
+| 5–6 | Black Tricolor | A black coat with distinct white markings and tan points. |
+| 7–8 | Black and Tan | A mostly black coat with sharply defined tan markings on the eyebrows, muzzle, chest, and legs. |
+| 9–10 | Liver and White | Distinct patches of liver on a white background. |
+| 11–12 | Liver and Tan | A mostly liver coat with sharply defined tan markings. |
+
+<span id="merle"></span>**Merle.** Mottled patches where the base color is randomly diluted, often in blue, red, or lilac shades, and sometimes affecting eye color. Roll 1d12.
+
+| d12 | Merle | Description |
+|:---:|:---|:---|
+| 1 | Blue Merle | Black patches on a grey or blue-grey diluted background. |
+| 2 | Red/Sable Merle | Red or sable patches on a lighter, diluted reddish or tan background. |
+| 3 | Lilac Merle | Liver patches on a pale, diluted lilac or isabella background. |
+| 4 | Light Merle | A paler merle, with little contrast between the patches and the background. |
+| 5 | Tan and Red Merle | A red merle that also has distinct tan points. |
+| 6 | Tweed Merle | Several shades within the patches or background, giving a complex, tweed-like look. |
+| 7 | Harlequin | A mostly white coat with irregular, torn-edged patches of another color. Roll the patch color on Solid. |
+| 8 | Sable Merle | Sable patches (light hairs tipped with black) on a diluted background. |
+| 9 | Liver Merle | Liver patches on a lighter, diluted brownish or tan background. |
+| 10 | Blue Merle and Tan | A blue merle that also has distinct tan points. |
+| 11 | Agouti Merle | An agouti (banded) coat with merle over it, mixing mottling and banding. Roll the base color on Solid. |
+| 12 | Double Merle | Large amounts of white with smaller, less distinct merle patches. Roll again on this table for the merle. |
+
+<span id="solid"></span>**Solid.** Roll 1d20.
+
+| d20 | Color | d20 | Color |
+|:---:|:---|:---:|:---|
+| 1 | Jet Black | 11 | Liver |
+| 2 | White | 12 | Yellow |
+| 3 | Gray | 13 | Seal Brown |
+| 4 | Fawn | 14 | Fading Black |
+| 5 | Lilac / Isabella | 15 | Silver |
+| 6 | Red / Sable | 16 | Bronze |
+| 7 | Red / Gold | 17 | Copper |
+| 8 | Cream | 18 | Chestnut |
+| 9 | Blue | 19 | Mahogany |
+| 10 | Chocolate | 20 | Ivory |
+
+## Horses
+
+Roll up a horse that is bought, found, or bred: its sex, its type, its age, and its coat. Its type sets its stat block (see *Creatures – Mortal Beasts*).
+
+<span id="stallions"></span>**Stallions** are uncastrated male horses. Powerful and aggressive, stallions need experienced handling. They are the natural choice for war horses, because their strength and drive suit them to combat, but they can be unpredictable, especially around other horses.
+
+<span id="mares"></span>**Mares** are female horses. They tend to be more even-tempered than stallions but can be just as stubborn. They are reliable mounts for travel, work, and riding, and make up most of the horses used by merchants, messengers, and everyday riders. Mares are rarely chosen for war.
+
+<span id="geldings"></span>**Geldings** are castrated male horses. They are calmer, steadier, and easier to train than stallions, which makes them ideal for everyday use, and most common riding horses are geldings. Geldings are never war horses: the gelding that makes them manageable also removes the aggression and drive combat needs.
+
+### Sex and Type
+
+Roll 1d12 for the horse's sex, then roll its type on the table for its sex.
+
+| d12 | Sex | Type Table |
+|:---:|:---|:---|
+| 1–4 | Gelding | Geldings and Mares |
+| 5–8 | Mare | Geldings and Mares |
+| 9–12 | Stallion | Stallions |
+
+<span id="geldings-and-mares"></span>**Geldings and Mares.** Roll 1d10.
+
+| d10 | Type | Stat Block |
+|:---:|:---|:---|
+| 1–2 | Donkey or Mule | Pony / Donkey |
+| 3–4 | Draft Horse | Draft Horse |
+| 5–6 | Pony | Pony / Donkey |
+| 7–10 | Riding Horse | Palfrey, Riding Horse |
+
+<span id="stallions_1"></span>**Stallions.** Roll 1d12.
+
+| d12 | Type | Stat Block |
+|:---:|:---|:---|
+| 1 | Wild Horse | An untrained Rouncey, Palfrey, Courser, or Destrier, chosen by the GM |
+| 2–3 | Donkey or Mule | Pony / Donkey |
+| 4–5 | Draft Horse | Draft Horse |
+| 6–7 | Pony | Pony / Donkey |
+| 8–9 | Riding Horse | Palfrey, Riding Horse |
+| 10 | Light War Horse | Rouncey, Light War Horse |
+| 11 | Medium War Horse | Courser, Medium War Horse |
+| 12 | Heavy War Horse | Destrier, Heavy War Horse |
+
+<span id="donkey-or-mule"></span>**Donkey or Mule.** Donkeys are small, sure-footed, and durable, often used for short hauls or travel through tight or unstable terrain. They are slow but steady, with a calm temperament. Mules, bred from a male donkey and a female horse, are larger and stronger, combining a donkey's endurance with a horse's size and gait.
+
+<span id="draft-horse"></span>**Draft Horse.** Large, muscular horses bred for heavy labor. Not as fast as other horses, but unmatched in strength and endurance. They carry heavy loads, pull wagons, and can serve as mounts for larger riders, but they lack the agility for fast-paced combat.
+
+<span id="pony"></span>**Pony.** Smaller than full-sized horses but often just as strong for their size. Ponies make excellent mounts for smaller riders, though they can be stubborn and challenging to handle.
+
+<span id="riding-horse"></span>**Riding Horse.** The most common horse for travel, bred for speed, endurance, and reliability, and preferred by merchants, travelers, and messengers. Riding horses lack the strength of draft horses and the aggression of war horses, but they are well-rounded, dependable mounts.
+
+<span id="light-war-horse"></span>**Light War Horse.** Trained for combat but faster and more maneuverable than heavier war horses. Well suited to skirmishers, scouts, and archers who need to stay mobile in battle.
+
+<span id="medium-war-horse"></span>**Medium War Horse.** Balances speed and strength. Trained for battle and able to charge through enemy lines while keeping some mobility. Knights and cavalry often rely on these well-bred horses.
+
+<span id="heavy-war-horse"></span>**Heavy War Horse.** The largest and most powerful war horse, bred to carry a heavily armored rider into the thick of combat. Fearless and aggressive, and bred to trample enemies underfoot. Slower than lighter breeds, but unmatched in raw power.
+
+<span id="wild-horse"></span>**Wild Horse.** Untrained, unpredictable, and wary of people. A wild horse must be broken before it can be ridden, and even then it may resist commands or bolt under stress. Some have impressive stamina and spirit, but their untrained nature makes them a risky choice for anyone who needs a reliable mount.
+
+### Age
+
+Roll 1d8 on the table for the horse's sex. A foal is under a year old.
+
+| d8 | Gelding | Years | Mare | Years | Stallion | Years |
+|:---:|:---|:---:|:---|:---:|:---|:---:|
+| 1 | Gelding Colt | 2d2 | Foal | under 1 | Foal | under 1 |
+| 2 | Gelding Colt | 2d2 | Filly | 1d3+1 | Colt | 1d3+1 |
+| 3–4 | Gelding | 2d8+2 | Dam | 3d6+2 | Stud | 3d6+2 |
+| 5–6 | Gelding | 2d8+2 | Mare | 3d6 | Stallion | 3d6 |
+| 7 | Aged | 8d4 | Aged | 8d4 | Aged | 8d4 |
+| 8 | Crowbait | 10d4 | Nag | 10d4 | Crowbait | 10d4 |
+
+### Coat
+
+A horse's coat combines a base color, dilution, and patterns. Roll 1d20, then roll on the subtable if there is one.
+
+<span id="patterns-and-grays-sit-over-another-coat"></span>**Patterns and grays sit over another coat.** When you roll a pattern, or a Fleabitten or Watermark Gray, roll this table again for the coat underneath. Keep rolling until you land on a coat that isn't a pattern. Every pattern you rolled along the way applies. If the same pattern comes up twice, roll that pattern table again.
+
+| d20 | Coat | Next Table |
+|:---:|:---|:---|
+| 1 | Jet Black | — |
+| 2 | Fading Black | — |
+| 3 | Seal Brown | — |
+| 4 | Brown | — |
+| 5–6 | Bay | Bay |
+| 7–8 | Chestnut | Chestnut |
+| 9–10 | Gray | Gray |
+| 11–12 | Dun Dilute | Dun Dilute |
+| 13–14 | Cream Dilute | Cream Dilute |
+| 15–16 | Champagne Dilute | Champagne Dilute |
+| 17–18 | Silver Dilute | Silver Dilute |
+| 19 | Dilute Combination | Dilute Combination |
+| 20 | Pattern | Patterns |
+
+<span id="jet-black"></span>**Jet Black.** A deep, glossy black coat without any fading or highlights. Rare and striking.
+
+<span id="fading-black"></span>**Fading Black.** Appears black in winter but fades to brown or rusty tones in the sun. Often mistaken for brown.
+
+<span id="seal-brown"></span>**Seal Brown.** Nearly black, with subtle reddish or mahogany highlights, especially around the flanks and muzzle.
+
+<span id="brown"></span>**Brown.** A solid brown coat, typically uniform with no black points. Common among working horses.
+
+<span id="bay"></span>**Bay.** A reddish-brown coat with black points (mane, tail, and legs). Variants range from pale copper to deep mahogany.
+
+<span id="chestnut"></span>**Chestnut.** A reddish coat with no black points, ranging from pale sorrel to deep liver. The mane and tail usually match or are lighter.
+
+<span id="gray"></span>**Gray.** Gray horses lighten with age. Coats may begin dark and slowly turn white or silver. Includes dapple, iron, and fleabitten variants.
+
+<span id="dun-dilute"></span>**Dun Dilute.** A diluted coat with a distinct dorsal stripe, leg barring, and primitive markings. Usually dusty or muted in tone.
+
+<span id="cream-dilute"></span>**Cream Dilute.** Cream dilution produces palominos, buckskins, and other light golden coats, often with blue or hazel eyes.
+
+<span id="champagne-dilute"></span>**Champagne Dilute.** Soft gold, amber, or pinkish coats with freckled skin and light eyes. Foals are born bright and darken with age.
+
+<span id="silver-dilute"></span>**Silver Dilute.** Mainly affects black pigment, lightening manes and tails to silver or white. Rare, and mostly seen on darker base coats.
+
+<span id="dilute-combination"></span>**Dilute Combination.** Several dilutions together, producing rare, layered colors such as cream over dun or silver over grulla.
+
+<span id="patterns"></span>**Patterns.** Color or markings over a base coat. Basic patterns are natural variations that subtly alter a coat. Pinto patterns are large, irregular patches of white. Appaloosa patterns are mottling, spots, and blankets of color, usually centered on the hindquarters. Other markings are rare or unusual features such as freckling, marbling, or lace-like patterns.
+
+<span id="bay_1"></span>**Bay.** Roll 1d6.
+
+| d6 | Bay |
+|:---:|:---|
+| 1 | Blood Bay |
+| 2 | Copper Bay |
+| 3 | Dark Bay |
+| 4 | Faded Bay |
+| 5 | Gold Bay |
+| 6 | Mahogany Bay |
+
+<span id="chestnut_1"></span>**Chestnut.** Roll 1d6.
+
+| d6 | Chestnut |
+|:---:|:---|
+| 1 | Sorrel |
+| 2 | Liver Chestnut |
+| 3 | Cherry Chestnut |
+| 4 | Golden Chestnut |
+| 5 | Honey Chestnut |
+| 6 | Black Chestnut |
+
+<span id="gray_1"></span>**Gray.** Roll 1d10.
+
+| d10 | Gray | Next Table |
+|:---:|:---|:---|
+| 1 | Gray | — |
+| 2 | Dapple Gray | — |
+| 3 | Rose Gray | — |
+| 4 | Iron Gray | — |
+| 5 | Dark Gray | — |
+| 6 | Mulberry Gray | — |
+| 7 | White Gray | — |
+| 8 | Fleabitten Gray | Coat, for the color underneath |
+| 9 | Watermark Gray | Coat, for the color underneath |
+| 10 | Roan | Roan |
+
+<span id="roan"></span>**Roan.** Roll 1d10.
+
+| d10 | Roan |
+|:---:|:---|
+| 1–2 | Strawberry Roan |
+| 3–4 | Blue Roan |
+| 5–6 | Red Roan |
+| 7–8 | Lilac Roan |
+| 9–10 | Honey Roan |
+
+<span id="dun-dilute_1"></span>**Dun Dilute.** Roll 1d20.
+
+| d20 | Dun | d20 | Dun |
+|:---:|:---|:---:|:---|
+| 1–2 | Peach Dun | 15 | Slate Dun |
+| 3–4 | Red Dun | 16 | Blue Dun |
+| 5–6 | Copper Dun | 17 | Silver Dun |
+| 7–8 | Bronze Dun | 18 | Coyote Dun |
+| 9–10 | Liver Dun | 19 | Wolf Dun |
+| 11–12 | Classic Dun | 20 | Olive Dun |
+| 13–14 | Buttermilk Dun | | |
+
+<span id="cream-dilute_1"></span>**Cream Dilute.** Roll 2d6.
+
+| 2d6 | Cream |
+|:---:|:---|
+| 2 | Golden Palomino |
+| 3 | Caramel Palomino |
+| 4 | Cremello |
+| 5 | Smoky Black |
+| 6 | Smoky Cream |
+| 7 | Buckskin |
+| 8 | Buttermilk Buckskin |
+| 9 | Golden Buckskin |
+| 10 | Bronze Buckskin |
+| 11 | Perlino |
+| 12 | Black Buckskin |
+
+<span id="champagne-dilute_1"></span>**Champagne Dilute.** Roll 1d10.
+
+| d10 | Champagne |
+|:---:|:---|
+| 1–2 | Gold Champagne |
+| 3–4 | Amber Champagne |
+| 5–6 | Champagne Black |
+| 7–8 | Sable Champagne |
+| 9–10 | Dark Gold Champagne |
+
+<span id="silver-dilute_1"></span>**Silver Dilute.** Roll 1d4.
+
+| d4 | Silver |
+|:---:|:---|
+| 1 | Silver Dapple |
+| 2 | Chocolate Silver |
+| 3 | Red Silver |
+| 4 | Blue Silver |
+
+<span id="dilute-combination_1"></span>**Dilute Combination.** Roll 1d100.
+
+| d100 | Combination | d100 | Combination |
+|:---:|:---|:---:|:---|
+| 1–5 | Yellow Dun | 52–55 | Silver Dapple Smoky Grulla |
+| 6–10 | Cream Dun | 56–60 | Dunskin |
+| 11–14 | Gold Cream | 61–65 | Dun Perlino |
+| 15–18 | Ivory Champagne | 66–70 | Silver Buckskin |
+| 19–22 | Gold Dun | 71–75 | Amber Cream |
+| 23–26 | Smoky Black Dun | 76–80 | Amber Dun |
+| 27–30 | Smoky Cream Grulla | 81–84 | Amber Silver |
+| 31–34 | Silver Smoky Black | 85–88 | Brown Dunskin |
+| 35–38 | Smoky Black Champagne | 89–92 | Sable Cream |
+| 39–43 | Classic Dun Champagne | 93–96 | Sable Dun |
+| 44–46 | Silver Dapple Grulla | 97–100 | Pearl |
+| 47–51 | Classic Silver | | |
+
+<span id="patterns_1"></span>**Patterns.** Roll 1d4 for the kind of pattern, then on its table.
+
+| d4 | Pattern Type | Next Table |
+|:---:|:---|:---|
+| 1 | Basic | Basic Patterns |
+| 2 | Pinto | Pinto Patterns |
+| 3 | Appaloosa | Appaloosa Patterns |
+| 4 | Other Markings | Other Markings |
+
+<span id="basic-patterns"></span>**Basic Patterns.** Roll 2d4.
+
+| 2d4 | Basic Pattern |
+|:---:|:---|
+| 2 | Rabicano |
+| 3 | Sooty |
+| 4 | Lemonsilla |
+| 5 | Mealy |
+| 6 | Flaxen |
+| 7 | Brindle |
+| 8 | Reverse Brindle |
+
+<span id="pinto-patterns"></span>**Pinto Patterns.** Roll 1d10.
+
+| d10 | Pinto Pattern |
+|:---:|:---|
+| 1 | Minimal Tobiano |
+| 2 | Tobiano |
+| 3 | Extreme Tobiano |
+| 4 | Medicine Hat |
+| 5 | Full Head Tobiano |
+| 6 | Frame |
+| 7 | Sabino |
+| 8 | Splash White |
+| 9 | Tovero |
+| 10 | Roll once on Pinto Patterns and once on Appaloosa Patterns |
+
+<span id="appaloosa-patterns"></span>**Appaloosa Patterns.** Roll 1d12.
+
+| d12 | Appaloosa Pattern |
+|:---:|:---|
+| 1 | Minimal Blanket |
+| 2 | Blanket |
+| 3 | Extended Blanket |
+| 4 | Leopard |
+| 5 | Semi-Leopard |
+| 6 | Marble |
+| 7 | Frost |
+| 8 | Snowflake |
+| 9 | Snowcap |
+| 10 | Ghost |
+| 11 | Halo Spots |
+| 12 | Roll once on Appaloosa Patterns and once on Pinto Patterns |
+
+<span id="other-markings"></span>**Other Markings.** Roll 1d6.
+
+| d6 | Other Marking |
+|:---:|:---|
+| 1 | Birdcatcher Spots |
+| 2 | Chubari Spots |
+| 3 | Grease Spots |
+| 4 | Manchado |
+| 5 | Lacing |
+| 6 | Mosaic |
 
 ---
 

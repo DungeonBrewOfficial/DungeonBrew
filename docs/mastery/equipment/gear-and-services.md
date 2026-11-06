@@ -35,17 +35,17 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 
 <span id="arm-sheath"></span>**Arm Sheath**. A leather sheath with a mechanism that allows the wearer to drop a small knife, such as an ear dagger or kunai into their hand. (Quick Item: 1 Dagger)
 
-<span id="backpack-canvas"></span>**Backpack, Canvas**. Heavy duty canvas backpack that holds 40 lbs. or up to 2 ft.<sup>3</sup> of materials. Can be worn on the back. Can hold 8 light objects, 4 medium objects, or 2 heavy objects. Has 1 outside slot for gear lashed to the pack.
+<span id="backpack-canvas"></span>**Backpack, Canvas**. Heavy duty canvas backpack that holds 40 lbs. or up to 2 ft.<sup>3</sup> of materials. Can be worn on the back. Can hold 8 Light objects, 4 Moderate objects, or 2 Heavy objects. Has 1 outside slot for gear lashed to the pack.
 
-<span id="backpack-travelers"></span>**Backpack, Traveler's**. Heavy duty canvas backpack that holds 80 lbs. or up to 3 ft.<sup>3</sup> of materials. Can be worn on the back. Can hold 16 light objects, 8 medium objects, or 4 heavy objects. Has 2 outside slots for gear lashed to the pack.
+<span id="backpack-travelers"></span>**Backpack, Traveler's**. Heavy duty canvas backpack that holds 80 lbs. or up to 3 ft.<sup>3</sup> of materials. Can be worn on the back. Can hold 16 Light objects, 8 Moderate objects, or 4 Heavy objects. Has 2 outside slots for gear lashed to the pack.
 
 <span id="bandolier"></span>**Bandolier**. A leather strap worn across the chest and around the back that allows the wearer to quickly use items from inside. (Quick Item: 6 slots)
 
-<span id="barrel-large-oak"></span>**Barrel, Large Oak**. Large wooden barrel that can hold about 60 gallons of volume or capacity of 480 lbs. Can hold 96 light objects, 48 medium objects, or 24 heavy objects.
+<span id="barrel-large-oak"></span>**Barrel, Large Oak**. Large wooden barrel that can hold about 60 gallons of volume or capacity of 480 lbs. Can hold 96 Light objects, 48 Moderate objects, or 24 Heavy objects.
 
-<span id="barrel-medium-oak"></span>**Barrel, Medium Oak**. Medium wooden barrel that can hold about 30 gallons of volume or capacity of 240 lbs. Can hold 48 light objects, 24 medium objects, or 12 heavy objects.
+<span id="barrel-medium-oak"></span>**Barrel, Medium Oak**. Medium wooden barrel that can hold about 30 gallons of volume or capacity of 240 lbs. Can hold 48 Light objects, 24 Moderate objects, or 12 Heavy objects.
 
-<span id="barrel-small-oak"></span>**Barrel, Small Oak**. Small wooden barrel that can hold about 15 gallons of volume or capacity of 120 lbs. Can hold 24 light objects, 12 medium objects, or 6 heavy objects.
+<span id="barrel-small-oak"></span>**Barrel, Small Oak**. Small wooden barrel that can hold about 15 gallons of volume or capacity of 120 lbs. Can hold 24 Light objects, 12 Moderate objects, or 6 Heavy objects.
 
 | Container | Enc / Weight | Capacity | Price | Slots |
 |:---|:---:|:---:|:---:|:---|
@@ -89,13 +89,13 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 
 † *Quick Item Container, see description*
 
-<span id="basket-large-hempen"></span>**Basket, Large Hempen**. Open heavy woven basket that can hold about 8 ft.<sup>3</sup> or 90 lbs, but must be held in both hands when filled. Can hold 18 light objects, 9 medium objects, or 4 heavy objects.
+<span id="basket-large-hempen"></span>**Basket, Large Hempen**. Open heavy woven basket that can hold about 8 ft.<sup>3</sup> or 90 lbs, but must be held in both hands when filled. Can hold 18 Light objects, 9 Moderate objects, or 4 Heavy objects.
 
-<span id="basket-medium-hempen"></span>**Basket, Medium Hempen**. Open heavy woven basket that can hold about 4 ft.<sup>3</sup> or 50 lbs, but must be held in both hands when filled. Can hold 8 light objects, 4 medium objects, or 2 heavy objects.
+<span id="basket-medium-hempen"></span>**Basket, Medium Hempen**. Open heavy woven basket that can hold about 4 ft.<sup>3</sup> or 50 lbs, but must be held in both hands when filled. Can hold 8 Light objects, 4 Moderate objects, or 2 Heavy objects.
 
-<span id="basket-small-hempen"></span>**Basket, Small Hempen**. Open heavy woven basket that can hold about 2 ft.<sup>3</sup> or 30 lbs, but must be held in both hands when filled. Can hold 6 light objects, 3 medium objects, or 1 heavy object.
+<span id="basket-small-hempen"></span>**Basket, Small Hempen**. Open heavy woven basket that can hold about 2 ft.<sup>3</sup> or 30 lbs, but must be held in both hands when filled. Can hold 6 Light objects, 3 Moderate objects, or 1 Heavy object.
 
-<span id="belt-pouch-large"></span>**Belt Pouch, Large**. Large leather pouch that can hold 1 ft.<sup>3</sup> of material or 20 lbs. Can hold 4 light objects, 2 medium objects, or 1 heavy object.
+<span id="belt-pouch-large"></span>**Belt Pouch, Large**. Large leather pouch that can hold 1 ft.<sup>3</sup> of material or 20 lbs. Can hold 4 Light objects, 2 Moderate objects, or 1 Heavy object.
 
 <span id="belt-pouch-small"></span>**Belt Pouch, Small**. Small leather pouch for items you need at hand. (Quick Item: 4 slots)
 
@@ -105,11 +105,11 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 
 <span id="bucket"></span>**Bucket**. Wooden bucket that can hold 1 gallon of liquid, but must be held in a hand when filled.
 
-<span id="chest-large-oak"></span>**Chest, Large Oak**. Large oaken chest that can hold about 4 ft.<sup>3</sup> of material or about 240 lbs. Interior measures 16" by 24" by 18". Can hold 48 light objects, 24 medium objects, or 12 heavy objects.
+<span id="chest-large-oak"></span>**Chest, Large Oak**. Large oaken chest that can hold about 4 ft.<sup>3</sup> of material or about 240 lbs. Interior measures 16" by 24" by 18". Can hold 48 Light objects, 24 Moderate objects, or 12 Heavy objects.
 
-<span id="chest-medium-oak"></span>**Chest, Medium Oak**. Medium oaken chest that can hold about 2 ft.<sup>3</sup> of material or about 120 lbs. Interior measures 12" by 18" by 16". Can hold 24 light objects, 12 medium objects, or 6 heavy objects.
+<span id="chest-medium-oak"></span>**Chest, Medium Oak**. Medium oaken chest that can hold about 2 ft.<sup>3</sup> of material or about 120 lbs. Interior measures 12" by 18" by 16". Can hold 24 Light objects, 12 Moderate objects, or 6 Heavy objects.
 
-<span id="chest-small-oak"></span>**Chest, Small Oak**. Small oaken chest that can hold about 1.5 ft.<sup>3</sup> of material or about 80 lbs. Interior measures 12" by 16" by 14". Can hold 16 light objects, 8 medium objects, or 4 heavy objects.
+<span id="chest-small-oak"></span>**Chest, Small Oak**. Small oaken chest that can hold about 1.5 ft.<sup>3</sup> of material or about 80 lbs. Interior measures 12" by 16" by 14". Can hold 16 Light objects, 8 Moderate objects, or 4 Heavy objects.
 
 <span id="frog"></span>**Frog**. A leather loop or bracket fixed to a belt that holds a hafted weapon, such as an axe, mace, or hammer.
 
@@ -119,19 +119,19 @@ Containers serve a variety of purposes, allowing bulky or valuable goods to be p
 
 <span id="quiver"></span>**Quiver**. Simple leather quiver that can hold 1 sheaf (24) of arrows of one type. Can be affixed to the shoulder or hip.
 
-<span id="sack-large"></span>**Sack, Large**. Large linen sack that can hold 30 lbs or about 3 ft.<sup>3</sup> of material, but must be held in a hand when filled. Can hold 6 light objects, 3 medium objects, or 1 heavy object.
+<span id="sack-large"></span>**Sack, Large**. Large linen sack that can hold 30 lbs or about 3 ft.<sup>3</sup> of material, but must be held in a hand when filled. Can hold 6 Light objects, 3 Moderate objects, or 1 Heavy object.
 
-<span id="sack-medium"></span>**Sack, Medium**. Medium linen sack that can hold 20 lbs or about 2 ft.<sup>3</sup> of material, but must be held in a hand when filled. Can hold 4 light objects, 2 medium objects, or 1 heavy object.
+<span id="sack-medium"></span>**Sack, Medium**. Medium linen sack that can hold 20 lbs or about 2 ft.<sup>3</sup> of material, but must be held in a hand when filled. Can hold 4 Light objects, 2 Moderate objects, or 1 Heavy object.
 
-<span id="sack-small"></span>**Sack, Small**. Small linen sack that holds 10 lbs or about 1 ft.<sup>3</sup> of material, but must be held in a hand when filled. Can hold 2 light objects or 1 medium object.
+<span id="sack-small"></span>**Sack, Small**. Small linen sack that holds 10 lbs or about 1 ft.<sup>3</sup> of material, but must be held in a hand when filled. Can hold 2 Light objects or 1 Moderate object.
 
-<span id="saddle-bags-large"></span>**Saddle Bags, Large**. Large leather saddle bags capable of holding up to 4 ft.<sup>3</sup> of goods or 50 lbs. Requires a pack saddle. Can hold 8 light objects, 4 medium objects, or 2 heavy objects.
+<span id="saddle-bags-large"></span>**Saddle Bags, Large**. Large leather saddle bags capable of holding up to 4 ft.<sup>3</sup> of goods or 50 lbs. Requires a pack saddle. Can hold 8 Light objects, 4 Moderate objects, or 2 Heavy objects.
 
-<span id="saddle-bags-medium"></span>**Saddle Bags, Medium**. Medium leather saddle bags capable of holding up to 2 ft.<sup>3</sup> of goods or 25 lbs. Requires a riding or war saddle. Can hold 4 light objects, 2 medium objects, or 1 heavy object.
+<span id="saddle-bags-medium"></span>**Saddle Bags, Medium**. Medium leather saddle bags capable of holding up to 2 ft.<sup>3</sup> of goods or 25 lbs. Requires a riding or war saddle. Can hold 4 Light objects, 2 Moderate objects, or 1 Heavy object.
 
-<span id="saddle-bags-panniers"></span>**Saddle Bags, Panniers**. Hempen panniers capable of holding up to 6 ft.<sup>3</sup> of goods or 80 lbs. Requires a pack saddle. Can hold 16 light objects, 8 medium objects, or 4 heavy objects.
+<span id="saddle-bags-panniers"></span>**Saddle Bags, Panniers**. Hempen panniers capable of holding up to 6 ft.<sup>3</sup> of goods or 80 lbs. Requires a pack saddle. Can hold 16 Light objects, 8 Moderate objects, or 4 Heavy objects.
 
-<span id="saddle-bags-small"></span>**Saddle Bags, Small**. Small leather saddle bags capable of holding up to 1 ft.<sup>3</sup> of goods or 12 lbs. Requires a riding or war saddle. Can hold 2 light objects or 1 medium object.
+<span id="saddle-bags-small"></span>**Saddle Bags, Small**. Small leather saddle bags capable of holding up to 1 ft.<sup>3</sup> of goods or 12 lbs. Requires a riding or war saddle. Can hold 2 Light objects or 1 Moderate object.
 
 <span id="scabbard-leather"></span>**Scabbard, Leather**. A rigid, leather sheath designed to protect the blade of a weapon. Can be affixed to the hip, shoulder, or back.
 
