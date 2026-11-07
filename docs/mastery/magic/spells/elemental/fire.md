@@ -91,18 +91,18 @@ You set a 4 × 4 block alight at a point within line of sight, 100 feet. Each cr
 
 ## Draw Heat
 
-*3 Magan: Evoke Fire | Fast*
+*6 Magan: Evoke Fire | Moderate*
 
 | | | | |
 |:---|:---|:---|:---|
 | **Reach** | Touch | **Scale** | 1 |
 | **Duration** | Short | **Concentration** | Yes |
-| **Components** | F, S, V | **Effect** | Reduce fire resistance |
-| **Resistance** | Endurance | | |
+| **Components** | F, S, V | **Effect** | Move fire resistance |
+| **Resistance** | Endurance | **Effects** | 2 (taken from a creature) |
 
-<span id="cost_5"></span>**Cost:** (1 + 0 + 0) × 3 = 3.
+<span id="cost_5"></span>**Cost:** (1 + 0 + 0) × 3 × 2 = 6.
 
-You draw heat from a creature you touch for the encounter. The target makes an Endurance trial; on failure, its fire resistance is reduced by your mastery level. The reduction cannot bring fire resistance below 0.
+You draw heat from one creature you touch into another you touch, or into yourself, for the encounter. The first creature makes an Endurance trial; on failure, its fire resistance is reduced by your mastery level, and the second creature's rises by the same amount. The reduction cannot bring fire resistance below 0.
 
 ---
 
