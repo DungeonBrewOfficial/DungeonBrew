@@ -206,6 +206,12 @@ A single movement up to the creature's movement speed. Costs 1 AP.
 - Movement can be used as a reaction to change who you are facing, such as turning to face an approaching enemy so that they are not behind you.
 - Movement can be used as a reaction to change position on the battlefield, but if you leave a creature's attack range, they can choose to make a reprisal attack against you.
 
+### Measuring Distance
+
+Count distance on the grid in 5-foot squares. A square straight across counts 5 feet. Diagonal squares alternate: the first counts 5 feet, the second 10 feet, the third 5 feet, and so on. To count a distance quickly, take the longer of the two distances, then add half the shorter, rounded down. Height counts the same way: count the distance across the ground first, then count again using that distance and the height.
+
+Everything measured in feet uses this count: movement, weapon reach, ranges, and areas such as "within 30 feet."
+
 ### Terrain
 
 - <span id="rugged-terrain"></span>**Rugged Terrain**: Mud, deep snow, sand, dense undergrowth, rubble, shallow water, thick brush.

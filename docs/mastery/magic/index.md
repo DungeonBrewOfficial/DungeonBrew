@@ -257,7 +257,7 @@ Enchantment encompasses the full spectrum of imposed conditions. A fire enchantm
 
 To evoke is to summon. When you cast an evoke spell, you are relocating existing substance from one place to another. The summoned material genuinely leaves its point of origin.
 
-The form determines what you can summon. A fire practitioner draws heat and flame from existing sources. A stone practitioner pulls earth and metal from the ground. A sea practitioner draws water from nearby bodies. A sky practitioner draws wind and air from the surrounding atmosphere. A void practitioner relocates consciousness: memories, thoughts, and sensory experience. A sacred practitioner draws life energy from holy sites or living creatures. A primal practitioner draws living matter from natural growth. A profane practitioner draws dead matter from remains and decay. You might use *evoke* with *[fire](#fire)* to draw warmth from a distant forge into your frozen hands, *evoke* with *[stone](#stone)* to pull a wall of rock up from the earth beneath you, or *evoke* with *[void](#void)* to extract a memory from a creature's mind.
+The form determines what you can summon. A fire practitioner draws heat and flame from existing sources. A stone practitioner moves stone and metal: a loose boulder, a sword, a suit of plate. A sea practitioner draws water, other liquids, and ice. A sky practitioner draws wind and air from the surrounding atmosphere. A void practitioner relocates consciousness: memories, thoughts, and sensory experience. A sacred practitioner draws life energy from holy sites or living creatures. A primal practitioner moves living things: whole plants and creatures of flesh and blood. A profane practitioner moves dead matter: wood, bone, leather, and the dead themselves. You might use *evoke* with *[fire](#fire)* to draw warmth from a distant forge into your frozen hands, *evoke* with *[stone](#stone)* to wrench a sword from a knight's grip, or *evoke* with *[void](#void)* to extract a memory from a creature's mind.
 
 #### Exorcise
 
@@ -340,6 +340,8 @@ Every spell has a shape, and the shape is part of the spell. When you cast, you 
 
 A caster can design a spell with a new shape, such as a ring, with the GM's approval. Its shape is then fixed like any other.
 
+Evoke spells that move a thing or a creature use Size in place of Scale (see *[Evocation](#evocation)*).
+
 ### Duration
 
 How long does the effect last? All spells lasting beyond the current round require *[concentration](#concentration)* (see Concentration below).
@@ -380,7 +382,7 @@ A spell can combine multiple effects in a single casting. Each additional effect
 | 3 effects | ×3 | Fire + burning + exhausted (damage + 2 conditions) |
 | 4+ effects | ×4+ | Each additional effect adds ×1 |
 
-An effect is a damage roll, a healing or repair roll, or a condition application. A spell can include at most one damage roll. Healing and repair can be doubled (rolling ATD + MD twice instead of once counts as 2 effects), but damage cannot; magic bypasses armor, and doubled damage output against health pools produces lethality disproportionate to the magan cost.
+An effect is a damage roll, a healing or repair roll, a condition application, or taking something from a creature with an evoke spell (see *[Evocation](#evocation)*). A spell can include at most one damage roll. Healing and repair can be doubled (rolling ATD + MD twice instead of once counts as 2 effects), but damage cannot; magic bypasses armor, and doubled damage output against health pools produces lethality disproportionate to the magan cost.
 
 When a spell imposes multiple conditions, all conditions must be the same tier. The condition tier multiplier applies once.
 
@@ -562,17 +564,17 @@ Formulate and Transmute barriers are temporary. Formulated creations revert to n
 
 Material form barriers (Stone, Sea, Primal, Profane) create physical structures that block passage. A material barrier physically stops weapons, projectiles, and creatures, and provides the [Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.") condition to creatures behind it.
 
-<span id="durability"></span>**Durability.** Pool = form mastery level × 5 × (1 + Scale modifier). Scale determines toughness because a larger barrier has more material to break through. Duration determines how long the barrier exists, not how tough it is.
+<span id="durability"></span>**Durability.** Pool = form mastery level × 10 × (1 + Scale modifier). Scale determines toughness because a larger barrier has more material to break through. Duration determines how long the barrier exists, not how tough it is.
 
-| Mastery | Base (×5) | Scale 1 (×1) | Scale 2 (×2) | Scale 3 (×3) | Scale 4 (×4) | Scale 5 (×5) |
+| Mastery | Base (×10) | Scale 1 (×1) | Scale 2 (×2) | Scale 3 (×3) | Scale 4 (×4) | Scale 5 (×5) |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Unskilled (1) | 5 | 5 | 10 | 15 | 20 | 25 |
-| Untrained (2) | 10 | 10 | 20 | 30 | 40 | 50 |
-| Basic (3) | 15 | 15 | 30 | 45 | 60 | 75 |
-| Skilled (4) | 20 | 20 | 40 | 60 | 80 | 100 |
-| Expert (5) | 25 | 25 | 50 | 75 | 100 | 125 |
-| Master (6) | 30 | 30 | 60 | 90 | 120 | 150 |
-| Grand Master (7) | 35 | 35 | 70 | 105 | 140 | 175 |
+| Unskilled (1) | 10 | 10 | 20 | 30 | 40 | 50 |
+| Untrained (2) | 20 | 20 | 40 | 60 | 80 | 100 |
+| Basic (3) | 30 | 30 | 60 | 90 | 120 | 150 |
+| Skilled (4) | 40 | 40 | 80 | 120 | 160 | 200 |
+| Expert (5) | 50 | 50 | 100 | 150 | 200 | 250 |
+| Master (6) | 60 | 60 | 120 | 180 | 240 | 300 |
+| Grand Master (7) | 70 | 70 | 140 | 210 | 280 | 350 |
 
 <span id="cover"></span>**[Cover](../core/conditions.md#cover "Physical barrier between attacker and target Tiers: Partial Cover, Majority Cover, Total Cover.").** Material barriers provide the Cover condition based on geometry. Cover is positional relative to the attacker; a creature can have Total Cover from one direction and be fully exposed from another. A Scale 1 barrier (a pillar or post) can provide Total Cover from a single attacker but does not block other angles. Larger barriers cover wider arcs or shield multiple creatures. The Cover tier (Partial, Majority, Total) depends on how much of the defender is behind the barrier relative to each attacker.
 
@@ -597,27 +599,29 @@ Paths to remove a barrier:
 
 A formulated creation that can move and act on the battlefield. Where barriers are static terrain, dynamic constructs are directed by the caster as battlefield pieces. The caster shapes magan into a form with agency: a wolf of fire, a bear of stone, an eagle of sacred force, or any shape within the form's domain.
 
-<span id="cost"></span>**Cost.** Dynamic constructs use the standard spell formula with a ×2 Effects multiplier: (Base + Reach + Scale) × Duration × 2.
+<span id="cost"></span>**Cost.** A dynamic construct is priced by its size: (Base + Reach + Size) × Duration, using the size modifiers in *[Evocation](#evocation)*. Its size is its footprint (see *[Monster Manual](../bestiary/creature-rules.md), [Size](../bestiary/creature-rules.md#size)*).
 
-<span id="power-level"></span>**Power level.** The caster chooses the construct's power level when casting the spell. The power level cannot exceed the caster's mastery level in the form. The chosen level determines the construct's damage and durability (see [Dynamic Construct Table](#dynamic-construct-table) below).
+<span id="power-level"></span>**Power level.** A construct's power level equals the caster's mastery level in the form. The power level determines the construct's damage and durability (see [Dynamic Construct Table](#dynamic-construct-table) below).
 
 <span id="action-economy"></span>**Action economy.** A dynamic construct requires concentration to maintain. Each command to the construct costs 1 AP: move to a location, or attack an adjacent target. Moving and attacking in the same turn costs 2 AP. The construct does not act independently; if the caster spends no AP directing it, it does nothing.
 
 <span id="damage_1"></span>**Damage.** The construct deals form damage determined by its power level (see [Dynamic Construct Table](#dynamic-construct-table)). The construct must be adjacent to its target and the target may make an Agility Trial to avoid the damage. Energy construct damage bypasses armor. Material construct damage interacts with armor.
 
-<span id="durability_1"></span>**Durability.** The construct's power level and scale determine its durability pool (see [Dynamic Construct Table](#dynamic-construct-table)). Material constructs can be damaged by any source, including mundane weapons. Energy constructs can only be damaged by magic.
+<span id="durability_1"></span>**Durability.** The construct's power level and size determine its durability pool (see [Dynamic Construct Table](#dynamic-construct-table)). Material constructs can be damaged by any source, including mundane weapons. Energy constructs can only be damaged by magic.
+
+<span id="several-bodies"></span>**Several bodies.** A construct can take the form of several bodies, such as a band of soldiers, whose footprints together make its size. The bodies act as one construct: they stay together, move together, share one durability pool, and make one attack for each attack command.
 
 <span id="dynamic-construct-table"></span>**Dynamic Construct Table**
 
-| Power | Damage | Scale 1 (E / M) | Scale 2 (E / M) | Scale 3 (E / M) | Scale 4 (E / M) | Scale 5 (E / M) |
-|:---|:---|:---|:---|:---|:---|:---|
-| 1 | 2d2 | 5 / 10 | 10 / 20 | 15 / 30 | 20 / 40 | 25 / 50 |
-| 2 | 2d3 | 10 / 20 | 20 / 40 | 30 / 60 | 40 / 80 | 50 / 100 |
-| 3 | 2d4 | 15 / 30 | 30 / 60 | 45 / 90 | 60 / 120 | 75 / 150 |
-| 4 | 2d6 | 20 / 40 | 40 / 80 | 60 / 120 | 80 / 160 | 100 / 200 |
-| 5 | 2d8 | 25 / 50 | 50 / 100 | 75 / 150 | 100 / 200 | 125 / 250 |
-| 6 | 2d10 | 30 / 60 | 60 / 120 | 90 / 180 | 120 / 240 | 150 / 300 |
-| 7 | 2d12 | 35 / 70 | 70 / 140 | 105 / 210 | 140 / 280 | 175 / 350 |
+| Power | Damage | Tiny (E / M) | Small (E / M) | Middling (E / M) | Large (E / M) | Massive (E / M) | Enormous (E / M) | Immense (E / M) |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| 1 | 2d2 | 5 / 10 | 10 / 20 | 15 / 30 | 20 / 40 | 25 / 50 | 30 / 60 | 35 / 70 |
+| 2 | 2d3 | 10 / 20 | 20 / 40 | 30 / 60 | 40 / 80 | 50 / 100 | 60 / 120 | 70 / 140 |
+| 3 | 2d4 | 15 / 30 | 30 / 60 | 45 / 90 | 60 / 120 | 75 / 150 | 90 / 180 | 105 / 210 |
+| 4 | 2d6 | 20 / 40 | 40 / 80 | 60 / 120 | 80 / 160 | 100 / 200 | 120 / 240 | 140 / 280 |
+| 5 | 2d8 | 25 / 50 | 50 / 100 | 75 / 150 | 100 / 200 | 125 / 250 | 150 / 300 | 175 / 350 |
+| 6 | 2d10 | 30 / 60 | 60 / 120 | 90 / 180 | 120 / 240 | 150 / 300 | 180 / 360 | 210 / 420 |
+| 7 | 2d12 | 35 / 70 | 70 / 140 | 105 / 210 | 140 / 280 | 175 / 350 | 210 / 420 | 245 / 490 |
 
 E = Energy (magic only). M = Material (any source).
 
@@ -682,6 +686,54 @@ Trickle damage is the Attrition condition: a recurring, flat damage effect. Each
 <span id="sustained-by-a-spell"></span>**Sustained by a spell.** When sustained by a short or longer duration spell, it persists for the spell's duration. The target can break free (see *[Conditions, Breaking Free](../core/conditions.md#breaking-free)*). If the spell ends, the condition begins standard deterioration at 1 tier per round.
 
 <span id="retargeting"></span>**Retargeting.** A resisted or broken trickle spell can be applied again; see *[Resisted or broken](#resisted-or-broken)* above.
+
+### Evocation
+
+An evoke spell moves something that already exists: a thing, a creature, or an energy such as heat, a memory, or a condition. Evocation moves what it takes and never changes it.
+
+<span id="what-you-can-evoke"></span>**What you can evoke.** You can evoke a whole thing, or a thing held within another: a sword from a hand, a flame from a torch, the air in a creature's lungs, a key it swallowed. Part of a thing cannot be evoked, such as the blade of a knife, a creature's blood, or its heart. A container and its contents are two things. Something mixed into something else, such as a swallowed potion, is no longer what it was and cannot be evoked.
+
+You evoke only what you know is there: the air in a creature's lungs, the wine in a bottle on the table, a coin you watched go into a purse. The unknown contents of a closed container cannot be evoked. The thing you evoke and the point where you set it must both be within the spell's reach.
+
+A thing made of several materials moves under the form it is mostly made of: plate armor under Stone, a spear under Profane. A creature moves under the form its body is made of: a creature of flesh and blood under Primal, an undead under Profane, a creature of living flame under Fire. A corpse is a thing, under Profane. The GM decides close cases.
+
+<span id="cost_1"></span>**Cost.** An evoke spell that moves a thing or a creature uses Size in place of Scale. Its size is the thing's size category (see *[General Rules](../core/exploration-and-travel.md), [Size](../core/object-durability.md#size)*) or the creature's size.
+
+<span id="magan-cost-duration-effects"></span>**Magan Cost = (Base + Reach + Size) × Duration × Effects**
+
+| Size | Modifier |
+|:---|:---:|
+| Tiny | +0 |
+| Small | +1 |
+| Middling | +2 |
+| Large | +3 |
+| Massive | +4 |
+| Enormous | +5 |
+| Immense | +6 |
+
+A spell covers anything up to its size at its full cost. Casting it for a larger or smaller size is a modification (see *[Modified Familiar Casting](#modified-familiar-casting)*). An evoke spell that moves an energy or a condition uses Scale.
+
+<span id="taking-from-a-creature"></span>**Taking from a creature.** Taking an item a creature carries, such as a dagger on its belt, costs nothing extra. Taking an item it holds or wears counts as a second effect, as does taking an energy or condition it bears, or moving the creature itself. Where the evoked thing lands costs nothing extra.
+
+<span id="resisting"></span>**Resisting.** An unwilling creature resists with:
+
+- Strength, for an item it carries, holds, or wears.
+- Physique, for being moved itself.
+- The condition's own attribute, for a condition taken from it. For a positive condition, it uses the attribute of the paired negative condition: [Invigorated](../core/conditions.md#invigorated "Counters Exhausted (1:1). Raw energy and vitality. Physical surge that graduates to total enhancement at peak. T1 — Energized: Dominance on physical rolls. T2 — Empowered: Dominance on physical rolls. Bonus +1 to physical rolls. T3 — Tireless: Dominance on all rolls. Bonus +2 to all rolls.") is resisted with Endurance.
+
+A willing creature makes no trial, and the spell is cast the same way.
+
+<span id="where-it-lands"></span>**Where it lands.** You set the evoked thing at a point you choose within the spell's reach. A thing dropped onto a creature is an improvised weapon (see *Weapon Mastery, [Improvised](../weapons/index.md#improvised)*); the creature makes an Agility trial against your Mastery DC to get clear, and the GM decides whether the drop is high enough to harm. Its damage is mundane. A creature set down over a drop falls (see *[General Rules](../core/exploration-and-travel.md), [Falling](../core/exploration-and-travel.md#falling)*).
+
+<span id="moving-conditions"></span>**Moving conditions.** You can move a condition from one creature to another within the spell's reach, if your form can impose it (see *[Form and Condition Access](#form-and-condition-access)*). The condition keeps its tier and its source: a creature made afraid by a Daeva stays afraid of the Daeva. The condition's tier multiplies the cost (see *[Condition Tier](#condition-tier)*).
+
+- Tiers held by a lasting source cannot be moved (see *[Conditions, Lasting Sources](../core/conditions.md#lasting-sources)*).
+- [Tainted](../core/conditions.md#tainted "Endurance trial to resist. Acute toxins, venom, or poisonous substances. Poison degrades body and mind. Tiers compound. T1 — Dosed: Penalty -1 to all rolls. T2 — Blighted: Penalty -2 to all rolls. Impotence on all rolls. Movement halved. Lose 1 health at end of turn. T3 — Corrupted: Penalty -3 to all rolls. Impotence on all rolls. Movement halved. Cannot take reactions. Lose 2 health at end of turn.") and [Infected](../core/conditions.md#infected "Endurance trial to resist. Illness, disease, or supernatural contamination. Infected does not deteriorate naturally. At each incubation interval (determined by the disease), the creature makes an Endurance trial against the disease's DC. On success, the condition descends by 1 tier. On failure, the condition advances by 1 tier. If the condition descends below Tier 1, the disease is overcome. Tiers: Afflicted, Sickened, Diseased.") are mixed into the body and cannot be moved.
+- To free a creature that ice or vines hold [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan)."), evoke the ice or the vines.
+- [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") and [Controlled](../core/conditions.md#controlled "Charisma trial to resist. Loss of bodily autonomy through magical domination or possession. Standard deterioration applies. Tiers: Compelled, Possessed, Dominated.") move only with the form connected to the creature that bears them, and only to another creature connected to that form.
+- Of the simple conditions, only [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") of an elemental or entropic damage type can be moved, using the form of that damage type.
+
+When the spell ends, what you evoked returns (see *[Magical Impermanence](#magical-impermanence)*).
 
 ---
 
@@ -839,7 +891,7 @@ The loser may advance [Exhausted](../core/conditions.md#exhausted "Endurance tri
 
 Formulated matter and transformed matter revert when the spell ends. Formulated water vanishes. Transmuted food becomes what it was before the spell. A reshaped stone wall returns to its original form. Duration determines how long the creation or transformation persists. Permanent creation requires the enchanting system.
 
-Evoked matter is real. A relocated object is the genuine article, not a magical copy. When the spell ends, the object returns to where it was taken from. Anything done to the object while relocated is permanent: a stolen blade that is broken returns broken, and consumed food nourishes the one who ate it.
+Evoked matter is real. A relocated object is the genuine article, not a magical copy. When the spell ends, the object returns. A thing taken from a creature returns to that creature wherever it is: armor onto its body, a weapon into its hand, or beside it if the hand is full. A thing taken from a place, and an evoked creature, return to the place they were taken from. Anything done to the object while relocated is permanent: a stolen blade that is broken returns broken, and consumed food nourishes the one who ate it. An evoked energy or condition returns the same way, less anything spent: a condition used up countering its opposite does not return.
 
 Energy transfers are permanent consequences. Fire damage causes real burns that persist after the spell ends. A formulated boulder that strikes someone deals real damage, even though the boulder vanishes afterward.
 
