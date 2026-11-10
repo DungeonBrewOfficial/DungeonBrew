@@ -75,17 +75,15 @@ Clerics are devotees of powers greater than themselves, known as *numen*, but al
 * You gain 1 Weapon Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 * You can obtain Expert mastery with a cleric.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Theurgic Authority (Cleric)
-
-*Level 1*
 
 You gain the ability to project the will of your numen over two kinds of being, set by your alignment: Asura and Daeva if you are Lawful or Chaotic, Morphon and Primordial if you are Neutral.
 

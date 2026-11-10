@@ -72,9 +72,9 @@ She is a gray elf. An elf of knowledge and nobility. Her power comes from her gr
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
 * You can obtain Master mastery with a gray elf.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Fae
 
@@ -109,8 +109,6 @@ You automatically advance in the *[Alertness](../../skills/alertness.md)* and *[
 <span id="wisdom-of-ages"></span>**Wisdom of Ages.** Wherever Presence uses your Charisma, including its trials, its Presence Mastery DC, and bonuses equal to your Charisma tier, you use Wisdom instead.
 
 ### Priscan Magic
-
-*Level 1*
 
 You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Perception score. For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 

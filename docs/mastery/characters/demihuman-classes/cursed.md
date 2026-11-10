@@ -70,9 +70,9 @@ She is cursed. A creature born of chaos and devilry. Her powers are in the deep 
 * You gain 1 Weapon Mastery point per level. At level 21, this increases to 2 points per level.
 * You can obtain Skilled mastery with a cursed.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Cursed
 

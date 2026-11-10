@@ -72,17 +72,15 @@ He is a paladin. A human warrior of law and life. His power comes from his numen
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
 * You can obtain Master mastery with a paladin.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Theurgic Authority (Paladin)
-
-*Level 1*
 
 You gain the ability to project the will of your numen to drive away or destroy Daeva and to charm Asura to serve divine purpose.
 

@@ -72,9 +72,9 @@ He is a sylvan elf. An elf of balance and natural order. His power comes from he
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.
 * You can obtain Grand Master mastery with a sylvan elf.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Fae
 
@@ -99,8 +99,6 @@ You automatically advance in the *[Athletics](../../skills/athletics.md)* and*Wi
 <span id="ambidextrous"></span>**Ambidextrous.** You have otherworldly coordination and dexterity. You have Dominance on Athletics skill trials.
 
 ### Priscan Magic
-
-*Level 1*
 
 You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 

@@ -122,9 +122,9 @@ Some disciplines counter a skill: *Alertness (Danger Sense) counters Sneaking.* 
 A creature's mastery level is its form mastery level for every spell it casts. It sets:
 
 - a ward's durability pool (form mastery level × 5 × duration multiplier) and flat resistance (× 2)
-- a material barrier's durability (× 5 × (1 + Scale modifier)) and an energy barrier's resistance (× 2)
+- a material barrier's durability (× 10 × (1 + Scale modifier)) and an energy barrier's resistance (× 2)
 - an aura's damage (equal to the level)
-- the highest power level of a dynamic construct
+- a dynamic construct's power level
 - the highest tier it can summon
 
 ### Attributes

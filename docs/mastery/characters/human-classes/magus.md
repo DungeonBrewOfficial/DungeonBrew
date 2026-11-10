@@ -71,17 +71,15 @@ She is a magus. A human practitioner of the Occult, studied in the ways of magic
 * You gain 1 Weapon Mastery point per level. At level 21, this increases to 2 points per level.
 * You can obtain Skilled mastery with a magus.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Occult Magic
-
-*Level 1*
 
 You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence score. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). Your magan are regained through rest and food, as described in the *Exploration* chapter.
 
@@ -101,8 +99,6 @@ You start with a grimoire containing two spells chosen by you or your GM. A star
 
 ### Cantrips
 
-*Level 1*
-
 You know the following cantrips as part of your training as a magus. Cantrips require 1 AP, are Fast, and are treated as Tier 0 spells (0 Magan to cast). You can cast a number of cantrips per day equal to your Casting Attribute score, regained at dawn.
 
 #### Actions
@@ -120,13 +116,9 @@ You know the following cantrips as part of your training as a magus. Cantrips re
 
 ### Student
 
-*Level 1*
-
 You automatically advance in the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Arcane Familiar
-
-*Level 1*
 
 You attract a familiar to your side, a *[Morphon](../../bestiary/morphon.md)* or *[Primordial](../../bestiary/primordial.md)* spirit of Tiny, Small, or Middling size. A Tiny familiar occupies ¼ square (+2 defense, −2 speed), a Small familiar ½ square (+1 defense, −1 speed), and a Middling familiar 1 square. Its Tier increases with your level on the table below.
 

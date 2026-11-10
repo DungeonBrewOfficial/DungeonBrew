@@ -71,9 +71,9 @@ She is a gnome. A demihuman thought to be myth by most, and not thought of at al
 * You gain 1 Weapon Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 * You can obtain Expert mastery with a gnome.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Fae
 
@@ -88,8 +88,6 @@ As a Fae being, you are immune to Primal damage and have Impotence on trials to 
 <span id="gnosis"></span>**Gnosis.** You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Priscan Magic
-
-*Level 1*
 
 You can cast priscan spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Perception score (rounded down). For each Perception Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Perception Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
@@ -106,8 +104,6 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 You document your magical observations in a compendium: a detailed record of every font encountered, every phenomenon observed, and every conclusion drawn. Each spell requires 2 pages per magan of meticulous notes, diagrams, and cross-references. The writing process is how you internalize magic; once a spell is fully documented and understood, you can cast it without the compendium in hand. Losing your compendium does not prevent you from casting spells you have already learned, but it destroys your accumulated research and any partial work on spells in progress.
 
 ### Studied Enemy
-
-*Level 1*
 
 You spend time dissecting the enemy's techniques, patterns, and weaknesses through focused observation, translating knowledge into tactical advantage.
 

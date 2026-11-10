@@ -76,17 +76,15 @@ Avengers are devotees of powers greater than themselves, known as *numen*, but a
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
 * You can obtain Master mastery with an avenger.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Theurgic Authority (Avenger)
-
-*Level 1*
 
 You gain the ability to project the will of your numen to drive away or control Daeva and to destroy Asura.
 
@@ -146,8 +144,6 @@ You start with a prayer book containing two prayers chosen by you or your GM. Ea
 <span id="lost-book"></span>**Lost Book.** If your prayer book is lost, you cannot cast your recorded prayers and must recover the book or seek new revelations through pilgrimage and prayer.
 
 ### Chantment
-
-*Level 1*
 
 <span id="polestar"></span>**Polestar.** You can bind a weapon as your focus (see *[Equipment](../../equipment/gear-and-services.md)*, [Foci](../../equipment/gear-and-services.md#foci)). Your bound Polestar weapon also reduces each spell's cost by 1, and counts as the spell's one material component. If you lose the weapon, you have no focus until you recover it or bind another.
 
