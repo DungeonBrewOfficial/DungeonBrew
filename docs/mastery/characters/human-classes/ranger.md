@@ -69,9 +69,9 @@ She is a ranger. A human warrior that is more at home in the wilds than she is a
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.
 * You can obtain Grand Master mastery with a ranger.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
@@ -79,13 +79,9 @@ As a Mortal being, you have no innate damage immunity or vulnerability. You are 
 
 ### Pathfinder
 
-*Level 1*
-
 You automatically advance in the *[Wilderness](../../skills/wilderness/index.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Wayfarer
-
-*Level 1*
 
 <span id="ranging"></span>**Ranging.** You do not provoke Reprisal Attacks when you move.
 

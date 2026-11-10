@@ -69,9 +69,9 @@ He is a dwarf. A stout warrior of myth and legend, considered to be one of the m
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.
 * You can obtain Grand Master mastery with a dwarf.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Primordial
 

@@ -69,17 +69,15 @@ He is a knight. A human warrior that is bound by his oaths to a liege, abiding b
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a Combat Style of your choice.
 * You can obtain Grand Master mastery with a knight.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
 As a Mortal being, you have no innate damage immunity or vulnerability. You are connected to the Void magic form. Only Void magic can Charm, Control, summon, or banish you, or restore your mind (see *[Magic Mastery](../../magic/index.md)*, [Connected Form](../../magic/exorcism-enchantment-shapeshifting.md#connected-form)). All other magic affects you normally.
 
 ### Knightly Code
-
-*Level 1*
 
 Your combat identity: Honor, Valor, and Glory. These three pillars that define you as a knight but can only be maintained so long as you are in service to your lord.
 

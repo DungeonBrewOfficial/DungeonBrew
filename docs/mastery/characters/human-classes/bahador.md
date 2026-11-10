@@ -72,9 +72,9 @@ He is a Bahador. A human warrior that commands the Occult. He is a devoted stude
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
 * You can obtain Master mastery with a Bahador.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
@@ -82,13 +82,9 @@ As a Mortal being, you have no innate damage immunity or vulnerability. You are 
 
 ### Student
 
-*Level 1*
-
 You automatically advance in the *[Trade (Scribe)](../../skills/trade/index.md#scribe-discipline)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Occult Magic
-
-*Level 1*
 
 You can cast Occult spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to your Intelligence Tier. For each Intelligence Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Intelligence Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
@@ -107,8 +103,6 @@ You start with a grimoire containing two spells chosen by you or your GM. A star
 <span id="lost-book"></span>**Lost Book.** If your grimoire is lost, you cannot memorize any spells to cast and must either find the lost book or begin creating a new one.
 
 ### Chantment
-
-*Level 1*
 
 <span id="polestar"></span>**Polestar.** You can bind a weapon as your focus (see *[Equipment](../../equipment/gear-and-services.md)*, [Foci](../../equipment/gear-and-services.md#foci)). Your bound Polestar weapon also reduces each spell's cost by 1, and counts as the spell's one material component. If you lose the weapon, you have no focus until you recover it or bind another.
 

@@ -68,9 +68,9 @@ He is an orc. A barbaric warrior of rage and instinct. *Civilized* people scoff 
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
 * You can obtain Master mastery with an orc.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Fae
 

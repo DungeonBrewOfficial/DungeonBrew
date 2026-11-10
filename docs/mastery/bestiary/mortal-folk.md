@@ -4,13 +4,31 @@ generated_by: tools/sync_mastery.py
 
 # Mortal Folk
 
-Mortal Folk are mortals who think and speak: the bandit on the road, the soldier at the gate, the hunter in the wood, the knight in a lord's service. Their bodies are flesh and nothing more, and they share no nature that sets them apart from the world.
+Mortal Folk are people: mortals who think and speak, whose bodies are flesh and blood. They are the bandit on the road, the soldier at the gate, the hunter in the wood, and the knight in a lord's service. Alone, a person is easily dealt with. What makes Folk dangerous is what binds them to one another, and what becomes of them when nothing does.
 
-They want what people want: coin, safety, a meal, orders followed, a grudge settled. Many fights with Mortal Folk can be talked down, paid off or outlasted, and the ones that can't usually began long before the party arrived.
+#### Born
 
-<span id="classification-package"></span>**Classification package:** Mortal Folk have no innate immunity or vulnerability. Connected to Void magic.
+Most bonds are given at birth: a family, a village, a people, a crown. A child is raised to its parents' trade and its people's customs, learns who its neighbors are and who the strangers are, and owes the lord of its land rent, labor and, when called, service. These bonds are owed before a person can speak, and they pull at that person whatever they later swear.
 
-<span id="kingdoms"></span>**Kingdoms.** Folk are one of the two mortal kingdoms. Folk think and speak, and are connected to Void. Beasts do not, and are connected to Primal.
+#### Chosen
+
+Some bonds a person takes on. A knight swears to a lord, a soldier signs on with a company, an outlaw buys into a band's take and its silence, a practitioner learns magic from a teacher, a believer takes vows to a faith or an order. A chosen bond can be broken, and it can pull against the one a person was born to: the knight sworn against their own kin, the sellsword paid to fight their own people.
+
+#### Broken
+
+And some people are cut loose. The exile driven out of their village, the deserter, the knight whose lord is dead or whose oath is broken, the cursed whom no community will take in. A person with nothing left to hold them has little left to lose. Some of the most dangerous people a party meets are the ones no one claims.
+
+#### At the Table
+
+Folk turn up wherever people do: on the road, at the gate, in the woods, and in the halls of the powerful. They want what people want: coin, safety, a meal, orders followed, a grudge settled. Many fights with Folk can be talked down, paid off, or outlasted, and the ones that can't usually began long before the party arrived. Each family's description says what binds its members and what happens when that bond breaks. Each stat block describes a kind of person rather than a particular one, and who they are is the GM's to decide.
+
+#### Classification Package
+
+Mortal Folk have no innate immunity or vulnerability. They are connected to Void magic.
+
+#### Kingdoms
+
+Folk are one of the two mortal kingdoms, alongside Beasts. Folk think and speak, and are connected to Void. Beasts live by instinct, and are connected to Primal.
 
 <span id="at-a-glance"></span>**At a glance** (by Tier and Rank):
 

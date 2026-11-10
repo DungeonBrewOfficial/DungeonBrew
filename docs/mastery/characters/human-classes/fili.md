@@ -75,9 +75,9 @@ Filis are versatile warriors, often tied to the druidic order. They are known fo
 * You gain 1 Weapon Mastery point per level. At level 16, this increases to 2 points per level. At level 26, this increases to 3 points per level.
 * You can obtain Expert mastery with a Fili.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
@@ -85,13 +85,9 @@ As a Mortal being, you have no innate damage immunity or vulnerability. You are 
 
 ### Filiic Lore
 
-*Level 1*
-
 You automatically advance in the *[Lore](../../skills/lore.md)* Skill Mastery. You begin with Untrained Mastery, gain Basic Mastery at level 3, Skilled Mastery at level 6, gain Expert Mastery at level 10, Master Mastery at level 15, and Grand Mastery at level 21. These skills do not count against your Skill Mastery points.
 
 ### Telluric Magic
-
-*Level 1*
 
 You can cast telluric spells. You have a number of *[Magan](../../magic/index.md#magan)*, or spell points, equal to half your Wisdom score (rounded down). For each Wisdom Tier up to your current tier, roll the corresponding tier die and add the result. Each time your Wisdom Tier increases, roll the new tier die and add it to your magan, and you can reroll the others (see *[Tier Dice Pools](../creating-a-character.md#tier-dice-pools)*). You recover magan through rest and sustenance (see *[Resting](../../core/exploration-and-travel.md#resting)*).
 
@@ -104,8 +100,6 @@ Each spell you cast reduces your available magan by the spell's magan cost.
 <span id="oral-tradition"></span>**Oral Tradition.** You can also discover new spells at natural sacred sites (ley lines, faerie circles, sacred groves). You compose a mnemonic verse to encode the magical principle, then expand it through extended practice. Internalizing a spell requires a sacrifice or offering to nature worth magan² ss and takes 1 day per magan. Primal magic is oral tradition and cannot be written down. See the *[Magic Mastery](../../magic/index.md)* chapter, *[Spell Sources](../../magic/index.md#spell-sources)* and *[Discovery](../../magic/index.md#discovery)*.
 
 ### Fili Song
-
-*Level 1*
 
 You can weave magic through music and oral tradition. When you sing, you can either dedicate your concentration slot to maintain the song (freeing your actions) or spend 1 AP per round to maintain it (keeping your concentration slot open for a spell). You can cast spells while singing. The Dirge is a song and follows these rules.
 

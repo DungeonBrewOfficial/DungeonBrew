@@ -4,13 +4,27 @@ generated_by: tools/sync_mastery.py
 
 # Fae
 
-Fae are sustained by Primal magic: growth and decay, birth and death, predator and prey. Each is bound to some cycle of the living world. A dryad lives as long as her tree; some Fae wake only in one season; some answer to a place, some to a hunger. The dying half of that cycle is as much theirs as the growing half, and the redcap belongs to the Fae as surely as the dryad does.
+Fae are beings of the living world: growth and decay, birth and death, predator and prey. Primal magic sustains them, and each is bound to some cycle of life: a season, a place, a hunger. The dying half of that cycle is as much theirs as the growing half, and the redcap belongs to the Fae as surely as the dryad does.
 
-Fae are met wherever the living world is oldest or strongest: deep woods, wild hills, springs and old mounds, ruins the land has taken back. Some can be bargained with. Others, like the redcap, want only blood.
+#### People
 
-<span id="classification-package"></span>**Classification package (all Fae):** Immune to Primal damage. Impotence on trials vs Void damage. Connected to Primal magic.
+The Tuatha are the Fae peoples: elves and gnomes, goblins and orcs. They live alongside mortals, in the hills, the deep woods, and the edges of the settled lands, as neighbors, rivals, or raiders. They do not age as mortals do. Grief, strife, and pain age them, and peace preserves them, so each people guards against suffering in its own way.
 
-<span id="kingdoms"></span>**Kingdoms.** Fae belong to one of three kingdoms. **Dé** are Fae numen, powerful enough to grant magic to those who devote themselves to them. **Sídhe** are Fae spirits bound to a place or a living thing. **Tuatha** are the Fae peoples. The Tuatha do not age as mortals do: grief, strife and pain age them, and peace preserves them, so each people guards against it in its own way.
+#### Place
+
+The Sídhe are spirits bound to a place or a living thing: a tree, a grove, a spring, a white deer that is always going home. A dryad lives as long as her tree. They dwell where the land is oldest and strongest: deep woods, wild hills, springs and old mounds, ruins the land has taken back. To harm the place is to harm the spirit, and many will defend what they are bound to.
+
+#### At the Table
+
+Fae turn up at the edges: where farmland meets the wood, on the road through the hills, at the spring no one drinks from after dark. Each stat block's Behavior says what moves that Fae: a hunger, a place to keep, a hunt. Some can be reasoned with, and some follow their nature wherever it leads. What binds a Fae, whether a tree, a season, or a place, is often the key to dealing with it.
+
+#### Classification Package
+
+Fae are immune to Primal damage and have Impotence on trials against Void damage. They are connected to Primal magic.
+
+#### Kingdoms
+
+Fae belong to one of three kingdoms. The Dé are the Fae numen, powerful enough to grant magic to those who devote themselves to them. The Tuatha are the Fae peoples. The Sídhe are Fae spirits bound to a place or a living thing.
 
 <span id="at-a-glance"></span>**At a glance** (by Tier and Rank):
 
@@ -119,7 +133,7 @@ A subterranean goblin that only surfaces during the darkest weeks of the year, a
 
 <span id="abilities_1"></span>**Abilities:**
 
-<span id="rend"></span>***Rend*** *(1 AP, Attack. Ability slot 1).* The Kallikantzaros makes a claw attack with Impotence. If damage is dealt, the target must succeed on an END trial [3] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 1 (END Tier).
+<span id="rend"></span>***Rend*** *(1 AP, Attack. Ability slot 1).* The Kallikantzaros makes a claw attack with Impotence. If damage is dealt, the target must succeed on an END trial [3] or gain [Attrition](../core/conditions.md#attrition "Persistent damage from a sustained effect. Applied by specific abilities, spells, or environmental hazards. Each instance deals damage equal to the source's relevant attribute tier at the end of the afflicted creature's turn. Each attack that applies Attrition creates a separate instance. All instances resolve at end of the afflicted creature's turn and then expire. Healing received before end of turn prevents the damage. Resistance of the corresponding damage type applies (if any).") (Bleeding) 2 (STR Tier).
 
 <span id="swarm-frenzy"></span>***Swarm Frenzy*** *(1 AP, Reaction. Ability slot 2).* When an allied Kallikantzaros within 5 feet hits a creature, this Kallikantzaros can make a claw attack against the same target.
 
@@ -369,7 +383,7 @@ The Dryad's bonded tree is a massive ancient tree (2×2 footprint, 15 ft reach).
 
 <span id="ensnare"></span>***Ensnare*** *(Spell: Enchant Primal. Channeler. Moderate. Concentration. Ability slot 4. Range 30 ft).* Roots seize a creature. The target must succeed on a STR trial [8] or advance [Restricted](../core/conditions.md#restricted "Strength trial to resist. Grappling, binding, entanglement, or physical constraint. Tiers compound. T1 — Grappled: Cannot move. Penalty -1 to physical rolls. T2 — Pinned: Cannot move. Penalty -2 to physical rolls. Inferiority on attack and defense rolls. T3 — Restrained: Cannot move or take any actions except attempts to resist. Considered Helpless. Can maintain concentration. Can cast spells without somatic components (+1 magan).") by 1 tier. Restricted does not deteriorate while held. Once per turn, the target can spend 1 AP on a STR trial [8] to break free; on success, the hold drops by 1 tier. An adjacent ally can spend 1 AP on its own turn to make the same trial for it.
 
-<span id="briar-wall"></span>***Briar Wall*** *(Spell: Formulate Primal. Channeler. Slow. Concentration. 2/encounter. Ability slot 5. Range 30 ft).* The Dryad raises a wall of dense, thorny growth 2 squares long and 2 high. It provides full cover to creatures behind it and has 40 durability. It can be cut, burned and interacted with normally. When the spell ends, the growth withers.
+<span id="briar-wall"></span>***Briar Wall*** *(Spell: Formulate Primal. Channeler. Slow. Concentration. 2/encounter. Ability slot 5. Range 30 ft).* The Dryad raises a wall of dense, thorny growth 2 squares long and 2 high. It provides full cover to creatures behind it and has 80 durability. It can be cut, burned and interacted with normally. When the spell ends, the growth withers.
 
 <span id="phase-reference"></span>**Phase Reference** *(each phase includes all abilities from earlier phases):*
 
@@ -433,7 +447,7 @@ An ancient tree awakened. The Treow moves with glacial patience, its roots pulli
 
 *Fairy Hart, Hart of the Deep Wood*
 
-A hart of pure white, larger than any red deer, seen at the edge of the deep wood and never twice in the same place. It is a Sídhe of the deep wood: wherever it is met, it is going home, and home is on the other side. Hunters follow it. Some of them come back. Its newborn foal is the source of the alchemist's Hippomanes.
+A hart of pure white, larger than any red deer, seen at the edge of the deep wood and never twice in the same place. It is a Sídhe of the deep wood: wherever it is met, it is going home, and home is on the other side. Where the stories made the white deer holy instead, it became the White Stag. Hunters follow it. Some of them come back. Its newborn foal is the source of the alchemist's Hippomanes.
 
 <span id="what-the-stories-say"></span>**What the stories say.** Fae Lore can turn up these stories. Which of them are true is the GM's choice.
 
@@ -469,7 +483,7 @@ A hart of pure white, larger than any red deer, seen at the edge of the deep woo
 
 <span id="sidhe_2"></span>***Sídhe (Primal)*** *(Classification, no slot).* Immune to Primal damage. Impotence on trials vs Void damage. Connected to Primal magic.
 
-<span id="the-white-hart"></span>***The White Hart*** *(Ability slot 1).* A sapient creature that can see the hart within 60 feet, either for the first time in an encounter or at the start of its turn, must succeed on a WIS trial [7] or advance [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") by 1 tier. The hart's implied request is to be followed. This aura cannot advance Charmed past Tier 1. A creature that succeeds is immune to the aura for the rest of the encounter. While a creature can see the hart, its Charmed does not deteriorate, including tiers from other sources. Once per turn, it can spend 1 AP on a WIS trial [7] to break the hold; on a success, Charmed deteriorates normally even while it can see the hart. The hold ends if the hart dies, goes [Catatonic](../core/conditions.md#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."), or is no longer part of the encounter.
+<span id="the-white-hart"></span>***The White Hart*** *(Ability slot 1).* While exploring or traveling, when a creature sees the hart, the hart can choose to lure it: the creature must succeed on a WIS trial [7] or advance [Charmed](../core/conditions.md#charmed "Wisdom trial to resist. Magical or supernatural influence over disposition. The creature retains agency but its attitude toward the source is magically altered. Standard deterioration applies. Tiers: Lured, Beguiled, Enthralled.") by 1 tier. The hart's implied request is to be followed. This ability cannot advance Charmed past Tier 1. A creature that succeeds is immune to it for the rest of the encounter. While a creature can see the hart, its Charmed does not deteriorate, including tiers from other sources. At the end of each exploration or travel round, a creature that can still see the hart can make a WIS trial [7] to break the hold; on a success, its Charmed deteriorates normally even while it can see the hart. When a creature loses sight of the hart, it spends the rest of that round searching for it. If it does not see the hart again by the end of the round, its Charmed deteriorates normally; if it does, the hart can choose to lure it again. The hold ends if the hart dies, goes [Catatonic](../core/conditions.md#catatonic "Cannot cast spells, cannot speak, cannot concentrate (automatically loses active concentration). Auto-fail mental attribute trials. Physical body unaffected."), or is no longer part of the encounter.
 
 <span id="turned-shaft"></span>***Turned Shaft*** *(Ability slot 2).* When a ranged attack deals health damage to the hart, the attacker takes the same amount as Primal damage. If this reduces the attacker to 0 health, it also suffers the Hart's Wound, a Grievous Trauma that only Primal magic can heal. While the wound lasts, the creature's maximum health is reduced by 7.
 

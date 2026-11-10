@@ -69,9 +69,9 @@ He is a halfling. A demihuman who keeps to himself, mostly. The big folk are alw
 * Starting at level 2, each time you invest a point into a Weapon Type, you can invest one point for free into a single Combat Style, up to Master mastery.
 * You can obtain Master mastery with a halfling.
 
-## Leveled Abilities
+## Hallmarks
 
-You gain abilities below as you increase level.
+You have all of these hallmarks from 1st level. Hallmarks with tiers grow stronger as your level rises, as their tables show.
 
 ### Mortal
 
