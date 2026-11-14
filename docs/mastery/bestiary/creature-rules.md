@@ -45,7 +45,7 @@ Minion through Master tells the story of an organization. The Minion is the regu
 
 ### Motivation
 
-Every creature wants something. Before building its numbers, decide what drives it, using the same three scales as character Motivations ([Mastery Core Classes](../characters/creating-a-character.md), [Motivations](../characters/creating-a-character.md#motivations)):
+Every creature wants something. Before building its numbers, decide what drives it, using the same three scales as character Motivations ([Mastery Core Classes](../characters/creating-a-character.md), [Motivations](../characters/personality.md#motivations)):
 
 - <span id="major"></span>**Major:** its nature, what it is. A hunter wants to hunt. A collector wants to collect. A false form wants to be real.
 - <span id="moderate"></span>**Moderate:** its current arc. What it has been doing in this region, or to these people, over weeks or months.

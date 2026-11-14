@@ -254,7 +254,7 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 
 * You prepare meals for the camp.
 * *[Wilderness (Hunting and Foraging)](../skills/wilderness/index.md#hunting-and-foraging)* to safely prepare wild flora and fauna that could cause illness if handled incorrectly. If traditional fare, no skill is required.
-* A hot meal prepared by a cook grants Endurance tier bonus to health recovery and casting tier bonus to magan recovery during the next rest, but the smell can attract attention.
+* A hot meal prepared by a cook grants Endurance tier bonus to health recovery and casting tier bonus to magan recovery during the next rest, but the smell can attract attention (see *[Encounters](#encounters)*).
 
 ### Healer (A)
 
@@ -309,6 +309,61 @@ Camping is broken into Resting and Activities. 8 hours are spent resting and 8 h
 * *Perception* trials to detect approaching creatures and ambushes. If your *[Alertness (Danger Sense)](../skills/alertness.md#danger-sense)* is equal to or higher than the hider's Stealth, you have Dominance on the trial.
 * *[Lore (applicable Creature Lore)](../skills/lore.md)* to identify detected threats.
 * Watchmen are necessary throughout the night every 1-2 hours, without which there is no warning in case of an encounter.
+
+## Encounters
+
+Away from safe roads and walls, the world takes notice of a traveling party. The encounter die helps you decide when something does. Two questions guide it:
+
+- How many creatures live in this place or pass through it?
+- Is the party making sights, sounds, or smells that something here would notice?
+
+### Setting the Die
+
+<span id="the-starting-die"></span>**The starting die** reflects how dangerous the place is: who lives there and what the place is like, taken together. Choose the example nearest to where the party is.
+
+| Overland | Encounter die |
+|:---|:---|
+| Patrolled road, town outskirts | No roll |
+| Farmland, quiet country roads | 1d12 |
+| Forest, hills, open wilderness | 1d10 |
+| Frontier, borderlands, wild mountains | 1d8 |
+| Bandit country, haunted ground, war-torn land | 1d6 |
+
+| Inside | Encounter die |
+|:---|:---|
+| A long-abandoned ruin | 1d12 |
+| A large ruin with scattered occupants | 1d10 |
+| A held place: a hideout, a garrisoned tower | 1d8 |
+| A crowded place: warrens, a war camp | 1d6 |
+| A swarming place: a nest, the heart of a lair | 1d4 |
+
+<span id="what-stands-out"></span>**What stands out** steps the die down the Die Progression Chart. Look at the sights, sounds, and smells the party is making, and decide how much they would stand out here.
+
+| Sight | Sound | Smell |
+|:---|:---|:---|
+| Fire or light after dark | Voices carrying from camp | A hot meal cooking |
+| A camp in the open, without Camp Camouflage | Voices, a large party, animals, and wagons | Tallow candles |
+| A large party, animals, or wagons on open ground | Work that doesn't belong in the place | Butchering, fresh blood |
+
+The place decides what stands out. A silent crypt carries every footstep, while a crowded warren swallows ordinary noise. The stink of a tannery or a midden hides a tallow candle. Rain dulls sound and smell, wind carries a cooking smell downwind, and a fire shows for miles on open ground but hides in a forest.
+
+One thing can stand out to more than one sense, as a hot meal cooking after dark is both a light and a smell. A step down the chart also changes the odds more on a small die than on a large one. Set the die where it feels right: a loud, smelly party in wolf country might be rolling a 1d4 or a 1d3. You might hold the die where it is, or step it back up, for a cold camp, a slow and quiet pace, or a well-traveled road.
+
+### When to Roll
+
+These are starting points. Roll more or less often as the place and the party's actions suggest.
+
+- <span id="overland"></span>**Overland:** once for each part of the day: travel, downtime, and rest.
+- <span id="inside"></span>**Inside:** once each hour, with 1d6 for which of the hour's six exploration rounds it comes in.
+- <span id="after-a-fight"></span>**After a fight:** a fight is about the loudest thing a party does, so you might roll again as soon as it ends. Loud work can call for a roll the same way.
+
+### When a 1 Comes Up
+
+<span id="overland_1"></span>**Overland,** something is near. Choose something that lives in the region or passes through it: a pack of wolves, cutthroats, a patrol, lost travelers, or a merchant. Then decide whether it finds the party, and what it does about it according to its nature. A camouflaged camp still has to be found, and whatever comes searches for it against the Camp Camouflage DC. What it makes of the party matters as much as its nature. Cutthroats might leave a large, well-lit camp alone and creep up on a small, dark one. Wolves might stalk whoever walks away from the fire, and a merchant might ask to share the camp.
+
+<span id="inside_1"></span>**Inside,** something already there notices the party. Rather than adding creatures, choose the nearest occupant who would notice, and decide what it does according to its nature. Guards come to investigate, a lookout runs to warn its chief, and a predator waits to ambush. In a quiet, occupied place, the sound of a fight may simply bring the residents. It helps to note reactions in your key ahead of time ("if the party is loud, the lookout runs to warn the chief"), along with how the chief prepares.
+
+Then the party's roles take over. Watchmen and Scouts make their Perception trials as it nears, and Startle and Ambush decide how the meeting begins.
 
 ## Resting
 

@@ -41,7 +41,9 @@ CHAPTERS = {
     "conditions": ["core/conditions"],
     "alchemy": ["alchemy/index"],  # concoction pages appended in link_pages()
     "equipment": ["equip/gear", "equip/coin", "equip/armor", "equip/weapons", "equip/animals"],
-    "general rules": ["core/exploration", "core/durability", "char/factions"],
+    "general rules": ["core/exploration", "core/durability"],
+    "character design": ["design/personality", "design/height", "design/languages",
+                         "char/factions"],
     "treasure": ["treasure/index", "treasure/furs", "treasure/gems", "treasure/art",
                  "treasure/great"],
     "monster manual": ["bestiary/rules", "bestiary/design"],
@@ -335,8 +337,11 @@ def condition_entries(site):
 def link_pages(pages):
     """Add links in place. Returns (links, skipped) for the review report."""
     CHAPTERS["skill mastery"] = ["skills/index", *(k for k in pages if k.startswith("skill/"))]
+    # Older citations still say "Mastery Core Classes, Motivations"; those
+    # sections now live in Character Design.
     CHAPTERS["mastery core classes"] = ["char/creation", *(k for k in pages
-                                                          if k.startswith("class/"))]
+                                                          if k.startswith("class/")),
+                                        *CHAPTERS["character design"]]
     CHAPTERS["alchemy"] = ["alchemy/index", *(k for k in pages
                                               if k.startswith("alchemy/") and k != "alchemy/index")]
 

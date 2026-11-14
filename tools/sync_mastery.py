@@ -88,6 +88,9 @@ PAGES = {
     "char/human": page("characters/human-classes/index.md", "Human Classes"),
     "char/demihuman": page("characters/demihuman-classes/index.md", "Demihuman Classes"),
     "char/factions": page("characters/factions.md", "Factions"),
+    "design/personality": page("characters/personality.md", "Personality"),
+    "design/height": page("characters/height-and-weight.md", "Height and Weight"),
+    "design/languages": page("characters/languages.md", "Languages"),
 
     "skills/index": page("skills/index.md", "Skill Mastery"),
     "skills/companions": page(
@@ -189,14 +192,19 @@ SOURCES = [
         ("# Object Durability", "core/durability"),
         ("# Exploration", "core/exploration"),
         ("# Falling", "core/exploration"),
+        ("# Factions", DROP),  # a pointer: Factions now lives in Character Design
+    ]},
+    {"file": "Character Design.md", "level": 1, "cuts": [
+        ("# Personality", "design/personality"),
+        ("# Height and Weight", "design/height"),
+        ("# Languages", "design/languages"),
         ("# Factions", "char/factions"),
     ]},
     {"file": "Mastery Core Classes.md", "level": 2, "cuts": [
         ("## Rolling Attributes", "char/creation"),
         ("### Human Classes", "char/human"),
         ("### Demihuman Classes", "char/demihuman"),
-        ("## Personality", "char/creation"),
-        ("## Height and Weight", "char/creation"),
+        ("## Character Design", DROP),  # a pointer to the Character Design chapter
         *[(f"## {name}", f"class/{name}") for name in HUMAN],
         *[(f"## {src}", f"class/{src}") for src, _ in DEMIHUMAN],
     ]},
@@ -292,9 +300,10 @@ NAV = ("Mastery", "index", [
                           "core/exploration", "core/durability"]),
     ("Characters", None, [
         "char/creation",
+        ("Character Design", None, ["design/personality", "design/height",
+                                    "design/languages", "char/factions"]),
         ("Human Classes", "char/human", [f"class/{n}" for n in HUMAN]),
         ("Demihuman Classes", "char/demihuman", [f"class/{s}" for s, _ in DEMIHUMAN]),
-        "char/factions",
     ]),
     ("Skill Mastery", "skills/index", [
         *[f"skill/{n}" for n in SKILLS if n not in ("Trade", "Wilderness")],

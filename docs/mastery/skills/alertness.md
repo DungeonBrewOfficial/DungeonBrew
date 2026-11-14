@@ -10,21 +10,20 @@ Alertness covers environmental awareness, detection, and preternatural senses: n
 
 Alertness uses Perception. DCs are set by the GM.
 
-At Skilled, you begin choosing Awareness Abilities. At each mastery level from Skilled through Grand Master, you choose one ability which enhances your combat awareness.
+At each mastery level from Untrained through Master, you choose one Alertness discipline. At each mastery level from Skilled through Grand Master, you also choose one Awareness Ability, which enhances your combat awareness. At Grand Master, you gain Dominance on one Alertness discipline of your choice.
 
 ## Mastery Progression
 
-<span id="untrained-danger-sense-secret-doors-discernment"></span>**Untrained: Danger Sense + Secret Doors + Discernment**
+<span id="untrained-through-master-alertness-discipline"></span>**Untrained through Master: Alertness Discipline (choose one)**
+Choose one of the following at each mastery level. Unchosen disciplines remain available at subsequent levels.
 
 <span id="danger-sense"></span>**Danger Sense:** Spot environmental hazards, traps, and ambushes. Listen at doors, windows, or thin walls for faint noises. Notice changes in your surroundings. You must be in quiet conditions to hear through barriers. When you are ambushed, roll a Perception trial against the ambush's DC as it is sprung; on a success, you make no Startle trial. While you sleep, you still roll to notice danger, with Impotence; on a success, you wake before it reaches you.
 
-<span id="secret-doors"></span>**Secret Doors:** Find hidden passages, concealed compartments, and secret mechanisms with Perception + Alertness trials against a DC the GM sets.
-
 <span id="discernment"></span>**Discernment:** Read people through careful observation of behavior, body language, and reactions, with a Perception + Alertness trial against a DC the GM sets. A target who is hiding their thoughts or lying to you sets the DC instead: you roll a Perception trial against their Presence Mastery DC. Discernment counters Stoic and Deceit.
 
-<span id="basic-stalking-treasure-sense"></span>**Basic: Stalking + Treasure Sense**
+<span id="secret-doors"></span>**Secret Doors:** Find hidden passages, concealed compartments, and secret mechanisms with Perception + Alertness trials against a DC the GM sets.
 
-<span id="stalking"></span>**Stalking:** Notice and follow the signs of something's passing: prints in a ruin's dust, a snapped fern, a face in a crowd, someone slipping down an alley ahead of you. Stalking is a Perception + Alertness trial against a DC the GM sets, by how old the trail is and how much has crossed it. If you know your quarry, the GM may grant Dominance or a similar bonus, such as through the applicable Creature Lore for monsters, Wilderness (Hunting and Foraging) for beasts, or Thievery (Savvy) or Lore (Cultural Lore) for people. A person trying to lose you uses Sneaking, and Stalking counters it.
+<span id="stalking"></span>**Stalking:** Notice and follow the signs of something's passing: prints in a ruin's dust, a snapped fern, a face in a crowd, someone slipping down an alley ahead of you. Stalking is a Perception + Alertness trial against a DC the GM sets, by how old the trail is and how much has crossed it. You can also watch a person closely without drawing notice: overhearing their conversation through the noise of a crowded room, or reading what they carry on them, such as mud on their boots or the quality of their clothes. When you watch someone, the GM sets the DC by distance, noise, and how careful the person is. If you know your quarry, the GM may grant Dominance or a similar bonus, such as through the applicable Creature Lore for monsters, Wilderness (Hunting and Foraging) for beasts, or Thievery (Savvy) or Lore (Cultural Lore) for people. A person trying to lose you uses Sneaking, and Stalking counters it.
 
 <span id="treasure-sense"></span>**Treasure Sense:** A feel for where valuables hide: coins sewn into a lining, a gem in a cushion, a false bottom in a chest, and sometimes a sense that something precious is near. Searching is a Perception + Alertness trial against a DC the GM sets, by how well the item is hidden and how far away it is.
 
@@ -53,5 +52,5 @@ Choose one of the remaining Awareness Abilities you have not yet selected.
 <span id="master-awareness-ability"></span>**Master: Awareness Ability**
 Choose one of the remaining Awareness Abilities you have not yet selected.
 
-<span id="grand-master-awareness-ability"></span>**Grand Master: Awareness Ability**
-You gain the remaining Awareness Ability.
+<span id="grand-master-awareness-ability-and-alertness-mastery"></span>**Grand Master: Awareness Ability and Alertness Mastery**
+You gain the remaining Awareness Ability. You also gain Dominance on one Alertness discipline of your choice.

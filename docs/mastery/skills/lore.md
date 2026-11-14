@@ -81,7 +81,7 @@ The study of magical items and their properties. This skill helps you identify u
 
 ### Cultural Lore
 
-The study of cultures, civilizations, and their peoples: their history, customs, cities, and towns, and the important locations, peoples, and landmarks within them. Cultural Lore also covers heraldry, the arms that mark rank, pedigree, and reputation among the nobility, and law, the written codes of a land and the punishments they set for common crimes.
+The study of cultures, civilizations, and their peoples: their history, customs, cities, and towns, and the important locations, peoples, and landmarks within them. Cultural Lore also covers heraldry, the arms that mark rank, pedigree, and reputation among the nobility, and blazon, the formal terms heralds use to describe them. It also covers law, the written codes of a land and the punishments they set for common crimes.
 
 ### Curse Lore
 

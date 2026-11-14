@@ -36,7 +36,7 @@ Create or decipher codes in written or spoken communication, and decipher non-ma
 
 ### Demimonde
 
-Knowledge of the criminal underworld, its customs, and its coded language. In any settlement, you can locate criminal contacts, black markets, and fences for stolen goods using Intelligence + Thievery vs DC based on settlement size and local law enforcement. You can communicate using thieves' argot, coded language used among criminals to discuss operations; to an outsider, argot is a spoken code, deciphered as in Cryptography. You are proficient in cards, dice, and games of chance, and can cheat at them. A trick that takes only skill, such as counting cards, is a Thievery trial against a DC the GM sets; a trick others might catch, such as slipping a card, lets anyone watching roll a Perception trial against your Thievery Mastery DC. The GM decides what a night of gambling wins or loses.
+Knowledge of the criminal underworld, its customs, and its coded language. In any settlement, you can locate criminal contacts, black markets, and fences for stolen goods using Intelligence + Thievery vs DC based on settlement size and local law enforcement. You speak Rotwelsch, the cant criminals use to discuss their business. To an outsider, Rotwelsch is a spoken code, deciphered as in Cryptography. You are proficient in cards, dice, and games of chance, and can cheat at them. A trick that takes only skill, such as counting cards, is a Thievery trial against a DC the GM sets; a trick others might catch, such as slipping a card, lets anyone watching roll a Perception trial against your Thievery Mastery DC. The GM decides what a night of gambling wins or loses.
 
 ### Escamotage
 

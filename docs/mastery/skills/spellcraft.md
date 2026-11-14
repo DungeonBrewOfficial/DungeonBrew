@@ -27,7 +27,7 @@ When you make a trial in a duel, add your Spellcraft mastery die to the roll.
 
 ## Tradition Disciplines
 
-Choose a tradition other than your own. You can draw new spells from that tradition's sources as well as your own (see *[Magic Mastery](../magic/index.md)*, *[Discovery](../magic/index.md#discovery)*). At a foreign source, perform your own tradition's practice and roll your Spellcraft mastery die + your mastery die in the source's form. A spell you learn this way belongs to your own tradition.
+Choose a tradition other than your own. You can draw new spells from that tradition's sources as well as your own (see *[Magic Mastery](../magic/index.md)*, *[Discovery](../magic/index.md#discovery)*). You also learn that tradition's tongue in full. At a foreign source, perform your own tradition's practice and roll your Spellcraft mastery die + your mastery die in the source's form. A spell you learn this way belongs to your own tradition.
 
 - <span id="occult-spellcraft"></span>**Occult Spellcraft:** occult writings and teachings, such as grimoires, treatises, and the instruction of other practitioners. Reading and writing scrolls remains part of Trade (Scribe). If your own tradition is Telluric, you can draw from a written source only by giving it voice: it is read aloud, by you or another, and recomposed into memory.
 - <span id="priscan-spellcraft"></span>**Priscan Spellcraft:** fonts of priscan magic, where wild magic wells up through wind, earth, and water.
