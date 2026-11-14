@@ -43,7 +43,7 @@ At Expert mastery, you choose either Cover or Concealment screening. At Grand Ma
 
 <span id="untrained-tactics-battlefield-sense"></span>**Untrained: Tactics + Battlefield Sense (Terrain)**
 
-- <span id="tactics_1"></span>**Tactics:** The study of strategy relating to individual and large-scale battles as well as organizing logistical aspects of long-term engagements. You can identify enemy strengths and weaknesses, assess potential hazards or benefits on the battlefield, and evaluate tactical situations.
+- <span id="tactics_1"></span>**Tactics:** The study of strategy relating to individual and large-scale battles as well as organizing logistical aspects of long-term engagements. You can identify enemy strengths and weaknesses, assess potential hazards or benefits on the battlefield, and evaluate tactical situations. You also speak Castrensis, the speech of the camp.
 
 - <span id="battlefield-sense_1"></span>**Battlefield Sense (Terrain)**: You gain the ability to substitute Tactics mastery trials for attribute trials when resisting terrain-originated conditions.
 

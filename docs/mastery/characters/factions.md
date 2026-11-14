@@ -70,6 +70,8 @@ A **hieratic tradition** is a sacred caste whose members serve as priests, heale
 
 A single faith may contain several of these forms under one doctrinal umbrella. A large state religion might maintain a sacerdotal hierarchy, a monastic wing, a militant order, and a mendicant mission, all serving the same deity through different means.
 
+Faiths seldom judge one another on the other's own terms. For instance, many who hold to the Sacred see the [Void](../magic/index.md#void) and the Profane as one and the same, and call Apophatic, the tongue of the Void, "apocryphal."
+
 The Cleric, Paladin, Avenger, and Druid are the faith's preferred classes. Any class may join a faith and advance within its hierarchy. The measure of piety and the requirements for advancement vary by faith and are determined by the GM.
 
 #### Obligations
@@ -429,7 +431,7 @@ Beyond dues, every guild expects you to protect its secrets, answer its summons,
 
 You remain in good standing by paying your dues, completing your work, and observing the guild's code. The specifics of that code vary by guild, but certain principles hold across nearly all of them.
 
-You do not steal from fellow members or from the guild itself. You do not reveal the guild's members, locations, operations, or cant to anyone outside the guild. You do not draw the attention of authorities to the guild through carelessness or recklessness. You do not operate in another guild's territory without permission from the local guildmaster. You do not take jobs or contracts that conflict with the guild's interests.
+You do not steal from fellow members or from the guild itself. You do not reveal the guild's members, locations, operations, or argot to anyone outside the guild. You do not draw the attention of authorities to the guild through carelessness or recklessness. You do not operate in another guild's territory without permission from the local guildmaster. You do not take jobs or contracts that conflict with the guild's interests.
 
 How violations are handled depends on the guild. A lenient guildmaster might levy fines or cut a member out of jobs until the debt is settled. A strict guild might answer a first offense with a beating, a second with branding or maiming, and a third with death. Informing on the guild to outside authorities is treated as a killing offense in virtually every guild, regardless of structure.
 
@@ -454,7 +456,7 @@ When you are granted sanctuary, you and your retinue may stay for up to three da
 
 #### Entitlements
 
-<span id="thieves-cant"></span>**Thieves' Cant.** Upon joining, your guild teaches you its specific words, phrases, and signs that identify you as a member and allow covert communication. Each guild's cant is unique. Guilds that are allied or share a parent organization may share elements of their cant; otherwise, a rival guild's cant is as foreign as any other language.
+<span id="guild-argot"></span>**Guild Argot.** Upon joining, your guild teaches you its specific words, phrases, and signs that identify you as a member and allow covert communication. Each guild's argot is unique. Guilds that are allied or share a parent organization may share elements of their argot; otherwise, a rival guild's argot is as foreign as any other language.
 
 What your guild provides access to depends on its type.
 
@@ -483,7 +485,7 @@ Under Self-Funded, you bear the full cost and own the stronghold outright. You m
 
 How heavily departure weighs on you depends on how deeply your guild held you.
 
-Under Full Support, departure carries the weight of desertion. The guild provided everything: your equipment, your housing, your jobs, your income. You walk away with nothing because everything was the guild's. You also walk away knowing the guild's members, locations, operations, and cant. Most Full Support guilds treat departure as a threat. You may be hunted.
+Under Full Support, departure carries the weight of desertion. The guild provided everything: your equipment, your housing, your jobs, your income. You walk away with nothing because everything was the guild's. You also walk away knowing the guild's members, locations, operations, and argot. Most Full Support guilds treat departure as a threat. You may be hunted.
 
 Under Partial Support, departure is costly but survivable. The guild co-invested in your career and may retain a claim on assets it helped fund. You may owe a debt proportional to the guild's investment. Your knowledge of guild operations makes you a concern, though less so than under Full Support.
 
