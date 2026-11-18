@@ -8,7 +8,7 @@
 
 > **When to use it.** Somewhere in or after Chapter 4, once the party reaches Kalaman. The idea of having Fizban tell Huma's story came from the community; the telling is mine.
 
-> **GM note.** Fizban is Paladine in disguise, so his asides about Paladine are jokes at his own expense. Players who don't know the setting just hear a rambling old man. The payoff comes later.
+> **GM note.** If unfamiliar, Fizban is Paladine's avatar when he visits Krynn. Players who don't know the setting just hear a rambling old man.
 
 Ah, yes, gather round, dear children... Huma Dragonbane! Sit down, sit down, you're in for quite a tale! Now, where was I? Ah, of course... Huma! A Knight of Solamnia, as brave as they come and twice as stubborn. Good lad, really. Very shiny armor, but you know, it's always the ones with the shiny armor who end up needing a polish by the end of their adventures.
 
@@ -36,13 +36,12 @@ So, dear children, if you ever find yourself facing down a dragon or, say, a god
 
 > **When to use it.** At Ispin Greenshield's funeral reception in Vogler. The module has the mysterious Leedara sing "a heartbreakingly beautiful Silvanesti song in Elvish" if a character persuades her (DC 16 Charisma (Persuasion)), but never says what the song is. This is the song.
 
-> **GM note.** Leedara is one of the elf maidens who traveled with Isolde, and in the legend, those maidens told Soth his wife was unfaithful. That lie turned him from his quest. So Leedara sings his story with no mercy for him and no mention of herself. She names his murders plainly, but the whisper that turned him back comes from no one ("Told his bride was false"). The song never says who told him.
+> **GM note.** Leedara is one of the elf maidens who traveled with Isolde, and in the legend, those maidens told Soth his wife was unfaithful. That lie turned him from his quest. So Leedara sings his story with no mercy for him and no mention of herself, so it should preserve the mystery of the campaign.
 
 **Running the song:**
 
 - Leedara sings in Elvish. Characters who understand it hear the words below; everyone else hears only that the song is beautiful and very sad.
 - **DC 15 Intelligence (History)**, for a character who understands Elvish and knows the legend: the song never says who told Soth his bride was false. In the tellings, it was the elf maidens traveling with Isolde.
-- **DC 18 Wisdom (Insight)**: Leedara's voice catches, barely, on that line.
 
 **In Dargaard's Keep** *(a villanelle)*
 
