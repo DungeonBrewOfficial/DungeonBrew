@@ -4,7 +4,7 @@
 
 > **Sourcing.** The setup (the sealed scroll, Wyhan's apothecary, the Scroll Predictions table) is from the module. Wyhan's briefing and the masters' framing were inspired by the Test scenes in the Dragonlance novels; all text here is rewritten. Reconstructed values are marked **[R]**.
 
-> **Design intent.** In the novels, the candidate doesn't know the Test has begun. That's hard to manage with a player who knows a test is coming. So Wyhan tells the candidate exactly what the Test will contain, then says it happens in three days. It begins the moment the candidate turns to leave. The player knows what's in the Test, just not when it starts.
+> **Design intent.** In the novels, the candidate doesn't know the Test has begun. That's hard to manage with a player who knows a test is coming. So Wyhan tells the candidate exactly what the Test will contain, then says it happens in three days. It begins the moment the candidate turns to leave. The player knows what's in the Test, just not when it starts. Since the players expect Kalaman to be under attack, treating the *attack* as real is essential to selling it to the candidate.
 
 > **The rest of the party.** Any other PCs nearby are caught in the illusion without knowing it. Don't tell them. Their panic sells the scene. Their choices don't count toward the candidate's robe, and anything they take vanishes when the illusion breaks. They don't see the candidate again for about four days.
 
@@ -132,7 +132,7 @@ Each meaningful choice during the Test earns a mark toward Good, Neutral, or Evi
 
 The majority suggests a robe: Good for White, Neutral for Red, Evil for Black. The spellbook the candidate took breaks ties.
 
-The suggestion isn't final. The candidate may take the suggested robe or one step from it. Red sits between White and Black, so a candidate suggested for White may choose Red, but not Black. Robes in Krynn aren't fixed for life anyway.
+The suggestion isn't final. The candidate may take the suggested robe or one step from it. Red sits between White and Black, so a candidate suggested for White may choose Red, but not Black. Robes in Krynn aren't fixed for life anyway because the novels have shown characters changing allegiance.
 
 Afterward, compare the result with Wyhan's Scroll Predictions. A mismatch is worth a scene with her.
 
