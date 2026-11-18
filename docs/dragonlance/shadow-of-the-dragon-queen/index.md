@@ -1,6 +1,6 @@
 # Shadow of the Dragon Queen: Homebrew from My Table
 
-I ran *Dragonlance: Shadow of the Dragon Queen* about three years ago, using 5e (2014) rules. The module is strong on war and weak in a few places a GM feels immediately: the preludes fit some characters far better than others, the Test of High Sorcery is waved away, the Knights of Solamnia have no test at all, and a song the adventure leans on is never written. This is what I built to fill those gaps, cleaned up so other GMs can use it.
+I ran *Dragonlance: Shadow of the Dragon Queen* about three years ago, using 5e (2014) rules. The module is weak in a few places a GM feels immediately: the preludes fit some characters far better than others, the Test of High Sorcery is waved away, the Knights of Solamnia have no test at all, and a song the adventure leans on is never written. This is what I built to fill those gaps, cleaned up so other GMs can use it.
 
 Values I've had to reconstruct from old notes are marked **[R]**. Content from the module and other published sources is referenced, not reproduced.
 
@@ -18,14 +18,14 @@ The module's preludes are each written to fit any character of a broad type. Tha
 
 ## The Tests
 
-The module makes a wizard a provisional Mage of High Sorcery and moves on, and it gives a Solamnic squire nothing at all. Both of these tests run at level 4, at the end of Chapter 4, after the party's work in Kalaman and before they leave for the Wastes. Both hide what's really being tested: the knight's duel scores honor where the player doesn't see it, and the mage's test starts without the player knowing it has begun. Both treat provisional status as the result of falling short, so failing never takes away the character the player built.
+The module makes a wizard a provisional Mage of High Sorcery and moves on, and it gives a Solamnic squire nothing at all. Both of these tests run at level 4, at the end of Chapter 4, after the party's work in Kalaman and before they leave for the Wastes. Both are supposed to reflect the tests from what the factions value. Both treat provisional status as the result of falling short, so failing never takes away the character the player built.
 
 - [The Knight's Test](knights-test.md): three trials, the Song of the Measure, and a duel with Sir Aldric
 - [The Test of High Sorcery](test-of-high-sorcery.md): a draconian attack on Kalaman that isn't what it seems
 
 ## Lore & Songs
 
-My players didn't know Krynn, so I gave them its history through characters who each have a reason to tell it their own way. Fizban tells Huma's story with a few jokes at his own expense. Leedara finally gets the song the module says she sings at Ispin's funeral, and she leaves herself out of it.
+My players didn't know Krynn, so I gave them its history through characters who each have a reason to tell it their own way. Fizban tells Huma's story with a few jokes at his own expense. Leedara sings the song the module says she sings at Ispin's funeral.
 
 - [Lore & Songs](lore-and-songs.md): Fizban's tale of Huma and "In Dargaard's Keep"
 
