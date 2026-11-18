@@ -64,9 +64,9 @@ Give the players the five verses of the Song of the Measure without their labels
 
 Five are correct. Loyalty, Heroism, and Justice are decoys, drawn from the virtues of the Orders of the Crown, the Sword, and the Rose. Remove one decoy for each successful prayer save in the Trial of the Soul.
 
-> *GM note:* At my table, the squire's player asked the rest of the party for help, and I allowed it. Allow it or don't, depending on the player.
+> *GM note:* At my table, the squire's player asked the rest of the party for help, and I allowed it. Allow it or don't, depending on the player. The answers are in the brackets above each verse.
 
-### The Song of the Measure
+### The Song of the Measure (My Honor is My Life)
 
 **[The Measure]**  
 Now in the light where honor lies,  
@@ -133,7 +133,7 @@ The squire duels Sir Aldric uth Merren, a veteran of Sir Gunthar's retinue (use 
 
 **Damage.** The squire earns 1 point for every 5 damage dealt, up to 10 points.
 
-> *GM note:* This fight is not meant to be won. A knight has two attacks a round and a Parry reaction; a level 4 squire has one attack. Most squires will lose, and the trial measures how well they fight and how they carry themselves while doing it. Honor points are earned on top of the damage points and aren't limited by the damage cap.
+> *GM note:* This fight is not meant to be won, or is at least very unlikely. A knight has two attacks a round and a Parry reaction; a level 4 squire (Fighter or similar) has one attack. Most squires will lose, and the trial measures how well they fight and how they carry themselves while doing it. Honor points are earned on top of the damage points and aren't limited by the damage cap.
 
 ### Aldric
 
