@@ -112,6 +112,19 @@ nav:
         - Drochnath: monsters/drochnath.md
         - Váttkorr: monsters/vattkorr.md
       - Media: media.md
+    - Dragonlance:
+      - "Shadow of the Dragon Queen":
+        - dragonlance/shadow-of-the-dragon-queen/index.md
+        - Preludes:
+          - "The Kender in Kalaman Jail": dragonlance/shadow-of-the-dragon-queen/preludes/kender-in-kalaman-jail.md
+          - "The Cleric's Vision": dragonlance/shadow-of-the-dragon-queen/preludes/clerics-vision.md
+          - "The Wizard's Trial": dragonlance/shadow-of-the-dragon-queen/preludes/wizards-trial.md
+          - "The Squire at Thrip": dragonlance/shadow-of-the-dragon-queen/preludes/squire-at-thrip.md
+          - "The Paladin's Dream": dragonlance/shadow-of-the-dragon-queen/preludes/paladins-dream.md
+        - "The Knight's Test": dragonlance/shadow-of-the-dragon-queen/knights-test.md
+        - "The Test of High Sorcery": dragonlance/shadow-of-the-dragon-queen/test-of-high-sorcery.md
+        - "Lore & Songs": dragonlance/shadow-of-the-dragon-queen/lore-and-songs.md
+        - "Legacy Items": dragonlance/shadow-of-the-dragon-queen/legacy-items.md
   - Supplements:
     - Ability Score Options: supplements/ability-score-options.md
     - Alehouses, Taverns & Inns: supplements/alehouses-taverns-and-inns.md
